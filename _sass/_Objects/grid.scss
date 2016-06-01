@@ -1,0 +1,26 @@
+/**
+ * Wrapper
+ */
+.wrapper {
+    max-width: -webkit-calc(#{$content-width} - (#{$base-spacing-unit + em} * 2));
+    max-width:         calc(#{$content-width} - (#{$base-spacing-unit + em} * 2));
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: $base-spacing-unit + em;
+    padding-left: $base-spacing-unit + em;
+    @extend %clearfix;
+
+    @include media-query($on-laptop) {
+        max-width: -webkit-calc(#{$content-width} - (#{$base-spacing-unit + em}));
+        max-width:         calc(#{$content-width} - (#{$base-spacing-unit + em}));
+        padding-right: $base-spacing-unit + em / 2;
+        padding-left: $base-spacing-unit + em / 2;
+    }
+}
+
+.layout--2-12 {
+  @extend %clearfix;
+  > div {
+    @include column('1/4')
+  }
+}
