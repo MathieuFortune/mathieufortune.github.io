@@ -9,53 +9,64 @@ categories: project feedback
 
 ##Overview
 
-1001pharmacies.com est une place de marché en ligne dans le secteur de la santé et du bien-être. Son fonctionnement consiste à mettre  en relation entre les pharmacies françaises et les utilisateurs via la mise à disposition de leurs catalogues directement en ligne. Chaque pharmacies gère son propre catalogue ainsi que son stock.
 
+1001pharmacies.com is an online marketplace in the health and well-being activity.
+It purpose is to connect french pharmacists directly with their users through an access to their products online.
+Each pharmacy can manage its own parapharmacies catalog and its stock.
+
+The checkout project is part of a redesign project in order to improve usability and user experience.
+
+Visit the [website](http://www.1001pharmacies.com/ "Visit 1001pharmacies.com website")
 
 ##Problem
 
-La première version du panier de 1001pharmacies.com à prouver qu’il fallait un nouveau design du point de vue de l’utilisabilité. D’après les statistiques analytics récoltées , le taux d’abandon et le taux de sortie des utilisateurs étaient élevés.
+
+The first version of 1001pharmacies.com's checkout process has proven that it needed some redesign, from the usability point of view. Based on our collected data, the user's abandon rate and exit rate were high.
 
 ##Research
 
-Pour mettre au clair ces chiffres, nous avons conduit des interviews utilisateurs sur le panier pour évaluer la perception qu’il avait de l’offre de 1001pharmacies.com. Pour cela nous nous sommes tourné vers nos utilisateurs fidèles afin de connaître leur problématiques et leurs habitude d’utilisation en se concentrant sur la partie tunnel de commande. Cette méthode nous a permis d’émettre 2 hypothèses afin d’éclaircir ces chiffres.
 
-La première est que le montant des frais de ports est une source de questionnement et qu’il se trouvent parfois être trop élevés. Pour mieux comprendre cela, il faut savoir que lorsqu’un utilisateur ajoute plusieurs produits à son panier, il peut arriver que certains produits soient uniquement disponible dans différentes pharmacies, ce qui entraîne une hausse du nombre de colis et des frais de ports. Le prix des frais de ports augmente par conséquent.
-La seconde est que la nécessité de créer un compte afin de passer commande génère un frein à l’achat. Cela concorde également avec des rapports récents sur les principales raisons d’abandon du panier chez les utilisateurs et où la nécessité de créer un compte en ai la première raison.
+We needed to better understand these datas. We conducted user researches on the checkout process to learn more about their characteristics, needs, desires and to evaluate their perception about 1001pharmacies.com's offer.
 
-##Decision
+We decide to choose our loyal users to find their pain points, so we could fix them and their use of the product.
 
-Plusieurs tentatives avaient déjà étaient réalisés auparavant afin d’améliorer la compréhension de l’offre de 1001pharmacies.com sur le panier. L’ajout d’un message informatif, la modification de l’algorithme de calcul des stocks vendeurs, … Mais ces dernière même si elle améliorées dans une certaines mesure le constat, elle ne permettait pas de réondre à la problématique de création d’un compte.
+This research has led us to 2 hypotesis.
 
-La décision a été prise de refondre la partie tunnel de commande du site 1001pharmacies.com
+First, the shipping cost is a source of questions and they can be too high.
+To understand, it's important to know that when a user add differents products in his cart, it can occur that some products are available in multiple sellers, this create multi parcel so the shipping cost is increased.
 
+Second, to make an order the user need to sign up to an account. This generate an obstacle to the purchase.
+This is consistent with recent reports showing that a high abandon rate is caused by a mandatory sign up.
 
 ##Challenge
 
 
-Refondre le tunnel de commande sans mettre en pause l’activité du site était indispensable. Dans une approche agile de ce problème, nous avons décidé de livrer cette refonte de façon continue avec un premier produit minimum viable permettant de réaliser un processus complet d’achat avec le minimum de fonctionnalités requise.
-Pour mieux concentrer nos efforts, les méthodes LEAN nous ont également permis de mettre en place un objectif claire : Un utilisateur qui n’est pas adepte de l’acte d’achat en ligne doit pouvoir de façon simple et en toute confiance réalisé un achat sur notre site.
+Some attempts has already be done to improve offer's comprehension inside checkout process.
+An informative message, stock optimization algorithm, ... But even if these made some results, this not answered every problems like sign up to a user account.
 
-Du point de vue de concepteur, la méthode du Design Thinking semblait la plus adapté pour ce projet.
+Redesigning the checkout process without pausing website activity was mandatory.
+In an agile approach to these problems, we decided to deliver continuously with a first minimum viable product for performing a complete purchasing process with minimum functionality required.
+To focus our efforts, LEAN methods have also allowed us to establish a clear objective:
+A user who is not use to purchase online must simply and confidently made a purchase on our website.
 
-
+For better fit this methodology, from a design point of view, I decided to follow the Design Thinking method for this project.
 
 
 ##Results
 
+
 <div class="large" markdown="1">
 
-![Ancienne version du panier 1001pharmacies.com [étape 1]](/images/checkout-old-step1.jpg "Ancienne version du panier 1001pharmacies.com [étape 1]")
-Ancienne version du panier 1001pharmacies.com [étape 1]
+![Old 1001pharmacies.com's cart [step 1]](/images/checkout-old-step1.jpg "Old 1001pharmacies.com's cart [step 1]")
+Old 1001pharmacies.com's cart [step 1]
+{: .text-center}
 
-![Nouvelle version du panier 1001pharmacies.com [étape 1]](/images/checkout-new-step1.jpg "Nouvelle version du panier 1001pharmacies.com [étape 1]")
-Nouvelle version du panier 1001pharmacies.com [étape 1]
+![New 1001pharmacies.com's cart [step 1]](/images/checkout-new-step1-1.jpg "New 1001pharmacies.com's cart [step 1]")
+New 1001pharmacies.com's cart [step 1]
+{: .text-center}
 
 </div>
 
 ##Conclusion
 
-
-Le projet de refonte du tunnel de commande est aujourd’hui toujours en cours. Nous en sommes à la deuxième livraison et il ne reste plus beaucoup de travail pour que l’ancienne version soit totalement remplacée.
-Les statistiques analytics montre une hausse du taux de conversion ainsi qu’une baisse du taux d’abandon et du nombre de multi-colis.
-[TODO mettre un lien qui amène vers le projet attrakdiff du panier]
+Checkout process redesign is still in development. The second mvp release is online and there is not many work left to totally replace the old version. Analytics datas has already shown an increase of conversion rate and a decrease of abandon rate and multi parcel cases.
