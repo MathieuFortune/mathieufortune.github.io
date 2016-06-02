@@ -2,8 +2,11 @@
  * Basic styling
  */
 
-body {
-    font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
+html {
+    font-size: $base-font-size;
+    font-weight: $base-font-weight;
+    font-family: $base-font-family;
+    line-height: $base-line-height;
     color: $text-color;
     background-color: $background-color;
     -webkit-text-size-adjust: 100%;
@@ -33,7 +36,7 @@ ol,
 dl,
 figure,
 %vertical-rhythm {
-    margin-bottom: $base-spacing-unit--small;
+    margin-bottom: $base-spacing-unit--small + rem;
 }
 
 

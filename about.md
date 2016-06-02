@@ -117,6 +117,7 @@ Methodology
 </div>
 </div>
 
+<div class="page-break"></div>
 
 <div class="row">
 <div class="section-title" markdown="1">
@@ -167,6 +168,6 @@ From january 2012 to january 2015 (3 years)
 </div>
 </div>
 
-<p class="text-center">
+<p class="text-center no-print">
   <a href="/" title="Go Back" class="bold">Go Back</a>
 </p>

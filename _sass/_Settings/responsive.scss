@@ -17,10 +17,3 @@ $on-laptop:        940px;
         @content;
     }
 }
-
-@media print {
-    .no-print {
-        display: none;
-        visibility: hidden;
-    }
-}
