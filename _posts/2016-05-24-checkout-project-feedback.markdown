@@ -7,7 +7,7 @@ theme: Website redesign project
 categories: project feedback
 ---
 
-##Overview
+## Overview
 
 
 1001pharmacies.com is an online marketplace in the health and well-being activity.
@@ -18,12 +18,12 @@ The checkout project is part of a redesign project in order to improve usability
 
 Visit the [website](http://www.1001pharmacies.com/ "Visit 1001pharmacies.com website")
 
-##Problem
+## Problem
 
 
 The first version of 1001pharmacies.com's checkout process has proven that it needed some redesign, from the usability point of view. Based on our collected data, the user's abandon rate and exit rate were high.
 
-##Research
+## Research
 
 
 We needed to better understand these datas. We conducted user researches on the checkout process to learn more about their characteristics, needs, desires and to evaluate their perception about 1001pharmacies.com's offer.
@@ -38,7 +38,7 @@ To understand, it's important to know that when a user add differents products i
 Second, to make an order the user need to sign up to an account. This generate an obstacle to the purchase.
 This is consistent with recent reports showing that a high abandon rate is caused by a mandatory sign up.
 
-##Challenge
+## Challenge
 
 
 Some attempts has already be done to improve offer's comprehension inside checkout process.
@@ -52,7 +52,7 @@ A user who is not use to purchase online must simply and confidently made a purc
 For better fit this methodology, from a design point of view, I decided to follow the Design Thinking method for this project.
 
 
-##Results
+## Results
 
 
 <div class="large" markdown="1">
@@ -67,6 +67,6 @@ New 1001pharmacies.com's cart [step 1]
 
 </div>
 
-##Conclusion
+## Conclusion
 
 Checkout process redesign is still in development. The second mvp release is online and there is not many work left to totally replace the old version. Analytics datas has already shown an increase of conversion rate and a decrease of abandon rate and multi parcel cases.
