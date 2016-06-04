@@ -147,7 +147,7 @@ From january 2012 to january 2015 (3 years)
 
 <div class="row">
 <div class="section-title" markdown="1">
-## Training
+## Trainings
 </div>
 <div class="content" markdown="1">
 * Lean Startup and Running Lean from [Stéphane Langlois](http://scopyleft.fr/) - 2016
