@@ -3,15 +3,6 @@ $content-width:    1170px;
 $on-palm:          600px;
 $on-laptop:        940px;
 
-
-
-// Use media queries like this:
-// @include media-query($on-palm) {
-//     .wrapper {
-//         padding-right: $base-spacing-unit / 2;
-//         padding-left: $base-spacing-unit / 2;
-//     }
-// }
 @mixin media-query($device) {
     @media screen and (max-width: $device) {
         @content;

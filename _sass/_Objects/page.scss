@@ -1,0 +1,14 @@
+/**
+ * Page content
+ */
+
+.page-content {
+    padding: $base-spacing-unit + em 0;
+}
+
+.page-heading {
+    @include font-size(1.25);
+}
+
+
+

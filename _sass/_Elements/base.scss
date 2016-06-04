@@ -54,6 +54,12 @@ img {
  * Figures
  */
 
+figure {
+    margin-top:     0;
+    margin-left:    0;
+    margin-right:   0;
+}
+
 figure > img {
     display: block;
 }
@@ -99,8 +105,8 @@ a {
 blockquote {
     color: $grey-color;
     border-left: 4px solid $grey-color-light;
-    padding-left: $base-spacing-unit / 2;
-    font-size: 18px;
+    padding-left: $base-spacing-unit--small + rem;
+    @include font-size(1.2);
     letter-spacing: -1px;
     font-style: italic;
     >:last-child {
@@ -115,7 +121,7 @@ blockquote {
 
 pre,
 code {
-    font-size: 15px;
+    @include font-size(.9);
     border: 1px solid $grey-color-light;
     border-radius: 3px;
     background-color: #eef;
