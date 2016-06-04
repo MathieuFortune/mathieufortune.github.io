@@ -1,0 +1,64 @@
+/**
+ * Posts
+ */
+
+.post-header {
+    margin-bottom: $base-spacing-unit + em;
+}
+
+.post-title {
+    @include font-size(2.6);
+    letter-spacing: -1px;
+    line-height: 1;
+    @include media-query($on-laptop) {
+        @include font-size(2.25);
+    }
+}
+
+.post-list {
+    margin-left: 0;
+    list-style: none;
+    @include media-query($on-palm) {
+        padding-left: 0;
+    }
+    h2 {
+        margin-top: .3em;
+    }
+    > li {
+        padding: 1.5rem;
+        border-top: 1px solid $grey-color-light;
+        border-bottom: 1px solid $grey-color-light;
+        a {
+            color: $text-color;
+        }
+    }
+}
+
+.post-meta {
+    font-size: $small-font-size;
+    color: $grey-color;
+}
+
+.post-link {
+    display: block;
+    @include font-size(1.5);
+}
+
+.post-content {
+    margin-bottom: $base-spacing-unit + em;
+    > * {
+        width: 900px;
+        margin-left: auto;
+        margin-right: auto;
+        @include media-query($on-palm) {
+            width: 100%;
+        }
+    }
+    .large {
+        width: 100%;
+        > * {
+            width: 100%;
+        }
+    }
+}
+

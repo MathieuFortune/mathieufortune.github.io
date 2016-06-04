@@ -44,12 +44,14 @@ This is consistent with recent reports showing that a high abandon rate is cause
 Some attempts has already be done to improve offer's comprehension inside checkout process.
 An informative message, stock optimization algorithm, ... But even if these made some results, this not answered every problems like sign up to a user account.
 
-Redesigning the checkout process without pausing website activity was mandatory.
+Redesigning the checkout process without suspending website's activity was mandatory.
 In an agile approach to these problems, we decided to deliver continuously with a first minimum viable product for performing a complete purchasing process with minimum functionality required.
 To focus our efforts, LEAN methods have also allowed us to establish a clear objective:
+<blockquote>
 A user who is not use to purchase online must simply and confidently made a purchase on our website.
+</blockquote>
 
-For better fit this methodology, from a design point of view, I decided to follow the Design Thinking method for this project.
+As a follow up to this method, from a designer point of view, I decided to follow the Design Thinking method to realize this project. I let the design emerged as the user stories where developped to stick to a lean approch and I iterate with user feedback to make sure that their needs was fulfilled.
 
 
 ## Results
@@ -57,16 +59,40 @@ For better fit this methodology, from a design point of view, I decided to follo
 
 <div class="large" markdown="1">
 
-![Old 1001pharmacies.com's cart [step 1]](/images/checkout-old-step1.jpg "Old 1001pharmacies.com's cart [step 1]")
-Old 1001pharmacies.com's cart [step 1]
-{: .text-center}
-
+<figure markdown="1">
 ![New 1001pharmacies.com's cart [step 1]](/images/checkout-new-step1-1.jpg "New 1001pharmacies.com's cart [step 1]")
-New 1001pharmacies.com's cart [step 1]
+<figcaption>
+  New 1001pharmacies.com's cart [step 1]
+</figcaption>
 {: .text-center}
+</figure>
+
+<figure markdown="1">
+![New 1001pharmacies.com's cart [step 2]](/images/checkout-new-step2.jpg "New 1001pharmacies.com's cart [step 2]")
+<figcaption>
+New 1001pharmacies.com's cart [step 2]
+</figcaption>
+{: .text-center}
+</figure>
+
+<figure markdown="1">
+![New 1001pharmacies.com's cart [step 3]](/images/checkout-new-step3.jpg "New 1001pharmacies.com's cart [step 3]")
+<figcaption>
+New 1001pharmacies.com's cart [step 3]
+</figcaption>
+{: .text-center}
+</figure>
+
+<figure markdown="1">
+![New 1001pharmacies.com's cart [step 4]](/images/checkout-new-step4.jpg "New 1001pharmacies.com's cart [step 4]")
+<figcaption>
+New 1001pharmacies.com's cart [step 4]
+</figcaption>
+{: .text-center}
+</figure>
 
 </div>
 
 ## Conclusion
 
-Checkout process redesign is still in development. The second mvp release is online and there is not many work left to totally replace the old version. Analytics datas has already shown an increase of conversion rate and a decrease of abandon rate and multi parcel cases.
+Checkout process redesign is still in development. The second mvp release is online and there is not many work left to totally replace the old version. Analytics data have already shown an increase of conversion rate and a decrease of abandon rate.
