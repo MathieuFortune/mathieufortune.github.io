@@ -2,6 +2,10 @@
     .page-break {
         display: none;
     }
+    .only-print {
+
+        display: none;
+    }
 }
 
 @media print {
@@ -13,19 +17,34 @@
         page-break-before: always;
     }
     .no-print {
+
         display: none;
-        visibility: hidden;
+    }
+    .only-print {
+        display: block;
     }
     .row {
         margin: 0;
     }
     .uvp-title {
         margin: 0 0 1rem 0;
-        @include font-size(2.5);
-        line-height: 2.5rem;
+        @include font-size(2);
+        font-weight: normal;
+        line-height: 2rem;
     }
     .page-content {
         padding: 0;
+    }
+    .section-title {
+        flex: 0 0 15%;
+    }
+    .content {
+        flex: 0 0 85%;
+    }
+    a:link:after,
+    a:visited:after {
+        content: " (" attr(href) ") ";
+        font-size: 90%;
     }
 }
 

@@ -3,8 +3,11 @@
  */
 
 .site-footer {
-    border-top: 1px solid $grey-color-light;
-    padding: $base-spacing-unit + em 0;
+    padding: $base-spacing-unit--small + em 0;
+
+    a {
+        color: $text-color;
+    }
 }
 
 .footer-heading {

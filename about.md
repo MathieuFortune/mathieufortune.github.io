@@ -6,7 +6,17 @@ header : false
 ---
 
 # Sharing our passions<br/> by working between humans<br/> on interesting projects
-{: .uvp-title}
+{: .uvp-title .no-print}
+
+# Mathieu Fortune
+{: .uvp-title .only-print}
+
+### 5+ years Front/UI Developer looking for new challenges at international. <br/>Send me an email at pro.mathieu.fortune@gmail.com
+{: .only-print}
+
+
+> Sharing our passions by working between humans on interesting projects
+{: .uvp-title .only-print}
 
 <div class="row">
 <div class="section-title" markdown="1">
@@ -34,6 +44,7 @@ I'm Mathieu Fortune a Front/UI Developer with 5 years of experience. Identify, s
 * Development the i18n ready website functionality
 * Designing and developing responsive newsletter's templates
 * Develop auto-generated responsive landings templates
+* Participate and animate UX workshops during a MeetUp
 
 [Know more about my different projects](/){: .see-more .no-print}
 
@@ -65,7 +76,7 @@ I'm Mathieu Fortune a Front/UI Developer with 5 years of experience. Identify, s
 <div class="content skills" markdown="1">
 <div markdown="1">
 UI Dev
-{: .bold .text-center}
+{: .bold }
 
 * HTML5
 * CSS3
@@ -77,7 +88,7 @@ UI Dev
 </div>
 <div markdown="1">
 Front Dev
-{: .bold .text-center}
+{: .bold }
 
 * Vanilla javascript
 * Bootstrap JS
@@ -91,7 +102,7 @@ Front Dev
 </div>
 <div markdown="1">
 Design
-{: .bold .text-center}
+{: .bold }
 
 * Sketch
 * Photoshop
@@ -102,7 +113,7 @@ Design
 </div>
 <div markdown="1">
 Methodology
-{: .bold .text-center}
+{: .bold }
 
 * Cross-browser awareness
 * Progressiv enhancement
@@ -132,7 +143,6 @@ Methodology
 From january 2015 to today (1 year & 5 month)
 {: .grey}
 
-<br/>
 
 ### UI Developer
 {: .bold}
@@ -165,6 +175,18 @@ From january 2012 to january 2015 (3 years)
 * Co-organizer and speaker at [UX FLUPA aperitif](http://www.meetup.com/fr-FR/FLUPA-Montpellier/events/229582597/){: target="_blank"} place at 1001pharmacies - 2015 April
 * Participant at [BlendWebMix 2015](http://www.blendwebmix.com/){: target="_blank"} Lyon (FRANCE)
 * Participant at lightning talk place at business incubator Cap Oméga Montpellier (FRANCE)
+</div>
+</div>
+
+<div class="row">
+<div class="section-title" markdown="1">
+## Hire Me
+</div>
+<div class="content" markdown="1">
+* Check and follow my [Twitter MsterMF](https://twitter.com/MsterMF){: target="_blank"}
+* Take a view at my [GitHub account MathieuFortune](https://github.com/MathieuFortune){: target="_blank"}
+* Find me on [Linkedin](https://fr.linkedin.com/in/mathieu-fortune-220268101){: target="_blank"}
+* Send me an email at [pro.mathieu.fortune@gmail.com](mailto:pro.mathieu.fortune@gmail.com){: target="_blank"}
 </div>
 </div>
 
