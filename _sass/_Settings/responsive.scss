@@ -1,10 +1,8 @@
+/*------------------------------------*\
+    #RESPONSIVE SETTINGS
+\*------------------------------------*/
+
 // Width of the content area
 $content-width:    1170px;
 $on-palm:          600px;
 $on-laptop:        940px;
-
-@mixin media-query($device) {
-    @media screen and (max-width: $device) {
-        @content;
-    }
-}

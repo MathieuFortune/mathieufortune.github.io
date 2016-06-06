@@ -1,26 +1,58 @@
-/**
- * Wrapper
- */
+/*------------------------------------*\
+    #GRID OBJECTS
+\*------------------------------------*/
+
+
 .wrapper {
     max-width: -webkit-calc(#{$content-width} - (#{$base-spacing-unit + em} * 2));
     max-width:         calc(#{$content-width} - (#{$base-spacing-unit + em} * 2));
     margin-right: auto;
     margin-left: auto;
-    padding-right: $base-spacing-unit + em;
-    padding-left: $base-spacing-unit + em;
+    padding-right: $base-spacing-unit * 1em;
+    padding-left: $base-spacing-unit * 1em;
     @extend %clearfix;
 
     @include media-query($on-laptop) {
         max-width: -webkit-calc(#{$content-width} - (#{$base-spacing-unit + em}));
         max-width:         calc(#{$content-width} - (#{$base-spacing-unit + em}));
-        padding-right: $base-spacing-unit + em / 2;
-        padding-left: $base-spacing-unit + em / 2;
+        padding-right: $base-spacing-unit--small * 1em;
+        padding-left: $base-spacing-unit--small * 1em;
     }
 }
 
 .layout--2-12 {
   @extend %clearfix;
   > div {
-    @include column('1/4')
+    @include media-query($on-palm, min-width) {
+        @include column('1/2');
+    }
+    @include media-query($on-laptop, min-width) {
+        @include column('1/4');
+
+    }
   }
+}
+
+.layout--6-12 {
+  @extend %clearfix;
+  > div {
+    @include media-query($on-palm, min-width) {
+        @include column('1/2');
+    }
+  }
+}
+
+.layout-print--8 {
+    @media print {
+        @include column('9/12');
+        + .layout-print--4 {
+            margin-right: 0!important;
+        }
+    }
+}
+
+.layout-print--4 {
+    @media print {
+        @include column('3/12');
+    }
 }

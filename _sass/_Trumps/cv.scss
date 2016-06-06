@@ -1,13 +1,17 @@
+/*------------------------------------*\
+    #CV TRUMPS
+\*------------------------------------*/
+
+
 .row {
-    display: -webkit-box;
-    display: -moz-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-    flex-wrap: wrap;
-    margin: 2rem 0;
-    @include media-query($on-palm) {
-        display: block;
+    @include media-query($on-palm, min-width) {
+        display: -webkit-box;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 2rem;
     }
 }
 
@@ -22,7 +26,6 @@
 .content {
     flex: 0 0 80%;
     h3 {
-        margin: 0;
         @include font-size(1);
     }
     ul {
@@ -32,19 +35,8 @@
         }
     }
     &.skills {
-        display: -webkit-box;
-        display: -moz-box;
-        display: -ms-flexbox;
-        display: -webkit-flex;
-        display: flex;
-        @include media-query($on-palm) {
-            display: block;
-        }
         ul {
             list-style: none;
-        }
-        > div {
-            flex-basis: 25%;
         }
     }
 }

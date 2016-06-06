@@ -1,0 +1,71 @@
+/*------------------------------------*\
+    #GRID MIXINS
+\*------------------------------------*/
+
+
+// Column lost grid
+@mixin column($fraction: '1/1', $cycle: nth(sl-explode($fraction, '/'), 2), $gut: $gutter, $flex: $flexbox) {
+  @if ($gut == 0) {
+    width: calc(99.999999% * #{$fraction});
+  } @else {
+    width: calc(99.99% * #{$fraction} - (#{$gut} - #{$gut} * #{$fraction}));
+  }
+  @if ($flex == false) {
+    @if $rtl {
+      &:nth-child(n) {
+        margin-left: $gut;
+        float: right;
+        clear: none;
+      }
+      &:last-child {
+        margin-left: 0;
+      }
+      &:nth-child(#{$cycle}n) {
+        margin-left: 0;
+        float: left;
+      }
+      &:nth-child(#{$cycle}n + 1) {
+        clear: right;
+      }
+    } @else {
+      &:nth-child(n) {
+        margin-right: $gut;
+        float: left;
+        clear: none;
+      }
+      &:last-child {
+        margin-right: 0;
+      }
+      &:nth-child(#{$cycle}n) {
+        margin-right: 0;
+        float: right;
+      }
+      &:nth-child(#{$cycle}n + 1) {
+        clear: left;
+      }
+    }
+  } @else {
+    flex: 0 0 auto;
+    @if $rtl {
+      &:nth-child(n) {
+        margin-left: $gut;
+      }
+      &:last-child {
+        margin-left: 0;
+      }
+      &:nth-child(#{$cycle}n) {
+        margin-left: 0;
+      }
+    } @else {
+      &:nth-child(n) {
+        margin-right: $gut;
+      }
+      &:last-child {
+        margin-right: 0;
+      }
+      &:nth-child(#{$cycle}n) {
+        margin-right: 0;
+      }
+    }
+  }
+}

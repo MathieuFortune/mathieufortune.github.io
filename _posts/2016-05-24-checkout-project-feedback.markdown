@@ -48,7 +48,7 @@ Redesigning the checkout process without suspending website's activity was manda
 In an agile approach to these problems, we decided to deliver continuously with a first minimum viable product for performing a complete purchasing process with minimum functionality required.
 To focus our efforts, LEAN methods have also allowed us to establish a clear objective:
 <blockquote>
-A user who is not use to purchase online must simply and confidently made a purchase on our website.
+A user who's not used to purchase online must simply and confidently made a purchase on our website.
 </blockquote>
 
 As a follow up to this method, from a designer point of view, I decided to follow the Design Thinking method to realize this project. I let the design emerged as the user stories where developped to stick to a lean approch and I iterate with user feedback to make sure that their needs was fulfilled.

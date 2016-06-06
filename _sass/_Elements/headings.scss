@@ -1,3 +1,8 @@
+/*------------------------------------*\
+    #HEADING ELEMENTS
+\*------------------------------------*/
+
+
 $heading-size-1:  2.4 !default;
 $heading-size-2:  2 !default;
 $heading-size-3:  1.625 !default;
@@ -6,19 +11,19 @@ $heading-size-5:  1 !default;
 $heading-size-6:  .875 !default;
 
 $h1-font-sizes: (
-  null  : 1.625,
-  600px : 2,
-  940px : 2.4
+  null  : $heading-size-3,
+  $on-palm : $heading-size-2,
+  $on-laptop : $heading-size-1
 );
 $h2-font-sizes: (
-  null  : 1.25,
-  600px : 1.625,
-  940px : 2
+  null  : $heading-size-4,
+  $on-palm : $heading-size-3,
+  $on-laptop : $heading-size-2
 );
 $h3-font-sizes: (
-  null  : 1,
-  600px : 1.25,
-  940px : 1.625
+  null  : $heading-size-5,
+  $on-palm : $heading-size-4,
+  $on-laptop : $heading-size-3
 );
 
 

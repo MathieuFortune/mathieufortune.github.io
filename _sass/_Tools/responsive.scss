@@ -1,0 +1,9 @@
+/*------------------------------------*\
+    #RESPONSIVE MIXINS
+\*------------------------------------*/
+
+@mixin media-query($device, $direction: max-width) {
+    @media screen and ($direction: $device) {
+        @content;
+    }
+}

@@ -1,3 +1,8 @@
+/*------------------------------------*\
+    #COMMON FUNCTIONS
+\*------------------------------------*/
+
+
 /// Sass can't split strings natively
 @function sl-explode($string, $delimiter: '', $separator: "space") {
   @if type-of($string) != "string" {
