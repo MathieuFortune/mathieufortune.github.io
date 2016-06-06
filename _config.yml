@@ -17,3 +17,5 @@ github_username:  MathieuFortune
 
 # Build settings
 markdown: kramdown
+sass:
+    style: compressed
