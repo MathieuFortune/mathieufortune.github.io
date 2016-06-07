@@ -51,7 +51,12 @@ To focus our efforts, LEAN methods have also allowed us to establish a clear obj
 A user who's not used to purchase online must simply and confidently made a purchase on our website.
 </blockquote>
 
+## Production
+
+
 As a follow up to this method, from a designer point of view, I decided to follow the Design Thinking method to realize this project. I let the design emerged as the user stories where developped to stick to a lean approch and I iterate with user feedback to make sure that their needs was fulfilled.
+
+According to the front development, I chose Twitter bootstrap 3 with LESS in order to let the back-end developpers be more confortable with technos used in front and Javascript vanilla because this is a better choice in terms of performance than JQuery. The project is powered with Symfony 2 and I replace assetic with gulp to have more control on assets.
 
 
 ## Results
