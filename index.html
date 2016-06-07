@@ -4,26 +4,28 @@ layout: default
 
 <div class="home">
 
-  <h1 class="uvp-title--hero"> Front & UI<br/> Developer</h1>
+  <h1 class="uvp-title--hero"> <div class="line animated fadeInLeft">Front & UI</div> <div class="line animated fadeInRight">Developer</div></h1>
 
-  <h4 class="grey">Selected works</h4>
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.theme }}</span>
+  <section class="animated delay fadeInUp">
+    <h4 class="grey">Selected works</h4>
+    <ul class="post-list">
+      {% for post in site.posts %}
+        <li>
+          <span class="post-meta">{{ post.theme }}</span>
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-      <li>
-        <span class="post-meta">Work in progress</span>
+          <h2>
+            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+          </h2>
+        </li>
+      {% endfor %}
+        <li>
+          <span class="post-meta">Work in progress</span>
 
-        <h2>
-          <span class="post-link">More projects to come</span>
-        </h2>
-      </li>
-  </ul>
+          <h2>
+            <span class="post-link">More projects to come</span>
+          </h2>
+        </li>
+    </ul>
+  </section>
 
 </div>

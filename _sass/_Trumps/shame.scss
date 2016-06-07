@@ -1,5 +1,5 @@
 /*------------------------------------*\
-    #CV TRUMPS
+    #SHAME TRUMPS
 \*------------------------------------*/
 
 
@@ -55,3 +55,24 @@
     }
 }
 
+.print-me {
+    position: fixed;
+    bottom: 50%;
+    right: -1px;
+    transition: all 100ms;
+    transform: translate(60%, 0);
+    svg {
+        width: 32px;
+        height: 32px;
+        path {
+            fill: $brand-color;
+        }
+    }
+    button {
+        border-right: 0px;
+    }
+    &:hover {
+        transition: all 200ms;
+        transform: translate(0, 0);
+    }
+}

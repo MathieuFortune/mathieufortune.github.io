@@ -23,7 +23,7 @@ header : false
 ## About
 </div>
 <div class="content" markdown="1">
-I'm Mathieu Fortune a Front/UI Developer with 4+ years of experience. Identify, search and resolve human problems by designing and developing products is a passion I'm living every days. I like sport, movies, traveling and just living the present. Constanly learning and experiencing new things.
+I'm Mathieu Fortune a French Front/UI Developer with 4+ years of experience. Identify, search and resolve human problems by designing and developing products is a passion I'm living every days. I like sport, movies, traveling and just living the present.  Constanly learning and experiencing new things.
 </div>
 </section>
 
@@ -231,6 +231,10 @@ From january 2012 to january 2015 (3 years)
 * Send me an email at [pro.mathieu.fortune@gmail.com](mailto:pro.mathieu.fortune@gmail.com){: target="_blank"}
 </div>
 </section>
+
+<div class="print-me no-print">
+  <button onclick="window.print(); return false;" class="btn--default btn--large"><span class="icon icon--printer">{% include icon-printer.svg %}</span> <small>Print me</small></button>
+</div>
 
 <p class="text-center no-print">
   <a href="/" title="Go Back" class="bold">Go Back</a>

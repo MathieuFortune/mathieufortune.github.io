@@ -46,7 +46,7 @@
 }
 
 .post-content {
-    margin-bottom: $base-spacing-unit + em;
+    margin-bottom: $base-spacing-unit * 1em;
     > * {
         width: 900px;
         margin-left: auto;
@@ -60,6 +60,9 @@
         > * {
             width: 100%;
         }
+    }
+    p {
+        line-height: $base-spacing-unit--medium;
     }
 }
 
