@@ -11,13 +11,45 @@ layout: default
     <ul class="post-list">
       {% for post in site.posts %}
         <li>
-          <span class="post-meta">{{ post.theme }}</span>
-
-          <h2>
-            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-          </h2>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
+            <span class="post-meta">{{ post.theme }}</span>
+            <h2>
+              {{ post.title }}
+            </h2>
+          </a>
         </li>
       {% endfor %}
+    </ul>
+    <h4 class="grey">Wip works</h4>
+    <ul class="post-list post-wip">
+        <li>
+          <span class="post-meta">Website redesign project</span>
+
+          <h2>
+            <span class="post-link">Catalog project - feedback</span>
+          </h2>
+        </li>
+        <li>
+          <span class="post-meta">Side project</span>
+
+          <h2>
+            <span class="post-link">Carreer website with Angular 2 + Meteor</span>
+          </h2>
+        </li>
+        <li>
+          <span class="post-meta">UX/UI Design</span>
+
+          <h2>
+            <span class="post-link">User account research and prototype</span>
+          </h2>
+        </li>
+        <li>
+          <span class="post-meta">UX/UI Design</span>
+
+          <h2>
+            <span class="post-link">UX FLUPA MeetUp</span>
+          </h2>
+        </li>
         <li>
           <span class="post-meta">Work in progress</span>
 

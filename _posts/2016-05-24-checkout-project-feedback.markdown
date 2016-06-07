@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  "Project Checkout - feedback"
+title:  "Checkout project - feedback"
 date:   2016-05-24 13:45:01 +0200
 author: Mathieu Fortune
 theme: Website redesign project
-categories: project feedback
+
 ---
 
 ## Overview

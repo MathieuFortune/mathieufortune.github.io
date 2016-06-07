@@ -24,11 +24,11 @@
     }
     h2 {
         margin-top: .3em;
+        @include font-size(1.5);
     }
     > li {
         padding: 1.5rem;
         border-top: 1px solid $grey-color-light;
-        border-bottom: 1px solid $grey-color-light;
         a {
             color: $text-color;
         }
@@ -43,6 +43,10 @@
 .post-link {
     display: block;
     @include font-size(1.5);
+}
+
+.post-wip {
+    opacity: .6;
 }
 
 .post-content {

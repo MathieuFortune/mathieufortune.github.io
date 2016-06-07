@@ -10,6 +10,7 @@
     border-top: 5px solid $grey-color-dark;
     min-height: 56px;
     background: rgba($background-color, .9);
+    z-index: 999;
 }
 
 .site-title {
