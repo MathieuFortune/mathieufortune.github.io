@@ -19,7 +19,7 @@ header : false
 
 <div class="layout-print--8">
 <section class="row">
-<div class="section-title" markdown="1">
+<div class="section-title no-print" markdown="1">
 ## About
 </div>
 <div class="content" markdown="1">
@@ -33,17 +33,17 @@ I'm Mathieu Fortune a French Front/UI Developer with 4+ years of experience. Ide
 </div>
 <div class="content" markdown="1">
 * Sketching, designing user experience and developing front product catalog redesign
-* Co-development of "carreer" 1001pharmacies.com website
+* Co-development of "career" 1001pharmacies.com website
 * Sketching, designing user experience and developing checkout process redesign
 * Creating qualitative surveys, sketching and prototyping for the redesign of customer account
 * Analyze user testing, usability testing and measuring from checkout process
 * Perform A/B testing and set up UX metrics on checkout process
 * Building user stories, personas, task flows, use case and scenarios
-* Providing lighning takls about popularize dev concepts for the rest of the company
+* Providing lightning talks about popularize dev concepts for the rest of the company
 * Co-development a front assets bootstraping tool with Gulp
 * Development a i18n ready website functionality on Symfony 2
 * Designing and developing responsive newsletter's templates
-* Develop auto-generated responsive landings templates with Jekyll
+* Developed auto-generated responsive landings templates with Jekyll
 * Participate and animate UX workshops during MeetUp
 
 [Know more about my different projects](/){: .see-more .no-print}
@@ -112,11 +112,13 @@ UI Dev
 
 * HTML5
 * CSS3
-* LESS
-* SASS
-* Twitter Bootstrap 3
-* Foundation
+* LESS & Sass
+* Bootstrap 3 framework
+* Foundation framework
+* W3C and WCAG rules
+
 </div>
+
 <div markdown="1">
 Front Dev
 {: .bold }
@@ -151,12 +153,10 @@ Methodology
 * Cross-browser awareness
 * Progressive enhancement
 * Git
-* Isomorphic JS
 * Agile Scrum
 * Agile Running lean
 * Agile Kanban
 * OpQuast Web Quality
-* W3C and WCAG rules
 
 </div>
 </div>
