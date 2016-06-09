@@ -80,7 +80,7 @@ Checkout's UX experiments
 {: .bold }
 
 * Analyze user tests
-* Usability testing
+* Usability testing (AttrakDiff)
 * Perform A/B tests and set up UX metrics
 * Measure user's feedbacks
 
