@@ -42,6 +42,7 @@ Product Catalog redesign project
 * Bootstrap 3 with LESS
 * Symfony 2.3 project
 * Assets treatment with Gulp
+* LEAN UX approch and Scrum methods
 
 
 Checkout process redesign project
@@ -53,6 +54,7 @@ Checkout process redesign project
 * Sass with ITCSS pattern
 * Symfony 2.8 project
 * Assets treatment with Webpack and PostCss
+* LEAN UX approch and Scrum methods
 
 
 Customer account redesign project
@@ -74,7 +76,7 @@ i18n Ready project
 </div>
 <div markdown="1">
 
-Checkout project UX experience design
+Checkout's UX experiments
 {: .bold }
 
 * Analyze user tests
@@ -87,8 +89,9 @@ UX designer tasks on various projects
 {: .bold }
 
 * Build user stories
-* Creat personas
+* Create personas
 * Make task flows, use case and scenarios
+* Conduct ux methods like Visual Studio, Focus Group to improve ideation process
 
 
 Marketing tools
