@@ -53,10 +53,10 @@
         @include column('1/2');
     }
   }
-  &.mobile-too {
-        > div {
-            @include column('1/2');
-        }
+  @media print {
+    > div {
+        @include column('1/2');
+    }
   }
 }
 

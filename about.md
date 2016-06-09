@@ -31,7 +31,7 @@ I'm Mathieu Fortune a French Front/UI Developer with 4+ years of experience. Ide
 <div class="section-title" markdown="1">
 ## Projects
 </div>
-<div class="content layout--6-12 mobile-too" markdown="1">
+<div class="content layout--6-12" markdown="1">
 <div markdown="1">
 Product Catalog redesign project
 {: .bold }
