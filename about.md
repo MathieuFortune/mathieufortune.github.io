@@ -8,7 +8,7 @@ header : false
 # Sharing our passions<br/> by working between humans<br/> on interesting projects
 {: .uvp-title .no-print}
 
-# Mathieu Fortune
+# Mathieu Fortune - mathieufortune.github.io
 {: .uvp-title .only-print}
 
 ### 4+ years Front/UI Developer looking for new challenges at international. <br/>Send me an email at pro.mathieu.fortune@gmail.com
@@ -31,75 +31,94 @@ I'm Mathieu Fortune a French Front/UI Developer with 4+ years of experience. Ide
 <div class="section-title" markdown="1">
 ## Projects
 </div>
-<div class="content" markdown="1">
-* Sketching, designing user experience and developing front product catalog redesign
-* Co-development of "career" 1001pharmacies.com website
-* Sketching, designing user experience and developing checkout process redesign
-* Creating qualitative surveys, sketching and prototyping for the redesign of customer account
-* Analyze user testing, usability testing and measuring from checkout process
-* Perform A/B testing and set up UX metrics on checkout process
-* Building user stories, personas, task flows, use case and scenarios
-* Providing lightning talks about popularize dev concepts for the rest of the company
-* Co-development a front assets bootstraping tool with Gulp
-* Development a i18n ready website functionality on Symfony 2
-* Designing and developing responsive newsletter's templates
-* Developed auto-generated responsive landings templates with Jekyll
-* Participate and animate UX workshops during MeetUp
-
-[Know more about my different projects](/){: .see-more .no-print}
-
-</div>
-</section>
-
-<section class="row">
-<div class="section-title" markdown="1">
-## I Have
-</div>
-<div class="content" markdown="1">
-* Passion for my work
-* High self-motivation in working individually and closely with others
-* Great communication and collaboration skills
-* Solving key design problems through ideation
-* Expertise in HTML and CSS languages
-* Analyze user testing, measuring and rebuilding
-* Strong sense of design theory and typography
-* Experience in digital agency and e-commerce start-up environment
-* Experience in responsive web design, cross-platform compatible coding techniques and troubleshooting
-* Positive attitude with a pragmatic and hedonic view
-</div>
-</section>
-
-<section class="row only-print">
-<div class="section-title" markdown="1">
-## Experiences
-</div>
-<div class="content layout--6-12">
-
+<div class="content layout--6-12 mobile-too" markdown="1">
 <div markdown="1">
-### UX Designer/UI Developer
-{: .bold}
+Product Catalog redesign project
+{: .bold }
 
-1001Pharmacies.com ● Montpellier
+* Sketch project UI (Sketch)
+* Design project's user experience
+* Develop with HTML5/CSS3/JS
+* Bootstrap 3 with LESS
+* Symfony 2.3 project
+* Assets treatment with Gulp
 
-From january 2015 to today (1 year & 5 month)
-{: .grey}
+
+Checkout process redesign project
+{: .bold }
+
+* Sketch project UI (Sketch)
+* Design project's user experience
+* Develop with HTML5/CSS3/JS
+* Sass with ITCSS pattern
+* Symfony 2.8 project
+* Assets treatment with Webpack and PostCss
+
+
+Customer account redesign project
+{: .bold }
+
+* Create & conduct qualitative surveys
+* Prototype
+* Sketch project UI
+
+
+i18n Ready project
+{: .bold }
+
+* Develop i18n ready functionnality on Symfony 2
+* Web pages templates overhaul
+* Adapt pages to be mobile ready with Responsive Web Design technics
+
+
 </div>
-
 <div markdown="1">
-### Front/UI Developer
-{: .bold}
 
-Publika.com ● Montpellier
+Checkout project UX experience design
+{: .bold }
 
-From january 2012 to january 2015 (3 years)
-{: .grey}
+* Analyze user tests
+* Usability testing
+* Perform A/B tests and set up UX metrics
+* Measure user's feedbacks
+
+
+UX designer tasks on various projects
+{: .bold }
+
+* Build user stories
+* Creat personas
+* Make task flows, use case and scenarios
+
+
+Marketing tools
+{: .bold }
+
+* Design and develop responsive ready newsletter's templates (Ink framework from Fundation)
+* Design and develop auto-generated responsive ready landings with Jekyll
+
+
+Events and conferences
+{: .bold }
+
+* Provide lightning talks about popularize dev concepts for the rest of company
+* Participate and animate UX workshop during MeetUp
+
+
+Side projects
+{: .bold }
+
+* Co-develop "career" website of the company in Meteor + Angular2
+* Co-develop a front assets bootstrapping tool with Gulp
+* Design and develop my personal website with Jekyll and Sass
+
 </div>
 
 </div>
 </section>
 
 </div><!-- /layout-print--8 -->
-<div class="layout-print--4">
+<div class="layout-print--4 aside-print">
 
 <section class="row">
 <div class="section-title" markdown="1">
@@ -165,8 +184,27 @@ Methodology
 </div><!-- /layout-print--4 -->
 
 <div class="clearfix"></div>
+<div class="page-break"></div>
 
-<section class="row no-print">
+<section class="row">
+<div class="section-title" markdown="1">
+## I Have
+</div>
+<div class="content" markdown="1">
+* Passion for my work
+* High self-motivation in working individually and closely with others
+* Great communication and collaboration skills
+* Solving key design problems through ideation
+* Expertise in HTML and CSS languages
+* Analyze user testing, measuring and rebuilding
+* Strong sense of design theory and typography
+* Experience in digital agency and e-commerce start-up environment
+* Experience in responsive web design, cross-platform compatible coding techniques and troubleshooting
+* Positive attitude with a pragmatic and hedonic view
+</div>
+</section>
+
+<section class="row">
 <div class="section-title" markdown="1">
 ## Experiences
 </div>
@@ -194,8 +232,6 @@ From january 2012 to january 2015 (3 years)
 
 </div>
 </section>
-
-<div class="page-break"></div>
 
 <section class="row">
 <div class="section-title" markdown="1">

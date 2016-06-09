@@ -51,5 +51,9 @@
         content: " (" attr(href) ") ";
         font-size: 90%;
     }
+    .aside-print {
+        padding-left: .5rem;
+        border-left: 1px dashed $grey-color-light;
+    }
 }
 

@@ -2,24 +2,13 @@
     #SHAME TRUMPS
 \*------------------------------------*/
 
-
-.row {
-    @include media-query($on-palm, min-width) {
-        display: -webkit-box;
-        display: -moz-box;
-        display: -ms-flexbox;
-        display: -webkit-flex;
-        display: flex;
-        flex-wrap: wrap;
-        margin-bottom: 2rem;
-    }
-}
-
 .section-title {
     flex: 0 0 20%;
     h2 {
         @include font-size(1);
         text-transform: uppercase;
+        color: $brand-color;
+        font-weight: bold;
     }
 }
 
