@@ -39,9 +39,9 @@ Product Catalog redesign project
 * Sketch project UI (Sketch)
 * Design project's user experience
 * Develop with HTML5/CSS3/JS
-* Bootstrap 3 with LESS
-* Symfony 2.3 project
-* Assets treatment with Gulp
+* Sass with ITCSS pattern
+* Symfony 2.8 project
+* Assets treatment with Webpack and PostCss
 * LEAN UX approch and Scrum methods
 
 
@@ -51,9 +51,9 @@ Checkout process redesign project
 * Sketch project UI (Sketch)
 * Design project's user experience
 * Develop with HTML5/CSS3/JS
-* Sass with ITCSS pattern
-* Symfony 2.8 project
-* Assets treatment with Webpack and PostCss
+* Bootstrap 3 with LESS
+* Symfony 2.3 project
+* Assets treatment with Gulp
 * LEAN UX approch and Scrum methods
 
 
