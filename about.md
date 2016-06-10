@@ -23,7 +23,7 @@ header : false
 ## About
 </div>
 <div class="content" markdown="1">
-I'm Mathieu Fortune a French Front/UI Developer with 4+ years of experience. Identify, search and resolve human problems by designing and developing products is a passion I'm living every days. I like sport, movies, traveling and just living the present.  Constanly learning and experiencing new things.
+I'm Mathieu Fortune a French Front/UI Developer with 4+ years of experience. Identify, search and resolve human problems by designing and developing products is a passion I'm living every day. I like sport, movies, traveling and just living the present.  Constantly learning and experiencing new things.
 </div>
 </section>
 
@@ -42,7 +42,7 @@ Product Catalog redesign project
 * Sass with ITCSS pattern
 * Symfony 2.8 project
 * Assets treatment with Webpack and PostCss
-* LEAN UX approch and Scrum methods
+* LEAN UX approach and Scrum methods
 
 
 Checkout process redesign project
@@ -54,7 +54,7 @@ Checkout process redesign project
 * Bootstrap 3 with LESS
 * Symfony 2.3 project
 * Assets treatment with Gulp
-* LEAN UX approch and Scrum methods
+* LEAN UX approach and Scrum methods
 
 
 Customer account redesign project
@@ -68,7 +68,7 @@ Customer account redesign project
 i18n Ready project
 {: .bold }
 
-* Develop i18n ready functionnality on Symfony 2
+* Develop an i18n ready functionnality on Symfony 2
 * Web pages templates overhaul
 * Adapt pages to be mobile ready with Responsive Web Design technics
 
@@ -90,7 +90,7 @@ UX designer tasks on various projects
 
 * Build user stories
 * Create personas
-* Make task flows, use case and scenarios
+* Make task flows, uses cases and scenarios
 * Conduct ux methods like Visual Studio, Focus Group to improve ideation process
 
 
@@ -163,7 +163,7 @@ Design
 * Photoshop
 * Design Thinking method
 * UX Design methods
-* Lean UX approch
+* Lean UX approach
 * Responsive Web Design technics
 * Atomic Web Design
 

@@ -11,8 +11,8 @@ theme: Website redesign project
 
 
 1001pharmacies.com is an online marketplace in the health and well-being activity.
-It purpose is to connect french pharmacists directly with their users through an access to their products online.
-Each pharmacy can manage its own parapharmacies catalog and its stock.
+Its purpose is to connect french pharmacists directly with their users through an access to their products online.
+Each pharmacy can manage its own drugstore catalog and its stock.
 
 The checkout project is part of a redesign project in order to improve usability and user experience.
 
@@ -26,23 +26,23 @@ The first version of 1001pharmacies.com's checkout process has proven that it ne
 ## Research
 
 
-We needed to better understand these datas. We conducted user researches on the checkout process to learn more about their characteristics, needs, desires and to evaluate their perception about 1001pharmacies.com's offer.
+We needed to better understand these data. We conducted user researches on the checkout process to learn more about their characteristics, needs, desires and to evaluate their perception about 1001pharmacies.com's offer.
 
 We decide to choose our loyal users to find their pain points, so we could fix them and their use of the product.
 
-This research has led us to 2 hypotesis.
+This research has led us to 2 hypotheses.
 
 First, the shipping cost is a source of questions and they can be too high.
-To understand, it's important to know that when a user add differents products in his cart, it can occur that some products are available in multiple sellers, this create multi parcel so the shipping cost is increased.
+To understand, it's important to know that when a user add different products in his cart, it can occur that some products are available in multiple sellers, this create a multi-parcel so the shipping cost is increased.
 
-Second, to make an order the user need to sign up to an account. This generate an obstacle to the purchase.
+Second, to make an order the user need to sign up to an account. This generates an obstacle to the purchase.
 This is consistent with recent reports showing that a high abandon rate is caused by a mandatory sign up.
 
 ## Challenge
 
 
-Some attempts has already be done to improve offer's comprehension inside checkout process.
-An informative message, stock optimization algorithm, ... But even if these made some results, this not answered every problems like sign up to a user account.
+Some attempts has already been done to improve offer's comprehension in the checkout process.
+An informative message, stock optimization algorithm, ... But even if these made some results, this not answered every problem like sign up for a user account.
 
 Redesigning the checkout process without suspending website's activity was mandatory.
 In an agile approach to these problems, we decided to deliver continuously with a first minimum viable product for performing a complete purchasing process with minimum functionality required.
@@ -54,9 +54,9 @@ A user who's not used to purchase online must simply and confidently made a purc
 ## Production
 
 
-As a follow up to this method, from a designer point of view, I decided to follow the Design Thinking method to realize this project. I let the design emerged as the user stories where developped to stick to a lean approch and I iterate with user feedback to make sure that their needs was fulfilled.
+As a follow up to this method, from a designer point of view, I decided to follow the Design Thinking method to realize this project. I let the design emerged as the user stories were developped to stick to a lean approach and I iterate with user feedback to make sure that their needs was fulfilled.
 
-According to the front development, I chose Twitter bootstrap 3 with LESS in order to let the back-end developpers be more confortable with technos used in front and Javascript vanilla because this is a better choice in terms of performance than JQuery. The project is powered with Symfony 2 and I replace assetic with gulp to have more control on assets.
+According to the front development, I chose Twitter bootstrap 3 with LESS in order to let the back-end developers be more comfortable with technos used in front and Javascript vanilla because this is a better choice in terms of performance than JQuery. The project is powered with Symfony 2 and I replace assetic with gulp to have more control on assets.
 
 
 ## Results
@@ -100,4 +100,4 @@ New 1001pharmacies.com's cart [step 4]
 
 ## Conclusion
 
-Checkout process redesign is still in development. The second mvp release is online and there is not many work left to totally replace the old version. Analytics data have already shown an increase of conversion rate and a decrease of abandon rate.
+Checkout process redesign is still in development. The second mvp release is online and there is not many works left to totally replace the old version. Analytics data have already shown an increase of conversion rate and a decrease of abandoning rate.
