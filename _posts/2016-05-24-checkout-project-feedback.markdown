@@ -13,7 +13,6 @@ theme: Website redesign project
 1001pharmacies.com is an online marketplace in the health and well-being activity.
 Its purpose is to connect french pharmacists directly with their users through an access to their products online.
 Each pharmacy can manage its own drugstore catalog and its stock.
-
 The checkout project is part of a redesign project in order to improve usability and user experience.
 
 Visit the [website](http://www.1001pharmacies.com/ "Visit 1001pharmacies.com website")

@@ -2,8 +2,21 @@
     #POST OBJECTS
 \*------------------------------------*/
 
+%post-container {
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    @include media-query($on-palm) {
+        width: 100%;
+    }
+}
+
+.post {
+    margin-bottom: 5rem;
+}
 
 .post-header {
+    @extend %post-container;
     margin-bottom: $base-spacing-unit + em;
 }
 
@@ -52,12 +65,7 @@
 .post-content {
     margin-bottom: $base-spacing-unit * 1em;
     > * {
-        width: 900px;
-        margin-left: auto;
-        margin-right: auto;
-        @include media-query($on-palm) {
-            width: 100%;
-        }
+        @extend %post-container;
     }
     .large {
         width: 100%;
@@ -65,7 +73,16 @@
             width: 100%;
         }
     }
+    h2 {
+        margin-top: 3rem;
+        margin-bottom: 2rem;
+        font-weight: bolder;
+        &:nth-child(1) {
+            margin-top: 0;
+        }
+    }
     p {
+        color: #666;
         line-height: $base-spacing-unit--medium;
     }
 }
