@@ -49,7 +49,7 @@
 }
 
 .post-meta {
-    font-size: $small-font-size;
+    @include font-size($font-size--small);
     color: $grey-color;
 }
 

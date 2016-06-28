@@ -37,7 +37,8 @@ ol,
 dl,
 figure,
 %vertical-rhythm {
-    margin-bottom: $base-spacing-unit--small + rem;
+    margin-top: 0;
+    margin-bottom: $base-spacing-unit--small * 1rem;
 }
 
 
@@ -66,7 +67,7 @@ figure > img {
 }
 
 figcaption {
-    font-size: $small-font-size;
+    @include font-size($font-size--small);
 }
 
 
@@ -106,7 +107,7 @@ a {
 blockquote {
     color: $grey-color;
     border-left: 4px solid $grey-color-light;
-    padding-left: $base-spacing-unit--small + rem;
+    padding-left: $base-spacing-unit--small * 1rem;
     @include font-size(1.2);
     letter-spacing: -1px;
     font-style: italic;

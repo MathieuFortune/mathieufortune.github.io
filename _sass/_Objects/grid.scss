@@ -36,6 +36,7 @@
 .layout--2-12 {
   @extend %clearfix;
   > div {
+    width: 100%;
     @include media-query($on-palm, min-width) {
         @include column('1/2');
     }
@@ -49,6 +50,7 @@
 .layout--6-12 {
   @extend %clearfix;
   > div {
+    width: 100%;
     @include media-query($on-palm, min-width) {
         @include column('1/2');
     }

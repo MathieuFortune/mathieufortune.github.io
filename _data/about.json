@@ -1,0 +1,155 @@
+{
+  "uvp_title": "Share our passions<br/> by working between humans<br/> on ethical and interesting projects",
+  "cv": {
+    "title": "Mathieu Fortune <br/> Front/UI Developer",
+    "desc": "4+ years Front/UI Developer looking for new challenges in Los Angeles. <br/>Send me an email at <strong>pro.mathieu.fortune@gmail.com</strong>",
+  },
+  "about": {
+    "title": "About",
+    "desc": "I'm a French Front/UI Developer with 4+ years of experience living in Los Angeles. Identify, search and resolve human problems by designing and developing products is a passion I'm living every day. Constantly learning and experiencing new things.",
+  },
+  "experience_heading": "Experiences",
+  "experiences": [
+    {
+      "title": "UI Developer & UX/UI Designer",
+      "name": "1001Pharmacies.com",
+      "period": "From December 2015 to June 2016 ( 7 months )",
+      "desc": "Currently working on a user centric redesign of 1001Pharmacies's e-commerce website as UI Developper and also Ux/UI Designer",
+      "skills": "HTML5, CSS3, Sass, ITCSS, Sketch, Javascript, Symfony 2, Design Thinking, Scrum, Lean UX, Git, Webpack"
+    },
+    {
+      "title": "UI Developer",
+      "name": "1001Pharmacies.com",
+      "period": "From January 2015 to December 2015 ( 9 months )",
+      "desc": "In charge of UI Development of 1001Pharmacies.com's front applications such as responsive newsletters and landings. Also on e-commerce website maintenance.",
+      "skills": "HTML5, CSS3, Less, Javascript, Fundation, Bootstrap, Photoshop, Symfony 2, Git, Gulp"
+    },
+    {
+      "title": "Front-end Developer",
+      "name": "Publika",
+      "period": "From January 2012 to January 2015 ( 3 years )",
+      "desc": "Front-end Development of client's websites in various industries (e-commerce, corporate, landings, social network, ...) and differents technos (CMS, Custom MVC framework, ...)",
+      "skills": "HTML5, CSS3, Less, jQuery, Bootstrap, Adobe CC, MVC, SQL, PHP, Git"
+    }
+  ],
+  "i_have_heading": "I have",
+  "i_have": [
+    "Passion for my work",
+    "High self-motivation in working individually and closely with others",
+    "Great communication and collaboration skills",
+    "Solving key design problems through ideation",
+    "Expertise in HTML and CSS languages",
+    "Analyze user testing, measuring and rebuilding",
+    "Strong sense of design theory and typography",
+    "Experience in digital agency and e-commerce start-up environment",
+    "Experience in responsive web design, cross-platform compatible coding techniques and troubleshooting",
+    "Positive attitude with a pragmatic and hedonic view"
+  ],
+  "hire_me_heading": "Hire me",
+  "hire_me": [
+    "Check and follow my [Twitter MsterMF](https://twitter.com/MsterMF){: target='_blank'}",
+    "Take a view on my [GitHub account MathieuFortune](https://github.com/MathieuFortune){: target='_blank'}",
+    "Find me on [Linkedin](https://fr.linkedin.com/in/mathieu-fortune-220268101){: target='_blank'}",
+    "Send me an email at [pro.mathieu.fortune@gmail.com](mailto:pro.mathieu.fortune@gmail.com){: target='_blank'}",
+  ],
+  "events_heading": "Events",
+  "events": [
+    "Co-organizer and speaker at [UX FLUPA MeetUp](http://www.meetup.com/fr-FR/FLUPA-Montpellier/events/229582597/){: target='_blank'} place at 1001pharmacies - 2015 April",
+    "Participant at [BlendWebMix 2015](http://www.blendwebmix.com/){: target='_blank'} Lyon, France",
+    "Participant at lightning talks taking place at business incubator Cap Oméga Montpellier, France",
+  ],
+  "trainings_heading": "Trainings",
+  "trainings": [
+    {
+      "title": "Lean Startup and Running Lean",
+      "name": "with [Stéphane Langlois](http://scopyleft.fr/)",
+      "period": "From January 2016 to February 2016",
+      "desc": "Multiple Workshops around Lean Startup and Running Lean Books. Lead problems interviews, lean canvas, lean approch of things"
+    },
+    {
+      "title": "Kanban method",
+      "name": "with [Pablo Pernot](http://www.areyouagile.com/)",
+      "period": "One day (2015)",
+      "desc": "Workshop around Kanban method. Construct and maintain a project and/or company Kanban to show the reality"
+    },
+    {
+      "title": "Growth Hacking",
+      "name": "with [Koudetah TheFamily](http://www.thefamily.co/)",
+      "period": "From Mars 2015 to May 2015",
+      "desc": "Follow on live streaming during 3 months Koudetah's courses about Growth Hacking technics"
+    },
+    {
+      "title": "Webdesigner/UI developer degree",
+      "name": "at [Objectif3D School](http://www.objectif3w.com/)",
+      "period": "A year (2011)",
+      "desc": "Learned the basics of Webdesign and UI development during a year in Objectif3D school"
+    },
+    {
+      "title": "Economics and Socials Sciences",
+      "name": "at High School Albert Camus Nîmes, France",
+      "period": "From 2008 to 2010",
+      "desc": "High School Graduation with mention"
+    }
+  ],
+  "skills_heading": "Skills",
+  "skills": [
+    {
+      "title": "Front-end",
+      "list": [
+        "HTML5",
+        "CSS3",
+        "LESS & Sass",
+        "Bootstrap",
+        "Foundation",
+        "Javascript",
+        "jQuery",
+        "Meteor",
+        "Bower",
+        "Gulp",
+        "PostCSS",
+        "WebPack",
+        "Jekyll",
+        "MVC Framework",
+      ]
+    },
+    {
+      "title": "Front-end Practices",
+      "list": [
+        "Cross-browser Awareness",
+        "Progressive Enhancement",
+        "W3C & WCAG",
+        "ITCSS",
+        "A/B Testing",
+        "OpQuast Web Quality",
+        "Accessibility",
+        "Feature Detection",
+        "Mobile First",
+        "RWD",
+        "SEO",
+        "Performance",
+      ]
+    },
+    {
+      "title": "Design",
+      "list": [
+        "Sketch",
+        "Adobe CC",
+        "Design Thinking",
+        "UX Design Methods",
+        "Atomic Web Design",
+
+      ]
+    },
+    {
+      "title": "Methodologies & Principles",
+      "list": [
+        "Git",
+        "Agile",
+        "Scrum",
+        "Lean UX",
+        "Kanban",
+        "Running lean",
+      ]
+    },
+  ]
+}

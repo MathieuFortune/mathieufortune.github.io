@@ -3,29 +3,102 @@ layout: page
 title: About
 permalink: /about/
 header : false
+type: about
 ---
 
-# Sharing our passions<br/> by working between humans<br/> on interesting projects
+# {{ site.data.about.uvp_title }}
 {: .uvp-title .no-print}
 
-# Mathieu Fortune - mathieufortune.github.io
-{: .uvp-title .only-print}
+<div class="only-print">
+  <h1 class="uvp-title text-center">
+    {{ site.data.about.cv.title }}
+  </h1>
+  <h3 class="text-center">
+    {{ site.data.about.cv.desc }}
+  </h3>
+  <p class="text-center emphase text-large">
+    {{ site.data.about.uvp_title | strip_html }}
+  </p>
+</div>
 
-### 4+ years Front/UI Developer looking for new challenges at international. <br/>Send me an email at pro.mathieu.fortune@gmail.com
-{: .only-print}
-
-> Sharing our passions by working between humans on interesting projects
-{: .uvp-title .only-print}
 
 <div class="layout-print--8">
 <section class="row">
 <div class="section-title no-print" markdown="1">
-## About
+## {{ site.data.about.about.title }}
 </div>
 <div class="content" markdown="1">
-I'm Mathieu Fortune a French Front/UI Developer with 4+ years of experience. Identify, search and resolve human problems by designing and developing products is a passion I'm living every day. I like sport, movies, traveling and just living the present.  Constantly learning and experiencing new things.
+{{ site.data.about.about.desc }}
 </div>
 </section>
+
+
+<section class="row">
+<div class="section-title" markdown="1">
+## {{ site.data.about.experience_heading }}
+</div>
+<div class="content">
+
+{% for experiences in site.data.about.experiences %}
+<div class="marg-bot-twice">
+<h3 class="no-marg-bot">{{ experiences.title }}, <span class="text-small brand-color italic">{{ experiences.name }}</span></h3>
+<p class="text-small">
+  {{ experiences.period }}
+</p>
+<ul>
+  <li>{{ experiences.desc }}</li>
+  <li>{{ experiences.skills }}</li>
+</ul>
+</div>
+{% endfor %}
+
+</div>
+</section>
+
+<section class="row">
+<div class="section-title" markdown="1">
+## {{ site.data.about.i_have_heading }}
+</div>
+<div class="content" markdown="1">
+{% for entries in site.data.about.i_have %}
+* {{ entries }}{% endfor %}
+</div>
+</section>
+
+<section class="row only-print">
+<div class="section-title" markdown="1">
+## {{ site.data.about.hire_me_heading }}
+</div>
+<div class="content" markdown="1">
+* Look at my [personal website](https://mathieufortune.github.io){: target="_blank"} {% for link in site.data.about.hire_me %}
+* {{ link }}{% endfor %}
+</div>
+</section>
+
+</div><!-- /layout-print--8 -->
+<div class="layout-print--4 aside-print">
+
+<section class="row">
+<div class="section-title" markdown="1">
+## {{ site.data.about.skills_heading }}
+</div>
+<div class="content skills" markdown="1">
+
+{% for skills in site.data.about.skills %}
+<div markdown="1">
+<p class="bold">{{ skills.title }}</p>
+<ul>
+{% for entries in skills.list %}
+  <li>{{ entries }}</li>
+{% endfor %}
+</ul>
+</div>
+{% endfor %}
+
+</div>
+</section>
+
+</div><!-- /layout-print--4 -->
 
 <section class="row">
 <div class="section-title" markdown="1">
@@ -33,8 +106,13 @@ I'm Mathieu Fortune a French Front/UI Developer with 4+ years of experience. Ide
 </div>
 <div class="content layout--6-12" markdown="1">
 <div markdown="1">
-Product Catalog redesign project
-{: .bold }
+### Product Catalog redesign project
+{: .no-marg-bot }
+
+_This project aim to re-design and develop the catalog (search, list and buy a product) of 1001pharmacies's e-commerce website_
+
+Tasks :
+{: .no-marg-bot }
 
 * Sketch project UI (Sketch)
 * Design project's user experience
@@ -45,8 +123,9 @@ Product Catalog redesign project
 * LEAN UX approach and Scrum methods
 
 
-Checkout process redesign project
-{: .bold }
+### Checkout process redesign project
+{: .no-marg-bot }
+
 
 * Sketch project UI (Sketch)
 * Design project's user experience
@@ -56,28 +135,9 @@ Checkout process redesign project
 * Assets treatment with Gulp
 * LEAN UX approach and Scrum methods
 
+### Checkout's UX experiments
+{: .no-marg-bot }
 
-Customer account redesign project
-{: .bold }
-
-* Create & conduct qualitative surveys
-* Prototype
-* Sketch project UI
-
-
-i18n Ready project
-{: .bold }
-
-* Develop an i18n ready functionnality on Symfony 2
-* Web pages templates overhaul
-* Adapt pages to be mobile ready with Responsive Web Design technics
-
-
-</div>
-<div markdown="1">
-
-Checkout's UX experiments
-{: .bold }
 
 * Analyze user tests
 * Usability testing (AttrakDiff)
@@ -85,8 +145,9 @@ Checkout's UX experiments
 * Measure user's feedbacks
 
 
-UX designer tasks on various projects
-{: .bold }
+### UX designer tasks on various projects
+{: .no-marg-bot }
+
 
 * Build user stories
 * Create personas
@@ -94,22 +155,45 @@ UX designer tasks on various projects
 * Conduct ux methods like Visual Studio, Focus Group to improve ideation process
 
 
-Marketing tools
-{: .bold }
+</div>
+<div markdown="1">
+### Customer account redesign project
+{: .no-marg-bot }
+
+
+* Create & conduct qualitative surveys
+* Prototype
+* Sketch project UI
+
+
+### i18n Ready project
+{: .no-marg-bot }
+
+
+* Develop an i18n ready functionnality on Symfony 2
+* Web pages templates overhaul
+* Adapt pages to be mobile ready with Responsive Web Design technics
+
+
+### Marketing tools
+{: .no-marg-bot }
+
 
 * Design and develop responsive ready newsletter's templates (Ink framework from Fundation)
 * Design and develop auto-generated responsive ready landings with Jekyll
 
 
-Events and conferences
-{: .bold }
+### Events and conferences
+{: .no-marg-bot }
+
 
 * Provide lightning talks about popularize dev concepts for the rest of company
 * Participate and animate UX workshop during MeetUp
 
 
-Side projects
-{: .bold }
+### Side projects
+{: .no-marg-bot }
+
 
 * Co-develop "career" website of the company in Meteor + Angular2
 * Co-develop a front assets bootstrapping tool with Gulp
@@ -120,154 +204,42 @@ Side projects
 </div>
 </section>
 
-</div><!-- /layout-print--8 -->
-<div class="layout-print--4 aside-print">
-
 <section class="row">
 <div class="section-title" markdown="1">
-## Skills
+## {{ site.data.about.trainings_heading }}
 </div>
-<div class="content skills layout--2-12" markdown="1">
-<div markdown="1">
-UI Dev
-{: .bold }
-
-* HTML5
-* CSS3
-* LESS & Sass
-* Bootstrap 3 framework
-* Foundation framework
-* W3C and WCAG rules
-
+<div class="content layout--6-12" markdown="1">
+{% for trainings in site.data.about.trainings %}
+<div class="marg-bot">
+<h3 class="no-marg-bot">{{ trainings.title }}, <span class="text-small brand-color italic" markdown="1">{{ trainings.name }}</span></h3>
+<p class="text-small">
+  {{ trainings.period }}
+</p>
+<ul>
+  <li>{{ trainings.desc }}</li>
+</ul>
 </div>
+{% endfor %}
 
-<div markdown="1">
-Front Dev
-{: .bold }
-
-* Vanilla Javascript
-* Bootstrap JS
-* MeteorJS
-* Gulp
-* PostCSS
-* WebPack
-* Jekyll
-* Symfony 2
-
-</div>
-<div markdown="1">
-Design
-{: .bold }
-
-* Sketch
-* Photoshop
-* Design Thinking method
-* UX Design methods
-* Lean UX approach
-* Responsive Web Design technics
-* Atomic Web Design
-
-</div>
-<div markdown="1">
-Methodology
-{: .bold }
-
-* Cross-browser awareness
-* Progressive enhancement
-* Git
-* Agile Scrum
-* Agile Running lean
-* Agile Kanban
-* OpQuast Web Quality
-
-</div>
 </div>
 </section>
 
-</div><!-- /layout-print--4 -->
-
-<div class="clearfix"></div>
-<div class="page-break"></div>
-
 <section class="row">
 <div class="section-title" markdown="1">
-## I Have
+## {{ site.data.about.events_heading }}
 </div>
 <div class="content" markdown="1">
-* Passion for my work
-* High self-motivation in working individually and closely with others
-* Great communication and collaboration skills
-* Solving key design problems through ideation
-* Expertise in HTML and CSS languages
-* Analyze user testing, measuring and rebuilding
-* Strong sense of design theory and typography
-* Experience in digital agency and e-commerce start-up environment
-* Experience in responsive web design, cross-platform compatible coding techniques and troubleshooting
-* Positive attitude with a pragmatic and hedonic view
+{% for entries in site.data.about.events %}
+* {{ entries }}{% endfor %}
 </div>
 </section>
-
-<section class="row">
+<section class="row no-print">
 <div class="section-title" markdown="1">
-## Experiences
-</div>
-<div class="content layout--6-12">
-
-<div markdown="1">
-### UX Designer/UI Developer
-{: .bold}
-
-1001Pharmacies.com ● Montpellier
-
-From january 2015 to today (1 year & 5 month)
-{: .grey}
-</div>
-
-<div markdown="1">
-### Front/UI Developer
-{: .bold}
-
-Publika.com ● Montpellier
-
-From january 2012 to january 2015 (3 years)
-{: .grey}
-</div>
-
-</div>
-</section>
-
-<section class="row">
-<div class="section-title" markdown="1">
-## Trainings
+## {{ site.data.about.hire_me_heading }}
 </div>
 <div class="content" markdown="1">
-* Lean Startup and Running Lean from [Stéphane Langlois](http://scopyleft.fr/) - 2016
-* Kanban method from [Pablo Pernot](http://www.areyouagile.com/) - 2015
-* Growth Hacking from [Koudetah TheFamily](http://www.thefamily.co/) - 2015
-* Webdesigner/UI developer degree at [Objectif3D School](http://www.objectif3w.com/) - 2011
-</div>
-</section>
-
-<section class="row">
-<div class="section-title" markdown="1">
-## Events
-</div>
-<div class="content" markdown="1">
-* Co-organizer and speaker at [UX FLUPA aperitif](http://www.meetup.com/fr-FR/FLUPA-Montpellier/events/229582597/){: target="_blank"} place at 1001pharmacies - 2015 April
-* Participant at [BlendWebMix 2015](http://www.blendwebmix.com/){: target="_blank"} Lyon (FRANCE)
-* Participant at lightning talks taking place at business incubator Cap Oméga Montpellier (FRANCE)
-</div>
-</section>
-
-<section class="row">
-<div class="section-title" markdown="1">
-## Hire Me
-</div>
-<div class="content" markdown="1">
-* Check and follow my [Twitter MsterMF](https://twitter.com/MsterMF){: target="_blank"}
-* Take a view at my [GitHub account MathieuFortune](https://github.com/MathieuFortune){: target="_blank"}
-* Find me on [Linkedin](https://fr.linkedin.com/in/mathieu-fortune-220268101){: target="_blank"}
-* Send me an email at [pro.mathieu.fortune@gmail.com](mailto:pro.mathieu.fortune@gmail.com){: target="_blank"}
+{% for link in site.data.about.hire_me %}
+* {{ link }}{% endfor %}
 </div>
 </section>
 

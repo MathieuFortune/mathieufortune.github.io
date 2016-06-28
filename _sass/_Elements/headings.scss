@@ -3,29 +3,21 @@
 \*------------------------------------*/
 
 
-$heading-size-1:  2.4 !default;
-$heading-size-2:  2 !default;
-$heading-size-3:  1.625 !default;
-$heading-size-4:  1.25 !default;
-$heading-size-5:  1 !default;
-$heading-size-6:  .875 !default;
+$heading-size-1:  $font-size--huge !default;
+$heading-size-2:  $font-size--large !default;
+$heading-size-3:  $font-size--medium !default;
+$heading-size-4:  $font-size-base !default;
+$heading-size-5:  $font-size--small !default;
+$heading-size-6:  $font-size--xsmall !default;
 
 $h1-font-sizes: (
-  null  : $heading-size-3,
-  $on-palm : $heading-size-2,
+  null  : $heading-size-2,
   $on-laptop : $heading-size-1
 );
 $h2-font-sizes: (
-  null  : $heading-size-4,
-  $on-palm : $heading-size-3,
+  null  : $heading-size-3,
   $on-laptop : $heading-size-2
 );
-$h3-font-sizes: (
-  null  : $heading-size-5,
-  $on-palm : $heading-size-4,
-  $on-laptop : $heading-size-3
-);
-
 
 h1,
 h2,
@@ -45,7 +37,7 @@ h2 {
 }
 
 h3 {
-    @include font-size-responsive($h3-font-sizes);
+    @include font-size($heading-size-3);
 }
 
 h4 {

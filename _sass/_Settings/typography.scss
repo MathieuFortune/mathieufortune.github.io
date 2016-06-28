@@ -5,5 +5,12 @@
 $base-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 $base-font-size:   16px;
 $base-font-weight: 300;
-$small-font-size:  $base-font-size * 0.875;
+
+$font-size--xsmall:   .64;
+$font-size--small:    .8;
+$font-size-base:      1;
+$font-size--medium:   1.25;
+$font-size--large:    1.563;
+$font-size--huge:     1.953;
+
 

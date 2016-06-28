@@ -2,24 +2,60 @@
     #TEXT TRUMPS
 \*------------------------------------*/
 
-
 .bold {
-    font-weight: 700;
+  font-weight: 700;
+}
+
+.emphase {
+  color: #828282;
+  font-style: italic;
 }
 
 .italic {
-    font-style: italic;
+  font-style: italic;
 }
 
 .grey {
-    color: $grey-color;
+  color: $grey-color;
 }
 
 .grey-light {
-    color: $grey-color-light;
+  color: $grey-color-light;
 }
 
 .grey-dark {
-    color: $grey-color-dark;
+  color: $grey-color-dark;
+}
+
+.brand-color {
+  color: $brand-color;
+}
+
+.text-xsmall {
+  @include font-size($font-size--xsmall);
+}
+
+.text-small {
+  @include font-size($font-size--small);
+}
+
+.text-medium {
+  @include font-size($font-size--medium);
+}
+
+.text-large {
+  @include font-size($font-size--large);
+}
+
+.no-marg-bot {
+  margin-bottom: 0;
+}
+
+.marg-bot {
+  margin-bottom: 1rem;
+}
+
+.marg-bot-twice {
+  margin-bottom: 2rem;
 }
 

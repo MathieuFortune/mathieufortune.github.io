@@ -63,7 +63,7 @@ According to the front development, I chose Twitter bootstrap 3 with LESS in ord
 
 <div class="large" markdown="1">
 
-<figure markdown="1">
+<figure markdown="1" class="text-center">
 ![New 1001pharmacies.com's cart [step 1]](/images/checkout-new-step1-1.jpg "New 1001pharmacies.com's cart [step 1]")
 <figcaption>
   New 1001pharmacies.com's cart [step 1]
@@ -71,7 +71,7 @@ According to the front development, I chose Twitter bootstrap 3 with LESS in ord
 {: .text-center}
 </figure>
 
-<figure markdown="1">
+<figure markdown="1" class="text-center">
 ![New 1001pharmacies.com's cart [step 2]](/images/checkout-new-step2.jpg "New 1001pharmacies.com's cart [step 2]")
 <figcaption>
 New 1001pharmacies.com's cart [step 2]
@@ -79,7 +79,7 @@ New 1001pharmacies.com's cart [step 2]
 {: .text-center}
 </figure>
 
-<figure markdown="1">
+<figure markdown="1" class="text-center">
 ![New 1001pharmacies.com's cart [step 3]](/images/checkout-new-step3.jpg "New 1001pharmacies.com's cart [step 3]")
 <figcaption>
 New 1001pharmacies.com's cart [step 3]
@@ -87,7 +87,7 @@ New 1001pharmacies.com's cart [step 3]
 {: .text-center}
 </figure>
 
-<figure markdown="1">
+<figure markdown="1" class="text-center">
 ![New 1001pharmacies.com's cart [step 4]](/images/checkout-new-step4.jpg "New 1001pharmacies.com's cart [step 4]")
 <figcaption>
 New 1001pharmacies.com's cart [step 4]

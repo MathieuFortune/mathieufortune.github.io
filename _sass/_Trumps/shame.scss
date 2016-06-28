@@ -2,67 +2,95 @@
     #SHAME TRUMPS
 \*------------------------------------*/
 
-.section-title {
-    flex: 0 0 20%;
-    h2 {
-        @include font-size(1);
-        text-transform: uppercase;
-        color: $brand-color;
-        font-weight: bold;
+.about {
+  section {
+    margin-bottom: 1rem;
+  }
+  @include media-query($on-palm) {
+    section {
+      margin-bottom: 2rem;
     }
+  }
+}
+
+.section-title {
+  flex: 0 0 20%;
+  h2 {
+    @include font-size($font-size-base);
+    text-transform: uppercase;
+    color: $brand-color;
+    font-weight: bold;
+  }
 }
 
 .content {
-    flex: 0 0 80%;
-    h3 {
-        @include font-size(1);
+  flex: 0 0 80%;
+  ul {
+    padding-left: 22px;
+    li {
+      list-style-type: circle;
     }
+  }
+  &.skills {
     ul {
-        padding-left: 22px;
-        li {
-            list-style-type: circle;
-        }
+      padding-left: 0;
+      list-style: none;
     }
-    &.skills {
-        ul {
-            list-style: none;
-        }
+    li {
+      display: inline-block;
+      margin: 0 3px 6px 0;
+      padding: 4px 5px;
+      line-height: 1;
+      color: #FFF;
+      font-weight: 400;
+      text-align: center;
+      white-space: nowrap;
+      background-color: $brand-color-light;
+      border-radius: .25em;
+      @media print {
+        margin-bottom: 5px;
+        color: $text-color;
+        background: none;
+        border: 1px solid $grey-color-dark;
+      }
     }
+  }
 }
 
 .text {
-    @include font-size(1.1);
-    ul {
-        list-style: none;
-        li {
-            margin-bottom: .5em;
-        }
+  @include font-size($font-size-base);
+  ul {
+    list-style: none;
+    li {
+      margin-bottom: .5em;
     }
-    .see-more {
-        display: block;
-        @include font-size(1);
-    }
+  }
+  .see-more {
+    display: block;
+    @include font-size(1);
+  }
 }
 
 .print-me {
-    position: fixed;
-    bottom: 50%;
-    right: -1px;
-    transition: all 100ms;
-    transform: translate(60%, 0);
-    background-color: #FFF;
-    svg {
-        width: 32px;
-        height: 32px;
-        path {
-            fill: $brand-color;
-        }
+  position: fixed;
+  bottom: 50%;
+  right: -1px;
+  transition: all 100ms;
+  transform: translate(60%, 0);
+  background-color: #FFF;
+  svg {
+    width: 32px;
+    height: 32px;
+    path {
+      fill: $brand-color;
     }
-    button {
-        border-right: 0px;
-    }
-    &:hover {
-        transition: all 200ms;
-        transform: translate(0, 0);
-    }
+  }
+  button {
+    border-right: 0px;
+  }
+  &:hover {
+    transition: all 200ms;
+    transform: translate(0, 0);
+  }
 }
+
