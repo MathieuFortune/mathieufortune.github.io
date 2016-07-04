@@ -104,15 +104,12 @@ type: about
 <div class="section-title" markdown="1">
 ## Projects
 </div>
-<div class="content layout--6-12" markdown="1">
-<div markdown="1">
+<div class="content" markdown="1">
+
 ### Product Catalog redesign project
 {: .no-marg-bot }
 
-_This project aim to re-design and develop the catalog (search, list and buy a product) of 1001pharmacies's e-commerce website_
-
-Tasks :
-{: .no-marg-bot }
+_This project intended to re-design and develop the catalog (search, find and buy a product) of 1001pharmacies e-commerce website_
 
 * Sketch project UI (Sketch)
 * Design project's user experience
@@ -126,6 +123,7 @@ Tasks :
 ### Checkout process redesign project
 {: .no-marg-bot }
 
+_This project intended to re-design and develop the checkout process (cart, delivery, payment of an order) of 1001pharmacies e-commerce website_
 
 * Sketch project UI (Sketch)
 * Design project's user experience
@@ -135,9 +133,11 @@ Tasks :
 * Assets treatment with Gulp
 * LEAN UX approach and Scrum methods
 
+
 ### Checkout's UX experiments
 {: .no-marg-bot }
 
+_In order to improve checkout process, UX experiments has been performed to test and better understand users behavior_
 
 * Analyze user tests
 * Usability testing (AttrakDiff)
@@ -148,18 +148,16 @@ Tasks :
 ### UX designer tasks on various projects
 {: .no-marg-bot }
 
-
 * Build user stories
 * Create personas
 * Make task flows, uses cases and scenarios
 * Conduct ux methods like Visual Studio, Focus Group to improve ideation process
 
 
-</div>
-<div markdown="1">
 ### Customer account redesign project
 {: .no-marg-bot }
 
+_This project intended to re-design customer account of 1001pharmacies.com e-commerce website. It was stop after the research and ideation phase_
 
 * Create & conduct qualitative surveys
 * Prototype
@@ -169,6 +167,7 @@ Tasks :
 ### i18n Ready project
 {: .no-marg-bot }
 
+_In order to prepare 1001pharmacies's website to be i18n ready, I worked on twig templates and translation files on Symfony 2. I also use this project to move the pages responsive ready_
 
 * Develop an i18n ready functionnality on Symfony 2
 * Web pages templates overhaul
@@ -178,6 +177,7 @@ Tasks :
 ### Marketing tools
 {: .no-marg-bot }
 
+_To help marketing actions, I was led to design and develop responsive ready newsletters and landing pages_
 
 * Design and develop responsive ready newsletter's templates (Ink framework from Fundation)
 * Design and develop auto-generated responsive ready landings with Jekyll
@@ -186,6 +186,7 @@ Tasks :
 ### Events and conferences
 {: .no-marg-bot }
 
+_I enjoy sharing knowledge with people and participate in community activities_
 
 * Provide lightning talks about popularize dev concepts for the rest of company
 * Participate and animate UX workshop during MeetUp
@@ -194,12 +195,12 @@ Tasks :
 ### Side projects
 {: .no-marg-bot }
 
+_Several side projects to test new technologies for work and also for fun :)_
 
 * Co-develop "career" website of the company in Meteor + Angular2
 * Co-develop a front assets bootstrapping tool with Gulp
 * Design and develop my personal website with Jekyll and Sass
 
-</div>
 
 </div>
 </section>
