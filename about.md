@@ -111,6 +111,8 @@ type: about
 
 _This project intended to re-design and develop the catalog (search, find and buy a product) of 1001pharmacies e-commerce website_
 
+**This project is in work in progress**
+
 * Sketch project UI (Sketch)
 * Design project's user experience
 * Develop with HTML5/CSS3/JS
@@ -119,11 +121,15 @@ _This project intended to re-design and develop the catalog (search, find and bu
 * Assets treatment with Webpack and PostCss
 * LEAN UX approach and Scrum methods
 
+<br/>
+
 
 ### Checkout process redesign project
 {: .no-marg-bot }
 
 _This project intended to re-design and develop the checkout process (cart, delivery, payment of an order) of 1001pharmacies e-commerce website_
+
+**Results: +5% increase on the cart transformation rate. Significantly improve user experience trough the entire checkout process**
 
 * Sketch project UI (Sketch)
 * Design project's user experience
@@ -133,16 +139,22 @@ _This project intended to re-design and develop the checkout process (cart, deli
 * Assets treatment with Gulp
 * LEAN UX approach and Scrum methods
 
+<br/>
+
 
 ### Checkout's UX experiments
 {: .no-marg-bot }
 
 _In order to improve checkout process, UX experiments has been performed to test and better understand users behavior_
 
+**Results: With user testing feedbacks, I improved team's workflow and democratized user testing methods knowledge in the company**
+
 * Analyze user tests
 * Usability testing (AttrakDiff)
 * Perform A/B tests and set up UX metrics
 * Measure user's feedbacks
+
+<br/>
 
 
 ### UX designer tasks on various projects
@@ -153,15 +165,7 @@ _In order to improve checkout process, UX experiments has been performed to test
 * Make task flows, uses cases and scenarios
 * Conduct ux methods like Visual Studio, Focus Group to improve ideation process
 
-
-### Customer account redesign project
-{: .no-marg-bot }
-
-_This project intended to re-design customer account of 1001pharmacies.com e-commerce website. It was stop after the research and ideation phase_
-
-* Create & conduct qualitative surveys
-* Prototype
-* Sketch project UI
+<br/>
 
 
 ### i18n Ready project
@@ -169,9 +173,13 @@ _This project intended to re-design customer account of 1001pharmacies.com e-com
 
 _In order to prepare 1001pharmacies's website to be i18n ready, I worked on twig templates and translation files on Symfony 2. I also use this project to move the pages responsive ready_
 
+**Results: My work on the responsive ready optimization increase by +20% the mobile traffic part on the website. Loading time of these pages was 1.5 time faster than before moving them**
+
 * Develop an i18n ready functionnality on Symfony 2
 * Web pages templates overhaul
 * Adapt pages to be mobile ready with Responsive Web Design technics
+
+<br/>
 
 
 ### Marketing tools
@@ -179,8 +187,25 @@ _In order to prepare 1001pharmacies's website to be i18n ready, I worked on twig
 
 _To help marketing actions, I was led to design and develop responsive ready newsletters and landing pages_
 
+**Results: With these new tools, marketing team's gain in conversion rate and set up time for each campaign. I also helped to improve front-end environment knowledge of co-workers**
+
 * Design and develop responsive ready newsletter's templates (Ink framework from Fundation)
 * Design and develop auto-generated responsive ready landings with Jekyll
+
+<br/>
+
+
+### Customer account redesign project
+{: .no-marg-bot }
+
+_This project intended to re-design customer account of 1001pharmacies.com e-commerce website. It was paused after the research and ideation phase_
+
+* Create & conduct qualitative surveys
+* Prototype
+* Sketch project UI
+
+
+<br/>
 
 
 ### Events and conferences
@@ -191,6 +216,8 @@ _I enjoy sharing knowledge with people and participate in community activities_
 * Provide lightning talks about popularize dev concepts for the rest of company
 * Participate and animate UX workshop during MeetUp
 
+
+<br/>
 
 ### Side projects
 {: .no-marg-bot }
