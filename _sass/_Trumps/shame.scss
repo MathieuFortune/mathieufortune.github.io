@@ -55,6 +55,18 @@
       }
     }
   }
+
+  &.projects {
+    @media print {
+      > div {
+          @include column('1/2');
+      }
+    }
+
+    .item {
+      margin-bottom: 2em;
+    }
+  }
 }
 
 .text {

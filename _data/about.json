@@ -2,7 +2,7 @@
   "uvp_title": "Share our passions<br/> by working between humans<br/> on ethical and interesting projects",
   "cv": {
     "title": "Mathieu Fortune <br/> Front/UI Developer",
-    "desc": "4+ years Front/UI Developer looking for new challenges in USA. <br/>Send me an email at <strong>pro.mathieu.fortune@gmail.com</strong>",
+    "desc": "4+ years Front/UI Developer looking for new challenges at the international. <br/>Send me an email at <strong>pro.mathieu.fortune@gmail.com</strong>",
   },
   "about": {
     "title": "About",
@@ -13,7 +13,7 @@
     {
       "title": "UI Developer & UX/UI Designer",
       "name": "1001Pharmacies.com",
-      "period": "From December 2015 to June 2016 ( 7 months )",
+      "period": "From December 2015 to now",
       "desc": "Currently working on a user centric redesign of 1001Pharmacies's e-commerce website as UI Developper and also Ux/UI Designer",
       "skills": "HTML5, CSS3, Sass, ITCSS, Sketch, Javascript, Symfony 2, Design Thinking, Scrum, Lean UX, Git, Webpack"
     },
@@ -150,6 +150,97 @@
         "Lean UX",
         "Kanban",
         "Running lean",
+      ]
+    },
+  ],
+  "projects_heading": "Projects",
+  "projects": [
+    {
+      "title": "Product Catalog redesign project",
+      "description": "This project intended to re-design and develop the catalog (search, find and buy a product) of 1001pharmacies e-commerce website",
+      "results": "This project is in work in progress",
+      "list": [
+        "Sketch project UI (Sketch)",
+        "Design project's user experience",
+        "Develop with HTML5/CSS3/JS",
+        "Sass with ITCSS pattern",
+        "Symfony 2.8 project",
+        "Assets treatment with Webpack and PostCss",
+        "LEAN UX approach and Scrum methods"
+      ]
+    },
+    {
+      "title": "Checkout process redesign project",
+      "description": "This project intended to re-design and develop the checkout process (cart, delivery, payment of an order) of 1001pharmacies e-commerce website",
+      "results": "+5% increase on the cart transformation rate. Significantly improve user experience trough the entire checkout process",
+      "list": [
+        "Sketch project UI (Sketch)",
+        "Design project's user experience",
+        "Develop with HTML5/CSS3/JS",
+        "Bootstrap 3 with LESS",
+        "Symfony 2.8 project",
+        "Assets treatment with Gulp",
+        "LEAN UX approach and Scrum methods"
+      ]
+    },
+    {
+      "title": "Checkout's UX experiments",
+      "description": "In order to improve checkout process of 1001pharmacies.com, UX experiments has been performed to test and better understand users behavior",
+      "results": "With user testing feedbacks, I improved team's workflow and democratized user testing methods knowledge in the company",
+      "list": [
+        "Analyze user tests",
+        "Usability testing (AttrakDiff)",
+        "Perform A/B tests and set up UX metrics",
+        "Measure user's feedbacks"
+      ]
+    },
+    {
+      "title": "UX designer tasks on various projects",
+      "description": "As I was the UX designer referent at 1001pharmacies.com, I helped product owners in their missions",
+      "results": "",
+      "list": [
+        "Build user stories",
+        "Create personas",
+        "Make task flows, uses cases and scenarios",
+        "Conduct ux methods like Visual Studio, Focus Group to improve ideation process"
+      ]
+    },
+    {
+      "title": "i18n Ready project",
+      "description": "In order to prepare 1001pharmacies's website to be i18n ready, I worked on twig templates and translation files on Symfony 2. I also use this project to move the pages responsive ready",
+      "results": "My work on the responsive ready optimization increase by +20% the mobile traffic part on the website. Loading time of these pages was 1.5 time faster than before moving them",
+      "list": [
+        "Develop an i18n ready functionnality on Symfony 2",
+        "Web pages templates overhaul",
+        "Adapt pages to be mobile ready with Responsive Web Design technics"
+      ]
+    },
+    {
+      "title": "Marketing tools",
+      "description": "To help marketing actions, I was led to design and develop responsive ready newsletters and landing pages",
+      "results": "With these new tools, marketing team's gain in conversion rate and set up time for each campaign. I also helped to improve front-end environment knowledge of co-workers",
+      "list": [
+        "Design and develop responsive ready newsletter's templates (Ink framework from Fundation)",
+        "Design and develop auto-generated responsive ready landings with Jekyll"
+      ]
+    },
+    {
+      "title": "Events and conferences",
+      "description": "I enjoy sharing knowledge with people and participate in community activities",
+      "results": "",
+      "list": [
+        "Provide lightning talks about popularize dev concepts for the rest of company",
+        "Participate and animate UX workshop during MeetUp"
+      ]
+    },
+    {
+      "title": "Side projects",
+      "description": "Several side projects to test new technologies for work and also for fun :)",
+      "results": "",
+      "list": [
+        "Co-develop 'career' website of the company in Meteor + Angular2",
+        "Co-develop a front assets bootstrapping tool with Gulp",
+        "Design and develop my personal website with Jekyll and Sass"
       ]
     },
   ]

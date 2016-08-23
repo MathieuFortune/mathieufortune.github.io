@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About
+title: About Me / Resume
 permalink: /about/
 header : false
 type: about
@@ -102,132 +102,30 @@ type: about
 
 <section class="row">
 <div class="section-title" markdown="1">
-## Projects
+## {{ site.data.about.projects_heading }}
 </div>
-<div class="content" markdown="1">
+<div class="content projects" markdown="1">
 
-### Product Catalog redesign project
+{% for projects in site.data.about.projects %}
+<div class="item" markdown="1">
+
+### {{ projects.title }}
 {: .no-marg-bot }
 
-_This project intended to re-design and develop the catalog (search, find and buy a product) of 1001pharmacies e-commerce website_
+_{{ projects.description }}_
 
-**This project is in work in progress**
+{% if projects.results != empty %}
+**{{ projects.results }}**
+{% endif %}
 
-* Sketch project UI (Sketch)
-* Design project's user experience
-* Develop with HTML5/CSS3/JS
-* Sass with ITCSS pattern
-* Symfony 2.8 project
-* Assets treatment with Webpack and PostCss
-* LEAN UX approach and Scrum methods
+<ul>
+{% for entries in projects.list %}
+  <li>{{ entries }}</li>
+{% endfor %}
+</ul>
 
-<br/>
-
-
-### Checkout process redesign project
-{: .no-marg-bot }
-
-_This project intended to re-design and develop the checkout process (cart, delivery, payment of an order) of 1001pharmacies e-commerce website_
-
-**Results: +5% increase on the cart transformation rate. Significantly improve user experience trough the entire checkout process**
-
-* Sketch project UI (Sketch)
-* Design project's user experience
-* Develop with HTML5/CSS3/JS
-* Bootstrap 3 with LESS
-* Symfony 2.3 project
-* Assets treatment with Gulp
-* LEAN UX approach and Scrum methods
-
-<br/>
-
-
-### Checkout's UX experiments
-{: .no-marg-bot }
-
-_In order to improve checkout process, UX experiments has been performed to test and better understand users behavior_
-
-**Results: With user testing feedbacks, I improved team's workflow and democratized user testing methods knowledge in the company**
-
-* Analyze user tests
-* Usability testing (AttrakDiff)
-* Perform A/B tests and set up UX metrics
-* Measure user's feedbacks
-
-<br/>
-
-
-### UX designer tasks on various projects
-{: .no-marg-bot }
-
-* Build user stories
-* Create personas
-* Make task flows, uses cases and scenarios
-* Conduct ux methods like Visual Studio, Focus Group to improve ideation process
-
-<br/>
-
-
-### i18n Ready project
-{: .no-marg-bot }
-
-_In order to prepare 1001pharmacies's website to be i18n ready, I worked on twig templates and translation files on Symfony 2. I also use this project to move the pages responsive ready_
-
-**Results: My work on the responsive ready optimization increase by +20% the mobile traffic part on the website. Loading time of these pages was 1.5 time faster than before moving them**
-
-* Develop an i18n ready functionnality on Symfony 2
-* Web pages templates overhaul
-* Adapt pages to be mobile ready with Responsive Web Design technics
-
-<br/>
-
-
-### Marketing tools
-{: .no-marg-bot }
-
-_To help marketing actions, I was led to design and develop responsive ready newsletters and landing pages_
-
-**Results: With these new tools, marketing team's gain in conversion rate and set up time for each campaign. I also helped to improve front-end environment knowledge of co-workers**
-
-* Design and develop responsive ready newsletter's templates (Ink framework from Fundation)
-* Design and develop auto-generated responsive ready landings with Jekyll
-
-<br/>
-
-
-### Customer account redesign project
-{: .no-marg-bot }
-
-_This project intended to re-design customer account of 1001pharmacies.com e-commerce website. It was paused after the research and ideation phase_
-
-* Create & conduct qualitative surveys
-* Prototype
-* Sketch project UI
-
-
-<br/>
-
-
-### Events and conferences
-{: .no-marg-bot }
-
-_I enjoy sharing knowledge with people and participate in community activities_
-
-* Provide lightning talks about popularize dev concepts for the rest of company
-* Participate and animate UX workshop during MeetUp
-
-
-<br/>
-
-### Side projects
-{: .no-marg-bot }
-
-_Several side projects to test new technologies for work and also for fun :)_
-
-* Co-develop "career" website of the company in Meteor + Angular2
-* Co-develop a front assets bootstrapping tool with Gulp
-* Design and develop my personal website with Jekyll and Sass
-
+</div>
+{% endfor %}
 
 </div>
 </section>
