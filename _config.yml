@@ -9,13 +9,13 @@
 title: Mathieu Fortune [BETA]
 email: pro.mathieu.fortune@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  Mathieu Fortune - Front/Ui Developer sharing his passions by working between humans on interesting projects.
+  Mathieu Fortune - Front-End Developer & UX/UI Designer sharing his passions by working between humans on interesting projects.
   This website is still in development and will be update frequently. It's built with Jekyll, Sass and love <3. Sources on GitHub
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://mathieufortune.github.com" # the base hostname & protocol for your site
 twitter_username: MsterMF
 github_username:  MathieuFortune
-feed_description: Mathieu Fortune - Front/Ui Developer sharing his passions by working between humans on interesting projects. # RSS feed site description
+feed_description: Mathieu Fortune - Front-End Developer & UX/UI Designer sharing his passions by working between humans on interesting projects. # RSS feed site description
 rss_path: feed.xml
 
 # Build settings
