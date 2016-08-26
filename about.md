@@ -99,6 +99,7 @@ type: about
 </section>
 
 </div><!-- /layout-print--4 -->
+<div class="clearfix"></div>
 
 <section class="row">
 <div class="section-title" markdown="1">

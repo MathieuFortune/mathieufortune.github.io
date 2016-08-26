@@ -1,31 +1,36 @@
 {
   "uvp_title": "Share our passions<br/> by working between humans<br/> on ethical and interesting projects",
   "cv": {
-    "title": "Mathieu Fortune <br/> Front/UI Developer",
-    "desc": "4+ years Front/UI Developer looking for new challenges at the international. <br/>Send me an email at <strong>pro.mathieu.fortune@gmail.com</strong>",
+    "title": "Mathieu Fortune",
+    "desc": "5 years Front-End Dev & UI/UX Designer looking for new challenges at the international. <br/>Send me an email at <strong>pro.mathieu.fortune@gmail.com</strong>",
   },
   "about": {
     "title": "About",
-    "desc": "I'm a French Front/UI Developer with 4+ years of experience, looking for new challenges at the international. Identify, search and resolve human problems by designing and developing products is a passion I'm living every day. Constantly learning and experiencing new things.",
+    "desc": "Active member of the project’s teams I’m linked to, I make the connection between graphic design and front-end development.
+            User interface design (Sketch, Photoshop, Invision), leading user tests and coding modern HTML5, SASS/LESS, Javascript of desktop and mobile web applications are my main skills.
+            Everyday, I identify, search and resolve problems with a LEAN approach, by working with Agile methods (Scrum, Kanban, Extreme Programming).
+            I’m passionate by my job and I love to share it with my co-workers, constantly learning and experiencing new things.
+            I’m also an active contributor of meetups and events that allow to share and promote the UX/UI Design and Front-End Development jobs.
+            ",
   },
   "experience_heading": "Experiences",
   "experiences": [
     {
-      "title": "UI Developer & UX/UI Designer",
+      "title": "Front-End Developer & UX/UI Designer",
       "name": "1001Pharmacies.com",
       "period": "From December 2015 to now",
       "desc": "Currently working on a user centric redesign of 1001Pharmacies's e-commerce website as UI Developper and also Ux/UI Designer",
       "skills": "HTML5, CSS3, Sass, ITCSS, Sketch, Javascript, Symfony 2, Design Thinking, Scrum, Lean UX, Git, Webpack"
     },
     {
-      "title": "UI Developer",
+      "title": "Front-End Developer",
       "name": "1001Pharmacies.com",
       "period": "From January 2015 to December 2015 ( 9 months )",
       "desc": "In charge of UI Development of 1001Pharmacies.com's front applications such as responsive newsletters and landings. Also on e-commerce website maintenance.",
       "skills": "HTML5, CSS3, Less, Javascript, Fundation, Bootstrap, Photoshop, Symfony 2, Git, Gulp"
     },
     {
-      "title": "Front-end Developer",
+      "title": "Front-End Developer",
       "name": "Publika",
       "period": "From January 2012 to January 2015 ( 3 years )",
       "desc": "Front-end Development of client's websites in various industries (e-commerce, corporate, landings, social network, ...) and differents technos (CMS, Custom MVC framework, ...)",
@@ -34,23 +39,21 @@
   ],
   "i_have_heading": "I have",
   "i_have": [
-    "Successful experience in e-commerce start-up environment",
     "Passion for my work",
-    "High self-motivation in working individually and closely with others",
     "Great communication and collaboration skills",
-    "Solving key design problems through ideation",
-    "Expertise in HTML and CSS languages",
-    "Analyze user testing, measuring and rebuilding",
+    "High self-motivation in working individually and closely with others",
+    "Positive attitude with a pragmatic and hedonic view",
+    "Expertise in HTML,CSS and Javascript languages",
+    "Experience in responsive web design, cross-browser coding techniques and troubleshooting",
+    "Ability to lead usability tests and user testing",
     "Strong sense of design theory and typography",
+    "Successful experience in e-commerce start-up environment",
     "Experience in web digital agency",
-    "Experience in responsive web design, cross-platform compatible coding techniques and troubleshooting",
-    "Positive attitude with a pragmatic and hedonic view"
   ],
   "hire_me_heading": "Hire me",
   "hire_me": [
-    "Check and follow my [Twitter MsterMF](https://twitter.com/MsterMF){: target='_blank'}",
-    "Take a view on my [GitHub account MathieuFortune](https://github.com/MathieuFortune){: target='_blank'}",
     "Find me on [Linkedin](https://fr.linkedin.com/in/mathieu-fortune-220268101){: target='_blank'}",
+    "Take a view on my [GitHub account MathieuFortune](https://github.com/MathieuFortune){: target='_blank'}",
     "Send me an email at [pro.mathieu.fortune@gmail.com](mailto:pro.mathieu.fortune@gmail.com){: target='_blank'}",
   ],
   "events_heading": "Events",
@@ -156,7 +159,7 @@
   "projects_heading": "Projects",
   "projects": [
     {
-      "title": "Product Catalog redesign project",
+      "title": "Product Catalog overhaul project",
       "description": "This project intended to re-design and develop the catalog (search, find and buy a product) of 1001pharmacies e-commerce website",
       "results": "This project is in work in progress",
       "list": [
@@ -170,7 +173,7 @@
       ]
     },
     {
-      "title": "Checkout process redesign project",
+      "title": "Checkout process overhaul project",
       "description": "This project intended to re-design and develop the checkout process (cart, delivery, payment of an order) of 1001pharmacies e-commerce website",
       "results": "+5% increase on the cart transformation rate. Significantly improve user experience trough the entire checkout process",
       "list": [
