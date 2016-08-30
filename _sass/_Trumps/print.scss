@@ -45,9 +45,11 @@
     }
     .section-title {
         flex: 0 0 15%;
+        width: 15%;
     }
     .content {
         flex: 0 0 85%;
+        width: 85%;
     }
     a:link:after,
     a:visited:after {

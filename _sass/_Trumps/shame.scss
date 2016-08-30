@@ -15,6 +15,7 @@
 
 .section-title {
   flex: 0 0 20%;
+  width: 20%;
   h2 {
     @include font-size($font-size-base);
     text-transform: uppercase;
@@ -25,6 +26,7 @@
 
 .content {
   flex: 0 0 80%;
+  width: 80%;
   ul {
     padding-left: 22px;
     li {
