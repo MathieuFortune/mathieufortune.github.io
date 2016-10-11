@@ -14,7 +14,7 @@ The 7th of April 2016, the montly Montpellier FLUPA's MeetUp taked place in 1001
 
 It follow a proposition I sent to FLUPA managers. The idea was to plan users testings workshops where everybody can bring and present his products in order to be tested by meet-up's participants.
 
-Around 50 people were present. Finnaly, only 1001pharmacies.com's products were tested becaune no one have an another product to show.
+Around 50 people were present. Finnaly, only 1001pharmacies.com's products were tested because no one have an another product to show.
 
 This meet-up was co-organized with Amanda Martinez (Wonderful Digital), Chloé Pellen (Tabmo Engineering) and myself.
 
@@ -36,7 +36,7 @@ I was inspired and help by methods from Carine Lallemand's book 'Méthode de des
 
 3 test were choosen to allow participants experiment the first MVP (minimum viable product) iteration of the 1001pharmacies.com funnel.
 
-These tests were held by 3 people with one computer. An interviewer, an interviewed and an observer.
+These tests were held by 3 people with one computer. An interviewer, an interviewee and an observer.
 
 The first test consisted in better know people who were tested with a mini exploratory survey.
 
