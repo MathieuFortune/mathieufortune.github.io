@@ -7,8 +7,8 @@
   "about": {
     "title": "About",
     "desc": "Active member of the project’s teams I’m linked to, I make the connection between graphic design and front-end development.
-            User interface design (Sketch, Photoshop, Invision), leading user tests and coding modern HTML5, SASS/LESS, Javascript of desktop and mobile web applications are my main skills.
-            Everyday, I identify, search and resolve problems with a LEAN approach, by working with Agile methods (Scrum, Kanban, Extreme Programming).
+            User interface design, leading user tests and coding modern HTML5, SASS/LESS, Javascript of desktop and mobile web applications are my main skills.
+            Everyday, I identify, search and resolve problems with a LEAN approach, by working with Agile methods.
             I’m passionate by my job and I love to share it with my co-workers, constantly learning and experiencing new things.
             I’m also an active contributor of meetups and events that allow to share and promote the UX/UI Design and Front-End Development jobs.
             ",
@@ -103,14 +103,11 @@
         "HTML5",
         "CSS3",
         "LESS & Sass",
-        "Bootstrap",
-        "Foundation",
         "Javascript",
         "jQuery",
         "Meteor",
         "Bower",
         "Gulp",
-        "PostCSS",
         "WebPack",
         "Jekyll",
         "MVC Framework",
@@ -119,11 +116,11 @@
     {
       "title": "Front-end Practices",
       "list": [
-        "Cross-browser Awareness",
+        "Cross-browser",
         "Progressive Enhancement",
         "W3C & WCAG",
         "ITCSS",
-        "A/B Testing",
+        "A/B Tests",
         "OpQuast Web Quality",
         "Accessibility",
         "Feature Detection",
@@ -138,6 +135,7 @@
       "list": [
         "Sketch",
         "Adobe CC",
+        "Invision",
         "Design Thinking",
         "UX Design Methods",
         "Atomic Web Design",
