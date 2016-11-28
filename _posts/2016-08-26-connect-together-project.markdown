@@ -1,17 +1,32 @@
 ---
 layout: post
-title:  "Connect Together Social Network"
+title:  "Connect Together Social Network - case study"
+image: "/images/connect-together-cover.jpg"
 date:   2016-08-26 12:00:00 +0200
 author: Mathieu Fortune
-theme: Front-End Development
+theme: Case studies
 
 ---
 
-## Overview
+{:.table__case-study}
+| Client            | Connect Together |
+| Project           | Connect Together website development |
+| Project date      | Summer 2012 |
+| Project duration  | 12 months |
+| Project URL       | [http://www.connecttogether.com/](http://www.connecttogether.com/ "Project URL") |
+| Role              | Front-end developer & UI Designer |
+| Responsabilities  | Front-end developement and UI design of Connect Together's website. A social network/fundraising platform for NGO and charities |
+| Technologies used | HTML5, CSS3, jQuery, Modernizr, TweenMax |
+| Library/Framework | Home made PHP CMS |
 
-<figure markdown="1" class="text-center">
-![Connect Together cover](/images/connect-together-cover.jpg "Cover article connect together")
-</figure>
+
+## Background
+
+<div class="large">
+  <figure markdown="1" class="text-center">
+  ![Connect Together cover](/images/connect-together-cover.jpg "Cover article connect together")
+  </figure>
+</div>
 
 Connect Together is a social network connecting Charities-Non Profit Organisations and Non Governmental Organisations to potential donors and create a community for people who care about the same causes.
 
@@ -26,13 +41,11 @@ Different features were developed for this application :
 * Application IOs/Android
 
 
-Visit the [website](http://www.connecttogether.com// "Visit Connect Together website")
-
 ## Missions
 
-This project begun in 2012. I've participated to it for 12 months from the v.0 to the v3.2 as Front-End Developer and Web Designer back up. I worked in collaboration with a Back-End Developer and a lead Web Designer.
+This project begun in 2012. I've participated to it for 12 months from the v.0 to the v3.2 as Front-End Developer and UI Designer back up. I worked in collaboration with a Back-End Developer and a lead UI Designer.
 
-Our client created this social network to fullfill needs coming from NGOs. In order to answer as precise as possible these needs, we developped in an iterative mode each module's feature in order to allow them to be tested by our client along the developpement process.
+Our client created this social network to fullfill needs coming from NGOs. In order to answer as precise as possible these needs, we developped in an iterative approach each module's feature in order to allow them to be tested by our client along the developpement process.
 
 This approach was a challenge for the team because we had to maintain great communication and frequently re-code parts of the project with minimum technical debt.
 
@@ -54,11 +67,13 @@ I was daily:
 I also was led to create from scratched some interfaces, coded them and created all interactions like this one present on the home page :
 
 <figure markdown="1" class="text-center">
-![Connect Together screenshot](/images/connect-together-screenshot.jpg "Connect together feature screenshot")
+<a href="http://www.connecttogether.com/" title="Connect Together scrolling feature">
+  ![Connect Together screenshot](/images/connect-together-screenshot.jpg "Connect together feature screenshot")
+</a>
 </figure>
 
 
-## Technical specs
+## Technical details
 
 This website was powered by a property MVC PHP framework.
 

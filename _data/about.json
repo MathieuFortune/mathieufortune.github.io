@@ -20,21 +20,21 @@
       "name": "1001Pharmacies.com",
       "period": "From December 2015 to now",
       "desc": "Currently working on a user centric redesign of the e-commerce website as Front-End Developper and also Ux/UI Designer",
-      "skills": "HTML5, CSS3, Sass, ITCSS, Sketch, Javascript, Symfony 2, Design Thinking, Scrum, Lean UX, Git, Webpack"
+      "skills": "HTML5, CSS3, Sass, Sketch, Javascript, Webpack, Symfony 2, Design Thinking, Scrum, Lean UX, Git"
     },
     {
       "title": "Front-End Developer",
       "name": "1001Pharmacies.com",
       "period": "From January 2015 to December 2015 ( 9 months )",
       "desc": "In charge of Front-End Development of 1001Pharmacies.com's front applications such as responsive newsletters and landings. Also on e-commerce website maintenance.",
-      "skills": "HTML5, CSS3, Less, Javascript, Fundation, Bootstrap, Photoshop, Symfony 2, Git, Gulp"
+      "skills": "HTML5, CSS3, Less, Javascript, Gulp, Fundation, Bootstrap 3, Photoshop, Symfony 2, Git"
     },
     {
       "title": "Front-End Developer",
       "name": "Publika",
       "period": "From January 2012 to January 2015 ( 3 years )",
       "desc": "Front-end Development of client's websites in various industries (e-commerce, corporate, landings, social network, ...) and differents technos (CMS, Custom MVC framework, ...)",
-      "skills": "HTML5, CSS3, Less, jQuery, Bootstrap, Adobe CC, MVC, SQL, PHP, Git"
+      "skills": "HTML5, CSS3, Less, jQuery, Bootstrap 3, Adobe CC, MVC, SQL, PHP, Git"
     }
   ],
   "i_have_heading": "I have",
@@ -59,6 +59,7 @@
   "events_heading": "Events",
   "events": [
     "Co-organizer and speaker at [UX FLUPA MeetUp](http://www.meetup.com/fr-FR/FLUPA-Montpellier/events/229582597/){: target='_blank'} place at 1001pharmacies - 2015 April",
+    "Participant at [SmashingConf Barcelona 2016](https://smashingconf.com/barcelona-2016/){: target='_blank'} Barcelona, Spain",
     "Participant at [BlendWebMix 2015](http://www.blendwebmix.com/){: target='_blank'} Lyon, France",
     "Participant at lightning talks taking place at business incubator Cap Oméga Montpellier, France",
   ],
@@ -119,7 +120,6 @@
         "Cross-browser",
         "Progressive Enhancement",
         "W3C & WCAG",
-        "ITCSS",
         "A/B Tests",
         "OpQuast Web Quality",
         "Accessibility",
@@ -133,9 +133,10 @@
     {
       "title": "Design",
       "list": [
-        "Sketch",
+        "SketchApp",
         "Adobe CC",
         "Invision",
+        "MarvelApp",
         "Design Thinking",
         "UX Design Methods",
         "Atomic Web Design",
@@ -157,23 +158,23 @@
   "projects_heading": "Projects",
   "projects": [
     {
-      "title": "Product Catalog overhaul project",
+      "title": "Product Catalog re-design project",
       "description": "This project intended to re-design and develop the catalog (search, find and buy a product) of 1001pharmacies e-commerce website",
       "results": "This project is in work in progress",
       "list": [
         "Sketch project UI (Sketch)",
         "Design project's user experience",
         "Develop with HTML5/CSS3/JS",
-        "Sass with ITCSS pattern",
+        "Sass with ITCSS and Atomic pattern",
         "Symfony 2.8 project",
         "Assets treatment with Webpack and PostCss",
         "LEAN UX approach and Scrum methods"
       ]
     },
     {
-      "title": "Checkout process overhaul project",
+      "title": "Checkout process re-design project",
       "description": "This project intended to re-design and develop the checkout process (cart, delivery, payment of an order) of 1001pharmacies e-commerce website",
-      "results": "+5% increase on the cart transformation rate. Significantly improve user experience trough the entire checkout process",
+      "results": "Increase on cart transformation rate. Significantly improve user experience trough the entire checkout process",
       "list": [
         "Sketch project UI (Sketch)",
         "Design project's user experience",
@@ -239,9 +240,9 @@
       "description": "Several side projects to test new technologies for work and also for fun :)",
       "results": "",
       "list": [
+        "Design and develop my personal website with Jekyll and Sass",
         "Co-develop 'career' website of the company in Meteor + Angular2",
-        "Co-develop a front assets bootstrapping tool with Gulp",
-        "Design and develop my personal website with Jekyll and Sass"
+        "Co-develop a front assets bootstrapping tool with Gulp"
       ]
     },
   ]

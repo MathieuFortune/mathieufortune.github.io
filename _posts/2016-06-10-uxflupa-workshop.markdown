@@ -1,14 +1,22 @@
 ---
 layout: post
 title:  "UX Workshops co-organized with FLUPA and 1001pharmacies.com"
+image: "/images/flupa-photos-1.jpg"
 date:   2016-06-10 15:59:00 +0200
 author: Mathieu Fortune
-theme: UX Design
+theme: Article
 
 ---
 
-
 ## Overview
+
+<figure markdown="1" class="text-center">
+![Picture of UX FLUPA Workshop](/images/flupa-photos-1.jpg "Picture of Ux FLUPA Workshop")
+<figcaption>
+  Picture of UX FLUPA Workshop
+</figcaption>
+{: .text-center}
+</figure>
 
 The 7th of April 2016, the montly Montpellier FLUPA's MeetUp taked place in 1001pharmacies.com offices.
 
@@ -19,15 +27,6 @@ Around 50 people were present. Finnaly, only 1001pharmacies.com's products were 
 This meet-up was co-organized with Amanda Martinez (Wonderful Digital), Chloé Pellen (Tabmo Engineering) and myself.
 
 I was in charge of planning, logistic and animation of the differents workshops.
-
-
-<figure markdown="1" class="text-center">
-![Picture of UX FLUPA Workshop](/images/flupa-photos-1.jpg "Picture of Ux FLUPA Workshop")
-<figcaption>
-  Picture of UX FLUPA Workshop
-</figcaption>
-{: .text-center}
-</figure>
 
 
 ## Progress
@@ -84,7 +83,7 @@ For 1001pharmacies, feedbacks were very positive, and it allow us to confirmed o
 Integration of exploratory surveys feedback's into a google form to better visualize data.
 
 <figure markdown="1" class="text-center">
-![Survey results UX FLUPA Workshop](/images/flupa-google-form-results.jpg "Survey results UX FLUPA Workshop")
+ ![Survey results UX FLUPA Workshop](/images/flupa-google-form-results.jpg "Survey results UX FLUPA Workshop"){:.bordered}
 <figcaption>
   Survey results UX FLUPA Workshop
 </figcaption>
@@ -119,7 +118,7 @@ We can see from the charts below that values of attractiveness and pragmatism ar
 ### AttrakDiff in lines
 
 <figure markdown="1" class="text-center">
-![AttrakDiff results UX FLUPA Workshop](/images/flupa-attrakdiff-lines.png "AttrakDiff results UX FLUPA Workshop")
+![AttrakDiff results UX FLUPA Workshop](/images/flupa-attrakdiff-lines.png "AttrakDiff results UX FLUPA Workshop"){:.bordered}
 <figcaption>
   AttrakDiff in lines UX FLUPA Workshop
 </figcaption>
@@ -129,7 +128,7 @@ We can see from the charts below that values of attractiveness and pragmatism ar
 ### AttrakDiff in bars
 
 <figure markdown="1" class="text-center">
-![AttrakDiff results UX FLUPA Workshop](/images/flupa-attrakdiff-bars.png "AttrakDiff results UX FLUPA Workshop")
+![AttrakDiff results UX FLUPA Workshop](/images/flupa-attrakdiff-bars.png "AttrakDiff results UX FLUPA Workshop"){:.bordered}
 <figcaption>
   AttrakDiff in bars UX FLUPA Workshop
 </figcaption>
@@ -139,7 +138,7 @@ We can see from the charts below that values of attractiveness and pragmatism ar
 ### Results portofolio
 
 <figure markdown="1" class="text-center">
-![Portfolio results UX FLUPA Workshop](/images/flupa-results-portfolio.jpg "Portfolio results UX FLUPA Workshop")
+![Portfolio results UX FLUPA Workshop](/images/flupa-results-portfolio.jpg "Portfolio results UX FLUPA Workshop"){:.bordered}
 <figcaption>
   Portfolio results UX FLUPA Workshop
 </figcaption>
