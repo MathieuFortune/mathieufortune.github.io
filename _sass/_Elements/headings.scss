@@ -10,15 +10,6 @@ $heading-size-4:  $font-size-base !default;
 $heading-size-5:  $font-size--small !default;
 $heading-size-6:  $font-size--xsmall !default;
 
-$h1-font-sizes: (
-  null  : $heading-size-2,
-  $on-laptop : $heading-size-1
-);
-$h2-font-sizes: (
-  null  : $heading-size-3,
-  $on-laptop : $heading-size-2
-);
-
 h1,
 h2,
 h3,
@@ -26,14 +17,15 @@ h4,
 h5,
 h6 {
     font-weight: $base-font-weight;
+    font-family: $brand-font-family;
 }
 
 h1 {
-    @include font-size-responsive($h1-font-sizes);
+    @include font-size($heading-size-1);
 }
 
 h2 {
-    @include font-size-responsive($h2-font-sizes);
+    @include font-size($heading-size-2);
 }
 
 h3 {

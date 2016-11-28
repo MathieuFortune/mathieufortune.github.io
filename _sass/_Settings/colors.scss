@@ -2,11 +2,12 @@
     #COLOR SETTINGS
 \*------------------------------------*/
 
-$text-color:       #444;
+$text-color:       #111;
 $background-color: #fff;
+$white-color:      #fff;
 
-$brand-color:      #f87420;
-$brand-color-light: lighten($brand-color, 15%);
+$brand-color:      #ff6e5d;
+$brand-color-light: lighten($brand-color, 10%);
 
 $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);

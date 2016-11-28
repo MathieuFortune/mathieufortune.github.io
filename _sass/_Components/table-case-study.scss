@@ -1,0 +1,22 @@
+/*------------------------------------*\
+    #CASE STUDY TABLE COMPONENT
+\*------------------------------------*/
+
+
+.table__case-study {
+  margin-bottom: 2rem;
+
+  tr {
+    &:nth-of-type(odd) {
+      background-color: $grey-color-light;
+    }
+  }
+
+  td {
+    padding: .315rem .625rem;
+
+    &:first-of-type {
+      font-weight: bold;
+    }
+  }
+}

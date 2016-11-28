@@ -2,37 +2,47 @@
     #HEADINGS TRUMPS
 \*------------------------------------*/
 
-$uvp-font-sizes: (
-  null: 2,
-  $on-palm: 3.75
-);
-$uvp--hero-font-sizes: (
-  null: 2,
-  $on-palm: 6.8
-);
+$uvp-font-size-px: 30;
+$uvp-font-size-px--small: 60;
+$uvp-font-size-px--medium: 90;
+$uvp-font-size-px--hero: 108;
 
 %uvp-title {
     margin: 4.5rem 0;
-    font-weight: bold;
+    font-weight: 700;
     letter-spacing: -1px;
-    line-height: 2rem;
+    line-height: 1;
     @include media-query($on-palm, min-width) {
-        margin: 12.5rem 0;
+        margin: 10rem 0;
+    }
+
+    hr {
+      max-width: 8.75rem;
+      margin: 1.1rem 0 .5rem;
+      border: 2px solid $brand-color;
+      @include media-query($on-palm, min-width) {
+        margin: 2.8rem 0 1.5rem;
+        border: 5px solid $brand-color;
+      }
     }
 }
 
 .uvp-title {
     @extend %uvp-title;
-    @include font-size-responsive($uvp-font-sizes);
-    @include media-query($on-palm, min-width) {
-      line-height: 5rem;
 
+    &--small {
+        @extend %uvp-title;
+        @include fluid-typo($uvp-font-size-px, $uvp-font-size-px--small, $on-mobile-unitless, $on-laptop-unitless);
     }
+
+    &--medium {
+        @extend %uvp-title;
+        @include fluid-typo($uvp-font-size-px, $uvp-font-size-px--medium, $on-mobile-unitless, $on-laptop-unitless);
+    }
+
     &--hero {
         @extend %uvp-title;
-        @include font-size-responsive($uvp--hero-font-sizes);
-        @include media-query($on-palm, min-width) {
-            line-height: 6rem;
-        }
+        @include fluid-typo($uvp-font-size-px, $uvp-font-size-px--hero, $on-mobile-unitless, $on-laptop-unitless);
+        line-height: .9;
     }
 }

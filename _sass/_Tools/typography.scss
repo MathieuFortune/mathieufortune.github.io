@@ -3,7 +3,7 @@
 \*------------------------------------*/
 
 /**
- * Font-size REM to PX -- Deprecated
+ * Font-size REM to PX
  */
 @mixin font-size($sizeValue: 1) {
     font-size: ($sizeValue * $base-font-size);
@@ -11,19 +11,21 @@
 }
 
 /**
-* Font-size REM to PX with breakpoints map
+* Fluid line-height
 */
-@mixin font-size-responsive($fs-map) {
-  @each $fs-breakpoint, $fs-font-size in $fs-map {
-    @if $fs-breakpoint == null {
-      font-size: ($fs-font-size * $base-font-size);
-      font-size: $fs-font-size + rem;
+@mixin line-height($min-height, $max-height, $min-width, $max-width) {
+  line-height: calc(#{$min-height}em + (#{$max-height} - #{$min-height}) * ((100vw - #{$min-width}em) / (#{$max-width} - #{$min-width})));
+}
+
+/**
+* Fluid typography
+*/
+@mixin fluid-typo($min-font, $max-font, $min-viewport, $max-viewport) {
+    font-size: #{$min-font}px;
+    @media (min-width: #{$min-viewport}px) and (max-width: #{$max-viewport}px) {
+        font-size: calc(#{$min-font}px + (#{$max-font} - #{$min-font}) * ( (100vw - #{$min-viewport}px) / ( #{$max-viewport} - #{$min-viewport})));
     }
-    @else {
-      @media screen and (min-width: $fs-breakpoint) {
-        font-size: ($fs-font-size * $base-font-size);
-        font-size: $fs-font-size + rem;
-      }
+    @media (min-width: #{$max-viewport}px) {
+        font-size: #{$max-font}px;
     }
-  }
 }

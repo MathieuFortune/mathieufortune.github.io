@@ -1,10 +1,7 @@
 /*------------------------------------*\
-    #PAGE OBJECTS
+    #IMAGE MODIFIER TRUMPS
 \*------------------------------------*/
 
-.page-heading {
-    @include font-size(1.25);
+.bordered {
+  border: 10px solid $grey-color-light;
 }
-
-
-

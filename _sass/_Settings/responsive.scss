@@ -3,6 +3,16 @@
 \*------------------------------------*/
 
 // Width of the content area
-$content-width:    1170px;
-$on-palm:          600px;
-$on-laptop:        940px;
+$content-width:      1170px;
+
+/* phones */
+$on-mobile:            480px;
+$on-mobile-unitless:   480;
+
+/* tablets */
+$on-palm:            601px;
+$on-palm-unitless:   601;
+
+/* desktop */
+$on-laptop:          940px;
+$on-laptop-unitless: 940;
