@@ -6,11 +6,10 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: Mathieu Fortune [BETA]
+title: Mathieu Fortune
 email: pro.mathieu.fortune@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  Mathieu Fortune - Front-End Developer & UX/UI Designer sharing his passions by working between humans on interesting projects.
-  This website is still in development and will be update frequently. It's built with Jekyll, Sass and love <3. Sources on GitHub
+  Mathieu Fortune - Front-End Developer & UX/UI Designer sharing his passions by working between humans on interesting projects. It's built with Jekyll, Sass and love <3. Sources on GitHub
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://mathieufortune.github.com" # the base hostname & protocol for your site
 twitter_username: MsterMF
