@@ -7,7 +7,7 @@ type: about
 ---
 
 # {{ site.data.about.uvp_title }}
-{: .uvp-title .no-print}
+{: .uvp-title--small .no-print}
 
 <div class="only-print">
   <h1 class="uvp-title text-center">
@@ -16,7 +16,7 @@ type: about
   <h3 class="text-center">
     {{ site.data.about.cv.desc }}
   </h3>
-  <p class="text-center emphase text-large">
+  <p class="emphase text-medium">
     {{ site.data.about.uvp_title | strip_html }}
   </p>
 </div>
@@ -65,7 +65,7 @@ type: about
 </div>
 </section>
 
-<section class="row only-print">
+<!-- <section class="row only-print">
 <div class="section-title" markdown="1">
 ## {{ site.data.about.hire_me_heading }}
 </div>
@@ -73,7 +73,7 @@ type: about
 * Look at my [personal website](https://mathieufortune.github.io){: target="_blank"} {% for link in site.data.about.hire_me %}
 * {{ link }}{% endfor %}
 </div>
-</section>
+</section> -->
 
 </div><!-- /layout-print--8 -->
 <div class="layout-print--4 aside-print">
@@ -99,7 +99,7 @@ type: about
 </section>
 
 </div><!-- /layout-print--4 -->
-<div class="clearfix"></div>
+<div class="clearfix page-break"></div>
 
 <section class="row">
 <div class="section-title" markdown="1">
@@ -170,10 +170,10 @@ _{{ projects.description }}_
 </div>
 </section>
 
-<div class="print-me no-print">
-  <button onclick="window.print(); return false;" class="btn--default btn--large"><span class="icon icon--printer">{% include icon-printer.svg %}</span> <small>Print me</small></button>
+<div class="print-it no-print">
+  <button onclick="window.print(); return false;" class="btn--default btn--large"><span class="icon icon--printer">{% include icon-printer.svg %}</span> <small>Print it</small></button>
 </div>
 
 <p class="text-center no-print">
-  <a href="/" title="Go Back" class="bold">Go Back</a>
+  <a href="/" title="Go back to home page" class="bold">Go back to home page</a>
 </p>
