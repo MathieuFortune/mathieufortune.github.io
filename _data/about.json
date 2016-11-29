@@ -208,7 +208,7 @@
       ]
     },
     {
-      "title": "i18n Ready project",
+      "title": "i18n + Responsive Ready project",
       "description": "In order to prepare 1001pharmacies's website to be i18n ready, I worked on twig templates and translation files on Symfony 2. I also use this project to move the pages responsive ready",
       "results": "My work on the responsive ready optimization increase by +20% the mobile traffic part on the website. Loading time of these pages was 1.5 time faster than before moving them",
       "list": [
