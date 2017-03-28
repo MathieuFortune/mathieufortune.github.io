@@ -1,0 +1,196 @@
+uvp_title: Partager nos passions<br/> en travaillant entre humains<br/> sur des projets éthiques et intéressants
+
+print_it: Télécharger
+
+cv:
+  title: Mathieu Fortune
+  desc: |
+    Front-End Dev & UI/UX Designer avec +5 ans d'expérience à la recherche de nouveaux challenges à l'international
+    <br/>Envoyez-moi un email à <strong>pro.mathieu.fortune@gmail.com</strong>
+
+about:
+  title: À propos
+  desc: |
+    Membre actif des équipes projets auxquels je suis rattaché, je fais le pont entre le design et le front-end development.
+
+experience_heading: Expériences
+experiences:
+  - title: Front-End Developer & UX/UI Designer
+    name: 1001Pharmacies.com
+    period: De Décembre 2015 à Janvier 2017 (1 an et 1 mois)
+    desc: En charge de la refonte du site e-commerce avec une approche centrée utilisateur en tant que Front-end Developer et UX/UI Designer.
+    skills: HTML5, CSS3, Sass, Sketch, Javascript, Webpack, Symfony 2, Design Thinking, Scrum, Lean UX, Git
+  - title: Front-End Developer
+    name: 1001Pharmacies.com
+    period: De Janvier 2015 à Décembre 2015 ( 1 an )
+    desc: En charge du développement Front-end des différentes applications de 1001pharmacies tels que les newsletters et landings responsive ou encore la maintenance du site web principal.
+    skills: HTML5, CSS3, Less, Javascript, Gulp, Fundation, Bootstrap 3, Photoshop, Symfony 2, Git
+  - title: Front-End Developer
+    name: Publika
+    period: De Janvier 2012 à Janvier 2015 ( 3 ans )
+    desc: Développement Front-end des sites webs clients de diverses secteurs (e-commerce, corporate, landings, social network, ...) sur différentes technos (CMS, Framework MCV PHP custom, Applis mobile ...).
+    skills: HTML5, CSS3, Less, jQuery, jQueryMobile, Bootstrap 3, Adobe CC, MVC, SQL, PHP, Git
+
+i_have_heading: J'ai
+i_have:
+  - De la passion pour mon travail
+  - De bonnes compétences en communication et collaboration
+  - Beaucoup de motivation à travailler autant individuellement qu'en équipe
+  - Une attitude positive avec une vision pragmatique et hédonique
+  - De l'expertise en HTML,CSS et Javascript
+  - De l'expérience en responsive web design, compatibilité cross-browser et résolution de problèmes
+  - La capacité de mener des tests d'utilisabilité et des interviews d'utilisateurs
+  - Un attrait particulier pour les théories du design et de la typographie web
+  - De l'expérience dans une start-up à succès du e-commerce
+  - Déjà travailler en agence web
+
+hire_me_heading: Recrutez-moi
+hire_me:
+  - Retrouvez-moi sur <a href="https://fr.linkedin.com/in/mathieu-fortune-220268101" target="_blank">Linkedin</a>
+  - Jetez un oeil à mon <a href="https://github.com/MathieuFortune" target="_blank">GitHub</a>
+  - Envoyez-moi un email à <a href="mailto:pro.mathieu.fortune@gmail.com" target="_blank">pro.mathieu.fortune@gmail.com</a>
+
+events_heading: Événements
+events:
+  - Co-organisateur et speaker <a href="http://www.meetup.com/fr-FR/FLUPA-Montpellier/events/229582597/" target="_blank">UX FLUPA MeetUp</a> à 1001pharmacies - 2015 Avril
+  - Assisté à <a href="https://smashingconf.com/barcelona-2016/" target="_blank">SmashingConf Barcelona 2016</a> Barcelone, Espagne
+  - Assisté à <a href="http://www.blendwebmix.com/" target="_blank">BlendWebMix 2015</a> Lyon, France
+  - Assisté aux lightning talks prenant place au business incubator Cap Oméga Montpellier, France
+                    
+trainings_heading: Formations
+trainings:
+  - title: Lean Startup et Running Lean
+    name: avec <a href="http://scopyleft.fr/" target="_blank">Stéphane Langlois</a>
+    period: De Janvier 2016 à Février 2016
+    desc: Différents ateliers autour du Lean Startup et du Running Lean. Comment mener des interviews problèmes, lean canvas, approche lean des choses
+  - title: Méthode Kanban
+    name: avec <a href="http://www.areyouagile.com/">Pablo Pernot</a>
+    period: une journée (2015)
+    desc: Ateliers autour de la méthode Kanban. Construire et maintenir un Kanban projet/d'entreprise afin de montrer la réalité
+  - title: Growth Hacking
+    name: avec <a href="http://www.thefamily.co/">Koudetah TheFamily</a>
+    period: De Mars 2015 à Mai 2015
+    desc: Cours de Koudetat autour des techniques de Growth hacking suivis en live streaming durant 3 mois
+  - title: Formation Webdesigner/Intégrateur Web
+    name: à <a href="http://www.objectif3w.com/">Objectif3D School</a>
+    period: Une année (2011)
+    desc: Apprentissage des bases du Webdesign et du Front-end development durant un an à l'école Objectif3D
+  - title: Sciences économique et sociales
+    name: au lycée Albert Camus Nîmes, France
+    period: De 2008 à 2010
+    desc: Diplôme Bac général obtenu avec mention AB
+
+skills_heading: Compétences
+skills:
+  - title: Front-end
+    list:
+      - HTML5
+      - CSS3
+      - LESS & Sass
+      - Javascript
+      - jQuery
+      - Meteor
+      - Bower
+      - Gulp
+      - WebPack
+      - Jekyll
+      - MVC Framework
+  - title: Front-end Practices
+    list:
+      - Cross-browser
+      - Progressive Enhancement
+      - W3C & WCAG
+      - A/B Tests
+      - OpQuast Web Quality
+      - Accessibility
+      - Feature Detection
+      - Mobile First
+      - RWD
+      - SEO
+      - Performance
+  - title: Design
+    list:
+      - SketchApp
+      - Adobe CC
+      - Invision
+      - MarvelApp
+      - Design Thinking
+      - UX Design Methods
+      - Atomic Web Design
+  - title: Methodologies & Principles
+    list:
+      - Git
+      - Agile
+      - Scrum
+      - Lean UX
+      - Kanban
+      - Running lean
+
+projects_heading: Projets
+project_my_roles: Mes rôles sur ce projet
+project_results: Résultats
+projects:
+  - title: Refonte du front catalogue
+    description: Ce projet avait pour but de refondre la partie front du catalogue du site e-commerce 1001pharmacies.com (rechercher, trouver et acheter un produit)
+    results: Le projet est actuellement en phase de BETA ouverte.
+    list:
+      - Sketch de l'UI (Sketch)
+      - Conception de l'expérience utilisateur
+      - Développement avec HTML5/CSS3/JS
+      - Sass avec les patterns ITCSS et Atomic
+      - Symfony 2.8
+      - Traitement des assets avec Webpack et PostCSS
+      - Approche LEAN UX et utilisation du Scrum
+  - title: Refonte du tunnel de commande
+    description: Ce projet avait pour but de refondre le tunnel de commande du site e-commerce 1001pharmacies.com (panier, livraison, paiement)
+    results: Augmentation du taux de conversion du panier. Amélioration significative de l'expérience utilisateur dans tout le processus de commande.
+    list:
+      - Sketch de l'UI (Sketch)
+      - Conception de l'expérience utilisateur
+      - Développement avec HTML5/CSS3/JS
+      - Bootstrap 3 avec LESS
+      - Symfony 2.8
+      - Traitement des assets avec Gulp
+      - Approche LEAN UX et utilisation du Scrum
+  - title: Recherches UX sur le tunnel de commande
+    description: Afin d'améliorer le processus d'achat sur 1001pharmacies.com, j'ai effectué des recherches UX afin de mieux connaître et comprendre le comportement des utilsateurs
+    results: Grâce aux retours des tests utilisateurs, j'ai améliorer le workflow créatif des équipes projets tout en démocratisant la connaissance des méthodes de test utilisateurs dans l'entreprise.
+    list:
+      - Analyse des tests utilisateurs
+      - Test d'utilisabilité (AttrakDiff)
+      - Mise en place d'A/B tests et des métriques UX
+      - Mesure de retours utilisateurs
+  - title: UX designer sur différents projets
+    description: En tant que UX designer référent ches 1001pharmacies.com, j'aidé les products owners dans leurs missions
+    results: ''
+    list:
+      - Construction des user stories
+      - Création des personas
+      - Création de task flows, uses cases et scenarios
+      - Conduite d'atelier UX tels que le Design Studio, le Focus Group afin d'améliorer le processus d'idéation
+  - title: i18n + Responsive Ready
+    description: Dans l'optique de préparer le site 1001pharmacies.com à l'international, j'ai travaillé sur les templates twig et les fichiers de traduction de Symfony 2. Ce projet avait également pour but de passer progressivement le site en responsive ready
+    results: Mes travaux sur le responsive ont permis une augmentation de +20% de la part du traffic mobile du site. Le temps de chargement des pages est devenu 1.5 plus rapide qu'avant la conversion.
+    list:
+      - Développement d'une fonctionnalité i18n ready sur Symfony 2
+      - Refonte complète des templates de pages
+      - Conversion des pages pour être mobile friendly en utilisant les techniques du responsive web design
+  - title: Outils marketing
+    description: Afin de fluidifier le travail des équipes marketing, j'ai été amené à concevoir et développer les newsletter et landings page responsive de l'entreprise
+    results: Avec ces nouveaux outils, l'équipe marketing a pu obtenir un gain du taux de conversion ainsi que du temps de set-up de chacunes des campagnes mises en place. Cela a permis aussi d'améliorer la connaissance du développement front-end des collègues.
+    list:
+      - Conception et développement des templates de newsletter responsive (Ink framework de Fundation)
+      - Conception et développement des landings auto-générées avec Jekyll
+  - title: Événements et conférences
+    description: J'adore le partage de connaissance avec les gens et participer à des activités de la communauté web
+    results: ''
+    list:
+      - Animation de lightning talks afin de populariser les concepts dév au reste de l'entreprise
+      - Participer et animer des ateliers UX au cours de MeetUp
+  - title: Side projects
+    description: Différents side projects pour tester de nouvelles technologies pour le travail et pour le fun :)
+    results: ''
+    list:
+      - Conception et développement de mon site personnel avec Jekyll et Sass
+      - Co-developpement du site "carrière" de 1001pharmaices avec Meteor + Angular2
+      - Développement d'un micro générateur d'assets front avec Gulp

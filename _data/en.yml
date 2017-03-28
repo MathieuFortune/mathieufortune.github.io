@@ -1,0 +1,11 @@
+hero:
+  title: Welcome folks !
+  job_line_1: Front-end developer
+  job_line_2: "& UX designer"
+  
+post:
+  title: Discover my works
+
+footer:
+  email_title: Get in touch with me
+  back_home: Go back to home page

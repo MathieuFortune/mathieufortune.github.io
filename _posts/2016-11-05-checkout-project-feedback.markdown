@@ -3,6 +3,8 @@ layout: post
 title:  "How we redesign the checkout process at 1001pharmacies.com"
 image: "/images/case-study-checkout-preview.jpg"
 date:   2016-11-24 13:45:01 +0200
+lang: en
+ref: checkout-project
 author: Mathieu Fortune
 theme: Case studies
 

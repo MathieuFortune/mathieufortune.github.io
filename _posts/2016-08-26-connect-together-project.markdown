@@ -3,6 +3,8 @@ layout: post
 title:  "Connect Together Social Network - case study"
 image: "/images/connect-together-cover.jpg"
 date:   2016-08-26 12:00:00 +0200
+lang: en
+ref: connect-together
 author: Mathieu Fortune
 theme: Case studies
 

@@ -5,7 +5,7 @@
     <div class="footer-col-wrapper">
       <div class="footer-col footer-col-1">
         <ul class="contact-list">
-          <li>Send me an email</li>
+          <li>{{ site.data[page.lang].footer.email_title | escape }}</li>
           <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
         </ul>
       </div>
@@ -27,7 +27,7 @@
       </div>
 
       <div class="footer-col footer-col-3">
-        <p>{{ site.description }}</p>
+        <p>{{ site.description[page.lang] | escape }}</p>
       </div>
     </div>
 

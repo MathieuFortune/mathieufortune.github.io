@@ -7,9 +7,7 @@
   bottom: 50%;
   right: 5px;
   transition: all 100ms;
-  transform: translate(60%, 0);
-  -webkit-transition: all 100ms;
-  -webkit-transform: translate(60%, 0);
+  transform: translate(70%, 0);
   background-color: #FFF;
 
   svg {
@@ -28,8 +26,6 @@
   &:hover {
     transition: all 200ms;
     transform: translate(0, 0);
-    -webkit-transition: all 200ms;
-    -webkit-transform: translate(0, 0);
   }
 }
 

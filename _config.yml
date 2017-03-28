@@ -6,18 +6,40 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: Mathieu Fortune
+title: 
+  en: Mathieu Fortune
+  fr: Mathieu Fortune
 email: pro.mathieu.fortune@gmail.com
-description: > # this means to ignore newlines until "baseurl:"
-  Mathieu Fortune - Front-End Developer & UX/UI Designer sharing his passions by working between humans on interesting projects. It's built with Jekyll, Sass and love <3. Sources on GitHub
+description:
+  en: Mathieu Fortune - Front-End Developer & UX/UI Designer sharing his passions by working between humans on interesting projects. Website built with Jekyll, Sass and love <3. Sources on GitHub
+  fr: Mathieu Fortune - Front-End Developer & UX/UI Designer partageant ses passions en travaillant sur entre humains sur des projets intéressant. Site web monté avec Jekyll, Sass et amour <3. Sources sur GitHub
+index:
+  en:
+  fr: accueil.html
+feed:
+  en: /feed.xml
+  fr: /flux.xml
+feed_description: Mathieu Fortune - Front-End Developer & UX/UI Designer sharing his passions by working between humans on interesting projects. # RSS feed site description
+logo: /images/logo.png
+
+rss_path: feed.xml
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://mathieufortune.github.com" # the base hostname & protocol for your site
+url: "http://mathieufortune.github.com" # the base hostname & protocol for your site, e.g. http://example.com
+permalink: none
+
 twitter_username: MsterMF
 github_username:  MathieuFortune
-feed_description: Mathieu Fortune - Front-End Developer & UX/UI Designer sharing his passions by working between humans on interesting projects. # RSS feed site description
-rss_path: feed.xml
+
+google_analytics: UA-78886688-1
 
 # Build settings
 markdown: kramdown
-sass:
-    style: compressed
+# theme: minima
+gems:
+  - jekyll-feed
+exclude:
+  - Gemfile
+  - Gemfile.lock
+
+#sass:
+style: compressed

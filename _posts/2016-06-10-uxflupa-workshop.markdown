@@ -3,9 +3,10 @@ layout: post
 title:  "UX Workshops co-organized with FLUPA and 1001pharmacies.com"
 image: "/images/flupa-photos-1.jpg"
 date:   2016-06-10 15:59:00 +0200
+lang: en
+ref: uxflupa-workshop
 author: Mathieu Fortune
 theme: Article
-
 ---
 
 ## Overview

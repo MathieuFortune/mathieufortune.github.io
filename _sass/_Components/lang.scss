@@ -1,0 +1,26 @@
+/*------------------------------------*\
+    #LANG COMPONENTS
+\*------------------------------------*/
+
+.lang {
+  @include font-size(.9);
+  text-transform: uppercase;
+
+  @include media-query($on-palm) {
+    padding: 0 10px;
+  }
+
+  .separator {
+    @include font-size(.6);
+  }
+
+  .en:lang(en),
+  .fr:lang(fr){
+    font-weight: 700;
+  }
+
+  a {
+    color: $text-color;
+  }
+
+}

@@ -1,0 +1,11 @@
+hero:
+  title: Hello World !
+  job_line_1: Front-end developer
+  job_line_2: "& UX designer"
+
+post:
+  title: Découvrez mes travaux
+
+footer:
+  email_title: Restez en contact avec moi
+  back_home: Revenir à l'accueil
