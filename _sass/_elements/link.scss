@@ -9,14 +9,14 @@ a {
   }
 
   &:hover {
-    color: darken($color--link, 5);
+    color: darken($color--link, 5%);
   }
 }
 
 %link-main {
   a {
     padding: 0 .2em;
-    border-bottom: 1px dashed lighten($color--link, 15);
+    border-bottom: 1px dashed lighten($color--link, 15%);
 
     &:hover {
       color: $color--white;
