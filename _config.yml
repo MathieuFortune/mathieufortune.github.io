@@ -57,6 +57,4 @@ exclude:
   - Gemfile.lock
 
 #sass:
-sass:
-  sass_dir: ./_sass
 style: compressed
