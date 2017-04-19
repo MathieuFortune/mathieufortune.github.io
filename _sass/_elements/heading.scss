@@ -1,0 +1,35 @@
+// Heading elemnt
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  @extend %vertical-rhythm;
+  @extend %clearfix;
+  @extend %font-main;
+}
+
+h1 {
+  @include font-size($font-size--huge);
+}
+
+h2 {
+  @include font-size($font-size--xlarge);
+}
+
+h3 {
+  @include font-size($font-size--large);
+}
+
+h4 {
+  @include font-size($font-size--medium);
+}
+
+h5 {
+  @include font-size($font-size--base);
+}
+
+h6 {
+  @include font-size($font-size--small);
+}

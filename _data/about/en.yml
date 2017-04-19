@@ -1,4 +1,4 @@
-uvp_title: Share our passions<br/> by working between humans<br/> on ethical and interesting projects
+intro_title: Share our passions<br/> by working between humans<br/> on ethical and interesting projects
 
 print_it: Download
 
@@ -45,10 +45,11 @@ i_have:
   - Experience in web digital agency
 
 hire_me_heading: Hire me
+hire_me_mailto: mailto:pro.mathieu.fortune@gmail.com?subject=Hello I want to hire you !&amp;body=Hi Mathieu, I was looking to hire someone like you for...
 hire_me:
-  - Find me on <a href="https://fr.linkedin.com/in/mathieu-fortune-220268101" target="_blank">Linkedin</a>
-  - Take a view on my <a href="https://github.com/MathieuFortune" target="_blank">GitHub</a>
-  - Send me an email at <a href="mailto:pro.mathieu.fortune@gmail.com" target="_blank">pro.mathieu.fortune@gmail.com</a>
+  - <a href="https://fr.linkedin.com/in/mathieu-fortune-220268101" target="_blank">Linkedin</a>
+  - <a href="https://github.com/MathieuFortune" target="_blank">GitHub</a>
+  - <a href="mailto:pro.mathieu.fortune@gmail.com" target="_blank">Hire me</a>
 
 events_heading: Events
 events:

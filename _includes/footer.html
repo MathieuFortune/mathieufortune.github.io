@@ -1,35 +1,9 @@
-<footer class="site-footer no-print">
+<footer class="site-footer no-print" role="contentinfo">
 
-  <div class="wrapper">
+    {% include social-list.html %}
 
-    <div class="footer-col-wrapper">
-      <div class="footer-col footer-col-1">
-        <ul class="contact-list">
-          <li>{{ site.data[page.lang].footer.email_title | escape }}</li>
-          <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-        </ul>
-      </div>
+    <p class="text-center">
+    &copy; Mathieu Fortune 2016 - {{ site.time | date: '%Y' }}.<br/>
+    {{ site.made_with[page.lang] }} <a href="https://github.com/MathieuFortune/mathieufortune.github.io" target="_blank">sources</a></p>
 
-      <div class="footer-col footer-col-2">
-        <ul class="social-media-list">
-          {% if site.github_username %}
-          <li>
-            {% include icon-github.html username=site.github_username %}
-          </li>
-          {% endif %}
-
-          {% if site.twitter_username %}
-          <li>
-            {% include icon-twitter.html username=site.twitter_username %}
-          </li>
-          {% endif %}
-        </ul>
-      </div>
-
-      <div class="footer-col footer-col-3">
-        <p>{{ site.description[page.lang] | escape }}</p>
-      </div>
-    </div>
-
-  </div>
 </footer>

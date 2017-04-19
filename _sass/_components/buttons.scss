@@ -1,0 +1,78 @@
+// Buttons component
+
+.btn,
+%btn {
+  @extend %transition;
+  @include font-size($font-size--base);
+  display: inline-block;
+  padding: .375rem .75rem;
+  margin-bottom: 0;
+  line-height: 1;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  text-transform: uppercase;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-image: none;
+  border: 0;
+  outline: none;
+
+  svg {
+    width: 1em;
+    height: 1em;
+    vertical-align: bottom;
+
+    path {
+      fill: inherit;
+    }
+  }
+}
+
+.btn--link {
+  @extend %btn;
+  color: $color--main;
+  background-color: transparent;
+}
+
+.btn--default {
+  @extend %btn;
+  color: $color--main;
+  background-color: transparent;
+  border: 1px solid $color--main;
+
+  svg {
+    path {
+      fill: $color--main;
+    }
+  }
+
+  &:hover {
+    color: $color--white;
+    background-color: $color--main;
+
+    svg {
+      path {
+        fill: $color--white;
+      }
+    }
+
+  }
+}
+
+.btn--small {
+  @include font-size($font-size--small);
+}
+
+.btn--medium {
+  @include font-size($font-size--medium);
+}
+
+.btn--large {
+  @include font-size($font-size--large);
+}

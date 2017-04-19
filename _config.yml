@@ -22,6 +22,18 @@ feed:
 feed_description: Mathieu Fortune - Front-End Developer & UX/UI Designer sharing his passions by working between humans on interesting projects. # RSS feed site description
 logo: /images/logo.png
 
+made_with:
+  en: Made with Jekyll, Sass and love <3.
+  fr: Fait avec Jekyll, Sass and love <3.
+
+contact:
+  item_menu:
+    en: Contact
+    fr: Contact
+  mailto: 
+    en: mailto:pro.mathieu.fortune@gmail.com?subject=Hello from your portfolio !&amp;body=Hi Mathieu, I was just browsing your portfolio and...
+    fr: "mailto:pro.mathieu.fortune@gmail.com?subject=Hello du portfolio !&amp;body=Bonjour Mathieu, j'étais en train de visiter ton portfolio et..."
+
 rss_path: feed.xml
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://mathieufortune.github.com" # the base hostname & protocol for your site, e.g. http://example.com
@@ -29,6 +41,9 @@ permalink: none
 
 twitter_username: MsterMF
 github_username:  MathieuFortune
+linkedin_username: mathieu-fortune-220268101
+codepen_username: mathieu_fortune
+youtube_username: Ubeure
 
 google_analytics: UA-78886688-1
 

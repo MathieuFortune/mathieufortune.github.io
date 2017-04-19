@@ -1,0 +1,16 @@
+// Post component
+.post {
+
+  .post-title {
+    @extend %intro-title
+  }
+
+  .post-content {
+    @extend %container;
+
+    p {
+      @include fluid-typo(16, 18, $phone-h-computed, $desktop-computed);
+      line-height: 1.8em;
+    }
+  }
+}

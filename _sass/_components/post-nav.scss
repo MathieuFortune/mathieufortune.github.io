@@ -1,0 +1,25 @@
+// Post nav component
+.post-nav {
+  a {
+    @include font-size($font-size--medium);
+    position: fixed;
+    top: 50%;
+    display: block;
+    padding: .7rem 1rem 1rem;
+    color: $color--darkgrey;
+    background-color: rgba(242, 242, 242, .5);
+
+    &:hover {
+      color: $color--black;
+      background-color: $color--lightgrey;
+    }
+
+    &.prev {
+      left: 0;
+    }
+
+    &.next {
+      right: 0;
+    }
+  }
+}

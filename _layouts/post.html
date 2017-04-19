@@ -8,14 +8,23 @@ layout: default
   </header>
 
   <div class="post-content" itemprop="articleBody">
+    {% comment %}
     <p class="post-meta">
-    <!-- <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time> -->
-    {{ page.theme }} {% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}</p>
+      <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>
+      {{ page.theme }} {% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}
+    </p>
+    {% endcomment %}
+
     {{ content }}
   </div>
 
 </article>
 
-<p class="text-center no-print">
-  <a href="/" title="Go back to home page" class="bold">Go back to home page</a>
-</p>
+<div class="post-nav">
+  {% if page.previous.url %}
+    <a class="prev" href="{{page.previous.url}}" title="{{ page.previous.title }}">&larr;</a>
+  {% endif %}
+  {% if page.next.url %}
+    <a class="next" href="{{page.next.url}}" title="{{ page.next.title }}">&rarr;</a>
+  {% endif %}
+</div>

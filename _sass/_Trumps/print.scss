@@ -1,63 +1,68 @@
-/*------------------------------------*\
-    #PRINT TRUMPS
-\*------------------------------------*/
-
+// Print trumps
 
 @media all {
-    .page-break {
-        display: none;
-    }
-    .only-print {
+  .page-break {
+    display: none;
+  }
 
-        display: none;
-    }
+  .only-print {
+    display: none;
+  }
 }
 
 @media print {
-    html {
-        font-size: 12px;
-    }
-    .page-break {
-        display: block;
-        page-break-before: always;
-    }
-    .no-print {
-        display: none;
-    }
-    .only-print {
-        display: block;
-    }
-    .row {
-        margin: 0;
-    }
-    .uvp-title {
-        margin: 0 0 1rem 0;
-        @include font-size(2);
-        font-weight: normal;
-        line-height: 2rem;
-    }
-    .page-content {
-        padding: 0;
-    }
-    .about section {
-        margin-bottom: 0;
-    }
-    .section-title {
-        flex: 0 0 15%;
-        width: 15%;
-    }
-    .content {
-        flex: 0 0 100%;
-        width: 100%;
-    }
-    a:link:after,
-    a:visited:after {
-        content: " (" attr(href) ") ";
-        font-size: 90%;
-    }
-    .aside-print {
-        padding-left: .5rem;
-        border-left: 1px dashed $grey-color-light;
-    }
+  :root {
+    font-size: 12px;
+  }  
+
+  a:link:after,
+  a:visited:after {
+    font-size: 90%;
+    content: "(" attr(href) ")";
+  }
+
+  .page-break {
+    display: block;
+    page-break-before: always;
+  }
+
+  .no-print {
+    display: none;
+  }
+
+  .only-print {
+    display: block;
+  }
 }
 
+
+// @media print {
+
+//     .row {
+//         margin: 0;
+//     }
+//     .uvp-title {
+//         margin: 0 0 1rem 0;
+//         @include font-size(2);
+//         font-weight: normal;
+//         line-height: 2rem;
+//     }
+//     .page-content {
+//         padding: 0;
+//     }
+//     .about section {
+//         margin-bottom: 0;
+//     }
+//     .section-title {
+//         flex: 0 0 15%;
+//         width: 15%;
+//     }
+//     .content {
+//         flex: 0 0 100%;
+//         width: 100%;
+//     }
+//     .aside-print {
+//         padding-left: .5rem;
+//         border-left: 1px dashed $grey-color-light;
+//     }
+// }

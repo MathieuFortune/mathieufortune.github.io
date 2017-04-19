@@ -1,14 +1,14 @@
-/*------------------------------------*\
-    #CASE STUDY TABLE COMPONENT
-\*------------------------------------*/
-
-
-.table__case-study {
-  margin-bottom: 2rem;
+// Table case study component
+.table-case-study {
+  @include media($tab-v, max-width) {
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+  }
 
   tr {
     &:nth-of-type(odd) {
-      background-color: $grey-color-light;
+      background-color: $color--lightgrey;
     }
   }
 

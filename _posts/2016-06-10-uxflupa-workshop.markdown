@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "UX Workshops co-organized with FLUPA and 1001pharmacies.com"
-image: "/images/flupa-photos-1.jpg"
+title:  "UX Workshops FLUPA @ 1001pharmacies"
+thumbnail: "/images/flupa-photos-1.jpg"
 date:   2016-06-10 15:59:00 +0200
 lang: en
 ref: uxflupa-workshop
@@ -9,7 +9,6 @@ author: Mathieu Fortune
 theme: Article
 ---
 
-## Overview
 
 <figure markdown="1" class="text-center">
 ![Picture of UX FLUPA Workshop](/images/flupa-photos-1.jpg "Picture of Ux FLUPA Workshop")
@@ -30,7 +29,7 @@ This meet-up was co-organized with Amanda Martinez (Wonderful Digital), Chloé P
 I was in charge of planning, logistic and animation of the differents workshops.
 
 
-## Progress
+### Progress
 
 I was inspired and help by methods from Carine Lallemand's book 'Méthode de design UX' to plan these workshops.
 
@@ -71,7 +70,7 @@ After the scenario, respondents were asked to complete an "AttrakDiff", a survey
 </figure>
 
 
-## Results
+### Results
 
 Data were aggregated and analyzed.
 
@@ -79,7 +78,7 @@ The purpose of this workshop was primarily to provide an opportunity for partici
 For 1001pharmacies, feedbacks were very positive, and it allow us to confirmed our assumptions about funnel's user experience.
 
 
-## Test #1
+### Test #1
 
 Integration of exploratory surveys feedback's into a google form to better visualize data.
 
@@ -91,14 +90,14 @@ Integration of exploratory surveys feedback's into a google form to better visua
 {: .text-center}
 </figure>
 
-## Test #2
+### Test #2
 
 Feedbacks of the 5 seconds test were grouped into keywords.
 These keywords allowed us to identify feelings of users discovering the 1001pharmacies.com site.
 Consequently, elements that may hinder understanding of the user has been modified thanks to these feedbacks.
 
 
-## Test #3
+### Test #3
 
 Once AttrakDiff were aggregated, we obtained a graphical representation of results.
 
@@ -147,7 +146,7 @@ We can see from the charts below that values of attractiveness and pragmatism ar
 </figure>
 
 
-## Conclusion
+### Conclusion
 
 The user experience of the basket shows a neutral character slightly oriented tasks. This is positive because the objective of the funnel is to guide the user in the final purchase process, it's a moment of concentration which should not be distracted by parasitic elements.
 

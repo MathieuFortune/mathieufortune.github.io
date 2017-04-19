@@ -1,4 +1,4 @@
-uvp_title: Partager nos passions<br/> en travaillant entre humains<br/> sur des projets éthiques et intéressants
+intro_title: Partager nos passions<br/> en travaillant entre humains<br/> sur des projets éthiques et intéressants
 
 print_it: Télécharger
 
@@ -45,6 +45,7 @@ i_have:
   - Déjà travailler en agence web
 
 hire_me_heading: Recrutez-moi
+hire_me_mailto: mailto:pro.mathieu.fortune@gmail.com?subject=Hello je veux te recruter !&amp;body=Bonjour Mathieu, j'étais à la recherche de quelqu'un comme toi pour...
 hire_me:
   - Retrouvez-moi sur <a href="https://fr.linkedin.com/in/mathieu-fortune-220268101" target="_blank">Linkedin</a>
   - Jetez un oeil à mon <a href="https://github.com/MathieuFortune" target="_blank">GitHub</a>

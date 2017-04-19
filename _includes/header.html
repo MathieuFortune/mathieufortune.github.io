@@ -1,29 +1,34 @@
-<header class="site-header no-print">
-
-  <div class="wrapper">
+<header class="site-header no-print" role="banner">
 
     <a class="site-title" href="{{ site.baseurl }}/{{ site.index[page.lang] }}">
-    {% if site.logo %}
-      <img src="{{ site.logo }}" alt="{{ site.title[page.lang] }}" width="44" height="44"/>
+      {% if site.logo %}
+      <img src="{{ site.logo }}" alt="{{ site.title[page.lang] }}" width="52" height="52"/>
       {{ site.title[page.lang] }}
-    {% else %}
+      {% else %}
       {{ site.title[page.lang] }}
-    {% endif %}
+      {% endif %}
     </a>
-
-    <nav class="site-nav">
-      <a href="#" class="menu-icon">
-        {% include icon-menu.svg %}
+    
+    <div class="menu-icon-container" id="toggler">
+      <a href="" class="menu-icon" role="button">
+        <span class="first"></span>
+        <span class="second"></span>
+        <span class="third"></span>
+        <span class="label">menu</span>
       </a>
+      <div class="overlay"></div>
+    </div>
 
-      <div class="trigger">
+    <div class="trigger nav-container" id="menu">
+      <nav class="site-nav">
         {% assign pages=site.pages | where:"lang", page.lang %}
         {% for my_page in pages %}
         {% if my_page.title %}
         <a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
         {% endif %}
         {% endfor %}
-        <span class="lang">
+        <a href="{{ site.contact.mailto[page.lang] }}">{{ site.contact.item_menu[page.lang] }}</a>
+        <div class="lang">
           {% assign posts=site.posts | where:"ref", page.ref | sort: 'lang' %}
           {% for post in posts %} 
           <a href="{{ post.url | prepend: site.baseurl }}" class="{{ post.lang }}">{{ post.lang }}</a>
@@ -39,10 +44,8 @@
           <span class="separator">&bull;</span>
           {% endif %}
           {% endfor %}
-        </span>
-      </div>
+        </div>
+      </nav>
+    </div>
 
-    </nav>
-
-  </div>
 </header>

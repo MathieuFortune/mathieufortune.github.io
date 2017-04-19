@@ -1,0 +1,103 @@
+// Utilities trump
+
+/* center */
+%center,
+.center {
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+}
+
+%block-center,
+.block-center {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* clearfix */
+%clearfix,
+.clearfix {
+  clear: both;
+}
+
+/* transition */
+%transition,
+.transition {
+  transition-duration: 400ms;
+}
+
+/* alignements */
+.text-left,
+%text-left {
+  text-align: left;
+}
+
+.text-center,
+%text-center {
+  text-align: center;
+}
+
+.text-right,
+%text-right {
+  text-align: right;
+}
+
+/* text helpers */
+strong,
+.bold {
+  font-weight: $font-weight--bold;
+}
+
+.emphase {
+  @extend %italic;
+  color: $color--darkgrey;
+}
+
+em,
+%italic,
+.italic {
+  font-style: italic;
+  font-weight: $font-weight--thin;
+}
+
+.uppercase,
+%uppercase {
+  text-transform: uppercase;
+}
+
+.lowercase,
+%lowercase {
+  text-transform: lowercase;
+}
+
+/* spacing */
+.no-marg,
+%no-marg {
+  margin: 0;
+}
+
+.marg-v--tiny,
+%marg-v--tiny {
+  margin: $spacing--tiny 0;
+}
+
+.marg-v--small,
+%marg-v--small {
+  margin: $spacing--small 0;
+}
+
+.marg-v--base,
+%marg-v--base {
+  margin: $spacing--base 0;
+}
+
+.marg-v--medium,
+%marg-v--medium {
+  margin: $spacing--medium 0;
+}
+
+.marg-v--large,
+%marg-v--large {
+  margin: $spacing--large 0;
+}

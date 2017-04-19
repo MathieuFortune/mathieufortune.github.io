@@ -1,14 +1,14 @@
-/*------------------------------------*\
-    #COLOR SETTINGS
-\*------------------------------------*/
+// Colors vars
+$color--black: #111;
+$color--white: #fff;
+$color--red: #ff6e5d;
+$color--blue: #6495ed;
+$color--yellow: #ffd700;
+$color--darkgrey: #424242;
+$color--lightgrey: #f2f2f2;
 
-$text-color:       #111;
-$background-color: #fff;
-$white-color:      #fff;
-
-$brand-color:      #ff6e5d;
-$brand-color-light: lighten($brand-color, 10%);
-
-$grey-color:       #828282;
-$grey-color-light: lighten($grey-color, 40%);
-$grey-color-dark:  darken($grey-color, 25%);
+$color--text: $color--black;
+$color--link: $color--red;
+$color--link--hover: darken($color--link, 5);
+$color--main: $color--red;
+$color--secondary: $color--blue;

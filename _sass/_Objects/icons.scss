@@ -1,18 +1,83 @@
-/*------------------------------------*\
-    #ICON OBJECTS
-\*------------------------------------*/
-
+// Icon object
 .icon,
 %icon {
 
-    > svg {
-        display: inline-block;
-        width: 16px;
-        height: 16px;
-        vertical-align: middle;
+  > svg {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    vertical-align: middle;
 
-        path {
-            fill: $grey-color;
-        }
+    path {
+      fill: $color--text;
     }
+  }
+}
+
+.icon {
+
+  &--main {
+    > svg {
+      path {
+        fill: $color--main;
+      }
+    }
+  }
+
+  &--secondary {
+    > svg {
+      path {
+        fill: $color--secondary;
+      }
+    }
+  }
+
+  &--inverted {
+    > svg {
+      path {
+        fill: $color--white;
+      }
+    }
+  }
+
+  // these hovers are all brand-color specific
+  .icon--twitter:hover {
+    > svg {
+      path {
+        color: #55acee;
+      }
+    }
+  }
+
+  .icon--paragraph-left:hover {
+    > svg {
+      path {
+        color: #0ba6ab;    
+      }
+    }
+  }
+
+  .icon--codepen:hover {
+    > svg {
+      path {
+        color: #666666;
+      }
+    }
+  }
+
+  .icon--linkedin:hover {
+    > svg {
+      path {
+        color: #0e76a8;
+      }
+    }
+  }
+
+  .icon--email:hover {
+    > svg {
+      path {
+        color: $color--secondary;
+      }
+    }
+  }
 }

@@ -1,0 +1,44 @@
+// Types mixins
+
+// REM font size
+@mixin font-size($size: 1) {
+  font-size: ($size * $font-size-browser);
+  font-size: ($size * 1rem);
+}
+
+// Fluid line-height
+@mixin line-height($min-height, $max-height, $min-width, $max-width) {
+  line-height: calc(#{$min-height}em + (#{$max-height} - #{$min-height}) * ((100vw - #{$min-width}em) / (#{$max-width} - #{$min-width})));
+}
+
+// Fluid font size
+@mixin fluid-typo($min-font, $max-font, $min-viewport, $max-viewport) {
+  font-size: #{$min-font}px;
+  @media (min-width: #{$min-viewport}px) and (max-width: #{$max-viewport}px) {
+    font-size: calc(#{$min-font}px + (#{$max-font} - #{$min-font}) * ( (100vw - #{$min-viewport}px) / ( #{$max-viewport} - #{$min-viewport})));
+  }
+  @media (min-width: #{$max-viewport}px) {
+    font-size: #{$max-font}px;
+  }
+}
+
+%vertical-rhythm {
+  margin: 1.5em auto 0;
+}
+
+%font-main {
+  font-family: $font-main;
+  font-weight: $font-weight--bold;
+  -moz-font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+}
+
+%font-main--base {
+  font-family: $font-main;
+  font-weight: $font-weight--base;
+}
+
+%font-main--thin {
+  font-family: $font-main;
+  font-weight: $font-weight--thin;
+}

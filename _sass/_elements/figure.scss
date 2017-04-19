@@ -1,0 +1,15 @@
+// Figure element
+figure {
+  margin-top:     0;
+  margin-left:    0;
+  margin-right:   0;
+}
+
+figure > img {
+  display: block;
+}
+
+figcaption {
+  @include font-size($font-size--small);
+}
+

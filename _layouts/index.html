@@ -1,47 +1,29 @@
-<!DOCTYPE html>
-<html lang="{{ page.lang | default: site.lang | default: 'en' }}">
+---
+layout: default
+---
 
-{% include head.html %}
+<h1 class="intro-title--hero">
+  <div class="animated shake delay--small">{{ site.data[page.lang].hero.title }}</div>
+  <hr/>
+  <div class="animated fade-in-left delay--medium smaller">{{ site.data[page.lang].hero.job_line_1 }}</div>
+  <div class="animated fade-in-right delay--medium smaller">{{ site.data[page.lang].hero.job_line_2 }}</div>
+</h1>
 
-<body>
-
-  {% include header.html %}
-
-  <div class="page-content">
-    <div class="wrapper">
-      <div class="home">
-
-        <h1 class="uvp-title--hero">
-          <div class="animated shakeIt delay--small">{{ site.data[page.lang].hero.title }}</div>
-          <hr/>
-          <div class="animated fadeInLeft delay--medium ">{{ site.data[page.lang].hero.job_line_1 }}</div>
-          <div class="animated fadeInRight delay--medium ">{{ site.data[page.lang].hero.job_line_2 }}</div>
-        </h1>
-
-        <section class="animated fadeInUp delay--long">
-          <h4 class="grey text-large">{{ site.data[page.lang].post.title }}</h4>
-          <ul class="post-list">
-            {% assign posts=site.posts | where:"lang", page.lang %}
-            {% for post in site.posts %}
-            <li style="background: url('{{ post.image }}'); background-size:cover;">
-              <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
-                <span class="post-meta">{{ post.theme }}</span>
-                <h2>
-                  {{ post.title }}
-                </h2>
-              </a>
-            </li>
-            {% endfor %}
-          </ul>
-        </section>
-
-      </div>
-
-    </div>
-  </div>
-
-  {% include footer.html %}
-
-</body>
-
-</html>
+<section>
+  <ul class="post-list">
+    {% assign posts=site.posts | where:"lang", page.lang %}
+    {% for post in site.posts %}
+    <li class="row">
+      <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">        
+        <span class="col-half--left">
+          <h3 class="post-title">
+            {{ post.title }}
+          </h3>
+          <span class="post-meta">{{ post.theme }}</span>
+        </span>
+        <img src="{{ post.thumbnail }}" alt="{{ post.title }}" class="col-half--right"/>
+      </a>
+    </li>
+    {% endfor %}
+  </ul>
+</section>

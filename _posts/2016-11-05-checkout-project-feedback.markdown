@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "How we redesign the checkout process at 1001pharmacies.com"
-image: "/images/case-study-checkout-preview.jpg"
+title:  "How we redesign the checkout process @ 1001pharmacies"
+thumbnail: "/images/case-study-checkout-preview.jpg"
 date:   2016-11-24 13:45:01 +0200
 lang: en
 ref: checkout-project
@@ -9,7 +9,7 @@ author: Mathieu Fortune
 theme: Case studies
 
 ---
-{:.table__case-study}
+{:.table-case-study}
 | Client        | 1001pharmacies.com |
 | Project           | Checkout project redesign |
 | Project date      | Winter 2016        |
@@ -20,8 +20,6 @@ theme: Case studies
 | Technologies used | HTML5, LESS, Javascript, Gulp |
 | Library/Framework | twitter Bootstrap 3, Synfony 2 |
 
-
-## Background
 
 <div class="large" markdown="1">
   <figure markdown="1" class="text-center">
@@ -46,8 +44,6 @@ Based on the collected data we’ve got, user’s abandon rate were high. Also w
 Attempts was made in the past to fix these usability failures. Several A/B tests was performed in order to improve users pain points.
 Despite that, the checkout process needed deep changes to meet our users needs.
 
-
-## Processes
 
 ### Research
 
@@ -83,8 +79,6 @@ I let the design emerged as the user stories were presented and then I iterate w
 
 For my front-end developer role, my stack choice was made to allow back-end developers be more comfortable with languages used in front.
 
-
-## Technical details
 
 ### Demo prototypes
 

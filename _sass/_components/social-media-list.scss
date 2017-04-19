@@ -1,0 +1,64 @@
+// Social media list component
+.social-media-list {
+  @extend %center;
+  position: relative;
+
+  a {
+    text-decoration: none;
+    background: transparent;
+    border: 0;
+    
+    &:hover {
+      background: transparent;
+      border: 0;
+    }
+  }
+
+  li {
+    display: inline-block;
+    margin: 0 .5em;
+
+    .icon {
+      > svg {
+        width: 24px;
+        height: 24px;
+      }
+
+      &.icon--github:hover {
+        path {
+          fill: #040204
+        }
+      }
+
+      &.icon--twitter:hover {
+        path {
+          fill: #55acee
+        }
+      }
+
+      &.icon--linkedin:hover {
+        path {
+          fill: #0e76a8
+        }
+      }
+
+      &.icon--codepen:hover {
+        path {
+          fill: #666666
+        }
+      }
+
+      &.icon--youtube:hover {
+        path {
+          fill: #e62117
+        }
+      }
+
+      &.icon--email:hover {
+        path {
+          fill: $color--main
+        }
+      }
+    }
+  }
+}

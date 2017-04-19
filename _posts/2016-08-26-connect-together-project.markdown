@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Connect Together Social Network - case study"
-image: "/images/connect-together-cover.jpg"
+title:  "Connect Together Social Network"
+thumbnail: "/images/connect-together-cover.jpg"
 date:   2016-08-26 12:00:00 +0200
 lang: en
 ref: connect-together
@@ -10,7 +10,7 @@ theme: Case studies
 
 ---
 
-{:.table__case-study}
+{:.table-case-study}
 | Client            | Connect Together |
 | Project           | Connect Together website development |
 | Project date      | Summer 2012 |
@@ -21,8 +21,6 @@ theme: Case studies
 | Technologies used | HTML5, CSS3, jQuery, Modernizr, TweenMax |
 | Library/Framework | Home made PHP CMS |
 
-
-## Background
 
 <div class="large">
   <figure markdown="1" class="text-center">
@@ -43,7 +41,7 @@ Different features were developed for this application :
 * Application IOs/Android
 
 
-## Missions
+### Missions
 
 This project begun in 2012. I've participated to it for 12 months from the v.0 to the v3.2 as Front-End Developer and UI Designer back up. I worked in collaboration with a Back-End Developer and a lead UI Designer.
 
@@ -75,14 +73,14 @@ I also was led to create from scratched some interfaces, coded them and created 
 </figure>
 
 
-## Technical details
+### Technical details
 
 This website was powered by a property MVC PHP framework.
 
 I developped both back-end and front-end with pure CSS, HTML5 and jQuery. For the parallax scrolling feature present on the home page, I used SuperScrollRama.js library that allow to manage easily multi DOM elements on scroll event.
 
 
-## Overview
+### Overview
 
 <figure markdown="1" class="text-center">
 ![Connect Together screenshot](/images/connect-together-screenshot-2.jpg "Connect together feature screenshot")

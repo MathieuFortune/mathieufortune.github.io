@@ -1,0 +1,57 @@
+.has-tooltip {
+  position: relative;
+
+  &.offline-btn .tooltip {
+    right: -50%;
+    left: -50%;
+  }
+
+  .tooltip {
+    @extend %font-main;
+    @include font-size;
+    position: absolute;
+    bottom: 100%;
+    left: -100%;
+    z-index: 50;
+    display: block;
+    padding: .5em;
+    margin-bottom: 1em;
+    color: $color--white;
+    background: $color--main;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(10px);
+    transition: all .25s ease-out;
+
+    &::before {
+      position: absolute;
+      bottom: -.5em;
+      left: 0;
+      display: block;
+      width: 100%;
+      height: .5em;
+      content: '';
+    }
+
+    &::after {
+      position: absolute;
+      bottom: -10px;
+      left: 50%;
+      width: 0;
+      height: 0;
+      margin-left: -13px;
+      border-top: solid $color--main 10px;
+      border-right: solid transparent 10px;
+      border-left: solid transparent 10px;
+      content: '';
+    }
+  }
+
+  &:hover {
+    .tooltip {
+      opacity: 1;
+      visibility: visible;
+      transform: translateY(0);
+    }
+  }
+}
