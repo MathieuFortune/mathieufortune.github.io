@@ -1,4 +1,4 @@
-// Media query mixins
+/* Media query mixins */
 @mixin media($width, $direction: min-width) {
   @media screen and ($direction: $width) {
     @content;

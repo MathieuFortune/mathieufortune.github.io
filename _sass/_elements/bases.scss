@@ -1,4 +1,4 @@
-// Base elements
+/* Base elements */
 :root {
   @include fluid-typo(15, 16, $phone-h-computed, $desktop-computed);
   font-family: $font-base;
