@@ -4,38 +4,36 @@
 @charset 'utf-8';
 
 // Import partials from `sass_dir` (defaults to `_sass`)
-@import
-'_Settings/colors',
-'_Settings/types',
-'_Settings/breakpoints',
-'_Settings/spacings',
-'_Tools/types',
-'_Tools/media-query',
-'_Tools/grid',
-'_Tools/animation',
-'_Elements/normalize',
-'_Elements/bases',
-'_Elements/link',
-'_Elements/heading',
-'_Elements/list',
-'_Elements/figure',
-'_Elements/code',
-'_Elements/syntax-highlighting',
-'_Objects/header',
-'_Objects/footer',
-'_Objects/nav',
-'_Objects/icons',
-'_Components/buttons',
-'_Components/blockquote',
-'_Components/social-media-list',
-'_Components/tooltip',
-'_Components/menu-icon',
-'_Components/intro-title',
-'_Components/table-case-study',
-'_Components/post-list',
-'_Components/post-nav',
-'_Components/post',
-'_Components/about',
-'_Trumps/utilities',
-'_Trumps/print'
-;
+@import '_Settings/colors';
+@import '_Settings/types';
+@import '_Settings/breakpoints';
+@import '_Settings/spacings';
+@import '_Tools/types';
+@import '_Tools/media-query';
+@import '_Tools/grid';
+@import '_Tools/animation';
+@import '_Elements/normalize';
+@import '_Elements/bases';
+@import '_Elements/link';
+@import '_Elements/heading';
+@import '_Elements/list';
+@import '_Elements/figure';
+@import '_Elements/code';
+@import '_Elements/syntax-highlighting';
+@import '_Objects/header';
+@import '_Objects/footer';
+@import '_Objects/nav';
+@import '_Objects/icons';
+@import '_Components/buttons';
+@import '_Components/blockquote';
+@import '_Components/social-media-list';
+@import '_Components/tooltip';
+@import '_Components/menu-icon';
+@import '_Components/intro-title';
+@import '_Components/table-case-study';
+@import '_Components/post-list';
+@import '_Components/post-nav';
+@import '_Components/post';
+@import '_Components/about';
+@import '_Trumps/utilities';
+@import '_Trumps/print';
