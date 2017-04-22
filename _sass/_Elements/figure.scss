@@ -3,6 +3,7 @@ figure {
   margin-top:     0;
   margin-left:    0;
   margin-right:   0;
+  text-align: center;
 }
 
 figure > img {
@@ -11,5 +12,6 @@ figure > img {
 
 figcaption {
   @include font-size($font-size--small);
+  text-align: center;
 }
 

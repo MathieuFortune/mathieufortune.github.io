@@ -9,14 +9,7 @@ author: Mathieu Fortune
 theme: Article
 ---
 
-
-<figure markdown="1" class="text-center">
-![Picture of UX FLUPA Workshop](/images/flupa-photos-1.jpg "Picture of Ux FLUPA Workshop")
-<figcaption>
-  Picture of UX FLUPA Workshop
-</figcaption>
-{: .text-center}
-</figure>
+{% include lazy-image.html src="/images/flupa-photos-1.jpg" alt="Picture of UX FLUPA Workshop" caption="Picture of UX FLUPA Workshop" %}
 
 The 7th of April 2016, the montly Montpellier FLUPA's MeetUp taked place in 1001pharmacies.com offices.
 
@@ -61,13 +54,8 @@ Every year, summer comes, I want to order my beach panoply (sun cream, a refresh
 
 After the scenario, respondents were asked to complete an "AttrakDiff", a survey to assess the pragmatic and hedonic qualities of a system.
 
-<figure markdown="1" class="text-center">
-![Picture of UX FLUPA Workshop](/images/flupa-photos-2.jpg "Picture of Ux FLUPA Workshop")
-<figcaption>
-  Picture of UX FLUPA Workshop
-</figcaption>
-{: .text-center}
-</figure>
+
+{% include lazy-image.html src="/images/flupa-photos-2.jpg" alt="Picture of UX FLUPA Workshop" caption="Picture of UX FLUPA Workshop" %}
 
 
 ### Results
@@ -82,13 +70,9 @@ For 1001pharmacies, feedbacks were very positive, and it allow us to confirmed o
 
 Integration of exploratory surveys feedback's into a google form to better visualize data.
 
-<figure markdown="1" class="text-center">
- ![Survey results UX FLUPA Workshop](/images/flupa-google-form-results.jpg "Survey results UX FLUPA Workshop"){:.bordered}
-<figcaption>
-  Survey results UX FLUPA Workshop
-</figcaption>
-{: .text-center}
-</figure>
+
+{% include lazy-image.html src="/images/flupa-google-form-results.jpg" alt="Survey results UX FLUPA Workshop" caption="Survey results UX FLUPA Workshop" %}
+
 
 ### Test #2
 
@@ -117,33 +101,18 @@ We can see from the charts below that values of attractiveness and pragmatism ar
 
 ### AttrakDiff in lines
 
-<figure markdown="1" class="text-center">
-![AttrakDiff results UX FLUPA Workshop](/images/flupa-attrakdiff-lines.png "AttrakDiff results UX FLUPA Workshop"){:.bordered}
-<figcaption>
-  AttrakDiff in lines UX FLUPA Workshop
-</figcaption>
-{: .text-center}
-</figure>
+{% include lazy-image.html src="/images/flupa-attrakdiff-lines.png" alt="AttrakDiff results UX FLUPA Workshop" caption="AttrakDiff in lines UX FLUPA Workshop" %}
+
 
 ### AttrakDiff in bars
 
-<figure markdown="1" class="text-center">
-![AttrakDiff results UX FLUPA Workshop](/images/flupa-attrakdiff-bars.png "AttrakDiff results UX FLUPA Workshop"){:.bordered}
-<figcaption>
-  AttrakDiff in bars UX FLUPA Workshop
-</figcaption>
-{: .text-center}
-</figure>
+{% include lazy-image.html src="/images/flupa-attrakdiff-bars.png" alt="AttrakDiff results UX FLUPA Workshop" caption="AttrakDiff in bars UX FLUPA Workshop" %}
+
 
 ### Results portofolio
 
-<figure markdown="1" class="text-center">
-![Portfolio results UX FLUPA Workshop](/images/flupa-results-portfolio.jpg "Portfolio results UX FLUPA Workshop"){:.bordered}
-<figcaption>
-  Portfolio results UX FLUPA Workshop
-</figcaption>
-{: .text-center}
-</figure>
+
+{% include lazy-image.html src="/images/flupa-results-portfolio.jpg" alt="Portfolio results UX FLUPA Workshop" caption="Portfolio results UX FLUPA Workshop" %}
 
 
 ### Conclusion

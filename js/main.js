@@ -8,5 +8,7 @@
     this.classList.toggle('active');
     menu.classList.toggle('open');
     body.classList.toggle('menu-open');
-  };     
+  };
+
+  var lazyLoadImgs = new LazyLoad();
 }());

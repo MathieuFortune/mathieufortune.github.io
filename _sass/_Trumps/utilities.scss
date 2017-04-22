@@ -51,12 +51,13 @@ strong,
 
 .emphase {
   @extend %italic;
-  color: $color--darkgrey;
+  color: $color--main;
 }
 
 em,
 %italic,
 .italic {
+  color: $color--main;
   font-style: italic;
   font-weight: $font-weight--thin;
 }

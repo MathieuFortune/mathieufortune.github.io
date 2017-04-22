@@ -2,12 +2,13 @@
 .social-media-list {
   @extend %center;
   position: relative;
+  padding: 0;
 
   a {
     text-decoration: none;
     background: transparent;
     border: 0;
-    
+
     &:hover {
       background: transparent;
       border: 0;
