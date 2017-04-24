@@ -5,27 +5,33 @@ print_it: Télécharger
 cv:
   title: Mathieu Fortune
   desc: |
-    Front-End Dev & UI/UX Designer avec +5 ans d'expérience à la recherche de nouveaux challenges à l'international
+    Front-end dev & UI/UX designer avec +5 ans d'expérience à la recherche de nouveaux challenges à l'international
     <br/>Envoyez-moi un email à <strong>pro.mathieu.fortune@gmail.com</strong>
 
 about:
   title: À propos
   desc: |
+    Freelance développeur front-end et UX designer parcourant le monde.
     Membre actif des équipes projets auxquels je suis rattaché, je fais le pont entre le design et le front-end development.
 
 experience_heading: Expériences
 experiences:
-  - title: Front-End Developer & UX/UI Designer
+  - title: Front-end developer & UX/UI designer
+    name: Freelance - À distance
+    period: Depuis Janvier 2017
+    desc: Principalement sur des missions d'execution front-end ou conception orientée utilisateur. Également consultant sur des projets utilisant les approches Lean et évangélisant les méthodes Agiles.
+    skills: Front-end Stack (HTML5,CSS,ES6), UX (Design Thinking,Surveys,Interviews,Sketching,Prototyping), Agiles, Lean.
+  - title: Front-end developer & UX/UI designer
     name: 1001Pharmacies.com
-    period: De Décembre 2015 à Janvier 2017 (1 an et 1 mois)
+    period: De Décembre 2015 à Janvier 2017 (1 an 1 mois)
     desc: En charge de la refonte du site e-commerce avec une approche centrée utilisateur en tant que Front-end Developer et UX/UI Designer.
     skills: HTML5, CSS3, Sass, Sketch, Javascript, Webpack, Symfony 2, Design Thinking, Scrum, Lean UX, Git
-  - title: Front-End Developer
+  - title: Front-end developer
     name: 1001Pharmacies.com
     period: De Janvier 2015 à Décembre 2015 ( 1 an )
     desc: En charge du développement Front-end des différentes applications de 1001pharmacies tels que les newsletters et landings responsive ou encore la maintenance du site web principal.
     skills: HTML5, CSS3, Less, Javascript, Gulp, Fundation, Bootstrap 3, Photoshop, Symfony 2, Git
-  - title: Front-End Developer
+  - title: Front-end developer
     name: Publika
     period: De Janvier 2012 à Janvier 2015 ( 3 ans )
     desc: Développement Front-end des sites webs clients de diverses secteurs (e-commerce, corporate, landings, social network, ...) sur différentes technos (CMS, Framework MCV PHP custom, Applis mobile ...).
@@ -57,7 +63,7 @@ events:
   - Assisté à <a href="https://smashingconf.com/barcelona-2016/" target="_blank">SmashingConf Barcelona 2016</a> Barcelone, Espagne
   - Assisté à <a href="http://www.blendwebmix.com/" target="_blank">BlendWebMix 2015</a> Lyon, France
   - Assisté aux lightning talks prenant place au business incubator Cap Oméga Montpellier, France
-                    
+
 trainings_heading: Formations
 trainings:
   - title: Lean Startup et Running Lean
@@ -131,7 +137,7 @@ projects_heading: Projets
 project_my_roles: Mes rôles sur ce projet
 project_results: Résultats
 projects:
-  - title: Refonte du front catalogue
+  - title: Refonte d'un catalogue e-commerce
     description: Ce projet avait pour but de refondre la partie front du catalogue du site e-commerce 1001pharmacies.com (rechercher, trouver et acheter un produit)
     results: Le projet est actuellement en phase de BETA ouverte.
     list:
@@ -142,7 +148,7 @@ projects:
       - Symfony 2.8
       - Traitement des assets avec Webpack et PostCSS
       - Approche LEAN UX et utilisation du Scrum
-  - title: Refonte du tunnel de commande
+  - title: Refonte d'un tunnel de commande
     description: Ce projet avait pour but de refondre le tunnel de commande du site e-commerce 1001pharmacies.com (panier, livraison, paiement)
     results: Augmentation du taux de conversion du panier. Amélioration significative de l'expérience utilisateur dans tout le processus de commande.
     list:
@@ -153,7 +159,7 @@ projects:
       - Symfony 2.8
       - Traitement des assets avec Gulp
       - Approche LEAN UX et utilisation du Scrum
-  - title: Recherches UX sur le tunnel de commande
+  - title: Recherches UX sur un tunnel de commande
     description: Afin d'améliorer le processus d'achat sur 1001pharmacies.com, j'ai effectué des recherches UX afin de mieux connaître et comprendre le comportement des utilsateurs
     results: Grâce aux retours des tests utilisateurs, j'ai améliorer le workflow créatif des équipes projets tout en démocratisant la connaissance des méthodes de test utilisateurs dans l'entreprise.
     list:

@@ -12,9 +12,9 @@ layout: default
 <section>
   <ul class="post-list">
     {% assign posts=site.posts | where:"lang", page.lang %}
-    {% for post in site.posts %}
+    {% for post in posts %}
     <li class="row">
-      <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">        
+      <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
         <span class="col-half--left">
           <h3 class="post-title">
             {{ post.title }}

@@ -9,7 +9,7 @@ author: Mathieu Fortune
 theme: Cas d'étude
 ---
 
-Ce cas d'édude fait suite à mon précédent article sur [qu'est-ce qu'un persona]({% post_url 2017-04-21-persona-quesaco %} "Article : Qu'est-ce qu'un persona ?") que je vous invite à lire si vous ne l'avez pas encore fait.
+Ce cas d'édude fait suite à mon précédent article sur [qu'est-ce qu'un persona]({% post_url 2017-04-20-persona-quesaco %} "Article : Qu'est-ce qu'un persona ?") que je vous invite à lire si vous ne l'avez pas encore fait.
 
 ### Sources des données
 
@@ -25,7 +25,7 @@ Enfin le __retour sur les appels téléphoniques__ passés aux “amnésiques”
 
 ### Continuum à facettes
 
-Une fois ces données agrégées. Elles permettent de construire un continuum à facettes.
+Une fois ces données agrégées, elles permettent de construire un continuum à facettes.
 
 *C’est une représentation de caractéristiques opposées permettant de définir les différentes facettes des personas.*
 
@@ -40,7 +40,7 @@ __3 personas ont été créés.__
 Ce nombre réduit permet d’éviter au concepteur de se disperser lors des différentes phases de création des systèmes.
 De plus, plusieurs profils d’utilisateurs (attentes, besoins) étaient suffisamment similaires pour être regroupés en un seul personna.
 
-### Persona Primaire
+### Persona primaire
 
 Il représente l’utilisateur principal du futur produit. Il est celui pour qui le système sera conçu, celui dont les besoins et les objectifs seront entièrement satisfaits. Les fonctionnalités qui découlent de son comportement sont prioritaires sur les autres personas.
 
@@ -78,7 +78,7 @@ Ici, le parcours représente le premier achat du persona :
 7. Clic sur une fiche produit.
 8. L’ajoute directement au panier, car est également déjà convaincu par le produit.
 
-### Persona Secondaire A
+### Persona secondaire A
 
 Ils partagent des objectifs et besoins communs avec le persona primaire. Ils ont néanmoins également des caractéristiques propres, mais qui ne seront pas prioritaires pour la conception du système.
 

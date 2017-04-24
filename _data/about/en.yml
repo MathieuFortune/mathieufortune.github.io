@@ -5,27 +5,33 @@ print_it: Download
 cv:
   title: Mathieu Fortune
   desc: |
-    5 years Front-End Dev & UI/UX Designer looking for new challenges abroad.
+    5 years front-dnd dev & UI/UX designer looking for new challenges abroad.
     <br/>Send me an email at <strong>pro.mathieu.fortune@gmail.com</strong>
 
 about:
   title: About
   desc: |
+    Freelance front-end developer & UX designer travelling the world.
     Active member of the project’s teams I’m linked to, I make the connection between graphic design and front-end development.
 
 experience_heading: Experiences
 experiences:
-  - title: Front-End Developer & UX/UI Designer
+  - title: Front-end developer & UX/UI designer
+    name: Freelance - Working remotly
+    period: From January 2017
+    desc: Mainly on front-end execution missions or UX design. Also consultant on projects using Lean approach and evangelising Agiles methods.
+    skills: Front-end Stack (HTML5,CSS,ES6), UX (Design Thinking,Surveys,Interviews,Sketching,Prototyping), Agiles, Lean.
+  - title: Front-end developer & UX/UI designer
     name: 1001Pharmacies.com
     period: From December 2015 to January 2017 ( 1 years 1 month)
-    desc: Worked on a user centric redesign of the e-commerce website as Front-End Developper and also Ux/UI Designer
+    desc: Worked on a user centric redesign of the e-commerce website as Front-end Developper and also Ux/UI Designer
     skills: HTML5, CSS3, Sass, Sketch, Javascript, Webpack, Symfony 2, Design Thinking, Scrum, Lean UX, Git
-  - title: Front-End Developer
+  - title: Front-end developer
     name: 1001Pharmacies.com
     period: From January 2015 to December 2015 ( 1 year )
-    desc: In charge of Front-End Development of 1001Pharmacies.com's front applications such as responsive newsletters and landings. Also on e-commerce website maintenance.
+    desc: In charge of Front-end Development of 1001Pharmacies.com's front applications such as responsive newsletters and landings. Also on e-commerce website maintenance.
     skills: HTML5, CSS3, Less, Javascript, Gulp, Fundation, Bootstrap 3, Photoshop, Symfony 2, Git
-  - title: Front-End Developer
+  - title: Front-end developer
     name: Publika
     period: From January 2012 to January 2015 ( 3 years )
     desc: Front-end Development of client's websites in various industries (e-commerce, corporate, landings, social network, ...) and differents technos (CMS, Custom MVC framework, Mobile Apps ...)
@@ -57,7 +63,7 @@ events:
   - Attended to <a href="https://smashingconf.com/barcelona-2016/" target="_blank">SmashingConf Barcelona 2016</a> Barcelona, Spain'
   - Attended to <a href="http://www.blendwebmix.com/" target="_blank">BlendWebMix 2015</a> Lyon, France'
   - Attended to lightning talks taking place at business incubator Cap Oméga Montpellier, France
-                    
+
 trainings_heading: Trainings
 trainings:
   - title: Lean Startup and Running Lean

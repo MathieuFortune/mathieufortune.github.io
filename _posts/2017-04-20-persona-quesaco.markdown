@@ -2,7 +2,7 @@
 layout: post
 title:  "Qu'est-ce qu'un persona ?"
 thumbnail: "/images/personas-definition-thumbnail.jpg"
-date: 2017-04-21 12:00:00 +0200
+date: 2017-04-20 12:00:00 +0200
 lang: fr
 ref: what-is-persona
 author: Mathieu Fortune
@@ -37,7 +37,7 @@ En conception IHM c’est donc la __scénarisation d’un utilisateur basée sur
 Pour mieux comprendre ce que peut apporter le persona, penchons-nous sur ses avantages :
 L’utilisation par le concepteur du persona fait appel à différents principes psychologiques.
 
-__L’empathie__ tout d’abord qui correspond à la capacité d’imaginer les émotions et attentes de quelqu’un d’autre jusqu’à les ressentir comme si elles étaient propres..
+__L’empathie__ tout d’abord qui correspond à la capacité d’imaginer les émotions et attentes de quelqu’un d’autre jusqu’à les ressentir comme si elles étaient sienne..
 
 __La théorie de l’esprit__ qui consiste à “se mettre à la place de…”, ce qui permet d’anticiper les actions et le comportement d’un utilisateur.
 
@@ -51,4 +51,4 @@ Pour résumer, le persona peut être vue comme un outil permettant de faciliter 
 
 ### Exemple concret
 
-Pour voir un exemple concret, je vous propose de lire le cas d'étude sur [les personas de 1001pharmacies.com]({% post_url 2017-04-21-personas-1001pharmacies %} "Cas d'étude : les personas de 1001pharmacies.com")
+Pour voir un exemple concret, je vous propose de lire le cas d'étude sur [les personas de 1001pharmacies.com]({% post_url 2017-04-21-comment-son-cree-personas-1001pharmacies %} "Cas d'étude : les personas de 1001pharmacies.com")
