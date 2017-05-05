@@ -5,6 +5,7 @@
     width: 100%;
     overflow-x: auto;
   }
+  margin-bottom: $spacing--base;
 
   tr {
     &:nth-of-type(odd) {
