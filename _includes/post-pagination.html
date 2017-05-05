@@ -1,0 +1,26 @@
+<div class="post-nav">
+{% for post in site.posts %}
+  {% if post.lang == page.lang %}
+    {% if prev %}
+      <a class="prev" href="{{post.url}}" title="{{ post.title }}">&larr;</a>
+    {% endif %}
+    {% assign prev = false %}
+    {% if post.id == page.id %}
+      {% assign prev = true %}
+    {% endif %}
+  {% endif %}
+{% endfor %}
+
+{% for post in site.posts reversed %}
+  {% if post.lang == page.lang %}
+    {% if next %}
+      <a class="next" href="{{post.url}}" title="{{ post.title }}">&rarr;</a>
+      {% break %}
+    {% endif %}
+    {% assign next = false %}
+    {% if post.id == page.id %}
+      {% assign next = true %}
+    {% endif %}
+  {% endif %}
+{% endfor %}
+</div>
