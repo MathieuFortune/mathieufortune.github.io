@@ -7,8 +7,8 @@ lang: en
 ref: checkout-project
 author: Mathieu Fortune
 theme: Case studies
-
 ---
+
 {:.table-case-study}
 | Client        | 1001pharmacies.com |
 | Project           | Checkout project redesign |
@@ -18,7 +18,7 @@ theme: Case studies
 | Role              | UX designer & Front-end developer |
 | Responsabilities  | Design, do usability test and develop responsive front-end application of a checkout process in a Scrum agile team |
 | Technologies used | HTML5, LESS, Javascript, Gulp |
-| Library/Framework | twitter Bootstrap 3, Synfony 2 |
+| Library/Framework | Bootstrap 3, Synfony 2 |
 
 
 <div class="large" markdown="1">
@@ -51,9 +51,11 @@ To help us along the research phase, we used different supports and methods.
 
 We conducted user researches on the checkout process to learn more about our user’s characteristics, needs, desires and to evaluate their perception of the checkout process. These researches took place in the form of exploratory interviews with our loyal users.
 
-We used the book of OpQuast group call “Web Quality”. It’s a fantastic book that list more than two hundred best practices around accessibility, navigation, e-commerce, mobile, performances, ... These best practices are so ready to use that they helped us to build user stories.
+I was leading these reseraches as I was the UX designer on this project.
 
-We also used the e-commerce checkout usability study from Baymard institute. I discovered it during my technological monitoring on Smashing Magazine by reading an [article of Christian Holst](https://www.smashingmagazine.com/2011/04/fundamental-guidelines-of-e-commerce-checkout-design/ "Read article of Christian Holst on Smashing Magazine"){:target="_blank"}, co-author of the study. It’s a strong study delivering usability guidelines on checkout process.
+We used the book of OpQuast group call _“Web Quality”_. It’s a fantastic book that list more than two hundred best practices around accessibility, navigation, e-commerce, mobile, performances, ... These best practices are so ready to use that they helped us to build user stories.
+
+We also used the _“E-commerce checkout usability study”_ from Baymard institute. I discovered it during my technological monitoring on Smashing Magazine by reading an [article of Christian Holst](https://www.smashingmagazine.com/2011/04/fundamental-guidelines-of-e-commerce-checkout-design/ "Read article of Christian Holst on Smashing Magazine"){:target="_blank"}, co-author of the study. It’s a strong study delivering usability guidelines on checkout process.
 
 During the SmashingConf Barcelona 16’, I had the occasion to meet Christian Holst, to speak about his study. Someone very accessible.
 
@@ -106,7 +108,7 @@ When a version is selected, I build the HTML/CSS component :
 <p data-height="265" data-theme-id="0" data-slug-hash="PbwjZw" data-default-tab="css,result" data-user="mathieu_fortune" data-embed-version="2" data-pen-title="Snippet - Checkout steps block" class="codepen">See the Pen <a href="http://codepen.io/mathieu_fortune/pen/PbwjZw/">Snippet - Checkout steps block</a> by FrontEnd Matt (<a href="http://codepen.io/mathieu_fortune">@mathieu_fortune</a>) on <a href="http://codepen.io">CodePen</a>.</p>
 <script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
 
-After back-end developers has implemented the functionnality in the synfony project, the product owner and I test on users their behaviors about this feature.
+After back-end developers has implemented the functionnality in the synfony project, the product owner and I test on users and stakeholders their behaviors about this feature.
 
 
 ### Progressive enhancement
@@ -119,14 +121,7 @@ For example, the quantity modifier was firstly design with a “apply” button 
 
 ### Usability tests
 
-I wrote an article about the UX workshop I co-organized. At this occasion, the checkout process was tested by users and we gathered really interesting feedbacks. Find out more [here](/2016/06/10/uxflupa-workshop.html "Feedback article about Ux Flupa Workshop").
+I wrote an article about the UX workshop I co-organized. At this occasion, the checkout process was tested by users and we gathered really interesting feedbacks. Find out more [here]({% post_url 2016-06-10-uxflupa-workshop %} "Feedback article about Ux Flupa Workshop").
 
-<figure markdown="1" class="text-center">
-<a href="/2016/06/10/uxflupa-workshop.html" title="Feedback article about Ux Flupa Workshop">
-  ![Picture of UX FLUPA Workshop](/images/flupa-photos-1.jpg "Picture of Ux FLUPA Workshop")
-</a>
-<figcaption>
-  Picture of UX FLUPA Workshop
-</figcaption>
-{: .text-center}
-</figure>
+
+{% include lazy-image.html src="/images/flupa-photos-1.jpg" alt="Picture of UX FLUPA Workshop" %}

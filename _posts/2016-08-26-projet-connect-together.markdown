@@ -21,7 +21,7 @@ theme: Cas d'étude
 | Librairie/Framework | CMS PHP maison |
 
 
-{% include lazy-image.html src="/images/connect-together-cover.jpg" alt="Couverture article connect together" %}
+{% include lazy-image.html src="/images/connect-together-cover.jpg" alt="Couverture cas d'étude connect together" %}
 
 Connect Together est un réseau social permettant de mettre en relation les ONG et les associations caritatives avec des donateurs potentiels en créant une communauté de personnes partageant les mêmes causes.
 
