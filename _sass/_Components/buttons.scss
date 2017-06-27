@@ -5,7 +5,7 @@
   @extend %transition;
   @include font-size($font-size--base);
   display: inline-block;
-  padding: .375rem .75rem;
+  padding: .5625rem 1.125rem;
   margin-bottom: 0;
   line-height: 1;
   text-align: center;
@@ -20,7 +20,7 @@
   -ms-user-select: none;
   user-select: none;
   background-image: none;
-  border: 0;
+  border: 1px solid transparent;
   outline: none;
 
   svg {
@@ -42,23 +42,23 @@
 
 .btn--default {
   @extend %btn;
-  color: $color--main;
-  background-color: transparent;
-  border: 1px solid $color--main;
+  color: $color--white;
+  background-color: $color--main;
 
   svg {
     path {
-      fill: $color--main;
+      fill: $color--white;
     }
   }
 
   &:hover {
-    color: $color--white;
-    background-color: $color--main;
+    color: $color--main;
+    background-color: transparent;
+    border: 1px solid $color--main;
 
     svg {
       path {
-        fill: $color--white;
+        fill: $color--main;
       }
     }
 
@@ -67,12 +67,14 @@
 
 .btn--small {
   @include font-size($font-size--small);
+  padding: .375rem .75rem;
 }
 
 .btn--medium {
-  @include font-size($font-size--medium);
+  padding: .75rem 1.5rem;
 }
 
 .btn--large {
-  @include font-size($font-size--large);
+  @include font-size($font-size--medium);
+  padding: 1.125rem 2.25rem;
 }

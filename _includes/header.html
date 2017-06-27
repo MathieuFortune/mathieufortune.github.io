@@ -8,7 +8,7 @@
       {{ site.title[page.lang] }}
       {% endif %}
     </a>
-    
+
     <div class="menu-icon-container" id="toggler">
       <a href="" class="menu-icon" role="button">
         <span class="first"></span>
@@ -21,16 +21,17 @@
 
     <div class="trigger nav-container" id="menu">
       <nav class="site-nav">
+        <a href="{{ site.baseurl }}/{{ site.index[page.lang] }}">{{ site.title[page.lang] }}</a>
         {% assign pages=site.pages | where:"lang", page.lang %}
         {% for my_page in pages %}
-        {% if my_page.title %}
-        <a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
+        {% if my_page.menu_title %}
+        <a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.menu_title | escape }}</a>
         {% endif %}
         {% endfor %}
         <a href="{{ site.contact.mailto[page.lang] }}">{{ site.contact.item_menu[page.lang] }}</a>
         <div class="lang">
           {% assign posts=site.posts | where:"ref", page.ref | sort: 'lang' %}
-          {% for post in posts %} 
+          {% for post in posts %}
           <a href="{{ post.url | prepend: site.baseurl }}" class="{{ post.lang }}">{{ post.lang }}</a>
           {% if forloop.first == true %}
           <span class="separator">&bull;</span>
