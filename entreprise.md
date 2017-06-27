@@ -43,7 +43,7 @@ __- Phase de développement -__ Besoin d'un coup de main durant la phase de dév
 __- Amélioration du produit -__ Péréniser, améliorer la qualité et les performances d'un produit existant en aidant vos équipes à développer leurs compétences et/ou en développant des fonctionnalités clés.
 
 
-#### _Mes tarifs sont encore en cours de réflexion et d'adaptation. Je souhaite avoir un échange juste en chaque parties et je suis prêt à en discuter avec vous_
+#### _Mes tarifs sont encore en cours de réflexion et d'adaptation. Je souhaite avoir un échange juste entre chaque parties et je suis prêt à en discuter avec vous_
 
 <br/>
 
