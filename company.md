@@ -35,7 +35,7 @@ I can work with small or medium-size buisness, start-ups, design/dev teams, digi
 
 At every stages of your product both in reflection and in realization :
 
-__- Kick off of your project -__ Research, test of ideas, I can help you build the best suitable project for your users.
+__- Kick off of your project -__ Research, test of ideas, I can help you build the best suitable product for your users.
 
 __- Project development -__ Need help during the development phase, I can deliver fast results by using agiles practices.
 
