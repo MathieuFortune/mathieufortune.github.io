@@ -53,7 +53,7 @@ __- Product enhancement -__ Sustain, improve quality and performances of your ex
 <br/>
 
 <div class="text-center">
-  <a href="mailto:pro.mathieu.fortune@gmail.com?subject=Hey let's work together !&amp;body=Hi Mathieu, I was looking to hire someone like you for..." title="" class="btn--default">Let's work together !</a>
+  <a href="mailto:pro.mathieu.fortune@gmail.com?subject=Hey let's work together !&amp;body=Hi Mathieu, I was looking to hire someone like you for..." title="" class="btn--default btn--medium">Let's work together !</a>
 </div>
 
 <br/>
