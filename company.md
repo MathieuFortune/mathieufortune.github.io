@@ -85,4 +85,4 @@ __- Product enhancement -__ Sustain, improve quality and performances of your ex
 </blockquote>
 
 
-__Intégrateur web, Développeur front-end, web designer, ux designer, formateur web, chef de projet web, HTML5, CSS3, Javascript, Sass, Less, Bootstrap, Photoshop, Illustrator, Indesign, Sketch, Invision, Marvel, Test utilisabilité, Interviews utilisateur, Data analyst, SEO, Gulp, Webpack, Responsive web design, Mobile, Wordpress, Drupal, Jekyll, Synfony.__
+__UI developer, Front-end developer, Web designer, Ux designer, Web teacher, Web project manager, HTML5, CSS3, Javascript, Sass, Less, Bootstrap, Photoshop, Illustrator, Indesign, Sketch, Invision, Marvel, Usability tests, User interviews, Data analyst, SEO, Gulp, Webpack, Responsive web design, Mobile, Wordpress, Drupal, Jekyll, Synfony.__

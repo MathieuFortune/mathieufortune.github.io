@@ -89,4 +89,4 @@ __- Amélioration du produit -__ Péréniser, améliorez la qualité et les perf
 
 
 
-__Intégrateur web, Développeur front-end, web designer, ux designer, formateur web, chef de projet web, HTML5, CSS3, Javascript, Sass, Less, Bootstrap, Photoshop, Illustrator, Indesign, Sketch, Invision, Marvel, Test utilisabilité, Interviews utilisateur, Data analyst, SEO, Gulp, Webpack, Responsive web design, Mobile, Wordpress, Drupal, Jekyll, Synfony.__
+__Intégrateur web, Développeur front-end, Web designer, Ux designer, Formateur web, Chef de projet web, HTML5, CSS3, Javascript, Sass, Less, Bootstrap, Photoshop, Illustrator, Indesign, Sketch, Invision, Marvel, Test utilisabilité, Interviews utilisateur, Data analyst, SEO, Gulp, Webpack, Responsive web design, Mobile, Wordpress, Drupal, Jekyll, Synfony.__
