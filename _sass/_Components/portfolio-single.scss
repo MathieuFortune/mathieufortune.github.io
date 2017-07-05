@@ -1,0 +1,77 @@
+.portfolio-single {
+  width: 24%;
+  margin: 0 0 4% 0;
+  display: inline-block;
+  vertical-align: top;
+  -webkit-perspective: 1000px;
+  perspective: 1000px;
+
+  &:hover,
+  &.hover {
+    figure {
+      transform: rotateY(180deg);
+    }
+  }
+
+  figure {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-top: 100%;
+    margin: 0;
+    transition: transform .3s ease-out;
+    perspective: 1000;
+    transform-style: preserve-3d;
+
+    img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 2;
+      width: 100%;
+      height: 100%;
+      -webkit-backface-visibility: hidden;
+      backface-visibility: hidden;
+    }
+  }
+
+  figcaption {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    display: block;
+    text-transform: uppercase;
+    text-align: center;
+    color: #FFF;
+    -webkit-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    background-color: $color--main;
+
+    h4 {
+      @include font-size($font-size--small);
+      position: absolute;
+      top: 50%;
+      width: 100%;
+      padding: 0 1em;
+      margin: 0;
+      transform: translateY(-75%);
+
+      a {
+        @extend %link-reverse;
+      }
+    }
+  }
+
+  @include media($tab-v, max-width) {
+    width: 32%;
+  }
+
+  @include media($small-tab, max-width) {
+    width: 47%;
+  }
+}

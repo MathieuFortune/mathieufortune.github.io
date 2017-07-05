@@ -25,3 +25,22 @@ a {
     }
   }
 }
+
+%link-reverse {
+  padding: .2em;
+  color: $color--link;
+  text-decoration: none;
+  background-color: $color--white;
+  border-bottom: 0;
+
+
+  &:visited {
+    color: $color--link;
+  }
+
+  &:hover {
+    color: $color--white;
+    background: none;
+    border-bottom: 1px dashed $color--white;
+  }
+}
