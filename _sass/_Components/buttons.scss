@@ -6,7 +6,7 @@
   @include font-size($font-size--base);
   display: inline-block;
   padding: .5625rem 1.125rem;
-  margin-bottom: 0;
+  margin-bottom: .5625rem;
   line-height: 1;
   text-align: center;
   white-space: nowrap;
@@ -62,6 +62,18 @@
       }
     }
 
+  }
+}
+
+a {
+  &.btn--default {
+    &:visited {
+      color: $color--white;
+    }
+
+    &:hover {
+      color: $color--main;
+    }
   }
 }
 

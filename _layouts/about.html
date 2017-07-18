@@ -26,13 +26,15 @@ layout: default
     </div>
   </section>
 
-   <section class="row no-print text-right">
+  <section class="row no-print text-right">
     <div class="print-it no-print">
       {% comment %}
       <button onclick="window.print(); return false;" class="btn--default">
         {% include icon-printer.svg %} {{ site.data.about[page.lang].print_it }}
       </button>
       {% endcomment %}
+      <a href="{{ site.url }}/images/resume-mathieufortune-uxdesign-frontenddev-EN.pdf" class="btn--default" title="{{ site.data.about[page.lang].print_it }}" target="_blank">{{ site.data.about[page.lang].print_it }}</a>
+
       <a href="{{ site.data.about[page.lang].hire_me_mailto }}" class="btn--default">{{ site.data.about[page.lang].hire_me_heading}}</a>
     </div>
   </section>
@@ -126,7 +128,7 @@ layout: default
     </div>
   </section>
 
-    <section class="row-flex">
+  <section class="row-flex">
     <div class="title">
       <h2>{{ site.data.about[page.lang].projects_heading }}</h2>
     </div>
@@ -152,6 +154,19 @@ layout: default
 
       </div>
       {% endfor %}
+    </div>
+  </section>
+
+  <section class="row no-print text-right">
+    <div class="print-it no-print">
+      {% comment %}
+      <button onclick="window.print(); return false;" class="btn--default">
+        {% include icon-printer.svg %} {{ site.data.about[page.lang].print_it }}
+      </button>
+      {% endcomment %}
+      <a href="{{ site.url }}/images/resume-mathieufortune-uxdesign-frontenddev-EN.pdf" class="btn--default" title="{{ site.data.about[page.lang].print_it }}" target="_blank">{{ site.data.about[page.lang].print_it }}</a>
+
+      <a href="{{ site.data.about[page.lang].hire_me_mailto }}" class="btn--default">{{ site.data.about[page.lang].hire_me_heading}}</a>
     </div>
   </section>
 
