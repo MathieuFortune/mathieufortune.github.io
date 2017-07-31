@@ -30,6 +30,10 @@ blockquote {
     font-size: 100%;
   }
 
+  &.full {
+    max-width: 100%;
+  }
+
   @include media($small-tab, max-width) {
     max-width: 100%;
     margin: 1em auto;
