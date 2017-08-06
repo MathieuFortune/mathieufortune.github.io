@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Travaillons ensemble !"
-menu_title : Freelance
+menu_title : À propos
 permalink: /entreprise/
 ref: company
 lang: fr

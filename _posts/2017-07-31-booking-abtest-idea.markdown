@@ -9,37 +9,47 @@ author: Mathieu Fortune
 theme: Case studies
 ---
 
-{% include lazy-image.html src="/images/booking-article-picture-00.png" alt="Booking.com logo" caption="Booking.com logo" %}
-
 In October 2016, I was approached by Booking.com's recruiter about a position of UX/Product Designer.
 One of my mission during the hiring process was to design a simple A/B test that can be setup on the desktop website.
 
-When you take a first look at Booking.com website, it's a labyrinth ! However, we still manage to found what we are looking for.
-This is the result of an accumulation of several years of tests and improvements done through A/B testings. Each UI elements have a real purpose and are doing their job.
+When you think about Booking.com website, it's a mess !
+But somehow, we manage to found what we are looking for, right ?
+This is the result of an accumulation of several years of tests and improvements done through A/B testings.
+Each UI elements have a real purpose and are doing their job.
 
-In order to deliver something realistic regarding the development constraints and the philosophy of A/B testing, I focused on a small change with specific KPI's.
+Your can learn more about Booking's A/B test philosophy in this video :
 
-Here is my design process...
+<div class="vid-container">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/C-U1Pakvk2A" frameborder="0" allowfullscreen></iframe>
+</div>
+
+In order to deliver a test realistic regarding the development constraints and the philosophy of A/B testing, I focused on a small change with specific KPI's.
+
+__Here is my design process...__
 
 ### Introduction
 
-In order to understand all services of Booking.com, I spent several hours reviewing the different versions of the website (Desktop, Tablet, Mobile, Native App).
+In order to understand all services of Booking.com, I firt spent several hours reviewing the different versions of the website (Desktop, Tablet, Mobile, Native App).
 
-Thereby I found out all features that the website provides, because when I usually visit the website, I come everytime with a particular need, so I use to visit a small portion of it.
+Thereby I was able to list all features that the website provides. I'm a big user of booking.com. I travelled a lot around the world and I was always relating to Booking.com to find my accomodations. Even that, I discovered that I was used to use a small portion of the website as I already have my own user path.
 
 ### User research
 
-I conducted exploratory interviews of few minutes with regular customers of booking.com to know how they were using the website.
-
-At the end of the tests, It seems that they are using Booking.com only when they already know their destinations. They didn’t know Booking.com could advise them on their destinations.
-
-Especially when these users need inspiration to choose their next travel destination :
+So I conducted some exploratory interviews of few minutes with regular customers of booking.com to know how they were using the website.
 
 * A couple seeking where to go on honeymoon. -> They look for a “romantic” destination
 * Two friends who want to organize a weekend to celebrate their reunion. -> They look for a “Nightlife” destination
 * A man who wants to take an autumnal retirement for a few days in a remote place. -> He looks for a “Quiet and Nature” destination
 
+Results show that they use Booking.com only when they already know their destinations.
+
+They use it as a simple price comparator.
+
+They didn’t know Booking.com is also able to advice them on future destinations.
+
 ### Scenario
+
+To help my reasoning, I like to create small use case scenario.
 
 <blockquote class="full">
 It’s decided, I'm taking a vacation !<br/>
@@ -51,16 +61,16 @@ I don’t know yet where I want to go. All I know is that I need a vacation.<br/
 
 ### The feature - thematic destinations
 
-By reviewing with attendance the website, I see Booking.com can suggest destinations based on specific themes (Relaxation, Hiking, Romance, Shopping, ...)
+By reviewing with attendance the website, I saw Booking.com can suggest destinations based on specific themes (Relaxation, Hiking, Romance, Shopping, ...)
 
-I tested this block in different languages ​​and with different IP.
-It seems that this block is not present all the time and suggest randomly only 3 themes (relaxation, tranquility, beach)
+I tested this block in different languages ​​and with different IPs.
+Apparently, these blocks are showing randomly and suggest only 3 themes (relaxation, tranquility, beach)
 
 A user searching for inspiration, without being sensitive to these 3 themes or that couldn’t see this block in his version, can’t know there is a way to be adviced in his search.
 
-This feature could meet the need of Booking.com users looking for advices and inspiration.
+This feature could match the need of Booking users looking for advices and inspiration.
 
-By putting forward this information, this would accompany a user from the emergence of his vacation need, until the end of his hotel booking.
+By putting forward this information, this would follow a user from the emergence of his vacation need, until the end of his hotel booking.
 
 {% include lazy-image.html src="/images/booking-article-picture-01.jpg" alt="Picture booking destinations website" caption="Booking destinations website" %}
 

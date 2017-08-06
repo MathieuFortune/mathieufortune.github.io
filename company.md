@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Let's work together !"
-menu_title: Freelance
+menu_title: About
 permalink: /company/
 ref: company
 lang: en
@@ -12,7 +12,9 @@ lang: en
 
 I’ve been driven by these values by working for 5+ years as front-end developer, user interface designer and user experience designer both in agency and successful e-commerce start-up.
 
- I'm constantly exploring [lean approaches](https://en.wikipedia.org/wiki/Lean){:target="_blank"} and [agiles methods](https://en.wikipedia.org/wiki/Agile_software_development){:target="_blank"}, familliar with languages like HTML, Sass, Javascript, enjoying tools like Gulp, Webpack and CMS like Jekyll, Wordpress, Symfony.
+Today, I wish to share my experiences and knowledge to you as an <br/>__independant consultant.__
+
+ I'm constantly exploring [lean approaches](https://en.wikipedia.org/wiki/Lean){:target="_blank"} and [agiles methods](https://en.wikipedia.org/wiki/Agile_software_development){:target="_blank"}, expert with languages like HTML, Sass, Javascript, enjoying tools like Gulp, Webpack and CMS like Jekyll, Wordpress, Symfony.
 
 I also enjoy to share my knowledge troughout learning sessions, conferences, meetups.
 I'm attached to share my knowledge in web development and design in order to teach everyone wanting to be autonomous and experiencing new topics.

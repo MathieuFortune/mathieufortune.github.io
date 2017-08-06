@@ -1,7 +1,7 @@
 ---
 layout: about
 title: About
-menu_title: About me
+menu_title: Resume
 permalink: /about/
 ref: about
 lang: en

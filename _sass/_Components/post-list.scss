@@ -25,6 +25,7 @@
   }
 
   .post-title {
+    @include font-size($font-size--medium);
     margin: 0;
     line-height: 1.2;
   }
