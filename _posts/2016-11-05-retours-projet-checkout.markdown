@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Refonte du tunnel de commande @ 1001pharmacies"
+title:  "Refondre le tunnel de commande @ 1001pharmacies"
 thumbnail: "/images/case-study-checkout-preview.jpg"
 date:   2016-11-24 13:45:01 +0200
 lang: fr

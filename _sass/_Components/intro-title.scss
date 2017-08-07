@@ -1,8 +1,8 @@
 // Intro title component
-$intro-font-size: 36;
+$intro-font-size: 33;
 $intro-font-size--small: 54;
 $intro-font-size--medium: 62;
-$intro-font-size--hero: 81;
+$intro-font-size--hero: 76;
 
 %intro-title {
   @extend %container;
@@ -13,7 +13,7 @@ $intro-font-size--hero: 81;
   @include fluid-typo($intro-font-size, $intro-font-size--small, $phone-h-computed, $desktop-computed);
   padding-right: 0;
   padding-left: 0;
-  margin: 8rem auto 5rem;
+  margin: 8rem auto 3rem;
   font-weight: $font-weight--bold;
   line-height: 1;
   letter-spacing: -1px;

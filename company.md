@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Let's work together !"
-menu_title: About
+menu_title: Hire me
 permalink: /company/
 ref: company
 lang: en

@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Travaillons ensemble !"
-menu_title : À propos
+menu_title : Recrutez-moi
 permalink: /entreprise/
 ref: company
 lang: fr

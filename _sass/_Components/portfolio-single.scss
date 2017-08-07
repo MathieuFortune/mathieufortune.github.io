@@ -1,7 +1,7 @@
 .portfolio-single {
-  width: 24%;
-  margin: 0 0 4% 0;
   display: inline-block;
+  width: 24%;
+  margin: 0 0 4%;
   vertical-align: top;
   -webkit-perspective: 1000px;
   perspective: 1000px;
@@ -39,23 +39,23 @@
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%;
-    height: 100%;
     z-index: -1;
     display: block;
-    text-transform: uppercase;
+    width: 100%;
+    height: 100%;
+    color: $color--white;
     text-align: center;
-    color: #FFF;
-    -webkit-transform: rotateY(180deg);
+    text-transform: uppercase;
+    background-color: $color--main;
     transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
-    background-color: $color--main;
 
     h4 {
       @include font-size($font-size--small);
       position: absolute;
-      top: 50%;
+      top: 55%;
       width: 100%;
       padding: 0 1em;
       margin: 0;
@@ -63,6 +63,13 @@
 
       a {
         @extend %link-reverse;
+      }
+
+      .sub {
+        display: block;
+        margin-top: .5em;
+        font-weight: $font-weight--thin;
+        color: $color--white;
       }
     }
   }

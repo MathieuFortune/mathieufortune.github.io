@@ -1,0 +1,14 @@
+// Intro desc component
+$intro-font-size: 14;
+$intro-font-size--small: 20;
+
+.intro-desc {
+  @extend %container;
+  @include fluid-typo($intro-font-size, $intro-font-size--small, $phone-h-computed, $desktop-computed);
+  @include media($tab-v, max-width) {
+    padding-right: $spacing--base;
+    padding-left: $spacing--base;
+  }
+  padding-right: 0;
+  padding-left: 0;
+}

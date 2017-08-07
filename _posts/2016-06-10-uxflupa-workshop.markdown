@@ -50,7 +50,7 @@ This test was performed on the home page of the site in order to know the feelin
 
 Finally, the __third test__ concerned the ordering process. Interviewees were invited to perform taks guiding them through the buying process.
 
-<blockquote>
+<blockquote class="small">
 Every year, summer comes, I want to order my beach panoply (sun cream, a refreshing spray and moisturizer).
 </blockquote>
 
@@ -104,7 +104,7 @@ The objective is therefore to juggle with these qualities in order to get the re
 
 *For example: On a funnel, the pragmatic aspect (serious task) is relatively more important than the hedonic aspect (fun task).*
 
-I invite you to read the [article by Carine Lallemand](https://uxmind.eu/2014/06/23/attrakdiff-evaluation-quantitative-ux/ "Carine Lallemand's article") for further explanation of this method (FR).
+I invite you to read the [article by Carine Lallemand](https://uxmind.eu/2014/06/23/attrakdiff-evaluation-quantitative-ux/ "Carine Lallemand's article"){:target="_blank"} for further explanation of this method (FR).
 
 We can see from the charts below that __values of attractiveness and pragmatism are relatively positive__ while __hedonism is less present__.
 

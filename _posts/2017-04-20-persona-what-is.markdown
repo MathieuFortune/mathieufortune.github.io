@@ -51,4 +51,4 @@ To summarize, a persona can be seen as a tool to facilitate future product inter
 
 ### Concrete example
 
-To see a concrete example, I suggest you to read the case study on [how 1001pharmacies.com's personas are created] ({% post_url 2017-04-21-how-are-created-personas-1001pharmacies %} "Case study: how 1001pharmacies.com's personas are created ")
+To see a concrete example, I suggest you to read the case study on [Personas creation @ 1001pharmacies.com]({% post_url 2017-04-21-how-are-created-personas-1001pharmacies %} "Case study: Personas creation @ 1001pharmacies.com ")

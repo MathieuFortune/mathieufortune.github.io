@@ -57,9 +57,14 @@ strong,
 em,
 %italic,
 .italic {
-  color: $color--main;
   font-style: italic;
   font-weight: $font-weight--thin;
+  color: $color--main;
+}
+
+s {
+  @include font-size($font-size--base);
+  color: $color--grey;
 }
 
 .uppercase,

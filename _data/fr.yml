@@ -1,11 +1,18 @@
 hero:
-  title: Sup' !
-  job_line_1: Moi c'est Mathieu
-  job_line_2: Consultant développeur Front & UX designer
+  title: Salut !
+  job_line_1: Moi c'est Mathieu,
+  job_line_2: front-end developer & ux designer indépendant
+
+intro: |
+    Je travaille avec des équipes tech et design dans les entreprises et agences,
+    à concevoir et développer des applications front-end solides, responsive, rapides, accessible avec une approche centrée sur l'utilisateur.
+    <br/><br/>
+    J'aime aussi partager mes connaissances lors d'événements et meetups.
+
 
 post:
   title: Découvrez mes travaux
 
-footer:
-  email_title: Restez en contact avec moi
-  back_home: Revenir à l'accueil
+  footer:
+    email_title: Restez en contact avec moi
+    back_home: Revenir à l'accueil

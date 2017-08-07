@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "How 1001pharmacies's personas are created ?"
+title:  "Personas creation @ 1001pharmacies.com"
 thumbnail: "/images/personas-casestudy-thumbnail.jpg"
 date: 2017-04-21 12:00:00 +0200
 lang: en
@@ -11,9 +11,16 @@ theme: Case studies
 
 This use case is a following of my previous article about [what's a persona]({% post_url 2017-04-20-persona-what-is %} "Article : What's a persona ?") that I suggest you to read if you haven't do already.
 
-### Datas sources
+### Context
 
-Now get in the subject.
+This work have been done in collaboration with [Audrey Lambert](https://twitter.com/AudreylambertAl){:target="_blank"}, former webmarketing coordinator @ 100pharmacies.com.
+A huge shout out for her skills in data analysis, her knowledge on all webmarketing related fields and her feedbacks !
+
+I created these personas in order to help the team focus on re-designing the new version of 1001pharmacies's website.
+
+Here is my design process...
+
+### Datas sources
 
 Several data resources have been used to build 1001pharmacies's personas.
 

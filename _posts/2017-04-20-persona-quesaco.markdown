@@ -51,4 +51,4 @@ Pour résumer, le persona peut être vue comme un outil permettant de faciliter 
 
 ### Exemple concret
 
-Pour voir un exemple concret, je vous propose de lire le cas d'étude sur [les personas de 1001pharmacies.com]({% post_url 2017-04-21-comment-son-cree-personas-1001pharmacies %} "Cas d'étude : les personas de 1001pharmacies.com")
+Pour voir un exemple concret, je vous propose de lire le cas d'étude sur [Création de personas @ 1001pharmacies.com]({% post_url 2017-04-21-comment-son-cree-personas-1001pharmacies %} "Cas d'étude : Création de personas @ 1001pharmacies.com")

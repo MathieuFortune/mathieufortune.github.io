@@ -9,6 +9,25 @@ layout: default
   <div class="animated fade-in-right delay--medium smaller">{{ site.data[page.lang].hero.job_line_2 }}</div>
 </h1>
 
+<section class="intro-desc">
+  <div class="col-third">
+    {% include lazy-image.html src="/images/picture-profile.jpg" alt="Photo de profil" width="250" height="250" %}
+  </div>
+  <div class="col-two-third">
+    <p class="no-marg">
+    {{ site.data[page.lang].intro }}
+    </p>
+    <p class="text-right">
+    {% assign pages=site.pages | where:"lang", page.lang %}
+    {% for my_page in pages %}
+      {% if my_page.menu_title %}
+        <a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.menu_title | escape }}</a> {% if forloop.first %}-{% endif %}
+      {% endif %}
+    {% endfor %}
+    </p>
+  </div>
+</section>
+
 <section>
   <ul class="post-list">
     {% assign posts=site.posts | where:"lang", page.lang %}
