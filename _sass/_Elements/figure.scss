@@ -1,8 +1,8 @@
 /* Figure element */
 figure {
   margin-top:     0;
-  margin-left:    0;
   margin-right:   0;
+  margin-left:    0;
   text-align: center;
 }
 
@@ -12,6 +12,8 @@ figure > img {
 
 figcaption {
   @include font-size($font-size--small);
+  margin-top: $spacing--tiny;
+  color: $color--grey;
   text-align: center;
 }
 
