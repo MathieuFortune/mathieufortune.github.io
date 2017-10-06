@@ -112,7 +112,9 @@ $overlay-size--px: $overlay-size * 16px;
 
   .label {
     @include font-size($font-size--tiny);
+
     height: auto;
+    font-family: $font-main;
     color: $color--white;
     text-transform: uppercase;
     background: none;

@@ -2,7 +2,7 @@
 :root {
   @include fluid-typo(15, 16, $phone-h-computed, $desktop-computed);
   font-family: $font-base;
-  font-weight: $font-weight--base;
+  font-weight: $font-weight--thin;
   line-height: 1.45;
   color: $color--text;
   background-color: $color--white;

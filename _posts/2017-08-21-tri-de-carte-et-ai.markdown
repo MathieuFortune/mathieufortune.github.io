@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Tri de carte - Améliorer l'architecture de l'information de son site"
-thumbnail: "/images/card-sorting-cov.jpg"
+thumbnail: "/images/card-sorting-thumb.jpg"
 date: 2017-08-21 12:00:00 +0200
 lang: fr
 ref: card-sorting

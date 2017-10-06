@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "What's a persona ?"
+title:  "What is a persona ?"
 thumbnail: "/images/personas-definition-thumbnail.jpg"
 date: 2017-04-20 12:00:00 +0200
 lang: en

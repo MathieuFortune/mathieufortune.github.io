@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Card sorting - Improve information architecture"
-thumbnail: "/images/card-sorting-cov.jpg"
+thumbnail: "/images/card-sorting-thumb.jpg"
 date: 2017-08-21 12:00:00 +0200
 lang: en
 ref: card-sorting

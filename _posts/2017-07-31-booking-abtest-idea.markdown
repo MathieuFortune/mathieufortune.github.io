@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Booking.com - A/B test idea"
-thumbnail: "/images/booking-article-picture-00.png"
+thumbnail: "/images/booking-article-thumb.png"
 date: 2017-07-31 12:00:00 +0200
 lang: en
 ref: booking-abtest

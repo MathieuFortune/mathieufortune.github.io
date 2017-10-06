@@ -9,12 +9,12 @@
     @extend %container;
 
     p {
-      @include fluid-typo(16, 18, $phone-h-computed, $desktop-computed);
-      line-height: 1.8em;
+      @include fluid-typo(18, 18, $phone-h-computed, $desktop-computed);
+      line-height: 1.6em;
     }
 
     li {
-      @include fluid-typo(16, 18, $phone-h-computed, $desktop-computed);
+      @include fluid-typo(18, 18, $phone-h-computed, $desktop-computed);
     }
   }
 }

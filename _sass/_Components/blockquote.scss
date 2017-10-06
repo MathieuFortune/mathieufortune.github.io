@@ -1,18 +1,17 @@
 // Blockquote component
 %blockquote,
 blockquote {
+  @include font-size($font-size--medium);
+
   position: relative;
   display: block;
-  max-width: 70%;
-  padding: .5em 1em .05em;
-  margin: 1em auto;
-  font-size: 130%;
-  font-style: italic;
-  line-height: 1.8;
-  color: $color--black;
-  background: $color--lightgrey;
-  border-bottom: 0;
-  border-left: 2px solid $color--main;
+  max-width: 80%;
+  padding: $spacing--small;
+  font-family: $font-base;
+  font-weight: $font-weight--base;
+  line-height: 1.45;
+  color: $color--text;
+  text-align: justify;
 
   &.left {
     float: left;
@@ -27,11 +26,20 @@ blockquote {
   }
 
   &.small {
-    font-size: 100%;
+    @include font-size($font-size--base);
   }
 
   &.full {
     max-width: 100%;
+  }
+
+  &::after {
+    content: '';
+    display: block;
+    width: 50%;
+    height: .235rem;
+    margin-top: .8rem;
+    background-color: $color--text;
   }
 
   @include media($small-tab, max-width) {
