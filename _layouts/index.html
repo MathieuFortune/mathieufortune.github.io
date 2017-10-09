@@ -1,12 +1,23 @@
 ---
 layout: default
 ---
+<div class="video-background">
+<video preload="true" autoplay="" loop="" muted="" class="inner" id="videoBg"><source src="/images/video-background-portfolio-short.mp4" type="video/mp4"><source src="/images/video-background-portfolio-short.webm" type="video/webm"></video>
+</div>
 
 <h1 class="intro-title--hero">
   <div class="animated shake delay--small">{{ site.data[page.lang].hero.title }}</div>
   <hr/>
-  <div class="animated fade-in-left delay--medium smaller">{{ site.data[page.lang].hero.job_line_1 }}</div>
-  <div class="animated fade-in-right delay--medium smaller">{{ site.data[page.lang].hero.job_line_2 }}</div>
+  <div class="animated fade-in-left delay--medium smaller">
+      {{ site.data[page.lang].hero.job_line_1 }}
+      <span
+      style="color: #fa432e;"
+      class="dynamic-text"
+      data-period="2000"
+      data-rotate='{{ site.data[page.lang].hero.job_line_3 }}'></span>
+      <br/>
+      {{ site.data[page.lang].hero.job_line_2 }}
+  </div>
 </h1>
 
 <section class="intro-desc">
@@ -18,17 +29,20 @@ layout: default
     {{ site.data[page.lang].intro }}
     </p>
     <p class="text-right">
+    {{ site.data[page.lang].intro_link }}
     {% assign pages=site.pages | where:"lang", page.lang %}
     {% for my_page in pages %}
       {% if my_page.menu_title %}
-        <a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.menu_title | escape }}</a> {% if forloop.first %}-{% endif %}
+        <a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.menu_title | escape }}</a> {% if forloop.first %} - {% endif %}
       {% endif %}
     {% endfor %}
     </p>
   </div>
+  <div class="clearfix"></div>
 </section>
 
 <section>
+  <h3 class="center">{{ site.data[page.lang].post.title }}</h3>
   <ul class="post-list">
     {% assign posts=site.posts | where:"lang", page.lang %}
     {% for post in posts %}

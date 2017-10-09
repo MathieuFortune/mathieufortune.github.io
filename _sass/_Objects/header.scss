@@ -1,13 +1,22 @@
 /* Header objects */
 .site-header {
-  position: fixed;
-  top: 0;
-  z-index: 999;
+  @include media($tab-v) {
+    position: fixed;
+    top: 1rem;
+    left: 1rem;
+    z-index: 999;
+    width: calc(100% - 2rem);
+  }
+
+  position: relative;
   width: 100%;
   min-height: 70px;
   padding: 0 $spacing--small;
-  background: rgba(255, 255, 255, .9);
-  border-top: 5px solid $color--main;
+  background-color: rgba(255, 255, 255, .9);
+
+  .home & {
+    background-color: transparent;
+  }
 }
 
 .site-title {

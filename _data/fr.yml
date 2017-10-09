@@ -1,17 +1,19 @@
 hero:
   title: Salut !
-  job_line_1: Moi c'est Mathieu,
-  job_line_2: front-end developer & ux designer indépendant
+  job_line_1: Je suis un
+  job_line_2: partageant sa passion du web.
+  job_line_3: '[ "Développeur", "Designer", "Entrepreneur", "Orateur", "Formateur" ]'
 
 intro: |
     Je travaille avec des équipes tech et design dans les entreprises et agences,
     à concevoir et développer des applications front-end solides, responsive, rapides, accessible avec une approche centrée sur l'utilisateur.
     <br/><br/>
     J'aime aussi partager mes connaissances lors d'événements et meetups.
+intro_link : Jetez un oeil à mon
 
 
 post:
-  title: Découvrez mes travaux
+  title: Articles et cas d'études récent
 
   footer:
     email_title: Restez en contact avec moi

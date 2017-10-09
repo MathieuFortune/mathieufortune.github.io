@@ -1,7 +1,10 @@
 // Post list component
 .post-list {
   padding: 0;
+  padding-bottom: 4rem;
+  margin-bottom: 0;
   list-style: none;
+  background-color: $color--white;
 
   li {
     @extend %transition;

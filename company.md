@@ -1,14 +1,13 @@
 ---
 layout: post
 title:  "Let's work together !"
-menu_title: Hire me
+menu_title: About
 permalink: /company/
 ref: company
 lang: en
 ---
 
-
-#### _"Sharing, Intellectual honesty, Transparency, Well being, Pragamatism and Trust"_
+<h3 class="center"><em>"Sharing, Intellectual honesty, Transparency, Well being, Pragamatism and Trust"</em></h3>
 
 I’ve been driven by these values by working for 5+ years as front-end developer, user interface designer and user experience designer both in agency and successful e-commerce start-up.
 
@@ -60,7 +59,11 @@ __- Product enhancement -__ Sustain, improve quality and performances of your ex
 
 <br/>
 
-### Portfolio
+### Work
+
+Over the years, I’ve had the pleasure to work with several really great people and companies on some really awesome projects. Below are a few clients who I worked with at different stages.
+If you would like to see more examples or perhaps something a little more specific, please get in touch and I’d be happy to send you a few examples!
+
 
 {% include
 portfolio-single.html
@@ -71,7 +74,7 @@ heigh="180"
 caption_title="1001pharmacies"
 caption_desc="French startup in parapharmacy"
 caption_sub="E-commerce"
-caption_url="http://beta.1001pharmacies.com"
+caption_url="https://1001pharmacies.com"
 %}
 
 {% include
@@ -209,27 +212,28 @@ caption_url="http://www.sport-coach.fr/"
 
 ### References
 
-<blockquote class="small">
+<blockquote class="small col-half--left">
   Mathieu was a great asset in 1001pharmacies's development team. He used his UX and Front-end development skills to serve our e-commerce website, as well as our current website re-design. His professionalism led him to work with commitment and high motivation until his last day in our team. These actions allow me to recommend him without hesitaton and I invite you to give him a shot to prove his true value.
   Feel free to contact me directly for more informations.
   <p class="text-right">Cédric O'Neill, co-founder and former CEO @ 1001pharmacies.com</p>
 </blockquote>
 
-<blockquote class="small">
-  I worked with Mathieu for a year. Deeply involved in the projects he worked on, he managed to find the most qualitative solution for each challenge he encountered. His creativity and sixth sense for usability is a great asset for a team.
-  <p class="text-right">Guilhem Marty, former CTO @ 1001pharmacies.com</p>
-</blockquote>
-
-<blockquote class="small">
+<blockquote class="small col-half--right">
   Working with Mathieu on UX subjects was very exciting...  He's constantly learning about topics around user centered design and doesn't hesitate to challenge projects ideas in order to move forward. In addition, he has a real eye for aesthetics ! I can only recommend you to work with Mathieu.
   <p class="text-right">Audrey Lambert, former digital marketing manager @ 1001pharmacies.com</p>
 </blockquote>
 
-<blockquote class="small">
+<blockquote class="small col-two-third">
   Mathieu is an avid UX/UI Designer.
   Thanks to his great design skills and clear explanations in projects (whose collaboration was rich in learning/teaching and very rewarding), he did them by providing much value to the different projects. Motivated and passionate, he helped myself and other colleagues to improve themselves. It's a pleasure to work with him and I recommend him for future web projects.
   <p class="text-right">Sébastien Correaud, front-end developer @ 1001pharmacies.com</p>
 </blockquote>
 
+<blockquote class="small col-third">
+  I worked with Mathieu for a year. Deeply involved in the projects he worked on, he managed to find the most qualitative solution for each challenge he encountered. His creativity and sixth sense for usability is a great asset for a team.
+  <p class="text-right">Guilhem Marty, former CTO @ 1001pharmacies.com</p>
+</blockquote>
+
+<div class="clearfix"></div>
 
 __UI developer, Front-end developer, Web designer, Ux designer, Web teacher, Web project manager, HTML5, CSS3, Javascript, Sass, Less, Bootstrap, Photoshop, Illustrator, Indesign, Sketch, Invision, Marvel, Usability tests, User interviews, Data analyst, SEO, Gulp, Webpack, Responsive web design, Mobile, Wordpress, Drupal, Jekyll, Synfony.__

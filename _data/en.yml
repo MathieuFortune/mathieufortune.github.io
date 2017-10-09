@@ -1,17 +1,19 @@
 hero:
   title: Hi there !
-  job_line_1: I am Mathieu,
-  job_line_2: independant front-end dev & ux designer
+  job_line_1: I'm a
+  job_line_2: sharing his passion for the web.
+  job_line_3: '[ "Developer", "Designer", "Entrepreneur", "Speaker", "Teacher" ]'
 
 intro: |
     I work with tech and design teams in companies and agencies,
     designing and building strong front-end applications, responsive, fast, acessible with a user centric approach.
     <br/><br/>
     I also love to share my knowledge during events and meetups.
+intro_link : Take a look at my
 
 
 post:
-  title: Discover my works
+  title: Fresh articles and case studies
 
 footer:
   email_title: Get in touch with me

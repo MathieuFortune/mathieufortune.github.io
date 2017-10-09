@@ -5,4 +5,8 @@
   padding: $spacing--huge $spacing--small;
   margin-top: $spacing--huge;
   background-color: $color--lightgrey;
+
+  .home & {
+    margin-top: 0;
+  }
 }

@@ -1,5 +1,4 @@
 // Menu icon component
-
 $menu-icon-size: 1.875;
 $menu-icon-size--em: $menu-icon-size * 1em;
 $menu-icon-size--px: $menu-icon-size * 16px;
@@ -64,6 +63,7 @@ $overlay-size--px: $overlay-size * 16px;
   border-radius: 100%;
   transform: scale(1);
   transform: translate(50%, -50%);
+  will-change: transform;
 }
 
 .menu-icon {
@@ -112,7 +112,6 @@ $overlay-size--px: $overlay-size * 16px;
 
   .label {
     @include font-size($font-size--tiny);
-
     height: auto;
     font-family: $font-main;
     color: $color--white;
@@ -122,8 +121,11 @@ $overlay-size--px: $overlay-size * 16px;
   }
 }
 
-body {
-  &.menu-open {
+html.menu-open {
+  overflow: hidden;
+  border-color: $color--link--hover;
+
+  body {
     overflow: hidden;
   }
 }

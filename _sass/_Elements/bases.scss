@@ -1,6 +1,10 @@
 /* Base elements */
 :root {
   @include fluid-typo(15, 16, $phone-h-computed, $desktop-computed);
+  @include media($tab-v) {
+    border: 1rem solid $color--main;
+  }
+
   font-family: $font-base;
   font-weight: $font-weight--thin;
   line-height: 1.45;
@@ -13,6 +17,7 @@
   -o-font-feature-settings: 'kern' 1;
   font-feature-settings: 'kern' 1;
   font-kerning: normal;
+  border: .5rem solid $color--main;
 }
 
 * {

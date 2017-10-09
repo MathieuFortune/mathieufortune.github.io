@@ -1,14 +1,14 @@
 ---
 layout: post
 title:  "Travaillons ensemble !"
-menu_title : Recrutez-moi
+menu_title : À propos
 permalink: /entreprise/
 ref: company
 lang: fr
 ---
 
 
-#### _"Partage, Honnêteté intellectuelle, Transparence, Bien-être, Pragamatisme et Confiance"_
+<h3 class="center"><em>"Partage, Honnêteté intellectuelle, Transparence, Bien-être, Pragamatisme et Confiance"</em></h3>
 
 
 Cela fait plus de 5 ans que je suis animé par ces valeurs en tant qu’intégrateur web, développeur front-end, designer web et designer UX à la fois en agence et dans une start-up e-commerce à succès.
@@ -71,7 +71,7 @@ heigh="180"
 caption_title="1001pharmacies"
 caption_desc="Start-up dans la parapharmacie en ligne"
 caption_sub="E-commerce"
-caption_url="http://beta.1001pharmacies.com"
+caption_url="https://1001pharmacies.com"
 %}
 
 {% include
@@ -210,30 +210,31 @@ caption_url="http://www.sport-coach.fr/"
 
 ### Recommendations
 
-<blockquote class="small">
+<blockquote class="small col-half--left">
   Mathieu a été un atout dans l'équipe de développement de 1001pharmacies.com. Il a permis de mettre ses compétences UX et Front end développeur au service de notre site e-commerce, ainsi qu'a la refonte actuelle de notre site internet. Son professionnalisme l'a conduit à travailler de manière engagée et motivée jusqu'à son dernier jour dans notre équipe.
   Ce sont les raisons pour lesquelles, je vous recommande sans hésiter d'étudier sa candidature pour qu'il puisse vous prouver sa vraie valeur.
   N'hésitez pas à me contacter directement pour plus d'informations à son sujet.
-  <p class="text-right">Cédric O'Neill, co-fondateur et ancien CEO @ 1001pharmacies.com</p>
+  <p class="text-right">Cédric O'Neill, co-fondateur et ancien CEO @1001pharmacies.com</p>
 </blockquote>
 
-<blockquote class="small">
- J'ai travailler avec Mathieu pendant 1an. Profondément engagé dans les projets sur lequels il travaillé, il parvené à trouvé la solution la plus qualitative à chacuns des challenges rencontrés. Sa créativité et son sixième sens pour l'utilisabilité en font un très bon atout pour une équipe.
- <p class="text-right">Guilhem Marty, ancien CTO @ 1001pharmacies.com</p>
-</blockquote>
-
-<blockquote class="small">
+<blockquote class="small col-half--right">
   Travailler avec Mathieu autour des sujets de l'UX a été très passionnant... C'est une personne qui se forme continuellement sur ces sujets qui tournent autour de la conception centrée sur l'humain et qui n'hésite pas à challenger les positions afin de faire avancer les projets. Et en plus, il dispose d'un véritable oeil esthétique ! Je ne peux que vous recommander de travailler avec Mathieu.
-  <p class="text-right">Audrey Lambert, ancienne digital marketing manager @ 1001pharmacies.com</p>
+  <p class="text-right">Audrey Lambert, ancienne digital marketing manager @1001pharmacies.com</p>
 </blockquote>
 
-<blockquote class="small">
+<blockquote class="small col-two-third">
   Mathieu est un ardent UX/UI Designer.
   Grâce à ses talents en design et ses explications claires dans les projets (cette collaboration a été riche en apprentissage/enseignemant et très valorisante), il parvené à cela en donnant beaucoup d'attention aux différents projets. Motivé et passioné, il m'a aidé personnellement ainsi que d'autres collègues à gagner en compétences. C'est un plaisir de travailler avec lui et je vous le recommande pour vos futurs projets.
 
-  <p class="text-right">Sébastien Correaud, front-end developer @ 1001pharmacies.com</p>
+  <p class="text-right">Sébastien Correaud, front-end developer @1001pharmacies.com</p>
 </blockquote>
 
+<blockquote class="small col-third">
+ J'ai travailler avec Mathieu pendant 1an. Profondément engagé dans les projets sur lequels il travaillé, il parvené à trouvé la solution la plus qualitative à chacuns des challenges rencontrés. Sa créativité et son sixième sens pour l'utilisabilité en font un très bon atout pour une équipe.
+ <p class="text-right">Guilhem Marty, ancien CTO @1001pharmacies.com</p>
+</blockquote>
+
+<div class="clearfix"></div>
 
 
 __Intégrateur web, Développeur front-end, Web designer, Ux designer, Formateur web, Chef de projet web, HTML5, CSS3, Javascript, Sass, Less, Bootstrap, Photoshop, Illustrator, Indesign, Sketch, Invision, Marvel, Test utilisabilité, Interviews utilisateur, Data analyst, SEO, Gulp, Webpack, Responsive web design, Mobile, Wordpress, Drupal, Jekyll, Synfony.__
