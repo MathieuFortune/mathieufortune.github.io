@@ -2,9 +2,8 @@
 
 HELLO WORLD !
 Your welcome to check my source code :-).
-I mainly focus my efforts on making the first iteration of my portfolio.
-I'm currently optimizing the code.
-If you see some interesting improvement for it, submit an issue on my GitHyub page.
+My portfolio website is still a work in progress state.
+So, if you see some interesting improvement for it, submit an issue on my GitHyub page.
 Peace !
 
 ---->
@@ -14,7 +13,7 @@ Peace !
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>{% if page.title %}{{ page.title | escape }} - {{ site.title[page.lang] | escape }}{% else %}{{ site.title[page.lang] | escape }}{% endif %}</title>
+  <title>{% if page.title %}{{ page.title | escape }} - {{ site.title_head[page.lang] | escape }}{% else %}{{ site.title_head[page.lang] | escape }}{% endif %}</title>
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description[page.lang] }}{% endif %}">
 
   <meta property="og:type"        content="article" />
