@@ -42,7 +42,7 @@ layout: default
 </section>
 
 <section>
-  <h3 class="center">{{ site.data[page.lang].post.title }}</h3>
+  <h4 class="center">{{ site.data[page.lang].post.title }}</h4>
   <ul class="post-list">
     {% assign posts=site.posts | where:"lang", page.lang %}
     {% for post in posts %}
