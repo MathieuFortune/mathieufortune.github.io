@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Développement du réseau social Connect Together"
-thumbnail: "/images/connect-together-cover.jpg"
+thumbnail: "/images/connect-together-thumb.jpg"
 date:   2016-08-26 12:00:00 +0200
 lang: fr
 ref: connect-together

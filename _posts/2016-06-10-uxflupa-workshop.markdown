@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "UX Workshops FLUPA @ 1001pharmacies"
-thumbnail: "/images/flupa-photos-1.jpg"
+thumbnail: "/images/flupa-photos-thumb.jpg"
 date: 2016-06-10 15:59:00 +0200
 lang: en
 ref: uxflupa-workshop

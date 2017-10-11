@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Redesign the checkout process @ 1001pharmacies"
-thumbnail: "/images/case-study-checkout-preview.jpg"
+thumbnail: "/images/case-study-checkout-thumb.jpg"
 date:   2016-11-24 13:45:01 +0200
 lang: en
 ref: checkout-project

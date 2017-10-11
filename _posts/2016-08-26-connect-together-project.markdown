@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Connect Together social network"
-thumbnail: "/images/connect-together-cover.jpg"
+thumbnail: "/images/connect-together-thumb.jpg"
 date:   2016-08-26 12:00:00 +0200
 lang: en
 ref: connect-together
