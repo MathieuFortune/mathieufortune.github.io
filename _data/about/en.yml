@@ -139,7 +139,7 @@ project_results: Results
 projects:
   - title: Product Catalog re-design project
     description: This project intended to re-design and develop the catalog (search, find and buy a product) of 1001pharmacies e-commerce website
-    results: This project is in open beta
+    results: Project released, a new team work on it now.
     list:
       - Sketch project UI (Sketch)
       - Design project's user experience

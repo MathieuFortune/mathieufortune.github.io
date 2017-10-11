@@ -139,7 +139,7 @@ project_results: Résultats
 projects:
   - title: Refonte d'un catalogue e-commerce
     description: Ce projet avait pour but de refondre la partie front du catalogue du site e-commerce 1001pharmacies.com (rechercher, trouver et acheter un produit)
-    results: Le projet est actuellement en phase de BETA ouverte.
+    results: Projet sorti. Une nouvelle équipe travaille dessus désormais.
     list:
       - Sketch de l'UI (Sketch)
       - Conception de l'expérience utilisateur
