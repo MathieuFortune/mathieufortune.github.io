@@ -21,11 +21,7 @@ theme: Case studies
 | Library/Framework | Bootstrap 3, Synfony 2 |
 
 
-<div class="large" markdown="1">
-  <figure markdown="1" class="text-center">
-  ![New 1001pharmacies.com's cart [step 1]](/images/case-study-checkout-preview.jpg "New 1001pharmacies.com's cart [step 1]")
-  </figure>
-</div>
+{% include lazy-image.html src="/images/case-study-checkout-preview.jpg" alt="New 1001pharmacies.com's cart [step 1]" caption="" figClass="" %}
 
 1001pharmacies.com is an online marketplace in the health and well-being activity. Its purpose is to connect pharmacists directly with their customers through an access to their products online. Each pharmacy can manage its own drugstore catalog and its stock.
 
