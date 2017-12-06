@@ -17,6 +17,7 @@ C'est un bonne manière de sortir de sa zonne de confort et de développer son s
 
 Si vous êtes vous aussi intéressé, allez sur [dailyui.co](http://www.dailyui.co/ "Site internet pour s'inscrire au Daily UI challenge"){:target="_blank"} et inscrivez-vous. Chaque jour vous recevez dans votre boite email une nouvelle mission de design.
 
+Bonne chance :)
 
 ### #001 - Sign Up
 
