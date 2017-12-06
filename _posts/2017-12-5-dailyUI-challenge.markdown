@@ -9,8 +9,6 @@ author: Mathieu Fortune
 theme: Article
 ---
 
-{% include lazy-image.html src="/images/daily-ui-cover.jpg" alt="Cover daily UI" caption="" figClass="" %}
-
 Participating in a Daily UI challenge help to improve and expand your skills as a designer.
 
 It's a great way to break outside of the confort zone and develop self-control to sit down every day to design solution to a user experience problem.
