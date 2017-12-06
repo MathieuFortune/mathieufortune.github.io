@@ -22,3 +22,7 @@ Good luck :)
 ### #001 - Sign Up
 
 {% include lazy-image.html src="/images/daily_ui/day001-signup.jpg" alt="Day#001 SignUp" caption="" figClass="" %}
+
+### #002 - Credit Card Checkout
+
+{% include lazy-image.html src="/images/daily_ui/day002-card-checkout.png" alt="Day#002 Credit Card Checkout" caption="" figClass="" %}
