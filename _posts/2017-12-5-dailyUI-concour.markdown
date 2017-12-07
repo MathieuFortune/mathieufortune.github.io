@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "DAILY UI CHALLENGE"
+title:  "Daily UI challenge"
 thumbnail: "/images/daily-ui-thumb.jpg"
 date:   2017-12-05 12:00:00 +0200
 lang: fr
@@ -17,8 +17,17 @@ C'est un bonne manière de sortir de sa zonne de confort et de développer son s
 
 Si vous êtes vous aussi intéressé, allez sur [dailyui.co](http://www.dailyui.co/ "Site internet pour s'inscrire au Daily UI challenge"){:target="_blank"} et inscrivez-vous. Chaque jour vous recevez dans votre boite email une nouvelle mission de design.
 
-Bonne chance :)
+Pour ce challenge, j'ai décidé de me limiter à 2 heures maximum par jour.
+Cela m'oblige à me concentrer sur une courte période tout en évitant de perdre du temps sur mes autres projets clients 8) .
 
-### #001 - Sign Up
+### #001 - Inscription
 
-{% include lazy-image.html src="/images/daily_ui/day001-signup.jpg" alt="Day#001 SignUp" caption="" figClass="" %}
+{% include lazy-image.html src="/images/daily_ui/day001-signup.jpg" alt="Jour 1 Inscription" caption="" figClass="" %}
+
+### #002 - Paiement par carte bancaire
+
+{% include lazy-image.html src="/images/daily_ui/day002-card-checkout.png" alt="Jour 2 Paiement par carte bancaire" caption="" figClass="" %}
+
+### #003 - Page Landing
+
+{% include lazy-image.html src="/images/daily_ui/day003-landing-page.jpg" alt="Jour 3 Page Landing (au-dessus de la ligne de flotaison)" caption="(au-dessus de la ligne de flotaison uniquement)" figClass="" %}
