@@ -31,3 +31,7 @@ Cela m'oblige à me concentrer sur une courte période tout en évitant de perdr
 ### #003 - Page Landing
 
 {% include lazy-image.html src="/images/daily_ui/day003-landing-page.jpg" alt="Jour 3 Page Landing (au-dessus de la ligne de flotaison)" caption="(au-dessus de la ligne de flotaison uniquement)" figClass="" %}
+
+### #004 - Calculette à pourboire
+
+{% include lazy-image.html src="/images/daily_ui/day004-tips-calculator.png" alt="Jour 4 Calculette à pourboire" caption="" figClass="" %}

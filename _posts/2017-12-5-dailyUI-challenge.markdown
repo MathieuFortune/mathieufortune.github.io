@@ -30,3 +30,7 @@ This way I have to focus during a short period of time and also to avoid loosing
 ### #003 - Landing page
 
 {% include lazy-image.html src="/images/daily_ui/day003-landing-page.jpg" alt="Day 3 Landing page (above the fold)" caption="(above the fold only)" figClass="" %}
+
+### #004 - Tips calculator
+
+{% include lazy-image.html src="/images/daily_ui/day004-tips-calculator.png" alt="Day 4 Tips calculator" caption="" figClass="" %}
