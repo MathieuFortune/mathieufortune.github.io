@@ -34,3 +34,7 @@ This way I have to focus during a short period of time and also to avoid loosing
 ### #004 - Tips calculator
 
 {% include lazy-image.html src="/images/daily_ui/day004-tips-calculator.png" alt="Day 4 Tips calculator" caption="" figClass="" %}
+
+### #005 - App icon
+
+{% include lazy-image.html src="/images/daily_ui/day005-app-icon.png" alt="Day 5 App icon" caption="" figClass="" %}

@@ -35,3 +35,7 @@ Cela m'oblige à me concentrer sur une courte période tout en évitant de perdr
 ### #004 - Calculette à pourboire
 
 {% include lazy-image.html src="/images/daily_ui/day004-tips-calculator.png" alt="Jour 4 Calculette à pourboire" caption="" figClass="" %}
+
+### #005 - App icon
+
+{% include lazy-image.html src="/images/daily_ui/day005-app-icon.png" alt="Jour 5 App icon" caption="" figClass="" %}
