@@ -42,3 +42,7 @@ This way I have to focus during a short period of time and also to avoid loosing
 ### #006 - User profile
 
 {% include lazy-image.html src="/images/daily_ui/day006-user-profile.jpg" alt="Day 6 User profile" caption="" figClass="" %}
+
+### #007 - Settings
+
+{% include lazy-image.html src="/images/daily_ui/day007-settings.png" alt="Day 7 Settings" caption="" figClass="" %}

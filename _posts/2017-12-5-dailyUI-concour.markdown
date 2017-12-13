@@ -43,3 +43,7 @@ Cela m'oblige à me concentrer sur une courte période tout en évitant de perdr
 ### #006 - Profil utilisateur
 
 {% include lazy-image.html src="/images/daily_ui/day006-user-profile.jpg" alt="Jour 6 Profil utilisateur" caption="" figClass="" %}
+
+### #007 - Paramètres
+
+{% include lazy-image.html src="/images/daily_ui/day007-settings.png" alt="Jour 7 Paramètres" caption="" figClass="" %}
