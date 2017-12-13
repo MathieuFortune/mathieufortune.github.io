@@ -39,3 +39,7 @@ Cela m'oblige à me concentrer sur une courte période tout en évitant de perdr
 ### #005 - App icon
 
 {% include lazy-image.html src="/images/daily_ui/day005-app-icon.png" alt="Jour 5 App icon" caption="" figClass="" %}
+
+### #006 - Profil utilisateur
+
+{% include lazy-image.html src="/images/daily_ui/day006-user-profile.jpg" alt="Jour 6 Profil utilisateur" caption="" figClass="" %}

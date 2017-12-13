@@ -38,3 +38,7 @@ This way I have to focus during a short period of time and also to avoid loosing
 ### #005 - App icon
 
 {% include lazy-image.html src="/images/daily_ui/day005-app-icon.png" alt="Day 5 App icon" caption="" figClass="" %}
+
+### #006 - User profile
+
+{% include lazy-image.html src="/images/daily_ui/day006-user-profile.jpg" alt="Day 6 User profile" caption="" figClass="" %}
