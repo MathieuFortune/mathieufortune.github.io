@@ -1,12 +1,13 @@
 /* Figure element */
+
 figure {
-  margin-top:     0;
-  margin-right:   0;
-  margin-left:    0;
+  margin-top: 0;
+  margin-right: 0;
+  margin-left: 0;
   text-align: center;
 }
 
-figure > img {
+figure>img {
   display: block;
 }
 
@@ -16,4 +17,3 @@ figcaption {
   color: $color--grey;
   text-align: center;
 }
-
