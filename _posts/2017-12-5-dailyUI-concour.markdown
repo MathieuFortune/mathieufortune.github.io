@@ -53,3 +53,8 @@ Cela m'oblige à me concentrer sur une courte période tout en évitant de perdr
 ### #009 - Lecteur de musique
 
 {% include lazy-image.html src="/images/daily_ui/day009-musicplayer.jpg" alt="Jour 9 Lecteur de musique" caption="" figClass="shadowed" %}
+
+
+### #010 - Partage sur les réseaux sociaux
+
+{% include lazy-image.html src="/images/daily_ui/day010-socialshare.gif" alt="Jour 10 Partage sur les réseaux sociaux" caption="" figClass="shadowed" height="547" %}

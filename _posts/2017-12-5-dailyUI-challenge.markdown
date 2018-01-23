@@ -55,3 +55,7 @@ This way I have to focus during a short period of time and also to avoid loosing
 ### #009 - Music player
 
 {% include lazy-image.html src="/images/daily_ui/day009-musicplayer.jpg" alt="Day 9 Music player" caption="" figClass="shadowed" %}
+
+### #010 - Social share hint
+
+{% include lazy-image.html src="/images/daily_ui/day010-socialshare.gif" alt="Day 10 Social share hint" caption="" figClass="shadowed" height="547" %}
