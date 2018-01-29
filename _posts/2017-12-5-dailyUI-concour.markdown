@@ -59,6 +59,10 @@ Cela m'oblige à me concentrer sur une courte période tout en évitant de perdr
 
 {% include lazy-image.html src="/images/daily_ui/day010-socialshare.gif" alt="Jour 10 Partage sur les réseaux sociaux" caption="" figClass="" height="" %}
 
-### #010 - Message flash (Erreur/Succés)
+### #011 - Message flash (Erreur/Succés)
 
 {% include lazy-image.html src="/images/daily_ui/day011-flash-message.gif" alt="Jour 11 Message flash (Erreur/Succés)" caption="" figClass="" height="" %}
+
+### #012 - Fiche produit
+
+{% include lazy-image.html src="/images/daily_ui/day012-product-item.png" alt="Jour 12 Fiche produit" caption="" figClass="shadowed" %}

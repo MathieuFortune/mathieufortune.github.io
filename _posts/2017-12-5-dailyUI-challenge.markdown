@@ -61,6 +61,10 @@ This way I have to focus during a short period of time and also to avoid loosing
 {% include lazy-image.html src="/images/daily_ui/day010-socialshare.gif" alt="Day 10 Social share hint" caption="" figClass="" height="" %}
 
 
-### #010 - Flash message (Error/Success)
+### #011 - Flash message (Error/Success)
 
 {% include lazy-image.html src="/images/daily_ui/day011-flash-message.gif" alt="Day 11 Flash message" caption="" figClass="" height="" %}
+
+### #012 - Product item
+
+{% include lazy-image.html src="/images/daily_ui/day012-product-item.png" alt="Day 12 Product item" caption="" figClass="shadowed" %}
