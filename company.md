@@ -9,7 +9,7 @@ lang: en
 
 <h3 class="center"><em>"Sharing, Intellectual honesty, Transparency, Well being, Pragamatism and Trust"</em></h3>
 
-I’ve been driven by these values by working for 5+ years as front-end developer, user interface designer and user experience designer both in agency and successful e-commerce start-up.
+I’ve been driven by these values by working for 7+ years as user experience designer and front-end developer both in agency and successful e-commerce start-up.
 
 Today, I wish to share my experiences and knowledge to you as an <br/>__independant consultant.__
 
@@ -20,7 +20,7 @@ I'm attached to share my knowledge in web development and design in order to tea
 
 ### What
 
-During these past 5 years of activity, I have :
+During these past 7 years of activity, I have :
 
 * <u>Worked directly with clients</u> in agency, defining project scopes, goals, assumptions and pain points ;
 
@@ -32,7 +32,7 @@ During these past 5 years of activity, I have :
 
 * <u>Redesigned huge e-commerce website</u> with iterative scrum and lean approach ;
 
-* <u>Led usability testing</u> with user and employ their feedbacks to improve designs ;
+* <u>Led usability testing</u> with user and took their feedbacks to improve designs ;
 
 * And many more...
 
