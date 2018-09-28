@@ -1,51 +1,59 @@
-intro_title: Share our passions<br/> by working between humans<br/> on ethical and interesting projects
+intro_title: Help other humans to better communicate the value of what they do.
 
 print_it: Download resume
 
 cv:
   title: Mathieu Fortune
   desc: |
-    5+ years front-end dev & UI/UX designer looking for new challenges abroad.
+    🖍Branding - 🖥Web & UX - 🚀E-commerce Specialist
     <br/>Send me an email at <strong>pro.mathieu.fortune@gmail.com</strong>
 
 about:
   title: About
   desc: |
-    Freelance front-end developer & UX designer travelling the world.
+    🖍Branding - 🖥Web & UX - 🚀E-commerce Specialist
     Active member of the project’s teams I’m linked to, I make the connection between graphic design and front-end development.
 
 experience_heading: Experiences
 experiences:
-  - title: Front-end developer & UX/UI designer
-    name: Freelance - Working remotly
-    period: From January 2017
-    desc: I work with tech and design teams in companies and agencies, designing and building strong front-end applications, responsive, fast, acessible with a user centric approach.. Also consultant on projects using Lean approach and evangelising Agiles methods.
-    skills: Front-end Stack (HTML5,CSS,ES6), UX (Design Thinking,Surveys,Interviews,Sketching,Prototyping), Agiles, Lean.
-  - title: Front-end developer & UX/UI designer
+  - title: Founder, E-commerce Expert - Branding - Web & UX
+    name: Inventive Format
+    period: 08/2018 - present
+    desc: Owner of an independent web and branding consultancy specializing on e-commerce. I work with small to medium businesses as well as agencies around brand strategy, web development, UX design, graphic design and e-commerce conversion optimizations.
+    skills: Branding, Design Thinking, Motion Design, Responsive Web Design, Adobe Creative Suite, Sketch, Wordpress, Shopify, Amazon Marketplace, HTML, CSS, Javascript, SASS, Webpack.
+  - title: UX designer — Graphic Designer — Web Developer
+    name: Bakerly
+    period: 02/2018 - present
+    desc: Bakerly sell deli bakery products to stores accross all the U.S. My job is to help the team better know their customers both on the digital space and in physical. Research, ideate, implement solutions to improve the user experience of the main website. In charge of designing and developing the digital solutions of the brand (landing, newletter, e-commerce platform). Work in collaboration with the marketing team to develop customer knowledge. Support of product design tasks (packaging, in store displays, photo shoots). Also some video editing and motion graphics for commercials.
+    skills: User experience design, Adobe creative suite, Sketch, Wordpress, WooCommerce, Amazon Marketplace, HTML, CSS, Javascript, Lean approach and Design thinking.
+  - title: Front-End developer — UX/UI  designer
+    name: Freelance
+    period: 01/2017 - present
+    desc: I had the opportunity to work as a remote freelance UX designer and front-end web developer accross the world (SE Asia, Europe, USA). My clients needs revolves around website development, web and print design, UX consulting and E-commerce.
+    skills: User experience design, Responsive Web Design, Motion Design, HTML, CSS, Javascript, SASS, Webpack, Wordpress, Shopify, Adobe Creative Suite.
+  - title: UX designer — Front-End developer
     name: 1001Pharmacies.com
-    period: From December 2015 to January 2017 ( 1 years 1 month)
-    desc: Worked on a user centric redesign of the e-commerce website as Front-end Developper and also Ux/UI Designer
-    skills: HTML5, CSS3, Sass, Sketch, Javascript, Webpack, Symfony 2, Design Thinking, Scrum, Lean UX, Git
-  - title: Front-end developer
-    name: 1001Pharmacies.com
-    period: From January 2015 to December 2015 ( 1 year )
-    desc: In charge of Front-end Development of 1001Pharmacies.com's front applications such as responsive newsletters and landings. Also on e-commerce website maintenance.
-    skills: HTML5, CSS3, Less, Javascript, Gulp, Fundation, Bootstrap 3, Photoshop, Symfony 2, Git
+    period: 12/2015 - 01/2017 ( 2 years )
+    desc: Successful French start-up. E-commerce marketplace selling parapharmaceutical products online. Fast paced Agile environment with a Lean UX approach of projects (MVP, short feedback loop with users and the team). Worked on a user centric redesign of the e-commerce website as Front-end Developper & UX Designer. Provide the marketing team with the proper research and tools to get to the root of any problem. Animated workshops revolving around UX and Web topics to improve team efficiency on projects. Also in charge of Front-End development of 1001Pharmacies.com’s applications such as responsive website, email newsletters as well as landings.
+    skills: User experience design, Responsive web design, Sketch, Invision, HTML, CSS, Sass, Webpack, Javascript, Symfony3.
   - title: Front-end developer
     name: Publika
-    period: From January 2012 to January 2015 ( 3 years )
-    desc: Front-end Development of client's websites in various industries (e-commerce, corporate, landings, social network, ...) and differents technos (CMS, Custom MVC framework, Mobile Apps ...)
-    skills: HTML5, CSS3, Less, jQuery, jQueryMobile Bootstrap 3, Adobe CC, MVC, SQL, PHP, Git
+    period: 01/2012 - 01/2015 ( 3 years )
+    desc: Digital agency focused on tailored website development and SEO for small to medium businesses. I was in charge of the Front-End web development of client’s website in various industries (fashion, real estate, food, tourism, etc). Also support of smaller web design tasks (animations, components). I was responsible of teaching clients how to manage their websites along side with the project manager.
+    skills: Adobe Creative Suite, HTML, CSS, Javascript, PHP.
 
 i_have_heading: I have
 i_have:
   - Passion for my work
   - Great communication and collaboration skills
   - High self-motivation in working individually and closely with others
-  - Positive attitude with a pragmatic and hedonic view
+  - Positive attitude and open minded
+  - Pragmatic point of view
+  - ROI driven
+  - Human centric approach of solutions
+  - Ability to lead usability tests and user testing
   - Expertise in HTML,CSS and Javascript languages
   - Experience in responsive web design, cross-browser coding techniques and troubleshooting
-  - Ability to lead usability tests and user testing
   - Strong sense of design theory and typography
   - Successful experience in e-commerce start-up environment
   - Experience in web digital agency
@@ -59,6 +67,7 @@ hire_me:
 
 events_heading: Events
 events:
+  - Member of SOFLUX (South Florida UX) meetup group
   - Co-organizer and speaker at <a href="http://www.meetup.com/fr-FR/FLUPA-Montpellier/events/229582597/" target="_blank">UX FLUPA MeetUp</a> place at 1001pharmacies - 2015 April'
   - Attended to <a href="https://smashingconf.com/barcelona-2016/" target="_blank">SmashingConf Barcelona 2016</a> Barcelona, Spain'
   - Attended to <a href="http://www.blendwebmix.com/" target="_blank">BlendWebMix 2015</a> Lyon, France'
@@ -89,41 +98,40 @@ trainings:
 
 skills_heading: Skills
 skills:
-  - title: Front-end
+  - title: Front-end development
     list:
-      - HTML5
-      - CSS3
-      - LESS & Sass
+      - HTML/CSS
+      - Less/Sass
       - Javascript
-      - jQuery
-      - Meteor
       - Bower
       - Gulp
       - WebPack
       - Jekyll
-      - MVC Framework
+      - Twig
+      - MVC framework
   - title: Front-end Practices
     list:
       - Cross-browser
-      - Progressive Enhancement
+      - Progressive enhancement
       - W3C & WCAG
-      - A/B Tests
+      - A/B tests
       - OpQuast Web Quality
       - Accessibility
-      - Feature Detection
-      - Mobile First
-      - RWD
-      - SEO
-      - Performance
+      - Feature detection
+      - Mobile first
+      - RWD (Responsive web design)
+      - SEO optimizations
+      - E-commerce optimizations
+      - Web performance
   - title: Design
     list:
-      - SketchApp
+      - Sketch
       - Adobe CC
       - Invision
       - MarvelApp
-      - Design Thinking
-      - UX Design Methods
-      - Atomic Web Design
+      - Design thinking
+      - UX design methods
+      - Motion design
   - title: Methodologies & Principles
     list:
       - Git
@@ -131,7 +139,6 @@ skills:
       - Scrum
       - Lean UX
       - Kanban
-      - Running lean
 
 projects_heading: Projects
 project_my_roles: My roles on this project
@@ -139,13 +146,14 @@ project_results: Results
 projects:
   - title: Product Catalog re-design project
     description: This project intended to re-design and develop the catalog (search, find and buy a product) of 1001pharmacies e-commerce website
-    results: Project released, a new team work on it now.
+    results: Project released, a new team is working on it now.
     list:
+      - User research and test
+      - Information Architecture design
       - Sketch project UI (Sketch)
-      - Design project's user experience
-      - Develop with HTML5/CSS3/JS
+      - Development with HTML5/CSS3/JS
       - Sass with ITCSS and Atomic pattern
-      - Symfony 2.8 project
+      - Symfony 3
       - Assets treatment with Webpack and PostCss
       - LEAN UX approach and Scrum methods
   - title: Checkout process re-design project
@@ -156,14 +164,14 @@ projects:
       - Design project's user experience
       - Develop with HTML5/CSS3/JS
       - Bootstrap 3 with LESS
-      - Symfony 2.8 project
+      - Symfony 3
       - Assets treatment with Gulp
       - LEAN UX approach and Scrum methods
   - title: Checkout's UX experiments
     description: In order to improve checkout process of 1001pharmacies.com, UX experiments has been performed to test and better understand users behavior
     results: With user testing feedbacks, I improved team's workflow and democratized user testing methods knowledge in the company
     list:
-      - Analyze user tests
+      - Perform and analyze user tests
       - Usability testing (AttrakDiff)
       - Perform A/B tests and set up UX metrics
       - Measure user's feedbacks
@@ -192,8 +200,9 @@ projects:
     description: I enjoy sharing knowledge with people and participate in community activities
     results: ''
     list:
-      - Provide lightning talks about popularize dev concepts for the rest of company
-      - Participate and animate UX workshop during MeetUp
+      - Member of SOFLUX (South Florida UX) meetup group
+      - Spoke at lightning talks about popularize development concepts to co-workers
+      - Participate and animate UX workshop during meetups
   - title: Side projects
     description: Several side projects to test new technologies for work and also for fun :)
     results: ''
