@@ -13,7 +13,15 @@
 @media print {
   :root {
     font-size: 12px;
-  }  
+  }
+
+  body {
+    border-width: 2px;
+
+    &::after {
+      border-bottom-width: 2px;
+    }
+  }
 
   a:link:after,
   a:visited:after {

@@ -29,6 +29,7 @@
 
   .post-title {
     @include font-size($font-size--medium);
+    color: $color--black;
     margin: 0;
     line-height: 1.2;
   }
