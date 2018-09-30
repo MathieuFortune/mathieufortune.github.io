@@ -12,7 +12,7 @@ about:
   title: About
   desc: |
     🖍Branding - 🖥Web & UX - 🚀E-commerce Specialist
-    Active member of the project’s teams I’m linked to, I make the connection between graphic design and front-end development.
+    Active member of teams I’m linked to, I solve business problems with branding, UX design and web develoment.
 
 experience_heading: Experiences
 experiences:
@@ -49,13 +49,13 @@ i_have:
   - High self-motivation in working individually and closely with others
   - Positive attitude and open minded
   - Pragmatic point of view
-  - ROI driven
+  - ROI driven approach
   - Human centric approach of solutions
-  - Ability to lead usability tests and user testing
+  - Ability to lead user research, design ideation and implementation
   - Expertise in HTML,CSS and Javascript languages
   - Experience in responsive web design, cross-browser coding techniques and troubleshooting
   - Strong sense of design theory and typography
-  - Successful experience in e-commerce start-up environment
+  - Successful experience in E-commerce start-up environment
   - Experience in web digital agency
 
 hire_me_heading: Hire me
@@ -103,7 +103,6 @@ skills:
       - HTML/CSS
       - Less/Sass
       - Javascript
-      - Bower
       - Gulp
       - WebPack
       - Jekyll
@@ -144,6 +143,16 @@ projects_heading: Projects
 project_my_roles: My roles on this project
 project_results: Results
 projects:
+  - title: Web presence, branding and user advocacy
+    description: I took a role full-time at Bakerly, a company that produce and sells bakery products accross the U.S.. With a holistic approach of the business, I helped the company develop their web presence and create a new brand identity. I also advocate the user experience to help the marketing team better understand his audience and switch their methods.
+    results: New website design, new packaging, new brand identity, user centric approach of the business.
+    list:
+      - User research
+      - Information Architecture design
+      - Sketch user interfaces
+      - Development with HTML5/CSS3/JS of a wordpress solution
+      - LEAN UX approach
+      - Branding and packaging design
   - title: Product Catalog re-design project
     description: This project intended to re-design and develop the catalog (search, find and buy a product) of 1001pharmacies e-commerce website
     results: Project released, a new team is working on it now.
