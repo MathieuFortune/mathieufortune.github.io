@@ -11,7 +11,7 @@ theme: Case studies
 
 {:.table-case-study}
 | Client        | 1001pharmacies.com |
-| Project           | Front-end e-commerce application redesign |
+| Project           | E-commerce redesign |
 | Project date      | Summer 2017        |
 | Project duration  | 6 months           |
 | Project URL       | [https://www.1001pharmacies.com](https://www.1001pharmacies.com "Project URL") |
@@ -33,7 +33,7 @@ This project was the second implementation of an Agile Scrum workflow.
 
 Thanks to the previous experience gained with the checkout redesign project, we were able to better and faster tackled each problematics we've encountered.
 
-The team that worked on this project consisted of 8 people. A product owner, a scrum master, 3 back-end devs, a artistic director, a front-end dev bud and myself as front-end dev & UX designer.
+The team that worked on this project consisted of 8 people. A product owner, a scrum master, 3 back-end devs, a creative director, a front-end dev bud and myself as front-end dev & UX designer.
 
 ### Problem
 
@@ -48,39 +48,39 @@ As 1001pharmacies.com traffic and revenue was rapidly increasing (1M views each 
 
 ### Approach
 
-The team approach was to clarify the navigation, re-start from scratch by stycking only to the core features of an e-commerce website :
+The team's approach was to clarify the navigation, start from scratch by stycking only to the core features of an e-commerce website :
 
-- Search a product (via a search bar or through categories/brands listings)
+- Search for product (via a search bar or through categories/brands listings)
 - Find it (product listing)
-- Review it (product page)
-- Add it to cart (call to action)
-- Make and order and/or continue shopping (checkout process)
+- Evaluate it (product page)
+- Add to cart (call to action)
+- Make an order and/or continue shopping (checkout process)
 
-Release this build then iterate on it to add more complex features (eg: filters, product recommendations, ...).
+We would release this build as an MVP and then iterate on it to add more complex features (eg: filters, product recommendations, ...).
 
 *I was personnaly rattached to the first iteration of the redesign. A new team is now working on the following of this project.*
 
 ### Roles and process
 
-This project was the occasion for me to experiment a lot of different aspects of my skills.
+This project was an occasion for me to experiment a lot of different aspects of my skills.
 
 My main role was to lead the UX team :
 
-Composed of the [Artistic Director](https://twitter.com/annsod "Anne-So twitter account"){:target="_blank"}, the Product owner and during some sprint the [Director of digital marketing](https://twitter.com/AudreylambertAl "Audrey Lambert twitter account"){:target="_blank"}.
+Composed of the [Creative Director](https://twitter.com/annsod "Anne-So twitter account"){:target="_blank"}, the Product owner and during some sprint the [Director of digital marketing](https://twitter.com/AudreylambertAl "Audrey Lambert twitter account"){:target="_blank"}.
 
 - Prepare and perform users interviews
 - [Create personas and present them to the rest of the team]({% post_url 2017-04-21-how-are-created-personas-1001pharmacies %} "Personas article"){:target="_blank"}.
-- Design studio workshops to help the team during ideation loop
-- Wireframing of page templates
+- Provide design studio workshops (an UX method) to help the team during ideation loop
+- Wireframing
 
-I was also teaming with my buddy [@iTweetScor](https://twitter.com/iTweetScor "iTweetScor twitter account"){:target="_blank"} to write the front-end bit of code :
+I was also teaming up with my buddy [@iTweetScor](https://twitter.com/iTweetScor "iTweetScor twitter account"){:target="_blank"} to write the front-end chunks of code :
 
 - HTML5
-- Sass
+- CSS (Sass)
 - Javascript ES6
 - Twig (Symfony3)
 
-Finally, I had to help designing the UI with the Artistic Director based on my UX point of view.
+Finally, I helped to design the UI with the Creative Director by sharing the user point of view (UX advocacy).
 
 ### Some result screenshots
 
