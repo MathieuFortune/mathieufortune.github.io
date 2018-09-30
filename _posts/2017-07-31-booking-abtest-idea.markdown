@@ -10,12 +10,12 @@ theme: Case studies
 ---
 
 In October 2016, I was approached by Booking.com's recruiter about a position of UX/Product Designer.
-One of my mission during the hiring process was to design a simple A/B test that can be setup on the desktop website.
+One of my test during the hiring process was to design a simple A/B test that can be setup on the desktop version of the website.
 
-When you think about Booking.com website, it's a mess !
+When we look at Booking.com website, it looks messy and complex !
 But somehow, we manage to found what we are looking for, right ?
 This is the result of an accumulation of several years of tests and improvements done through A/B testings.
-Each UI elements have a real purpose and are doing their job.
+Each UI elements have a real purpose.
 
 Your can learn more about Booking's A/B test philosophy in this video :
 
@@ -23,7 +23,7 @@ Your can learn more about Booking's A/B test philosophy in this video :
   <iframe width="560" height="315" src="https://www.youtube.com/embed/C-U1Pakvk2A" frameborder="0" allowfullscreen></iframe>
 </div>
 
-In order to deliver a test realistic regarding the development constraints and the philosophy of A/B testing, I focused on a small change with specific KPI's.
+In order to deliver an actionnable result in accordance with the development constraints of the platform and the philosophy of A/B testing at Booking.com, I focused on a small change with specific KPI's.
 
 __Here is my design process...__
 
@@ -31,21 +31,21 @@ __Here is my design process...__
 
 In order to understand all services of Booking.com, I firt spent several hours reviewing the different versions of the website (Desktop, Tablet, Mobile, Native App).
 
-Thereby I was able to list all features that the website provides. I'm a big user of booking.com. I travelled a lot around the world and I was always relating to Booking.com to find my accomodations. Even that, I discovered that I was used to use a small portion of the website as I already have my own user path.
+Thereby I was able to list all features that the website provides. I'm a big user of booking.com. I travelled a lot around the world and I was always relating to Booking.com to find my accomodations. Even that, I discovered that I was only using a small portion of the website as I already have my own user path.
 
 ### User research
 
-So I conducted some exploratory interviews of few minutes with regular customers of booking.com to know how they were using the website.
+I conducted some exploratory interviews of few minutes with regular customers of booking.com to know how they were using the website.
 
 * A couple seeking where to go on honeymoon. -> They look for a “romantic” destination
 * Two friends who want to organize a weekend to celebrate their reunion. -> They look for a “Nightlife” destination
-* A man who wants to take an autumnal retirement for a few days in a remote place. -> He looks for a “Quiet and Nature” destination
+* A man who wants to take a retreat for a few days in a remote place. -> He looks for a “Quiet and Nature” destination
 
 Results show that they use Booking.com only when they already know their destinations.
 
 They use it as a simple price comparator.
 
-They didn’t know Booking.com is also able to advice them on future destinations.
+They didn’t know Booking.com is also able to guide them to find future destinations.
 
 ### Scenario
 
@@ -56,23 +56,23 @@ It’s decided, I'm taking a vacation !<br/>
 I’m visiting my favorite booking site to choose where to go, Booking.com.<br/>
 I'm on the home page.<br/>
 I don’t know yet where I want to go. All I know is that I need a vacation.<br/>
-<strong>The problem is that booking.com doesn’t guide me enough in my destination research.</strong>
+<strong>The problem is that booking.com doesn’t guide me enough in my destination search.</strong>
 </blockquote>
 
 ### The feature - thematic destinations
 
 By reviewing with attendance the website, I saw Booking.com can suggest destinations based on specific themes (Relaxation, Hiking, Romance, Shopping, ...)
 
-I tested this block in different languages ​​and with different IPs.
-Apparently, these blocks are showing randomly and suggest only 3 themes (relaxation, tranquility, beach)
+I tested this feature in different languages ​​and with different IPs.
+Apparently, these blocks are showing randomly and suggest only 3 themes: relaxation, tranquility, beach (A/B test running?)
 
-A user searching for inspiration, without being sensitive to these 3 themes or that couldn’t see this block in his version, can’t know there is a way to be adviced in his search.
+A user looking for inspiration, without being sensitive to these 3 themes or that couldn’t see this block in his version, can’t know there is a solution to be adviced in his search.
 
 This feature could match the need of Booking users looking for advices and inspiration.
 
 By putting forward this information, this would follow a user from the emergence of his vacation need, until the end of his hotel booking.
 
-{% include lazy-image.html src="/images/booking-article-picture-01.jpg" alt="Picture booking destinations website" caption="Booking destinations website" %}
+{% include lazy-image.html src="/images/booking-article-picture-01.jpg" alt="Booking.com destinations website" caption="Booking destinations website" %}
 
 
 ### The A/B test
@@ -85,7 +85,7 @@ Then I’ll add a call to action like “Let’s Go” in order to attract users
 
 The link of the block will redirect to [this](http://www.booking.com/destinationfinder.en.html){:target="_blank"}
 
-To keep the seasonality, it would be interesting to keep the display random background images that match with current seasonal themes (ex: tropics or moutains in winter, for example).
+To keep the seasonality, it would be interesting to have a random background images that match with current seasonal themes (ex: tropics or moutains in winter, for example).
 
 
 
@@ -111,7 +111,7 @@ For this A/B test, I’ll look for 3 Kpi’s which are :
 
 ### Propositions
 
-{% include lazy-image.html src="/images/booking-article-picture-02.jpg" alt="Picture A/B test ideas" caption="Booking A/B test ideas" %}
+{% include lazy-image.html src="/images/booking-article-picture-02.jpg" alt="A/B test ideas" caption="Booking A/B test ideas" %}
 
 Here on this [marvelapp page](https://marvelapp.com/11ba1aj){:target="_blank"}, you'll find the UI of my A/B test.
 
