@@ -11,12 +11,11 @@ theme: Article
 
 Participer à un Daily UI challenge aide à améliorer et développer ses compétences en tant que designer.
 
-C'est un bonne manière de sortir de sa zonne de confort et de développer son self-control à devoir se poser chaque jour à résoudre un nouveau problème d'expérience utilisateur.
+C'est un bonne manière de sortir de sa zone de confort et de développer son self-control en aillant à se poser chaque jour à résoudre un nouveau problème d'expérience utilisateur.
 
 Si vous êtes vous aussi intéressé, allez sur [dailyui.co](http://www.dailyui.co/ "Site internet pour s'inscrire au Daily UI challenge"){:target="_blank"} et inscrivez-vous. Chaque jour vous recevez dans votre boite email une nouvelle mission de design.
 
 Pour ce challenge, j'ai décidé de me limiter à 2 heures maximum par jour.
-Cela m'oblige à me concentrer sur une courte période tout en évitant de perdre du temps sur mes autres projets clients 8) .
 
 ### #001 - Inscription
 
