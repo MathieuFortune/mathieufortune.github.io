@@ -16,7 +16,7 @@ This use case is a following of my previous article about [what's a persona]({% 
 This work have been done in collaboration with [Audrey Lambert](https://twitter.com/AudreylambertAl){:target="_blank"}, former webmarketing coordinator @ 100pharmacies.com.
 A huge shout out for her skills in data analysis, her knowledge on all webmarketing related fields and her feedbacks !
 
-I created these personas in order to help the team focus on re-designing the new version of 1001pharmacies's website.
+I created these personas in order to help the team develop empathy for the user when designing the new version of 1001pharmacies's website.
 
 Here is my design process...
 
@@ -26,7 +26,7 @@ Several data resources have been used to build 1001pharmacies's personas.
 
 The __top 100 best customers of last 6 months__ gave a first insight on which profiles were representing the customer base (Name, Address, Products typology, Buying frequency, ...)
 
-__Exploratory interviews of internal team__ also gave informations about customer behaviour on a e-commerce website as some of team's member have made several orders on the web site.
+__Exploratory interviews of internal team__ also gave informations about customer behaviour on a E-commerce website as some of team's member have made several orders on the web site.
 
 Finally, __phone interviews feedbacks__ from the "amnesics" (customers whom ordered only one time), informed more about their behaviours.
 
@@ -36,15 +36,15 @@ Once these datas have been agregated, they allow to build a facets continuum.
 
 *It is a representation of opposite characteristics allowing to define the different facets of the personas.*
 
-The characteristics are defined according to the developed system and the similarities that can be found in the user data.
+The characteristics are defined according to the desined system and the similarities that can be found in the user data.
 
-Once the continuum is constructed, the different personas are placed on the horizontal axis.
+Once the continuum is built, the different personas are placed on the horizontal axis.
 
-{% include lazy-image.html src="/images/personas-continuum-facettes.png" alt="Image personas facets continuum" caption="Personas facets continuum" %}
+{% include lazy-image.html src="/images/personas-continuum-facettes.png" alt="Personas facets continuum" caption="Personas facets continuum" %}
 
 __3 personas have been created .__
 
-This small number prevents dispersing the designer mind during the various phases of system creation.
+This small number prevents dispersing the designer mind during the various phases of the system creation.
 In addition, several user profiles (expectations, needs) were similar enough to be grouped into a single persona.
 
 ### Primay persona
@@ -53,10 +53,10 @@ It represents the main user of the future product. He is the one the system will
 
 *Delphine, 30 years old, active young mum.*
 
-Moms represents the majority of the current clientele of 1001pharmacies.com. As the primary persona 1001pharmacies.com, its expectations and needs easily identifiable allow to design universal functionalities for any e-commerce web site (efficient search, efficient filters, fast page display a.k.a performances, intuitive navigation ...)
+Moms represents the majority of the current customer base of 1001pharmacies.com. As the primary persona of 1001pharmacies.com, its expectations and needs easily identifiable allow to design universal functionalities for any E-commerce websites (efficient search, efficient filters, fast page display a.k.a performances, intuitive navigation ...)
 
 
-{% include lazy-image.html src="/images/persona-primaire-fr.jpg" alt="Image Card primary persona" caption="Card primary persona" %}
+{% include lazy-image.html src="/images/persona-primaire-fr.jpg" alt="Card of primary persona" caption="Card of primary persona" %}
 
 * Delphine knows its products before arriving on the website.
 * Her need is mainly on maternity products.
@@ -74,11 +74,11 @@ To illustrate this persona, a typical user path was built.
 It allows the designer to better understand the actions of the persona in order to focus his design efforts.
 Here, the scenario represents the first purchase of the persona:
 
-{% include lazy-image.html src="/images/persona-primaire-parcours-fr.png" alt="Image Primary persona path" caption="Primary persona path" %}
+{% include lazy-image.html src="/images/persona-primaire-parcours-fr.png" alt="Primary persona path" caption="Primary persona path" %}
 
 1. Delphine has a linear shopping process because she knows the products she needs in advance.
 2. She doesn't have much time to spend on her purchases.
-3. arrives on the website via a price comparator where she searched her first product (ex: milk for baby) at the best price.
+3. Enters the website via a price comparator where she searched her first product (ex: milk for baby) at the best price.
 4. Lands on a product page and adds it directly to the cart, as she's already convinced by the product.
 5. Search a second product (ex: cotopads) via the search bar or the menu.
 6. Lands on the product listing to find her second product.
@@ -158,6 +158,13 @@ Claire also has a fairly winding path.
 
 ### Usages
 
-To conclude, these personas and their use contributed to the redesign of the marketplace of 1001pharmacies (currently in open beta).
+To conclude, these personas contributed to the redesign of the marketplace of 1001pharmacies.
 
 By giving a face and a stereotyped personality to system's users, the design team is able to identify and prioritize expected functionality on the platform.
+
+_If you liked this article and you also want to use this method, do not hesitate to contact me to work with you on your project and make it more user friendly_
+
+
+<div class="text-center">
+  <a href="mailto:pro.mathieu.fortune@gmail.com?subject=Hey let's work together !&amp;body=Hi Mathieu, I was looking to hire someone like you for..." title="" class="btn--default btn--medium">Let's work together !</a>
+</div>
