@@ -5,49 +5,57 @@ print_it: Télécharger CV [EN]
 cv:
   title: Mathieu Fortune
   desc: |
-    Front-end dev & UI/UX designer avec +5 ans d'expérience à la recherche de nouveaux challenges à l'international
-    <br/>Envoyez-moi un email à <strong>pro.mathieu.fortune@gmail.com</strong>
+    🖍Branding - 🖥Web & UX - 🚀E-commerce Specialist
+    <br/>Send me an email at <strong>pro.mathieu.fortune@gmail.com</strong>
 
 about:
   title: À propos
   desc: |
-    Freelance développeur front-end et UX designer parcourant le monde.
-    Membre actif des équipes projets auxquels je suis rattaché, je fais le pont entre le design et le front-end development.
+    🖍Branding - 🖥Web & UX - 🚀E-commerce Specialist
+    Membre actif des équipes projets auxquels je suis rattaché, je résout des problèmes grâce au branding, UX et front-end développement.
 
 experience_heading: Expériences
 experiences:
-  - title: Front-end developer & UX/UI designer
-    name: Freelance - À distance
-    period: Depuis Janvier 2017
-    desc: Je travaille avec des équipes tech et design dans les entreprises et agences, à concevoir et développer des applications front-end solides, responsive, rapides, accessible avec une approche centrée sur l'utilisateur.
-    skills: Front-end Stack (HTML5,CSS,ES6), UX (Design Thinking,Surveys,Interviews,Sketching,Prototyping), Agiles, Lean.
-  - title: Front-end developer & UX/UI designer
+  - title: Founder, E-commerce Expert - Branding - Web & UX
+    name: Inventive Format
+    period: 08/2018 - présent
+    desc: Fondateur d'une agence en consulting web et branding spécialisée dans le E-commerce. Je travaille avec des petites et moyennes entreprises ainsi que des agences autour de la brand stratégie, développement web, UX design, graphique design et optimisation e-commerce.
+    skills: Branding, Design Thinking, Motion Design, Responsive Web Design, Adobe Creative Suite, Sketch, Wordpress, Shopify, Amazon Marketplace, HTML, CSS, Javascript, SASS, Webpack.
+  - title: UX designer — Graphic Designer — Web Developer
+    name: Bakerly
+    period: 02/2018 - 10/2018
+    desc: Bakerly produit et vend des produits alimentaires de boulangerie à travers tous les USA. Mon rôle dans l'entreprise était d'aider les équipes à mieux connaître leurs consommateurs à la fois sur le digital et en physique. Recherche, idées, implémentations des solutions afin d'améliorer l'expérience utilisateur du site principal. J'étais également en charge du design et développement des solutions digitales de la marque (landing, newsletter, plateforme e-commerce). J'ai travaillé en collaboration avec les membres de l'équipe marketing afin de leur donner les outils pour mieux connaître leurs audiences. Enfin, j'étais support sur les besoins graphiques comme le packaging, in store displays, plaquette et vidéo commerciale…
+    skills: User experience design, Adobe creative suite, Sketch, Wordpress, WooCommerce, Amazon Marketplace, HTML, CSS, Javascript, Lean approach and Design thinking.
+  - title: Front-End developer — UX/UI  designer
+    name: Freelance
+    period: 01/2017 - présent
+    desc: J'ai eu l'opportunité de travailler en remote en tant que UX designer et Front-end développeur tout en parcourant le monde (Asie Sud-Est, Europe, USA). Les besoins de mes clients gravitaient autour du développement de site web, design web et print, consulting UX et E-commerce.
+    skills: User experience design, Responsive Web Design, Motion Design, HTML, CSS, Javascript, SASS, Webpack, Wordpress, Shopify, Adobe Creative Suite.
+  - title: UX designer — Front-End developer
     name: 1001Pharmacies.com
-    period: De Décembre 2015 à Janvier 2017 (1 an 1 mois)
-    desc: En charge de la refonte du site e-commerce avec une approche centrée utilisateur en tant que Front-end Developer et UX/UI Designer.
-    skills: HTML5, CSS3, Sass, Sketch, Javascript, Webpack, Symfony 2, Design Thinking, Scrum, Lean UX, Git
-  - title: Front-end developer
-    name: 1001Pharmacies.com
-    period: De Janvier 2015 à Décembre 2015 ( 1 an )
-    desc: En charge du développement Front-end des différentes applications de 1001pharmacies tels que les newsletters et landings responsive ou encore la maintenance du site web principal.
-    skills: HTML5, CSS3, Less, Javascript, Gulp, Fundation, Bootstrap 3, Photoshop, Symfony 2, Git
+    period: 12/2015 - 01/2017 ( 2 ans )
+    desc: Start-up française à succès dans le domaine de la parapharmacie en ligne. Marketplace e-commerce. Environnement Agile avec une approche LEAN UX des projets (MVP, itérations rapides et test utilisateur fréquent). J'ai travaillé sur une refonte centrée utilisateur de la plateforme-commerce en tant que Front-développeur et UX designer. Je fournissais aux équipes marketing les recherches et outils permettant d'aller à la source des problèmes rencontrés par les utilisateurs. J'ai animé des workshops autour des sujets de l'UX et du web afin d'améliorer la compréhension et l'efficacité des équipes projet. Enfin, j'étais en charge des tâches front-end sur les différents produits digitaux de 1001pharmacies.com (site web responsive, landings, newsletter ...)
+    skills: User experience design, Responsive web design, Sketch, Invision, HTML, CSS, Sass, Webpack, Javascript, Symfony3.
   - title: Front-end developer
     name: Publika
-    period: De Janvier 2012 à Janvier 2015 ( 3 ans )
-    desc: Développement Front-end des sites webs clients de diverses secteurs (e-commerce, corporate, landings, social network, ...) sur différentes technos (CMS, Framework MCV PHP custom, Applis mobile ...).
-    skills: HTML5, CSS3, Less, jQuery, jQueryMobile, Bootstrap 3, Adobe CC, MVC, SQL, PHP, Git
+    period: 01/2012 - 01/2015 ( 3 ans )
+    desc: Agence digitale spécialisée dans la création de site internet sur-mesure et optimisation SEO pour les petites et moyennes entreprises. J'étais en charge du développement front-end des sites web client présents dans une variété d'industries (mode, immobilier, alimentaire, tourisme, événementiel, etc). Également web designer (animations, stylage de composant web). J'ai enfin accompagné le chef de projet lors de formation client sur la gestion et l'utilisation de leur site internet.
+    skills: Adobe Creative Suite, HTML, CSS, Javascript, PHP.
 
 i_have_heading: J'ai
 i_have:
   - De la passion pour mon travail
   - De bonnes compétences en communication et collaboration
   - Beaucoup de motivation à travailler autant individuellement qu'en équipe
-  - Une attitude positive avec une vision pragmatique et hédonique
+  - Une attitude positive et un esprit ouvert
+  - Approche pragmatique des problèmes
+  - À coeur d'analyser ROI des actions
+  - Approche centrée humain des solutions
   - De l'expertise en HTML,CSS et Javascript
   - De l'expérience en responsive web design, compatibilité cross-browser et résolution de problèmes
   - La capacité de mener des tests d'utilisabilité et des interviews d'utilisateurs
-  - Un attrait particulier pour les théories du design et de la typographie web
-  - De l'expérience dans une start-up à succès du e-commerce
+  - Un attrait particulier pour les théories du design et de la typographie
+  - De l'expérience dans une start-up e-commerce à succès
   - Déjà travailler en agence web
 
 hire_me_heading: Recrutez-moi
@@ -59,6 +67,7 @@ hire_me:
 
 events_heading: Événements
 events:
+  - Membre du SOFLUX (South Florida UX) groupe meetUp
   - Co-organisateur et speaker <a href="http://www.meetup.com/fr-FR/FLUPA-Montpellier/events/229582597/" target="_blank">UX FLUPA MeetUp</a> à 1001pharmacies - 2015 Avril
   - Assisté à <a href="https://smashingconf.com/barcelona-2016/" target="_blank">SmashingConf Barcelona 2016</a> Barcelone, Espagne
   - Assisté à <a href="http://www.blendwebmix.com/" target="_blank">BlendWebMix 2015</a> Lyon, France
@@ -91,39 +100,37 @@ skills_heading: Compétences
 skills:
   - title: Front-end
     list:
-      - HTML5
-      - CSS3
-      - LESS & Sass
+      - HTML/CSS
+      - Less/Sass
       - Javascript
-      - jQuery
-      - Meteor
-      - Bower
       - Gulp
       - WebPack
       - Jekyll
-      - MVC Framework
+      - Twig
+      - MVC framework
   - title: Front-end Practices
     list:
       - Cross-browser
-      - Progressive Enhancement
+      - Progressive enhancement
       - W3C & WCAG
-      - A/B Tests
+      - A/B tests
       - OpQuast Web Quality
       - Accessibility
-      - Feature Detection
-      - Mobile First
-      - RWD
-      - SEO
-      - Performance
+      - Feature detection
+      - Mobile first
+      - RWD (Responsive web design)
+      - SEO optimizations
+      - E-commerce optimizations
+      - Web performance
   - title: Design
     list:
-      - SketchApp
+      - Sketch
       - Adobe CC
       - Invision
       - MarvelApp
-      - Design Thinking
-      - UX Design Methods
-      - Atomic Web Design
+      - Design thinking
+      - UX design methods
+      - Motion design
   - title: Methodologies & Principles
     list:
       - Git
@@ -131,7 +138,6 @@ skills:
       - Scrum
       - Lean UX
       - Kanban
-      - Running lean
 
 projects_heading: Projets
 project_my_roles: Mes rôles sur ce projet
