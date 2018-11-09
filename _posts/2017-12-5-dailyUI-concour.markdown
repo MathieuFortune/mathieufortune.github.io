@@ -17,51 +17,38 @@ Si vous êtes vous aussi intéressé, allez sur [dailyui.co](http://www.dailyui.
 
 Pour ce challenge, j'ai décidé de me limiter à 2 heures maximum par jour.
 
-### #001 - Inscription
+#### #001 - Inscription
 
-{% include lazy-image.html src="/images/daily_ui/day001-signup.jpg" alt="Jour 1 Inscription" caption="" figClass="shadowed" %}
+{% include lazy-image.html src="/images/daily_ui/Day-001-Sign_Up-Mathieu_Fortune.jpg" alt="Day 1 Sign Up" caption="" figClass="large-post-image" %}
 
-### #002 - Paiement par carte bancaire
+#### #002 - Paiement
 
-{% include lazy-image.html src="/images/daily_ui/day002-card-checkout.png" alt="Jour 2 Paiement par carte bancaire" caption="" figClass="shadowed" %}
+{% include lazy-image.html src="/images/daily_ui/Day-002-Credit_Card_Checkout-Mathieu_Fortune.jpg" alt="Day 2 Credit Card Checkout" caption="" figClass="large-post-image" %}
 
-### #003 - Page Landing
+#### #003 - Landing page
 
-{% include lazy-image.html src="/images/daily_ui/day003-landing-page.jpg" alt="Jour 3 Page Landing (au-dessus de la ligne de flotaison)" caption="(au-dessus de la ligne de flotaison uniquement)" figClass="shadowed" %}
+{% include lazy-image.html src="/images/daily_ui/Day-003-Landing-page-Mathieu_Fortune.jpg" alt="Day 3 Landing page" caption="" figClass="large-post-image" %}
 
-### #004 - Calculette à pourboire
+#### #004 - Tips calculator
 
-{% include lazy-image.html src="/images/daily_ui/day004-tips-calculator.png" alt="Jour 4 Calculette à pourboire" caption="" figClass="shadowed" %}
+{% include lazy-image.html src="/images/daily_ui/Day-004-Tips_Calculator-Mathieu_Fortune.jpg" alt="Day 4 Tips calculator" caption="" figClass="large-post-image" %}
 
-### #005 - App icon
+#### #005 - Profil utilisateur
 
-{% include lazy-image.html src="/images/daily_ui/day005-app-icon.png" alt="Jour 5 App icon" caption="" figClass="shadowed" %}
+{% include lazy-image.html src="/images/daily_ui/Day-005-User_Profile-Mathieu_Fortune.jpg" alt="Day 5 User profile" caption="" figClass="large-post-image" %}
 
-### #006 - Profil utilisateur
+#### #006 - Music player
 
-{% include lazy-image.html src="/images/daily_ui/day006-user-profile.jpg" alt="Jour 6 Profil utilisateur" caption="" figClass="shadowed" %}
+{% include lazy-image.html src="/images/daily_ui/Day-006-Music_Player-Mathieu_Fortune.jpg" alt="Day 6 Music player" caption="" figClass="large-post-image" %}
 
-### #007 - Paramètres
+#### #007 - Fiche produit
 
-{% include lazy-image.html src="/images/daily_ui/day007-settings.png" alt="Jour 7 Paramètres" caption="" figClass="shadowed" %}
+{% include lazy-image.html src="/images/daily_ui/Day-007-Product_page-Mathieu_Fortune.jpg" alt="Day 7 Product page" caption="" figClass="large-post-image" %}
 
-### #008 - Page 404
+#### #008 - Social share hint
 
-{% include lazy-image.html src="/images/daily_ui/day008-404page.jpg" alt="Jour 8 Page 404" caption="" figClass="shadowed" %}
+{% include lazy-image.html src="/images/daily_ui/day008-socialshare.gif" alt="Day 08 Social share hint" caption="" figClass="" height="" %}
 
-### #009 - Lecteur de musique
+#### #009 - Flash message (Error/Success)
 
-{% include lazy-image.html src="/images/daily_ui/day009-musicplayer.jpg" alt="Jour 9 Lecteur de musique" caption="" figClass="shadowed" %}
-
-
-### #010 - Partage sur les réseaux sociaux
-
-{% include lazy-image.html src="/images/daily_ui/day010-socialshare.gif" alt="Jour 10 Partage sur les réseaux sociaux" caption="" figClass="" height="" %}
-
-### #011 - Message flash (Erreur/Succés)
-
-{% include lazy-image.html src="/images/daily_ui/day011-flash-message.gif" alt="Jour 11 Message flash (Erreur/Succés)" caption="" figClass="" height="" %}
-
-### #012 - Fiche produit
-
-{% include lazy-image.html src="/images/daily_ui/day012-product-item.png" alt="Jour 12 Fiche produit" caption="" figClass="shadowed" %}
+{% include lazy-image.html src="/images/daily_ui/day009-flash-message.gif" alt="Day 09 Flash message" caption="" figClass="" height="" %}

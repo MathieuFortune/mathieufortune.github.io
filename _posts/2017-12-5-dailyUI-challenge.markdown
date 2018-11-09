@@ -28,7 +28,7 @@ If your also interested in trying it, go to [dailyui.co](http://www.dailyui.co/ 
 
 #### #003 - Landing page
 
-{% include lazy-image.html src="/images/daily_ui/Day-003-Landing-page-Mathieu_Fortune.jpg" alt="Day 3 Landing page (above the fold)" caption="" figClass="large-post-image" %}
+{% include lazy-image.html src="/images/daily_ui/Day-003-Landing-page-Mathieu_Fortune.jpg" alt="Day 3 Landing page" caption="" figClass="large-post-image" %}
 
 #### #004 - Tips calculator
 
