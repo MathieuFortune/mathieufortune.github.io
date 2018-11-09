@@ -2,4 +2,8 @@
 
 This is my portfolio website : http://mathieufortune.github.io/
 
-This website is still in development and will be update frequently. It's built with Jekyll, Sass and love <3.
+You'll find my resume as well as some articles about my previous work.
+
+Custom designed and developped with Sketch, HTML/CSS, Javascript and Jekyll.
+
+Feel free to get in touch and Enjoy!
