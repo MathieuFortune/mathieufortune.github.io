@@ -15,7 +15,7 @@ It's a great way to break outside of the confort zone and develop self-control t
 
 If your also interested in trying it, go to [dailyui.co](http://www.dailyui.co/ "Website to subscribe to the Daily UI challenge"){:target="_blank"} and subscribe. Each day you'll receive in your e-mail box a new prompt to design.
 
-**For this challenge I decided to limit to a 2 hours each design.**
+**For this challenge, I limited to a 2 hour each design project.**
 
 
 
