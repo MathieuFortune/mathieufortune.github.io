@@ -45,6 +45,5 @@ $intro-font-size--hero: 76;
   &--hero {
     @extend %intro-title;
     @include fluid-typo($intro-font-size, $intro-font-size--hero, $phone-h-computed, $desktop-computed);
-    line-height: .9;
   }
 }

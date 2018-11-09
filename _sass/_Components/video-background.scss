@@ -14,6 +14,8 @@
   display: none;
   max-height: 100vh;
   visibility: hidden;
+  overflow: hidden;
+  background-color: $color--lightgrey;
 }
 
 .inner {

@@ -1,8 +1,8 @@
 hero:
   title: Hi there !
   job_line_1: I'm a
-  job_line_2: sharing his passion for the web.
-  job_line_3: '[ "Developer", "Designer", "Entrepreneur", "Speaker", "Teacher" ]'
+  job_line_2: helping other humans to commmunicate the value of what they do.
+  job_line_3: '[ "Designer", "Developer", "Entrepreneur", "Teacher" ]'
 
 intro: |
     I work with tech and design teams in companies and agencies,
@@ -13,7 +13,7 @@ intro_link : Take a look at my
 
 
 post:
-  title: Fresh articles and case studies
+  title: Selected works
 
 footer:
   email_title: Get in touch with me

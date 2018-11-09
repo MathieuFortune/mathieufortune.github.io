@@ -18,52 +18,38 @@ If your also interested in trying it, go to [dailyui.co](http://www.dailyui.co/ 
 **For this challenge, I limited to a 2 hour each design project.**
 
 
+#### #001 - Sign Up
 
-### #001 - Sign Up
+{% include lazy-image.html src="/images/daily_ui/Day-001-Sign_Up-Mathieu_Fortune.jpg" alt="Day 1 Sign Up" caption="" figClass="large-post-image" %}
 
-{% include lazy-image.html src="/images/daily_ui/day001-signup.jpg" alt="Day 1 Sign Up" caption="" figClass="shadowed" %}
+#### #002 - Credit Card Checkout
 
-### #002 - Credit Card Checkout
+{% include lazy-image.html src="/images/daily_ui/Day-002-Credit_Card_Checkout-Mathieu_Fortune.jpg" alt="Day 2 Credit Card Checkout" caption="" figClass="large-post-image" %}
 
-{% include lazy-image.html src="/images/daily_ui/day002-card-checkout.png" alt="Day 2 Credit Card Checkout" caption="" figClass="shadowed" %}
+#### #003 - Landing page
 
-### #003 - Landing page
+{% include lazy-image.html src="/images/daily_ui/Day-003-Landing-page-Mathieu_Fortune.jpg" alt="Day 3 Landing page (above the fold)" caption="" figClass="large-post-image" %}
 
-{% include lazy-image.html src="/images/daily_ui/day003-landing-page.jpg" alt="Day 3 Landing page (above the fold)" caption="(above the fold only)" figClass="shadowed" %}
+#### #004 - Tips calculator
 
-### #004 - Tips calculator
+{% include lazy-image.html src="/images/daily_ui/Day-004-Tips_Calculator-Mathieu_Fortune.jpg" alt="Day 4 Tips calculator" caption="" figClass="large-post-image" %}
 
-{% include lazy-image.html src="/images/daily_ui/day004-tips-calculator.png" alt="Day 4 Tips calculator" caption="" figClass="shadowed" %}
+#### #005 - User profile
 
-### #005 - App icon
+{% include lazy-image.html src="/images/daily_ui/Day-005-User_Profile-Mathieu_Fortune.jpg" alt="Day 5 User profile" caption="" figClass="large-post-image" %}
 
-{% include lazy-image.html src="/images/daily_ui/day005-app-icon.png" alt="Day 5 App icon" caption="" figClass="shadowed" %}
+#### #006 - Music player
 
-### #006 - User profile
+{% include lazy-image.html src="/images/daily_ui/Day-006-Music_Player-Mathieu_Fortune.jpg" alt="Day 6 Music player" caption="" figClass="large-post-image" %}
 
-{% include lazy-image.html src="/images/daily_ui/day006-user-profile.jpg" alt="Day 6 User profile" caption="" figClass="shadowed" %}
+#### #007 - Product page
 
-### #007 - Settings
+{% include lazy-image.html src="/images/daily_ui/Day-007-Product_page-Mathieu_Fortune.jpg" alt="Day 7 Product page" caption="" figClass="large-post-image" %}
 
-{% include lazy-image.html src="/images/daily_ui/day007-settings.png" alt="Day 7 Settings" caption="" figClass="shadowed" %}
+#### #008 - Social share hint
 
-### #008 - 404 Page
+{% include lazy-image.html src="/images/daily_ui/day008-socialshare.gif" alt="Day 08 Social share hint" caption="" figClass="" height="" %}
 
-{% include lazy-image.html src="/images/daily_ui/day008-404page.jpg" alt="Day 8 404 Page" caption="" figClass="shadowed" %}
+#### #009 - Flash message (Error/Success)
 
-### #009 - Music player
-
-{% include lazy-image.html src="/images/daily_ui/day009-musicplayer.jpg" alt="Day 9 Music player" caption="" figClass="shadowed" %}
-
-### #010 - Social share hint
-
-{% include lazy-image.html src="/images/daily_ui/day010-socialshare.gif" alt="Day 10 Social share hint" caption="" figClass="" height="" %}
-
-
-### #011 - Flash message (Error/Success)
-
-{% include lazy-image.html src="/images/daily_ui/day011-flash-message.gif" alt="Day 11 Flash message" caption="" figClass="" height="" %}
-
-### #012 - Product item
-
-{% include lazy-image.html src="/images/daily_ui/day012-product-item.png" alt="Day 12 Product item" caption="" figClass="shadowed" %}
+{% include lazy-image.html src="/images/daily_ui/day009-flash-message.gif" alt="Day 09 Flash message" caption="" figClass="" height="" %}

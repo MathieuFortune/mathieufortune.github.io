@@ -82,7 +82,7 @@
     // INJECT CSS RELATED TO DYNAMIC TEXT EL
     var css = document.createElement("style");
     css.type = "text/css";
-    css.innerHTML = ".dynamic-text > .dynamic-wrap { padding-right: 5px; border-right: 0.08em solid #666; }";
+    css.innerHTML = ".dynamic-text > .dynamic-wrap { padding-right: 5px; border-right: 0.08em solid #334755; }";
     document.body.appendChild(css);
   }
 
