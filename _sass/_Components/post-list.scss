@@ -8,23 +8,56 @@
 
   li {
     @extend %transition;
-    margin-top: 0;
-    margin-bottom: 0;
-    border-bottom: 1px solid $color--lightgrey;
+    @include media($tab-h) {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin: 2.5rem -2.5rem;
+      padding: 2.5rem;
+
+      &:nth-child(even) {
+        .post-content {
+          padding-left: 4.375rem;
+          padding-right: 0;
+        }
+      }
+    }
+    padding: $spacing--base 0;
+    margin: $spacing--base 0;
+    border: 1px solid $color--lightgrey;
 
     &:hover {
       background-color: $color--lightgrey;
     }
+
+    &:nth-child(odd) {
+      .post-img {
+        order: 2;
+      }
+    }
+  }
+
+  .post-img {
+    @include media($tab-h) {
+      width: 46.5%;
+      flex-shrink: 0;
+    }
+    margin-bottom: 1em;
+    text-align: center;
+  }
+
+  .post-content {
+    @include media($tab-h) {
+      width: 50%;
+      padding-right: 4.375rem;
+      padding-left: 0;
+    }
+    padding: 0 2.5rem;
   }
 
   .post-link {
-    @extend %container;
     @extend %clearfix;
-    display: block;
-  }
-
-  .post-meta {
-    @extend %italic;
+    color: inherit;
   }
 
   .post-title {
@@ -32,6 +65,13 @@
     color: $color--black;
     margin: 0;
     line-height: 1.2;
+  }
+
+  .post-meta {
+    @extend %italic;
+    @include font-size($font-size--base);
+    display: block;
+    margin-top: $spacing--tiny;
   }
 
 }

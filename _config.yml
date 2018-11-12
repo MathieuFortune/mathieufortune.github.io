@@ -12,6 +12,9 @@ title:
 title_head:
   en: Mathieu Fortune| Front-end Developer, UX Designer & Entrepreneur sharing his passion for the web.
   fr: Mathieu Fortune| Front-end Developer, UX Designer & Entrepreneur partageant sa passion pour le web.
+home:
+  en: Home
+  fr: Accueil
 email: pro.mathieu.fortune@gmail.com
 description:
   en: Mathieu Fortune - Front-End Developer & UX/UI Designer sharing his passions by working between humans on interesting projects. Website built with Jekyll, Sass and love <3. Sources on GitHub

@@ -1,9 +1,9 @@
 ---
-layout: about
-title: A propos
+layout: resume
+title: Mon CV
 menu_title: CV
-permalink: /a-propos/
-ref: about
+permalink: /mon-cv/
+ref: resume
 lang: fr
-type: about
+type: resume
 ---

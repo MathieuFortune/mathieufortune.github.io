@@ -1,9 +1,9 @@
 ---
-layout: about
-title: About
+layout: resume
+title: Resume
 menu_title: Resume
-permalink: /about/
-ref: about
+permalink: /resume/
+ref: resume
 lang: en
-type: about
+type: resume
 ---

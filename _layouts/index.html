@@ -1,15 +1,14 @@
 ---
 layout: default
 ---
-
-<div class="video-background">
 {% comment %}
+<div class="video-background">
 <video preload="true" autoplay="" loop="" muted="" class="inner" id="videoBg"><source src="/images/video-background-portfolio-short.mp4" type="video/mp4"><source src="/images/video-background-portfolio-short.webm" type="video/webm"></video>
-  {% endcomment %}
 </div>
+{% endcomment %}
 
 
-<h1 class="intro-title--hero">
+<h2 class="intro-title--hero">
   <div class="animated shake delay--small">{{ site.data[page.lang].hero.title }}</div>
   <hr/>
   <div class="animated fade-in-left delay--medium smaller">
@@ -22,7 +21,7 @@ layout: default
       <br/>
       {{ site.data[page.lang].hero.job_line_2 }}
   </div>
-</h1>
+</h2>
 
 <section class="intro-desc">
   <div class="col-third">
@@ -45,21 +44,25 @@ layout: default
   <div class="clearfix"></div>
 </section>
 
-<section>
-  <h4 class="center">{{ site.data[page.lang].post.title }}</h4>
+<section class="container">
+  <h3 class="center">{{ site.data[page.lang].post.title }}</h3>
   <ul class="post-list">
     {% assign posts=site.posts | where:"lang", page.lang %}
     {% for post in posts %}
-    <li class="row">
-      <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
-        <span class="col-two-third">
-          <h3 class="post-title">
-            {{ post.title }}
-          </h3>
-          <span class="post-meta">{{ post.theme }}</span>
-        </span>
-        <img src="{{ post.thumbnail }}" alt="{{ post.title }}" class="col-third"/>
-      </a>
+    <li>
+      <div class="post-img">
+        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
+            <img src="{{ post.thumbnail }}" alt="{{ post.title }}"/>
+        </a>
+      </div>
+      <div class="post-content">
+        <h3 class="post-title">
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
+                  {{ post.title }}
+                  <span class="post-meta">{{ post.theme }}</span>
+          </a>
+        </h3>
+      </div>
     </li>
     {% endfor %}
   </ul>

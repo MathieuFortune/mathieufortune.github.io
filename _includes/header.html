@@ -1,13 +1,14 @@
 <header class="site-header no-print" role="banner">
-
-    <a class="site-title" href="{{ site.baseurl }}/{{ site.index[page.lang] }}">
-      {% if site.logo %}
-      <img src="{{ site.logo }}" alt="{{ site.title[page.lang] }}" width="52" height="52"/>
-      {{ site.title[page.lang] }}
-      {% else %}
-      {{ site.title[page.lang] }}
-      {% endif %}
-    </a>
+    <h1 class="site-title">
+      <a href="{{ site.baseurl }}/{{ site.index[page.lang] }}">
+        {% if site.logo %}
+        <img src="{{ site.logo }}" alt="{{ site.title[page.lang] }}" width="52" height="52"/>
+        {{ site.title[page.lang] }}
+        {% else %}
+        {{ site.title[page.lang] }}
+        {% endif %}
+      </a>
+  </h1>
 
     <div class="menu-icon-container" id="toggler">
       <a href="" class="menu-icon" role="button">
@@ -21,7 +22,7 @@
 
     <div class="trigger nav-container" id="menu">
       <nav class="site-nav" role="navigation">
-        <a href="{{ site.baseurl }}/{{ site.index[page.lang] }}">{{ site.title[page.lang] }}</a>
+        <a href="{{ site.baseurl }}/{{ site.index[page.lang] }}">{{ site.home[page.lang] }}</a>
 
         {% assign pages=site.pages | where:"lang", page.lang %}
         {% for my_page in pages %}

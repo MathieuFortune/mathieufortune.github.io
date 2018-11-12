@@ -2,10 +2,10 @@
 .site-header {
   @include media($tab-v) {
     position: fixed;
-    top: 16px;
-    left: 1rem;
+    top: 6px;
+    left: 6px;
     z-index: 999;
-    width: calc(100% - 2rem);
+    width: calc(100% - 12px);
   }
 
   position: relative;
@@ -20,6 +20,8 @@
 }
 
 .site-title {
+  @include font-size($font-size--base);
+  margin-top: 0;
   font-family: $font-main;
   font-weight: $font-weight--bold;
   line-height: 60px;
@@ -30,5 +32,9 @@
   &:hover,
   &:visited {
     color: $color--darkgrey;
+  }
+
+  a {
+    color: inherit;
   }
 }
