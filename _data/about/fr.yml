@@ -1,45 +1,56 @@
-intro_title: Partager nos passions<br/> en travaillant entre humains<br/> sur des projets éthiques et intéressants
+intro_title: Disponible pour apporter valeur et connaissance à n'importe quel équipe recherchant un UX Designer polyvalent et expérimenté.
 
 print_it: Télécharger CV [EN]
 
 cv:
   title: Mathieu Fortune
   desc: |
-    🖍Branding - 🖥Web & UX - 🚀E-commerce Specialist
-    <br/>Send me an email at <strong>pro.mathieu.fortune@gmail.com</strong>
+    🖍UX Designer - 🖥Front-End Developer
+    <br/>Contactez moi à <strong>pro.mathieu.fortune@gmail.com</strong>
 
 about:
   title: À propos
   desc: |
-    🖍Branding - 🖥Web & UX - 🚀E-commerce Specialist
+    🖍UX Designer - 🖥Front-End Developer
     Membre actif des équipes projets auxquels je suis rattaché, je résout des problèmes grâce au branding, UX et front-end développement.
 
 experience_heading: Expériences
 experiences:
-  - title: Founder, E-commerce Expert - Branding - Web & UX
-    name: Inventive Format
-    period: 08/2018 - présent
-    desc: Fondateur d'une agence en consulting web et branding spécialisée dans le E-commerce. Je travaille avec des petites et moyennes entreprises ainsi que des agences autour de la brand stratégie, développement web, UX design, graphique design et optimisation e-commerce.
-    skills: Branding, Design Thinking, Motion Design, Responsive Web Design, Adobe Creative Suite, Sketch, Wordpress, Shopify, Amazon Marketplace, HTML, CSS, Javascript, SASS, Webpack.
+  - title: CTO and Co-Founder
+    name: MoGraph Mentor
+    period: 01/2019 - present
+    desc: MoGraph Mentor est une école en ligne spécialisé dans l'apprentissage du Motion Graphics. Nous offrons un programme de 9 mois accompagné de mentors et vidéo à la demande pour aidez les étudiants à lancer leur carrière.
+    role: J'ai rejoins cette start-up en tant que co-fondateur et CTO. Depuis mon arrivé, j'ai refondu entièrement le site principal afin d'améliorer ses perfomances et son expérience pour les utilisateurs. Tout mes compétences sont utilisés à leur maximum pour développer rapidement le business. Je m'occupe également de la stratégie marketing digitale et des réseaux sociaux.
+    skills: Adobe Creative Suite, HTML, CSS, Javascript, Wordpress, API Hooks, UXD, Growth Hacking Marketing.
+  - title: Web Designer/Developer
+    name: Gleeden
+    period: 11/2018 - 09/2019
+    desc: Gleeden est un site de rencontre en ligne opérant dans plusieurs pays (France, UK, Italie, Espagne, Turquie, Inde).
+    role: Rattaché à l'équipe marketing, j'étais en charge du design et développment des solutions permettant de soutenir l'effort marketing. Je m'occupais également de créer les communications print. Mes compétences UX était un asset bienvenue pour l'équipe marketing car cela a permis d'améliorer les connaissances vis-à-vis des différentes audiences par pays.
+    skills: UX Research, Adobe Creative Suite, HTML, CSS, JS, Wordpress.
   - title: UX designer — Graphic Designer — Web Developer
     name: Bakerly
     period: 02/2018 - 10/2018
-    desc: Bakerly produit et vend des produits alimentaires de boulangerie à travers tous les USA. Mon rôle dans l'entreprise était d'aider les équipes à mieux connaître leurs consommateurs à la fois sur le digital et en physique. Recherche, idées, implémentations des solutions afin d'améliorer l'expérience utilisateur du site principal. J'étais également en charge du design et développement des solutions digitales de la marque (landing, newsletter, plateforme e-commerce). J'ai travaillé en collaboration avec les membres de l'équipe marketing afin de leur donner les outils pour mieux connaître leurs audiences. Enfin, j'étais support sur les besoins graphiques comme le packaging, in store displays, plaquette et vidéo commerciale…
+    desc: Bakerly produit et vend des produits alimentaires de boulangerie à travers tous les USA.
+    role: Mon rôle dans l'entreprise était d'aider les équipes à mieux connaître leurs consommateurs à la fois sur le digital et en physique. Recherche, idées, implémentations des solutions afin d'améliorer l'expérience utilisateur du site principal. J'étais également en charge du design et développement des solutions digitales de la marque (landing, newsletter, plateforme e-commerce). J'ai travaillé en collaboration avec les membres de l'équipe marketing afin de leur donner les outils pour mieux connaître leurs audiences. Enfin, j'étais support sur les besoins graphiques comme le packaging, in store displays, plaquette et vidéo commerciale…
     skills: User experience design, Adobe creative suite, Sketch, Wordpress, WooCommerce, Amazon Marketplace, HTML, CSS, Javascript, Lean approach and Design thinking.
   - title: Front-End developer — UX/UI  designer
     name: Freelance
     period: 01/2017 - présent
-    desc: J'ai eu l'opportunité de travailler en remote en tant que UX designer et Front-end développeur tout en parcourant le monde (Asie Sud-Est, Europe, USA). Les besoins de mes clients gravitaient autour du développement de site web, design web et print, consulting UX et E-commerce.
+    desc: Ma carrière freelance a commencée en tant que remote Freelance Designer lors de mon séjour de 6 mois en Asie Sud-Est. J'opère désormais mon activité aux Etat-Unis sous ma propre société nommée, Inventive Format LLC.
+    role:  Les besoins de mes clients gravitaient autour du développement de site web, design web et print, consulting UX et E-commerce.
     skills: User experience design, Responsive Web Design, Motion Design, HTML, CSS, Javascript, SASS, Webpack, Wordpress, Shopify, Adobe Creative Suite.
   - title: UX designer — Front-End developer
     name: 1001Pharmacies.com
     period: 12/2015 - 01/2017 ( 2 ans )
-    desc: Start-up française à succès dans le domaine de la parapharmacie en ligne. Marketplace e-commerce. Environnement Agile avec une approche LEAN UX des projets (MVP, itérations rapides et test utilisateur fréquent). J'ai travaillé sur une refonte centrée utilisateur de la plateforme-commerce en tant que Front-développeur et UX designer. Je fournissais aux équipes marketing les recherches et outils permettant d'aller à la source des problèmes rencontrés par les utilisateurs. J'ai animé des workshops autour des sujets de l'UX et du web afin d'améliorer la compréhension et l'efficacité des équipes projet. Enfin, j'étais en charge des tâches front-end sur les différents produits digitaux de 1001pharmacies.com (site web responsive, landings, newsletter ...)
+    desc: Start-up française à succès dans le domaine de la parapharmacie en ligne. Marketplace e-commerce. 
+    role: Environnement Agile avec une approche LEAN UX des projets (MVP, itérations rapides et test utilisateur fréquent). J'ai travaillé sur une refonte centrée utilisateur de la plateforme-commerce en tant que Front-développeur et UX designer. Je fournissais aux équipes marketing les recherches et outils permettant d'aller à la source des problèmes rencontrés par les utilisateurs. J'ai animé des workshops autour des sujets de l'UX et du web afin d'améliorer la compréhension et l'efficacité des équipes projet. Enfin, j'étais en charge des tâches front-end sur les différents produits digitaux de 1001pharmacies.com (site web responsive, landings, newsletter ...)
     skills: User experience design, Responsive web design, Sketch, Invision, HTML, CSS, Sass, Webpack, Javascript, Symfony3.
   - title: Front-end developer
     name: Publika
     period: 01/2012 - 01/2015 ( 3 ans )
-    desc: Agence digitale spécialisée dans la création de site internet sur-mesure et optimisation SEO pour les petites et moyennes entreprises. J'étais en charge du développement front-end des sites web client présents dans une variété d'industries (mode, immobilier, alimentaire, tourisme, événementiel, etc). Également web designer (animations, stylage de composant web). J'ai enfin accompagné le chef de projet lors de formation client sur la gestion et l'utilisation de leur site internet.
+    desc: Agence digitale spécialisée dans la création de site internet sur-mesure et optimisation SEO pour les petites et moyennes entreprises. 
+    role: J'étais en charge du développement front-end des sites web client présents dans une variété d'industries (mode, immobilier, alimentaire, tourisme, événementiel, etc). Également web designer (animations, stylage de composant web). J'ai enfin accompagné le chef de projet lors de formation client sur la gestion et l'utilisation de leur site internet.
     skills: Adobe Creative Suite, HTML, CSS, Javascript, PHP.
 
 i_have_heading: J'ai

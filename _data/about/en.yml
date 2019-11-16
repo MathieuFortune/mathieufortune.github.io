@@ -1,45 +1,56 @@
-intro_title: Help other humans to better communicate the value of what they do.
+intro_title: Ready to bring value to any team looking for an experienced and polyvalent UX Designer
 
 print_it: Download resume
 
 cv:
   title: Mathieu Fortune
   desc: |
-    🖍Branding - 🖥Web & UX - 🚀E-commerce Specialist
+    🖍UX Designer - 🖥Front-End Developer
     <br/>Send me an email at <strong>pro.mathieu.fortune@gmail.com</strong>
 
 about:
   title: About
   desc: |
-    🖍Branding - 🖥Web & UX - 🚀E-commerce Specialist
+    🖍UX Designer - 🖥Front-End Developer
     Active member of teams I’m linked to, I solve business problems with branding, UX design and web develoment.
 
 experience_heading: Experiences
 experiences:
-  - title: Founder, E-commerce Expert - Branding - Web & UX
-    name: Inventive Format
-    period: 08/2018 - present
-    desc: Owner of an independent web and branding consultancy specializing on e-commerce. I work with small to medium businesses as well as agencies around brand strategy, web development, UX design, graphic design and e-commerce conversion optimizations.
-    skills: Branding, Design Thinking, Motion Design, Responsive Web Design, Adobe Creative Suite, Sketch, Wordpress, Shopify, Amazon Marketplace, HTML, CSS, Javascript, SASS, Webpack.
-  - title: UX designer — Graphic Designer — Web Developer
+  - title: CTO and Co-Founder
+    name: MoGraph Mentor
+    period: 01/2019 - present
+    desc: MoGraph Mentor is an online school in Motion Graphics. We offer a 9 month mentorship program as long as on-demand workshops to help you launch your career.
+    role: I joined this company as co-founder and Chief Technical Officer. Since I've been working on this project, I completely redone the website from scratch to deliver a better experience and services to our users. My skills in front-end development and ux design are used on an everyday basis. Also taking care of the marketing strategy and execution (content marketing, social media).
+    skills: Adobe Creative Suite, HTML, CSS, Javascript, Wordpress, API Hooks, UXD, Growth Hacking Marketing.
+  - title: Freelance UX Designer
+    name: Self-employed
+    period: 01/2017 - present
+    desc: Started working as a remote freelance UX Designer while travelling in South East Asia for 6 month. Now operating under my own LLC called Inventive Format based in Miami Beach FL. 
+    role: My clients needs revolves around website development, web/ print design, UX consulting and E-commerce.
+    skills: User experience design, Responsive Web Design, Motion Design, HTML, CSS, Javascript, SASS, Webpack, Wordpress, Shopify, Adobe Creative Suite.
+  - title: Web Designer/Developer
+    name: Gleeden
+    period: 11/2018 - 09/2019
+    desc: Gleeden is an online dating website and app operating in multiple countries (France, UK, Italy, Spain, Turkey, India).
+    role: Attached to the marketing team, I was in charge of designing and developing solutions to support marketing efforts. Designing print communication as well as creating marketing websites using wordpress. My UX skills were a welcomed assets to help the marketing team learn more on their differents country based audiences (western culture, eastern culture).
+    skills: UX Research, Adobe Creative Suite, HTML, CSS, JS, Wordpress.
+  - title: UX/UI Designer
     name: Bakerly
     period: 02/2018 - 10/2018
-    desc: Bakerly sell deli bakery products to stores accross all the U.S. My job was to help the team better know their customers both on the digital space and in physical. Research, ideate, implement solutions to improve the user experience of the main website. I was in charge of the design and development of digital solutions of the brand (landing, newletter, e-commerce platform). Worked in collaboration with the marketing team to develop customer knowledge. Support role of product design tasks (packaging, in store displays, photo shoots). Also some video editing and motion graphics for commercials.
+    desc: Bakerly sell deli bakery products to stores accross all the U.S.
+    role: My job was to help the team better know their customers both on the digital space and in physical. Research, ideate, implement solutions to improve the user experience of the main website. I was in charge of the design and development of digital solutions of the brand (landing, newletter, e-commerce platform). Worked in collaboration with the marketing team to develop customer knowledge. Support role of product design tasks (packaging, in store displays, photo shoots). Also some video editing and motion graphics for commercials.
     skills: User experience design, Adobe creative suite, Sketch, Wordpress, WooCommerce, Amazon Marketplace, HTML, CSS, Javascript, Lean approach and Design thinking.
-  - title: Front-End developer — UX/UI  designer
-    name: Freelance
-    period: 01/2017 - present
-    desc: I had the opportunity to work as a remote freelance UX designer and front-end web developer accross the world (SE Asia, Europe, USA). My clients needs revolves around website development, web and print design, UX consulting and E-commerce.
-    skills: User experience design, Responsive Web Design, Motion Design, HTML, CSS, Javascript, SASS, Webpack, Wordpress, Shopify, Adobe Creative Suite.
-  - title: UX designer — Front-End developer
+  - title: UX Designer - Front-End Developer
     name: 1001Pharmacies.com
     period: 12/2015 - 01/2017 ( 2 years )
-    desc: Successful French start-up. E-commerce marketplace selling parapharmaceutical products online. Fast paced Agile environment with a Lean UX approach of projects (MVP, short feedback loop with users and the team). Worked on a user centric redesign of the e-commerce website as Front-end Developper & UX Designer. Provide the marketing team with the proper research and tools to get to the root of any problem. Animated workshops revolving around UX and Web topics to improve team efficiency on projects. Also in charge of Front-End development of 1001Pharmacies.com’s applications such as responsive website, email newsletters as well as landings.
-    skills: User experience design, Responsive web design, Sketch, Invision, HTML, CSS, Sass, Webpack, Javascript, Symfony3.
+    desc: Successful French start-up. E-commerce marketplace selling parapharmaceutical products online. 
+    role: Worked in a fast paced Agile environment with a Lean UX approach on projects (MVP, short feedback loop between users and team). Attached to the team in charge of the user centric redesign of the e-commerce website as Front-end Developer & UX Designer. Provided the marketing team with the proper research and tools to get to the root of any problem. Animated workshops around UX and Web topics to improve team efficiency on projects. Also in charge of Front-End development of 1001Pharmacies.com’s applications such as responsive website, email newsletters as well as landings.
+    skills: UX Research, Sketch App, Invision App, HTML, CSS, Sass, Webpack, Javascript, Symfony3.
   - title: Front-end developer
     name: Publika
     period: 01/2012 - 01/2015 ( 3 years )
-    desc: Digital agency focused on tailored website development and SEO for small to medium businesses. I was in charge of the Front-End web development of client’s website in various industries (fashion, real estate, food, tourism, etc). Also support of smaller web design tasks (animations, components). I was responsible of teaching clients how to manage their websites along side with the project manager.
+    desc: Web Digital agency focused on tailored website development and SEO for small to medium businesses.
+    role: I was in charge of the Front-End web development of client’s website in various industries (fashion, real estate, food, tourism, etc). Also assisting web design team (animations, components). Happened to teach clients how to manage their websites along side with the project manager.
     skills: Adobe Creative Suite, HTML, CSS, Javascript, PHP.
 
 i_have_heading: I have
@@ -143,8 +154,26 @@ projects_heading: Projects
 project_my_roles: My roles on this project
 project_results: Results
 projects:
+  - title: Taking a co-founder seat as CTO for an online school
+    description: Starting 2019, I took the role of CTO and Co-founder of Mograph Mentor, an online school in Motion Graphics
+    results: Designed and built the 2.0 version of the main website to improve sales and user experience. Took the lead on the marketing strategy to generate growth and visibility for the new business. Taking active part in animating the community around the business.
+    list:
+      - Custom made wordpress website (HTML/CSS/JS/PHP)
+      - Overall of the marketing strategy on social media and blog
+      - In charge of all technicals aspects of running a start-up (API, Tech Stack, Payment Solutions, ...)
+      - Using my UX skills to improve user experience accross all points of interactions with the business.
+  - title: Web design and development for marketing team
+    description: My role at Gleeden was to give the tools and means required by the marketing team to perform their tasks. Creating landing pages, marketing websites, newsletter and visual communication.
+    results: Created two new blogs and one e-commerce site to support the content marketing strategy. Led user advocacy workshops to help the team better understand their multi-country audience (France, Italy, Spain, UK, India, Turkey).
+    list:
+      - Wordpress website (Blog)
+      - Shopify design and implementation
+      - HTML/CSS newsletter template
+      - Visual communication for social posts and blog (Adobe CC)
+      - User-centric workshops to advocate user experience
+      - Usability audit of website and app version. 
   - title: Web presence, branding and user advocacy
-    description: I took a role full-time at Bakerly, a company that produce and sells bakery products accross the U.S.. With a holistic approach of the business, I helped the company develop their web presence and create a new brand identity. I also advocate the user experience to help the marketing team better understand his audience and switch their methods.
+    description: I took a role full-time at Bakerly, a company that produce and sells bakery products accross the U.S.. With an holistic approach of the business, I helped the company develop their web presence and create a new brand identity. I also advocate the user experience to help the marketing team better understand his audience and switch their methods.
     results: New website design, new packaging, new brand identity, user centric approach of the business.
     list:
       - User research

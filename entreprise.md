@@ -11,18 +11,18 @@ lang: fr
 <h3 class="center"><em>"Partage, Honnêteté intellectuelle, Transparence, Bien-être, Pragamatisme et Confiance"</em></h3>
 
 
-Cela fait plus de 5 ans que je suis animé par ces valeurs en tant qu’intégrateur web, développeur front-end, designer web et designer UX à la fois en agence et dans une start-up e-commerce à succès.
+Cela fait 8 ans que je suis animé par ces valeurs en tant qu’intégrateur web, développeur front-end, designer web et designer UX à la fois en agence et dans une start-up e-commerce à succès.
 
-Aujourd’hui, je souhaite mettre mon expérience à votre service en tant que <br/>__consultant indépendant.__
+Aujourd’hui, je souhaite mettre mon expérience à votre service en tant que <br/>__UX Designer expérimenté.__
 
-Explorant les [approches lean](https://fr.wikipedia.org/wiki/Lean){:target="_blank"} et les [méthodes agiles](https://fr.wikipedia.org/wiki/M%C3%A9thode_agile){:target="_blank"}, expert des langages HTML, CSS/Sass, Javascript, adepte des outils Gulp, Webpack et des CMS Wordpress, Jekyll, Drupal et Symfony.
+Explorant les [approches LEAN](https://fr.wikipedia.org/wiki/Lean){:target="_blank"} et les [méthodes Agiles](https://fr.wikipedia.org/wiki/M%C3%A9thode_agile){:target="_blank"}, expert des langages HTML, CSS/Sass, Javascript, adepte des outils Gulp, Webpack et des CMS Wordpress, Jekyll, Drupal et Symfony.
 
 J’apprécie également de partager mes connaissances au travers de formations, conférences ou meetups. Je suis attaché à partager mon savoir en développement web et design afin d’enseigner à tous ceux qui souhaitent être autonomes et qui souhaitent expérimenter de nouveaux domaines.
 
 
 ### Quoi
 
-Durant ces 5 années d'activité, j'ai :
+Durant ces 8 années d'activité, j'ai :
 
 * <u>Travaillé directement avec les clients</u> en agence, à définir le scope des projets, les buts, les attentes et points de frictions ;
 
@@ -51,7 +51,7 @@ __- Phase de développement -__ Besoin d’un coup de main durant la phase de d�
 __- Amélioration du produit -__ Péréniser, améliorez la qualité et les performances d’un produit existant en aidant vos équipes à développer leurs compétences et/ou en développant des fonctionnalités clés.
 
 
-#### _Mes tarifs sont encore en cours de réflexion et d’adaptation. Je souhaite avoir un échange juste entre chaque partie et je suis prêt à en discuter avec vous._
+#### _Je suis disponible pour travaillé avec n'importe quelle équipe à la recherche d'un UX Designer expérimenté et polyvalent._
 
 
 <br/>
@@ -60,6 +60,7 @@ __- Amélioration du produit -__ Péréniser, améliorez la qualité et les perf
 </div>
 <br/>
 
+{% comment %}
 ### Portfolio
 
 {% include
@@ -206,7 +207,7 @@ caption_sub="Catalogue"
 caption_url="http://www.sport-coach.fr/"
 %}
 
-
+{% endcomment %}
 
 ### Recommendations
 
@@ -226,7 +227,7 @@ caption_url="http://www.sport-coach.fr/"
   Mathieu est un ardent UX/UI Designer.
   Grâce à ses talents en design et ses explications claires dans les projets (cette collaboration a été riche en apprentissage/enseignemant et très valorisante), il parvené à cela en donnant beaucoup d'attention aux différents projets. Motivé et passioné, il m'a aidé personnellement ainsi que d'autres collègues à gagner en compétences. C'est un plaisir de travailler avec lui et je vous le recommande pour vos futurs projets.
 
-  <p class="text-right">Sébastien Correaud, front-end developer @1001pharmacies.com</p>
+  <p class="text-right">Sébastien Correaud, ancien front-end developer @1001pharmacies.com</p>
 </blockquote>
 
 <blockquote class="small col-third">

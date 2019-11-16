@@ -61,9 +61,10 @@ layout: default
         <p class="italic marg-v--tiny">
           {{ experiences.period }}
         </p>
+        <p>{{ experiences.desc }}</p>
         <ul>
-          <li>{{ experiences.desc }}</li>
-          <li>{{ experiences.skills }}</li>
+          <li>{{ experiences.role }}</li>
+          <li>Stack: {{ experiences.skills }}</li>
         </ul>
       </div>
       {% endfor %}

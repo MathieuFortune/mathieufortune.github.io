@@ -9,9 +9,9 @@ lang: en
 
 <h3 class="center"><em>"Sharing, Intellectual honesty, Transparency, Well being, Pragamatism and Trust"</em></h3>
 
-I’ve been driven by these values by working for 7+ years as user experience designer and front-end developer both in agency and successful e-commerce start-up.
+I’ve been driven by these values by working for 8 years as user experience designer and front-end developer both in agency, e-commerce start-up and companies.
 
-Today, I wish to share my experiences and knowledge to you as an <br/>__independant consultant.__
+Today, I wish to share my experiences and knowledge to you as an <br/>__an experienced UX Designer.__
 
  I'm constantly exploring [lean approaches](https://en.wikipedia.org/wiki/Lean){:target="_blank"} and [agiles methods](https://en.wikipedia.org/wiki/Agile_software_development){:target="_blank"}, expert with languages like HTML, Sass, Javascript, enjoying tools like Gulp, Webpack and CMS like Jekyll, Wordpress, Symfony.
 
@@ -20,7 +20,7 @@ I'm attached to share my knowledge in web development and design in order to tea
 
 ### What
 
-During these past 7 years of activity, I have :
+During these past 8 years of activity, I :
 
 * <u>Worked directly with clients</u> in agency, defining project scopes, goals, assumptions and pain points ;
 
@@ -49,7 +49,7 @@ __- Project development -__ Need help during the development phase, I can delive
 __- Product enhancement -__ Sustain, improve quality and performances of your exsisting product by helping your team develop their skills and helping develop key functionnalities.
 
 
-#### _My rates are still under reflection and adaptation. I wish to have a fair trade for both parties and I'm ready to discuss it with you._
+#### _I'm ready to add value to any team looking for an experienced and polyvalent UX Designer._
 
 <br/>
 
@@ -59,6 +59,7 @@ __- Product enhancement -__ Sustain, improve quality and performances of your ex
 
 <br/>
 
+{% comment %}
 ### Work
 
 Over the years, I’ve had the pleasure to work with several really great people and companies on some really awesome projects. Below are a few clients who I worked with at different stages.
@@ -209,6 +210,7 @@ caption_sub="Catalog"
 caption_url="http://www.sport-coach.fr/"
 %}
 
+{% endcomment %}
 
 ### References
 
@@ -226,7 +228,7 @@ caption_url="http://www.sport-coach.fr/"
 <blockquote class="small col-two-third">
   Mathieu is an avid UX/UI Designer.
   Thanks to his great design skills and clear explanations in projects (whose collaboration was rich in learning/teaching and very rewarding), he did them by providing much value to the different projects. Motivated and passionate, he helped myself and other colleagues to improve themselves. It's a pleasure to work with him and I recommend him for future web projects.
-  <p class="text-right">Sébastien Correaud, front-end developer @ 1001pharmacies.com</p>
+  <p class="text-right">Sébastien Correaud, former front-end developer @ 1001pharmacies.com</p>
 </blockquote>
 
 <blockquote class="small col-third">
