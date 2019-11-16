@@ -16,5 +16,13 @@
     li {
       @include fluid-typo(18, 18, $phone-h-computed, $desktop-computed);
     }
+
+    a {
+      text-decoration: underline;
+
+      &:hover {
+        text-decoration: none;
+      }
+    }
   }
 }
