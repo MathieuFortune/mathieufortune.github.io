@@ -147,6 +147,8 @@ s {
 }
 
 .enlarged {
+   @include media($tab-h) {
     margin-left: -30%;
     margin-right: -30%;
+   }
 }
