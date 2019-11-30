@@ -21,8 +21,15 @@ This, what we also call __the design process__, takes time, and what does a comp
 
 You probably heard this sentence before.
 
-"The day the product team is put together, the project is over budget and behind schedule."
-So, that means that all these wonderful, early explorations, tests, and iterations are an obstacle to the person in charge of the project because it takes time and budget. The product owner will often say: "Yeah, what you want to do is the correct way of doing it, but we don't have time. So we will have to skip it or maybe short-circuit it. Instead of spending a week, you will have a few hours. But next time, we do it better!" And of course next time there isn't because next time it's the same story that happens.
+_"The day the product team is put together, the project is over budget and behind schedule."_
+
+So, that means that all these wonderful, early explorations, tests, and iterations are an obstacle to the person in charge of the project because it takes time and budget. 
+
+The product owner will often say: 
+
+_"Yeah, what you want to do is the correct way of doing it, but we don't have time. So we will have to skip it or maybe short-circuit it. Instead of spending a week, you will have a few hours. But next time, we do it better!"_
+
+And of course next time there isn't because next time it's the same story that happens.
 
 ### What's the solution to overcome this obstacle in user experience design?
 
