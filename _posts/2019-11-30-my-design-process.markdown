@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "My design process while creating an imaginary jet ski rental website"
+title:  "My Design Process"
 thumbnail: "/images/my-design-process-thumb.jpg"
-date:   2019-11-30 13:00:00 +0200
+date:   2019-11-30 13:30:00 +0200
 lang: en
 ref: design-process
 author: Mathieu Fortune
