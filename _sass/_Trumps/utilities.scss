@@ -127,11 +127,9 @@ s {
 
 .large-post-image {
   @include media($content) {
-    margin-left: -25%;
-    margin-right: -25%;
+    margin-left: -30%;
+    margin-right: -30%;
   }
-
-  box-shadow: 0 0 5px rgba(0, 0, 0, .3);
 }
 
 .img-shadowed {
@@ -144,11 +142,4 @@ s {
       z-index: -1;
       border-radius: 50%;
     }
-}
-
-.enlarged {
-   @include media($tab-h) {
-    margin-left: -30%;
-    margin-right: -30%;
-   }
 }
