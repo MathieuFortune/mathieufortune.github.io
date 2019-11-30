@@ -23,21 +23,20 @@ theme: Case studies
 
 {% include lazy-image.html src="/images/promeo-cs-cov.jpg" alt="Picture cover of the article" caption="" figClass="" %}
 
-Promeo is a well-known real estate developer in the South of France. They needed to refresh their website to be align with their new brand identity. From a first iteration of the new user interfaces, I expanded the design and developed the new wordpress application.
+Promeo is a well-known real estate developer in the South of France. They needed to refresh its website to be aligned with their new brand identity. From the first iteration of the new user interfaces, I expanded the design and developed the new WordPress application.
 
 
 ### Context
 
 Promeo is a well-known real estate developer in the South of France.
 
-They recently renewed their brand identity and needed to align their website with these new guidelines. The website is made with wordpress from a tailored made theme.
+They recently renewed their brand identity and needed to align their website with these new guidelines. The site is powered with WordPress from a custom made theme.
  
-I was in charge of completing the web design left by a previous designer and implementing it into the custom made wordpress theme. This new design necessitated to create new functionality as well.
+I was in charge of completing the web design left by a previous designer and implementing it into the custom made WordPress theme. This new design necessitated creating new functionality as well.
 
 {% include lazy-image.html src="/images/promeo-cs-results.jpg" alt="Screenshot UI Promeo.fr" caption="UI designed and developed" figClass="" %}
 
 
 ### Outcome
 
-Great opportunity to work with a really nice client on a complete start to finish web project.
-
+It was a great opportunity to work with a really nice client on a complete start to finish web project.
