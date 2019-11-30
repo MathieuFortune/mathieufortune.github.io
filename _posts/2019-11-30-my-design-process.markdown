@@ -90,5 +90,5 @@ When we are doing this phase in a team, it's a good idea to use the Design Studi
 
 Now that we agree with the wireframes, we start to design high fidelity mockups of the website. The first thing we do is to create a mood board that will contain typographies, color palette, photo selections, … This mood board is used to generate creativity and give a general sense of the feeling we want to communicate with the design. Then from that, we convert the wireframe into a high fidelity design that will serve for validation with the client/stakeholders. The high fidelity mockup doesn't have to follow exactly the wireframe as new ideas could emerge when adding color and pictures.
 
-{% include lazy-image.html src="/images/case-study-jet-ski-rental-moodboard.jpg" alt="Moodboard & Styleguide" caption="Moodboard & Styleguide" figClass="" %}
-{% include lazy-image.html src="/images/case-study-jet-ski-rental-designs-high-fidelity-mockups.jpg" alt="Designs from left to right: Home, Service, About, Contact" caption="Designs from left to right: Home, Service, About, Contact" figClass="" %}
+{% include lazy-image.html src="/images/case-study-jet-ski-rental-moodboard.jpg" alt="Moodboard & Styleguide" caption="Moodboard & Styleguide" figClass="enlarged" %}
+{% include lazy-image.html src="/images/case-study-jet-ski-rental-designs-high-fidelity-mockups.jpg" alt="Designs from left to right: Home, Service, About, Contact" caption="Designs from left to right: Home, Service, About, Contact" figClass="enlarged" %}
