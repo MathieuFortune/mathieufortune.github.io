@@ -34,7 +34,7 @@ They recently renewed their brand identity and needed to align their website wit
  
 I was in charge of completing the web design left by a previous designer and implementing it into the custom made WordPress theme. This new design necessitated creating new functionality as well.
 
-{% include lazy-image.html src="/images/promeo-cs-results.jpg" alt="Screenshot UI Promeo.fr" caption="UI designed and developed" figClass="" %}
+{% include lazy-image.html src="/images/promeo-cs-results.jpg" alt="Screenshot UI Promeo.fr" caption="UI designed and developed" figClass="large-post-image" %}
 
 
 ### Outcome
