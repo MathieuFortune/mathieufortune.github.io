@@ -169,11 +169,11 @@ projects:
       - Wordpress website (Blog)
       - Shopify design and implementation
       - HTML/CSS newsletter template
-      - Visual communication for social posts and blog (Adobe CC)
+      - Branding & visual communication for social posts and blog (Adobe CC)
       - User-centric workshops to advocate user experience
       - Usability audit of website and app version. 
   - title: Web presence, branding and user advocacy
-    description: I took a role full-time at Bakerly, a company that produce and sells bakery products accross the U.S.. With an holistic approach of the business, I helped the company develop their web presence and create a new brand identity. I also advocate the user experience to help the marketing team better understand his audience and switch their methods.
+    description: I took a full-time role at Bakerly, a company that produces and sells bakery products across the U.S. With a holistic approach of the business, I helped the company develop their web presence and create a new brand identity. I also advocate the user experience to help the marketing team better understand his audience and switch their methods.
     results: New website design, new packaging, new brand identity, user centric approach of the business.
     list:
       - User research
@@ -195,8 +195,8 @@ projects:
       - Assets treatment with Webpack and PostCss
       - LEAN UX approach and Scrum methods
   - title: Checkout process re-design project
-    description: This project intended to re-design and develop the checkout process (cart, delivery, payment of an order) of 1001pharmacies e-commerce website
-    results: Increase on cart transformation rate. Significantly improve user experience trough the entire checkout process
+    description: This project intended to re-design and develop the checkout process (cart, delivery, payment of orders) of 1001pharmacies e-commerce website
+    results: Increase in cart transformation rate. Significantly improve user experience through the entire checkout process
     list:
       - Sketch project UI (Sketch)
       - Design project's user experience
@@ -206,15 +206,15 @@ projects:
       - Assets treatment with Gulp
       - LEAN UX approach and Scrum methods
   - title: Checkout's UX experiments
-    description: In order to improve checkout process of 1001pharmacies.com, UX experiments has been performed to test and better understand users behavior
-    results: With user testing feedbacks, I improved team's workflow and democratized user testing methods knowledge in the company
+    description: UX experiments have been performed to improve the checkout process of 1001pharmacies.com to test and better understand users behavior
+    results: With user testing feedback, I improved the team's workflow and democratized user testing methods knowledge in the company
     list:
       - Perform and analyze user tests
       - Usability testing (AttrakDiff)
       - Perform A/B tests and set up UX metrics
       - Measure user's feedbacks
   - title: UX designer tasks on various projects
-    description: As I was the UX designer referent at 1001pharmacies.com, I helped product owners in their missions
+    description: As I was the UX designer referent at 1001pharmacies.com, I helped product owners in their missions.
     results: ''
     list:
       - Build user stories
@@ -222,15 +222,15 @@ projects:
       - Make task flows, uses cases and scenarios
       - Conduct ux methods like Design Studio, Focus Group to improve ideation process
   - title: i18n + Responsive Ready project
-    description: In order to prepare 1001pharmacies's website to be i18n ready, I worked on twig templates and translation files on Symfony 2. I also use this project to move the pages responsive ready
-    results: My work on the responsive ready optimization increase by +20% the mobile traffic part on the website. Loading time of these pages was 1.5 time faster than before moving them
+    description: In order to prepare 1001pharmacies' website to be i18n ready, I worked on twig templates and translation files on Symfony 2. I also use this project to move the pages responsive ready
+    results: My work on the responsive ready optimization increase by +20% of the mobile traffic part on the website. The loading time of these pages was 1.5 times faster than before moving them.
     list:
-      - Develop an i18n ready functionnality on Symfony 2
+      - Develop an i18n ready functionality on Symfony 2
       - Web pages templates overhaul
       - Adapt pages to be mobile ready with Responsive Web Design technics
   - title: Marketing tools
-    description: To help marketing actions, I was led to design and develop responsive ready newsletters and landing pages
-    results: With these new tools, marketing team's gain in conversion rate and set up time for each campaign. I also helped to improve front-end environment knowledge of co-workers
+    description: To help marketing actions, I was led to design and develop responsive ready newsletters and landing pages.
+    results: With these new tools, the marketing team's gain in conversion rate and setup time for each campaign. I also helped to improve the front-end environment knowledge of co-workers
     list:
       - Design and develop responsive ready newsletter's templates (Ink framework from Fundation)
       - Design and develop auto-generated responsive ready landings with Jekyll
