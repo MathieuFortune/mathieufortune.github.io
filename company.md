@@ -7,7 +7,7 @@ ref: company
 lang: en
 ---
 
-<h3 class="center"><em>"Sharing, Intellectual honesty, Transparency, Well being, Pragamatism and Trust"</em></h3>
+<h3 class="center"><em>"Sharing, Intellectual honesty, Transparency, Wellbeing, Pragmatism, and Trust"</em></h3>
 
 I’ve been driven by these values while working for eight years as User eXperience Designer and Front-End Developer both in an agency, e-commerce start-up, and companies.
 
