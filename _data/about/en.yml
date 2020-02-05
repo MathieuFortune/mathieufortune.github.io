@@ -109,39 +109,29 @@ trainings:
 
 skills_heading: Skills
 skills:
-  - title: Front-end development
+  - title: Web Technologies
     list:
       - HTML/CSS
       - Less/Sass
       - Javascript
-      - Gulp
       - WebPack
-      - Jekyll
-      - Twig
+      - Static Site Generator
       - MVC framework
-  - title: Front-end Practices
-    list:
-      - Cross-browser
-      - Progressive enhancement
-      - W3C & WCAG
-      - A/B tests
-      - OpQuast Web Quality
-      - Accessibility
-      - Feature detection
-      - Mobile first
-      - RWD (Responsive web design)
-      - SEO optimizations
-      - E-commerce optimizations
-      - Web performance
+      - SQL
+      - PHP
+      - CMS
+      
   - title: Design
     list:
       - Sketch
       - Adobe CC
       - Invision
       - MarvelApp
-      - Design thinking
-      - UX design methods
-      - Motion design
+      - User Testing
+      - Usability Test
+      - Information Architecture
+      - Interaction design
+
   - title: Methodologies & Principles
     list:
       - Git
@@ -149,6 +139,16 @@ skills:
       - Scrum
       - Lean UX
       - Kanban
+      - Design Thinking
+      - Growth Hacking Techniques
+      
+   - title: Extra / Soft Skills
+    list:
+      - Leadership
+      - Empathy
+      - Communication
+      - Project Planning
+      - Branding
 
 projects_heading: Projects
 project_my_roles: My roles on this project
