@@ -11,7 +11,7 @@ lang: en
 
 I’ve been driven by these values while working for eight years as User eXperience Designer and Front-End Developer both in an agency, e-commerce start-up, and companies.
 
-Today, I wish to share my experiences and knowledge to you as an <br/> __Product Manager__.
+Today, I wish to share my experiences and knowledge to you as a __Product Manager__.
 
 I’m continually exploring [lean approaches](https://en.wikipedia.org/wiki/Lean){:target="_blank"} and [agiles methods](https://en.wikipedia.org/wiki/Agile_software_development){:target="_blank"}, expert with languages like HTML, CSS/Sass, Javascript, enjoying tools like Gulp, Webpack, CMS like Jekyll, Wordpress, Symfony and always exploring new design ideas.
 
@@ -25,15 +25,17 @@ During these past eight years of activity, I :
 
 * <u>Worked directly with clients</u> in an agency, defining project scopes, goals, assumptions and pain points ;
 
-* <u>Built fast responsive website</u> with HTML5, CSS, Javascript, responsive design and [opQuast good practices](http://www.opquast.com){:target="_blank"} ;
+* <u>Built fast responsive website</u> with HTML5, CSS, Javascript, responsive design and web good practices ;
 
 * <u>Created aesthetic user interfaces</u>, designed mockups and prototypes of systems for websites and mobile applications ;
 
+* <u>Led usability testing</u> with users and took their feedback to improve products ;
+
 * <u>Assisted marketing teams</u> in the development of their tools and their web skills ;
 
-* <u>Redesigned huge e-commerce website</u> with iterative scrum and lean approach ;
+* <u>Generated growth</u> through well planned marketing campaigns and strategies ;
 
-* <u>Led usability testing</u> with users and took their feedback to improve products ;
+* <u>Redesigned huge e-commerce website</u> with iterative scrum and lean approach ;
 
 * And many more...
 
