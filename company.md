@@ -55,7 +55,7 @@ __- Product enhancement -__ Sustain, improve the quality and performances of you
 <br/>
 
 <div class="text-center">
-  <a href="mailto:pro.mathieu.fortune@gmail.com?subject=Hey let's work together !&amp;body=Hi Mathieu, I was looking to hire someone like you for..." title="" class="btn--default btn--medium">Let's work together !</a>
+  <a href="/resume/" title="Mathieu Fortune Resume" class="btn--default btn--medium">Check out my Resume</a>
 </div>
 
 <br/>
