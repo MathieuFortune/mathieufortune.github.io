@@ -11,13 +11,13 @@ lang: en
 
 I’ve been driven by these values while working for eight years as User eXperience Designer and Front-End Developer both in an agency, e-commerce start-up, and companies.
 
-Today, I wish to share my experiences and knowledge to you as an <br/> __experienced UX Designer__.
+Today, I wish to share my experiences and knowledge to you as an <br/> __Product Manager__.
 
-I’m continually exploring [lean approaches](https://en.wikipedia.org/wiki/Lean){:target="_blank"} and [agiles methods](https://en.wikipedia.org/wiki/Agile_software_development){:target="_blank"}, expert with languages like HTML, CSS/Sass, Javascript, enjoying tools like Gulp, Webpack and CMS like Jekyll, Wordpress, Symfony.
+I’m continually exploring [lean approaches](https://en.wikipedia.org/wiki/Lean){:target="_blank"} and [agiles methods](https://en.wikipedia.org/wiki/Agile_software_development){:target="_blank"}, expert with languages like HTML, CSS/Sass, Javascript, enjoying tools like Gulp, Webpack, CMS like Jekyll, Wordpress, Symfony and always exploring new design ideas.
 
 I also enjoy sharing my knowledge throughout learning sessions, conferences, and meetups. 
 
-I’m attached to share my expertise in web development and design to teach everyone wanting to be autonomous and seeking to experience new topics.
+I’m attached to share my expertise in design, web development to teach everyone wanting to be autonomous and seeking to experience new topics.
 
 ### What
 
@@ -41,7 +41,7 @@ During these past eight years of activity, I :
 
 I can work with small to medium-size business, start-ups, design/dev teams, digital agencies, ...
 
-At every stage of your product both in reflection and in realization :
+At every stage of your product from concept to launch:
 
 __- Kick off phase of your project -__ Research, interviews, test ideas, I can help you build the best suitable product for your users.
 
@@ -50,7 +50,7 @@ __- Project development -__ Need help during the development phase, I can delive
 __- Product enhancement -__ Sustain, improve the quality and performances of your existing product by helping your team develop their skills and helping build key functionalities.
 
 
-#### _I'm ready to add value to any team looking for an experienced and polyvalent UX Designer._
+#### _I'm ready to add value to any team looking for an experienced and polyvalent Product Manager._
 
 <br/>
 
@@ -215,7 +215,36 @@ caption_url="http://www.sport-coach.fr/"
 
 ### References
 
+<blockquote class="small col-two-third">
+Mathieu is great to work with. I was working with him during his mission at Gleeden. He was able to understand business requirements and technical limitations while delivering quality work. Mathieu is an extremely talented and driven individual that I would love to work with again.
+<p class="text-right">Solène Paillet, Marketing Director French Division @ Gleeden</p>
+</blockquote>
+
+<blockquote class="small col-third">
+I worked closely with Mathieu on a number of pretty complex web projects. Mathieu has proven to be an excellent designer and developer who is easy to collaborate with. He asks pertinent questions and offers efficient alternatives and smart solutions that move a project forward. Beside his excellent work as a developer, Mathieu’s has an admirable work ethic-generally the first one in the door in the morning, gunning to get started, and always willing to learn something new. I have been impressed by Mathieu more times than I can count and his easy attitude makes him a great part of any team.
+<p class="text-right">Cliff Grente, Software Developer @ Gleeden</p>
+</blockquote>
+
+
 <blockquote class="small col-half--left">
+Mathieu is a such a great professional! He was always helpful and always wiling to teach and share his knowledge.
+His skills are outstanding, I was a witness of all the great projects he accomplished during the time we worked together at Bakerly.
+Not only he is professional in his field but a great person. He was always friendly and reliable, a great person to work with!
+<p class="text-right">Tatiana Duron-Idiaquez, Senior Sales Operative Manager @ Bakerly</p>
+</blockquote>
+
+<blockquote class="small col-half--right">
+Mathieu is a very positive, optimistic, and hardworking individual. I had the pleasure of working with him at Bakerly on a wide range of projects and was extremely impressed with his work. He is consistent and always goes above and beyond to achieve his tasks. I would definitely recommend him for any position as I know he would be an asset to any team.
+<p class="text-right">Leo Blanchard, CMO | Content Specialist @ Bakerly</p>
+</blockquote>
+
+<blockquote class="small col-half--left">
+Mathieu helped me with several web and design projects linked to my companies.
+Mathieu is very easy to work with, he knows how to handle situations and answers all the challenges on the spot. He follows through and closes actions. He is very knowledgable and skilled at what he does and guides his customers towards the current trends in the industry. It was a pleasure to work with him. I highly recommend him and definitely looking forward to working with him again in the future.
+<p class="text-right">Jordan Cohen, CEO @ MaintenanceQuebec</p>
+</blockquote>
+
+<blockquote class="small col-half--right">
 Mathieu was a great asset in 1001pharmacies' development team. He used his UX and Front-end development skills to serve our e-commerce website, as well as our current web site re-design. His professionalism led him to work with commitment and high motivation until his last day in our team. These actions allow me to recommend him without hesitation, and I invite you to give him a shot to prove his true value. Feel free to contact me directly for more information.
 <p class="text-right">Cédric O'Neill, co-founder and former CEO @ 1001pharmacies.com</p>
 </blockquote>
