@@ -215,12 +215,12 @@ caption_url="http://www.sport-coach.fr/"
 
 ### References
 
-<blockquote class="small col-two-third">
+<blockquote class="small col-half--left">
 Mathieu is great to work with. I was working with him during his mission at Gleeden. He was able to understand business requirements and technical limitations while delivering quality work. Mathieu is an extremely talented and driven individual that I would love to work with again.
 <p class="text-right">Solène Paillet, Marketing Director French Division @ Gleeden</p>
 </blockquote>
 
-<blockquote class="small col-third">
+<blockquote class="small col-half--right">
 I worked closely with Mathieu on a number of pretty complex web projects. Mathieu has proven to be an excellent designer and developer who is easy to collaborate with. He asks pertinent questions and offers efficient alternatives and smart solutions that move a project forward. Beside his excellent work as a developer, Mathieu’s has an admirable work ethic-generally the first one in the door in the morning, gunning to get started, and always willing to learn something new. I have been impressed by Mathieu more times than I can count and his easy attitude makes him a great part of any team.
 <p class="text-right">Cliff Grente, Software Developer @ Gleeden</p>
 </blockquote>
@@ -238,7 +238,7 @@ Mathieu is a very positive, optimistic, and hardworking individual. I had the pl
 <p class="text-right">Leo Blanchard, CMO | Content Specialist @ Bakerly</p>
 </blockquote>
 
-<blockquote class="small col-half--left">
+<blockquote class="small col-two-third">
 Mathieu helped me with several web and design projects linked to my companies.
 Mathieu is very easy to work with, he knows how to handle situations and answers all the challenges on the spot. He follows through and closes actions. He is very knowledgable and skilled at what he does and guides his customers towards the current trends in the industry. It was a pleasure to work with him. I highly recommend him and definitely looking forward to working with him again in the future.
 <p class="text-right">Jordan Cohen, CEO @ MaintenanceQuebec</p>
