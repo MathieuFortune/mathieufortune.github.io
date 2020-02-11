@@ -1,13 +1,13 @@
 ---
 layout: post
-title:  "Let's work together !"
+title:  "About Me"
 menu_title: About me
 permalink: /company/
 ref: company
 lang: en
 ---
 
-<h3 class="center"><em>"Sharing, Intellectual honesty, Transparency, Wellbeing, Pragmatism, and Trust"</em></h3>
+<h3 class="joker-fs center no-marg-v"><em>"Sharing, Intellectual Honesty, Transparency, Wellbeing, Pragmatism, and Trust"</em></h3>
 
 I’ve been driven by these values while working for eight years as User eXperience Designer and Front-End Developer both in an agency, e-commerce start-up, and companies.
 

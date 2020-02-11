@@ -143,3 +143,8 @@ s {
       border-radius: 50%;
     }
 }
+
+/* Joker font size */
+.joker-fs {
+  @include fluid-typo(26, 33, $phone-h-computed, $desktop-computed);
+}

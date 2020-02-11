@@ -9,12 +9,17 @@ $intro-font-size--small: 20;
     padding-right: $spacing--base;
     padding-left: $spacing--base;
   }
-  padding-right: 0;
-  padding-left: 0;
+  padding-right: 1rem;
+  padding-left: 1rem;
 
   @include media($tab-v, max-width) {
     figure {
-      margin: 1em auto;
+      margin: 1em 0;
+      max-width: 150px;
+        img {
+          max-width: 150px;
+          max-height: 150px;
+        }
     }
   }
 }

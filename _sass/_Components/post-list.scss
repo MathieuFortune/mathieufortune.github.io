@@ -1,3 +1,18 @@
+// post list title
+$post-title-font-size: 26;
+$post-title-font-size--small: 33;
+
+// Post list container
+.post-list-container {
+  h3 {
+    @include fluid-typo($post-title-font-size, $post-title-font-size--small, $phone-h-computed, $desktop-computed);
+  }
+  @include media($tab-v, max-width) {
+    margin-top: 0;
+    padding-top: 0;
+  }
+}
+
 // Post list component
 .post-list {
   padding: 0;

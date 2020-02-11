@@ -14,14 +14,14 @@
   padding: 0 $spacing--small;
   background-color: rgba(255, 255, 255, .9);
 
-  .home & {
+  /*.home & {
     background-color: transparent;
-  }
+  }*/
 }
 
 .site-title {
-  @include font-size($font-size--base);
-  margin-top: 0;
+  margin-top: 6px;
+  font-size: 1.125rem;
   font-family: $font-main;
   font-weight: $font-weight--bold;
   line-height: 60px;
@@ -36,5 +36,9 @@
 
   a {
     color: inherit;
+  }
+
+  img {
+    margin-right: .3125rem;
   }
 }
