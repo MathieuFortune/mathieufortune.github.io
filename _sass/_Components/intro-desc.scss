@@ -1,5 +1,5 @@
 // Intro desc component
-$intro-font-size: 14;
+$intro-font-size: 16;
 $intro-font-size--small: 20;
 
 .intro-desc {
@@ -11,4 +11,10 @@ $intro-font-size--small: 20;
   }
   padding-right: 0;
   padding-left: 0;
+
+  @include media($tab-v, max-width) {
+    figure {
+      margin: 1em auto;
+    }
+  }
 }

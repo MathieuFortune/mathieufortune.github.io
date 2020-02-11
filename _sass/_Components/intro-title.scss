@@ -9,7 +9,7 @@ $intro-font-size--hero: 76;
   @include media($tab-v, max-width) {
     padding-right: $spacing--base;
     padding-left: $spacing--base;
-    margin-top: 4rem;
+    margin-top: 1rem;
   }
   @include fluid-typo($intro-font-size, $intro-font-size--small, $phone-h-computed, $desktop-computed);
   padding-right: 0;
