@@ -45,9 +45,9 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://mathieufortune.github.com" # the base hostname & protocol for your site, e.g. http://example.com
 permalink: none
 
-twitter_username: MsterMF
+twitter_username: mathieufortune
 github_username:  MathieuFortune
-linkedin_username: mathieu-fortune-220268101
+linkedin_username: mathieufortune
 codepen_username: mathieu_fortune
 youtube_username: Ubeure
 
