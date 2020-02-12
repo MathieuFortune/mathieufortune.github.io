@@ -157,7 +157,21 @@ layout: default
     </div>
   </section>
   {% endcomment %}
-  
+
+  <section class="row-flex no-print">
+    <div class="title">
+      <h2>{{ site.data.about[page.lang].quotes_heading }}</h2>
+    </div>
+    <div class="boxed content">
+    {% for quotes in site.data.about[page.lang].quotes %}
+    <blockquote class="small">
+      {{ quotes.description }}
+      <p class="text-right">{{ quotes.name }}</p>
+    </blockquote>
+    {% endfor %}
+    </div>
+  </section>
+
   <section class="row no-print text-right">
     <div class="print-it no-print">
       {% comment %}

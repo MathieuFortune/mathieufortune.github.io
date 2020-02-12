@@ -43,7 +43,7 @@ experiences:
     name: Bakerly
     period: Coral Gables, FL | Feb 2018 - Aug 2018
     desc: Bakerly is a french start-up in the food and beverage industry. Reporting to the Digital Marketing Director, responsibilities included user research, product design, marketing material design, packaging design, eCommerce optimizations.
-    role: | 
+    role: |
       • Established user personas for retail and web sales to help executives in decision making
       <br>• Implemented process and documentation to streamline communication between services
       <br>• Initiated Amazon sales strategy and page design in collaboration with Director of eCommerce
@@ -212,7 +212,7 @@ projects:
       - HTML/CSS newsletter template
       - Branding & visual communication for social posts and blog (Adobe CC)
       - User-centric workshops to advocate user experience
-      - Usability audit of website and app version. 
+      - Usability audit of website and app version.
   - title: Web presence, branding and user advocacy
     description: I took a full-time role at Bakerly, a company that produces and sells bakery products across the U.S. With a holistic approach of the business, I helped the company develop their web presence and create a new brand identity. I also advocate the user experience to help the marketing team better understand his audience and switch their methods.
     results: New website design, new packaging, new brand identity, user centric approach of the business.
@@ -289,3 +289,24 @@ projects:
       - Design and develop my personal website with Jekyll and Sass
       - Co-develop 'career' website of the company in Meteor + Angular2
       - Co-develop a front assets bootstrapping tool with Gulp
+
+quotes_heading: Recommendations
+quotes:
+  - name: Solène Paillet, Marketing Director French Division @ Gleeden (Inventive Format)
+    description: Mathieu is great to work with. I was working with him during his mission at Gleeden. He was able to understand business requirements and technical limitations while delivering quality work. Mathieu is an extremely talented and driven individual that I would love to work with again.
+  - name: Cliff Grente, Software Developer @ Gleeden (Inventive Format)
+    description: I worked closely with Mathieu on a number of pretty complex web projects. Mathieu has proven to be an excellent designer and developer who is easy to collaborate with. He asks pertinent questions and offers efficient alternatives and smart solutions that move a project forward. Beside his excellent work as a developer, Mathieu’s has an admirable work ethic-generally the first one in the door in the morning, gunning to get started, and always willing to learn something new. I have been impressed by Mathieu more times than I can count and his easy attitude makes him a great part of any team.
+  - name: Tatiana Duron-Idiaquez, Senior Sales Operative Manager @ Bakerly
+    description: Mathieu is a such a great professional! He was always helpful and always wiling to teach and share his knowledge. His skills are outstanding, I was a witness of all the great projects he accomplished during the time we worked together at Bakerly. Not only he is professional in his field but a great person. He was always friendly and reliable, a great person to work with!
+  - name: Jordan Cohen, CEO @ MaintenanceQuebec (Inventive Format)
+    description: Mathieu helped me with several web and design projects linked to my companies. Mathieu is very easy to work with, he knows how to handle situations and answers all the challenges on the spot. He follows through and closes actions. He is very knowledgable and skilled at what he does and guides his customers towards the current trends in the industry. It was a pleasure to work with him. I highly recommend him and definitely looking forward to working with him again in the future.
+  - name: Leo Blanchard, CMO | Content Specialist @ Bakerly
+    description: Mathieu is a very positive, optimistic, and hardworking individual. I had the pleasure of working with him at Bakerly on a wide range of projects and was extremely impressed with his work. He is consistent and always goes above and beyond to achieve his tasks. I would definitely recommend him for any position as I know he would be an asset to any team.
+  - name: Audrey Lambert, Digital Marketing Manager @ 1001pharmacies.com
+    description: Working with Mathieu on UX subjects was very exciting... He's always learning about topics around user-centered design and doesn't hesitate to challenge project ideas to move forward. Also, he has a real eye for aesthetics! I can only recommend you to work with Mathieu.
+  - name: Cédric O'Neill, co-founder CEO @ 1001pharmacies.com
+    description: Mathieu was a great asset in 1001pharmacies' development team. He used his UX and Front-end development skills to serve our e-commerce website, as well as our current web site re-design. His professionalism led him to work with commitment and high motivation until his last day in our team. These actions allow me to recommend him without hesitation, and I invite you to give him a shot to prove his true value. Feel free to contact me directly for more information.
+  - name: Sébastien Correaud, Front-End Developer @ 1001pharmacies.com
+    description: Mathieu is an avid UX/UI Designer. Thanks to his exceptional design skills and clear explanations in projects (whose collaboration was rich in learning/teaching and very rewarding), he did them by providing much value to the different projects. Motivated and passionate, he helped me and other colleagues to improve themselves. It's a pleasure to work with him, and I recommend him for future web projects.
+  - name: Guilhem Marty, CTO @ 1001pharmacies.com
+    description: I worked with Mathieu for a year. Deeply involved in the projects he worked on, he managed to find the most qualitative solution for each challenge he encountered. His creativity and sixth sense for usability is a great asset for a team.
