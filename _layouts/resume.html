@@ -67,7 +67,7 @@ layout: default
       {% endfor %}
     </div>
   </section>
-
+  {% comment %}
   <section class="row-flex">
     <div class="title">
       <h2>{{ site.data.about[page.lang].i_have_heading }}</h2>
@@ -80,7 +80,7 @@ layout: default
       </ul>
     </div>
   </section>
-
+  {% endcomment %}
   <section class="row-flex">
     <div class="title">
       <h2>{{ site.data.about[page.lang].skills_heading }}</h2>
@@ -127,6 +127,7 @@ layout: default
     </div>
   </section>
 
+  {% comment %}
   <section class="row-flex">
     <div class="title">
       <h2>{{ site.data.about[page.lang].projects_heading }}</h2>
@@ -155,7 +156,8 @@ layout: default
       {% endfor %}
     </div>
   </section>
-
+  {% endcomment %}
+  
   <section class="row no-print text-right">
     <div class="print-it no-print">
       {% comment %}

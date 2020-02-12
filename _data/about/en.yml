@@ -20,45 +20,75 @@ experiences:
     name: MoGraph Mentor
     period: Sarasota, FL | Jan 2019 - Present
     desc: Responsibilities of my role include planning roadmap of web solutions to generate growth of user base and revenue, direct digital marketing strategy (inbound, outbound), guide training roadmap through user researches and competitor evaluations.
-    role: >
+    role: |
       • Initiated from inception to launch feature development to deliver better user experience & improve conversion rate
-      • Mapped user interactions to stay up-to-date with user perception and ensure reliable data collection
-      • Increased social media metrics thanks to well scheduled and designed marketing strategy
-      • Improved company visibility by improving SEO and web performances
-      • Oversaw and maintained technical stack, bugs, and issues to ensure continuous best service
-      • Consolidated KPIs tracking and data collection to measure success, best inform next product features
-      • Centralized documentation, roadmap, and processes to streamline communication and productivity
-      • Demonstrated communication and organizational skills in weekly meetings and remote chat
-  - title: Web & Branding Consultant | Owner
+      <br>• Mapped user interactions to stay up-to-date with user perception and ensure reliable data collection
+      <br>• Increased social media metrics thanks to well scheduled and designed marketing strategy
+      <br>• Improved company visibility by improving SEO and web performances
+      <br>• Oversaw and maintained technical stack, bugs, and issues to ensure continuous best service
+      <br>• Consolidated KPIs tracking and data collection to measure success, best inform next product features
+      <br>• Centralized documentation, roadmap, and processes to streamline communication and productivity
+      <br>• Demonstrated communication and organizational skills in weekly meetings and remote chat
+  - title: Owner - Branding & Web Consultancy
     name: Inventive Format
-    period: 08/2018 - present
-    desc: Owner of Inventive Format an independent web and branding consultancy.
-    role: I work with small to medium businesses as well as agencies around web brand strategy, web development, UX design, graphic design, and e-commerce conversion optimizations.
-    skills: User experience design, Responsive Web Design, Motion Design, HTML, CSS, Javascript, SASS, Webpack, Wordpress, Shopify, Adobe Creative Suite.
-  - title: Freelance UX Designer
-    name: Self-employed
-    period: 01/2017 - 02/2019
-    desc: Worked as a remote freelance UX designer and Front-end web developer. First as a digital nomad (SE Asia, Europe) and lately as a permanent resident in Florida, USA.
-    role: My multi-discipline expertise allowed me to work on a variety of projects from concept to launch. Mainly helping small to medium businesses with their web presence and branding.
-    skills: User experience design, Responsive Web Design, Motion Design, HTML, CSS, Javascript, SASS, Webpack, Wordpress, Shopify, Adobe Creative Suite.
-  - title: UX/UI Designer
+    period:  Miami, FL | Aug 2018 - present
+    desc: Founder of a web and branding consultancy aiming to help agencies, small to medium businesses and companies alike to better communicate the value of what they do. I use my extensive list of skills and experiences to deliver quality consulting, well-thought product features and communicate with clients and freelancers to lead all my projects to success.
+    role: |
+      • Coordinated and delegated projects to freelancers
+      <br>• Planned business and growth strategies for clients
+      <br>• Advised clients on potential digital growth strategies
+      <br>• Orchestrated social media and inbound marketing strategies for clients
+      <br>• Revamped branding of companies to help attract new audiences
+  - title: Product Designer
     name: Bakerly
-    period: 02/2018 - 10/2018
-    desc: Bakerly is a food & beverage start-up producing and selling deli bakery product both in retail and online stores.
-    role: In collaboration with the marketing director and sales team, I was leading the user research and providing design and web development support to help grow the online sales, the digital presence of the brand and sign new deals with retail stores. In addition to the Art Director, I was the go-to person for everything related to design in the company (packaging, merchandising, sales material, etc).
-    skills: User experience design, Adobe creative suite, Sketch, Wordpress, WooCommerce, Amazon Marketplace, HTML, CSS, Javascript, Lean approach and Design thinking.
-  - title: UX Designer - Front-End Developer
+    period: Coral Gables, FL | Feb 2018 - Aug 2018
+    desc: Bakerly is a french start-up in the food and beverage industry. Reporting to the Digital Marketing Director, responsibilities included user research, product design, marketing material design, packaging design, eCommerce optimizations.
+    role: | 
+      • Established user personas for retail and web sales to help executives in decision making
+      <br>• Implemented process and documentation to streamline communication between services
+      <br>• Initiated Amazon sales strategy and page design in collaboration with Director of eCommerce
+      <br>• Maintained an up-to-date evaluation of notable competitors’ social media/websites/product packaging
+      <br>• Strengthened understanding of web technologies to sales and marketing team members
+  - title: Freelance UX/UI Developer
+    name: Self-employed
+    period: Around the world | Jan 2017 - Jan 2018
+    desc: Working as a remote freelance UI/UX Developer while traveling through Europe, SE Asia, and the US. Performing research, web design, development, and print design missions for small to medium businesses and agencies. My multi-discipline expertise allowed me to work on a variety of projects from concept to launch.
+    role: |
+      • Oversaw web and digital marketing strategy of import/export business that generated interest of investors
+      <br>• Diagnosed usability and performance issue that once resolved enabled the business to become the reference in its city (Tourism media in Vietnam)
+      <br>• Coordinated redesign and development of a real-estate client website that generated praises among its users
+  - title: UX Designer
     name: 1001Pharmacies.com
-    period: 12/2015 - 01/2017 ( 2 years )
-    desc: Successful e-commerce start-up specialized in pharmaceutical and cosmetics products.
-    role: Worked in a fast-paced Agile environment with a Lean UX approach of projects (MVP, short feedback loops with users and the team). Assigned on a user-centric redesign of the e-commerce website as Front-end Developer & UX Designer. Provided the marketing team with the proper research and tools to get to the root of any problems. Animated workshops revolving around UX and Web subjects to improve team awareness and communication.
-    skills: UX Research, Sketch App, Invision App, HTML, CSS, Sass, Webpack, Javascript, Symfony3.
-  - title: Front-end developer
+    period: Montpellier, France | Jan 2016 - Jan 2017
+    desc: Transitioning to a flat hierarchy organizational structure and Agile team workflow, responsibilities included collaborating with Product Owner to gather user insights, revamp eCommerce website by designing wireframe and prototypes of user stories, lead user testing and support implementation of front-end features.
+    role: |
+      • Delivered well-researched user insights and quantitative data analytics to inform PO and stakeholders
+      <br>• Redesigned eCommerce platform with design thinking and mobile-first approach
+      <br>• Created a new brand identity with the Creative Director to generate more visibility to the users
+      <br>• Remodeled front-end code base of eCommerce platform during pair-programming sessions with teammates
+      <br>• Cultivated company values throughout every Agile Scrum rituals
+      <br>• Promoted teamwork results and progress reports during Sprint demo presentations
+      <br>• Inspired internal team member and design enthusiast by actively sharing knowledge at meetups and workshops
+  - title: Front-End Developer
+    name: 1001Pharmacies.com
+    period: Montpellier, France | Jan 2015 - Jan 2016
+    desc: 1001pharmacies is a successful VC backed e-commerce start-up specialized in pharmaceutical and cosmetics products. Reporting to the CTO, responsibilities included maintaining front-end stack of eCommerce platforms, collaborate with marketing team on designing and developing tools to support growth goals.
+    role: |
+      • Reduced technical debt by performing front-end code maintenance of V1 of eCommerce platform
+      <br>• Boosted user base growth by delivering quality emailing and landing solutions to marketing team
+      <br>• Streamlined communication between marketing and technical team by providing mentoring and training
+  - title: UI Developer & Designer
     name: Publika
-    period: 01/2012 - 01/2015 ( 3 years )
-    desc: Web Digital agency focused on tailored website development and SEO for small to medium businesses.
-    role: I was in charge of the Front-End web development of clients’ websites in various industries (fashion, real estate, food, tourism, etc). I was also assisting the web design team (animations, components). Happened to teach clients how to manage their websites alongside the project manager.
-    skills: Adobe Creative Suite, HTML, CSS, Javascript, PHP.
+    period: Montpellier, France | Jan 2012 - Jan 2015
+    desc: Publika is a web agency based in the south of France. They specialize in custom made websites and SEO/SMO services. Reporting to the project manager, responsibilities included designing and developing pixel perfect frontend web solutions, ensuring Q/A, helping establish project quote and specs, assist project delivery and demo to the clients.
+    role: |
+      • Pioneered responsive user interfaces design for best user experience and search engines ranking
+      <br>• Co-developed custom made PHP MVC framework used on more than 50 clients’ projects
+      <br>• Enforced code quality and pixel perfect design through QA testing
+      <br>• Refined SEO positioning of clients’ websites through rigorous optimizations
+      <br>• Showcased ability to work in fast-paced, high-stakes projects
+      <br>• Streamlined CMS documentation to facilitate project delivery
+      <br>• Contributed to a casual but industrious work ethic in the agency
 
 i_have_heading: I have
 i_have:
@@ -116,46 +146,50 @@ trainings:
 
 skills_heading: Skills
 skills:
+  - title: Interpersonal Skills
+    list:
+      - Management
+      - Written Communication
+      - Strategic Thinking
+      - Leadership
+      - Public Speaking
+      - Design Thinking
+      - Empathy
+      - Project Planning
+      - eCommerce
+      - Brand Strategy
+      - Growth Hacking
+      - Agile Scrum
+      - Lean Start-Up
+      - Kanban
   - title: Web Technologies
     list:
       - HTML/CSS
       - Less/Sass
       - Javascript
       - WebPack
+      - Gulp
       - Static Site Generator
-      - MVC framework
+      - Git
+      - A11y
+      - API
+      - JSON
       - SQL
       - PHP
       - CMS
-      
-  - title: Design
+  - title: UX Skills
     list:
-      - Sketch
-      - Adobe CC
-      - Invision
-      - MarvelApp
-      - User Testing
-      - Usability Test
+      - User Research
       - Information Architecture
-      - Interaction design
-  
-  - title: Methodologies & Principles
-    list:
-      - Git
-      - Agile
-      - Scrum
-      - Lean UX
-      - Kanban
-      - Design Thinking
-      - Growth Hacking Techniques
-      
-  - title: Extra / Soft Skills
-    list:
-      - Leadership
-      - Empathy
-      - Communication
-      - Project Planning
-      - Branding
+      - Usability Testing
+      - Interaction Design
+      - Responsive Web Design
+      - A/B Tests
+      - Prototyping
+      - Wireframing
+      - Adobe CC
+      - Sketch
+      - Invision
 
 projects_heading: Projects
 project_my_roles: My roles on this project
