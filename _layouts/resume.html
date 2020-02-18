@@ -62,7 +62,11 @@ layout: default
           {{ experiences.period }}
         </p>
         <p>{{ experiences.desc }}</p>
-        <p>{{ experiences.role }}</p>
+        <ul>
+          {% for entries in experiences.role %}
+          <li>{{ entries }}</li>
+          {% endfor %}
+        </ul>
       </div>
       {% endfor %}
     </div>

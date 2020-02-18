@@ -19,77 +19,82 @@ experiences:
   - title: Co-Founder - CTO & Product Designer
     name: MoGraph Mentor
     period: Sarasota, FL | Jan 2019 - Present
-    desc: Responsibilities of my role include planning roadmap of web solutions to generate growth of user base and revenue, direct digital marketing strategy (inbound, outbound), guide training roadmap through user researches and competitor evaluations.
-    role: |
-      • Initiated from inception to launch feature development to deliver better user experience & improve conversion rate
-      <br>• Mapped user interactions to stay up-to-date with user perception and ensure reliable data collection
-      <br>• Increased social media metrics thanks to well scheduled and designed marketing strategy
-      <br>• Improved company visibility by improving SEO and web performances
-      <br>• Established marketing automation systems to generate evergreen funnel and improve user on-boarding
-      <br>• Oversaw and maintained technical stack, bugs, and issues to ensure continuous best service
-      <br>• Consolidated KPIs tracking and data collection to measure success, best inform next product features
-      <br>• Centralized documentation, roadmap, and processes to streamline communication and productivity
-      <br>• Demonstrated communication and organizational skills in weekly meetings and remote chat
+    desc: Mograph Mentor is an online school for motion design. Through mentorship and on-demand training, we offer an alternative to traditional Art school. Responsibilities include R&D of e-learning platform, direct marketing strategy, customer happiness, and data analysis.
+    role:
+      - Lead redesign of e-learning platform to deliver better user experience and increase revenue.
+      - Establish a social media strategy that generates revenue and traffic growth by up to +30%
+      - Improve KPIs tracking and data collection to measure success and inform feature development
+      - Refine email automation to generates growth and delivers a better user experience
+      - Engage with customers by animating our community and answering customer questions
+      - Centralize documentation, roadmap, and processes to streamline communication and productivity
+
   - title: Owner - Branding & Web Consultancy
     name: Inventive Format
     period:  Miami, FL | Aug 2018 - present
-    desc: Founder of a web and branding consultancy aiming to help agencies, small to medium businesses and companies alike to better communicate the value of what they do. I use my extensive list of skills and experiences to deliver quality consulting, well-thought product features and communicate with clients and freelancers to lead all my projects to success.
-    role: |
-      • Coordinated and delegated projects to freelancers
-      <br>• Planned business and growth strategies for clients
-      <br>• Advised clients on potential digital growth strategies
-      <br>• Orchestrated social media and inbound marketing strategies for clients
-      <br>• Revamped branding of companies to help attract new audiences
+    desc: Founder of a web/branding consultancy helping small to medium businesses to better communicate the value of what they do. Responsibilities include using my experience and skills to deliver quality consulting, design product features and communicate with clients to lead projects to success.
+    role:
+      - Plan business and growth strategies
+      - Orchestrate social media and marketing strategies
+      - Revamp branding to help attract new audiences
+      - Design and develop web solutions
+      - Coordinate and delegate projects with freelancers
+      - Mentor design and software development employees
+
   - title: Product Designer
     name: Bakerly
     period: Coral Gables, FL | Feb 2018 - Aug 2018
-    desc: Bakerly is a french start-up in the food and beverage industry. Reporting to the Digital Marketing Director, responsibilities included user research, product design, marketing material design, packaging design, eCommerce optimizations.
-    role: |
-      • Established user personas for retail and web sales to help executives in decision making
-      <br>• Implemented process and documentation to streamline communication between services
-      <br>• Initiated Amazon sales strategy and page design in collaboration with Director of eCommerce
-      <br>• Maintained an up-to-date evaluation of notable competitors’ social media/websites/product packaging
-      <br>• Strengthened understanding of web technologies to sales and marketing team members
-  - title: Freelance UX/UI Developer
+    desc: Bakerly is a French start-up in the food and beverage industry. Reporting to marketing director, responsibilities included user research, product design, packaging design, and eCommerce optimizations.
+    role:
+      - Established user persona profiles to help Executives’ decision making
+      - Designed website interfaces and packaging design to launch new product lines
+      - Built eCommerce sales strategy and Amazon sales page in collaboration with eCommerce Director
+      - Implemented process and documentation to streamline communication between services
+      - Trained sales and marketing teams on web technologies
+
+  - title: UX/UI Developer Freelance
     name: Self-employed
     period: Around the world | Jan 2017 - Jan 2018
-    desc: Working as a remote freelance UI/UX Developer while traveling through Europe, SE Asia, and the US. Performing research, web design, development, and print design missions for small to medium businesses and agencies. My multi-discipline expertise allowed me to work on a variety of projects from concept to launch.
-    role: |
-      • Oversaw web and digital marketing strategy of import/export business that generated interest of investors
-      <br>• Diagnosed usability and performance issue that once resolved enabled the business to become the reference in its city (Tourism media in Vietnam)
-      <br>• Coordinated redesign and development of a real-estate client website that generated praises among its users
+    desc: Worked as a remote freelance UI/UX Developer while traveling through Europe, SE Asia, and the US. Responsibilities included research, web design, development, and print design missions for small to medium businesses.
+    role:
+      - Oversaw digital marketing strategy and website development of an import/export company that helped the client advocate his business during investor negotiations
+      - Led creation of a website to serve multi-cultural audience in tourism industry
+      - Diagnosed usability and performance issues that enabled growth of website traffic and generated more sponsorship deals with brands
+      - Coordinated redesign and development of a real estate website in an Agile Scrum workflow
+
   - title: UX Designer
     name: 1001Pharmacies.com
     period: Montpellier, France | Jan 2016 - Jan 2017
-    desc: Transitioning to a flat hierarchy organizational structure and Agile team workflow, responsibilities included collaborating with Product Owner to gather user insights, revamp eCommerce website by designing wireframe and prototypes of user stories, lead user testing and support implementation of front-end features.
-    role: |
-      • Delivered well-researched user insights and quantitative data analytics to inform PO and stakeholders
-      <br>• Redesigned eCommerce platform with design thinking and mobile-first approach
-      <br>• Created a new brand identity with the Creative Director to generate more visibility to the users
-      <br>• Remodeled front-end code base of eCommerce platform during pair-programming sessions with teammates
-      <br>• Cultivated company values throughout every Agile Scrum rituals
-      <br>• Promoted teamwork results and progress reports during Sprint demo presentations
-      <br>• Inspired internal team member and design enthusiast by actively sharing knowledge at meetups and workshops
+    desc: 1001pharmacies is a successful VC backed e-commerce start-up specialized in pharmaceutical and cosmetics products. The company transitioned to a flat hierarchy and adopted Agile methodologies. Responsibilities included user research, eCommerce website design, user testing, and web front-end code development.
+    role:
+      - Delivered user researches and quantitative data analytics to inform PO and stakeholders
+      - Redesigned eCommerce interfaces via collaborative prototyping tool and wireframes
+      - Created a new brand identity with the Creative Director
+      - Remodeled front-end code base of eCommerce platform during pair-programming sessions
+      - Cultivated company values throughout every Agile Scrum rituals
+      - Promoted teamwork results and progress reports during Sprint demo presentations
+      - Inspired team member and design enthusiast by sharing knowledge at meetups and workshops
+
   - title: Front-End Developer
     name: 1001Pharmacies.com
     period: Montpellier, France | Jan 2015 - Jan 2016
-    desc: 1001pharmacies is a successful VC backed e-commerce start-up specialized in pharmaceutical and cosmetics products. Reporting to the CTO, responsibilities included maintaining front-end stack of eCommerce platforms, collaborate with marketing team on designing and developing tools to support growth goals.
-    role: |
-      • Reduced technical debt by performing front-end code maintenance of V1 of eCommerce platform
-      <br>• Boosted user base growth by delivering quality emailing and landing solutions to marketing team
-      <br>• Streamlined communication between marketing and technical team by providing mentoring and training
+    desc: Reporting to the CTO, responsibilities included maintaining front-end stack of eCommerce platforms, collaborate with the marketing team on designing and developing tools to support growth goals.
+    role:
+      - Reduced technical debt by performing front-end code maintenance of V1 of eCommerce platform
+      - Boosted user base growth by delivering emailing and landing solutions to the marketing team
+      - Streamlined communication between marketing and technical team by providing mentoring and training
+
   - title: UI Developer & Designer
     name: Publika
     period: Montpellier, France | Jan 2012 - Jan 2015
-    desc: Publika is a web agency based in the south of France. They specialize in custom made websites and SEO/SMO services. Reporting to the project manager, responsibilities included designing and developing pixel perfect frontend web solutions, ensuring Q/A, helping establish project quote and specs, assist project delivery and demo to the clients.
-    role: |
-      • Pioneered responsive user interfaces design for best user experience and search engines ranking
-      <br>• Co-developed custom made PHP MVC framework used on more than 50 clients’ projects
-      <br>• Enforced code quality and pixel perfect design through QA testing
-      <br>• Refined SEO positioning of clients’ websites through rigorous optimizations
-      <br>• Showcased ability to work in fast-paced, high-stakes projects
-      <br>• Streamlined CMS documentation to facilitate project delivery
-      <br>• Contributed to a casual but industrious work ethic in the agency
+    desc: Publika is a web agency. They specialize in custom made websites and SEO/SMO services. Reporting to the project manager, responsibilities included designing and developing pixel perfect front-end web solutions, ensuring Q/A, helping establish project quote and specs, assist project delivery and demo to the clients.
+    role:
+      - Pioneered responsive user interfaces design for best user experience and search engines ranking
+      - Co-developed custom made PHP MVC framework used on more than 50 clients’ projects
+      - Enforced code quality and pixel perfect design through QA testing
+      - Refined SEO positioning of clients’ websites through rigorous optimizations
+      - Showcased ability to work in fast-paced, high-stakes projects
+      - Streamlined CMS documentation to facilitate project delivery
+      - Contributed to a casual but industrious work ethic in the agency
 
 i_have_heading: I have
 i_have:
