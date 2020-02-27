@@ -67,10 +67,12 @@ layout: default
           <li>{{ entries }}</li>
           {% endfor %}
         </ul>
+				<p class="bold">{{ experiences.results }}</p>
       </div>
       {% endfor %}
     </div>
   </section>
+
   {% comment %}
   <section class="row-flex">
     <div class="title">
@@ -85,6 +87,7 @@ layout: default
     </div>
   </section>
   {% endcomment %}
+
   <section class="row-flex">
     <div class="title">
       <h2>{{ site.data.about[page.lang].skills_heading }}</h2>
