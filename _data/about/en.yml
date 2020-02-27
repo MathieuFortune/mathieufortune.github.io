@@ -19,7 +19,7 @@ experiences:
   - title: Co-Founder - Head of Product & CTO
     name: MoGraph Mentor
     period: Miami, FL | Jan 2019 - Present
-    desc: Mograph Mentor is an online school for motion design. Through mentorship and on-demand training, we offer an alternative to traditional Art school. Responsibilities include R&D of e-learning platform, marketing strategy, customer relation, and data analytics.
+    desc: Mograph Mentor is an online school for motion design. Through mentorship and on-demand training, we offer an alternative to traditional Art school. Responsibilities include R&D of e-learning platform, marketing strategy, customer relation, and data analytics. <br>__Generated +100% revenue growth in 6 months after launching new product features and marketing strategy<br> Decreased customer churn by implementing a series of UX optimizations, email automation, and web performances__
     role:
       - Coordinate business strategy with CEO
       - Develop strategy and plans for the e-learning platform, working closely with Creative Director and CEO
@@ -32,51 +32,56 @@ experiences:
       - Apply kanban and lean UX method to deliver best results
 
 
-  - title: Owner - Branding & Web Consultancy
+  - title: Owner
     name: Inventive Format
     period:  Miami, FL | Aug 2018 - present
-    desc: Founder of a web/branding consultancy helping small to medium businesses to better communicate the value of what they do. Responsibilities include using my experience and skills to deliver quality consulting, design product features and communicate with clients to lead projects to success.
+    desc: Founder of a web consultancy helping small to medium businesses to better communicate the value of what they do. Responsibilities include using my experience and skills to deliver quality consulting, design product features and communicate with clients to lead projects to success.
     role:
-      - Plan business and growth strategies
-      - Orchestrate social media and marketing strategies
-      - Revamp branding to help attract new audiences
-      - Design and develop web solutions
-      - Coordinate and delegate projects with freelancers
-      - Mentor design and software development employees
+      - Assist clients in planning of digital business and growth strategies
+      - Orchestrate social media and digital marketing strategies
+      - Revamp branding (Logo, website, print)
+      - Design and develop web solutions for clients
+      - Manage projects with freelancers
+      - Mentor design and engineering junior in companies
+
 
   - title: Product Designer
     name: Bakerly
     period: Miami, FL | Feb 2018 - Aug 2018
     desc: Bakerly is a French start-up in the food and beverage industry. Reporting to marketing director, responsibilities included user research, product design, packaging design, and eCommerce optimizations.
     role:
-      - Established user persona profiles to help Executives’ decision making
-      - Designed website interfaces and packaging design to launch new product lines
-      - Built eCommerce sales strategy and Amazon sales page in collaboration with eCommerce Director
-      - Implemented process and documentation to streamline communication between services
+      - Led user persona research and creation that helped marketing and sales in their decision making
+      - Designed website and packaging of new product lines with Creative Director
+      - Built eCommerce sales strategy and Amazon page in collaboration with eCommerce Director
+      - Planned process and documentation to streamline communication between services
       - Trained sales and marketing teams on web technologies
+
 
   - title: UX/UI Developer Freelance
     name: Self-employed
     period: Around the world | Jan 2017 - Jan 2018
-    desc: Worked as a remote freelance UI/UX Developer while traveling through Europe, SE Asia, and the US. Responsibilities included research, web design, development, and print design missions for small to medium businesses.
+    desc: Worked as a remote freelance UI/UX Developer while traveling through Europe, SE Asia, and the US. Responsibilities included user research, web design, development, and print design missions for small to medium businesses.
     role:
-      - Oversaw digital marketing strategy and website development of an import/export company that helped the client advocate his business during investor negotiations
+      - Managed digital marketing strategy and website development of an import/export company that helped the client advocate his business during investor negotiations
       - Led creation of a website to serve multi-cultural audience in tourism industry
-      - Diagnosed usability and performance issues that enabled growth of website traffic and generated more sponsorship deals with brands
-      - Coordinated redesign and development of a real estate website in an Agile Scrum workflow
+      - Performed usability and performance audit that enabled growth of website traffic and generated more sponsorship deals with brands
+      - Developed and executed redesign and development of a real estate website in an Agile Scrum development workflow
+
 
   - title: UX Designer
     name: 1001Pharmacies.com
     period: Montpellier, France | Jan 2016 - Jan 2017
     desc: 1001pharmacies is a successful VC backed e-commerce start-up specialized in pharmaceutical and cosmetics products. The company transitioned to a flat hierarchy and adopted Agile methodologies. Responsibilities included user research, eCommerce website design, user testing, and web front-end code development.
     role:
-      - Delivered user researches and quantitative data analytics to inform PO and stakeholders
-      - Redesigned eCommerce interfaces via collaborative prototyping tool and wireframes
+      - Led user researches and quantitative data analytics to inform PO and stakeholders
+      - Managed A/B tests of new product features
+      - Redesigned eCommerce website with collaborative prototyping tool and wireframes
       - Created a new brand identity with the Creative Director
-      - Remodeled front-end code base of eCommerce platform during pair-programming sessions
-      - Cultivated company values throughout every Agile Scrum rituals
+      - Developed  front-end code base of eCommerce platform during pair-programming sessions
+      - Led Scrum Master role on several sprints  and supported PO role
       - Promoted teamwork results and progress reports during Sprint demo presentations
       - Inspired team member and design enthusiast by sharing knowledge at meetups and workshops
+
 
   - title: Front-End Developer
     name: 1001Pharmacies.com
@@ -87,18 +92,20 @@ experiences:
       - Boosted user base growth by delivering emailing and landing solutions to the marketing team
       - Streamlined communication between marketing and technical team by providing mentoring and training
 
+
   - title: UI Developer & Designer
     name: Publika
     period: Montpellier, France | Jan 2012 - Jan 2015
-    desc: Publika is a web agency. They specialize in custom made websites and SEO/SMO services. Reporting to the project manager, responsibilities included designing and developing pixel perfect front-end web solutions, ensuring Q/A, helping establish project quote and specs, assist project delivery and demo to the clients.
+    desc: Publika is a web agency. They specialize in custom made websites and SEO/SMO services. Reporting to the project manager, responsibilities included designing and developing pixel perfect front-end web solutions, ensuring QA, helping establish project quote and specs, assist project delivery and demo to the clients.
     role:
-      - Pioneered responsive user interfaces design for best user experience and search engines ranking
-      - Co-developed custom made PHP MVC framework used on more than 50 clients’ projects
-      - Enforced code quality and pixel perfect design through QA testing
-      - Refined SEO positioning of clients’ websites through rigorous optimizations
+      - Designed and prototyped responsive user interfaces
+      - Developed in duo with back-end developer a custom made PHP MVC framework used on more than 50 clients’ projects
+      - Led QA testing
+      - Optimized  SEO positioning of clients’ websites
       - Showcased ability to work in fast-paced, high-stakes projects
-      - Streamlined CMS documentation to facilitate project delivery
+      - Streamlined, with project manager, CMS documentation to facilitate project delivery
       - Contributed to a casual but industrious work ethic in the agency
+
 
 i_have_heading: I have
 i_have:
