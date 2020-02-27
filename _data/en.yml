@@ -1,19 +1,338 @@
-hero:
-  title: Hi there !
-  job_line_1: I'm a
-  job_line_2: helping other humans to commmunicate the value of what they do.
-  job_line_3: '[ "Designer", "Developer", "Entrepreneur", "Teacher" ]'
+intro_title: Product Design Expert | Growth Specialist | Constant Learner 
 
-intro: |
-    Accomplished product designer/developer (8+ years) with strong knowledge in marketing, growth and business strategy.
-    Proven ability to effectively lead projects, communicate with teams and stakeholders to deliver successful products.<br><br> 
-    Passionate about using user insights and data to inform strategic improvements and inspire passionate individuals to perform at their highest potential.<br>
-intro_link : Check out my
+print_it: Download resume
+
+cv:
+  title: Mathieu Fortune
+  desc: |
+    Product Manager
+    <br/>Send me an email at <strong>pro.mathieu.fortune@gmail.com</strong>
+
+about:
+  title: About
+  desc: |
+    Product Manager
+    Active member of teams I’m linked to, I solve business problems with branding, UX design and web develoment.
+
+experience_heading: Experiences
+experiences:
+  - title: Co-Founder - Head of Product & CTO
+    name: MoGraph Mentor
+    period: Miami, FL | Jan 2019 - Present
+    desc: Mograph Mentor is an online school for motion design. Through mentorship and on-demand training, we offer an alternative to traditional Art school. Responsibilities include R&D of e-learning platform, marketing strategy, customer relation, and data analytics.
+    results: Generated +100% revenue growth in 6 months after launching new product features and marketing strategy<br> Decreased customer churn by implementing a series of UX optimizations, email automation, and web performances
+    role:
+      - Coordinate business strategy with CEO
+      - Develop strategy and plans for the e-learning platform, working closely with Creative Director and CEO
+      - Lead customer research and data analytics to inform product development
+      - Design wireframes, prototypes and UI mockups of new product features
+      - Develop and deliver product features in accordance with technical stack
+      - Manage digital marketing strategy (Social Media, PPC, SEO, Affiliates)
+      - Deliver data analytics and user insights to Creative Director to inform e-course roadmap
+      - Lead customer relationship and fidelity program
+      - Apply kanban and lean UX method to deliver best results
+
+  - title: Owner
+    name: Inventive Format
+    period:  Miami, FL | Aug 2018 - present
+    desc: Founder of a web consultancy helping small to medium businesses to better communicate the value of what they do. Responsibilities include using my experience and skills to deliver quality consulting, design product features and communicate with clients to lead projects to success.
+    role:
+      - Assist clients in planning of digital business and growth strategies
+      - Orchestrate social media and digital marketing strategies
+      - Revamp branding (Logo, website, print)
+      - Design and develop web solutions for clients
+      - Manage projects with freelancers
+      - Mentor design and engineering junior in companies
 
 
-post:
-  title: Thoughts and Case Studies
+  - title: Product Designer
+    name: Bakerly
+    period: Miami, FL | Feb 2018 - Aug 2018
+    desc: Bakerly is a French start-up in the food and beverage industry. Reporting to marketing director, responsibilities included user research, product design, packaging design, and eCommerce optimizations.
+    role:
+      - Led user persona research and creation that helped marketing and sales in their decision making
+      - Designed website and packaging of new product lines with Creative Director
+      - Built eCommerce sales strategy and Amazon page in collaboration with eCommerce Director
+      - Planned process and documentation to streamline communication between services
+      - Trained sales and marketing teams on web technologies
 
-footer:
-  email_title: Get in touch with me
-  back_home: Go back to home page
+
+  - title: UX/UI Developer Freelance
+    name: Self-employed
+    period: Around the world | Jan 2017 - Jan 2018
+    desc: Worked as a remote freelance UI/UX Developer while traveling through Europe, SE Asia, and the US. Responsibilities included user research, web design, development, and print design missions for small to medium businesses.
+    role:
+      - Managed digital marketing strategy and website development of an import/export company that helped the client advocate his business during investor negotiations
+      - Led creation of a website to serve multi-cultural audience in tourism industry
+      - Performed usability and performance audit that enabled growth of website traffic and generated more sponsorship deals with brands
+      - Developed and executed redesign and development of a real estate website in an Agile Scrum development workflow
+
+
+  - title: UX Designer
+    name: 1001Pharmacies.com
+    period: Montpellier, France | Jan 2016 - Jan 2017
+    desc: 1001pharmacies is a successful VC backed e-commerce start-up specialized in pharmaceutical and cosmetics products. The company transitioned to a flat hierarchy and adopted Agile methodologies. Responsibilities included user research, eCommerce website design, user testing, and web front-end code development.
+    role:
+      - Led user researches and quantitative data analytics to inform PO and stakeholders
+      - Managed A/B tests of new product features
+      - Redesigned eCommerce website with collaborative prototyping tool and wireframes
+      - Created a new brand identity with the Creative Director
+      - Developed  front-end code base of eCommerce platform during pair-programming sessions
+      - Led Scrum Master role on several sprints  and supported PO role
+      - Promoted teamwork results and progress reports during Sprint demo presentations
+      - Inspired team member and design enthusiast by sharing knowledge at meetups and workshops
+
+
+  - title: Front-End Developer
+    name: 1001Pharmacies.com
+    period: Montpellier, France | Jan 2015 - Jan 2016
+    desc: Reporting to the CTO, responsibilities included maintaining front-end stack of eCommerce platforms, collaborate with the marketing team on designing and developing tools to support growth goals.
+    role:
+      - Reduced technical debt by performing front-end code maintenance of V1 of eCommerce platform
+      - Boosted user base growth by delivering emailing and landing solutions to the marketing team
+      - Streamlined communication between marketing and technical team by providing mentoring and training
+
+
+  - title: UI Developer & Designer
+    name: Publika
+    period: Montpellier, France | Jan 2012 - Jan 2015
+    desc: Publika is a web agency. They specialize in custom made websites and SEO/SMO services. Reporting to the project manager, responsibilities included designing and developing pixel perfect front-end web solutions, ensuring QA, helping establish project quote and specs, assist project delivery and demo to the clients.
+    role:
+      - Designed and prototyped responsive user interfaces
+      - Developed in duo with back-end developer a custom made PHP MVC framework used on more than 50 clients’ projects
+      - Led QA testing
+      - Optimized  SEO positioning of clients’ websites
+      - Showcased ability to work in fast-paced, high-stakes projects
+      - Streamlined, with project manager, CMS documentation to facilitate project delivery
+      - Contributed to a casual but industrious work ethic in the agency
+
+
+i_have_heading: I have
+i_have:
+  - Passion for my work
+  - Great communication and collaboration skills
+  - High self-motivation in working individually and closely with others
+  - Positive attitude and open-minded
+  - Pragmatic point of view
+  - ROI driven approach
+  - Human-centric approach of solutions
+  - Ability to lead user research, design ideation and implementation
+  - Expertise in HTML, CSS and Javascript languages
+  - Experience in responsive web design, cross-browser coding techniques, and troubleshooting
+  - Strong sense of design theory and typography
+  - Successful experience in an E-commerce start-up environment
+  - Experience in a digital web agency
+
+hire_me_heading: Hire me
+hire_me_mailto: mailto:pro.mathieu.fortune@gmail.com?subject=Hello I want to hire you !&amp;body=Hi Mathieu, I was looking to hire someone like you for...
+hire_me:
+  - <a href="https://fr.linkedin.com/in/mathieu-fortune-220268101" target="_blank">Linkedin</a>
+  - <a href="https://github.com/MathieuFortune" target="_blank">GitHub</a>
+  - <a href="mailto:pro.mathieu.fortune@gmail.com" target="_blank">Hire me</a>
+
+events_heading: Events
+events:
+  - Member of SOFLUX (South Florida UX) meetup group
+  - Co-organizer and speaker at <a href="http://www.meetup.com/fr-FR/FLUPA-Montpellier/events/229582597/" target="_blank">UX FLUPA MeetUp</a> place at 1001pharmacies - 2015 April'
+  - Attended to <a href="https://smashingconf.com/barcelona-2016/" target="_blank">SmashingConf Barcelona 2016</a> Barcelona, Spain'
+  - Attended to <a href="http://www.blendwebmix.com/" target="_blank">BlendWebMix 2015</a> Lyon, France'
+  - Attended to lightning talks taking place at business incubator Cap Oméga Montpellier, France
+
+trainings_heading: Trainings
+trainings:
+  - title: Lean Startup and Running Lean
+    name: with <a href="http://scopyleft.fr/" target="_blank">Stéphane Langlois</a>
+    period: From January 2016 to February 2016
+    desc: Several Workshops around Lean Startup and Running Lean books. How to lead problems interviews, Lean canvas, Lean approach of things
+  - title: Kanban method
+    name: with <a href="http://www.areyouagile.com/">Pablo Pernot</a>
+    period: One day (2015)
+    desc: Workshop around the Kanban method. Build and maintain a project and/or company's Kanban to show their productivity output
+  - title: Growth Hacking
+    name: with <a href="http://www.thefamily.co/">Koudetah TheFamily</a>
+    period: From Mars 2015 to May 2015
+    desc: Followed on live streaming workshop during three months. Koudetah's courses about Growth Hacking Technics
+  - title: Webdesigner/Front-end developer degree
+    name: at <a href="http://www.objectif3w.com/">Objectif3D School</a>
+    period: A year (2011)
+    desc: Learned the basics of Webdesign and Front-end development during a year at Objectif3D School
+  - title: Economics and Socials Sciences
+    name: at High School Albert Camus Nîmes, France
+    period: From 2008 to 2010
+    desc: High School Graduation with mention
+
+skills_heading: Skills
+skills:
+  - title: Interpersonal Skills
+    list:
+      - Management
+      - Written Communication
+      - Strategic Thinking
+      - Leadership
+      - Public Speaking
+      - Design Thinking
+      - Empathy
+      - Project Planning
+      - eCommerce
+      - Brand Strategy
+      - Growth Hacking
+      - Agile Scrum
+      - Lean Start-Up
+      - Kanban
+  - title: Web Technologies
+    list:
+      - HTML/CSS
+      - Less/Sass
+      - Javascript
+      - WebPack
+      - Gulp
+      - Static Site Generator
+      - Git
+      - A11y
+      - API
+      - JSON
+      - SQL
+      - PHP
+      - CMS
+  - title: UX Skills
+    list:
+      - User Research
+      - Information Architecture
+      - Usability Testing
+      - Interaction Design
+      - Responsive Web Design
+      - A/B Tests
+      - Prototyping
+      - Wireframing
+      - Adobe CC
+      - Sketch
+      - Invision
+  - title: Marketing Skills
+    list:
+       - Email Marketing
+       - Inbound Marketing
+       - Content Marketing
+       - Marketing Automation
+       - Data Analysis
+       - Competitor Analysis
+       - Product Market/Fit Evaluations
+
+projects_heading: Projects
+project_my_roles: My roles on this project
+project_results: Results
+projects:
+  - title: Taking a co-founder seat as CTO for an online school
+    description: Starting 2019, I took the role of CTO and Co-founder of Mograph Mentor, an online school in Motion Graphics
+    results: Designed and built the 2.0 version of the main website to improve sales and user experience. Took the lead on the marketing strategy to generate growth and visibility for the new business. Taking active part in animating the community around the business.
+    list:
+      - Custom made Wordpress (HTML/CSS/JS/PHP)
+      - Overall of the marketing strategy on social media and blog
+      - In charge of all technical aspects of running a start-up (API, Tech Stack, Payment Solutions, ...)
+      - Using my UX skills to improve user experience across the board with the business.
+  - title: Web design and development for marketing team
+    description: My role at Gleeden was to give the tools and means required by the marketing team to perform their tasks. I was creating landing pages, marketing websites, newsletters, and visual communication.
+    results: Created two new blogs and one e-commerce site to support the content marketing strategy. Led user advocacy workshops to help the team better understand their multi-country audience (France, Italy, Spain, UK, India, Turkey).
+    list:
+      - Wordpress website (Blog)
+      - Shopify design and implementation
+      - HTML/CSS newsletter template
+      - Branding & visual communication for social posts and blog (Adobe CC)
+      - User-centric workshops to advocate user experience
+      - Usability audit of website and app version.
+  - title: Web presence, branding and user advocacy
+    description: I took a full-time role at Bakerly, a company that produces and sells bakery products across the U.S. With a holistic approach of the business, I helped the company develop their web presence and create a new brand identity. I also advocate the user experience to help the marketing team better understand his audience and switch their methods.
+    results: New website design, new packaging, new brand identity, user centric approach of the business.
+    list:
+      - User research
+      - Information Architecture design
+      - Sketch user interfaces
+      - Development with HTML5/CSS3/JS of a wordpress solution
+      - LEAN UX approach
+      - Branding and packaging design
+  - title: Product Catalog re-design project
+    description: This project intended to re-design and develop the catalog (search, find and buy a product) of 1001pharmacies e-commerce website
+    results: Project released, a new team is working on it now.
+    list:
+      - User research and test
+      - Information Architecture design
+      - Sketch project UI (Sketch)
+      - Development with HTML5/CSS3/JS
+      - Sass with ITCSS and Atomic pattern
+      - Symfony 3
+      - Assets treatment with Webpack and PostCss
+      - LEAN UX approach and Scrum methods
+  - title: Checkout process re-design project
+    description: This project intended to re-design and develop the checkout process (cart, delivery, payment of orders) of 1001pharmacies e-commerce website
+    results: Increase in cart transformation rate. Significantly improve user experience through the entire checkout process
+    list:
+      - Sketch project UI (Sketch)
+      - Design project's user experience
+      - Develop with HTML5/CSS3/JS
+      - Bootstrap 3 with LESS
+      - Symfony 3
+      - Assets treatment with Gulp
+      - LEAN UX approach and Scrum methods
+  - title: Checkout's UX experiments
+    description: UX experiments have been performed to improve the checkout process of 1001pharmacies.com to test and better understand users behavior
+    results: With user testing feedback, I improved the team's workflow and democratized user testing methods knowledge in the company
+    list:
+      - Perform and analyze user tests
+      - Usability testing (AttrakDiff)
+      - Perform A/B tests and set up UX metrics
+      - Measure user's feedbacks
+  - title: UX designer tasks on various projects
+    description: As I was the UX designer referent at 1001pharmacies.com, I helped product owners in their missions.
+    results: ''
+    list:
+      - Build user stories
+      - Create personas
+      - Make task flows, uses cases and scenarios
+      - Conduct ux methods like Design Studio, Focus Group to improve ideation process
+  - title: i18n + Responsive Ready project
+    description: In order to prepare 1001pharmacies' website to be i18n ready, I worked on twig templates and translation files on Symfony 2. I also use this project to move the pages responsive ready
+    results: My work on the responsive ready optimization increase by +20% of the mobile traffic part on the website. The loading time of these pages was 1.5 times faster than before moving them.
+    list:
+      - Develop an i18n ready functionality on Symfony 2
+      - Web pages templates overhaul
+      - Adapt pages to be mobile ready with Responsive Web Design technics
+  - title: Marketing tools
+    description: To help marketing actions, I was led to design and develop responsive ready newsletters and landing pages.
+    results: With these new tools, the marketing team's gain in conversion rate and setup time for each campaign. I also helped to improve the front-end environment knowledge of co-workers
+    list:
+      - Design and develop responsive ready newsletter's templates (Ink framework from Fundation)
+      - Design and develop auto-generated responsive ready landings with Jekyll
+  - title: Events and conferences
+    description: I enjoy sharing knowledge with people and participate in community activities
+    results: ''
+    list:
+      - Member of SOFLUX (South Florida UX) meetup group
+      - Spoke at lightning talks about popularize development concepts to co-workers
+      - Participate and animate UX workshop during meetups
+  - title: Side projects
+    description: Several side projects to test new technologies for work and also for fun :)
+    results: ''
+    list:
+      - Design and develop my personal website with Jekyll and Sass
+      - Co-develop 'career' website of the company in Meteor + Angular2
+      - Co-develop a front assets bootstrapping tool with Gulp
+
+quotes_heading: Recommendations
+quotes:
+  - name: Solène Paillet, Marketing Director French Division @ Gleeden (Inventive Format)
+    description: Mathieu is great to work with. I was working with him during his mission at Gleeden. He was able to understand business requirements and technical limitations while delivering quality work. Mathieu is an extremely talented and driven individual that I would love to work with again.
+  - name: Cliff Grente, Software Developer @ Gleeden (Inventive Format)
+    description: I worked closely with Mathieu on a number of pretty complex web projects. Mathieu has proven to be an excellent designer and developer who is easy to collaborate with. He asks pertinent questions and offers efficient alternatives and smart solutions that move a project forward. Beside his excellent work as a developer, Mathieu’s has an admirable work ethic-generally the first one in the door in the morning, gunning to get started, and always willing to learn something new. I have been impressed by Mathieu more times than I can count and his easy attitude makes him a great part of any team.
+  - name: Tatiana Duron-Idiaquez, Senior Sales Operative Manager @ Bakerly
+    description: Mathieu is a such a great professional! He was always helpful and always wiling to teach and share his knowledge. His skills are outstanding, I was a witness of all the great projects he accomplished during the time we worked together at Bakerly. Not only he is professional in his field but a great person. He was always friendly and reliable, a great person to work with!
+  - name: Jordan Cohen, CEO @ MaintenanceQuebec (Inventive Format)
+    description: Mathieu helped me with several web and design projects linked to my companies. Mathieu is very easy to work with, he knows how to handle situations and answers all the challenges on the spot. He follows through and closes actions. He is very knowledgable and skilled at what he does and guides his customers towards the current trends in the industry. It was a pleasure to work with him. I highly recommend him and definitely looking forward to working with him again in the future.
+  - name: Leo Blanchard, CMO | Content Specialist @ Bakerly
+    description: Mathieu is a very positive, optimistic, and hardworking individual. I had the pleasure of working with him at Bakerly on a wide range of projects and was extremely impressed with his work. He is consistent and always goes above and beyond to achieve his tasks. I would definitely recommend him for any position as I know he would be an asset to any team.
+  - name: Audrey Lambert, Digital Marketing Manager @ 1001pharmacies.com
+    description: Working with Mathieu on UX subjects was very exciting... He's always learning about topics around user-centered design and doesn't hesitate to challenge project ideas to move forward. Also, he has a real eye for aesthetics! I can only recommend you to work with Mathieu.
+  - name: Cédric O'Neill, co-founder CEO @ 1001pharmacies.com
+    description: Mathieu was a great asset in 1001pharmacies' development team. He used his UX and Front-end development skills to serve our e-commerce website, as well as our current web site re-design. His professionalism led him to work with commitment and high motivation until his last day in our team. These actions allow me to recommend him without hesitation, and I invite you to give him a shot to prove his true value. Feel free to contact me directly for more information.
+  - name: Sébastien Correaud, Front-End Developer @ 1001pharmacies.com
+    description: Mathieu is an avid UX/UI Designer. Thanks to his exceptional design skills and clear explanations in projects (whose collaboration was rich in learning/teaching and very rewarding), he did them by providing much value to the different projects. Motivated and passionate, he helped me and other colleagues to improve themselves. It's a pleasure to work with him, and I recommend him for future web projects.
+  - name: Guilhem Marty, CTO @ 1001pharmacies.com
+    description: I worked with Mathieu for a year. Deeply involved in the projects he worked on, he managed to find the most qualitative solution for each challenge he encountered. His creativity and sixth sense for usability is a great asset for a team.
