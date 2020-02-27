@@ -16,17 +16,21 @@ about:
 
 experience_heading: Experiences
 experiences:
-  - title: Co-Founder - CTO & Product Designer
+  - title: Co-Founder - Head of Product & CTO
     name: MoGraph Mentor
     period: Miami, FL | Jan 2019 - Present
-    desc: Mograph Mentor is an online school for motion design. Through mentorship and on-demand training, we offer an alternative to traditional Art school. Responsibilities include R&D of e-learning platform, direct marketing strategy, customer happiness, and data analysis.
+    desc: Mograph Mentor is an online school for motion design. Through mentorship and on-demand training, we offer an alternative to traditional Art school. Responsibilities include R&D of e-learning platform, marketing strategy, customer relation, and data analytics.
     role:
-      - Lead redesign of e-learning platform to deliver better user experience and increase revenue.
-      - Establish a social media strategy that generates revenue and traffic growth by up to +30%
-      - Improve KPIs tracking and data collection to measure success and inform feature development
-      - Refine email automation to generates growth and delivers a better user experience
-      - Engage with customers by animating our community and answering customer questions
-      - Centralize documentation, roadmap, and processes to streamline communication and productivity
+      - Coordinate business strategy with CEO
+      - Develop strategy and plans for the e-learning platform, working closely with Creative Director and CEO
+      - Lead customer research and data analytics to inform product development
+      - Design wireframes, prototypes and UI mockups of new product features
+      - Develop and deliver product features in accordance with technical stack
+      - Manage digital marketing strategy (Social Media, PPC, SEO, Affiliates)
+      - Deliver data analytics and user insights to Creative Director to inform e-course roadmap
+      - Lead customer relationship and fidelity program
+      - Apply kanban and lean UX method to deliver best results
+
 
   - title: Owner - Branding & Web Consultancy
     name: Inventive Format
