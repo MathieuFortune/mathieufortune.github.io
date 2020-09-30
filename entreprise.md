@@ -2,13 +2,13 @@
 layout: post
 title:  "Travaillons ensemble !"
 menu_title : À propos
-permalink: /entreprise/
+permalink: /a-propos/
 ref: company
 lang: fr
 ---
 
 
-<h3 class="center"><em>"Partage, Honnêteté intellectuelle, Transparence, Bien-être, Pragamatisme et Confiance"</em></h3>
+<h3 class="center"><em>"Partage, Honnêteté intellectuelle, Transparence, Bien-être, Pragmatisme et Confiance"</em></h3>
 
 
 Cela fait 8 ans que je suis animé par ces valeurs en tant qu’intégrateur web, développeur front-end, designer web et designer UX à la fois en agence et dans une start-up e-commerce à succès.

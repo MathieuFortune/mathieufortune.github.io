@@ -1,63 +1,60 @@
 ---
 layout: post
-title:  "About Me"
+title:  "A bit about me"
 menu_title: About me
-permalink: /company/
+permalink: /about/
 ref: company
 lang: en
 ---
 
-<h3 class="joker-fs center no-marg-v"><em>"Sharing, Intellectual Honesty, Transparency, Wellbeing, Pragmatism, and Trust"</em></h3>
+<h3 class="joker-fs center no-marg-v"><em>"Sharing, Intellectual Honesty, Transparency, Well-being, Pragmatism, and Trust"</em></h3>
+<br>
+Curiosity is my driving factor. I love absorbing new knowledge and mixing it with my existing understandings. I also love to share it with my colleagues.
 
-I’ve been driven by these values while working for eight years as User eXperience Designer and Front-End Developer both in an agency, e-commerce start-up, and companies.
+I best perform in creative environments. Nothing energizes me like a deep brainstorming session.
 
-Today, I wish to share my experiences and knowledge to you as a __Product Manager__.
-
-I’m continually exploring [lean approaches](https://en.wikipedia.org/wiki/Lean){:target="_blank"} and [agiles methods](https://en.wikipedia.org/wiki/Agile_software_development){:target="_blank"}, expert with languages like HTML, CSS/Sass, Javascript, enjoying tools like Gulp, Webpack, CMS like Jekyll, Wordpress, Symfony and always exploring new design ideas.
-
-I also enjoy sharing my knowledge throughout learning sessions, conferences, and meetups. 
-
-I’m attached to share my expertise in design, web development to teach everyone wanting to be autonomous and seeking to experience new topics.
+I relish a good challenge and encountering new cultures, personally or professionally. I've traveled across three continents to meet hundreds of people. I've started a company and bootstrapped to profitability. I have a special admiration for those who always strive for open-mindedness and knowledge.
 
 ### What
 
-During these past eight years of activity, I :
+During these past nine years of activity, I've :
 
-* <u>Worked directly with clients</u> in an agency, defining project scopes, goals, assumptions and pain points ;
+* <u>Co-founded</u> a start-up in the online education. Generating 6 figure revenue in the span of 18 months ;
 
-* <u>Built fast responsive website</u> with HTML5, CSS, Javascript, responsive design and web good practices ;
+* <u>Worked directly with clients</u> in agencies, defining product scopes, goals, user's assumptions and pain points ;
 
-* <u>Created aesthetic user interfaces</u>, designed mockups and prototypes of systems for websites and mobile applications ;
+* <u>Led product feature overall</u> on a multi-million dollar e-commerce marketplace ;
 
-* <u>Led usability testing</u> with users and took their feedback to improve products ;
+* <u>Built fast responsive website</u> with HTML5, CSS, Javascript, responsive design and Agile methods ;
 
-* <u>Assisted marketing teams</u> in the development of their tools and their web skills ;
+* <u>Designed aesthetic user interfaces</u>, mockups and prototypes of systems for websites and mobile applications ;
 
-* <u>Generated growth</u> through well planned marketing campaigns and strategies ;
+* <u>Led user research</u> with a design thinking and lean approach ;
 
-* <u>Redesigned huge e-commerce website</u> with iterative scrum and lean approach ;
+* <u>Launched hundreds of marketing campaigns </u> that generated customer fidelity and revenue growth ;
 
 * And many more...
 
 ### Who
 
-I can work with small to medium-size business, start-ups, design/dev teams, digital agencies, ...
+I strive in cross-functional teams where customer and stakeholder buy-in is essential to business success.
 
-At every stage of your product from concept to launch:
+I can contribute at every stage of your product from concept to launch:
 
-__- Kick off phase of your project -__ Research, interviews, test ideas, I can help you build the best suitable product for your users.
+__- Product conception -__ Research, user/stakeholder interviews, brainstorm solutions, roadmapping, I can help you research and identify your customer needs.
 
-__- Project development -__ Need help during the development phase, I can deliver fast results by using Agiles practices.
+__- Product development -__ Need help during the development phase? I can deliver fast results by using Agiles practices.
 
-__- Product enhancement -__ Sustain, improve the quality and performances of your existing product by helping your team develop their skills and helping build key functionalities.
+__- Product launch -__ Working with the marketing, legal, and PR team, I can fluently communicate with different departments to coordinate product launch.
 
+__- Product enhancement -__ Sustain, improve your existing product's quality and performances by helping your team develop their skills and build critical functionalities.
 
 #### _I'm ready to add value to any team looking for an experienced and polyvalent Product Manager._
 
 <br/>
 
 <div class="text-center">
-  <a href="/resume/" title="Mathieu Fortune Resume" class="btn--default btn--medium">Check out my Resume</a>
+  <a href="/resume/" title="Mathieu Fortune Resume" class="btn--default btn--medium">Take a look at my Resume</a>
 </div>
 
 <br/>
