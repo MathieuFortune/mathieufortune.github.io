@@ -1,12 +1,14 @@
 ---
 layout: post
 title:  "Card sorting - Improve information architecture"
+excerpt: |
+    Card sorting is a method for designing user-centric information architecture. In this article, I will attempt to describe its use and its benefits when designing a site as well as showing a concrete example.
 thumbnail: "/images/card-sorting-thumb.jpg"
 date: 2017-08-21 12:00:00 +0200
 lang: en
 ref: card-sorting
 author: Mathieu Fortune
-theme: Case studies
+theme: Case study
 ---
 
 Card sorting is a method for designing user-centric information architecture. In this article, I will attempt to describe its use and its benefits when designing a site as well as showing a concrete example.

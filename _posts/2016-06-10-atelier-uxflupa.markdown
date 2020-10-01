@@ -1,6 +1,8 @@
 ---
 layout: post
 title:  "Atelier UX FLUPA @ 1001pharmacies"
+excerpt: |
+    Les MeetUp UX de la FLUPA sont une occasion pour les UX designer et autres personnes de se rencontrer et de discuter de sujet relatif à l'UX tout en profitant d'une bonne bière et dans la bonne humeur.
 thumbnail: "/images/flupa-photos-thumb.jpg"
 date: 2016-06-10 15:59:00 +0200
 lang: fr

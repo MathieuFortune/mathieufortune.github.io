@@ -1,6 +1,8 @@
 ---
 layout: post
 title:  "How to overcome UX obstacles while working in-house?"
+excerpt: |
+    Being a practitioner of User Experience Design in a company isn't always an easy task. People, Time, Budget, are all sorts of factors we need to take into account to deliver a good user experience for the product...
 thumbnail: "/images/overcome-ux-design-obstacles-thumb.jpg"
 date:   2019-11-30 13:00:00 +0200
 lang: en

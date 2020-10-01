@@ -1,12 +1,15 @@
 ---
 layout: post
 title:  "Booking.com - A/B test idea"
+excerpt: |
+    In October 2016, I was approached by Booking.com's recruiter about a position of UX/Product Designer.
+    One of my test during the hiring process was to design a simple A/B test that can be setup on the desktop version of the website.
 thumbnail: "/images/booking-article-thumb.png"
 date: 2017-07-31 12:00:00 +0200
 lang: en
 ref: booking-abtest
 author: Mathieu Fortune
-theme: Case studies
+theme: Case study
 ---
 
 In October 2016, I was approached by Booking.com's recruiter about a position of UX/Product Designer.

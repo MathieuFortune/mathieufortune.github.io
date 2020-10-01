@@ -1,6 +1,8 @@
 ---
 layout: post
 title:  "What User Experience Design is NOT?"
+excerpt: |
+    An interesting fact about that we now have a name for this discipline is that back then, when I was in school, it was just named "Design".
 thumbnail: "/images/ux-is-not-thumb.jpg"
 date:   2019-11-15 12:00:00 +0200
 lang: en

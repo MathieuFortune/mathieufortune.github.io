@@ -1,0 +1,14 @@
+.page {
+
+    .page-header {
+
+        .page-title {
+            @extend %intro-title
+        }
+    }
+
+    .page-content {
+        @extend %container;
+    }
+
+}

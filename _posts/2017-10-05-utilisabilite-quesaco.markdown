@@ -1,6 +1,8 @@
 ---
 layout: post
 title:  "Qu'est-ce que l'utilisabilité"
+excerpt: |
+    Dans cet article, j'aborde la question de qu'est-ce que l'utilisabilité ? Rendre un produit facilement utilisable par tout le monde peu importe le contexte dans lequel il est utilisé, ...
 thumbnail: "/images/what-is-usability-thumb.jpg"
 date: 2017-10-05 12:00:00 +0200
 lang: fr

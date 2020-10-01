@@ -1,12 +1,14 @@
 ---
 layout: post
 title:  "Wordpress web design and development for Promeo.fr"
+excerpt: |
+    Promeo is a well-known real estate developer in the South of France. They needed to refresh its website to be aligned with their new brand identity.
 thumbnail: "/images/promeo-cs-thumb.jpg"
 date:   2019-11-15 12:00:00 +0200
 lang: en
 ref: promeo-project
 author: Mathieu Fortune
-theme: Case studies
+theme: Case study
 ---
 
 {:.table-case-study}

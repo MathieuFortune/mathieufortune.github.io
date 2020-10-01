@@ -1,12 +1,14 @@
 ---
 layout: post
 title:  "Redesign the checkout process @ 1001pharmacies"
+excerpt: |
+    1001pharmacies.com is an online marketplace in the health and well-being activity. Its purpose is to connect pharmacists directly with their customers through an access to their products online. Each pharmacy can manage its own drugstore catalog and its stock.
 thumbnail: "/images/case-study-checkout-thumb.jpg"
 date:   2016-11-24 13:45:01 +0200
 lang: en
 ref: checkout-project
 author: Mathieu Fortune
-theme: Case studies
+theme: Case study
 ---
 
 {:.table-case-study}

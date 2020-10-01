@@ -1,6 +1,8 @@
 ---
 layout: post
 title:  "Tri de carte - Améliorer l'architecture de l'information de son site"
+excerpt: |
+    Le tri de carte (card sorting) est une méthode incontournable pour concevoir une architecture de l’information centrée sur l’utilisateur. Dans cet article, je vais tenter de décrire son usage et ses bénéfices lors de la conception d’un site ainsi que présenter un exemple concret.
 thumbnail: "/images/card-sorting-thumb.jpg"
 date: 2017-08-21 12:00:00 +0200
 lang: fr

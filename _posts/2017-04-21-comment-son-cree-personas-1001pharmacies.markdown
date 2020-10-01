@@ -1,6 +1,8 @@
 ---
 layout: post
 title:  "Création de personas @ 1001pharmacies.com"
+excerpt: |
+        Ce cas d'édude fait suite à mon précédent article sur "qu'est-ce qu'un persona" que je vous invite à lire si vous ne l'avez pas encore fait.
 thumbnail: "/images/personas-casestudy-thumbnail.jpg"
 date: 2017-04-21 12:00:00 +0200
 lang: fr

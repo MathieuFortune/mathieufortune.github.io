@@ -1,6 +1,8 @@
 ---
 layout: post
 title:  "What is usability ?"
+excerpt: |
+    In this article, I want to dive into what is usability ? Making sure that a product is easy to use for everyone, whatever the physical and mental context they are in (physically impared, on the move, novice, ...).
 thumbnail: "/images/what-is-usability-thumb.jpg"
 date: 2017-10-05 12:00:00 +0200
 lang: en

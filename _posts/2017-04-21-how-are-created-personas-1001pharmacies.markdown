@@ -1,12 +1,14 @@
 ---
 layout: post
 title:  "Personas creation @ 1001pharmacies.com"
+excerpt: |
+    This use case is a following of my previous article about "what's a persona" that I suggest you to read if you haven't do already.
 thumbnail: "/images/personas-casestudy-thumbnail.jpg"
 date: 2017-04-21 12:00:00 +0200
 lang: en
 ref: personas-case-study
 author: Mathieu Fortune
-theme: Case studies
+theme: Case study
 ---
 
 This use case is a following of my previous article about [what's a persona]({% post_url 2017-04-20-persona-what-is %} "Article : What's a persona ?") that I suggest you to read if you haven't do already.

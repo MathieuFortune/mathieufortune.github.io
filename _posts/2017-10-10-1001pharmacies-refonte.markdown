@@ -1,6 +1,8 @@
 ---
 layout: post
 title:  "Refonte du site e-commerce @ 1001pharmacies"
+excerpt: |
+    1001pharmacies.com est une marketplace de produit de santé et de parapharmacies. Elle a pour but de mettre en relation les consommateurs avec les pharmaciens en leur permettant d’accéder directement à leurs catalogues de produits en ligne. Chaque pharmacie peut gérer son propre catalogue et ses stocks.
 thumbnail: "/images/case-study-1001pharmacies-thumb.jpg"
 date:   2017-10-10 12:00:00 +0200
 lang: fr

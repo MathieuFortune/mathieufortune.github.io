@@ -1,6 +1,8 @@
 ---
 layout: post
 title: "UX Workshops FLUPA @ 1001pharmacies"
+excerpt: |
+    UX FLUPA's MeetUp are an occasion for UX designer and other to met and discuss about UX related topics around a good beer and nice atmosphere.
 thumbnail: "/images/flupa-photos-thumb.jpg"
 date: 2016-06-10 15:59:00 +0200
 lang: en

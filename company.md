@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title:  "A bit about me"
 menu_title: About me
 permalink: /about/

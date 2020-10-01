@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Qu'est-ce qu'un persona ?"
+excerpt: |
 thumbnail: "/images/personas-definition-thumbnail.jpg"
 date: 2017-04-20 12:00:00 +0200
 lang: fr

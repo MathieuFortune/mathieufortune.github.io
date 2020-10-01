@@ -1,6 +1,8 @@
 ---
 layout: post
 title:  "Développement du réseau social Connect Together"
+excerpt: |
+    Connect Together est un réseau social permettant de mettre en relation les ONG et les associations caritatives avec des donateurs potentiels en créant une communauté de personnes partageant les mêmes causes.
 thumbnail: "/images/connect-together-thumb.jpg"
 date:   2016-08-26 12:00:00 +0200
 lang: fr

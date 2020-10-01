@@ -1,12 +1,14 @@
 ---
 layout: post
 title:  "Redesign the front-end e-commerce application @ 1001pharmacies"
+excerpt: |
+    1001pharmacies.com is an online marketplace in the health and well-being activity. Its purpose is to connect pharmacists directly with their customers through an access to their products online. Each pharmacy can manage its own drugstore catalog and its stock.
 thumbnail: "/images/case-study-1001pharmacies-thumb.jpg"
 date:   2017-10-10 12:00:00 +0200
 lang: en
 ref: catalog-project
 author: Mathieu Fortune
-theme: Case studies
+theme: Case study
 ---
 
 {:.table-case-study}

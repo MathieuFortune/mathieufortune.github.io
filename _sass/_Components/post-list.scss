@@ -32,7 +32,7 @@ $post-title-font-size--small: 33;
 
       &:nth-child(even) {
         .post-content {
-          padding-left: 4.375rem;
+          padding-left: 1.375rem;
           padding-right: 0;
         }
       }
@@ -64,7 +64,7 @@ $post-title-font-size--small: 33;
   .post-content {
     @include media($tab-h) {
       width: 50%;
-      padding-right: 4.375rem;
+      padding-right: 1.375rem;
       padding-left: 0;
     }
     padding: 0 2.5rem;

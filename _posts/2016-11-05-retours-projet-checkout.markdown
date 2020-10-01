@@ -1,6 +1,8 @@
 ---
 layout: post
 title:  "Refondre le tunnel de commande @ 1001pharmacies"
+excerpt: |
+    1001pharmacies.com est une marketplace de produit de santé et de parapharmacies. Elle a pour but de mettre en relation les consommateurs avec les pharmaciens en leur permettant d’accéder directement à leurs catalogues de produits en ligne. Chaque pharmacie peut gérer son propre catalogue et ses stocks.
 thumbnail: "/images/case-study-checkout-thumb.jpg"
 date:   2016-11-24 13:45:01 +0200
 lang: fr

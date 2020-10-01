@@ -1,6 +1,8 @@
 ---
 layout: post
 title:  "What IS User Experience Design"
+excerpt: |
+    It's a reasonably broad term. It incorporates all aspects of a person's experience with something. It could be an interactive system, an application, a website, a physical product that you can hold in your hand, the experience you have with a car, ...
 thumbnail: "/images/what-is-ux-thumb.jpg"
 date:   2019-11-15 13:00:00 +0200
 lang: en

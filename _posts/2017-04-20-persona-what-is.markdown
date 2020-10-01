@@ -1,6 +1,8 @@
 ---
 layout: post
 title:  "What is a persona ?"
+excerpt: |
+    Lets lear more about what is a persona and how it can be used.
 thumbnail: "/images/personas-definition-thumbnail.jpg"
 date: 2017-04-20 12:00:00 +0200
 lang: en

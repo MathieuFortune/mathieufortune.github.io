@@ -1,6 +1,8 @@
 ---
 layout: post
 title:  "Daily UI challenge"
+excerpt: |
+    Participer à un Daily UI challenge aide à améliorer et développer ses compétences en tant que designer.
 thumbnail: "/images/daily-ui-thumb.jpg"
 date:   2017-12-05 12:00:00 +0200
 lang: fr

@@ -1,12 +1,14 @@
 ---
 layout: post
 title:  "Connect Together social network"
+excerpt: |
+    Connect Together is a social network connecting Charities-Non Profit Organisations and Non Governmental Organisations to potential donors and create a community for people who care about the same causes.
 thumbnail: "/images/connect-together-thumb.jpg"
 date:   2016-08-26 12:00:00 +0200
 lang: en
 ref: connect-together
 author: Mathieu Fortune
-theme: Case studies
+theme: Case study
 ---
 
 {:.table-case-study}
