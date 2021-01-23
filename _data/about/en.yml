@@ -17,44 +17,41 @@ about:
 experience_heading: Experiences
 experiences:
   - title: Co-Founder - Head of Product & COO
-    name: MoGraph Mentor - EdTech start-up (5 employees)
-    period: Denver, CO | Jan 2019 - Present
+    name: MoGraph Mentor - EdTech start-up
+    period: Remote, based in Denver CO | Jan 2019 - Present
     desc: As co-founder, responsibilities range between business strategy, product design and development, marketing strategy, and customer relations.
-    results: Generated +100% revenue growth over 6 months after launching new product features and marketing strategies. <br>Increased repeat customers by 20% when implementing a series of UX optimizations, email automation, and web performances.
+    results: x2 generated revenue in 6 months after launching new product features and marketing strategies. Increased repeat customers by 20% when implementing a series of UX optimizations, email automation, and web performances.
     role:
-      - Establish business strategy, product roadmap and strategic direction with CEO
-      - Lead customer research and data analytics to inform product development
-      - Design wireframes, prototypes and UI mockups of new product features
+      - Establish business strategy, and strategic direction with CEO
+      - Lead customer research and data analysis to inform product development roadmap
+      - Design wireframes, prototypes, and UI mockups of new product features
       - Develop and deliver product features in Agile workflow
       - Manage digital marketing strategy (Social Media, PPC, SEO, Affiliates)
       - Deliver articulated data analytics and user insights to Creative Director to inform e-course roadmap
       - Drive customer relation and fidelity program
 
-  - title: Founder - Web Consultant
+  - title: Owner - Branding & Web Consultancy
     name: Inventive Format, Web consultancy
     period:  Miami, FL | Aug 2018 - present
-    desc: Serving small to medium business on business and customer analysis, user research, web design, web development, digital marketing strategy, mentoring, and formation.
+    desc: Serving small to medium businesses about business and customer analysis, user research, web design, web development, digital marketing strategy, mentoring, and training.
     results: Led and collaborated on more than 20 projects with small and medium businesses resulting in +$700K of global generated revenue over three years of activity.
     role:
-      - Assist clients with digital business and growth strategies planning
-      - Deliver competitors & market analysis
-      - Orchestrate social media and digital marketing strategies
-      - Design and develop web solutions for clients
-      - Manage projects with freelancers
-      - Mentor design and engineering junior in companies
+      - Consult clients on their digital business and growth strategies
+      - Design and develop web solutions
+      - Manage projects’ contractors
 
   - title: Product Designer
-    name: Bakerly -  Food & beverage start-up (60 employees)
+    name: Bakerly -  Food & beverage start-up
     period: Miami, FL | Feb 2018 - Aug 2018
     desc: Reporting to marketing director, responsibilities included user research, product design, packaging design, and eCommerce roadmap strategy.
     role:
-      - Led user research resulting in creating personas and case studies to help business executives and marketing teams improve audience targeting and business strategy.
-      - Initiated the first iteration of eCommerce presence with Amazon sales page increasing monthly revenue by +3% over two months.
-      - Established documentation and processes to streamline communication between departments resulting in a reduction of back-and-forth by 15%.
+      - Led user research & market research to inform digital business decisions
+      - Designed and developed eCommerce presence (website, newsletter, social media)
+      - Established documentation and processes for sales and marketing departments
 
   - title: UX/UI Developer
     name: Freelance
-    period: Around the world | Jan 2017 - Jan 2018
+    period: Europe & SE Asia | Jan 2017 - Jan 2018
     desc: Worked as a remote freelance UI/UX Developer while traveling through Europe, SE Asia, and the US. Responsibilities included user research, web design, web development, and print design missions for small to medium businesses.
     role:
       - Improved website and marketing presence of an import/export business that facilitated a 6 digits deal with investors.
@@ -63,27 +60,24 @@ experiences:
       - Collaborated on the design and development of a real estate website in an Agile Scrum workflow.
 
   - title: UX Designer
-    name: 1001Pharmacies.com - Cosmetics eCommerce marketplace (50 employees)
+    name: 1001Pharmacies.com - Cosmetics eCommerce marketplace
     period: Montpellier, France | Jan 2016 - Jan 2017
-    desc: Worked in a flat hierarchy structure and Agile development workflow. Responsibilities included user research, eCommerce website design, user testing, and web front-end code development.
+    desc: Worked in a flat hierarchy structure and Agile development workflow. Responsibilities included user research, eCommerce web design, user testing, and front-end web development.
     role:
       - Collaborated, with an Agile Scrum team, to v2 of eCommerce marketplace improving conversion rate by 2%.
       - Led user research and quantitative data analytics that helped articulate PO and stakeholders’ decisions.
-      - Performed A/B tests resulting in an increase in conversion rate and usability.
-      - Managed Scrum Master role and supported Product Owner in sprint planning.
-      - Inspired team member and design enthusiast by sharing knowledge at meetups and workshops.
+      - Acted as Scrum Master role and supported Product Owner in sprint planning.
 
   - title: Front-End Developer
-    name: 1001Pharmacies.com - Cosmetics eCommerce marketplace (50 employees)
+    name: 1001Pharmacies.com - Cosmetics eCommerce marketplace
     period: Montpellier, France | Jan 2015 - Jan 2016
-    desc: Reporting to the CTO, responsibilities included maintaining the front-end stack of eCommerce platforms, collaborate with the marketing team on designing and developing tools to support growth goals.
-
+    desc: Reporting to the CTO, responsibilities included maintaining the front-end stack of eCommerce platforms, collaborate with the marketing team on designing and developing tools to support growth.
     role:
       - Reduced technical debt by performing front-end code maintenance of V1 of eCommerce marketplace.
       - Boosted user base growth by delivering emailing and landing solutions to the marketing team.
 
   - title: UI Developer & Designer
-    name: Publika - Web and marketing agency (20 employees)
+    name: Publika - Web and marketing agency
     period: Montpellier, France | Jan 2012 - Jan 2015
     desc: Reporting to the project manager, responsibilities included designing and developing pixel perfect front-end web solutions, ensuring QA, helping establish project quote and specs, assist project delivery and demo to the clients.
     role:
@@ -114,6 +108,7 @@ hire_me:
 
 events_heading: Events
 events:
+  - Co-Founder of the Denver French Tech Group
   - Member of SOFLUX (South Florida UX) meetup group
   - Co-organizer and speaker at <a href="http://www.meetup.com/fr-FR/FLUPA-Montpellier/events/229582597/" target="_blank">UX FLUPA MeetUp</a> place at 1001pharmacies - 2015 April'
   - Attended to <a href="https://smashingconf.com/barcelona-2016/" target="_blank">SmashingConf Barcelona 2016</a> Barcelona, Spain'
@@ -145,47 +140,36 @@ trainings:
 
 skills_heading: Skills
 skills:
-  - title: Interpersonal Skills
+  - title: Product Management
     list:
       - Management
-      - Written Communication
       - Strategic Thinking
       - Leadership
-      - Public Speaking
-      - Design Thinking
-      - Empathy
-      - Project Planning
-      - eCommerce
-      - Brand Strategy
-      - Growth Hacking
-      - Agile Scrum
-      - Lean Start-Up
-      - Kanban
+      - Agile Scrum/Kanban
+      - LEAN Start-up
+      - Data Analysis
+      - Feature Prioritization
+      - JIRA
+      - Trello
   - title: Web Technologies
     list:
       - HTML/CSS
       - Less/Sass
       - Javascript
-      - WebPack
-      - Gulp
-      - Static Site Generator
-      - Git
-      - A11y
+      - Versioning Git
       - API
       - JSON
       - SQL
       - PHP
-      - CMS
-  - title: UX Skills
+  - title: UX/Design Skills
     list:
       - User Research
-      - Information Architecture
-      - Usability Testing
-      - Interaction Design
-      - Responsive Web Design
-      - A/B Tests
-      - Prototyping
       - Wireframing
+      - Prototyping
+      - Visual Design
+      - Interation Design
+      - Motion Design
+      - Design Thinking
       - Adobe CC
       - Sketch
       - Invision
@@ -193,10 +177,10 @@ skills:
     list:
        - Email Marketing
        - Inbound Marketing
-       - Content Marketing
+       - Growth Hacking
        - Marketing Automation
-       - Data Analysis
-       - Competitor Analysis
+       - Adwords/Social Media Ads
+       - Search Engine Optimization
        - Product Market/Fit Evaluations
 
 projects_heading: Projects
