@@ -15,11 +15,11 @@ h1 {
 }
 
 h2 {
-  @include font-size($font-size--xlarge);
+  @include font-size($font-size--large);
 }
 
 h3 {
-  @include font-size($font-size--large);
+  @include font-size($font-size--xmedium);
 }
 
 h4 {
