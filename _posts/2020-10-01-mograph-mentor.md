@@ -100,8 +100,9 @@ As the sole Product Designer and Developer, I conducted all the discovery resear
 
 {% include lazy-image.html src="/images/mograph-mentor-cs-userflow.jpg" alt="Main User Flow Mograph Mentor" caption="User flow displaying a user entering from the homepage and performing a purchase" figClass="" %}
 
-{% include lazy-image.html src="/images/mograph-mentor-cs-websitescreenshot.jpg" alt="Homepage site screenshot" caption="Preview of the designed & developed Homepage - see more at mographmentor.com" figClass="" %}
+<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2Fel79manGotM0SlfV6o7E0D%2FMM-Ui-Elements%3Fnode-id%3D0%253A1" allowfullscreen></iframe>
 
+{% include lazy-image.html src="/images/mograph-mentor-cs-websitescreenshot.jpg" alt="Homepage site screenshot" caption="Preview of the designed & developed Homepage - see more at mographmentor.com" figClass="" %}
 
 ### Impact
 
