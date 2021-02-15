@@ -16,43 +16,47 @@ about:
 
 experience_heading: Experiences
 experiences:
-  - title: Co-Founder - Head of Product & COO
+  - title: Product Manager & Co-Founder
     name: MoGraph Mentor - EdTech start-up
     period: Remote, based in Denver CO | Jan 2019 - Present
-    desc: As co-founder, responsibilities range between business strategy, product design and development, marketing strategy, and customer relations.
-    results: x2 generated revenue in 6 months after launching new product features and marketing strategies. Increased repeat customers by 20% when implementing a series of UX optimizations, email automation, and web performances.
+    desc: As Product Manager and Co-Founder of an online education start-up, beyond managing all elements of the Product Development lifecycle, my responsibilities also include product pricing, marketing, and support.
+    results: In the first year, my actions resulted in increased monthly revenue by +75%, website traffic by +171%, and active customer count by +147%.
     role:
-      - Establish business strategy, and strategic direction with CEO
-      - Lead customer research and data analysis to inform product development roadmap
-      - Design wireframes, prototypes, and UI mockups of new product features
-      - Develop and deliver product features in Agile workflow
-      - Manage digital marketing strategy (Social Media, PPC, SEO, Affiliates)
-      - Deliver articulated data analytics and user insights to Creative Director to inform e-course roadmap
-      - Drive customer relation and fidelity program
+      - Perform market assessments
+      - Lead customer research and data analysis
+      - Establish product roadmap planning and feature prioritization
+      - Translate business-to-technical requirements
+      - Design wireframes, prototypes, and UI interfaces
+      - Perform technical implementations
+      - Drive go-to-market and product marketing strategy
+      - Manage a cross-functional team of 4 (marketers and creatives)
+
 
   - title: Owner - Branding & Web Consultancy
     name: Inventive Format, Web consultancy
     period:  Miami, FL | Aug 2018 - present
-    desc: Serving small to medium businesses about business and customer analysis, user research, web design, web development, digital marketing strategy, mentoring, and training.
+    desc: Serve as web consultant for small and medium businesses. My responsibilities include market assessments, user research, web design, web development, digital marketing strategy, mentoring, and training.
     results: Led and collaborated on more than 20 projects with small and medium businesses resulting in +$700K of global generated revenue over three years of activity.
     role:
-      - Consult clients on their digital business and growth strategies
-      - Design and develop web solutions
-      - Manage projects’ contractors
+       - Perform user research and market analysis to inform business and product strategy direction
+       - Deliver elegant design solutions and performant technical solutions
+       - Mentor and train internal teams on product design and engineering topics
+
 
   - title: Product Designer
     name: Bakerly -  Food & beverage start-up
     period: Miami, FL | Feb 2018 - Aug 2018
-    desc: Reporting to marketing director, responsibilities included user research, product design, packaging design, and eCommerce roadmap strategy.
+    desc: Reporting to Marketing Director, responsibilities included user research, product design, packaging design.
     role:
-      - Led user research & market research to inform digital business decisions
-      - Designed and developed eCommerce presence (website, newsletter, social media)
-      - Established documentation and processes for sales and marketing departments
+       - Lead user research and competitor analysis to inform internal teams.
+       - Present product design ideas to cross-functional teams and senior leadership
+       - Design and develop eCommerce solutions (websites, newsletter templates, graphic design)
+
 
   - title: UX/UI Developer
     name: Freelance
     period: Europe & SE Asia | Jan 2017 - Jan 2018
-    desc: Worked as a remote freelance UI/UX Developer while traveling through Europe, SE Asia, and the US. Responsibilities included user research, web design, web development, and print design missions for small to medium businesses.
+    desc: Working as a remote freelance UI/UX Developer while traveling through Europe, SE Asia, and the US. Responsibilities included user research, web design, web development, and print design missions for small to medium businesses.
     role:
       - Improved website and marketing presence of an import/export business that facilitated a 6 digits deal with investors.
       - Designed and delivered mobile optimizations resulting in a +4% bottom-line revenue increase of a tourism website.
@@ -62,16 +66,18 @@ experiences:
   - title: UX Designer
     name: 1001Pharmacies.com - Cosmetics eCommerce marketplace
     period: Montpellier, France | Jan 2016 - Jan 2017
-    desc: Worked in a flat hierarchy structure and Agile development workflow. Responsibilities included user research, eCommerce web design, user testing, and front-end web development.
+    desc: Working in a flat organization and attached to an Agile engineering team. Responsibilities included researching, eCommerce product design, user testing, and front-end development support.
     role:
-      - Collaborated, with an Agile Scrum team, to v2 of eCommerce marketplace improving conversion rate by 2%.
-      - Led user research and quantitative data analytics that helped articulate PO and stakeholders’ decisions.
-      - Acted as Scrum Master role and supported Product Owner in sprint planning.
+       - Perform user research and user testing to inform the development of a V2 of the eCommerce marketplace.
+       - Establish research and data reports to inform Product Owner and internal stakeholders decisions
+       - Design wireframes and prototypes for the new eCommerce marketplace
+       - Work closely and support engineering teams on front-end development tickets
+
 
   - title: Front-End Developer
     name: 1001Pharmacies.com - Cosmetics eCommerce marketplace
     period: Montpellier, France | Jan 2015 - Jan 2016
-    desc: Reporting to the CTO, responsibilities included maintaining the front-end stack of eCommerce platforms, collaborate with the marketing team on designing and developing tools to support growth.
+    desc: Reporting to the CTO and working within the engineering team, responsibilities included maintaining the front-end stack of eCommerce platforms and collaborating with the marketing team to design and develop tools to support growth.
     role:
       - Reduced technical debt by performing front-end code maintenance of V1 of eCommerce marketplace.
       - Boosted user base growth by delivering emailing and landing solutions to the marketing team.
@@ -79,7 +85,7 @@ experiences:
   - title: UI Developer & Designer
     name: Publika - Web and marketing agency
     period: Montpellier, France | Jan 2012 - Jan 2015
-    desc: Reporting to the project manager, responsibilities included designing and developing pixel perfect front-end web solutions, ensuring QA, helping establish project quote and specs, assist project delivery and demo to the clients.
+    desc: Reporting to the Technical Project Manager, responsibilities included designing and developing pixel perfect front-end web solutions, ensuring QA, establishing project quote and specs, and assisting project delivery and demo to the clients.
     role:
       - Designed and developed in collaboration with a back-end developer a fully custom made PHP MVC framework used on more than 50 clients’ projects.
 
