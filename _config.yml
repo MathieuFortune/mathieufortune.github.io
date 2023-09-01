@@ -10,22 +10,22 @@ title:
   en: Mathieu Fortune
   fr: Mathieu Fortune
 title_head:
-  en: Mathieu Fortune| Product Manager Portfolio & Resume.
-  fr: Mathieu Fortune| Portfolio & CV.
+  en: Mathieu Fortune| Senior Product Designer | Portfolio & Resume.
+  fr: Mathieu Fortune| Senior Product Desigenr | Portfolio & CV.
 home:
   en: Home
   fr: Accueil
 email: pro.mathieu.fortune@gmail.com
 description:
-  en: Mathieu Fortune - Product Manager, Front-End Developer, UX Designer helping other humans to communicate the value of what they do. Website built with Jekyll, Sass and love <3. Sources on GitHub
-  fr: Mathieu Fortune - Product Manager, Front-End Developer, UX Designer partageant ses passions en travaillant entre humains sur des projets intéressant. Site web monté avec Jekyll, Sass et amour <3. Sources sur GitHub
+  en: Mathieu Fortune - Product Designer, Product Manager, and Front-End Developer helping other humans to communicate the value of what they do. Website built with Jekyll, Sass and love <3. Sources on GitHub
+  fr: Mathieu Fortune - Product Designer, Product Manager, and Front-End Developer partageant ses passions en travaillant entre humains sur des projets intéressant. Site web monté avec Jekyll, Sass et amour <3. Sources sur GitHub
 index:
   en:
   fr: accueil.html
 feed:
   en: /feed.xml
   fr: /flux.xml
-feed_description: Mathieu Fortune - Product Manager, Front-End Developer, UX Designer helping other humans to communicate the value of what they do # RSS feed site description
+feed_description: Mathieu Fortune - Product Designer, Product Manager, and Front-End Developer helping other humans to communicate the value of what they do # RSS feed site description
 logo: /images/logo.png
 
 made_with:
