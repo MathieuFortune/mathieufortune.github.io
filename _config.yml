@@ -42,7 +42,7 @@ contact:
 
 rss_path: feed.xml
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://mathieufortune.github.com" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://mathieufortune.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 permalink: none
 
 twitter_username: mathieufortune
