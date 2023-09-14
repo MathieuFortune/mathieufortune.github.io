@@ -13,7 +13,7 @@ theme: Case Study
 
 {% include lazy-image.html src="/images/cover-design-system-mentor-collective.jpg" alt="Case study's cover image showing a dashboard with UI elements" caption="Mentor Collective - Design System Illustration" figClass="" %}
 
-*To comply with my non-disclosure agreement, I have omitted and obfuscated confidential information in this case study. All information in this case study is my own and does not necessarily reflect the views of Mentor Collective*
+*To comply with my non-disclosure agreement, I have omitted and obfuscated confidential information in this case study. All information in this case study is my own and does not necessarily reflect the views of Mentor Collective. Screenshots will be displayed throughout this case study for illustration purposes.*
 
 ## The Genesis
 
@@ -29,14 +29,21 @@ I probed engineers for collaboration. They  provided valuable insights on potent
 {% include lazy-image.html src="/images/illustration-design-system-mentor-collective-01.jpg" alt="Pie and Line charts color experiements in Figma" caption="Experimenting with data visualization and colors" figClass="" %}
 
 ## Key Components & Principles
-To save us time and energy, we wanted to start with an open-source design system giving us the foundational structure to expand upon. After research, we landed with Uber's Base design system. Its React-friendly nature coupled with built-in accessibility features made it stand on top of other alternatives. 
-However, we weren't content with a simple adaptation. I introduced a new visual identity to align with Mentor Collective's brand, including a data visualization library (Airbnb's VisX), an icon library (IBM carbon icons) and an accessible color scheme. Our guiding principles were clear:
+To save us time and energy, we wanted to start with an open-source design system giving us the foundational structure to expand upon. 
+
+Our guiding principles were clear:
 
 - Seamless React integration
 - WCAG AA compliance for accessibility
 - Simplified Figma usage
 - A special focus on dashboard designs
 - Can be used for both mobile and web use cases
+
+After research, we landed with Uber's Base design system. Its React-friendly nature coupled with built-in accessibility features made it stand on top of other alternatives. However, we weren't content with a simple adaptation. 
+
+- I introduced a new visual identity to align with Mentor Collective's brand, testing accessibility compliance along the way
+- With the help of engineers, we added a data visualization library (Airbnb's VisX) that I then leveraged in my designs
+- I researched and picked an icon library (IBM carbon icons) that would fit our specific need for dashboard design and minimal brand idenitty
 
 {% include lazy-image.html src="/images/illustration-design-system-mentor-collective-02.jpg" alt="Color blindness tests in Figma" caption="Testing accessibility of colors for color blindness" figClass="" %}
 
