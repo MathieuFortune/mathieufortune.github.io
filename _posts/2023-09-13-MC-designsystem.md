@@ -23,10 +23,11 @@ When I first joined Mentor Collective, the design landscape of the product was f
 The pace of Mentor Collective's growth was intense. Our product had to cater to both B2C and B2B audiences, a multifaceted challenge. I believed that a design system would equip our product and engineering teams to handle the looming complexity, ensuring swift and consistent delivery of user value.
 
 ## Crafting
-I initiated this project by starting with an industry assessment. Given Mentor Collective's domain, the emphasis was clear: a robust dashboard design capable of handling large data set display and manipulation. A key step was to align the design system with our engineering stack for smooth integration.
-I probed engineers for collaboration. They  provided valuable insights on potential open-source design systems. The recently hired design lead provided insights about the future trajectory of the design team to also inform our decision.
+I initiated this project by starting with an industry assessment. Given Mentor Collective's domain, the emphasis was clear: a robust dashboard design capable of handling large data set display and manipulation. 
 
-{% include lazy-image.html src="/images/illustration-design-system-mentor-collective-01.jpg" alt="Pie and Line charts color experiements in Figma" caption="Experimenting with data visualization and colors" figClass="" %}
+A key step was to align the design system with our engineering stack for smooth integration.
+I probed engineers for collaboration. They  provided valuable insights on potential open-source design systems. 
+Additionally, I integrated the just hired Design Lead's insights about the future trajectory of the design team to also inform our decision.
 
 ## Key Components & Principles
 To save us time and energy, we wanted to start with an open-source design system giving us the foundational structure to expand upon. 
@@ -39,18 +40,42 @@ Our guiding principles were clear:
 - A special focus on dashboard designs
 - Can be used for both mobile and web use cases
 
-After research, we landed with Uber's Base design system. Its React-friendly nature coupled with built-in accessibility features made it stand on top of other alternatives. However, we weren't content with a simple adaptation. 
+After research, we picked Uber's Base design system. Its React-friendly nature coupled with built-in accessibility features made it stand out from other alternatives. 
 
-- I introduced a new visual identity to align with Mentor Collective's brand, testing accessibility compliance along the way
-- With the help of engineers, we added a data visualization library (Airbnb's VisX) that I then leveraged in my designs
-- I researched and picked an icon library (IBM carbon icons) that would fit our specific need for dashboard design and minimal brand idenitty
+However, despite it's solid techincal foundation, we weren't content with a simple adaptation of Uber's visual identity and design principles. 
 
-{% include lazy-image.html src="/images/illustration-design-system-mentor-collective-02.jpg" alt="Color blindness tests in Figma" caption="Testing accessibility of colors for color blindness" figClass="" %}
+### Colors
+I introduced a new color scheme to align with Mentor Collective's brand, ensuring contrast, usability and accessibility every step of the way.
+
+{% include lazy-image.html src="/images/illustration-design-system-mentor-collective-01.jpg" alt="Screenshot of color blindness tests in Figma" caption="Testing accessibility of colors for color blindness" figClass="" %}
+{% include lazy-image.html src="/images/illustration-design-system-mentor-collective-02.jpg" alt="Screenshot of UI color tests in Figma" caption="Testing colors in situation with dashboard mockups" figClass="" %}
+
+### Typography
+Leveraging my Design Lead's expertise with types, we tested different font famillies and typographic scales to ensure our product would be accessible and usable on every devices. I also researched and picked an icon library (IBM carbon icons) that would fit our new typographic style and suit our needs for dashboard designs.
+
+{% include lazy-image.html src="/images/illustration-design-system-mentor-collective-03.jpg" alt="Screenshot of typography research in Figma" caption="Researching various font famillies and typographic scales" figClass="" %}
+
+### Data visualization and various component tweaks
+With the help of engineers, we picked a data visualization library (Airbnb's VisX). I worked on creating the various chart type that would be needed in our product as well as making sure to test colors to maximize accessibility.
+
+{% include lazy-image.html src="/images/illustration-design-system-mentor-collective-04.jpg" alt="Screenshot of data vizualisation color tests in Figma" caption="Testing chart type and color variation for our data visualization needs" figClass="" %}
+
+Besides colors and typography, I also made sure that every components would fit our project needs by tweaking and adding new ones where needed. 
+
+{% include lazy-image.html src="/images/illustration-design-system-mentor-collective-05.jpg" alt="Screenshot of button components in Figma" caption="Button components and usage rules" figClass="" %}
+
+{% include lazy-image.html src="/images/illustration-design-system-mentor-collective-06.jpg" alt="Screenshot of input components in Figma" caption="Input components and usage rules" figClass="" %}
+
+{% include lazy-image.html src="/images/illustration-design-system-mentor-collective-07.jpg" alt="Screenshot of notification components in Figma" caption="Notificaiton components and usage rules" figClass="" %}
 
 ## Promotion & Adoption
-While my engineering team was thrilled about the design system, its realization was a collaborative effort. As Mentor Collective's first design hire, I enjoyed a unique trust from the broader organization. They believed in my ability to implement essential tools to scale the company's product. Throughout the process of creating this design system, I regularly held presentations and sessions, briefing teams about our milestones and offering hands-on tutorials, especially on Figma. Challenges arose, particularly during technical implementations, but we navigated them through close-knit teamwork.
+While my engineering team was thrilled about the design system, its realization was a collaborative effort. 
 
-{% include lazy-image.html src="/images/illustration-design-system-mentor-collective-04.jpg" alt="Test in situation in Figma" caption="Testing different color schemes with mockups" figClass="" %}
+As Mentor Collective's first design hire, I enjoyed a unique trust from the broader organization. They believed in my ability to implement essential tools to scale the company's product. 
+
+Throughout the process of creating this design system, I regularly held presentations and rubber-ducking sessions, briefing teams about our milestones and offering hands-on tutorials, especially on Figma. With the collaboration of the Design Lead, we iteratively implemented usage rules and other documentation to each component in the system.
+
+Challenges arose, particularly during technical implementations, but I navigated them through close-knit teamwork with engineers and quality control during our projects.
 
 ## The Impact
 Our design system transformed Mentor Collective's design narrative. It paved the way for consistent product roll-outs, even as our teams expanded. A testimonial from a Senior Software Engineer succinctly captures this transformation:
@@ -66,5 +91,3 @@ Reflecting on the partner dashboard project, the design system's influence was k
 > "Mathieu championed the need for a more modern design system... The look and feel of the Mentor Collective platform (and the ability to scale it up) is a direct result of Mathieu's efforts."
 
 In essence, the design system wasn't just a toolkit—it was Mentor Collective's design voice, and I was privileged to be its architect.
-
-{% include lazy-image.html src="/images/illustration-design-system-mentor-collective-03.jpg" alt="Example of final results" caption="Example of what the design system looks like in Figma" figClass="" %}
