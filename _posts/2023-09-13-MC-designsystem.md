@@ -13,24 +13,30 @@ theme: Case Study
 
 {% include lazy-image.html src="/images/cover-design-system-mentor-collective.jpg" alt="Case study's cover image showing a dashboard with UI elements" caption="Mentor Collective - Design System Illustration" figClass="" %}
 
-*To comply with my non-disclosure agreement, I have omitted and obfuscated confidential information in this case study. All information in this case study is my own and does not necessarily reflect the views of Mentor Collective. Screenshots will be displayed throughout this case study for illustration purposes.*
+*To comply with my non-disclosure agreement, I have omitted and obfuscated confidential information in this case study. All information in this case study is my own and does not necessarily reflect the views of Mentor Collective. Screenshots will be displayed throughout this case study for illustration purposes and might not represent the final work.*
 
 ## The Genesis
 
-When I first joined Mentor Collective, the design landscape of the product was fragmented. The company's growth story had been written by design contractors and product enthusiasts who weren't strictly designers. This meant a product dotted with inconsistent user experiences and visual identity. As the company's first full-time design recruit, I quickly identified a need for design system to create an unified voice.
+When I joined Mentor Collective, the design landscape of the product was fragmented. Throughout it's early development years, the company's story had been written by design contractors and product enthusiasts who weren't strictly designers. This meant a product dotted with inconsistent user experiences and visual identity. 
+
+As the company's first full-time design recruit, I quickly identified a need for design system to create an unified voice, and allow us to scale rapidly and efficiently.
 
 ## Why a Design System?
-The pace of Mentor Collective's growth was intense. Our product had to cater to both B2C and B2B audiences, a multifaceted challenge. I believed that a design system would equip our product and engineering teams to handle the looming complexity, ensuring swift and consistent delivery of user value.
+The pace of Mentor Collective's growth was intense. Our product had to cater to both B2C and B2B audiences, a multifaceted challenge. 
+I believed that a design system would equip our product and engineering teams to handle the looming complexity, ensuring swift and consistent delivery of user value.
 
-## Crafting
-I initiated this project by starting with an industry assessment. Given Mentor Collective's domain, the emphasis was clear: a robust dashboard design capable of handling large data set display and manipulation. 
+## Assessing Our Unique Needs
+I initiated this project by starting with assessing Mentor Collective's Product team needs. Given the company's mission to help millions of students and higher-ed administrators bridge the equity gap in post-secondary education, the emphasis was clear: 
+- a robust dashboard design capable of handling large datasets to enable higher-ed administrators's work
+- a performant and mobile friendly application to connect students and manage communities
 
-A key step was to align the design system with our engineering stack for smooth integration.
-I probed engineers for collaboration. They  provided valuable insights on potential open-source design systems. 
-Additionally, I integrated the just hired Design Lead's insights about the future trajectory of the design team to also inform our decision.
+Another key step was to align the design system with our Engineering stack for smooth integration.
+I probed engineers for collaboration. They provided valuable insights about which technology they were using and workflows they were following.
+
+Finnaly, I integrated the recently hired Design Lead's insights about the future trajectory of the design team to also inform our decision.
 
 ## Key Components & Principles
-To save us time and energy, we wanted to start with an open-source design system giving us the foundational structure to expand upon. 
+To save us time and energy, we elected to choose an open-source design system giving us the foundational blocks to expand upon. 
 
 Our guiding principles were clear:
 
@@ -56,7 +62,7 @@ Leveraging my Design Lead's expertise with types, we tested different font famil
 {% include lazy-image.html src="/images/illustration-design-system-mentor-collective-03.jpg" alt="Screenshot of typography research in Figma" caption="Researching various font famillies and typographic scales" figClass="" %}
 
 ### Data visualization and various component tweaks
-With the help of engineers, we picked a data visualization library (Airbnb's VisX). I worked on creating the various chart type that would be needed in our product as well as making sure to test colors to maximize accessibility.
+With the help of engineers, I picked a data visualization library (Airbnb's VisX). I worked on creating the various chart type that would be needed in our product as well as making sure to test colors to guarantee accessibility compliance.
 
 {% include lazy-image.html src="/images/illustration-design-system-mentor-collective-04.jpg" alt="Screenshot of data vizualisation color tests in Figma" caption="Testing chart type and color variation for our data visualization needs" figClass="" %}
 
@@ -73,9 +79,11 @@ While my engineering team was thrilled about the design system, its realization 
 
 As Mentor Collective's first design hire, I enjoyed a unique trust from the broader organization. They believed in my ability to implement essential tools to scale the company's product. 
 
-Throughout the process of creating this design system, I regularly held presentations and rubber-ducking sessions, briefing teams about our milestones and offering hands-on tutorials, especially on Figma. With the collaboration of the Design Lead, we iteratively implemented usage rules and other documentation to each component in the system.
+Throughout the process of creating this design system, I regularly held presentations and rubber-ducking sessions, briefing teams about our milestones and offering hands-on tutorials, especially on Figma for developers. 
 
-Challenges arose, particularly during technical implementations, but I navigated them through close-knit teamwork with engineers and quality control during our projects.
+Collaboratng with the Design Lead, I iteratively implemented usage rules and other documentations to each component in the system.
+
+Challenges arose during technical implementations, but I navigated them through close-knit teamwork with engineers and quality control during our projects.
 
 ## The Impact
 Our design system transformed Mentor Collective's design narrative. It paved the way for consistent product roll-outs, even as our teams expanded. A testimonial from a Senior Software Engineer succinctly captures this transformation:
@@ -90,4 +98,4 @@ Reflecting on the partner dashboard project, the design system's influence was k
 
 > "Mathieu championed the need for a more modern design system... The look and feel of the Mentor Collective platform (and the ability to scale it up) is a direct result of Mathieu's efforts."
 
-In essence, the design system wasn't just a toolkit—it was Mentor Collective's design voice, and I was privileged to be its architect.
+In essence, the design system wasn't just a toolkit—it was Mentor Collective's design voice, and I was privileged to be its main architect.
