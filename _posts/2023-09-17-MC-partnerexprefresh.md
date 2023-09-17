@@ -13,7 +13,7 @@ theme: Case Study
 
 {% include lazy-image.html src="/images/cover-partner-experience-refresh-mentor-collective.jpg" alt="Case study's cover image showing design frames in Figma" caption="Mentor Collective - Partner Experience Refresh Case Study Illustration" figClass="" %}
 
-*To comply with my non-disclosure agreement, I have omitted and obfuscated confidential information in this case study. All information in this case study is my own and does not necessarily reflect the views of Mentor Collective.
+*To comply with my non-disclosure agreement, I have omitted and obfuscated confidential information in this case study. All information in this case study is my own and does not necessarily reflect the views of Mentor Collective.*
 
 ## Overview
 
