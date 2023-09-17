@@ -50,7 +50,7 @@ We managed to interview 2 partners representative of our core user audience and 
 
 To process and document this round of research, I collaborated with the UX researcher using Dovetail, a collaborative user feedback analysis platform. We would upload the recordings of the interviews and tag the transcripts with keywords relevant for our project. This data-driven approach allowed us to quickly identify recurring pain points and needs.
 
-{% include lazy-image.html src="/images/illustration-partner-experience-mentor-collective-01.jpg" alt="Screenshot showing research documented in Dovetail" caption="Research documented in Dovetail. *Illustrations are intentionally non-specific due to confidentiality restrictions*" figClass="" %}
+{% include lazy-image.html src="/images/illustration-partner-experience-mentor-collective-01.jpg" alt="Screenshot showing research documented in Dovetail" caption="Research documented in Dovetail. *Illustrations purposfully blurred due to confidentiality restrictions*" figClass="" %}
 
 
 ## Learnings
@@ -78,12 +78,12 @@ My starting point was diving deep into the existing dashboard. Having been desig
 ### Collaborative brainstorming
 With the main user need identified and a better knowledge of the current product, I initiated a remote brainwriting exercise using Whimsical and “How Might We” questions to facilitate the flow of ideas. Recognizing the value of diverse perspectives, I strategically invited internal team members who interact with our users at various stages of their journey. This eclectic group comprised a salesperson, two account managers, an engineer, and two members from the product team: the Director of Curriculum and a Product Manager. The exercise ensured a rich pool of ideas, drawing from each participant's unique experiences and insights with our users.
 
-{% include lazy-image.html src="/images/illustration-partner-experience-mentor-collective-02.jpg" alt="Screenshot showing brainstorming notes" caption="Brainwriting notes in Whimsical. *Illustrations are intentionally non-specific due to confidentiality restrictions*" figClass="" %}
+{% include lazy-image.html src="/images/illustration-partner-experience-mentor-collective-02.jpg" alt="Screenshot showing brainstorming notes" caption="Brainwriting notes in Whimsical. *Illustrations purposfully blurred due to confidentiality restrictions*" figClass="" %}
 
 ### Journey map and sketching
 With the initial brainstorming phase completed, I transitioned to several rounds of ideation and sketching. I laid out a journey map to help us visualize the paths our user would take to accomplish certain tasks and crafted wireframes of the new partner experience. Leveraging Whimsical, a versatile online tool, I collaborated seamlessly with my Product Manager and Lead Engineer to gather their feedback.
 
-{% include lazy-image.html src="/images/illustration-partner-experience-mentor-collective-03.jpg" alt="Screenshot showing ideation work in Whimsical" caption="User Journey Map and Wireframes in Whimsical. *Illustrations are intentionally non-specific due to confidentiality restrictions*" figClass="" %}
+{% include lazy-image.html src="/images/illustration-partner-experience-mentor-collective-03.jpg" alt="Screenshot showing ideation work in Whimsical" caption="User Journey Map and Wireframes in Whimsical. *Illustrations purposfully blurred due to confidentiality restrictions*" figClass="" %}
 
 ### User Validation
 I then reconnected with the internal team members previously interviewed to walk them through the wireframes. Presenting the wireframes to them served a dual purpose: ensuring our direction aligned with their insights and confirming that our solutions addressed their highlighted pain points.
@@ -93,12 +93,15 @@ With increased confidence in our direction, I transitioned into a more granular 
 
 At the heart of these designs was a comprehensive dashboard page, detailed with data visualization charts. To account for the large datasets of our users, I designed a robust data table, equipped with extensive filtering capabilities, ensuring effective management of participants, mentorships, and program activities. An alert and notification system was improved to allow partners to more easily identify students in need of immediate support. A participant profile was showcasing individual data with data widgets and filterable tables. User data revealed that the vast majority of our users accessed our platform via desktop. Given the project's timeline and budget constraints, I chose to ensure the mobile experience was functional but not fully optimized.
 
-{% include lazy-image.html src="/images/illustration-partner-experience-mentor-collective-04.jpg" alt="Screenshot showing high-fidelity user interfaces in Figma" caption="High-fidelity UIs in Figma. *Illustrations are intentionally non-specific due to confidentiality restrictions*" figClass="" %}
+{% include lazy-image.html src="/images/illustration-partner-experience-mentor-collective-04.jpg" alt="Screenshot showing high-fidelity user interfaces in Figma" caption="High-fidelity UIs in Figma. *Illustrations purposfully blurred due to confidentiality restrictions*" figClass="" %}
+
+{% include lazy-image.html src="/images/illustration-partner-experience-mentor-collective-04-bis.jpg" alt="Screenshot showing before and after of dashboard page" caption="Before / After of the dashboard page of the partner experience. *Illustrations purposfully blurred due to confidentiality restrictions*" figClass="" %}
+
 
 ### Integration with Design System
 In crafting these refined UIs, I leaned heavily on a design system that I had recently championed at Mentor Collective, seamlessly integrating its elements— from the accessible color palette and clear typography to the streamlined layout and components— into the dashboard's new look.
 
-{% include lazy-image.html src="/images/illustration-partner-experience-mentor-collective-05.jpg" alt="Screenshot showing design system in Figma" caption="Excerpt of Design System in Figma. *Illustrations are intentionally non-specific due to confidentiality restrictions*" figClass="" %}
+{% include lazy-image.html src="/images/illustration-partner-experience-mentor-collective-05.jpg" alt="Screenshot showing design system in Figma" caption="Excerpt of Design System in Figma. *Illustrations purposfully blurred due to confidentiality restrictions*" figClass="" %}
 
 ### Preparation for Implementation
 Following the completion of the high-fidelity UIs, I collaborated closely with the Product Manager and Engineering Lead. To ensure my designs were easy to follow, I recorded a video walkthrough detailing their key elements. This approach, combined with discussions with the Product Manager, enabled us to write a clear set of requirements for the engineering team that would subsequently be used to create the engineering plan.
@@ -106,7 +109,7 @@ Following the completion of the high-fidelity UIs, I collaborated closely with t
 ### Collaboration with Developers:
 Ensuring seamless transition to the implementation phase, I provided meticulous hand-off notes accompanied by the design walkthrough video. These resources were conveniently housed in Figma, adjacent to the high-fidelity UIs as well as in Asana. Throughout the build phase, I regularly engaged in quality control tests, collaborating closely with engineers to guarantee accurate representation of my designs.
 
-{% include lazy-image.html src="/images/illustration-partner-experience-mentor-collective-06.jpg" alt="Screenshot showing design hand-off notes in Figma" caption="Design Hand-off Notes for engineers. *Illustrations are intentionally non-specific due to confidentiality restrictions*" figClass="" %}
+{% include lazy-image.html src="/images/illustration-partner-experience-mentor-collective-06.jpg" alt="Screenshot showing design hand-off notes in Figma" caption="Design Hand-off Notes for engineers. *Illustrations purposfully blurred due to confidentiality restrictions*" figClass="" %}
 
 
 ## Implementation and Launch
@@ -120,7 +123,7 @@ Once the implementation completed, a beta version of the redesigned partner expe
 While many iterations focused on refining UX copy and naming conventions, feedback from our users pinpointed a significant issue: a revamped feature had strayed too far from the familiar user flow, inadvertently increasing friction and user errors.
 Promptly acting on this feedback, I revisited the wireframes and adjusted the navigation and flow for the problematic feature. We then validated this new design with our internal stakeholders, progressed to high-fidelity UIs, and set clear requirements for our engineers. Following this process and re-releasing the feature to our beta users, we observed a marked decrease in both friction and user errors.
 
-{% include lazy-image.html src="/images/illustration-partner-experience-mentor-collective-07.jpg" alt="Screenshot showing design iteration in Figma" caption="Design iterations in Figma. *Illustrations are intentionally non-specific due to confidentiality restrictions*" figClass="" %}
+{% include lazy-image.html src="/images/illustration-partner-experience-mentor-collective-07.jpg" alt="Screenshot showing design iteration in Figma" caption="Design iterations in Figma. *Illustrations purposfully blurred due to confidentiality restrictions*" figClass="" %}
 
 ### Post-Launch Monitoring and Results
 Alongside introducing the beta of the refreshed partner experience, we integrated a new analytics tool to meticulously track pivotal KPIs and evaluate the project's impact. Metrics such as NPS, DAU, MAU, feature adoption rates, and average session duration were at the forefront of our monitoring, aiming to determine any enhancements in user engagement and product stickiness.
