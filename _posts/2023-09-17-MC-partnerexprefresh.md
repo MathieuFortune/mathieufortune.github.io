@@ -48,7 +48,8 @@ When we started the project, our team faced a significant challenge: limited ins
 
 Our research kicked off with the aim to learn more about the needs and challenges faced by our partner users. At the time of this project, our internal analytics was quite limited, we were somewhat in the dark about the specifics of the user experience.
 
-To shed some light on this area, I collaborated with the UX researcher to create an interview script and reach out to our users to gather more qualitative data. Our focus wasn’t just on our external partners but also on our internal team — specifically, account managers who engaged with our partners daily and could provide firsthand insights about their experiences with the product.
+To shed some light on this area, I collaborated with the UX researcher to create an interview script and reach out to our users to gather more qualitative data. 
+Our focus wasn’t just on our external partners but also on our internal team — specifically, account managers who engaged with our partners daily and could provide firsthand insights about their experiences with the product.
 
 We managed to interview 2 partners, representative of our core user audience, and had insightful discussions with 5 of our internal team members. 
 
@@ -65,7 +66,10 @@ To process and document our research, I used Dovetail, a collaborative user feed
 
 - The dashboard only displayed aggregated “all-time” data. However, our partners were interested in observing data trends over specific time frames and wanted detailed breakdowns segmented by student populations to better understand their students' journeys and needs.
 
-Collectively, these insights underscored the following desire: users wanted a more hands-on approach in managing their mentorship initiatives by directly accessing the data the platform generated. The initial partner experience was designed with the account manager as the central conduit (a comprehensive choice given its MVP nature). However, over time, user needs had evolved, and our research also highlighted a pressing requirement for a more scalable solution.
+Collectively, these insights underscored the following desire: 
+- users wanted a more hands-on approach in managing their mentorship initiatives by directly accessing the data the platform generated. 
+
+The initial partner experience was designed with the account manager as the central conduit (a comprehensive choice given its MVP nature). However, over time, user needs had evolved, and our research also highlighted a pressing requirement for a more scalable solution.
 
 After sharing these findings with my product manager, we defined a clearer objective to guide the design ideation phase. We articulated this objective as a user story:
 
@@ -80,12 +84,15 @@ With these learnings in hand, I switched to the ideation phase, here’s a break
 My starting point was diving deep into the existing dashboard. Having been designed by a design contractor during the company's early stage, there was a knowledge gap within the team about this part of the product. This step was pivotal in understanding both its strengths and the areas needing improvements.
 
 ### From Challenge to Creativity: The Brainwriting Session
-With the main user need identified and a better knowledge of the current product, I initiated a remote brainwriting exercise using Whimsical and “How Might We” questions to facilitate the flow of ideas. Recognizing the value of diverse perspectives, I strategically invited internal team members who interact with our users at various stages of their journey. This eclectic group comprised a salesperson, two account managers, an engineer, and two members from the product team: the Director of Curriculum and a Product Manager. The exercise ensured a rich pool of ideas, drawing from each participant's unique experiences and insights with our users.
+With the main user need identified and a better knowledge of the current product, I initiated a remote brainwriting exercise using Whimsical and “How Might We” questions to facilitate the flow of ideas.
+
+Recognizing the value of diverse perspectives, I strategically invited internal team members who interact with our users at various stages of their journey. This eclectic group comprised a salesperson, two account managers, an engineer, and two members from the product team: the Director of Curriculum and a Product Manager. The exercise ensured a rich pool of ideas, drawing from each participant's unique experiences and insights with our users.
 
 {% include lazy-image.html src="/images/illustration-partner-experience-mentor-collective-02.jpg" alt="Screenshot showing brainstorming notes" caption="Brainwriting notes in Whimsical. *Illustrations purposfully blurred due to confidentiality restrictions*" figClass="" %}
 
 ### From Insight to Ideation
-With the initial brainstorming phase completed, I transitioned to several rounds of ideation and sketching. I laid out a journey map to help us visualize the paths our user would take to accomplish certain tasks and crafted wireframes of the new partner experience. Leveraging Whimsical, I collaborated seamlessly with my Product Manager and Lead Engineer to gather their feedback.
+With the initial brainstorming phase completed, I transitioned to several rounds of ideation and sketching. I laid out a journey map to help us visualize the paths our user would take to accomplish certain tasks and crafted wireframes of the new partner experience.
+Leveraging Whimsical, I collaborated seamlessly with my Product Manager and Lead Engineer to gather their feedback.
 
 {% include lazy-image.html src="/images/illustration-partner-experience-mentor-collective-03.jpg" alt="Screenshot showing ideation work in Whimsical" caption="User Journey Map and Wireframes in Whimsical. *Illustrations purposfully blurred due to confidentiality restrictions*" figClass="" %}
 
@@ -94,8 +101,8 @@ I then reconnected with the internal team members previously interviewed to walk
 - ensuring our direction aligned with their insights
 - confirming that our solutions addressed their highlighted pain points
 
-### Advancing to Detailed UI Designs
-With increased confidence in our direction, I transitioned into a more granular design phase. Using Figma, the wireframes evolved into detailed, high-fidelity user interfaces, reflecting both aesthetics and functionality.
+### Advancing to High-fidelity UIs
+With increased confidence in our direction, I transitioned into the next design phase. Using Figma, the wireframes evolved into detailed, high-fidelity user interfaces, reflecting both aesthetics and functionality.
 
 - At the heart of these designs was a comprehensive dashboard page, detailed with data visualization charts
 - To account for the large datasets of our users, I designed a robust data table, equipped with extensive filtering capabilities, ensuring effective management of participants, mentorships, and program activities
@@ -113,11 +120,15 @@ In crafting these refined UIs, I leaned heavily on a <a href="https://mathieufor
 {% include lazy-image.html src="/images/illustration-partner-experience-mentor-collective-05.jpg" alt="Screenshot showing design system in Figma" caption="Excerpt of Design System in Figma. *Illustrations purposfully blurred due to confidentiality restrictions*" figClass="" %}
 
 ### Preparation for Implementation
-Following the completion of the high-fidelity UIs, I collaborated closely with the Product Manager and Engineering Lead. 
-To ensure my designs were easy to follow, I recorded a video walkthrough detailing key information. This approach, combined with discussions with the Product Manager, also enabled us to write a clear set of requirements for the engineering team that would subsequently be used to create the engineering plan.
+Following the completion of the high-fidelity UIs, I collaborated closely with the Product Manager and Engineering Lead.
+To ensure my designs were easy to follow, I recorded a video walkthrough detailing key information. 
+
+This approach, combined with discussions with the Product Manager, also enabled us to write a clear set of requirements for the engineering team that would subsequently be used to create the engineering plan.
 
 ### Collaboration with Developers
-Ensuring seamless transition to the implementation phase, I provided meticulous hand-off notes accompanied by the design walkthrough video. These resources were conveniently housed in Figma, adjacent to the high-fidelity UIs as well as in Asana. Throughout the implementation phase, I regularly engaged in quality control tests, collaborating closely with engineers to guarantee accurate representation of my designs and complete accessibility (WCAG AA) compliance.
+Ensuring seamless transition to the implementation phase, I provided meticulous hand-off notes accompanied by the design walkthrough video. These resources were conveniently housed in Figma, adjacent to the high-fidelity UIs as well as in Asana.
+
+Throughout the implementation phase, I regularly engaged in quality control tests, collaborating closely with engineers to guarantee accurate representation of my designs and complete accessibility (WCAG AA) compliance.
 
 {% include lazy-image.html src="/images/illustration-partner-experience-mentor-collective-06.jpg" alt="Screenshot showing design hand-off notes in Figma" caption="Design Hand-off Notes for engineers. *Illustrations purposfully blurred due to confidentiality restrictions*" figClass="" %}
 
@@ -132,7 +143,9 @@ With the easy to follow set of requirements set by the Product Manager and mysel
 
 Once the implementation completed, a beta version of the redesigned partner experience was rolled out to a select group of users. This beta rollout was essential to the team to ensure quick and efficient iterations of this complex and extensive project.
 
-While many iterations focused on refining UX copy and naming conventions, feedback from our users pinpointed a significant issue: a revamped feature had strayed too far from the familiar user flow, inadvertently increasing friction and user errors.
+While many iterations focused on refining UX copy and naming conventions, feedback from our users pinpointed a significant issue: 
+- a revamped feature had strayed too far from the familiar user flow, inadvertently increasing friction and user errors.
+
 Promptly acting on this feedback, I revisited the wireframes and adjusted the navigation and flow for the problematic feature. We then validated this new design with our internal stakeholders, progressed to high-fidelity UIs, and set clear requirements for our engineers. Following this process and re-releasing the feature to our beta users, we observed a marked decrease in both friction and user errors.
 
 {% include lazy-image.html src="/images/illustration-partner-experience-mentor-collective-07.jpg" alt="Screenshot showing design iteration in Figma" caption="Design iterations in Figma. *Illustrations purposfully blurred due to confidentiality restrictions*" figClass="" %}
