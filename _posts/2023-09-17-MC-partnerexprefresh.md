@@ -2,7 +2,7 @@
 layout: post
 title:  "Modernizing the Partner Experience of Mentor Collective's SaaS Platform"
 excerpt: |
-   Mentor Collective's journey from a basic dashboard to an intuitive platform saw a 116% user engagement surge. This case study highlights a blend of tech, user empathy, and team synergy in modernizing a tool essential for higher-ed administrators.
+   Mentor Collective's journey from a basic dashboard to an intuitive platform led to a 116% user engagement surge. This case study highlights a blend of tech, user empathy, and team synergy in modernizing a tool essential for higher-ed administrators.
 thumbnail: "/images/cover-partner-experience-refresh-mentor-collective.jpg"
 date:   2023-09-03 13:30:00 +0200
 lang: en
@@ -42,17 +42,18 @@ The initial MVP state of the partner dashboard was under strain. Both its perfor
 
 Beyond fulfilling commitments from recent contracts, the team also wanted to redesign the dashboard to comply with WCAG AA standards. We aimed to provide an enjoyable user experience for everyone.
 
-When we started the project, our team faced a significant challenge: limited insight into how users interacted with the product. For a data-driven team like ours, understanding their needs, pain points, and usage patterns was crucial for any meaningful improvement.
+When we started the project, our team faced a significant challenge: limited insight into how users interacted with the product. For a data-driven team like ours, understanding users' needs, pain points, and usage patterns was crucial for any meaningful improvement.
 
 
 ## User-Centric Discovery
 
-Our research kicked off with learning more about the needs and challenges faced by our partner users. At the time of this project, our internal analytics was limited to device and session data, we were somewhat in the dark about the specifics of the user behavior.
+Our research began with learning more about the needs and challenges faced by our partner users. At the time of this project, our internal analytics was limited to device and session data; we were somewhat in the dark about the specifics of the user behavior.
 
 To shed some light on this area, I collaborated with the UX researcher to create an interview script and reach out to our users to gather more qualitative data.
+
 Our focus wasn’t just on our external partners but also on our internal team — specifically, account managers who engaged with our partners daily and could provide firsthand insights about their experiences with the product.
 
-We managed to interview 2 partners, representative of our core user audience, and had insightful discussions with 5 of our internal team members. Landing interviews with additional partners had been proven difficult due to the back-to-school season but we were confident that our internal team could cover the gap.
+We managed to interview two partners, who represented our core user audience, and had insightful discussions with five of our internal team members. Landing interviews with additional partners had been proven difficult due to the back-to-school season but we were confident that our internal team could fill the gap.
 
 To process and document our research, I used Dovetail, a collaborative user feedback analysis platform. Recordings of the interviews would be uploaded and transcripts tagged with keywords relevant for our project. This data-driven approach allowed us to quickly identify recurring pain points and needs.
 
@@ -61,16 +62,16 @@ To process and document our research, I used Dovetail, a collaborative user feed
 
 ## Key Takeaways
 
-- Partners faced challenges when trying to export data from the dashboard. While they often needed to incorporate sections of data into their BI tool for advanced analysis, their only recourse was to request account managers to fetch it for them. This indirect method introduced undue friction, especially since the data was readily available in our system but not directly accessible to the partners. This lack of direct download capability deterred them from logging in, adversely affecting user engagement with our product.
+- Partners faced challenges when trying to export data from the dashboard. While they often needed to incorporate sections of data into their BI tool for advanced analysis, their only recourse was to request this information from account managers. This introduced undue friction, especially because the data was readily available in our system but not directly accessible to partners. This lack of direct download capability deterred them from logging in, decreasing user engagement with our product.
 
-- Quick data checks or "at-a-glance" views, especially when reporting to their financial decision-makers, was difficult to perform. This data was available in our system, but once again, only account managers had visibility on it. This issue was also negatively affecting user engagement.
+- Quick data checks or "at-a-glance" views, which partners used for reporting to their financial decision-makers, were difficult to perform. This data was available in our system, but once again, only account managers had access to this information. This issue also negatively affected user engagement.
 
 - The dashboard only displayed aggregated “all-time” data. However, our partners were interested in observing data trends over specific time frames and wanted detailed breakdowns segmented by student populations to better understand their students' journeys and needs.
 
-Collectively, these insights underscored the following desire:
-- users wanted a more hands-on approach in managing their mentorship initiatives by directly accessing the data the platform generated.
+Collectively, these insights underscored the following needs:
+- Partners wanted a more hands-on approach in managing their mentorship initiatives by directly accessing the data the platform generated.
 
-The initial partner experience was designed with the account manager as the central conduit (a comprehensive choice given its MVP nature). However, over time, user needs had evolved, and our research also highlighted a pressing requirement for a more hands-on solution.
+The initial partner experience was designed with the account manager as the conduit of data communication, which temporarily met the needs of users given the MVP nature of the platform. However, over time, user needs evolved, and our research highlighted the need for a more hands-on approach.
 
 After sharing these findings with my Product Manager, we defined a clear objective to guide the design phase. We articulated this objective as a user story:
 
@@ -180,3 +181,5 @@ In essence, without the multifaceted collaboration – both internally and with 
 
 Interested in elevating your product's user experience? Let's collaborate and drive tangible results, as showcased in this case study.
 <a href="mailto:pro.mathieu.fortune@gmail.com">Reach out</a>, and together, let's craft solutions that resonate with your audience.
+
+
