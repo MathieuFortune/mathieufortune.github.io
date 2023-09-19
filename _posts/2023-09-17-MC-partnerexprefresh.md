@@ -60,7 +60,7 @@ To process and document our research, I used Dovetail, a collaborative user feed
 {% include lazy-image.html src="/images/illustration-partner-experience-mentor-collective-01.jpg" alt="Screenshot showing research documented in Dovetail" caption="Research documented in Dovetail. *Illustrations purposely blurred due to confidentiality restrictions*" figClass="" %}
 
 
-## Key Takeaways
+### Key Takeaways
 
 - Partners faced challenges when trying to export data from the dashboard. While they often needed to incorporate sections of data into their BI tool for advanced analysis, their only recourse was to request this information from account managers. This introduced undue friction, especially because the data was readily available in our system but not directly accessible to partners. This lack of direct download capability deterred them from logging in, decreasing user engagement with our product.
 
