@@ -27,7 +27,7 @@ As the Senior Product Designer, I led the end-to-end product design process from
 - Whimsical for brainstorming and wireframing
 - Figma for both low- and high-fidelity UI design
 - The new design system <a href="https://mathieufortune.github.io/MC-designsystem.html" target="_blank">I recently had championed</a>
-- Asana for project management and guiding engineering implementation
+- Asana for project management and guiding engineering implementation (later on the team switched to Jira/Confluence)
 
 My team included a Product Manager, a squad of five Software Engineers and a UX researcher for the initial problem discovery.
 
