@@ -27,8 +27,9 @@ While strategizing on the business and plotting out marketing blueprints, it bec
 
 Thus, my first significant project was twofold:
 
-- _Refreshing the brand identity_: The objective was to encapsulate the essence, vision, and mission of Mograph Mentor into a recognizable and resonant brand identity. This involved curating a color palette, typography, and brand guidelines that would set us apart in a rapidly evolving industry.
-- _Revamping the company website_: Our marketing website was the main entry point into our offering. It was crucial to design a user-friendly, engaging, and informative site that catered not just to our existing community but also to potential mentors. The challenge was to construct a site capable of supporting our envisaged business growth and the forthcoming expansion of our course catalog.
+- **Refreshing the brand identity:** The objective was to encapsulate the essence, vision, and mission of Mograph Mentor into a recognizable and resonant brand identity. This involved curating a color palette, typography, and brand guidelines that would set us apart in a rapidly evolving industry.
+
+- **Revamping the company website:** Our marketing website was the main entry point into our offering. It was crucial to design a user-friendly, engaging, and informative site that catered not just to our existing community but also to potential mentors. The challenge was to construct a site capable of supporting our envisaged business growth and the forthcoming expansion of our course catalog.
 
 <div class="col-half--left">
 
@@ -54,9 +55,9 @@ Sketchbook + pencil, Figma, Adobe Creative Suite, HTML/CSS, Google Analytics, Ho
 
 As I delved deeper into the heart of Mograph Mentor's operations, two significant challenges came up:
 
-_Overcoming legacy limitations_: The existing website, though functional, was a rudimentary tool that lacked the robustness and versatility required to accommodate our ambitious growth plans. The bare-bone capabilities it offered were quickly becoming bottlenecks. It became evident that this solution would be insufficient; a ground-up rebuild was needed.
+**Overcoming legacy limitations:** The existing website, though functional, was a rudimentary tool that lacked the robustness and versatility required to accommodate our ambitious growth plans. The bare-bone capabilities it offered were quickly becoming bottlenecks. It became evident that this solution would be insufficient; a ground-up rebuild was needed.
 
-_Navigating a competitive landscape_: The motion design industry is expansive and fiercely competitive. To truly distinguish Mograph Mentor amidst a sea of competitors, it was key to gain a holistic understanding of our target audience. Their aspirations, challenges, and motivations needed to be at the core of our redesigned brand identity and website. Additionally, immersing myself in the intricate world of motion design was crucial. It wasn't just about aesthetics or functionality; it was about creating a platform that resonated with both seasoned professionals and budding artists.
+**Navigating a competitive landscape:** The motion design industry is expansive and fiercely competitive. To truly distinguish Mograph Mentor amidst a sea of competitors, it was key to gain a holistic understanding of our target audience. Their aspirations, challenges, and motivations needed to be at the core of our redesigned brand identity and website. Additionally, immersing myself in the intricate world of motion design was crucial. It wasn't just about aesthetics or functionality; it was about creating a platform that resonated with both seasoned professionals and budding artists.
 Addressing these challenges wasn't just about design and development; it was a deep dive into strategy, understanding our stakeholders, and leveraging the very essence of what motion design represented.
 
 
