@@ -67,8 +67,6 @@ Addressing these challenges wasn't just about design and development; it was a d
 
 I designed, tested, and launched a new brand identity and fully functional website to market Mograph Mentor’s business and increase brand awareness across the industry.
 
-Visit the final [Mograph Mentor website](https://www.mographmentor.com "Mograph Mentor Website"){:target="_blank"}
-
 {% include lazy-image.html src="/images/mographmentor-casestudy.gif" alt="New website design of Mograph Mentor" caption="Mograph Mentor - New website design" figClass="" %}
 
 ### Brand Identity Guidelines
@@ -152,13 +150,15 @@ To help me drive the decision making and prioritize design decision, I establish
 
 **Performance First**: With an e-commerce platform, loading performance was key to facilitate conversion. This goal also aligns with my design philosophy, Form follows Function.
 
+**Mobile Optimized**: Design a seamless user experience optimized for both desktop and mobile platforms, ensuring accessibility, functionality, and engagement for all audience types.
+
 **Better Navigation**: The old website was missing a critical navigation path to access the on-demand courses. These on-demand courses representing our revenue’s baseline, easy access was imperative to the business’s success.
 
 **Feature Our Mentors**: Our values and mission aimed to promote human interactions above all else. In my competitor analysis and user research, we also learned that promoting our mentors was key for our market positioning.
 
 **Improved Tracking**: Data-driven decisions are crucial to success. Since the previous website had no tracking, I was working in the dark. To avoid this in the future, I designed this new website with data collection features in mind.
 
-**Iterate, Iterate, Iterate**: A design is never finished. Iterate on it with the help of data and usability tests was mandatory for this new website’s success. I designed this website in 3 sprints with tests at the end of each cycle.
+**Iterations**: A design is never finished. Iterate on it with the help of data and usability tests was mandatory for this new website’s success. I designed this website in 3 sprints with tests at the end of each cycle.
 
 ### Brand Development
 
