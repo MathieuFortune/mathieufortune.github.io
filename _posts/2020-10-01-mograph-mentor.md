@@ -17,8 +17,6 @@ theme: Case Study
 
 Mograph Mentor offers online motion graphics courses, challenging the conventional higher education model in the arts. Our on-demand training and mentorship classes enable artists to sharpen their skills and launch successful careers. This case study highlight, as a co-founder, how I've reimagined our online presence through a website and brand overhaul.
 
-*After 3 years of hard work and *
-
 ## Deliverables
 
 When I joined Mograph Mentor in late 2018, the company's vision was more extensive than its current trajectory. My business partner had passionately embarked on this endeavor as a side-project. While the initial steps were commendable, the potential was vast, and to truly tap into it, there was a need for a shift. 
