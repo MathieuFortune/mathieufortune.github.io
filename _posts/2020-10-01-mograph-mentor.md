@@ -15,13 +15,13 @@ theme: Case Study
 
 ## Overview
 
-Mograph Mentor offers online motion graphics courses, challenging the conventional higher education model in the arts. Our on-demand training and mentorship classes enable artists to sharpen their skills and launch successful careers. This case study highlight, as a co-founder, how I've reimagined our online presence through a website and brand overhaul.
-
-## Deliverables
+Mograph Mentor offers online motion graphics courses, challenging the conventional higher education model in the arts. Our on-demand training and mentorship classes enable artists to sharpen their skills and launch successful careers.
 
 When I joined Mograph Mentor in late 2018, the company's vision was more extensive than its current trajectory. My business partner had passionately embarked on this endeavor as a side-project. While the initial steps were commendable, the potential was vast, and to truly tap into it, there was a need for a shift. 
 
 Our mutual goal became clear: transform this side-project into a full-fledged startup with a mission. We aimed not just to operate in the motion design world but to revolutionize the way to learn. Our mission was to equip artists with new skills, giving them a competitive edge and paving the way for abundant work opportunities.
+
+## Deliverables
 
 While strategizing on the business and plotting out marketing blueprints, it became increasingly clear that the company's face, its brand identity, and digital presence, needed a complete overhaul. This was more than just a design revamp; it was about setting the tone for what Mograph Mentor would represent in the industry.
 
