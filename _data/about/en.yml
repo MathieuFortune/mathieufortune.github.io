@@ -5,7 +5,7 @@ print_it: Download resume
 cv:
   title: Mathieu Fortune
   desc: |
-    Product Manager
+    Product Designer
     <br/>Send me an email at <strong>pro.mathieu.fortune@gmail.com</strong>
 
 about:
@@ -22,19 +22,19 @@ experiences:
     desc: |
       Mentor Collective is an Ed-Tech start-up, bridging the equity gap in higher-education by serving over 2M users across 200+ academic institutions with an intuitive SaaS platform.
       <br><br>
-      - SaaS Platform Overhaul: Led redesign of the SaaS platform, employing a mobile-first approach and adhering to WCAG AA standards, elevating user experience and accessibility.
+      - _SaaS Platform Overhaul_: Led redesign of the SaaS platform, employing a mobile-first approach and adhering to WCAG AA standards, elevating user experience and accessibility.
       <br><br>
-      - Design Systems Creation: Spearheaded creation of a cohesive, company-wide design system, harmonizing design practices and boosting operational efficiency.
+      - _Design Systems Creation_: Spearheaded creation of a cohesive, company-wide design system, harmonizing design practices and boosting operational efficiency.
       <br><br>
-      - Data-Driven Design: Performed comprehensive user research to collect both quantitative and qualitative key insights into diverse user needs and preferences, informing the development of user-centric solutions.
+      - _Data-Driven Design_: Performed comprehensive user research to collect both quantitative and qualitative key insights into diverse user needs and preferences, informing the development of user-centric solutions.
       <br><br>
-      - End-to-End Design: Delivered the full spectrum of design tasks, from conceptual wireframes to high-fidelity interfaces using Figma, aligning with user and business goals.
+      - _End-to-End Design_: Delivered the full spectrum of design tasks, from conceptual wireframes to high-fidelity interfaces using Figma, aligning with user and business goals.
       <br><br>
-      - Cross-Functional Collaboration: Contributed to a collaborative environment, working with globally distributed, remote cross-functional teams, including product managers and engineering, to ensure the timely delivery of high-quality B2C and B2B applications.
+      - _Cross-Functional Collaboration_: Contributed to a collaborative environment, working with globally distributed, remote cross-functional teams, including product managers and engineering, to ensure the timely delivery of high-quality B2C and B2B applications.
       <br><br>
-      - Quality Assurance: Ensured quality control for new feature deployments, upholding product excellence and user satisfaction.
+      - _Quality Assurance_: Ensured quality control for new feature deployments, upholding product excellence and user satisfaction.
       <br><br>
-      - Mentored Junior Designers: Provided mentorship and guidance to junior designers and cross-functional team members, fostering a collaborative and learning-oriented design culture.
+      - _Mentored Junior Designers_: Provided mentorship and guidance to junior designers and cross-functional team members, fostering a collaborative and learning-oriented design culture.
       <br><br>
       Skills: Ed-Tech, SaaS, WCAG Accessibility, Mobile-First Design, Design System, Cross-Functional Collaboration, Design Leadership, Remote Work, User Research, User-Centric Design, A/B Testing, End-to-End Design, Figma, Asana, Jira, Quality Control, Product Development, B2C, B2B, Web Applications, Mobile Applications.
 
@@ -47,17 +47,17 @@ experiences:
     desc: |
       MoGraph Mentor is an Ed-Tech startup, helping motion designers develop their career by providing curated group mentorship programs and specialized curriculum, delivered by industry-leading professionals in Design and Animation.
       <br><br>
-      - Strategic Leadership & Product Development: Oversaw the inception and evolution of MoGraph Mentor, wearing multiple hats spanning product development, design, development, marketing, and business strategy, contributing to the company’s strategic direction and overall success.
+      - _Strategic Leadership & Product Development_: Oversaw the inception and evolution of MoGraph Mentor, wearing multiple hats spanning product development, design, development, marketing, and business strategy, contributing to the company’s strategic direction and overall success.
       <br><br>
-      - Market & User Research: Conducted market and user research, translating insights into a comprehensive and forward-looking product roadmap, driving product innovation and user-centered design.
+      - _Market & User Research_: Conducted market and user research, translating insights into a comprehensive and forward-looking product roadmap, driving product innovation and user-centered design.
       <br><br>
-      - Strategic Feature Prioritization: Executed strategic prioritization of product features, shaping the product’s trajectory and ensuring alignment with user needs and business objectives.
+      - _Strategic Feature Prioritization_: Executed strategic prioritization of product features, shaping the product’s trajectory and ensuring alignment with user needs and business objectives.
       <br><br>
-      - Design & Technical Execution: Led the end-to-end product creation with intuitive wireframes, prototypes, and user interfaces, managing technical implementations to bridge design and code, ensuring an optimal and user-friendly experience.
+      - _Design & Technical Execution_: Led the end-to-end product creation with intuitive wireframes, prototypes, and user interfaces, managing technical implementations to bridge design and code, ensuring an optimal and user-friendly experience on both mobile and desktop.
       <br><br>
-      - Content Curation & Collaboration: Initiated strong collaborations with business partners and content creators to curate and deliver compelling, high-quality educational content, enhancing learner engagement and experience.
+      - _Content Curation & Collaboration_: Initiated strong collaborations with business partners and content creators to curate and deliver compelling, high-quality educational content, enhancing learner engagement and experience.
       <br><br>
-      - Cross-Functional Team Management: Managed a cross-functional team of marketers and creatives, orchestrating go-to-market and product marketing strategies, fostering a cohesive and dynamic working environment.
+      - _Cross-Functional Team Management_: Managed a cross-functional team of marketers and creatives, orchestrating go-to-market and product marketing strategies, fostering a cohesive and dynamic working environment.
       <br><br>
       Skills: Product Leadership, Strategic Vision, Product Development, User-Centered Design, Content Curation, Market Research, Cross-Functional Collaboration, Feature Prioritization, Wireframing, Prototyping, Figma, Jira, Trello, Team Management, Go-To-Market Strategy, Product Marketing, Innovation, A/B Testing, Business Strategy, Educational Technology, HTML, CSS, Javascript, API, Adobe Photoshop, Adobe Illustrator, Adobe After Effects.
       
@@ -70,15 +70,15 @@ experiences:
     desc: |
       Inventive Format is a web consultancy, offering digital solutions catered to small to medium-sized enterprises, with a focus on driving brand visibility and business growth through innovative and user-centric digital strategies.
       <br><br>
-      - Strategic Market Research: Conducted comprehensive market research and gathered user insights to provide tailored services, including web design, development, and digital marketing strategies, addressing the unique needs of each client.
+      - _Strategic Market Research_: Conducted comprehensive market research and gathered user insights to provide tailored services, including web design, development, and digital marketing strategies, addressing the unique needs of each client.
       <br><br>
-      - Client Education & Mentorship: Educated clients about the latest web technologies, fostering digital literacy and empowerment, while mentoring junior designers and marketers, cultivating a learning-centric environment.
+      - _Client Education & Mentorship_: Educated clients about the latest web technologies, fostering digital literacy and empowerment, while mentoring junior designers and marketers, cultivating a learning-centric environment.
       <br><br>
-      - End-to-End Project Execution: Successfully executed over 20 projects, emphasizing research-driven, user-centered design and development approaches, ensuring the delivery of user experiences and alignment with client objectives.
+      - _End-to-End Project Execution_: Successfully executed over 20 projects, emphasizing research-driven, user-centered design and development approaches, ensuring the delivery of user experiences and alignment with client objectives.
       <br><br>
-      - Digital Marketing Strategy: Developed and implemented effective digital marketing strategies, enhancing brand visibility, engagement, and contributing to business growth.
+      - _Digital Marketing Strategy_: Developed and implemented effective digital marketing strategies, enhancing brand visibility, engagement, and contributing to business growth.
       <br><br>
-      - Client-Technology Mediation: Helped connect technology and clients' business goals, ensuring seamless alignment and realization of business objectives through tailored digital solutions.
+      - _Business Goals and Technology_: Helped connect technology and clients' business goals, ensuring seamless alignment and realization of business objectives through tailored digital solutions.
       <br><br>
       Skills: Web Consultancy, Digital Solutions, Market Research, User Insights, Web Design, Web Development, Digital Marketing, Client Education, Mentorship, User-Centric Design, Project Execution, Digital Strategy, Brand Visibility, Business Growth, Client-Technology Liaison, Revenue Generation, Technical Expertise, Strategic Thinking, Leadership, Figma, Adobe Photoshop, Adobe Illustrator, Adobe Premiere Pro, Adobe XD, Blender, Adobe After Effects.
 
