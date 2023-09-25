@@ -21,19 +21,19 @@ experiences:
     period: Boston, MA (Remote) | Apr 2021 - Sep 2023
     desc: |
       Mentor Collective is an Ed-Tech start-up, bridging the equity gap in higher-education by serving over 2M users across 200+ academic institutions with an intuitive SaaS platform.
-      <br><br>
+      <br/><br/>
       • SaaS Platform Overhaul: Led redesign of the SaaS platform for both the B2C and B2B experiences, employing a mobile-first approach and adhering to WCAG AA standards.
-      <br>
+      <br/><br/>
       • Design Systems Creation: Spearheaded creation of a company-wide design system, harmonizing design practices and boosting operational efficiency for both mobile and desktop experiences.
-      <br>
+      <br/><br/>
       • User Research: Leveraged various user research methods to collect both quantitative and qualitative key insights into diverse user needs and preferences, informing the development of user-centric solutions.
-      <br>
+      <br/><br/>
       • End-to-End Design: Delivered the full spectrum of design tasks, from conceptual wireframes to high-fidelity interfaces using Figma, aligning with user and business goals.
-      <br>
+      <br/><br/>
       • Cross-Functional Collaboration: Contributed to a collaborative environment, working with globally distributed, remote cross-functional teams, including product managers and engineering.
-      <br>
+      <br/><br/>
       • Quality Assurance: Ensured quality control for new feature deployments, upholding product excellence and user satisfaction.
-      <br>
+      <br/><br/>
       • Mentoring Junior Designers: Provided mentorship and guidance to junior designers and cross-functional team members, fostering constructive feedback and a learning-oriented design culture.
 
     results: Designed the extensive overhaul of the SaaS platform for both B2C and B2B experiences, following WCAG AA accessibility standards and mobile-first approach. This initiative resulted in a substantial 116% increase in user engagement and strengthened the platform's mobile experience. Implemented and maintained a design system used by 3 product/engineering teams across 20+ projects.
@@ -44,17 +44,17 @@ experiences:
     period: Sarasota, FL (Remote) | Jan 2019 - Apr 2022
     desc: |
       MoGraph Mentor is an Ed-Tech startup, helping motion designers develop their career by providing curated group mentorship programs and specialized curriculum, delivered by industry-leading professionals in Design and Animation.
-      <br><br>
+      <br/><br/>
       • Strategic Leadership & Product Development: Oversaw the inception and evolution of MoGraph Mentor, wearing multiple hats spanning product development, design, development, marketing, and business strategy, contributing to the company’s strategic direction and overall success.
-      <br>
+      <br/><br/>
       • Market & User Research: Conducted market and user research, translating insights into a comprehensive and forward-looking product roadmap, driving product innovation and user-centered design.
-      <br>
+      <br/><br/>
       • Strategic Feature Prioritization: Executed strategic prioritization of product features, shaping the product’s trajectory and ensuring flexibility and alignment with user needs and business objectives.
-      <br>
+      <br/><br/>
       • Design & Technical Execution: Led the end-to-end product creation with wireframes, prototypes, and user interfaces, managing technical implementations to bridge design and code, ensuring an optimal and user-friendly workflow and experience.
-      <br>
+      <br/><br/>
       • Content Curation & Collaboration: Initiated strong collaborations with business partners and content creators to curate and deliver compelling, high-quality educational content, enhancing learner engagement and experience.
-      <br>
+      <br/><br/>
       • Cross-Functional Team Management: Managed a cross-functional team of marketers and creatives, orchestrating go-to-market and product marketing strategies, fostering a cohesive and dynamic working environment.
       
     results: Achieved six-figure revenue milestone within two years, impacting over 50,000 students and creating a vibrant and interactive learning community.
@@ -65,15 +65,15 @@ experiences:
     period:  Miami, FL | Aug 2018 - Jul 2022
     desc: |
       Inventive Format was a web consultancy, offering digital solutions catered to small to medium-sized enterprises, with a focus on driving brand visibility and business growth through innovative and user-centric digital strategies.
-      <br><br>
+      <br/><br/>
       • Strategic Market Research: Conducted market research and gathered user insights to provide tailored services, including web design, development, and digital marketing strategies, addressing the unique needs of each client.
-      <br>
+      <br/><br/>
       • Client Education & Mentorship: Educated clients about the latest web technologies, fostering digital literacy and empowerment. Mentored junior designers and marketers, cultivating a learning-centric environment.
-      <br>
+      <br/><br/>
       • End-to-End Project Execution: Successfully executed over 20 projects, emphasizing research-driven, user-centered design and development approaches, ensuring the delivery of user experiences and alignment with client objectives.
-      <br>
+      <br/><br/>
       • Digital Marketing Strategy: Developed and implemented effective digital marketing strategies, enhancing brand visibility, engagement, and contributing to business growth.
-      <br>
+      <br/><br/>
       • Branding & Graphic Design: Helped bring client’s vision to life by providing branding and graphic design services, ensuring seamless alignment and realization of business objectives through tailored solutions.
 
     results: Led collective efforts resulting in the generation of over $700K in revenue, showcasing tangible results and significant return on investment for clients.
@@ -105,11 +105,11 @@ experiences:
     period: Montpellier, France | Jan 2015 - Jan 2016
     desc: |
       While working as a Front-end Developer at 1001pharmacies, an e-commerce marketplace specializing in drugstore products, I thrived within a dynamic engineering team under the guidance of the CTO. My role encompassed a spectrum of responsibilities, primarily focused on enhancing the front-end stack of our eCommerce platforms.
-      <br/>
+      <br/><br/>
       Leveraging my web agency experience, I collaborated seamlessly with the marketing team, aligning our efforts to design and develop innovative tools that catalyzed our growth initiatives. This multifaceted role demanded not only technical prowess but also a keen understanding of marketing, user behavior, and business objectives.
-      <br/>
+      <br/><br/>
       My contributions extended beyond coding and design; I played an instrumental role in optimizing the user experience, ensuring a seamless and visually engaging interface for our customers. This collaborative approach not only elevated our platform's performance but also enhanced its appeal to a diverse user base.
-      <br/>
+      <br/><br/>
       Reflecting on this experience, I treasure the opportunity to have contributed to the success of 1001pharmacies, bolstering my skills in front-end development, cross-functional teamwork, and driving strategic growth in the competitive e-commerce landscape.
 
 
@@ -179,37 +179,72 @@ skills_heading: Skills
 skills:
   - title: Product Management
     list:
-      - Management
-      - Strategic Thinking
-      - Leadership
-      - Agile Scrum/Kanban
-      - LEAN Start-up
-      - Data Analysis
+      - Product Lifecycle Management
+      - Market Research
+      - Product Strategy
+      - Product Roadmap
       - Feature Prioritization
-      - JIRA
-      - Trello
+      - Backlog Management
+      - Product Launch
+      - Go-to-Market Strategy
+      - Customer Journey Mapping
+      - User Stories
+      - Business Analysis
+      - Competitive Analysis
+      - Stakeholder Management
+      - ROI Analysis
+      - Metrics and Analytics
+      - Risk Management
+      - Product Optimization
   - title: Web Technologies
     list:
-      - HTML/CSS
-      - Less/Sass
-      - Javascript
-      - Versioning Git
-      - API
-      - JSON
-      - SQL
-      - PHP
+      - HTML
+      - CSS
+      - JavaScript
+      - React
+      - jQuery
+      - Bootstrap
+      - SASS/LESS
+      - Webpack / Babel
+      - npm / Yarn
+      - Git
+      - Cross-Browser Compatibility
+      - SEO Best Practices
+      - Unit Testing
+      - Integration Testing
+      - Accessibility (a11y)
+      - Agile Development
+      - Scrum/Kanban
   - title: UX/Design Skills
     list:
-      - User Research
-      - Wireframing
-      - Prototyping
-      - Visual Design
-      - Interation Design
-      - Motion Design
+      - User-Centered Design
+      - Human-Centered Design
       - Design Thinking
-      - Adobe CC
-      - Sketch
-      - Invision
+      - Interactive Design
+      - Visual Design
+      - Interaction Design
+      - Prototyping
+      - Wireframing
+      - Sketching
+      - User Experience Design (UX Design)
+      - User Interface Design (UI Design)
+      - Information Architecture
+      - Usability Testing
+      - User Research
+      - Design Systems
+      - Brand Development
+      - Graphic Design 
+      - Typography
+      - Color Theory
+      - Responsive Design
+      - Mobile Design
+      - Web Design
+      - Illustration
+      - Figma/Sketch/Adobe XD
+      - Mentorship
+      - Stakeholder Management
+      - Project Management
+      - Cross-functional Collaboration
   - title: Marketing Skills
     list:
        - Email Marketing
