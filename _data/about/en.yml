@@ -177,7 +177,7 @@ trainings:
 
 skills_heading: Skills
 skills:
-  - title: UX/Design Skills
+  - title: Product / UX Design
     list:
       - User-Centered Design
       - Human-Centered Design
@@ -226,7 +226,7 @@ skills:
       - Metrics and Analytics
       - Risk Management
       - Product Optimization
-  - title: Web Technologies
+  - title: Frontend Development
     list:
       - HTML
       - CSS
@@ -245,7 +245,7 @@ skills:
       - Accessibility (a11y)
       - Agile Development
       - Scrum/Kanban
-  - title: Marketing Skills
+  - title: Digital Marketing
     list:
        - Email Marketing
        - Inbound Marketing
