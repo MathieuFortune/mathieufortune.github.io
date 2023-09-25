@@ -177,6 +177,36 @@ trainings:
 
 skills_heading: Skills
 skills:
+  - title: UX/Design Skills
+    list:
+      - User-Centered Design
+      - Human-Centered Design
+      - Design Thinking
+      - Interactive Design
+      - Visual Design
+      - Interaction Design
+      - Prototyping
+      - Wireframing
+      - Sketching
+      - User Experience Design (UX Design)
+      - User Interface Design (UI Design)
+      - Information Architecture
+      - Usability Testing
+      - User Research
+      - Design Systems
+      - Brand Development
+      - Graphic Design 
+      - Typography
+      - Color Theory
+      - Responsive Design
+      - Mobile Design
+      - Web Design
+      - Illustration
+      - Figma/Sketch/Adobe XD
+      - Mentorship
+      - Stakeholder Management
+      - Project Management
+      - Cross-functional Collaboration
   - title: Product Management
     list:
       - Product Lifecycle Management
@@ -215,36 +245,6 @@ skills:
       - Accessibility (a11y)
       - Agile Development
       - Scrum/Kanban
-  - title: UX/Design Skills
-    list:
-      - User-Centered Design
-      - Human-Centered Design
-      - Design Thinking
-      - Interactive Design
-      - Visual Design
-      - Interaction Design
-      - Prototyping
-      - Wireframing
-      - Sketching
-      - User Experience Design (UX Design)
-      - User Interface Design (UI Design)
-      - Information Architecture
-      - Usability Testing
-      - User Research
-      - Design Systems
-      - Brand Development
-      - Graphic Design 
-      - Typography
-      - Color Theory
-      - Responsive Design
-      - Mobile Design
-      - Web Design
-      - Illustration
-      - Figma/Sketch/Adobe XD
-      - Mentorship
-      - Stakeholder Management
-      - Project Management
-      - Cross-functional Collaboration
   - title: Marketing Skills
     list:
        - Email Marketing
