@@ -70,13 +70,15 @@ With the help of engineers, I picked a data visualization library (Airbnb's VisX
 
 {% include lazy-image.html src="/images/illustration-design-system-mentor-collective-04.jpg" alt="Screenshot of data vizualisation color tests in Figma" caption="Testing chart type and color variation for our data visualization needs" figClass="" %}
 
-Besides colors and typography, I also made sure that every components would fit our project needs by tweaking and adding new ones where needed. 
+### Component tweaking and usage rules
+
+Besides colors and typography, I also made sure that every components would fit our product needs by tweaking and adding new ones where needed.
+
+With feedback from the team and researched UX best practices, I iteratively implemented usage rules and other documentations to each component.
 
 {% include lazy-image.html src="/images/illustration-design-system-mentor-collective-05.jpg" alt="Screenshot of button components in Figma" caption="Button components and usage rules" figClass="" %}
 
 {% include lazy-image.html src="/images/illustration-design-system-mentor-collective-06.jpg" alt="Screenshot of input components in Figma" caption="Input components and usage rules" figClass="" %}
-
-{% include lazy-image.html src="/images/illustration-design-system-mentor-collective-07.jpg" alt="Screenshot of notification components in Figma" caption="Notificaiton components and usage rules" figClass="" %}
 
 ## Promotion & Adoption
 While my engineering team was thrilled about the design system, its realization was a collaborative effort. 
@@ -85,14 +87,12 @@ As Mentor Collective's first design hire, I enjoyed a unique trust from the broa
 
 Throughout the process of creating this design system, I regularly held presentations and rubber-ducking sessions, briefing teams about our milestones and offering hands-on tutorials, especially on Figma for developers. 
 
-Collaboratng with the Design Lead, I iteratively implemented usage rules and other documentations to each component in the system.
-
 Challenges arose during technical implementations, but I navigated them through close-knit teamwork with engineers and quality control during our projects.
 
 ## The Impact
-Our design system transformed Mentor Collective's design narrative. It paved the way for consistent product roll-outs, even as our teams expanded. A testimonial from a Senior Software Engineer succinctly captures this transformation:
+The new design system transformed Mentor Collective's design narrative. It paved the way for consistent product roll-outs, even as our team expanded. A testimonial from a Senior Software Engineer capture this transformation:
 
-> "One of Mathieu’s most impactful early contributions to the team was collaborating with engineering to establish a thoughtful design system... This new design system was quickly used to redesign a highly visible dashboard... and saw a notable increase in visitor engagement after launch."
+> "One of Mathieu’s most impactful early contributions to the team was collaborating with engineering to establish a thoughtful design system... This new design system was quickly used to redesign a highly visible dashboard... and saw a notable increase in visitor engagement after launch." - Full quote available on Linkedin.
 
 ## Maintaining the Momentum
 Ensuring the design system remained updated and relevant was vital to its long-term success. Alongside a few engineers, we set up a "Frontend guild" at Mentor Collective. This group facilitated monthly discussions around the system's evolution based on product squads' needs and challenges. This initiative became the nexus for feedback, critique, and evolution of our design system.
@@ -102,4 +102,4 @@ Reflecting on the partner dashboard project, the design system's influence was k
 
 > "Mathieu championed the need for a more modern design system... The look and feel of the Mentor Collective platform (and the ability to scale it up) is a direct result of Mathieu's efforts."
 
-In essence, the design system wasn't just a toolkit—it was Mentor Collective's design voice, and I was privileged to be its main architect.
+In essence, the design system wasn't just a toolkit — it was Mentor Collective's design voice, and I was privileged to be its main architect.
