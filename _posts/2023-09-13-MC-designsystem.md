@@ -15,17 +15,16 @@ theme: Case Study
 
 *To comply with my non-disclosure agreement, I have omitted and obfuscated confidential information in this case study. Screenshots will be displayed throughout this case study for illustration purposes and might not represent the final work.*
 
-## The Genesis
+## The genesis
 
 When I joined Mentor Collective, the design and visual idenity of the product was fragmented. Throughout it's early development years, the company's story had been written by design contractors and product enthusiasts who weren't strictly designers. This meant a product dotted with inconsistent user experiences and visual identity. 
 
 I quickly identified a need for design system to create an unified voice, and allow us to scale rapidly and efficiently.
 
-## Why a Design System?
 The pace of Mentor Collective's growth was intense. Our product had to cater to both B2C and B2B audiences.
 I believed that a design system would equip our product and engineering teams to handle the looming complexity, ensuring swift and consistent delivery of user value.
 
-## Assessing Our Unique Needs
+## Assessing our unique needs
 I started this project by assessing Mentor Collective's Product team needs. Given the company's mission to help millions of students and higher-ed administrators bridge the equity gap in post-secondary education, the emphasis was clear: 
 - a robust dashboard design capable of handling large datasets to enable higher-ed administrators's work
 - a performant and mobile friendly application to connect students and manage communities
@@ -36,7 +35,7 @@ I probed engineers for collaboration. They provided valuable insights about whic
 
 Finnaly, I integrated the recently hired Design Lead's insights about the future trajectory of the design team to also inform our decision.
 
-## Key Components & Principles
+## Key components & principles
 Creating a design system from scratch for both the design and engineering team is no small feat. For this reason, we elected to start with an open-source system that would give us a head start.
 
 I elected guiding principles to help in my search:
@@ -80,7 +79,7 @@ With feedback from the team and researched UX best practices, I iteratively impl
 
 {% include lazy-image.html src="/images/illustration-design-system-mentor-collective-06.jpg" alt="Screenshot of input components in Figma" caption="Input components and usage rules" figClass="" %}
 
-## Promotion & Adoption
+## Promotion & adoption
 While my engineering team was thrilled about the design system, its realization was a collaborative effort. 
 
 As Mentor Collective's first design hire, I enjoyed a unique trust from the broader organization. They believed in my ability to implement essential tools to scale the company's product. 
@@ -89,16 +88,15 @@ Throughout the process of creating this design system, I regularly held presenta
 
 Challenges arose during technical implementations, but I navigated them through close-knit teamwork with engineers and quality control during our projects.
 
-## The Impact
+### Maintaining the momentum
+Ensuring the design system remained updated and relevant was vital to its long-term success. Alongside a few engineers, we set up a "Frontend guild" at Mentor Collective. This group facilitated monthly discussions around the system's evolution based on product squads' needs and challenges. This initiative became the nexus for feedback, critique, and evolution of our design system.
+
+## The impact
 The new design system transformed Mentor Collective's design narrative. It paved the way for consistent product roll-outs, even as our team expanded. A testimonial from a Senior Software Engineer capture this transformation:
 
 > "One of Mathieu’s most impactful early contributions to the team was collaborating with engineering to establish a thoughtful design system... This new design system was quickly used to redesign a highly visible dashboard... and saw a notable increase in visitor engagement after launch." - Full quote available on Linkedin.
 
-## Maintaining the Momentum
-Ensuring the design system remained updated and relevant was vital to its long-term success. Alongside a few engineers, we set up a "Frontend guild" at Mentor Collective. This group facilitated monthly discussions around the system's evolution based on product squads' needs and challenges. This initiative became the nexus for feedback, critique, and evolution of our design system.
-
-## The Partner Dashboard & Design System
-Reflecting on the partner dashboard project, the design system's influence was key. It streamlined processes, decisions, and most importantly, it ensured a cohesive visual narrative. The Vice President of Product aptly summarized its significance:
+Reflecting on the first project where it was introduced, the design system's influence was key. It streamlined processes, decisions, and most importantly, it ensured a cohesive visual narrative. The Vice President of Product aptly summarized its significance:
 
 > "Mathieu championed the need for a more modern design system... The look and feel of the Mentor Collective platform (and the ability to scale it up) is a direct result of Mathieu's efforts."
 
