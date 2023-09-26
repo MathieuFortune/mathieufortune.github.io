@@ -65,10 +65,10 @@ Typography was not skipped, we tested different font famillies and typographic s
 
 {% include lazy-image.html src="/images/illustration-design-system-mentor-collective-03.jpg" alt="Screenshot of typography research in Figma" caption="Researching various font famillies and typographic scales" figClass="" %}
 
-### Data visualization and various component tweaks
+### Data visualization
 With the help of engineers, I picked a data visualization library (Airbnb's VisX). I worked on creating the various chart type that would be needed in our product as well as making sure to test colors to guarantee accessibility compliance.
 
-{% include lazy-image.html src="/images/illustration-design-system-mentor-collective-04.jpg" alt="Screenshot of data vizualisation color tests in Figma" caption="Testing chart type and color variation for our data visualization needs" figClass="" %}
+{% include lazy-image.html src="/images/illustration-design-system-mentor-collective-04.jpg" alt="Screenshot of data vizualisation color tests in Figma" caption="Early color and chart type tests" figClass="" %}
 
 ### Component tweaking and usage rules
 
