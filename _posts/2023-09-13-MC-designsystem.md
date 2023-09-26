@@ -36,28 +36,32 @@ I probed engineers for collaboration. They provided valuable insights about whic
 Finnaly, I integrated the recently hired Design Lead's insights about the future trajectory of the design team to also inform our decision.
 
 ## Key Components & Principles
-To save us time and energy, we elected to choose an open-source design system giving us the foundational blocks to expand upon. 
+Creating a design system from scratch for both the design and engineering team is no small feat. For this reason, we elected to start with an open-source system that would give us a head start.
 
-Our guiding principles were clear:
-
+With the help of my engineering team, I elected guiding principles for our search:
 - Seamless React integration
-- WCAG AA compliance for accessibility
-- Simplified Figma usage
-- A special focus on dashboard designs
+- WCAG AA compliance of color and components
+- Figma friendly 
+- A focus on dashboard designs
 - Can be used for both mobile and web use cases
 
-After research, we picked Uber's Base design system. Its React-friendly nature coupled with built-in accessibility features made it stand out from other alternatives. 
+Our search landed with Uber's Base design system. Its React-friendly nature coupled with built-in accessibility  made it stand out from other alternatives. 
 
 However, despite it's solid techincal foundation, we weren't content with a simple adaptation of Uber's visual identity and design principles. 
 
 ### Colors
-I introduced a new color scheme to align with Mentor Collective's brand, ensuring contrast, usability and accessibility every step of the way.
+I introduced a new color palette to align with Mentor Collective's brand, ensuring contrast, usability and WCAG AA accessibility.
+To give us more flexibility with the color, I came up with a comprehensive set of colors broken down into three categories, greys, primary/secondary and supporting/accent.
 
-{% include lazy-image.html src="/images/illustration-design-system-mentor-collective-01.jpg" alt="Screenshot of color blindness tests in Figma" caption="Testing accessibility of colors for color blindness" figClass="" %}
-{% include lazy-image.html src="/images/illustration-design-system-mentor-collective-02.jpg" alt="Screenshot of UI color tests in Figma" caption="Testing colors in situation with dashboard mockups" figClass="" %}
+{% include lazy-image.html src="/images/illustration-design-system-mentor-collective-01.jpg" alt="Screenshot of new color palette" caption="Newly introduced color palette" figClass="" %}
+
+{% include lazy-image.html src="/images/illustration-design-system-mentor-collective-02.jpg" alt="Screenshot of color contrast and color blind tests" caption="Expanding shades and testing color blindness" figClass="" %}
+
+{% include lazy-image.html src="/images/illustration-design-system-mentor-collective-02-bis.jpg" alt="Screenshot of UI color tests in Figma" caption="Color test with UI elements to validate results" figClass="" %}
+
 
 ### Typography
-Leveraging my Design Lead's expertise with types, we tested different font famillies and typographic scales to ensure our product would be accessible and usable on every devices. I also researched and picked an icon library (IBM carbon icons) that would fit our new typographic style and suit our needs for dashboard designs.
+Typography was not skipped, we tested different font famillies and typographic scales to ensure our product would be accessible and usable on every devices. I also researched and picked an icon library (IBM carbon icons) that would fit our new typographic style and suit our needs for dashboard designs.
 
 {% include lazy-image.html src="/images/illustration-design-system-mentor-collective-03.jpg" alt="Screenshot of typography research in Figma" caption="Researching various font famillies and typographic scales" figClass="" %}
 
