@@ -89,7 +89,9 @@ Throughout the process of creating this design system, I regularly held presenta
 Challenges arose during technical implementations, but I navigated them through close-knit teamwork with engineers and quality control during our projects.
 
 ### Maintaining the momentum
-Ensuring the design system remained updated and relevant was vital to its long-term success. Alongside a few engineers, we set up a "Frontend guild" at Mentor Collective. This group facilitated monthly discussions around the system's evolution based on product squads' needs and challenges. This initiative became the nexus for feedback, critique, and evolution of our design system.
+Ensuring the design system remained updated and relevant was vital to its long-term success. Alongside a few engineers, we set up a "Frontend guild" at Mentor Collective. 
+
+This group facilitated monthly discussions around the system's evolution based on product squads' needs and challenges. This initiative became the nexus for feedback, critique, and evolution of our design system.
 
 ## The impact
 The new design system transformed Mentor Collective's design narrative. It paved the way for consistent product roll-outs, even as our team expanded. A testimonial from a Senior Software Engineer capture this transformation:
