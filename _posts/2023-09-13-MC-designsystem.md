@@ -2,7 +2,7 @@
 layout: post
 title:  "Championing the Design System at Mentor Collective"
 excerpt: |
-    Revolutionizing Mentor Collective's user experience by championing a cohesive design system, streamlining B2C & B2B product deliveries with visual and functional consistency.
+    Leading the creationg of a cohesive and accessible design system at Mentor Collective, streamlining B2C & B2B product deliveries with visual and functional consistency.
 thumbnail: "/images/thumbnail-design-system-mentor-collective.jpg"
 date:   2023-09-01 13:30:00 +0200
 lang: en
@@ -13,22 +13,23 @@ theme: Case Study
 
 {% include lazy-image.html src="/images/cover-design-system-mentor-collective.jpg" alt="Case study's cover image showing a dashboard with UI elements" caption="Mentor Collective - Design System Illustration" figClass="" %}
 
-*To comply with my non-disclosure agreement, I have omitted and obfuscated confidential information in this case study. All information in this case study is my own and does not necessarily reflect the views of Mentor Collective. Screenshots will be displayed throughout this case study for illustration purposes and might not represent the final work.*
+*To comply with my non-disclosure agreement, I have omitted and obfuscated confidential information in this case study. Screenshots will be displayed throughout this case study for illustration purposes and might not represent the final work.*
 
 ## The Genesis
 
-When I joined Mentor Collective, the design landscape of the product was fragmented. Throughout it's early development years, the company's story had been written by design contractors and product enthusiasts who weren't strictly designers. This meant a product dotted with inconsistent user experiences and visual identity. 
+When I joined Mentor Collective, the design and visual idenity of the product was fragmented. Throughout it's early development years, the company's story had been written by design contractors and product enthusiasts who weren't strictly designers. This meant a product dotted with inconsistent user experiences and visual identity. 
 
-As the company's first full-time design recruit, I quickly identified a need for design system to create an unified voice, and allow us to scale rapidly and efficiently.
+I quickly identified a need for design system to create an unified voice, and allow us to scale rapidly and efficiently.
 
 ## Why a Design System?
-The pace of Mentor Collective's growth was intense. Our product had to cater to both B2C and B2B audiences, a multifaceted challenge. 
+The pace of Mentor Collective's growth was intense. Our product had to cater to both B2C and B2B audiences.
 I believed that a design system would equip our product and engineering teams to handle the looming complexity, ensuring swift and consistent delivery of user value.
 
 ## Assessing Our Unique Needs
-I initiated this project by starting with assessing Mentor Collective's Product team needs. Given the company's mission to help millions of students and higher-ed administrators bridge the equity gap in post-secondary education, the emphasis was clear: 
+I started this project by assessing Mentor Collective's Product team needs. Given the company's mission to help millions of students and higher-ed administrators bridge the equity gap in post-secondary education, the emphasis was clear: 
 - a robust dashboard design capable of handling large datasets to enable higher-ed administrators's work
 - a performant and mobile friendly application to connect students and manage communities
+- an accessible product that everyone can use 
 
 Another key step was to align the design system with our Engineering stack for smooth integration.
 I probed engineers for collaboration. They provided valuable insights about which technology they were using and workflows they were following.
@@ -38,15 +39,14 @@ Finnaly, I integrated the recently hired Design Lead's insights about the future
 ## Key Components & Principles
 Creating a design system from scratch for both the design and engineering team is no small feat. For this reason, we elected to start with an open-source system that would give us a head start.
 
-With the help of my engineering team, I elected guiding principles for our search:
+I elected guiding principles to help in my search:
 - Seamless React integration
 - WCAG AA compliance of color and components
 - Figma friendly 
 - A focus on dashboard designs
 - Can be used for both mobile and web use cases
 
-Our search landed with Uber's Base design system. Its React-friendly nature coupled with built-in accessibility  made it stand out from other alternatives. 
-
+After review with the rest of the team, we landed with Uber's Base design system. Its React-friendly nature coupled with built-in accessibility made it stand out from other alternatives. 
 However, despite it's solid techincal foundation, we weren't content with a simple adaptation of Uber's visual identity and design principles. 
 
 ### Colors
