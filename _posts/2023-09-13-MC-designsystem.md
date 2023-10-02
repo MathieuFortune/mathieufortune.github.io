@@ -49,8 +49,8 @@ After review with the rest of the team, we landed with Uber's Base design system
 However, despite it's solid techincal foundation, we weren't content with a simple adaptation of Uber's visual identity and design principles. 
 
 ### Colors
-I introduced a new color palette to align with Mentor Collective's brand, ensuring contrast, usability and WCAG AA accessibility.
-To give us more flexibility with the color, I came up with a comprehensive set of colors broken down into three categories, greys, primary/secondary and supporting/accent.
+I introduced a color palette that would align with Mentor Collective's brand while emphasizing contrast, usability and WCAG AA accessibility.
+To improve the flexibility of this palette when designing, I segmented it into three categories: greys, primary/secondary, and supporting/accent colors while leveraging HSL (Hue, Saturation, Lightness) values to formulate the color ramp. To support this process, I used Eightshapes' contrast grid tool and a colorblind plug-in in Figma.
 
 {% include lazy-image.html src="/images/illustration-design-system-mentor-collective-01.jpg" alt="Screenshot of new color palette" caption="Newly introduced color palette" figClass="" %}
 
