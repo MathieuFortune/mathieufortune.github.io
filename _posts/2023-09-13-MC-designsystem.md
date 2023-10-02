@@ -60,7 +60,7 @@ To improve the flexibility of this palette when designing, I segmented it into t
 
 
 ### Typography
-Typography was not skipped, we tested different font famillies and typographic scales to ensure our product would be accessible and usable on every devices. I also researched and picked an icon library (IBM carbon icons) that would fit our new typographic style and suit our needs for dashboard designs.
+Next was typography. I tested different font famillies and typographic scales to ensure our product would be accessible and usable on every devices. I also researched and picked an icon library (IBM carbon icons) that would fit our new typographic style and suit our needs for dashboard designs.
 
 {% include lazy-image.html src="/images/illustration-design-system-mentor-collective-03.jpg" alt="Screenshot of typography research in Figma" caption="Researching various font famillies and typographic scales" figClass="" %}
 
