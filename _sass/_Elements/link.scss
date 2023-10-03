@@ -9,7 +9,7 @@ a {
   }
 
   &:hover {
-    color: darken($color--link, 5%);
+    color: $color--link--hover
   }
 }
 
