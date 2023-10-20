@@ -49,7 +49,7 @@ __- Product launch -__ Working with the marketing, legal, and PR team, I can flu
 
 __- Product enhancement -__ Sustain, improve your existing product's quality and performances by helping your team develop their skills and build critical functionalities.
 
-#### _I'm ready to add value to any team looking for an experienced and polyvalent Product Manager._
+#### _I'm ready to add value to any team looking for an experienced and polyvalent Senior Product Designer._
 
 <br/>
 
@@ -213,6 +213,28 @@ caption_url="http://www.sport-coach.fr/"
 {% endcomment %}
 
 ### References
+
+
+<blockquote class="small col-half--left">Don't wait on the chance to add Mathieu Fortune to your team! I had the pleasure to work along side Mathieu at Mentor Collective for nearly 3 years -- Me in the role of Senior Product Manager, and him in the role of Senior Product Designer. When running a product squad, a designer can really make or break a team's flow, and I can say without a doubt that Mathieu was always a key player in allowing us to ship high quality product work, quickly! He has a gift for being able to envision the big picture (think 1-5year plan), and also be able to work with the team to break that work out iteratively, so we can be continuously shipping, learning, and improving.  One of the ways Mathieu accomplished this while I worked with him, was via building out a reliable design system that not only supported our current product, but was able to grow and evolve as the product grew and evolved. The roll-out of this update was smooth and easy for the whole team to understand. Additionally, Mathieu's documentation is pristine. In fact, on one occasion while I was reviewing Mathieu's Figma designs, my husband (a VP of Product at a startup) looked over my shoulder and said, "Whoa, did your designer do that?! I've never seen such an organized Figma file!" For Mathieu, design work doesn't stop at building out a UX/UI that solves the user problem -- He follows through to make sure he communicates this design out to the development team in order to turn the ideas into a reality. Clear layers, research documentation, handoff notes, and a background in frontend engineering makes Mathieu a dream designer for engineers. I lost count of the number of sprint retros where the engineers sang his praises. All of this, and I still haven't talked about:<br/>
+<br/>1. The abundance of user research work Mathieu planned, conducted, neatly summarized, and shared with the team<br/>
+2. The discovery and brainstorming activities he would regularly lead<br/>
+3. The absolute pleasure it is just to work with somebody as kind, caring, and user focused as Mathieu <br/>
+<br/>
+Mathieu is hands down, one of the best designers I've had the pleasure to work with, and if you're lucky enough to add him to your team, I'm sure you'll feel the same way.
+<p class="text-right">Kelley J. - Senior Product Manager @ Mentor Collective</p>
+</blockquote>
+
+<blockquote class="small col-half--right">Mathieu was a Senior Product Designer on my team at Mentor Collective. In his time at Mentor Collective, I came to rely upon him for his insightful questions and probing perspective. He championed the need for a more modern design system for our B2B and B2C applications. He took ownership of the design system's process, deliverables and even the maintenance. The look and feel of the Mentor Collective platform (and the ability to scale it up) is a direct result of Mathieu's efforts. Lastly, Mathieu is a designer who not just designs for what is needed now, but strives to anticipate the next set of needs. His research and design will not just meet your immediate needs but plants the seeds for future directions.
+<p class="text-right">Stephen M. - VP of Product @ Mentor Collective</p>
+</blockquote>
+
+<blockquote class="small col-half--left">I had the pleasure of working closely with Mathieu as a software engineer while he served as our Senior Product Designer. Mathieu is an exceptional talent who consistently delivers outstanding results. One of Mathieu's greatest strengths is his ability to think and deliver quickly. His agility in problem-solving is remarkable, allowing us to tackle complex projects with ease. What sets Mathieu apart is his background as a frontend engineer, providing valuable insights into the engineering aspects of user-centric projects. Mathieu's out-of-the-box thinking and solution-oriented mindset make him a valuable asset to any team. If you're looking for a talented and versatile Senior Product Designer who excels in both creativity and technical understanding, I highly recommend Mathieu. His contributions have been instrumental in our projects' success, and I have no doubt he will continue to shine in his career.
+<p class="text-right">Kervin V. - Software Engineer @ Mentor Collective</p>
+</blockquote>
+
+<blockquote class="small col-half--right"> was fortunate to work with Mathieu for over two years on the same product squad at Mentor Collective and can confidently recommend him as a talented designer. As a Senior Product Designer, his dedication to research and data-driven design ensured that user experiences were not only visually compelling but also highly effective. Threading this needle is not always easy! Mathieu’s attention to detail and creative solutions are standout qualities that consistently elevated his work. What sets Mathieu apart is his ability to be a creative thought partner when it comes to bridging the gap between design and engineering, demonstrating a commitment to collaboration and teamwork. He consistently engaged in productive dialogue with engineers to improve design handoff processes and sprint workflows, and excelled in finding innovative design workarounds to technical limitations, which makes him an invaluable asset to any project. When he joined Mentor Collective, Mathieu was faced with a design landscape that had long been without a dedicated designer. He approached the buffet of design needs with creativity and impressive resolve. Our excitement and gratitude that he joined our team only increased the longer he was there. One of his most impactful early contributions to the team was collaborating with engineering to establish a thoughtful design system, aligning it with branding while enhancing usability and accessibility across the platform. This new design system was quickly used to redesign a highly visible dashboard that had unique data and usability challenges, and saw a notable increase in visitor engagement after launch. And he was just getting started! Mathieu's abundant contributions undeniably left a positive and lasting impact on our projects and the team. Any team would be lucky to have him.
+<p class="text-right">Lindsay W. - Senior Software Engineer @ Mentor Collective</p>
+</blockquote>
 
 <blockquote class="small col-half--left">
 Mathieu is great to work with. I was working with him during his mission at Gleeden. He was able to understand business requirements and technical limitations while delivering quality work. Mathieu is an extremely talented and driven individual that I would love to work with again.
