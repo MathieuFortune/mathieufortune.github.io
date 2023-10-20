@@ -1,53 +1,54 @@
 ---
 layout: page
-title:  "A bit about me"
+title:  "About me"
 menu_title: About me
 permalink: /about/
 ref: company
 lang: en
 ---
 
-<h3 class="joker-fs center no-marg-v"><em>"Sharing, Intellectual Honesty, Transparency, Well-being, Pragmatism, and Trust"</em></h3>
+<h3 class="joker-fs no-marg-v"><em>Sharing, Intellectual Honesty, Transparency, Well-being, Impact First, and Trust</em></h3>
 <br>
-Curiosity is my driving factor. I love absorbing new knowledge and mixing it with my existing understandings. I also love to share it with my colleagues.
+I'm a seasoned Product Designer with over 10 years of experience across start-ups and growth stage companies crafting E-commerce, SaaS and other consumer-facing products. I possess a unique blend of design proficiency, technical insight, and business acumen that enables me to lead collaborative initiatives to craft impactful, user-centered solutions that fuel business growth and elevate user satisfaction. I thrive when working from concept to delivery, partnering with cross-functional teams and collaborating closely with developers.
 
-I best perform in creative environments. Nothing energizes me like a deep brainstorming session.
-
-I relish a good challenge and encountering new cultures, personally or professionally. I've traveled across three continents to meet hundreds of people. I've started a company and bootstrapped to profitability. I have a special admiration for those who always strive for open-mindedness and knowledge.
+Curiosity is my driving factor. I love absorbing new knowledge and mixing it with my existing understandings. I also love to share it with my colleagues. I best perform in creative environments. Nothing energizes me like a deep brainstorming session. I relish a good challenge and encountering new cultures, personally or professionally. I've traveled across three continents to meet hundreds of people. I've started a company and bootstrapped to profitability. I have a special admiration for those who always strive for open-mindedness and knowledge.
 
 ### What
 
-During these past nine years of activity, I've :
+For the past eleven (11) years, I've :
 
-* <u>Co-founded</u> a start-up in the online education. Generating 6 figure revenue in the span of 18 months ;
+__Led the design overhaul of a SaaS platform__ for an ed-tech start-up serving 2M users over 180+ higher-ed institutions across the U.S.;
 
-* <u>Worked directly with clients</u> in agencies, defining product scopes, goals, user's assumptions and pain points ;
+__Spearheaded the development and maintained a design system__ used by 20+ product and engineering team members ;
 
-* <u>Led product feature overall</u> on a multi-million dollar e-commerce marketplace ;
+__Co-founded a start-up__ in the online education. Generating 6 figure revenue in the span of 18 months ;
 
-* <u>Built fast responsive website</u> with HTML5, CSS, Javascript, responsive design and Agile methods ;
+__Worked directly with clients__ in agencies, defining product scopes, goals, user's assumptions and pain points ;
 
-* <u>Designed aesthetic user interfaces</u>, mockups and prototypes of systems for websites and mobile applications ;
+__Led product feature design__ on a multi-million dollar e-commerce marketplace ;
 
-* <u>Led user research</u> with a design thinking and lean approach ;
+__Built fast responsive websites__ with HTML5, CSS, Javascript, responsive design and Agile methods ;
 
-* <u>Launched hundreds of marketing campaigns </u> that generated customer fidelity and revenue growth ;
+__Designed aesthetic user interfaces__, mockups and prototypes of systems for websites and mobile applications ;
 
-* And many more...
+__Performed user research activities__ with a design thinking and lean approach ;
+
+__Launched hundreds of marketing campaigns__ that generated customer fidelity and revenue growth ;
+
+and more...
 
 ### Who
 
-I strive in cross-functional teams where customer and stakeholder buy-in is essential to business success.
+I thrive working with cross-functional teams where customers and stakeholders buy-in is essential to business success.
+<br/>I can contribute at every stage of your product from concept to launch:
 
-I can contribute at every stage of your product from concept to launch:
+__Product conception -__ Research, user/stakeholder interviews, brainstorm solutions, roadmapping, I can help you research and identify your customer needs.
 
-__- Product conception -__ Research, user/stakeholder interviews, brainstorm solutions, roadmapping, I can help you research and identify your customer needs.
+__Product development -__ Need help during the development phase? I can deliver fast results by using Agiles practices.
 
-__- Product development -__ Need help during the development phase? I can deliver fast results by using Agiles practices.
+__Product launch -__ Working with the marketing, legal, and PR team, I can fluently communicate with different departments to coordinate product launch.
 
-__- Product launch -__ Working with the marketing, legal, and PR team, I can fluently communicate with different departments to coordinate product launch.
-
-__- Product enhancement -__ Sustain, improve your existing product's quality and performances by helping your team develop their skills and build critical functionalities.
+__Product enhancement -__ Sustain, improve your existing product's quality and performances by helping your team develop their skills and build critical functionalities.
 
 #### _I'm ready to add value to any team looking for an experienced and polyvalent Senior Product Designer._
 
@@ -58,159 +59,6 @@ __- Product enhancement -__ Sustain, improve your existing product's quality and
 </div>
 
 <br/>
-
-{% comment %}
-### Work
-
-Over the years, I’ve had the pleasure to work with several really great people and companies on some really awesome projects. Below are a few clients who I worked with at different stages.
-If you would like to see more examples or perhaps something a little more specific, please get in touch and I’d be happy to send you a few examples!
-
-
-{% include
-portfolio-single.html
-src="/images/portfolio/logo-1001.png"
-alt="Logo 1001pharmacies.com"
-width="180"
-heigh="180"
-caption_title="1001pharmacies"
-caption_desc="French startup in parapharmacy"
-caption_sub="E-commerce"
-caption_url="https://1001pharmacies.com"
-%}
-
-{% include
-portfolio-single.html
-src="/images/portfolio/logo-asbh.png"
-alt="Logo ASBH"
-width="180"
-heigh="180"
-caption_title="ASBH"
-caption_desc="Rugby Team"
-caption_sub="E-commerce"
-caption_url="http://www.asbh.net/boutique"
-%}
-
-{% include
-portfolio-single.html
-src="/images/portfolio/logo-connecttogether.png"
-alt="Logo Connect-together"
-width="180"
-heigh="180"
-caption_title="Connect Together"
-caption_desc="Raise funding website"
-caption_sub="Social Network"
-caption_url="http://www.connecttogether.com"
-%}
-
-{% include
-portfolio-single.html
-src="/images/portfolio/logo-conceptmosaique.png"
-alt="Logo Concept Mosaïque"
-width="180"
-heigh="180"
-caption_title="Concept Mosaïque"
-caption_desc="Tiles seller"
-caption_sub="E-commerce"
-caption_url="https://www.concept-mosaique.com/"
-%}
-
-{% include
-portfolio-single.html
-src="/images/portfolio/logo-frenchdmc.png"
-alt="Logo French DMC"
-width="180"
-heigh="180"
-caption_title="French DMC"
-caption_desc="Events agency"
-caption_sub="Institutional"
-caption_url="http://www.french-dmc.com/"
-%}
-
-{% include
-portfolio-single.html
-src="/images/portfolio/logo-grapesud.png"
-alt="Logo Grappe Sud"
-width="180"
-heigh="180"
-caption_title="Grappe Sud"
-caption_desc="Food industry"
-caption_sub="Institutional"
-caption_url="http://www.grapsud.com/"
-%}
-
-{% include
-portfolio-single.html
-src="/images/portfolio/logo-grappemontpellier.png"
-alt="Logo Grappe de Montpellier"
-width="180"
-heigh="180"
-caption_title="Grappe Montpellier"
-caption_desc="Liquor industry"
-caption_sub="Institutional"
-caption_url="http://www.lagrappedemontpellier.com/"
-%}
-
-{% include
-portfolio-single.html
-src="/images/portfolio/logo-internabroad.png"
-alt="Logo InternabroadUSA"
-width="180"
-heigh="180"
-caption_title="InternabroadUSA"
-caption_desc="Recruitment agency"
-caption_sub="Institutional"
-caption_url="http://internabroadusa.com/fr"
-%}
-
-{% include
-portfolio-single.html
-src="/images/portfolio/logo-lememo.png"
-alt="Logo Lememo"
-width="180"
-heigh="180"
-caption_title="Lememo"
-caption_desc="network linking"
-caption_sub="Institutional"
-caption_url="https://www.lememo.com/"
-%}
-
-{% include
-portfolio-single.html
-src="/images/portfolio/logo-proby.png"
-alt="Logo Proby"
-width="180"
-heigh="180"
-caption_title="Proby"
-caption_desc="Real estate"
-caption_sub="Catalog"
-caption_url="https://www.proby.fr/"
-%}
-
-{% include
-portfolio-single.html
-src="/images/portfolio/logo-propolia.png"
-alt="Logo Propolia"
-width="180"
-heigh="180"
-caption_title="Propolia"
-caption_desc="Food industry"
-caption_sub="E-commerce"
-caption_url="https://propolia.com/"
-%}
-
-{% include
-portfolio-single.html
-src="/images/portfolio/logo-sportcoach.png"
-alt="Logo Sport Coach"
-width="180"
-heigh="180"
-caption_title="Sport Coach"
-caption_desc="Events industry"
-caption_sub="Catalog"
-caption_url="http://www.sport-coach.fr/"
-%}
-
-{% endcomment %}
 
 ### References
 
@@ -257,7 +105,6 @@ My reason for recommending him is his talent for listening, inquiring, and proce
 <p class="text-right">Kervin V. - Software Engineer @ Mentor Collective</p>
 </blockquote>
 
-
 <blockquote class="small col-half--right">
 I was fortunate to work with Mathieu for over two years on the same product squad at Mentor Collective and can confidently recommend him as a talented designer. As a Senior Product Designer, his dedication to research and data-driven design ensured that user experiences were not only visually compelling but also highly effective. Threading this needle is not always easy! Mathieu’s attention to detail and creative solutions are standout qualities that consistently elevated his work. What sets Mathieu apart is his ability to be a creative thought partner when it comes to bridging the gap between design and engineering, demonstrating a commitment to collaboration and teamwork. He consistently engaged in productive dialogue with engineers to improve design handoff processes and sprint workflows, and excelled in finding innovative design workarounds to technical limitations, which makes him an invaluable asset to any project. When he joined Mentor Collective, Mathieu was faced with a design landscape that had long been without a dedicated designer. He approached the buffet of design needs with creativity and impressive resolve. Our excitement and gratitude that he joined our team only increased the longer he was there. One of his most impactful early contributions to the team was collaborating with engineering to establish a thoughtful design system, aligning it with branding while enhancing usability and accessibility across the platform. This new design system was quickly used to redesign a highly visible dashboard that had unique data and usability challenges, and saw a notable increase in visitor engagement after launch. And he was just getting started! Mathieu's abundant contributions undeniably left a positive and lasting impact on our projects and the team. Any team would be lucky to have him.
 <p class="text-right">Lindsay W. - Senior Software Engineer @ Mentor Collective</p>
@@ -268,11 +115,22 @@ You want Mathieu on your team. I worked with him on multiple projects while at M
 <p class="text-right">Jennifer K., Product Manager @ Mentor Collective</p>
 </blockquote>
 
-
-<blockquote class="small col-half--left">
+<blockquote class="small col-third">
 Mathieu is great to work with. I was working with him during his mission at Gleeden. He was able to understand business requirements and technical limitations while delivering quality work. Mathieu is an extremely talented and driven individual that I would love to work with again.
 <p class="text-right">Solène Paillet, Marketing Director French Division @ Gleeden</p>
 </blockquote>
+
+<blockquote class="small col-two-third">
+I consider myself lucky to have closely worked with Mathieu for over two years on the same product team. In his role as a Senior Product Designer, he led many significant initiatives to design new features and revitalize core parts of our apps - taking on challenging projects involving processing large amounts of data and creating beautiful designs for data visualization.
+
+Mathieu’s attention to detail, focus on accessibility and user research were essential factors that resulted in a great looking and intuitive product with many features seeing increased usage after his redesigns.
+
+As an engineer, I was appreciative of Mathieu’s collaboration with engineers to create a design handoff process that enabled us to jump into implementation efficiently. With his background in frontend engineering his feedback was always organized and detailed, which enabled quick and smooth iteration.
+
+In addition to his technical expertise, Mathieu is truly great to work with and brings enthusiasm, adaptability and care for the user’s experience that make him a valuable addition to any team.
+<p class="text-right">Cass P. - Software Engineer @ Mentor Collective</p>
+</blockquote>
+
 
 <div class="clearfix"></div>
 
