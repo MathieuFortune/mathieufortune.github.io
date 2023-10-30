@@ -87,6 +87,11 @@ s {
   text-transform: lowercase;
 }
 
+.title-sub--over {
+  @include font-size($font-size--base);
+  font-weight: $font-weight--thin;
+  color: $color--grey;
+}
 
 /* spacing */
 

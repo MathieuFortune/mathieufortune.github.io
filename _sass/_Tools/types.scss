@@ -28,7 +28,7 @@
 
 %font-main {
   font-family: $font-main;
-  font-weight: $font-weight--bold;
+  font-weight: $font-weight--xbold;
   -moz-font-smoothing: antialiased;
   -webkit-font-smoothing: antialiased;
 }
@@ -41,4 +41,14 @@
 %font-main--thin {
   font-family: $font-main;
   font-weight: $font-weight--thin;
+}
+
+%font-main--bold {
+  font-family: $font-main;
+  font-weight: $font-weight--bold;
+}
+
+%font-main--xbold {
+  font-family: $font-main;
+  font-weight: $font-weight--xbold;
 }

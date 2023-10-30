@@ -7,17 +7,30 @@ ref: company
 lang: en
 ---
 
-<h3 class="joker-fs no-marg-v"><em>Sharing, Intellectual Honesty, Transparency, Well-being, Impact First, and Trust</em></h3>
-<br>
-I'm a seasoned Product Designer with over 10 years of experience across start-ups and growth stage companies crafting E-commerce, SaaS and other consumer-facing products. I possess a unique blend of design proficiency, technical insight, and business acumen that enables me to lead collaborative initiatives to craft impactful, user-centered solutions that fuel business growth and elevate user satisfaction. I thrive when working from concept to delivery, partnering with cross-functional teams and collaborating closely with developers.
+{% include lazy-image.html src="/images/cover-aboutme.jpg" alt="Patchwork of picture depicting my personal and professional life" caption="Pictures from my personal and professional life: Riding my first bike, traveling to new countries, and contributing to workshops and communities" figClass="" %}
 
-Curiosity is my driving factor. I love absorbing new knowledge and mixing it with my existing understandings. I also love to share it with my colleagues. I best perform in creative environments. Nothing energizes me like a deep brainstorming session. I relish a good challenge and encountering new cultures, personally or professionally. I've traveled across three continents to meet hundreds of people. I've started a company and bootstrapped to profitability. I have a special admiration for those who always strive for open-mindedness and knowledge.
+<h3 class="joker-fs"><div class="title-sub--over">My values</div>Sharing, Intellectual Honesty, Transparency, Well-Being, and Impact First</h3>
 
-### What
+These values are integral to my work. I partner with like-minded organizations who lead with impact.
 
-For the past eleven (11) years, I've :
+__Sharing__:
+Exchanging insights fuels design transformation. I actively partner with like-minded individuals, believing diverse ideas spark innovation. Working with cross-functional teams, I prioritize open idea exchange, setting the stage for innovation to flourish.
 
-__Led the design overhaul of a SaaS platform__ for an ed-tech start-up serving 2M users over 180+ higher-ed institutions across the U.S.;
+__Intellectual Honesty__:
+I tackle product challenges with an open mind, recognizing my knowledge gaps. It's not just about solutions; it's about true understanding. When the team shares this value, we grow together.
+
+__Transparency__:
+In both my personal and professional life, I value transparency. It's about being clear in communication, setting expectations, and being upfront about challenges and successes alike. Transparency builds trust, fosters collaboration, and ensures everyone is on the same page.
+
+__Well-being__:
+In every project, I prioritize the well-being of individuals and communities. My goal is to craft inclusive experiences that not only avoid harm but actively promote societal betterment and positive change.
+
+__Impact First__:
+ I focus on user-centric solutions that resonate with real people. Every project milestone is aligned with both business and customer needs, ensuring the delivery of positive, enduring changes.
+
+<h3 class="joker-fs"><div class="title-sub--over">Experiences</div>For the past 11 years, I have</h3>
+
+__Led the design overhaul of a SaaS platform__ for an ed-tech start-up serving 2M users over 180+ higher-ed institutions across the U.S. ;
 
 __Spearheaded the development and maintained a design system__ used by 20+ product and engineering team members ;
 
@@ -37,18 +50,18 @@ __Launched hundreds of marketing campaigns__ that generated customer fidelity an
 
 and more...
 
-### Who
+<h3 class="joker-fs"><div class="title-sub--over">Who</div>What sets me apart</h3>
 
 I thrive working with cross-functional teams where customers and stakeholders buy-in is essential to business success.
 <br/>I can contribute at every stage of your product from concept to launch:
 
-__Product conception -__ Research, user/stakeholder interviews, brainstorm solutions, roadmapping, I can help you research and identify your customer needs.
+__Product conception -__  Initiating with in-depth research and stakeholder interviews, I distill insights to conceptualize user-centric solutions, and strategically roadmap the product's evolution, ensuring alignment with customer needs and business objectives.
 
-__Product development -__ Need help during the development phase? I can deliver fast results by using Agiles practices.
+__Product development -__ Leveraging front-end development skills and knowledge in Agile methodologies, I streamline the design-to-development transition, ensuring timely iterations and a product that aligns seamlessly with user expectations and technical feasibility.
 
-__Product launch -__ Working with the marketing, legal, and PR team, I can fluently communicate with different departments to coordinate product launch.
+__Product launch -__ Collaborating closely with sales, marketing, legal, and PR teams, I can bridge communication gaps across departments, ensuring a synchronized and impactful product launch in the market.
 
-__Product enhancement -__ Sustain, improve your existing product's quality and performances by helping your team develop their skills and build critical functionalities.
+__Product enhancement -__ Continuously analyzing user feedback and market trends, I guide teams in refining and expanding product functionalities, elevating user experience, and driving sustainable growth.
 
 #### _I'm ready to add value to any team looking for an experienced and polyvalent Senior Product Designer._
 
@@ -60,8 +73,7 @@ __Product enhancement -__ Sustain, improve your existing product's quality and p
 
 <br/>
 
-### References
-
+<h3 class="joker-fs no-marg-v"><div class="title-sub--over">Testimonials</div>What my teammates say about me</h3>
 
 <blockquote class="small" style="max-width: 100%; margin: 16px;">
 Don't wait on the chance to add Mathieu Fortune to your team!<br/>
