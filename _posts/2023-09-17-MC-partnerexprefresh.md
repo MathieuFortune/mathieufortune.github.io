@@ -131,34 +131,38 @@ __Leverage the design system__: The designs should lean on the design system rec
 
 Before showcasing some of the solutions implemented in this project, here is what the partner experience looked like before this project:
 
-{% include lazy-image.html src="/images/illustration-partner-experience-mentor-collective-08-bis.jpg" alt="Screenshot showcasing user interfaces of the initial partner experience" caption="Screenshots showcasing the partner experience before this project" figClass="" %}
+{% include lazy-image.html src="/images/illustration-partner-experience-mentor-collective-08-bis.jpg" alt="Screenshot showcasing user interfaces of the initial partner experience" caption="Screenshots showcasing the partner experience before this project" figClass="large-post-image" %}
 
 <br/> All the research and rounds of low-fi ideation culminated in a series of comprehensive, accessible and user-centric design solutions:
 
-__Program Intelligence Chart__: Expand access to data and enhance visualization of this data in the dashboard.
+#### Program Intelligence Chart 
+Expand access to data and enhance visualization of this data in the dashboard.
 
-{% include lazy-image.html src="/images/illustration-partner-experience-mentor-collective-08.jpg" alt="Screenshot showing high-fidelity user interfaces in Figma" caption="" figClass="" %}
+{% include lazy-image.html src="/images/illustration-partner-experience-mentor-collective-08.jpg" alt="Screenshot showing high-fidelity user interfaces in Figma" caption="" figClass="large-post-image" %}
 
-<br/><br/>
-__Filters and enhanced tables__: Allow data to be filtered and display in clear data tables to account for larger datasets and provide users with tool to drill down on a specific student population.
+<br/>
+#### Filters and enhanced tables
+Allow data to be filtered and display in clear data tables to account for larger datasets and provide users with tool to drill down on a specific student population.
 
-{% include lazy-image.html src="/images/illustration-partner-experience-mentor-collective-09.jpg" alt="Screenshot showing high-fidelity user interfaces in Figma" caption="" figClass="" %}
+{% include lazy-image.html src="/images/illustration-partner-experience-mentor-collective-09.jpg" alt="Screenshot showing high-fidelity user interfaces in Figma" caption="" figClass="large-post-image" %}
 
-<br/><br/>
-__Export options__: A brand new “Exports” page and made sure to provide export CTAs throughout key touchpoints in the partner experience.
+<br/>
+#### Export options
+A brand new “Exports” page and made sure to provide export CTAs throughout key touchpoints in the partner experience.
+{% include lazy-image.html src="/images/illustration-partner-experience-mentor-collective-10.jpg" alt="Screenshot showing high-fidelity user interfaces in Figma" caption="" figClass="large-post-image" %}
 
-{% include lazy-image.html src="/images/illustration-partner-experience-mentor-collective-10.jpg" alt="Screenshot showing high-fidelity user interfaces in Figma" caption="" figClass="" %}
+<br/>
+#### Layout & navigation changes
+Modernize the layout to make information on each page more accessible. Ensure the design is responsive to accommodate various desktop and tablet sizes, as revealed by the quantitative data.
 
-<br/><br/>
-__Layout & navigation changes__: Modernize the layout to make information on each page more accessible. Ensure the design is responsive to accommodate various desktop and tablet sizes, as revealed by the quantitative data.
+{% include lazy-image.html src="/images/illustration-partner-experience-mentor-collective-11.jpg" alt="Screenshot showing high-fidelity user interfaces in Figma" caption="" figClass="large-post-image" %}
 
-{% include lazy-image.html src="/images/illustration-partner-experience-mentor-collective-11.jpg" alt="Screenshot showing high-fidelity user interfaces in Figma" caption="" figClass="" %}
+<br/>
+#### Miscellaneous tweaks 
+Update brand identity, increase relevance of activities page, introduce in-app notification, modernize UI, ...
 
-<br/><br/>
-__Miscellaneous tweaks__: Update brand identity, increase relevance of activities page, introduce in-app notification, modernize UI, ...
-
-
-{% include lazy-image.html src="/images/illustration-partner-experience-mentor-collective-04.jpg" alt="Screenshot showing high-fidelity user interfaces in Figma" caption="" figClass="" %}
+{% include lazy-image.html src="/images/illustration-partner-experience-mentor-collective-04.jpg" alt="Screenshot showing high-fidelity user interfaces in Figma" caption="" figClass="large-post-image" %}
+<br/>
 
 ### Drawing from the Design System
 In crafting these refined UIs, I leaned heavily on a <a href="https://mathieufortune.github.io/MC-designsystem.html" target="_blank">design system that I had recently championed at Mentor Collective</a>, seamlessly integrating its elements — from the accessible color palette and clear typography to the streamlined layout and components — into the dashboard's new look.

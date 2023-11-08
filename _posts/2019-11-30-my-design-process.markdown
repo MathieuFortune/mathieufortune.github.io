@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "My Design Process"
+title:  "Jet Ski Miami - A design exercise"
 excerpt: |
-    Let’s see the design process behind creating a website for a fictitious jet ski rental company based in Miami, FL. This behind the scene will display the different steps that lead me to create a website.
+    This case study will provide an in-depth look at the UX design process for creating a website design for Jet Ski Inc, a fictional jet ski rental company based in Miami, FL.
 thumbnail: "/images/my-design-process-thumb.jpg"
 date:   2019-11-30 13:30:00 +0200
 lang: en
@@ -13,39 +13,35 @@ theme: Case Study
 
 {% include lazy-image.html src="/images/my-design-process-cov.jpg" alt="Picture cover of the article" caption="My design process" figClass="" %}
 
-Let’s see the design process behind creating a website for a fictitious jet ski rental company based in Miami, FL. This behind the scene will display the different steps that lead me to create a website.
+Join me as I walk you through the design process I applied to create a website for a make-believe jet ski rental company in Miami, FL. I'll take you behind the scenes to reveal the steps that guided me in crafting the website's design.
 
 ### Competitor Analysis
 
-At the beginning of the project, we conduct a competitor analysis to determine how our website will compare with its competitors. When we design a product for an audience we are not used to working with, it’s good to look at the competitors to find some first insights.
+To initiate the project, I performed a competitor analysis to gauge how our website would stand against others. This step was particularly enlightening, as designing for an audience I'm not usually acquainted with necessitated an understanding of the competitive landscape to retrieve initial insights.
 
-To find those competitors, we are typing the most obvious keywords in our minds in the Google search bar. The auto-complete feature of the Google search bar is also a good way to find the most typed research about a specific topic:
+My search for competitors started with a simple approach: typing the most obvious keywords into Google and seeing what popped up. I also leveraged Google's auto-complete functionality, which helped identify the most frequently searched queries:
 
 - Jet ski rental Miami
 - Jet ski tour Miami
 - Water activities Miami
 - …
 
-For our jet ski rental website, we found out that the competitors are big websites like Trip Advisor, Groupon, Yelp, "top 10" websites, and small businesses.
+This search led me to discover a range of competitors from large-scale sites like TripAdvisor, Groupon, and Yelp to smaller, niche websites.
 
-Websites like Trip Advisor or Yelp are a good source of information as we can read customer reviews and learn more about what they liked and disliked. That's a first data entry to build our personas too.
+I sifted through platforms like TripAdvisor and Yelp for customer reviews. The insights from these reviews were crucial—they were my initial stepping stones to creating user personas.
 
-Small businesses' websites are an excellent intel source to find any specific feature we might skip during the ideation phase to get a sense of what's currently available to the customer and a first data entry to eventually build a lean canvas.
+The websites of smaller local businesses were equally informative. They provided a clear view of specific features we might overlook in the ideation phase and presented a current snapshot of what was on offer to customers —- key information for building a lean canvas.
 
 ### User research
 
 {% include lazy-image.html src="/images/case-study-jet-ski-rental-topics-map.jpg" alt="User research" caption="Topics maps and questions draft" figClass="" %}
 
-To start the research, we create topic maps of words and phrases that come to mind when we think of jet skiing in Miami. These topics maps will be used as references to create a user survey, which will be sent out online to various potential users.
-We can find some common threads with the survey responses that give us a better picture of the user's potential pain points, expectations, and what we can show on our website.
+My research began with developing a topic map filled with words and ideas that come to mind when thinking about jet skiing in Miami. This map laid the groundwork for a user survey that I distributed online to a pool of potential users.
+The survey responses highlighted recurring themes, giving me a clearer picture of potential user pain points, expectations, and preferences for the website's content.
 
-Survey responses can lead us to the direction we know we need to take with our website.
+I also used the survey questions as a jumping-off point for in-person qualitative interviews.
 
-We can also use the questions in the survey as a start for in-person qualitative interviews.
-
-Qualitative interviews are best suited to understand more deeply users' needs and ways of thinking. It involves more listening and empathy than just blunt questions and answers for an online survey.
-
-With all this information, we usually also gain some insights we would have not fully consider before.
+Qualitative interviews are invaluable for a deeper understanding of users' needs and thought processes. They require more than just the act of asking questions—they demand active listening and empathy, often revealing insights that a straightforward survey might not capture.
 
 {% include lazy-image.html src="/images/case-study-jet-ski-rental-results-survey.png" alt="Survey's responses" caption="Survey's responses" figClass="" %}
 
@@ -53,19 +49,18 @@ With all this information, we usually also gain some insights we would have not 
 
 {% include lazy-image.html src="/images/case-study-jet-ski-rental-affinity-map.jpg" alt="Affinity mapping on a wall" caption="Affinity mapping on a wall" figClass="" %}
 
-We compile answers from our surveys and interviews and group them to find common trends through affinity mapping.
-Affinity mappings are best suited when designing solo or in groups to help organize observations and ideas that surface during the research and ideation phase.
+I compilled the survey and interview responses and began affinity mapping to detect common patterns. Whether working alone or in a group, affinity mapping is a potent tool to categorize observations and catalyze ideas throughout the research and brainstorming phases.
 
-We can validate our directions and initial thoughts, pinpoint key things users might have in common, and then take everything we learn into consideration when designing the website.
+This process affirmed my early assumptions, identified shared user experiences, and guided the subsequent stages of my design process.
 
 ### Personas
 
-Based on the competitive analysis and user research, we can develop several personas to represent our target demographics and psychographics.
+From the competitive analysis and user research, I crafted personas that represent our target audience in both demographics and psychographics.
 
-There are two primary personas. It means that the website should eventually fulfill each of their needs. You can sometimes also have secondary personas (example here: Event planner who look to book for an office seminar) who have other needs but less important to the primary ones when prioritizing times and resources to develop the website features.
-Our personas here are Sightseeing traveler and Water sports enthusiast.
+I identified two primary personas, ensuring that the website would meet each of their specific requirements. I also considered secondary personas—such as an Event Planner organizing a corporate event—who present additional, albeit less critical, needs when prioritizing time and resources for website feature development.
+The personas I created were the Sightseeing Traveler and the Water Sports Enthusiast.
 
-Personas are an archetype representation of real users that helps the design team to develop empathy and focus during the ideation, design, and iteration phases. They help keep in mind that we aren't designing for us designer but for a specific user type.
+Creating these personas was like drawing from a well of user archetypes, which helped me develop empathy and keep a focused direction during the ideation, design, and iteration phases. It was a constant reminder that I was designing for a specific user, not for myself.
 
 {% include lazy-image.html src="/images/persona-card–sightseeing-traveler.png" alt="Sightseeing Traveler Persona" caption="Sightseeing Traveler Persona" figClass="" %}
 {% include lazy-image.html src="/images/persona-card-water-sport-enthusiast.png" alt="Water Sports Enthusiast Persona" caption="Water Sports Enthusiast Persona" figClass="" %}
@@ -73,40 +68,37 @@ Personas are an archetype representation of real users that helps the design tea
 
 ### User stories
 
-With the personas and competitive analysis, we can start designing the website's features with a user story approach.
-User stories are useful to create a roadmap of the feature we will implement to cover all of our personas' needs. Originally, user stories are used in Scrum Agile methods to represent stakeholders and users' needs and prioritize the team's workflows.
+With the personas and competitive analysis in hand, I began to shape the website's features through user stories. These stories are pivotal for charting a course for the features to implement, ensuring all needs of the personas are met. Drawing from Agile methodologies, user stories shift the focus from 'how' to 'what' needs to be accomplished, giving me and my team the creative space to innovate solutions for user requirements.
 
-To construct a user story, you write a structured sentence allowing the team to focus on the WHAT instead of the HOW to do things. This gives more freedom to creativity to solve user's needs.
-
-- As a Sightseeing traveler, I want to know what there is to see on a jet ski tour in order to anticipate my experience.
-- As a Sightseeing traveler, I want to find information about security and content of the tour in order to feel reassured about the legitimacy of the offer.
+- As a Sightseeing traveler, I want to know what sights I'll see on a jet ski tour to set my expectations accordingly
+- As a Sightseeing traveler, I want to easily find safety information and tour details to ensure the legitimacy of the offer
 - …
 
-- As a Water Sports Enthusiast, I want to read like-minded people reviews in order to confirm that the jet ski rental is the right choice.
-- As a Water Sports Enthusiast, I want to know the full price options in order to share the information with my friends and decide quickly.
+- As a Water Sports Enthusiast, I desire to read reviews from fellow enthusiasts to confirm that this jet ski rental meets my needs
+- As a Water Sports Enthusiast, I need clear pricing options to share with friends for a quick decision-making process
 - …
 
 ### Sitemap and User Flow
 
 {% include lazy-image.html src="/images/case-study-jet-ski-rental-sitemap-user-flow.jpg" alt="Sitemap and user flow" caption="Sitemap and user flow" figClass="" %}
 
-We create a sitemap and user flow of the website to analyze with the design team and/or users in user testing to facilitate the design phase.
+The creation of a sitemap and user flow came next. This helped me visualize the structure and navigational pathway of the website. It’s a crucial step in ensuring the user's journey is intuitive and meets the expectations set by our user stories.
 
 ### Wireframe (low-fidelity mockup)
 
 {% include lazy-image.html src="/images/case-study-jet-ski-rental-wireframe-low-fidelity-mockup.jpg" alt="Wireframes (low fidelity mockups)" caption="Wireframes (low fidelity mockups)" figClass="" %}
 
-Once we have a concept of a few main features and flows that we want to expand upon, it's time to put your hands in the grease and start designing the website's first wireframes.
+With a solid understanding of the main features and user flow, I rolled up my sleeves and dived into designing the website's first wireframes. This is where the ideas start taking a visual shape.
 
-When we are doing this phase in a team, it's good to use the Design Studio method to communicate our ideas further. We individually sketch rapid prototypes and then come back together to critique, collaborate, and decide which ideas we want to continue to build and focus on. It's a brainstorm and immediate feedback exercise that help with critique and feedback while being fast.
+In a team setting, I find it beneficial to employ the Design Studio method. It involves each team member sketching rapid prototypes independently, followed by collective reviews where we critique, collaborate, and converge on the best ideas to develop further. This process fosters a dynamic of quick iteration, critique, and feedback.
 
-If you have to design in solo, don't be afraid to share on community slack and with friends what you are doing to gather feedback. Several brains are often better than one when trying to ideate and innovate.
+When working solo, I don't hesitate to share my sketches with the community on Slack or with friends to gather feedback. Collaborative input is often invaluable for innovation and refinement.
 
 ### Designs (high-fidelity mockup)
 
-Now that we agree with the wireframes, we start to design high-fidelity mockups of the website. The first thing we do is create a mood board containing typographies, color palette, and photo selections, …
+Armed with validated wireframes, I embark on creating high-fidelity mockups. The first step is to curate a mood board that showcases the selected typography, color palette, and imagery.
 
-This mood board is used to generate creativity and give a general sense of the feeling we want to communicate with the design. Then, we convert the wireframe into a high fidelity design that will serve for validation with the client/stakeholders. The high fidelity mockup doesn't have to follow exactly the wireframe as new ideas could emerge when adding color and pictures.
+This mood board sparks creativity and sets the visual tone I aim to achieve with the design. It transitions the wireframes into polished designs ready for stakeholder validation. While these high-fidelity mockups build upon the wireframes, they're not constrained by them; fresh ideas can emerge as design elements come together.
 
 {% include lazy-image.html src="/images/case-study-jet-ski-rental-moodboard.jpg" alt="Moodboard & Styleguide" caption="Moodboard & Styleguide" figClass="large-post-image" %}
 {% include lazy-image.html src="/images/case-study-jet-ski-rental-designs-high-fidelity-mockups.jpg" alt="Designs from left to right: Home, Service, About, Contact" caption="Designs from left to right: Home, Service, About, Contact" figClass="large-post-image" %}
