@@ -14,7 +14,7 @@ lang: en
 These values are at the core of my work philosophy. I partner with organizations and teams that share a commitment to these principles, leading to impactful and meaningful outcomes.
 
 
-__Open Collaboration and Transparency__: My commitment to open collaboration and transparency underpins my approach to product design. By engaging in honest dialogues, sharing diverse insights, and maintaining clear communication, I create a fertile ground for innovation. This transparency not only builds trust but aligns teams towards common goals, fostering a collaborative and effective work environment.
+__Open Collaboration and Transparency__: My commitment to open collaboration and transparency underpins my approach to product design. By engaging in open dialogue, sharing insights, and maintaining clear communication, I create a space where ideas can freely flow. This transparency not only builds trust but aligns teams towards common goals, fostering a collaborative and effective work environment.
 
 __Positive Impact and Well-being__: At the heart of my work is the pursuit of solutions that prioritize the well-being of individuals and communities. I strive to create user experiences that not only meet business objectives but also contribute positively to society. My focus is on designing inclusive and empathetic solutions that promote societal betterment and bring about lasting positive changes.
 
