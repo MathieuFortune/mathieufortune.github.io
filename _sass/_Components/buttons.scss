@@ -13,7 +13,7 @@
   text-align: center;
   white-space: nowrap;
   vertical-align: middle;
-  text-transform: uppercase;
+  text-transform: capitalize;
   -ms-touch-action: manipulation;
   touch-action: manipulation;
   cursor: pointer;
@@ -38,14 +38,14 @@
 
 .btn--link {
   @extend %btn;
-  color: $color--main;
+  color: $color--link;
   background-color: transparent;
 }
 
 .btn--default {
   @extend %btn;
   color: $color--white;
-  background-color: $color--main;
+  background-color: $color--link;
 
   svg {
     path {
@@ -54,13 +54,13 @@
   }
 
   &:hover {
-    color: $color--main;
+    color: $color--link;
     background-color: transparent;
-    border: 1px solid $color--main;
+    border: 1px solid $color--link;
 
     svg {
       path {
-        fill: $color--main;
+        fill: $color--link;
       }
     }
 
@@ -74,7 +74,7 @@ a {
     }
 
     &:hover {
-      color: $color--main;
+      color: $color--link;
     }
   }
 }

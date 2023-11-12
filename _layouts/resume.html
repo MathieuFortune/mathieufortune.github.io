@@ -57,7 +57,7 @@ layout: default
     <div class="boxed content">
       {% for experiences in site.data.about[page.lang].experiences %}
       <div class="item">
-        <h3>{{ experiences.title }}, <span class="italic">{{ experiences.name }}</span></h3>
+        <h3>{{ experiences.title }} | <span class="">{{ experiences.name }}</span></h3>
         <p class="italic marg-v--tiny">
           {{ experiences.period }}
         </p>
@@ -111,7 +111,7 @@ layout: default
     <div class="boxed content">
       {% for trainings in site.data.about[page.lang].trainings %}
       <div class="item">
-        <h3>{{ trainings.title }}, <span class="italic">{{ trainings.name }}</span></h3>
+        <h3>{{ trainings.title }} | <span class="">{{ trainings.name }}</span></h3>
         <p class="italic marg-v--tiny">{{ trainings.period }}</p>
         <ul>
           <li>{{ trainings.desc }}</li>

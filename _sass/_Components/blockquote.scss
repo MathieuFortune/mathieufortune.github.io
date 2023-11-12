@@ -39,7 +39,7 @@ blockquote {
     width: 30%;
     height: 2px;
     margin-top: .8rem;
-    background-color: $color--red;
+    background-color: $color--main;
   }
 
   @include media($small-tab, max-width) {

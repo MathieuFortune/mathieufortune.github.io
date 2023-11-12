@@ -9,24 +9,18 @@ lang: en
 
 {% include lazy-image.html src="/images/cover-aboutme.jpg" alt="Patchwork of picture depicting my personal and professional life" caption="Pictures from my personal and professional life: Riding my first bike, traveling to new countries, and contributing to workshops and communities" figClass="" %}
 
-<h3 class="joker-fs"><div class="title-sub--over">My values</div>Sharing, Intellectual Honesty, Transparency, Well-Being, and Impact First</h3>
+<h3 class="joker-fs"><div class="title-sub--over">My values</div>Open Collaboration and Transparency, Positive Impact and Well-being, Intellectual Honesty</h3>
 
-These values are integral to my work. I partner with like-minded organizations who lead with impact.
+These values are at the core of my work philosophy. I partner with organizations and teams that share a commitment to these principles, leading to impactful and meaningful outcomes.
 
-__Sharing__:
-Exchanging insights fuels design transformation. I actively partner with like-minded individuals, believing diverse ideas spark innovation. Working with cross-functional teams, I prioritize open idea exchange, setting the stage for innovation to flourish.
 
-__Intellectual Honesty__:
-I tackle product challenges with an open mind, recognizing my knowledge gaps. It's not just about solutions; it's about true understanding. When the team shares this value, we grow together.
+__Open Collaboration and Transparency__: My commitment to open collaboration and transparency underpins my approach to product design. By engaging in honest dialogues, sharing diverse insights, and maintaining clear communication, I create a fertile ground for innovation. This transparency not only builds trust but aligns teams towards common goals, fostering a collaborative and effective work environment.
 
-__Transparency__:
-In both my personal and professional life, I value transparency. It's about being clear in communication, setting expectations, and being upfront about challenges and successes alike. Transparency builds trust, fosters collaboration, and ensures everyone is on the same page.
+__Positive Impact and Well-being__: At the heart of my work is the pursuit of solutions that prioritize the well-being of individuals and communities. I strive to create user experiences that not only meet business objectives but also contribute positively to society. My focus is on designing inclusive and empathetic solutions that promote societal betterment and bring about lasting positive changes.
 
-__Well-being__:
-In every project, I prioritize the well-being of individuals and communities. My goal is to craft inclusive experiences that not only avoid harm but actively promote societal betterment and positive change.
+__Intellectual Honesty__: I approach challenges in product design with an open mind and a willingness to recognize and learn from my knowledge gaps. This intellectual honesty is not just about finding immediate solutions but about gaining a deeper understanding of the nuances of each project. It’s essential for me and my team to share this value, as it cultivates a culture of growth, learning, and mutual respect.
 
-__Impact First__:
- I focus on user-centric solutions that resonate with real people. Every project milestone is aligned with both business and customer needs, ensuring the delivery of positive, enduring changes.
+Together, these values shape my approach to design and collaboration, ensuring that every project I undertake is both meaningful and impactful.
 
 <h3 class="joker-fs"><div class="title-sub--over">Experiences</div>For the past 11 years, I have</h3>
 
