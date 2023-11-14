@@ -6,7 +6,7 @@ excerpt: |
 thumbnail: "/images/my-design-process-thumb.jpg"
 date:   2019-11-30 13:30:00 +0200
 lang: en
-ref: design-process
+ref: design exercise
 author: Mathieu Fortune
 theme: Case Study
 ---
