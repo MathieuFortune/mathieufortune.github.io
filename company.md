@@ -67,7 +67,7 @@ __Product enhancement -__ Continuously analyzing user feedback and market trends
 
 <br/>
 
-<h3 class="joker-fs no-marg-v"><div class="title-sub--over">Testimonials</div>What my teammates say about me</h3>
+<h3 class="joker-fs no-marg-v" id="testimonial-anchor"><div class="title-sub--over">Testimonials</div>What my teammates say about me</h3>
 
 <blockquote class="small" style="max-width: 100%; margin: 16px;">
 Don't wait on the chance to add Mathieu Fortune to your team!<br/>
