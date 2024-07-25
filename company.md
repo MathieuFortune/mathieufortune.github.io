@@ -10,7 +10,7 @@ lang: en
 {% include lazy-image.html src="/images/cover-aboutme.jpg" alt="Patchwork of picture depicting my personal and professional life" caption="Pictures from my personal and professional life: Riding my first bike, traveling to new countries, and contributing to workshops and communities" figClass="" %}
 
 <div class="text-center">
-  <a href="https://www.loom.com/share/07545ec451504d2e9a775f045ae26fe1?sid=0d47e56c-3f6f-46a8-83d1-d4b3318d5cc0" title="Presentation video" class="btn--default btn--medium">Watch a short video about me </a>
+  <a href="https://www.loom.com/share/07545ec451504d2e9a775f045ae26fe1?sid=0d47e56c-3f6f-46a8-83d1-d4b3318d5cc0" target="_blank" title="Presentation video" class="btn--default btn--medium">Watch a short video about me </a>
 </div>
 
 <h3 class="joker-fs"><div class="title-sub--over">My values</div>Open Collaboration and Transparency, Positive Impact and Well-being, Intellectual Honesty</h3>
