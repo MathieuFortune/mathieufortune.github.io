@@ -9,6 +9,10 @@ lang: en
 
 {% include lazy-image.html src="/images/cover-aboutme.jpg" alt="Patchwork of picture depicting my personal and professional life" caption="Pictures from my personal and professional life: Riding my first bike, traveling to new countries, and contributing to workshops and communities" figClass="" %}
 
+<div class="text-center">
+  <a href="https://www.loom.com/share/07545ec451504d2e9a775f045ae26fe1?sid=0d47e56c-3f6f-46a8-83d1-d4b3318d5cc0" title="Presentation video" class="btn--default btn--medium">Watch a short video about me </a>
+</div>
+
 <h3 class="joker-fs"><div class="title-sub--over">My values</div>Open Collaboration and Transparency, Positive Impact and Well-being, Intellectual Honesty</h3>
 
 These values are at the core of my work philosophy. I partner with organizations and teams that share a commitment to these principles, leading to impactful and meaningful outcomes.
@@ -22,7 +26,7 @@ __Intellectual Honesty__: I approach challenges in product design with an open m
 
 Together, these values shape my approach to design and collaboration, ensuring that every project I undertake is both meaningful and impactful.
 
-<h3 class="joker-fs"><div class="title-sub--over">Experiences</div>For the past 11 years, I have</h3>
+<h3 class="joker-fs"><div class="title-sub--over">Experiences</div>For the past 11+ years, I have</h3>
 
 __Led the design overhaul of a SaaS platform__ for an ed-tech start-up serving 2M users over 180+ higher-ed institutions across the U.S. ;
 
