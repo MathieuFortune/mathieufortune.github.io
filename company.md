@@ -30,17 +30,17 @@ Together, these values shape my approach to design and collaboration, ensuring t
 
 __Led the design overhaul of a SaaS platform__ for an ed-tech start-up serving 2M users over 180+ higher-ed institutions across the U.S. ;
 
-__Spearheaded the development and maintained a design system__ used by 20+ product and engineering team members ;
+__Spearheaded the development and maintained a design system__ used by 30+ team members ;
 
-__Co-founded a start-up__ in the online education. Generating 6 figure revenue in the span of 18 months ;
+__Co-founded a start-up__ in the online education. Helping 50,000 students and generating 6 figure revenue in less than three years ;
 
-__Worked directly with clients__ in agencies, defining product scopes, goals, user's assumptions and pain points ;
+__Worked directly with clients__ in agencies, defining product scopes, goals, user's assumptions, and pain points ;
 
 __Led product feature design__ on a multi-million dollar e-commerce marketplace ;
 
 __Built fast responsive websites__ with HTML5, CSS, Javascript, responsive design and Agile methods ;
 
-__Designed aesthetic user interfaces__, mockups and prototypes of systems for websites and mobile applications ;
+__Designed aesthetic user interfaces__, sketches and prototypes of systems for websites and mobile applications ;
 
 __Performed user research activities__ with a design thinking and lean approach ;
 
@@ -50,7 +50,7 @@ and more...
 
 <h3 class="joker-fs"><div class="title-sub--over">Who</div>What sets me apart</h3>
 
-I thrive working with cross-functional teams where customers and stakeholders buy-in is essential to business success.
+I thrive working with cross-functional mission-driven teams where customers' and stakeholders' buy-in is essential to business success.
 <br/>I can contribute at every stage of your product from concept to launch:
 
 __Product conception -__  Initiating with in-depth research and stakeholder interviews, I distill insights to conceptualize user-centric solutions, and strategically roadmap the product's evolution, ensuring alignment with customer needs and business objectives.
@@ -61,7 +61,7 @@ __Product launch -__ Collaborating closely with sales, marketing, legal, and PR 
 
 __Product enhancement -__ Continuously analyzing user feedback and market trends, I guide teams in refining and expanding product functionalities, elevating user experience, and driving sustainable growth.
 
-#### _I'm ready to add value to any team looking for an experienced and polyvalent Senior Product Designer._
+#### _I'm ready to add value to any mission-driven team looking for an experienced and polyvalent Senior Product Designer._
 
 <br/>
 
@@ -86,6 +86,12 @@ All of this, and I still haven't talked about:<br/>
 <br/>
 Mathieu is hands down, one of the best designers I've had the pleasure to work with, and if you're lucky enough to add him to your team, I'm sure you'll feel the same way.
 <p class="text-right">Kelley J. - Senior Product Manager @ Mentor Collective</p>
+</blockquote>
+
+<blockquote class="small col-half--left">I’ve had the pleasure of working closely with Mathieu on various projects at Carbon Direct. He’s an amazing Senior Product Designer and a fantastic collaborator, especially when it comes to creating products in the climate and sustainability space.
+Mathieu's attention to detail and his knack for understanding what users need are top-notch. Despite being new to the climate and sustainability field, he quickly got up to speed and was engaging in detailed conversations with our climate scientists within weeks! He ensures every design is visually appealing, functional, and user-friendly. His ability to tackle complex user problems means our projects always succeed. <br/>
+But Mathieu isn’t just a talented designer. His skills in product, engineering, and business strategy make him a huge asset for any team looking to build a 0-to-1 product. His strategic thinking and technical expertise have been crucial to our success. Plus, he’s excellent at aligning design and business goals seamlessly. I highly recommend Mathieu for any team needing a dedicated, skilled designer who loves to collaborate. He’s a real asset, and I’m confident he will continue to do amazing work in any field he contributes to.
+<p class="text-right">Prakhar A. - Sr. Product Manager @ Carbon Direct</p>
 </blockquote>
 
 <blockquote class="small col-half--left">Mathieu was a Senior Product Designer on my team at Mentor Collective. In his time at Mentor Collective, I came to rely upon him for his insightful questions and probing perspective. He championed the need for a more modern design system for our B2B and B2C applications. He took ownership of the design system's process, deliverables and even the maintenance. The look and feel of the Mentor Collective platform (and the ability to scale it up) is a direct result of Mathieu's efforts. Lastly, Mathieu is a designer who not just designs for what is needed now, but strives to anticipate the next set of needs. His research and design will not just meet your immediate needs but plants the seeds for future directions.
