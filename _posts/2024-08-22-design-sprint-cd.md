@@ -11,6 +11,8 @@ author: Mathieu Fortune
 theme: Case Study
 ---
 
+{% include lazy-image.html src="/images/illustration-design-sprint-cd-cover.png" alt="Case study cover" caption="" figClass="large-post-image" %}
+
 When I joined Carbon Direct as a Senior Product Designer, I was immediately tasked with addressing a critical challenge: answering the question, "What’s next?" for customers after they received their GHG inventory from our science team. This challenge presented several complexities:
 
 - **Unclear customer profile:** We didn't have a clear understanding of the ideal customer profile for this product area.
