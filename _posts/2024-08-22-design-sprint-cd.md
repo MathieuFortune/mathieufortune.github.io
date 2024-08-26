@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Adapting a Design Sprint to Rapidly Deliver a Product Roadmap at Carbon Direct"
+title:  "Adapting a Design Sprint to rapidly deliver a product roadmap at Carbon Direct"
 excerpt: |
    In this article, I delve into how I adapted and led a design sprint at Carbon Direct, navigating complex challenges to develop a decarbonization roadmap for our carbon management platform. This piece highlights my approach to problem-solving, collaboration with cross-functional teams, and the tailored methods I employed to deliver impactful and user-centric solutions.
 thumbnail: "/images/illustration-design-sprint-cd-cover.png"
