@@ -92,7 +92,7 @@ I then translated the ideas generated during the sprint into a comprehensive use
 
 ## Transition and Further Impact
 
-Unfortunately, shortly after the design sprint, the Product Manager of the decarbonization team transitioned to a new opportunity, leading to the dissolution of the team. However, I was re-assigned to the “Measure” workstream, where over the next seven months, I contributed to **signing 15 new customers and improved internal team efficiency by 15%** through my design efforts.
+Unfortunately, shortly after the design sprint, the Product Manager of the decarbonization team transitioned to a new opportunity, leading to the dissolution of the team. However, I was re-assigned to the “Measure” workstream, where over the next seven months, I contributed to **driving $750K in new revenue and improved internal team efficiency by 15% (~450 work hours saved annually)** through my design efforts.
 
 
 ## Lessons Learned and Future Applications
