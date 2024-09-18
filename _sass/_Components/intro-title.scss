@@ -5,16 +5,16 @@ $intro-font-size--medium: 62;
 $intro-font-size--hero: 76;
 
 %intro-title {
-  @extend %container;
   @include media($tab-v, max-width) {
-    padding-right: $spacing--base;
-    padding-left: $spacing--base;
     margin-top: 1rem;
   }
+  @include media($desktop, max-width) {
+    padding-right: $spacing--base;
+    padding-left: $spacing--base;
+  }
   @include fluid-typo($intro-font-size, $intro-font-size--small, $phone-h-computed, $desktop-computed);
-  padding-right: 0;
-  padding-left: 1rem;
-  margin: 8rem auto 3rem;
+  padding: 0;
+  margin: $spacing--9xl auto $spacing--4xl;
   font-family: $font-main;
   font-weight: $font-weight--xbold;
   line-height: 1;
@@ -22,11 +22,11 @@ $intro-font-size--hero: 76;
 
   hr {
     @include media($tab-h, min-width) {
-      margin: $spacing--large 0 $spacing--medium;
+      margin: $spacing--3xl 0 $spacing--2xl;
     }
     @include font-size($font-size--base);
     max-width: 8.75rem;
-    margin: $spacing--base 0 $spacing--tiny;
+    margin: $spacing--base 0 $spacing--xs;
     border: .25em solid $color--main;
   }
 

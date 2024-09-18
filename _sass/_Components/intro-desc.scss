@@ -6,11 +6,9 @@ $intro-font-size--small: 20;
   @extend %container;
   @include fluid-typo($intro-font-size, $intro-font-size--small, $phone-h-computed, $desktop-computed);
   @include media($tab-v, max-width) {
-    padding-right: $spacing--base;
-    padding-left: $spacing--base;
+    padding: 0 $spacing--base $spacing--2xl;
   }
-  padding-right: 1rem;
-  padding-left: 1rem;
+  padding: $spacing--5xl $spacing--base;
 
   @include media($tab-v, max-width) {
     figure {

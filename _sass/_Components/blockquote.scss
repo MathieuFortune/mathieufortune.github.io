@@ -6,12 +6,12 @@ blockquote {
   position: relative;
   display: block;
   max-width: 80%;
-  padding: $spacing--small;
+  padding: $spacing--sm;
+  margin: 0;
   font-family: $font-base;
   font-weight: $font-weight--base;
-  line-height: 1.45;
+  line-height: 1.5;
   color: $color--text;
-  text-align: justify;
 
   &.left {
     float: left;
@@ -26,7 +26,7 @@ blockquote {
   }
 
   &.small {
-    @include font-size($font-size--base);
+    font-size: 1.125rem;
   }
 
   &.full {
@@ -45,5 +45,10 @@ blockquote {
   @include media($small-tab, max-width) {
     max-width: 100%;
     margin: 1em auto;
+  }
+
+  .author {
+    margin: $spacing--base 0!important;
+    font-weight: $font-weight--bold;
   }
 }

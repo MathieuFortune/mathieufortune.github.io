@@ -1,0 +1,45 @@
+.emphasize-box {
+    background-color: #F4F2EE;
+    padding: $spacing--base;
+    margin-bottom: $spacing--lg;
+    @include fluid-typo(18, 18, $phone-h-computed, $desktop-computed);
+    font-weight: $font-weight--bold;
+
+    h3 {
+        font-family: $font-base;
+        @include fluid-typo(18, 18, $phone-h-computed, $desktop-computed);
+        margin-top: 0;
+        margin-bottom: $spacing--xs;
+        padding: 0!important;
+    }
+
+    p {
+        color: #4F6677;
+        @include fluid-typo(18, 18, $phone-h-computed, $desktop-computed);
+        font-weight: $font-weight--base;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    &:last-child {
+        margin-bottom: 0;
+    }
+
+    &.numbers {
+        border-left: 6px $color--main solid;
+        h3 {
+            margin-bottom: 0;
+            @include fluid-typo(28, 34, $phone-h-computed, $desktop-computed);
+        }
+
+        .sub {
+            font-weight: $font-weight--bold;
+            color: $color--black;
+        }
+    }
+
+    &.mono {
+        background-color: $color--white;
+        border: 1px solid $color--black;
+    }
+}

@@ -4,6 +4,9 @@ $post-title-font-size--small: 33;
 
 // Post list container
 .post-list-container {
+  padding-top: $spacing--5xl;
+  padding-bottom: $spacing--5xl;
+
   h3 {
     @include fluid-typo($post-title-font-size, $post-title-font-size--small, $phone-h-computed, $desktop-computed);
   }
@@ -16,7 +19,7 @@ $post-title-font-size--small: 33;
 // Post list component
 .post-list {
   padding: 0;
-  padding-bottom: 4rem;
+  padding-bottom: $spacing--5xl;
   margin-bottom: 0;
   list-style: none;
   background-color: $color--white;
@@ -86,7 +89,7 @@ $post-title-font-size--small: 33;
     @extend %italic;
     @include font-size($font-size--base);
     display: block;
-    margin-top: $spacing--tiny;
+    margin-top: $spacing--xs;
   }
 
 }

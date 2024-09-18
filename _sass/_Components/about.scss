@@ -1,32 +1,13 @@
 .about {
-  max-width: $content;
-  margin: 0 auto;
-
-  .row-flex {
-    @include media($small-tab, max-width) {
-      display: block;
-    }
-
-    margin: $spacing--medium 0;
+  .row {
+    padding-top: $spacing--3xl;
 
     .title {
-      @include media($small-tab) {
-        flex: 0 0 20%;
-        max-width: 20%;
-      }
-
       h2 {
         @include font-size($font-size--base);
         margin-top: 0;
         color: $color--main;
         text-transform: uppercase;
-      }
-    }
-
-    .content {
-      @include media($small-tab) {
-        flex: 0 0 80%;
-        max-width: 80%;
       }
     }
 
@@ -42,8 +23,8 @@
 
   .item {
     position: relative;
-    margin-bottom: $spacing--medium;
-    // padding: $spacing--small;
+    margin-bottom: $spacing--2xl;
+    // padding: $spacing--sm;
     // border: 1px solid $color--lightgrey;
     // box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
 
@@ -78,17 +59,17 @@
     text-align: center;
     white-space: nowrap;
     background-color: $color--main;
-    border-radius: .25em;
+    border-radius: 0.25em;
   }
 }
 
 @include media-print {
   .intro-title {
-    padding: $spacing--tiny;
+    padding: $spacing--xs;
     margin: 0;
   }
 
-  .row-flex {
+  .row {
     display: block;
 
     .title,
@@ -98,7 +79,7 @@
     }
 
     .title {
-      margin-bottom: $spacing--small;
+      margin-bottom: $spacing--sm;
     }
   }
 
