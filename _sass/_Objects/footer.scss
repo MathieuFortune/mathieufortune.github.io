@@ -2,8 +2,8 @@
 .site-footer {
   position: relative;
   z-index: 10;
-  padding: $spacing--huge $spacing--small;
-  margin-top: $spacing--huge;
+  padding: $spacing--5xl $spacing--sm;
+  margin-top: $spacing--5xl;
   background-color: $color--lightgrey;
 
   .home & {
