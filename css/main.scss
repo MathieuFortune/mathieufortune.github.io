@@ -4,20 +4,18 @@
 @charset 'utf-8';
 
 // Import partials from `sass_dir` (defaults to `_sass`)
-@import '_Settings/colors';
-@import '_Settings/types';
-@import '_Settings/breakpoints';
-@import '_Settings/spacings';
-@import '_Tools/types';
+@import '_Settings/variables';
+@import '_Tools/typography';
 @import '_Tools/media-query';
 @import '_Tools/grid';
+@import '_Tools/spacings';
 @import '_Tools/animation';
 @import '_Elements/normalize';
 @import '_Elements/bases';
 @import '_Elements/link';
 @import '_Elements/heading';
 @import '_Elements/list';
-@import '_Elements/figure';
+@import '_Elements/image';
 @import '_Elements/code';
 @import '_Elements/syntax-highlighting';
 @import '_Objects/header';
@@ -41,5 +39,7 @@
 @import '_Components/portfolio-single';
 @import '_Components/responsive-video';
 @import '_Components/video-background';
+@import '_Components/skip-to-main';
+@import '_Components/emphasis-box';
 @import '_Trumps/utilities';
 @import '_Trumps/print';
