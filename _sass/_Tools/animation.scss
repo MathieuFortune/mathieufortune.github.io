@@ -1,208 +1,88 @@
-/* Animations tools */
+// Animation Library
+
+// Variables
+$animation-duration: 0.8s;
+$easing: (
+  'linear': linear,
+  'ease-in': ease-in,
+  'ease-out': ease-out,
+  'ease-in-out': ease-in-out,
+  'bounce': cubic-bezier(0.68, -0.55, 0.265, 1.55),
+  'spring': cubic-bezier(0.68, -0.6, 0.32, 1.6),
+  'elastic': cubic-bezier(0.68, -0.55, 0.265, 1.55)
+);
+
+// Mixins
+@mixin animation($name, $duration: $animation-duration, $timing: map-get($easing, 'ease-in-out'), $delay: 0s, $fill: both, $iteration: 1) {
+  animation: $name $duration $timing $delay $iteration $fill;
+  will-change: transform, opacity;
+}
+
+@mixin keyframes($name) {
+  @keyframes #{$name} {
+    @content;
+  }
+}
+
+// Keyframes
+@include keyframes(slide) {
+  from { transform: translateX(-100%); }
+  to { transform: translateX(100%); }
+}
+
+@include keyframes(fade-in) {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@include keyframes(shake) {
+  10%, 90% { transform: translateX(-1px); }
+  20%, 80% { transform: translateX(2px); }
+  30%, 50%, 70% { transform: translateX(-4px); }
+  40%, 60% { transform: translateX(4px); }
+}
+
+// Animation Classes
 .animated {
-  -webkit-animation-duration: .8s;
-  animation-duration: .8s;
-  -webkit-animation-fill-mode: both;
-  animation-fill-mode: both;
-  -webkit-animation-timing-function: ease-in-out;
-  animation-timing-function: ease-in-out;
-  will-change: transform;
-}
+  &-slide { @include animation(slide); }
+  &-fade-in { @include animation(fade-in); }
+  &-shake { @include animation(shake); }
 
-
-/* FadeInLeft animation */
-
-@-webkit-keyframes fadeInLeft {
-  0% {
-    opacity: 0;
-    -webkit-transform: translateX(-30px);
+  @each $name, $function in $easing {
+    &-#{$name} { animation-timing-function: $function; }
   }
 
-  100% {
-    opacity: 1;
-    -webkit-transform: translateX(0);
-  }
-}
-
-@keyframes fadeInLeft {
-  0% {
-    opacity: 0;
-    transform: translateX(-30px);
+  &-steps {
+    animation-timing-function: steps(5, end);
   }
 
-  100% {
-    opacity: 1;
-    transform: translateX(0);
+  @for $i from 1 through 5 {
+    &-loop-#{$i} { animation-iteration-count: $i; }
+  }
+  &-loop-infinite { animation-iteration-count: infinite; }
+
+  $delays: (xxs: 0.1s, xs: 0.2s, s: 0.4s, m: 0.8s, l: 1.2s, xl: 1.6s, xxl: 2.4s);
+  @each $name, $time in $delays {
+    &-delay-#{$name} { animation-delay: $time!important; }
   }
 }
 
-.fade-in-left {
-  -webkit-animation-name: fadeInLeft;
-  animation-name: fadeInLeft;
-}
-
-
-/* FadeInRight animation */
-
-@-webkit-keyframes fadeInRight {
-  0% {
-    opacity: 0;
-    -webkit-transform: translateX(30px);
+// Directional Fade-ins
+@each $direction in (left, right, up, down) {
+  @include keyframes(fade-in-#{$direction}) {
+    from {
+      opacity: 0;
+      transform: translate(
+        if($direction == left, 30px, if($direction == right, -30px, 0)),
+        if($direction == up, 30px, if($direction == down, -30px, 0))
+      );
+    }
+    to {
+      opacity: 1;
+      transform: translate(0);
+    }
   }
-
-  100% {
-    opacity: 1;
-    -webkit-transform: translateX(0);
+  .animated-fade-in-#{$direction} {
+    @include animation(fade-in-#{$direction});
   }
-}
-
-@keyframes fadeInRight {
-  0% {
-    opacity: 0;
-    transform: translateX(30px);
-  }
-  100% {
-    opacity: 1;
-    transform: translateX(0);
-  }
-}
-
-.fade-in-right {
-  -webkit-animation-name: fadeInRight;
-  animation-name: fadeInRight;
-}
-
-
-/* FadeInUp animation */
-
-@-webkit-keyframes fadeInUp {
-  0% {
-    opacity: 0;
-    -webkit-transform: translateY(20px);
-  }
-
-  100% {
-    opacity: 1;
-    -webkit-transform: translateY(0);
-  }
-}
-
-@keyframes fadeInUp {
-  0% {
-    opacity: 0;
-    transform: translateY(20px);
-  }
-
-  100% {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-.fade-in-up {
-  -webkit-animation-name: fadeInUp;
-  animation-name: fadeInUp;
-}
-
-
-/* FadeInDown animation */
-
-@-webkit-keyframes fadeInDown {
-  0% {
-    opacity: 0;
-    -webkit-transform: translateY(-20px);
-  }
-
-  100% {
-    opacity: 1;
-    -webkit-transform: translateY(0);
-  }
-}
-
-@keyframes fadeInDown {
-  0% {
-    opacity: 0;
-    transform: translateY(-20px);
-  }
-
-  100% {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-.fade-in-down {
-  -webkit-animation-name: fadeInDown;
-  animation-name: fadeInDown;
-}
-
-
-/* Shake scale animation*/
-
-@-webkit-keyframes shakeIt {
-  10%,
-  90% {
-    -webkit-transform: translateX(-1px);
-  }
-
-  20%,
-  80% {
-    -webkit-transform: translateX(2px);
-  }
-
-  30%,
-  50%,
-  70% {
-    -webkit-transform: translateX(-4px);
-  }
-
-  40%,
-  60% {
-    -webkit-transform: translateX(4px);
-  }
-}
-
-@keyframes shakeIt {
-  10%,
-  90% {
-    transform: translateX(-1px);
-  }
-
-  20%,
-  80% {
-    transform: translateX(2px);
-  }
-
-  30%,
-  50%,
-  70% {
-    transform: translateX(-4px);
-  }
-
-  40%,
-  60% {
-    transform: translateX(4px);
-  }
-}
-
-.shake {
-  -webkit-animation-name: shakeIt;
-  animation-name: shakeIt;
-}
-
-
-/* Animations Delays */
-.delay--small {
-  -webkit-animation-delay: .2s;
-  animation-delay: .2s;
-}
-
-.delay--medium {
-  -webkit-animation-delay: .9s;
-  animation-delay: .9s;
-}
-
-.delay--long {
-  -webkit-animation-delay: 1.5s;
-  animation-delay: 1.5s;
 }

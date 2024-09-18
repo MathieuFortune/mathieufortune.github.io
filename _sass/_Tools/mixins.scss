@@ -1,0 +1,124 @@
+// _mixins.scss
+
+// Media Queries
+@mixin media($width, $direction: min-width) {
+    @media screen and ($direction: $width) {
+      @content;
+    }
+  }
+
+  @mixin media-retina {
+    @media
+    only screen and (-webkit-min-device-pixel-ratio: 2),
+    only screen and (min--moz-device-pixel-ratio: 2),
+    only screen and (-o-min-device-pixel-ratio: 2/1),
+    only screen and (min-device-pixel-ratio: 2),
+    only screen and (min-resolution: 192dpi),
+    only screen and (min-resolution: 2dppx) {
+      @content;
+    }
+  }
+
+  @mixin media-print {
+    @media print {
+      @content;
+    }
+  }
+
+  // Typography
+  @mixin font-size($size: 1) {
+    font-size: ($size * $font-size-browser);
+    font-size: ($size * 1rem);
+  }
+
+  @mixin line-height($min-height, $max-height, $min-width, $max-width) {
+    line-height: calc(#{$min-height}em + (#{$max-height} - #{$min-height}) * ((100vw - #{$min-width}em) / (#{$max-width} - #{$min-width})));
+  }
+
+  @mixin fluid-typo($min-font, $max-font, $min-viewport, $max-viewport) {
+    font-size: #{$min-font}px;
+    @media (min-width: #{$min-viewport}px) and (max-width: #{$max-viewport}px) {
+      font-size: calc(#{$min-font}px + (#{$max-font} - #{$min-font}) * ( (100vw - #{$min-viewport}px) / ( #{$max-viewport} - #{$min-viewport})));
+    }
+    @media (min-width: #{$max-viewport}px) {
+      font-size: #{$max-font}px;
+    }
+  }
+
+  // Layout
+  @mixin clearfix {
+    &::after {
+      content: '';
+      display: table;
+      clear: both;
+    }
+  }
+
+  @mixin center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  // Flexbox
+  @mixin flexbox {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  @mixin flex-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  // Transitions
+  @mixin transition($property: all, $duration: $transition-duration, $easing: $transition-easing) {
+    transition: $property $duration $easing;
+  }
+
+  // Shadows
+  @mixin box-shadow($shadow...) {
+    box-shadow: $shadow;
+  }
+
+  // Gradients
+  @mixin linear-gradient($direction, $color-stops...) {
+    background: linear-gradient($direction, $color-stops);
+  }
+
+  // Animations
+  @mixin keyframes($name) {
+    @keyframes #{$name} {
+      @content;
+    }
+  }
+
+  @mixin animate($name, $duration: 1s, $timing-function: ease, $delay: 0s, $iteration-count: 1, $direction: normal, $fill-mode: none) {
+    animation: $name $duration $timing-function $delay $iteration-count $direction $fill-mode;
+  }
+
+  // Buttons
+  @mixin button-style($bg-color, $text-color, $hover-bg-color, $hover-text-color) {
+    background-color: $bg-color;
+    color: $text-color;
+
+    &:hover, &:focus {
+      background-color: $hover-bg-color;
+      color: $hover-text-color;
+    }
+  }
+
+  // Functions
+  @function strip-unit($value) {
+    @return $value / ($value * 0 + 1);
+  }
+
+  @function rem($pxValue) {
+    @return #{strip-unit($pxValue) / strip-unit($font-size-browser)}rem;
+  }
+
+  @function em($pxValue, $context: $font-size-browser) {
+    @return #{strip-unit($pxValue) / strip-unit($context)}em;
+  }

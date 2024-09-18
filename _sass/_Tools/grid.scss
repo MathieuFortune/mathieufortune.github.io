@@ -1,71 +1,240 @@
-/* Grid tools */
+// Grid variables
+$grid-columns: 12;
+$grid-gutter: $spacing--xl;
 
-%container,
-.container {
-  max-width: $post-width;
-  padding: $spacing--medium $spacing--base;
-  margin: 2em auto 0;
+// Container sizes
+$container-sm: 961px;
+$container-lg: 1152px;
+$container-xl: 1600px;
+
+// Updated Breakpoints
+$breakpoints: (
+  xs: 0,
+  sm: $phone-h,    // 481px
+  md: $tab-v,      // 769px
+  lg: $desktop,    // 961px
+  xl: $content,    // 1101px
+  xxl: $huge       // 1300px
+);
+
+// Container
+%container {
+  width: 100%;
+  padding: 0 $spacing--base;
+  margin: 0 auto;
 }
 
-.row,
-%row {
-  @extend %clearfix;
+.container {
+  @extend %container;
+  max-width: $container-sm;
+}
+
+.container-lg {
+  @extend %container;
+  max-width: $container-lg;
+}
+
+.container-xl {
+  @extend %container;
+  max-width: $container-xl;
+}
+
+.container-fluid {
+  @extend %container;
+  max-width: 100%;
+}
+
+// Row
+%row,
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -$grid-gutter / 2;
+  margin-left: -$grid-gutter / 2;
+}
+
+// Column mixin
+@mixin make-col {
   position: relative;
   width: 100%;
-  padding-right: $spacing--small;
-  padding-left: $spacing--small;
-  margin: 1em 0;
-  overflow: hidden;
+  padding-right: $grid-gutter / 2;
+  padding-left: $grid-gutter / 2;
 }
 
-.row-flex,
-%row-flex {
-  @extend %row;
-  display: flex;
+// Columns
+[class^="col-"] {
+  @include make-col;
 }
 
+// Generate column classes
+@mixin make-grid-columns($breakpoint: "") {
+  $infix: if($breakpoint == "", "", "-#{$breakpoint}");
+
+  @for $i from 1 through $grid-columns {
+    .col#{$infix}-#{$i} {
+      @include make-col;
+      flex: 0 0 percentage($i / $grid-columns);
+      max-width: percentage($i / $grid-columns);
+    }
+  }
+
+  .col#{$infix} {
+    @include make-col;
+    flex-basis: 0;
+    flex-grow: 1;
+    max-width: 100%;
+  }
+
+  .col#{$infix}-auto {
+    @include make-col;
+    flex: 0 0 auto;
+    width: auto;
+    max-width: 100%;
+  }
+}
+
+// Generate offset classes
+@mixin make-grid-offsets($breakpoint: "") {
+  $infix: if($breakpoint == "", "", "-#{$breakpoint}");
+
+  @for $i from 0 through ($grid-columns - 1) {
+    .offset#{$infix}-#{$i} {
+      @if $i == 0 {
+        margin-left: 0;
+      } @else {
+        margin-left: percentage($i / $grid-columns);
+      }
+    }
+  }
+}
+
+// Generate order classes
+@mixin make-grid-orders($breakpoint: "") {
+  $infix: if($breakpoint == "", "", "-#{$breakpoint}");
+
+  .order#{$infix}-first { order: -1; }
+  .order#{$infix}-last { order: $grid-columns + 1; }
+
+  @for $i from 0 through $grid-columns {
+    .order#{$infix}-#{$i} { order: $i; }
+  }
+}
+
+// Generate classes for each breakpoint
+@each $breakpoint, $width in $breakpoints {
+  @if $width == 0 {
+    @include make-grid-columns($breakpoint);
+    @include make-grid-offsets($breakpoint);
+    @include make-grid-orders($breakpoint);
+  } @else {
+    @media (min-width: $width) {
+      @include make-grid-columns($breakpoint);
+      @include make-grid-offsets($breakpoint);
+      @include make-grid-orders($breakpoint);
+    }
+  }
+}
+
+// Utility classes
+.d-flex { display: flex; }
+.flex-row { flex-direction: row; }
+.flex-column { flex-direction: column; }
+.flex-wrap { flex-wrap: wrap; }
+.flex-nowrap { flex-wrap: nowrap; }
+.justify-content-start { justify-content: flex-start; }
+.justify-content-end { justify-content: flex-end; }
+.justify-content-center { justify-content: center; }
+.justify-content-between { justify-content: space-between; }
+.justify-content-around { justify-content: space-around; }
+.align-items-start { align-items: flex-start; }
+.align-items-end { align-items: flex-end; }
+.align-items-center { align-items: center; }
+.align-items-baseline { align-items: baseline; }
+.align-items-stretch { align-items: stretch; }
+
+// Responsive utility classes
+@each $breakpoint, $width in $breakpoints {
+  @if $width == 0 {
+    .d-#{$breakpoint}-none { display: none !important; }
+    .d-#{$breakpoint}-inline { display: inline !important; }
+    .d-#{$breakpoint}-inline-block { display: inline-block !important; }
+    .d-#{$breakpoint}-block { display: block !important; }
+    .d-#{$breakpoint}-flex { display: flex !important; }
+  } @else {
+    @media (min-width: $width) {
+      .d-#{$breakpoint}-none { display: none !important; }
+      .d-#{$breakpoint}-inline { display: inline !important; }
+      .d-#{$breakpoint}-inline-block { display: inline-block !important; }
+      .d-#{$breakpoint}-block { display: block !important; }
+      .d-#{$breakpoint}-flex { display: flex !important; }
+    }
+  }
+}
+
+// Gutter control
+.no-gutters {
+  margin-right: 0;
+  margin-left: 0;
+
+  > [class^="col-"] {
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+
+.gutter-sm {
+  margin-right: -8px;
+  margin-left: -8px;
+
+  > [class^="col-"] {
+    padding-right: 8px;
+    padding-left: 8px;
+  }
+}
+
+.gutter-lg {
+  margin-right: -32px;
+  margin-left: -32px;
+
+  > [class^="col-"] {
+    padding-right: 32px;
+    padding-left: 32px;
+  }
+}
+
+// Legacy support
 .col-half--left {
-  @include media($small-tab) {
+  @include make-col;
+  @media (min-width: $small-tab) {
     float: left;
     width: 48%;
     margin: 1%;
   }
-  float: none;
-  width: 100%;
-  margin: 1em 0;
 }
 
 .col-half--right {
-  @include media($small-tab) {
+  @include make-col;
+  @media (min-width: $small-tab) {
     float: right;
     width: 48%;
     margin: 1%;
-
   }
-  float: none;
-  width: 100%;
-  margin: 1em 0;
 }
 
 .col-two-third {
-  @include media($tab-h) {
+  @include make-col;
+  @media (min-width: $tab-h) {
     float: left;
     width: 62%;
     margin: 1%;
   }
-  float: none;
-  width: 100%;
-  margin: 1em 0;
-
 }
 
 .col-third {
-  @include media($tab-h) {
+  @include make-col;
+  @media (min-width: $tab-h) {
     float: left;
     width: 31%;
     margin: 1%;
   }
-  float: none;
-  width: 100%;
-  margin: 1em 0;
 }
