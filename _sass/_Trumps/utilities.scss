@@ -93,41 +93,8 @@ s {
   color: $color--grey;
 }
 
-/* spacing */
-
-.no-marg,
-%no-marg {
-  margin: 0;
-}
-
-.no-marg-v {
-  margin-top: 0;
-  margin-bottom: 0;
-}
-
-.marg-v--tiny,
-%marg-v--tiny {
-  margin: $spacing--tiny 0;
-}
-
-.marg-v--small,
-%marg-v--small {
-  margin: $spacing--small 0;
-}
-
-.marg-v--base,
-%marg-v--base {
-  margin: $spacing--base 0;
-}
-
-.marg-v--medium,
-%marg-v--medium {
-  margin: $spacing--medium 0;
-}
-
-.marg-v--large,
-%marg-v--large {
-  margin: $spacing--large 0;
+.color-grey {
+  color: $color--grey;
 }
 
 .large-post-image {
@@ -169,4 +136,28 @@ s {
 /* Joker font size */
 .joker-fs {
   @include fluid-typo(26, 33, $phone-h-computed, $desktop-computed);
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+
+/* List utilities */
+.list-unstyled {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+
+  li {
+    list-style-type: none;
+  }
 }

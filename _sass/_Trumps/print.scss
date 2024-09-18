@@ -1,5 +1,18 @@
-/* Print trumps */
+/* Improved Print Styles */
 
+// Variables
+$print-font-size: 12pt;
+$print-line-height: 1.5;
+$print-color: #000;
+$print-background: #fff;
+$grey-color-light: #e0e0e0; // Assuming a light grey color
+
+// Mixins
+@mixin font-size($size) {
+  font-size: $size;
+}
+
+// Styles for both screen and print
 @media all {
   .page-break {
     display: none;
@@ -10,12 +23,18 @@
   }
 }
 
+// Print-specific styles
 @media print {
+  // Root and body styles
   :root {
-    font-size: 12px;
+    font-size: $print-font-size;
   }
 
   body {
+    font-family: Georgia, "Times New Roman", serif;
+    line-height: $print-line-height;
+    color: $print-color;
+    background: $print-background;
     border-width: 2px;
 
     &::after {
@@ -23,54 +42,145 @@
     }
   }
 
-  a:link:after,
-  a:visited:after {
-    font-size: 90%;
-    content: "(" attr(href) ")";
+  // Typography adjustments
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    page-break-after: avoid;
+    page-break-inside: avoid;
   }
 
+  h1 {
+    font-size: 24pt;
+  }
+
+  h2 {
+    font-size: 20pt;
+  }
+
+  h3 {
+    font-size: 16pt;
+  }
+
+  p,
+  ul,
+  ol,
+  dl {
+    page-break-inside: avoid;
+  }
+
+  // Link styles
+  a {
+    color: $print-color;
+    text-decoration: underline;
+    word-wrap: break-word;
+  }
+
+  a[href^="http"]:after {
+    content: " (" attr(href) ")";
+    font-size: 90%;
+  }
+
+  // Abbreviations
+  abbr[title]:after {
+    content: " (" attr(title) ")";
+  }
+
+  // Image handling
+  img {
+    max-width: 100% !important;
+    page-break-inside: avoid;
+  }
+
+  // Table handling
+  table {
+    border-collapse: collapse;
+  }
+
+  table,
+  th,
+  td {
+    border: 1px solid $print-color;
+  }
+
+  // Utility classes
   .page-break {
     display: block;
     page-break-before: always;
   }
 
   .no-print {
-    display: none;
+    display: none !important;
   }
 
   .only-print {
-    display: block;
+    display: block !important;
+  }
+
+  // Layout adjustments
+  .row {
+    margin: 0;
+  }
+
+  .uvp-title {
+    margin: 0 0 1rem 0;
+    @include font-size(2);
+    font-weight: normal;
+    line-height: 2rem;
+  }
+
+  .page-content {
+    padding: 0;
+  }
+
+  .about section {
+    margin-bottom: 0;
+  }
+
+  .section-title {
+    flex: 0 0 15%;
+    width: 15%;
+  }
+
+  .content {
+    flex: 0 0 100%;
+    width: 100%;
+  }
+
+  .aside-print {
+    padding-left: 0.5rem;
+    border-left: 1px dashed $grey-color-light;
+  }
+
+  // Hide unnecessary elements
+  .post-nav,
+  nav,
+  .navigation,
+  .ads,
+  .sidebar,
+  .footer {
+    display: none !important;
+  }
+
+  // Ensure background images and colors print
+  * {
+    -webkit-print-color-adjust: exact !important;
+    color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+
+  // Improve readability
+  p,
+  li {
+    orphans: 3;
+    widows: 3;
+  }
+
+  // Add more whitespace
+  @page {
+    margin: 1.5cm;
   }
 }
-
-
-// @media print {
-
-//     .row {
-//         margin: 0;
-//     }
-//     .uvp-title {
-//         margin: 0 0 1rem 0;
-//         @include font-size(2);
-//         font-weight: normal;
-//         line-height: 2rem;
-//     }
-//     .page-content {
-//         padding: 0;
-//     }
-//     .about section {
-//         margin-bottom: 0;
-//     }
-//     .section-title {
-//         flex: 0 0 15%;
-//         width: 15%;
-//     }
-//     .content {
-//         flex: 0 0 100%;
-//         width: 100%;
-//     }
-//     .aside-print {
-//         padding-left: .5rem;
-//         border-left: 1px dashed $grey-color-light;
-//     }
-// }
