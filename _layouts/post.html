@@ -4,17 +4,24 @@ layout: default
 
 <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
-  <header class="post-header">
-    <h1 class="post-title uvp-title--medium" itemprop="name headline">{{ page.title | escape }}<hr/></h1>
+  <header class="post-header container">
+    <h1 class="post-title" itemprop="name headline">{{ page.title | escape }}<hr aria-hidden="true"/></h1>
   </header>
 
-  <div class="post-content" itemprop="articleBody">
-    {% comment %}
-    <p class="post-meta">
-      <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>
-      {{ page.theme }} {% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}
-    </p>
-    {% endcomment %}
+  <div class="post-content container" itemprop="articleBody">
+    <div class="post-meta visually-hidden">
+      <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+        {{ page.date | date: "%B %-d, %Y" }}
+      </time>
+      {% if page.theme %}
+        <span class="post-theme">{{ page.theme }}</span>
+      {% endif %}
+      {% if page.author %}
+        <span class="post-author" itemprop="author" itemscope itemtype="http://schema.org/Person">
+          <span itemprop="name">{{ page.author }}</span>
+        </span>
+      {% endif %}
+    </div>
 
     {{ content }}
   </div>
@@ -23,3 +30,4 @@ layout: default
 </article>
 
 {% include post-pagination.html %}
+

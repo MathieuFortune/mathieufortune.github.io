@@ -2,195 +2,217 @@
 layout: default
 ---
 <article class="about">
-
-  <h1 class="intro-title no-print">{{ site.data.about[page.lang].intro_title }}</h1>
-
-  <section class="only-print row">
-    <div class="col-half--left">
-      <h1 class="intro-title">
-        {{ site.data.about[page.lang].cv.title }}
-      </h1>
-      <p>
-        {{ site.data.about[page.lang].cv.desc }}
-      </p>
-      <p class="italic">
-        {{ site.data.about[page.lang].intro_title | strip_html }}
-      </p>
-    </div>
-    <div class="col-half--right text-right">
-      <ul class="list-unstyled">
-        {% for link in site.data.about[page.lang].hire_me %}
-        <li>{{ link }}</li>
-        {% endfor %}
-      </ul>
-    </div>
-  </section>
-
-  <section class="row no-print text-right">
-    <div class="print-it no-print">
-      {% comment %}
-      <button onclick="window.print(); return false;" class="btn--default">
-        {% include icon-printer.svg %} {{ site.data.about[page.lang].print_it }}
-      </button>
-      {% endcomment %}
-      <a href="{{ site.url }}/images/Resume-Mathieu-Fortune-Senior-Product-Designer.pdf" class="btn--default" title="{{ site.data.about[page.lang].print_it }}" target="_blank">{{ site.data.about[page.lang].print_it }}</a>
-
-      <a href="{{ site.data.about[page.lang].hire_me_mailto }}" class="btn--default">{{ site.data.about[page.lang].hire_me_heading}}</a>
-    </div>
-  </section>
-
-  {% comment %}
-  <section class="row-flex no-print">
-    <div class="title">
-      <h2>{{ site.data.about[page.lang].about.title }}</h2>
-    </div>
-    <div class="content">
-      {{ site.data.about[page.lang].about.desc }}
-    </div>
-  </section>
-  {% endcomment %}
-
-  <section class="row-flex">
-    <div class="title">
-      <h2>{{ site.data.about[page.lang].experience_heading }}</h2>
-    </div>
-    <div class="boxed content">
-      {% for experiences in site.data.about[page.lang].experiences %}
-      <div class="item">
-        <h3>{{ experiences.title }} | <span class="">{{ experiences.name }}</span></h3>
-        <p class="italic marg-v--tiny">
-          {{ experiences.period }}
-        </p>
-        <p>{{ experiences.desc }}</p>
-        <ul>
-          {% for entries in experiences.role %}
-          <li>{{ entries }}</li>
-          {% endfor %}
-        </ul>
-				<p class="bold">{{ experiences.results }}</p>
-      </div>
-      {% endfor %}
-    </div>
-  </section>
-
-  {% comment %}
-  <section class="row-flex">
-    <div class="title">
-      <h2>{{ site.data.about[page.lang].i_have_heading }}</h2>
-    </div>
-    <div class="content">
-      <ul>
-        {% for entries in site.data.about[page.lang].i_have %}
-        <li>{{ entries }}</li>
-        {% endfor %}
-      </ul>
-    </div>
-  </section>
-  {% endcomment %}
-
-  <section class="row-flex">
-    <div class="title">
-      <h2>{{ site.data.about[page.lang].skills_heading }}</h2>
-    </div>
-    <div class="content">
-      {% for skills in site.data.about[page.lang].skills %}
-      <p class="bold marg-v--tiny">{{ skills.title }}</p>
-      <ul class="tags">
-        {% for entries in skills.list %}
-        <li>{{ entries }}</li>
-        {% endfor %}
-      </ul>
-      {% endfor %}
-    </div>
-  </section>
-
-  <section class="row-flex">
-    <div class="title">
-      <h2>{{ site.data.about[page.lang].trainings_heading }}</h2>
-    </div>
-    <div class="boxed content">
-      {% for trainings in site.data.about[page.lang].trainings %}
-      <div class="item">
-        <h3>{{ trainings.title }} | <span class="">{{ trainings.name }}</span></h3>
-        <p class="italic marg-v--tiny">{{ trainings.period }}</p>
-        <ul>
-          <li>{{ trainings.desc }}</li>
-        </ul>
-      </div>
-      {% endfor %}
-    </div>
-  </section>
-
-  <section class="row-flex">
-    <div class="title">
-      <h2>{{ site.data.about[page.lang].events_heading }}</h2>
-    </div>
-    <div class="content">
-      <ul>
-        {% for entries in site.data.about[page.lang].events %}
-        <li>{{ entries }}</li>
-        {% endfor %}
-      </ul>
-    </div>
-  </section>
-
-  {% comment %}
-  <section class="row-flex">
-    <div class="title">
-      <h2>{{ site.data.about[page.lang].projects_heading }}</h2>
-    </div>
-    <div class="boxed content">
-      {% for projects in site.data.about[page.lang].projects %}
-      <div class="item">
-        <h3>{{ projects.title }}</h3>
-        <p class="marg-v--tiny"><em>{{ projects.description }}</em></p>
-        <span class="bold">{{ site.data.about[page.lang].project_my_roles }}:</span>
-        <br/>
-        <ul>
-          {% for entries in projects.list %}
-          <li>{{ entries }}</li>
-          {% endfor %}
-        </ul>
-        {% if projects.results != empty %}
+  <div class="container">
+    <h1 class="intro-title no-print">{{ site.data.about[page.lang].intro_title }}<hr></h1>
+  </div>
+  <div class=container-lg>
+    <section class="only-print row">
+      <div class="col-md-6">
+        <h1 class="intro-title">
+          {{ site.data.about[page.lang].cv.title }}
+        </h1>
         <p>
-          <span class="bold">{{ site.data.about[page.lang].project_results }}:</span>
-          <br>
-          {{ projects.results }}
+          {{ site.data.about[page.lang].cv.desc }}
         </p>
-        {% endif %}
-
+        <p class="italic">
+          {{ site.data.about[page.lang].intro_title | strip_html }}
+        </p>
       </div>
-      {% endfor %}
-    </div>
-  </section>
-  {% endcomment %}
+      <div class="col-md-6 text-right">
+        <ul class="list-unstyled">
+          {% for link in site.data.about[page.lang].hire_me %}
+          <li>{{ link }}</li>
+          {% endfor %}
+        </ul>
+      </div>
+    </section>
 
-  <section class="row-flex no-print">
-    <div class="title">
-      <h2>{{ site.data.about[page.lang].quotes_heading }}</h2>
-    </div>
-    <div class="boxed content">
-    {% for quotes in site.data.about[page.lang].quotes %}
-    <blockquote class="small">
-      {{ quotes.description }}
-      <p class="text-right">{{ quotes.name }}</p>
-    </blockquote>
-    {% endfor %}
-    </div>
-  </section>
+    <section class="row no-print text-right">
+      <div class="col-12 print-it no-print">
+        {% comment %}
+        <button onclick="window.print(); return false;" class="btn--default">
+          {% include icon-printer.svg %} {{ site.data.about[page.lang].print_it }}
+        </button>
+        {% endcomment %}
+        <a href="{{ site.url }}/images/Resume-Mathieu-Fortune-Senior-Product-Designer.pdf" class="btn--default" title="{{ site.data.about[page.lang].print_it }}" target="_blank">{{ site.data.about[page.lang].print_it }}</a>
 
-  <section class="row no-print text-right">
-    <div class="print-it no-print">
-      {% comment %}
-      <button onclick="window.print(); return false;" class="btn--default">
-        {% include icon-printer.svg %} {{ site.data.about[page.lang].print_it }}
-      </button>
-      {% endcomment %}
-      <a href="{{ site.url }}/images/Resume-Mathieu-Fortune-Senior-Product-Designer.pdf" class="btn--default" title="{{ site.data.about[page.lang].print_it }}" target="_blank">{{ site.data.about[page.lang].print_it }}</a>
+        <a href="{{ site.data.about[page.lang].hire_me_mailto }}" class="btn--default">{{ site.data.about[page.lang].hire_me_heading}}</a>
+      </div>
+    </section>
 
-      <a href="{{ site.data.about[page.lang].hire_me_mailto }}" class="btn--default">{{ site.data.about[page.lang].hire_me_heading}}</a>
-    </div>
-  </section>
+    {% comment %}
+    <section class="row no-print">
+      <div class="title">
+        <h2>{{ site.data.about[page.lang].about.title }}</h2>
+      </div>
+      <div class="content">
+        {{ site.data.about[page.lang].about.desc }}
+      </div>
+    </section>
+    {% endcomment %}
 
+    <section class="row">
+      <div class="col-sm-3">
+        <div class="title sm-mb-lg">
+          <h2>{{ site.data.about[page.lang].experience_heading }}</h2>
+        </div>
+      </div>
+      <div class="col-sm-9">
+        <div class="boxed content">
+          {% for experiences in site.data.about[page.lang].experiences %}
+          <div class="item">
+            <h3>{{ experiences.title }} | <span class="">{{ experiences.name }}</span></h3>
+            <p class="italic my-xs">
+              {{ experiences.period }}
+            </p>
+            <p>{{ experiences.desc }}</p>
+            <ul>
+              {% for entries in experiences.role %}
+              <li>{{ entries }}</li>
+              {% endfor %}
+            </ul>
+            <p class="bold">{{ experiences.results }}</p>
+          </div>
+          {% endfor %}
+        </div>
+      </div>
+    </section>
 
+    {% comment %}
+    <section class="row">
+      <div class="title">
+        <h2>{{ site.data.about[page.lang].i_have_heading }}</h2>
+      </div>
+      <div class="content">
+        <ul>
+          {% for entries in site.data.about[page.lang].i_have %}
+          <li>{{ entries }}</li>
+          {% endfor %}
+        </ul>
+      </div>
+    </section>
+    {% endcomment %}
+
+    <section class="row">
+      <div class="col-sm-3">
+        <div class="title">
+          <h2>{{ site.data.about[page.lang].skills_heading }}</h2>
+        </div>
+      </div>
+      <div class="col-sm-9">
+        <div class="content">
+          {% for skills in site.data.about[page.lang].skills %}
+          <p class="bold marg-v--tiny">{{ skills.title }}</p>
+          <ul class="tags">
+            {% for entries in skills.list %}
+            <li>{{ entries }}</li>
+            {% endfor %}
+          </ul>
+          {% endfor %}
+        </div>
+      </div>
+    </section>
+
+    <section class="row">
+      <div class="col-sm-3">
+        <div class="title sm-mb-lg">
+          <h2>{{ site.data.about[page.lang].trainings_heading }}</h2>
+        </div>
+      </div>
+      <div class="col-sm-9">
+        <div class="boxed content">
+          {% for trainings in site.data.about[page.lang].trainings %}
+          <div class="item">
+            <h3>{{ trainings.title }} | <span class="">{{ trainings.name }}</span></h3>
+            <p class="italic marg-v--tiny">{{ trainings.period }}</p>
+            <ul>
+              <li>{{ trainings.desc }}</li>
+            </ul>
+          </div>
+          {% endfor %}
+        </div>
+      </div>
+    </section>
+
+    <section class="row">
+      <div class="col-sm-3">
+        <div class="title">
+          <h2>{{ site.data.about[page.lang].events_heading }}</h2>
+        </div>
+      </div>
+      <div class="col-sm-9">
+        <div class="content">
+          <ul>
+            {% for entries in site.data.about[page.lang].events %}
+            <li>{{ entries }}</li>
+            {% endfor %}
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    {% comment %}
+    <section class="row">
+      <div class="title">
+        <h2>{{ site.data.about[page.lang].projects_heading }}</h2>
+      </div>
+      <div class="boxed content">
+        {% for projects in site.data.about[page.lang].projects %}
+        <div class="item">
+          <h3>{{ projects.title }}</h3>
+          <p class="marg-v--tiny"><em>{{ projects.description }}</em></p>
+          <span class="bold">{{ site.data.about[page.lang].project_my_roles }}:</span>
+          <br/>
+          <ul>
+            {% for entries in projects.list %}
+            <li>{{ entries }}</li>
+            {% endfor %}
+          </ul>
+          {% if projects.results != empty %}
+          <p>
+            <span class="bold">{{ site.data.about[page.lang].project_results }}:</span>
+            <br>
+            {{ projects.results }}
+          </p>
+          {% endif %}
+
+        </div>
+        {% endfor %}
+      </div>
+    </section>
+    {% endcomment %}
+
+    <section class="row no-print">
+      <div class="col-sm-3">
+        <div class="title">
+          <h2>{{ site.data.about[page.lang].quotes_heading }}</h2>
+        </div>
+      </div>
+      <div class="col-sm-9">
+        <div class="boxed">
+          {% for quotes in site.data.about[page.lang].quotes %}
+            <blockquote class="full small">
+              {{ quotes.description }}
+              <p class="bold text-right">{{ quotes.name }}</p>
+            </blockquote>
+          {% endfor %}
+        </div>
+      </div>
+    </section>
+
+    <section class="row no-print text-right">
+      <div class=col-12>
+        <div class="print-it no-print">
+          {% comment %}
+          <button onclick="window.print(); return false;" class="btn--default">
+            {% include icon-printer.svg %} {{ site.data.about[page.lang].print_it }}
+          </button>
+          {% endcomment %}
+          <a href="{{ site.url }}/images/Resume-Mathieu-Fortune-Senior-Product-Designer.pdf" class="btn--default" title="{{ site.data.about[page.lang].print_it }}" target="_blank">{{ site.data.about[page.lang].print_it }}</a>
+
+          <a href="{{ site.data.about[page.lang].hire_me_mailto }}" class="btn--default">{{ site.data.about[page.lang].hire_me_heading}}</a>
+        </div>
+      </div>
+    </section>
+  </div>
 </article>
