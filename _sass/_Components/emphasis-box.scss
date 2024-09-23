@@ -1,23 +1,21 @@
 .emphasize-box {
     background-color: #F4F2EE;
-    padding: $spacing--base;
+    padding: $spacing--3xl;
     margin-bottom: $spacing--lg;
     @include fluid-typo(18, 18, $phone-h-computed, $desktop-computed);
     font-weight: $font-weight--bold;
+    border-radius: $spacing--base;
 
-    h3 {
+    .heading {
         font-family: $font-base;
-        @include fluid-typo(18, 18, $phone-h-computed, $desktop-computed);
-        margin-top: 0;
-        margin-bottom: $spacing--xs;
-        padding: 0!important;
+        @include fluid-typo(18, 20, $phone-h-computed, $desktop-computed);
     }
 
-    p {
+    .support {
         color: #4F6677;
         @include fluid-typo(18, 18, $phone-h-computed, $desktop-computed);
         font-weight: $font-weight--base;
-        margin-top: 0;
+        margin-top: $spacing--sm!important;
         margin-bottom: 0;
     }
 
@@ -26,15 +24,16 @@
     }
 
     &.numbers {
+        padding: $spacing--base;
         border-left: 6px $color--main solid;
-        h3 {
+        border-radius: 0;
+        .heading {
             margin-bottom: 0;
             @include fluid-typo(28, 34, $phone-h-computed, $desktop-computed);
         }
 
         .sub {
-            font-weight: $font-weight--bold;
-            color: $color--black;
+            margin-bottom: 0;
         }
     }
 
@@ -42,4 +41,15 @@
         background-color: $color--white;
         border: 1px solid $color--black;
     }
+}
+
+.emphasize-tag {
+    display: inline-block;
+    background-color: #F4F2EE;
+    padding: $spacing--2xs $spacing--xs;
+    margin-top: $spacing--base;
+    margin-bottom: $spacing--2xs;
+    @include fluid-typo(18, 18, $phone-h-computed, $desktop-computed);
+    font-weight: $font-weight--bold;
+    border-radius: $spacing--xs;
 }

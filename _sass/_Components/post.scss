@@ -6,8 +6,16 @@
   }
 
   .post-content {
+    h2 {
+      @include fluid-typo(28, 36, $phone-h-computed, $desktop-computed);
+    }
+
+    h3 {
+      @include fluid-typo(24, 28, $phone-h-computed, $desktop-computed);
+    }
+
     p {
-      @include fluid-typo(18, 18, $phone-h-computed, $desktop-computed);
+      @include fluid-typo(18, 20, $phone-h-computed, $desktop-computed);
       line-height: 1.6;
 
       &.excerpt {
@@ -45,39 +53,6 @@
           padding-top: $spacing--2xl;
           padding-bottom: $spacing--2xl;
         }
-      }
-    }
-  }
-}
-
-.case-study-details {
-  .item {
-
-    margin-right: -$spacing--3xl;
-    padding: $spacing--base;
-    @include fluid-typo(18, 18, $phone-h-computed, $desktop-computed);
-    border-top: 1px solid $color--grey;
-
-    &.is-last {
-      border-bottom: 1px solid $color--grey;
-    }
-
-    .lb {
-      color: $color--grey;
-    }
-    .desc {
-      font-weight: $font-weight--bold;
-    }
-
-    @include media ($phone-h, min-width) {
-    display: flex;
-    flex-flow: row;
-
-      .lbl {
-        width: 30%;
-      }
-      .desc {
-        width: 70%;
       }
     }
   }
