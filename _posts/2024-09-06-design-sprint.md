@@ -160,11 +160,11 @@ theme: Case Study
                         <div class="timeline-content">
                             <p class="bold">Insight Collection and Problem Definition</p>
                             <p>
-                                1. I conducted in-depth research to clarify the broad problem definition<br/>
-                                2. Together with the team, we identified market opportunities and aligned them with company OKRs<br/>
-                                3. I created iterative customer journey maps focusing on the decarbonization phase<br/>
-                                4. We developed persona cards for primary and secondary users<br/>
-                                5. I mapped the existing advisory team process to identify gaps and opportunities
+                                <li>I conducted in-depth research to clarify the broad problem definition</li>
+                                <li>Together with the team, we identified market opportunities and aligned them with company OKRs</li>
+                                <li>I created iterative customer journey maps focusing on the decarbonization phase</li>
+                                <li>We developed persona cards for primary and secondary users</li>
+                                <li>I mapped the existing advisory team process to identify gaps and opportunities</li>
                             </p>
                         </div>
                     </div>
@@ -178,9 +178,9 @@ theme: Case Study
                         <div class="timeline-content">
                             <p class="bold">Problem Mapping and Goal Setting</p>
                             <p>
-                                1. I facilitated a session to define the long-term goal for the project<br/>
-                                2. We created a comprehensive map of actors and actions leading to the end goal<br/>
-                                3. I prepared targeted questions for team input in upcoming sessions
+                                <li>I facilitated a session to define the long-term goal for the project</li>
+                                <li>We created a comprehensive map of actors and actions leading to the end goal</li>
+                                <li>I prepared targeted questions for team input in upcoming sessions</li>
                             </p>
                         </div>
                     </div>
@@ -194,11 +194,11 @@ theme: Case Study
                         <div class="timeline-content">
                             <p class="bold">Expert Consultation and Problem Targeting</p>
                             <p>
-                                1. I presented the problem map to stakeholders in individual interviews<br/>
-                                2. We collected and documented stakeholder feedback<br/>
-                                3. I guided the team in transforming feedback into "How Might We" (HMW) statements<br/>
-                                4. Together, we organized HMW statements into categories<br/>
-                                5. We selected a specific target HMW statement to focus on in the sketching session
+                                <li>I presented the problem map to stakeholders in individual interviews</li>
+                                <li>We collected and documented stakeholder feedback</li>
+                                <li>I guided the team in transforming feedback into "How Might We" (HMW) statements</li>
+                                <li>Together, we organized HMW statements into categories</li>
+                                <li>We selected a specific target HMW statement to focus on in the sketching session</li>
                             </p>
                         </div>
                     </div>
@@ -212,9 +212,9 @@ theme: Case Study
                         <div class="timeline-content">
                             <p class="bold">Solution Ideation</p>
                             <p>
-                                1. I led a review of insights gathered throughout the week<br/>
-                                2. I facilitated a team sketching session to generate solution ideas<br/>
-                                3. We connected ideas with personas, customer journey, and unique differentiators
+                                <li>I led a review of insights gathered throughout the week</li>
+                                <li>I facilitated a team sketching session to generate solution ideas</li>
+                                <li>We connected ideas with personas, customer journey, and unique differentiators</li>
                             </p>
                         </div>
                     </div>
@@ -227,10 +227,10 @@ theme: Case Study
                         <div class="timeline-content">
                             <p class="bold">Concept Refinement and Presentation</p>
                             <p>
-                                1. I transformed our sketches into a cohesive flowchart diagram<br/>
-                                2. I developed comprehensive wireframes incorporating key insights and ideas<br/>
-                                3. We presented the flowchart and wireframes to the internal team<br/>
-                                4. We delivered the final presentation to leadership
+                                <li>I transformed our sketches into a cohesive flowchart diagram</li>
+                                <li>I developed comprehensive wireframes incorporating key insights and ideas</li>
+                                <li>We presented the flowchart and wireframes to the internal team</li>
+                                <li>We delivered the final presentation to leadership</li>
                             </p>
                         </div>
                     </div>
