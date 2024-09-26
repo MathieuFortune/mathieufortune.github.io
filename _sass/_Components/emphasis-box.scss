@@ -47,8 +47,6 @@
     display: inline-block;
     background-color: #F4F2EE;
     padding: $spacing--2xs $spacing--xs;
-    margin-top: $spacing--base;
-    margin-bottom: $spacing--2xs;
     @include fluid-typo(18, 18, $phone-h-computed, $desktop-computed);
     font-weight: $font-weight--bold;
     border-radius: $spacing--xs;
