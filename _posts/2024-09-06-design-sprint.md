@@ -323,7 +323,7 @@ theme: Case Study
         <div class="col-md-8 offset-md-2 pb-xl">
             <div class="heading-group">
                 <div class="sub-heading">Discover & Understand</div>
-                <h3 class="heading">"How Might We" Statements.</h3>
+                <h3 class="heading">Problem Map and "HMW" Statements</h3>
             </div>
             <p>I facilitated the creation of a comprehensive map representing key actors in the decarbonization workstream. This map served as a foundation for gathering feedback from our cross-functional team. I then led the effort to distill this feedback into actionable "How Might We" (HMW) statements. These statements captured both user and internal team pain points and needs, providing clear direction for our ideation process.</p>
         </div>
