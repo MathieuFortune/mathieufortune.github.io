@@ -255,7 +255,7 @@ theme: Case Study
             <p>I spearheaded the effort to define Carbon Direct's market positioning for its decarbonization solution. This involved a thorough analysis of our unique value proposition and how it fits within the broader market landscape. I ensured that this positioning aligned with our company's objectives and key results (OKRs), creating a clear link between our product strategy and overall business goals.</p>
         </div>
         <div class="col-md-12">
-            <div class="row">
+            <div class="row figure-row">
                 <div class="col-md-7">
                     {% include lazy-image.html src="/images/illus-design-sprint-market-pos-01.png" alt="Market positioning artifact" caption="" figClass="fit-cover" %}
                 </div>
@@ -267,7 +267,7 @@ theme: Case Study
         </div>
     </div>
     <div class="row">
-        <div class="col-md-8 offset-md-2">
+        <div class="col-md-8 offset-md-2 pb-xl">
             <div class="heading-group">
                 <div class="sub-heading">Discover & Understand</div>
                 <h3 class="heading">User Journey Maps.</h3>
@@ -275,7 +275,7 @@ theme: Case Study
             <p>I facilitated the creation of comprehensive user journey maps that captured the entire customer experience across the carbon management process. These maps placed special emphasis on the critical decarbonization phase. Through multiple iterations and collaborative sessions with the team, we refined these maps based on insights about varying customer "carbon maturity" levels, providing a nuanced view of user needs at different stages of their decarbonization journey.</p>
         </div>
         <div class="col-md-12">
-            <div class="row">
+            <div class="row figure-row">
                 <div class="col-md-6">
                     {% include lazy-image.html src="/images/illus-design-sprint-journey-map-01.png" alt="Market positioning artifact" caption="" figClass="fit-cover" %}
                 </div>
@@ -295,7 +295,7 @@ theme: Case Study
             <p>Building on our research and analysis, I guided the team in developing detailed persona cards representing our ideal platform customers. I was thrilled to uncover the concept of "carbon maturity" levels, which emerged as a key lens for prioritizing features and solutions. Each persona card included rich details about user goals, pain points, and needs, serving as a valuable reference point throughout our design process.</p>
         </div>
         <div class="col-md-12">
-            <div class="row">
+            <div class="row figure-row">
                 <div class="col-md-6">{% include lazy-image.html src="/images/illus-design-sprint-persona01.jpg" alt="Series of persona cards" caption="" figClass="fit-cover" %}</div>
                 <div class="col-md-6">{% include lazy-image.html src="/images/illus-design-sprint-persona02.jpg" alt="Series of persona cards" caption="" figClass="fit-cover" %}</div>
                 <div class="col-md-4">{% include lazy-image.html src="/images/illus-design-sprint-persona03.jpg" alt="Series of persona cards" caption="" figClass="fit-cover" %}</div>
@@ -305,7 +305,7 @@ theme: Case Study
         </div>
     </div>
     <div class="row">
-        <div class="col-md-8 offset-md-2 pb-2xl">
+        <div class="col-md-8 offset-md-2 pb-xl">
             <div class="heading-group">
                 <div class="sub-heading">Discover & Understand</div>
                 <h3 class="heading">Science Advisor Role Documentation.</h3>
@@ -313,14 +313,14 @@ theme: Case Study
             <p>I took the initiative to interview members of our science advisory team, gaining deep insights into their unique tasks, challenges, and needs when working with customers on decarbonization strategies. This documentation ensured that our solutions were firmly grounded in the realities faced by our internal experts, bridging the gap between scientific expertise and user-friendly platform design.</p>
         </div>
         <div class="col-md-12">
-            <div class="row">
+            <div class="row figure-row">
                 <div class="col-md-6">{% include lazy-image.html src="/images/illus-design-sprint-advisory01.png" alt="Post its and notes taken from internal users research" caption="" figClass="fit-cover" %}</div>
                 <div class="col-md-6">{% include lazy-image.html src="/images/illus-design-sprint-advisory02.png" alt="Post its and notes taken from internal users research" caption="" figClass="fit-cover" %}</div>
             </div>
         </div>
     </div>
     <div class="row">
-        <div class="col-md-8 offset-md-2">
+        <div class="col-md-8 offset-md-2 pb-xl">
             <div class="heading-group">
                 <div class="sub-heading">Discover & Understand</div>
                 <h3 class="heading">"How Might We" Statements.</h3>
@@ -328,7 +328,7 @@ theme: Case Study
             <p>I facilitated the creation of a comprehensive map representing key actors in the decarbonization workstream. This map served as a foundation for gathering feedback from our cross-functional team. I then led the effort to distill this feedback into actionable "How Might We" (HMW) statements. These statements captured both user and internal team pain points and needs, providing clear direction for our ideation process.</p>
         </div>
         <div class="col-md-12">
-            <div class="row">
+            <div class="row figure-row">
                 <div class="col-md-6">
                     {% include lazy-image.html src="/images/illus-design-sprint-problem-map.png" alt="Problem Map created during design sprint" caption="" figClass="fit-cover" %}
                 </div>
@@ -339,7 +339,7 @@ theme: Case Study
         </div>
     </div>
     <div class="row">
-        <div class="col-md-8 offset-md-2">
+        <div class="col-md-8 offset-md-2 pb-xl">
             <div class="heading-group">
                 <div class="sub-heading">Explore & Ideate</div>
                 <h3 class="heading">Solution Sketches.</h3>
@@ -347,34 +347,34 @@ theme: Case Study
             <p>Using our HMW statements as prompts, I organized and facilitated a dynamic sketching session. This collaborative effort ensured our team generated a wide range of potential solutions directly addressing the identified challenges. I was impressed by the creativity and insights that emerged during this session, resulting in sketches that served as a visual brainstorm, capturing innovative ideas and potential feature concepts.</p>
         </div>
         <div class="col-md-12">
-            <div class="row">
+            <div class="row figure-row">
                 <div class="col-md-6">
                     {% include lazy-image.html src="/images/illus-design-sprint-sketch01.png" alt="Sketches generated during ideation sessions" caption="" figClass="fit-cover" %}
                 </div>
                 <div class="col-md-6">
                     {% include lazy-image.html src="/images/illus-design-sprint-sketch02.jpg" alt="Sketches generated during ideation sessions" caption="" figClass="fit-cover" %}
                 </div>
-            </div>
-            <div class="row">
                 <div class="col-md-6">
                     {% include lazy-image.html src="/images/illus-design-sprint-sketch03.jpg" alt="Sketches generated during ideation sessions" caption="" figClass="fit-cover" %}
                 </div>
                 <div class="col-md-6">
-                {% include lazy-image.html src="/images/illus-design-sprint-sketch04.png" alt="Sketches generated during ideation sessions" caption="" figClass="fit-cover" %}
+                    {% include lazy-image.html src="/images/illus-design-sprint-sketch04.png" alt="Sketches generated during ideation sessions" caption="" figClass="fit-cover" %}
                 </div>
             </div>
         </div>
     </div>
     <div class="row">
-        <div class="col-md-8 offset-md-2">
+        <div class="col-md-8 offset-md-2 pb-xl">
             <div class="heading-group">
                 <div class="sub-heading">Decide</div>
                 <h3 class="heading">Flowchart Diagram and Roadmap.</h3>
             </div>
             <p>Synthesizing insights from all previous sprint stages, I developed a comprehensive flowchart diagram that formed the backbone of our 6-month decarbonization roadmap. This flowchart connected our proposed solutions into a coherent, actionable plan, illustrating how different features and touchpoints would work together to address user needs and business objectives.</p>
         </div>
-        <div class="col-md-12">
-            {% include lazy-image.html src="/images/illus-design-sprint-uflow.png" alt="User flow of potential feature set" caption="" figClass="fit-cover" %}
+        <div class="row figure-row">
+            <div class="col-md-12">
+                {% include lazy-image.html src="/images/illus-design-sprint-uflow.png" alt="Flowchart diagram of potential feature set" caption="" figClass="fit-cover" %}
+            </div>
         </div>
     </div>
     <div class="row">
@@ -386,7 +386,7 @@ theme: Case Study
             <p>To effectively communicate our ideas and proposed solutions to stakeholders, I created detailed wireframes. These wireframes brought our key concepts to life, showcasing the potential user interface and interactions. They served as a powerful tool for facilitating discussions around feasibility, impact, and next steps in the development process.</p>
         </div>
         <div class="col-md-12">
-            <div class="row">
+            <div class="row figure-row">
                 <div class="col-md-4">{% include lazy-image.html src="/images/illus-design-sprint-wire02.png" alt="Wireframes representing one potential solution" caption="" figClass="fit-cover" %}</div>
                 <div class="col-md-4">{% include lazy-image.html src="/images/illus-design-sprint-wire01.png" alt="Wireframes representing one potential solution" caption="" figClass="fit-cover" %}</div>
                 <div class="col-md-4">{% include lazy-image.html src="/images/illus-design-sprint-wire03.png" alt="Wireframes representing one potential solution" caption="" figClass="fit-cover" %}</div>
