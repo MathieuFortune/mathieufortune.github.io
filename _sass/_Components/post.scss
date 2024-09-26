@@ -24,7 +24,7 @@
     }
 
     li {
-      @include fluid-typo(18, 18, $phone-h-computed, $desktop-computed);
+      @include fluid-typo(18, 20, $phone-h-computed, $desktop-computed);
     }
 
     a {
@@ -32,6 +32,14 @@
 
       &:hover {
         text-decoration: none;
+      }
+    }
+
+    .heading-group {
+      h3.heading {}
+
+      .sub-heading {
+        color: $color--grey;
       }
     }
 
@@ -63,4 +71,37 @@ figure.fit-cover {
       object-fit: cover;
       width: 100%;
     }
+}
+
+.timeline-feed {
+  .timeline-item {
+    position: relative;
+    padding-bottom: 2rem;
+
+    .timeline-wrapper {
+      display: flex;
+      position: relative;
+      align-items: flex-start;
+    }
+
+    .line {
+      position: absolute;
+      top: 1.25rem;
+      left: 1.25rem;
+      margin-left: -1px;
+      background-color: $color--main;
+      width: 0.125rem;
+      height: 100%;
+      box-sizing: border-box;
+    }
+    .timeline-step {
+      box-shadow: rgb(255, 255, 255) 0px 0px 0px 0px, rgb(255, 255, 255) 0px 0px 0px 8px, rgba(0, 0, 0, 0) 0px 0px 0px 0px;
+    }
+    .timeline-content {
+      flex: 1 1 0%;
+      min-width: 0px;
+      margin-left: 12px;
+      margin-top: $spacing--2xs;
+    }
+  }
 }
