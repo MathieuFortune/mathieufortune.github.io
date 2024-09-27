@@ -4,11 +4,13 @@ $post-title-font-size--small: 33;
 
 // Post list container
 .post-list-container {
-  padding-top: $spacing--5xl;
-  padding-bottom: $spacing--5xl;
-
   h3 {
-    @include fluid-typo($post-title-font-size, $post-title-font-size--small, $phone-h-computed, $desktop-computed);
+    @include fluid-typo(
+      $post-title-font-size,
+      $post-title-font-size--small,
+      $phone-h-computed,
+      $desktop-computed
+    );
   }
   @include media($tab-v, max-width) {
     margin-top: 0;
@@ -18,20 +20,14 @@ $post-title-font-size--small: 33;
 
 // Post list component
 .post-list {
-  padding: 0;
-  padding-bottom: $spacing--5xl;
-  margin-bottom: 0;
   list-style: none;
-  background-color: $color--white;
 
-  li {
+  .post-item {
     @extend %transition;
     @include media($tab-h) {
       display: flex;
       align-items: center;
       justify-content: space-between;
-      margin: 2.5rem -2.5rem;
-      padding: 2.5rem;
 
       &:nth-child(even) {
         .post-content {
@@ -40,8 +36,7 @@ $post-title-font-size--small: 33;
         }
       }
     }
-    padding: $spacing--base 0;
-    margin: $spacing--base 0;
+    padding: $spacing--2xl;
     border: 1px solid $color--lightgrey;
 
     &:hover {
@@ -74,7 +69,7 @@ $post-title-font-size--small: 33;
   }
 
   .post-link {
-    @extend %clearfix;
+    display: block;
     color: inherit;
   }
 
@@ -82,14 +77,37 @@ $post-title-font-size--small: 33;
     @include font-size($font-size--medium);
     color: $color--black;
     margin: 0;
-    line-height: 1.2;
+    line-height: 1.4;
   }
 
   .post-meta {
-    @extend %italic;
-    @include font-size($font-size--base);
-    display: block;
-    margin-top: $spacing--xs;
+    display: inline-flex;
+    margin-bottom: $spacing--2xs;
+    padding: $spacing--2xs $spacing--xs;
+    @include font-size($font-size--small);
+    line-height: 1rem;
+    font-weight: 400;
+    color: $color--darkgrey;
+    box-shadow: rgb(255, 255, 255) 0px 0px 0px 0px inset, rgba(163, 97, 22, 0.2) 0px 0px 0px 1px inset, rgba(0, 0, 0, 0) 0px 0px 0px 0px;
+    border-radius: 9999px;
   }
 
+  &.featured {
+    .post-item {
+      flex-flow: column;
+
+      &:nth-child(odd) {
+        .post-img {
+          order: initial;
+        }
+      }
+    }
+    .post-img,
+    .post-content {
+      width: auto;
+    }
+    .post-link {
+      min-height: 115px;
+    }
+  }
 }
