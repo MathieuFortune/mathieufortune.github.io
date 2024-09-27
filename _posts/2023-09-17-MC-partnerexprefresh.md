@@ -9,6 +9,7 @@ lang: en
 ref: mentor collective
 author: Mathieu Fortune
 theme: Case Study
+featured: true
 ---
 
 
@@ -57,7 +58,7 @@ We managed to interview two partners, who represented our core user audience, an
 
 To process and document our research, I used Dovetail, a collaborative user feedback analysis platform. Recordings of the interviews would be uploaded and transcripts tagged with keywords relevant for our project. This data-driven approach allowed us to quickly identify recurring pain points and needs.
 
-{% include lazy-image.html src="/images/illustration-partner-experience-mentor-collective-01.jpg" alt="Screenshot showing research documented in Dovetail" caption="Research documented in Dovetail. *Illustrations purposely blurred due to confidentiality restrictions*" figClass="" %}
+{% include lazy-image.html src="/images/illustration-partner-experience-mentor-collective-01.jpg" alt="Screenshot showing research documented in Dovetail" caption="Research documented in Dovetail. *Illustrations purposely blurred due to confidentiality restrictions*" figClass="large-post-image" %}
 
 
 ### Key Takeaways
@@ -75,7 +76,7 @@ The initial partner experience was designed with the account manager as the cond
 
 After sharing these findings with my Product Manager, we defined a clear objective to guide the design phase. We articulated this objective as a user story:
 
-> As a point person,<br/> 
+> As a point person,<br/>
 I want to continuously monitor the impact of, and discern trends within, the mentorship program for specific students and student populations.<br/>
 This information helps me in directing my student support initiatives.<br/>
 However, aside from student alerts (Flags), the dashboard primarily showcases 'all time' metrics for the entire program.<br/>
@@ -83,7 +84,7 @@ This makes me feel the dashboard doesn’t offer timely, actionable insights, re
 
 To facilitate conversation and transparency around our work to internal stakeholders, I crafted a storyboard showcasing this user story:
 
-{% include lazy-image.html src="/images/illustration-partner-experience-mentor-collective-01-bis.png" alt="Storyboard telling a story around the partner's pain point" caption="Storyboard helping convey the user's pain point to internal stakeholders" figClass="" %}
+{% include lazy-image.html src="/images/illustration-partner-experience-mentor-collective-01-bis.png" alt="Storyboard telling a story around the partner's pain point" caption="Storyboard helping convey the user's pain point to internal stakeholders" figClass="large-post-image" %}
 
 
 ## Design Process
@@ -98,10 +99,10 @@ With the main user need identified and a better knowledge of the current product
 
 Recognizing the value of diverse perspectives, I invited internal team members who interact with our users at various stages of their journey. This  group comprised a salesperson, two account managers, an engineer, and two members from the product team: the Director of Curriculum and the Product Manager. The exercise ensured a rich pool of ideas, drawing from each participant's unique experiences and insights with our users.
 
-{% include lazy-image.html src="/images/illustration-partner-experience-mentor-collective-02.jpg" alt="Screenshot showing brainstorming notes" caption="Brainwriting notes in Whimsical. *Illustrations purposely blurred due to confidentiality restrictions*" figClass="" %}
+{% include lazy-image.html src="/images/illustration-partner-experience-mentor-collective-02.jpg" alt="Screenshot showing brainstorming notes" caption="Brainwriting notes in Whimsical. *Illustrations purposely blurred due to confidentiality restrictions*" figClass="large-post-image" %}
 
 ### From Insight to Ideation
-With the initial brainstorming phase completed, I transitioned to several rounds of ideation and sketching. 
+With the initial brainstorming phase completed, I transitioned to several rounds of ideation and sketching.
 
 I laid out a journey map to help us visualize the paths our user would take to accomplish certain tasks and crafted wireframes of the new partner experience. To guide my process, I asked myself questions:
 - What data points currently in our system could be surfaced to the user?
@@ -111,7 +112,7 @@ I laid out a journey map to help us visualize the paths our user would take to a
 
 Leveraging Whimsical, I collaborated seamlessly with my Product Manager and Lead Engineer to gather their feedback.
 
-{% include lazy-image.html src="/images/illustration-partner-experience-mentor-collective-03.jpg" alt="Screenshot showing ideation work in Whimsical" caption="User Journey Map and Wireframes in Whimsical. *Illustrations purposely blurred due to confidentiality restrictions*" figClass="" %}
+{% include lazy-image.html src="/images/illustration-partner-experience-mentor-collective-03.jpg" alt="Screenshot showing ideation work in Whimsical" caption="User Journey Map and Wireframes in Whimsical. *Illustrations purposely blurred due to confidentiality restrictions*" figClass="large-post-image" %}
 
 I then reconnected with the internal team members previously interviewed to walk them through the wireframes. Presenting the wireframes to them served a dual purpose:
 - ensuring our direction aligned with their insights

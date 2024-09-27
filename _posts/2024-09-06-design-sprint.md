@@ -9,6 +9,7 @@ lang: en
 ref: design-sprint-cd
 author: Mathieu Fortune
 theme: Case Study
+featured: true
 ---
 
 <section class="container-fluid">

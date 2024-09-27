@@ -9,6 +9,7 @@ lang: en
 ref: mograph-mentor
 author: Mathieu Fortune
 theme: Case Study
+featured: true
 ---
 
 {% include lazy-image.html src="/images/case-study-mographmentor-cov.jpg" alt="Picture cover of the article" caption="Mograph Mentor - Online Motion Design School" figClass="" %}
