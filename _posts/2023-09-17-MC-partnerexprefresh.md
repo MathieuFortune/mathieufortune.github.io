@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Modernizing the Partner Experience of Mentor Collective's SaaS Platform"
+title:  "Modernizing Mentor Collective's SaaS Platform"
 excerpt: |
-   Mentor Collective's journey from a basic dashboard to an intuitive platform led to a 116% user engagement surge. This case study highlights a blend of tech, user empathy, and team synergy in modernizing a tool essential for higher-ed administrators.
+   This case study explores my role in transforming Mentor Collective's basic dashboard into an intuitive platform, resulting in a remarkable 116% surge in user engagement. I'll share how I blended technical expertise with user empathy to reimagine a tool crucial for higher-ed administrators. You'll see how I navigated the challenges of modernizing an existing system, fostered team synergy, and ultimately delivered a solution that significantly improved the partner experience.
 thumbnail: "/images/cover-partner-experience-refresh-mentor-collective.jpg"
 date:   2023-09-03 13:30:00 +0200
 lang: en

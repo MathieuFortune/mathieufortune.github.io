@@ -1,8 +1,8 @@
 ---
 layout: post-enhanced
-title: "Adapting a Design Sprint to rapidly deliver a product roadmap at Carbon Direct"
+title: "Adapting a Design Sprint for Carbon Direct's Product Roadmap"
 excerpt: |
-  In this case study, I explore how I adapted and led a design sprint at Carbon Direct, a climate tech startup. Our goal was to tackle complex challenges and create a decarbonization roadmap for the company's carbon management platform. This project showcases my problem-solving approach, collaboration with cross-functional teams, and the customized methods I used to deliver impactful, user-centric solutions.
+  In this case study, I dive into my experience leading an adapted design sprint at Carbon Direct, a climate tech startup. Our challenge? Developing a decarbonization roadmap for the company's carbon management platform. I'll walk you through my problem-solving approach, how I collaborated with cross-functional teams, and the customized methods I employed to deliver impactful, user-centric solutions. This project showcases my ability to tackle complex challenges and drive innovation in a fast-paced startup environment.
 thumbnail: "/images/illustration-design-sprint-cd-cover.png"
 date: 2024-09-07 13:30:00 +0200
 lang: en

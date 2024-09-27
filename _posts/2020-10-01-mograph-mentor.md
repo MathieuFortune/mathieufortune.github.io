@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "MoGraph Mentor - Initial Research & Website Re-design"
+title:  "Reimagining MoGraph Mentor's Online Presence"
 excerpt: |
-    Mograph Mentor is an ed-tech start-up that provide group-mentorhing and curriculum to train motion designers. This case study highlight, as a co-founder, how I've reimagined our online presence through a website and brand overhaul.
+    As a co-founder of MoGraph Mentor, an ed-tech startup providing group mentoring and curriculum for motion designers, I led a comprehensive website and brand overhaul. This case study details my journey in reimagining our online presence from the ground up. I'll discuss the initial research phase, my design process, and how I balanced my roles as both a designer and a founder. You'll gain insights into how I tackled the unique challenges of elevating an educational platform's digital footprint.
 thumbnail: "/images/case-study-mographmentor-cov.jpg"
 date:   2020-10-01 13:30:00 +0200
 lang: en
