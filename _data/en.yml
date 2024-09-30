@@ -2,7 +2,7 @@ hero:
   title: Hello there!
   job_line_1: I'm a
   job_line_2: helping other humans communicate the value of what they do.
-  job_line_3: '[ "Product Designer", "Founder", "Product Manager", "Developer", "Mentor" ]'
+  job_line_3: '["Product Designer", "Founder", "Product Manager", "Developer", "Mentor"]'
 
 intro: |
     I bring together a unique blend of design, technical acumen, and business expertise, cultivated over 10+ years of hands-on experience in e-commerce, education, healthcare, and sustainability. My passion lies in fostering collaboration with stakeholders and colleagues to craft impactful user experiences that drive business growth.<br/><br/>With a versatile skill set, I possess the capacity to drive end-to-end product design initiatives within cross-functional teams. I favor working with companies and teams that leverage technology for good and aim to generate positive societal changes.
@@ -11,6 +11,9 @@ intro_link : Learn more &#8594;
 
 selected_work:
   title: "Selected Work"
+
+testimonial_highlight:
+  title: "Featured Testimonials"
 
 post:
   title: Thoughts and Case Studies
