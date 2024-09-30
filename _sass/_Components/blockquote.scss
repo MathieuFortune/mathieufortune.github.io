@@ -34,11 +34,11 @@ blockquote {
   }
 
   &::after {
-    content: '';
+    content: "";
     display: block;
     width: 30%;
     height: 2px;
-    margin-top: .8rem;
+    margin-top: 0.8rem;
     background-color: $color--main;
   }
 
@@ -48,7 +48,34 @@ blockquote {
   }
 
   .author {
-    margin: $spacing--base 0!important;
+    margin: $spacing--base 0 !important;
     font-weight: $font-weight--bold;
+  }
+
+  &.home {
+    padding: $spacing--2xl;
+    margin-bottom: $spacing--xl;
+    @include fluid-typo(18, 22, $phone-h-computed, $desktop-computed);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    @include media($small-tab, max-width) {
+      .content {
+        min-height: 235px;
+      }
+    }
+
+    .author {
+      text-align: right;
+      @include fluid-typo(18, 18, $phone-h-computed, $desktop-computed);
+
+      .title {
+        display: block;
+        color: $color--darkgrey;
+        font-weight: $font-weight--base;
+        @include font-size($font-size--base);
+      }
+    }
   }
 }
