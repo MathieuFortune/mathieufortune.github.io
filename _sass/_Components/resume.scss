@@ -1,0 +1,94 @@
+.resume {
+  .row {
+    padding-top: $spacing--3xl;
+
+    .title {
+      h2 {
+        @include font-size($font-size--base);
+        margin-top: 0;
+        color: $color--main;
+        text-transform: uppercase;
+      }
+    }
+
+    ul {
+      margin-top: 0;
+      list-style: circle;
+    }
+  }
+}
+
+.boxed {
+  @extend %link-main;
+
+  .item {
+    position: relative;
+    margin-bottom: $spacing--2xl;
+    // padding: $spacing--sm;
+    // border: 1px solid $color--lightgrey;
+    // box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
+
+    h3 {
+      @include font-size($font-size--medium);
+      margin: 0;
+      font-weight: $font-weight--base;
+      line-height: 1;
+
+      .italic {
+        @include font-size($font-size--base);
+        color: $color--main;
+      }
+    }
+
+    .small {
+      @include font-size($font-size--small);
+    }
+  }
+}
+
+.tags {
+  padding: 0;
+  margin: 0;
+  margin-bottom: $spacing--2xl;
+
+  li {
+    display: inline-flex;
+    margin-bottom: $spacing--xs;
+    padding: $spacing--2xs $spacing--xs;
+    @include font-size($font-size--base);
+    line-height: 1rem;
+    font-weight: 400;
+    color: $color--darkgrey;
+    box-shadow: rgb(255, 255, 255) 0px 0px 0px 0px inset, rgba(163, 97, 22, 0.2) 0px 0px 0px 1px inset, rgba(0, 0, 0, 0) 0px 0px 0px 0px;
+    border-radius: 9999px;
+  }
+}
+
+@include media-print {
+  .intro-title {
+    padding: $spacing--xs;
+    margin: 0;
+  }
+
+  .row {
+    display: block;
+
+    .title,
+    .content {
+      display: block;
+      width: 100%;
+    }
+
+    .title {
+      margin-bottom: $spacing--sm;
+    }
+  }
+
+  .boxed {
+    .item {
+      h3 {
+        @include font-size($font-size--base);
+      }
+    }
+  }
+}
