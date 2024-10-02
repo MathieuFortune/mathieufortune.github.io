@@ -21,16 +21,12 @@ experiences:
     period: Seattle, WA (Remote) | Dec 2023 - Aug 2024
     desc: |
       Led design initiatives for a climate tech startup delivering science-based carbon management solutions for governments and businesses.
-      <br/><br/>
-      • Delivered Figma designs for dashboards, data visualizations, and AI solutions driving $750K in new revenue and 15% increase in internal efficiency (~450h saved annually).
-      <br/>
-      • Established design culture, implementing design thinking, hand-offs, and QA processes.
-      <br/>
-      • Facilitated product vision workshops and future roadmap planning using Miro.
-      <br/>
-      • Conducted end-to-end UX research, leveraging Dovetail, Tableau, and DataDog.
-      <br/>
-      • Collaborated with climate scientists to ensure alignment with carbon accounting and ESG reporting standards.
+    achievements:
+      - Delivered Figma designs for dashboards, data visualizations, and AI solutions driving $750K in new revenue and 15% increase in internal efficiency (~450h saved annually).
+      - Established design culture, implementing design thinking, hand-offs, and QA processes.
+      - Facilitated product vision workshops and future roadmap planning using Miro.
+      - Conducted end-to-end UX research, leveraging Dovetail, Tableau, and DataDog.
+      - Collaborated with climate scientists to ensure alignment with carbon accounting and ESG reporting standards.
 
 
   - title: Senior Product Designer
@@ -38,64 +34,51 @@ experiences:
     period: Boston, MA (Remote) | Apr 2021 - Sep 2023
     desc: |
       Drove product design for Ed-Tech startup providing a SaaS platform and personalized support to bridge the equity gap in higher education, serving 2 million users across 200+ institutions
-      <br/><br/>  
-      • Redesigned a B2B2C platform, boosting user engagement by 116% within a year through improved accessibility (WCAG AA), optimized UI, and user-centered features.
-      <br/>
-      • Developed a company-wide design system, standardizing practices and boosting productivity across 3 product and engineering teams.
-      <br/>
-      • Led UX research (40+ interviews, treemapping, journey maps, surveys) leveraging Pendo.io and Dovetail, driving data-informed product improvements.
-      <br/>
-      • Delivered end-to-end design solutions using Miro and Figma, from ideation to launch and beyond, fulfilling both user needs and business objectives.
-      <br/>
-      • Collaborated with fully remote, globally distributed teams, ensuring cohesive project execution.
-      <br/>
-      • Mentored junior designers and cross-functional team members via workshops and book clubs fostering a culture of continued learning and feedback.
-      
+    achievements:
+      - Redesigned a B2B2C platform, boosting user engagement by 116% within a year through improved accessibility (WCAG AA), optimized UI, and user-centered features.
+      - Developed a company-wide design system, standardizing practices and boosting productivity across 3 product and engineering teams.
+      - Led UX research (40+ interviews, treemapping, journey maps, surveys) leveraging Pendo.io and Dovetail, driving data-informed product improvements.
+      - Delivered end-to-end design solutions using Miro and Figma, from ideation to launch and beyond, fulfilling both user needs and business objectives.
+      - Collaborated with fully remote, globally distributed teams, ensuring cohesive project execution.
+      - Mentored junior designers and cross-functional team members via workshops and book clubs fostering a culture of continued learning and feedback.
 
   - title: Co-Founder & Chief of Product
     name: MoGraph Mentor
     period: Sarasota, FL (Remote) | Jan 2019 - Apr 2022
     desc: |
       Co-founded an Ed-Tech startup, empowering 50,000 motion designers through group mentorship and specialized courses.
-      <br/><br/>
-      • Led end-to-end development of a B2C learning platform, integrating a marketing website, on-demand courses, and live group mentoring.
-      <br/>
-      • Managed a cross-functional team of 2 marketers and several content creators, orchestrating the go-to-market strategy for 10 new offerings.
-      <br/>
-      • Developed product roadmap based on market trends, user data, and KPIs, aligning with business goals and long-term vision.
-      <br/>
-      • Scaled business to six-figure annual revenue within three years, leveraging multidisciplinary expertise in product, design, development, and marketing.
-
+    achievements:
+      - Led end-to-end development of a B2C learning platform, integrating a marketing website, on-demand courses, and live group mentoring.
+      - Managed a cross-functional team of 2 marketers and several content creators, orchestrating the go-to-market strategy for 10 new offerings.
+      - Developed product roadmap based on market trends, user data, and KPIs, aligning with business goals and long-term vision.
+      - Scaled business to six-figure annual revenue within three years, leveraging multidisciplinary expertise in product, design, development, and marketing.
 
   - title: Founder & Senior Design Consultant
     name: Inventive Format
     period:  Miami, FL | Aug 2018 - Jul 2022
     desc: |
       Led boutique design studio, delivering strategies and technical solutions for SMEs & startups.
-      <br/><br/>
-      • Executed 20+ design and development projects, focusing on user needs and client objectives, contributing to an estimated $700K in client revenue.
-      <br/>
-      • Provided strategic guidance on product development and brand identity, including logo design, visual identity systems, and market positioning.
-      <br/>
-      • Collaborated with in-house Agile teams as UX designer and front-end developer contract.
+    achievements:
+      - Executed 20+ design and development projects, focusing on user needs and client objectives, contributing to an estimated $700K in client revenue.
+      - Provided strategic guidance on product development and brand identity, including logo design, visual identity systems, and market positioning.
+      - Collaborated with in-house Agile teams as UX designer and front-end developer contract.
 
 
   - title: Product Designer
     name: Bakerly
     period: Miami, FL | Feb 2018 - Jan 2019
-    desc: |
-      • Led user research and delivered web/mobile designs for the first e-commerce initiative.
-      <br/>
-      • Maintained and optimized the marketing website, using front-end development skills (HTML, CSS, JS6).
-      <br/>
-      • Contributed to packaging design and visual identity, using Adobe Creative Suite.
+    desc:
+    achievements:
+      - Led user research and delivered web/mobile designs for the first e-commerce initiative.
+      - Maintained and optimized the marketing website, using front-end development skills (HTML, CSS, JS6).
+      - Contributed to packaging design and visual identity, using Adobe Creative Suite.
 
 
   - title: UX/UI Developer
     name: Freelance
     period: Remote | Jan 2017 - Jan 2018
     desc: |
-      • Delivered Agile UI/UX development services for international clients while traveling/living across three continents.
+      Delivered Agile UI/UX development services for international clients while traveling/living across three continents.
 
 
   - title: Front-End Developer & User Experience Designer
@@ -103,27 +86,23 @@ experiences:
     period: Montpellier, France | Jan 2015 - Jan 2017
     desc: |
       Contributed to the success of 1001Pharmacies, an e-commerce marketplace specializing in drugstore products, by combining UX design and front-end development expertise within a dynamic Agile engineering team. Transitioned from Front-End Developer to User Experience Designer, taking on a broader scope of responsibilities in human-centric design and technical execution.
-      <br/><br/>
-      • Conducted user research and testing to enhance search and discovery features, as well as the checkout funnel. Developed personas, journey maps, and market research to inform Product Managers and stakeholders in shaping the product roadmap.
-      <br/>
-      • Collaboratively implemented A/B testing and user tracking tools, delivering valuable insights into user behavior and preferences to optimize the e-commerce platform's performance.
-      <br/>
-      • Created wireframes and prototypes using Sketch, facilitating clear communication across cross-functional teams and validating solutions with users. Worked closely with engineering teams, assisting with front-end development tasks (HTML, CSS, JavaScript ES6) and writing functional tests, ensuring a seamless transition from design to implementation.
-      <br/>
-      • Partnered with the marketing team to craft email campaigns, implement engineering solutions for marketing events, and contribute to data analysis of user behaviors, enhancing both web and mobile experiences.
-      <br/>
-      • Optimized user experience and performance of the e-commerce platform, reducing friction and increasing conversion rates through technical enhancements.
+    achievements:
+      - Conducted user research and testing to enhance search and discovery features, as well as the checkout funnel.
+      - Developed personas, journey maps, and market research to inform Product Managers and stakeholders in shaping the product roadmap.
+      - Collaboratively implemented A/B testing and user tracking tools, delivering valuable insights into user behavior and preferences.
+      - Created wireframes and prototypes using Sketch, facilitating clear communication across cross-functional teams and validating solutions with users.
+      - Worked closely with engineering teams, assisting with front-end development tasks and writing functional tests.
+      - Partnered with the marketing team to craft email campaigns, implement engineering solutions for marketing events, and contribute to data analysis of user behaviors.
+      - Optimized user experience and performance of the e-commerce platform, reducing friction and increasing conversion rates through technical enhancements.
 
   - title: UI Developer & Designer
     name: Publika
     period: Montpellier, France | Jan 2012 - Jan 2015
-    desc: |
-      • Led the front-end development of an in-house CMS platform used by 30+ clients.
-      <br/>
-      • Partnered with digital marketers to implement SEO best practices across client projects.
-      <br/>
-      • Executed over 60 web and mobile projects for SMEs and individuals.
-    results:
+    desc:
+    achievements:
+      - Led the front-end development of an in-house CMS platform used by 30+ clients.
+      - Partnered with digital marketers to implement SEO best practices across client projects.
+      - Executed over 60 web and mobile projects for SMEs and individuals.
 
 
 i_have_heading: I have
