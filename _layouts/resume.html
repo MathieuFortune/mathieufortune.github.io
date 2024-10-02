@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-<article class="about">
+<article class="resume">
   <div class="container">
     <h1 class="intro-title no-print">{{ site.data.about[page.lang].intro_title }}<hr></h1>
   </div>
@@ -29,27 +29,11 @@ layout: default
 
     <section class="row no-print text-right">
       <div class="col-12 print-it no-print">
-        {% comment %}
-        <button onclick="window.print(); return false;" class="btn--default">
-          {% include icon-printer.svg %} {{ site.data.about[page.lang].print_it }}
-        </button>
-        {% endcomment %}
         <a href="{{ site.url }}/images/Resume-Mathieu-Fortune-Senior-Product-Designer.pdf" class="btn--default" title="{{ site.data.about[page.lang].print_it }}" target="_blank">{{ site.data.about[page.lang].print_it }}</a>
 
         <a href="{{ site.data.about[page.lang].hire_me_mailto }}" class="btn--default">{{ site.data.about[page.lang].hire_me_heading}}</a>
       </div>
     </section>
-
-    {% comment %}
-    <section class="row no-print">
-      <div class="title">
-        <h2>{{ site.data.about[page.lang].about.title }}</h2>
-      </div>
-      <div class="content">
-        {{ site.data.about[page.lang].about.desc }}
-      </div>
-    </section>
-    {% endcomment %}
 
     <section class="row">
       <div class="col-sm-3">
@@ -67,6 +51,11 @@ layout: default
             </p>
             <p>{{ experiences.desc }}</p>
             <ul>
+              {% for achievement in experiences.achievements %}
+                <li>{{ achievement }}</li>
+              {% endfor %}
+            </ul>
+            <ul>
               {% for entries in experiences.role %}
               <li>{{ entries }}</li>
               {% endfor %}
@@ -78,21 +67,6 @@ layout: default
       </div>
     </section>
 
-    {% comment %}
-    <section class="row">
-      <div class="title">
-        <h2>{{ site.data.about[page.lang].i_have_heading }}</h2>
-      </div>
-      <div class="content">
-        <ul>
-          {% for entries in site.data.about[page.lang].i_have %}
-          <li>{{ entries }}</li>
-          {% endfor %}
-        </ul>
-      </div>
-    </section>
-    {% endcomment %}
-
     <section class="row">
       <div class="col-sm-3">
         <div class="title">
@@ -102,7 +76,7 @@ layout: default
       <div class="col-sm-9">
         <div class="content">
           {% for skills in site.data.about[page.lang].skills %}
-          <p class="bold marg-v--tiny">{{ skills.title }}</p>
+          <p class="bold my-0 mb-base">{{ skills.title }}</p>
           <ul class="tags">
             {% for entries in skills.list %}
             <li>{{ entries }}</li>
@@ -150,37 +124,6 @@ layout: default
         </div>
       </div>
     </section>
-
-    {% comment %}
-    <section class="row">
-      <div class="title">
-        <h2>{{ site.data.about[page.lang].projects_heading }}</h2>
-      </div>
-      <div class="boxed content">
-        {% for projects in site.data.about[page.lang].projects %}
-        <div class="item">
-          <h3>{{ projects.title }}</h3>
-          <p class="marg-v--tiny"><em>{{ projects.description }}</em></p>
-          <span class="bold">{{ site.data.about[page.lang].project_my_roles }}:</span>
-          <br/>
-          <ul>
-            {% for entries in projects.list %}
-            <li>{{ entries }}</li>
-            {% endfor %}
-          </ul>
-          {% if projects.results != empty %}
-          <p>
-            <span class="bold">{{ site.data.about[page.lang].project_results }}:</span>
-            <br>
-            {{ projects.results }}
-          </p>
-          {% endif %}
-
-        </div>
-        {% endfor %}
-      </div>
-    </section>
-    {% endcomment %}
 
     <section class="row no-print">
       <div class="col-sm-3">
