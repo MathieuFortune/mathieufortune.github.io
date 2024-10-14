@@ -140,6 +140,10 @@ events:
 
 trainings_heading: Trainings
 trainings:
+  - title: Atlassian Agile Project Management Professional Certificate
+    name: <a href="https://www.linkedin.com/learning/certificates/a7746410bfea2c715792b61c706f123bbd87757f048718b4a5ed56e14e0bc434" target="_blank">Certificate link</a>
+    period: Issued October 11, 2024
+    desc: Several Workshops around Lean Startup and Running Lean books. How to lead problems interviews, Lean canvas, Lean approach of things
   - title: Lean Startup and Running Lean
     name: with <a href="http://scopyleft.fr/" target="_blank">Stéphane Langlois</a>
     period: From January 2016 to February 2016
