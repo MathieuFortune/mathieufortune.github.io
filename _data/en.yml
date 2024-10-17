@@ -1,11 +1,15 @@
 hero:
   title: Hello there!
   job_line_1: I'm a
-  job_line_2: helping other humans communicate the value of what they do.
+  job_line_2: helping others communicate the value of what they do.
   job_line_3: '["Product Designer", "Founder", "Product Manager", "Developer", "Mentor"]'
 
 intro: |
-    I bring together a unique blend of design expertise, technical know-how, and business acumen, cultivated over 12 years of hands-on experience across Climate Tech, HealthTech, EdTech, and E-commerce. My passion lies in crafting intuitive, accessible digital solutions for both B2B, and B2C platforms. I thrive on translating complex business requirements into user-centric designs that drive revenue growth and increase user satisfaction.<br/><br/> I'm committed to mentoring junior designers and fostering a learning culture within organizations. I aim is to leverage my diverse skillset and entrepreneurial mindset to drive product excellence and business growth in mission-driven companies that use technology for positive societal impact.
+    I bring 12 years of experience delivering intuitive and accessible digital solutions across Climate Tech, EdTech, E-commerce, and consumer-facing platforms. My expertise spans B2C and B2B web apps and SaaS platforms, thriving in both startup environments—from early-stage to growth-stage companies—and more established organizations.<br/><br/> As a co-founder of a startup, owner of a boutique design studio, and collaborative individual contributor, I offer a broad skill set paired with an entrepreneurial mindset. I'm skilled in applying agile methodologies to iteratively deliver solutions that simplify complex problems.
+
+intro_part2: |
+    With a background in front-end development and experience working closely with marketing teams, I'm more than a pixel pusher—I'm a strategic partner in building products that delight users and drive business growth. I lead projects from concept to launch, translating the needs of diverse stakeholders—including business, legal, marketing, engineering, product, design, and customers—into successful, user-centered outcomes.<br/><br/> I am passionate about mentoring junior designers and collaborating with cross-functional colleagues, fostering a collaborative work environment where everyone can do their best work. I excel at establishing processes and tools that streamline and enhance team workflows, ensuring greater efficiency and improved quality of deliverables. A generalist at heart, I am equally comfortable working autonomously or as part of a team, owning the entire process from research to execution. My ability to communicate effectively with all stakeholders ensures projects are delivered with excellence.<br/><br/>I'm looking to contribute my skills and experience to a mission-driven company that leverages design and technology to create positive societal and environmental impact.
+
 
 intro_link : Learn more &#8594;
 

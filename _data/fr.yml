@@ -1,20 +1,25 @@
 hero:
   title: Salut !
   job_line_1: Je suis un
-  job_line_2: partageant sa passion du web.
-  job_line_3: '[ "Designer", "Développeur", "Entrepreneur", "Formateur" ]'
+  job_line_2: aidant les autres à communiquer la valeur de ce qu'ils font.
+  job_line_3: '[ "Product Designer", "Développeur", "Entrepreneur", "Mentor" ]'
 
 intro: |
-    Je travaille avec des équipes tech et design dans les entreprises et agences,
-    à concevoir et développer des applications front-end solides, responsive, rapides, accessible avec une approche centrée sur l'utilisateur.
-    <br/><br/>
-    J'aime aussi partager mes connaissances lors d'événements et meetups.
-intro_link : Jetez un oeil à mon
+    J'apporte 12 ans d'expérience dans la création de solutions digitales intuitives et accessibles dans les secteurs de la Climate Tech, de l'EdTech, du e-commerce et des plateformes orientées consommateurs. Mon expertise couvre les applications web B2C et B2B ainsi que les plateformes SaaS, avec une expérience aussi bien dans des environnements de startups—de la phase de démarrage à la phase de croissance—que dans des organisations plus établies.<br/><br/> En tant que co-fondateur d'une startup, propriétaire d'un design studio, et collaborateur individuel dans divers projets, j'offre un large éventail de compétences avec un esprit entrepreneurial. Je maîtrise l'application des méthodologies agiles pour livrer des solutions de manière itérative, simplifiant ainsi des problèmes complexes.
 
+intro_part2: |
+    Avec une expérience en front-end development et une collaboration étroite avec des équipes marketing, je ne suis pas qu'un simple "pixel pusher"—je suis un partenaire stratégique pour créer des produits qui ravissent les utilisateurs et favorisent la croissance des entreprises. Je dirige des projets de leur conception à leur lancement, en traduisant les besoins de divers intervenants—including business, juridique, marketing, engineering, product, design et clients—en résultats centrés sur l'utilisateur.<br/><br/> Je suis passionné par le mentorat des jeunes designers et la collaboration avec des collègues interfonctionnels, créant un environnement de travail collaboratif où chacun peut donner le meilleur de lui-même. J'excelle dans l'établissement de processus et d'outils qui optimisent et améliorent le travail des équipes, assurant ainsi une meilleure efficacité et une qualité accrue des livrables. Généraliste dans l'âme, je suis à l'aise de travailler en autonomie ou au sein d'une équipe, en prenant en charge l'ensemble du processus, de la recherche à l'exécution. Ma capacité à communiquer efficacement avec toutes les parties prenantes garantit des projets livrés avec excellence.<br/><br/> Je souhaite apporter mes compétences et mon expérience à une entreprise à mission, utilisant le design et la technologie pour avoir un impact positif sur la société et l'environnement.
+
+
+intro_link: En savoir plus &#8594;
+
+
+testimonial_highlight:
+  title: "Témoignages en Vedette"
 
 post:
-  title: Sélection de travaux
+  title: Réflexions et Études de Cas
 
-  footer:
+footer:
     email_title: Restez en contact avec moi
     back_home: Revenir à l'accueil
