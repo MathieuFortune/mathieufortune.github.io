@@ -40,6 +40,9 @@ layout: default
     </div>
     <div class="col-md-8">
       <p class="no-marg">{{ site.data[page.lang].intro }}</p>
+    </div>
+    <div class="col-md-12">
+      <p>{{ site.data[page.lang].intro_part2 }}</p>
       <p class="text-right">
         {{ site.data[page.lang].intro_link }} {% assign pages=site.pages |
         where:"lang", page.lang %} {% for my_page in pages %} {% if
