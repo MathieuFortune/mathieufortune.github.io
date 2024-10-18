@@ -20,7 +20,7 @@ experiences:
     name: Carbon Direct
     period: Seattle, WA (Remote) | Dec 2023 - Aug 2024
     desc: |
-      Led design initiatives for a climate tech startup delivering science-based carbon management solutions for governments and businesses.
+      Climate tech startup delivering science-based carbon management solutions to governments and Fortune 500 companies worldwide.
     achievements:
       - Delivered Figma designs for dashboards, data visualizations, and AI solutions driving $750K in new revenue and 15% increase in internal efficiency (~450h saved annually).
       - Established design culture, implementing design thinking, hand-offs, and QA processes.
@@ -33,35 +33,36 @@ experiences:
     name: Mentor Collective
     period: Boston, MA (Remote) | Apr 2021 - Sep 2023
     desc: |
-      Drove product design for Ed-Tech startup providing a SaaS platform and personalized support to bridge the equity gap in higher education, serving 2 million users across 200+ institutions
+      EdTech startup offering a SaaS platform and personalized support to bridge the equity gap in higher education, serving 2 million users across 200+ institutions in the U.S.
     achievements:
       - Redesigned a B2B2C platform, boosting user engagement by 116% within a year through improved accessibility (WCAG AA), optimized UI, and user-centered features.
-      - Developed a company-wide design system, standardizing practices and boosting productivity across 3 product and engineering teams.
-      - Led UX research (40+ interviews, treemapping, journey maps, surveys) leveraging Pendo.io and Dovetail, driving data-informed product improvements.
-      - Delivered end-to-end design solutions using Miro and Figma, from ideation to launch and beyond, fulfilling both user needs and business objectives.
-      - Collaborated with fully remote, globally distributed teams, ensuring cohesive project execution.
-      - Mentored junior designers and cross-functional team members via workshops and book clubs fostering a culture of continued learning and feedback.
+      - Built a company-wide design system, standardizing practices and boosting productivity for 30+ team members.
+      - Led UX research (40+ interviews, treemapping, journey maps, surveys) leveraging Pendo.io and Dovetail.
+      - Delivered end-to-end design solutions using Miro and Figma and collaborated with remote-first, globally distributed teams to launch 7 major product features.
+      - Mentored 2 junior designers and 5 cross-functional team members through workshops and structured learning initiatives.
+
 
   - title: Co-Founder & Chief of Product
     name: MoGraph Mentor
     period: Sarasota, FL (Remote) | Jan 2019 - Apr 2022
     desc: |
-      Co-founded an Ed-Tech startup, empowering 50,000 motion designers through group mentorship and specialized courses.
+      EdTech startup empowering 50,000 motion designers globally through group mentorship and specialized courses.
     achievements:
+      - Scaled business to six-figure annual revenue within three years, leveraging expertise in product management, design, development, and marketing.
       - Led end-to-end development of a B2C learning platform, integrating a marketing website, on-demand courses, and live group mentoring.
-      - Managed a cross-functional team of 2 marketers and several content creators, orchestrating the go-to-market strategy for 10 new offerings.
+      - Managed a cross-functional team of 2 marketers and 5 content creators, orchestrating the go-to-market strategy for 15 new offerings.
       - Developed product roadmap based on market trends, user data, and KPIs, aligning with business goals and long-term vision.
-      - Scaled business to six-figure annual revenue within three years, leveraging multidisciplinary expertise in product, design, development, and marketing.
+
 
   - title: Founder & Senior Design Consultant
     name: Inventive Format
     period:  Miami, FL | Aug 2018 - Jul 2022
     desc: |
-      Led boutique design studio, delivering strategies and technical solutions for SMEs & startups.
+      Boutique design studio providing strategic and technical solutions for SMEs and startups.
     achievements:
       - Executed 20+ design and development projects, focusing on user needs and client objectives, contributing to an estimated $700K in client revenue.
-      - Provided strategic guidance on product development and brand identity, including logo design, visual identity systems, and market positioning.
-      - Collaborated with in-house Agile teams as UX designer and front-end developer contract.
+      - Provided strategic guidance and execution on product development and brand identity, including logo design, visual identity systems, and market positioning.
+      - Collaborated with in-house Agile teams as UX designer and front-end developer.
 
 
   - title: Product Designer
@@ -71,7 +72,7 @@ experiences:
     achievements:
       - Led user research and delivered web/mobile designs for the first e-commerce initiative.
       - Maintained and optimized the marketing website, using front-end development skills (HTML, CSS, JS6).
-      - Contributed to packaging design and visual identity, using Adobe Creative Suite.
+      - Contributed to packaging design and visual identity for 5 new product offerings, using Adobe Creative Suite.
 
 
   - title: UX/UI Developer
@@ -142,27 +143,27 @@ trainings_heading: Trainings
 trainings:
   - title: Atlassian Agile Project Management Professional
     name: <a href="https://www.linkedin.com/learning/certificates/a7746410bfea2c715792b61c706f123bbd87757f048718b4a5ed56e14e0bc434" target="_blank">Certificate</a>
-    period: Issued October 11, 2024
-    desc: The course covered mastering Agile project management practices using Jira Software, learning essential Agile concepts and techniques, and improving team efficiency and effectiveness in project management.
+    period: Issued October 2024
+    desc: Course covered mastering Agile project management practices using Jira Software, learning essential Agile concepts and techniques, and improving team efficiency and effectiveness in project management.
   - title: Lean Startup and Running Lean
     name: with <a href="http://scopyleft.fr/" target="_blank">Stéphane Langlois</a>
-    period: From January 2016 to February 2016
+    period: Issued February 2016
     desc: Several Workshops around Lean Startup and Running Lean books. How to lead problems interviews, Lean canvas, Lean approach of things
   - title: Kanban method
     name: with <a href="http://www.areyouagile.com/">Pablo Pernot</a>
-    period: One day (2015)
+    period: Issued 2015
     desc: Workshop around the Kanban method. Build and maintain a project and/or company's Kanban to show their productivity output
   - title: Growth Hacking
     name: with <a href="http://www.thefamily.co/">Koudetah TheFamily</a>
-    period: From Mars 2015 to May 2015
+    period: Issued May 2015
     desc: Remote learning of Koudetah's courses about Growth Hacking Technics
   - title: Webdesigner/Front-end developer degree
     name: at <a href="http://www.objectif3w.com/">Objectif3D School</a>
-    period: 2012
+    period: Issued 2012
     desc: Fundamentals of Webdesign (Adobe Creative Suite) and Frontend development (HTML, CSS, Javascript, SQL)
   - title: Economics and Social Sciences
     name: at High School Albert Camus Nîmes, France
-    period: 2010
+    period: Issued 2010
     desc: High School Graduation with mention
 
 skills_heading: Skills
