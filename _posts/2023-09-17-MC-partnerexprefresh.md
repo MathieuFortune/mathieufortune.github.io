@@ -15,66 +15,53 @@ featured: true
 
 {% include lazy-image.html src="/images/cover-partner-experience-refresh-mentor-collective.jpg" alt="Case study's cover image showing design frames in Figma" caption="Mentor Collective - Partner Experience Refresh Case Study Illustration" figClass="" %}
 
-*To comply with my non-disclosure agreement, I have omitted and obfuscated confidential information in this case study. All information in this case study is my own and does not necessarily reflect the views of Mentor Collective.*
+*To comply with my non-disclosure agreement, I have omitted and obfuscated any confidential information in this case study. All information presented here reflects my personal experience and does not necessarily represent the views of Mentor Collective.*
 
 ## Project Synopsis
 
-Mentor Collective is an organization dedicated to facilitating student connections and bridging the equity gap in higher-education. To accomplish this mission, Mentor Collective developed a student engagement platform. This SaaS platform is designed to cultivate a nurturing community through peer-mentorship while providing higher-ed institutions with timely insights into the evolving needs of students during pivotal moments in their academic journey.
 
-Higher-ed administrators, referred to as "partners", have access to a dashboard to manage mentorship initiatives at their institution. While the original partner experience was suitable during Mentor Collective's inception, the company's rapid evolution underscored the need for a comprehensive design overhaul. The goal was not just to modernize, but also to transform it into a user-centric, accessible platform with enhanced feature capabilities.
+Mentor Collective empowers higher-ed institutions to build equitable, student-centered communities through a peer-mentorship platform. This SaaS solution enables partners—university administrators—to manage and track mentorship initiatives, offering critical insights into student needs at pivotal academic moments.
 
-As the Senior Product Designer, I led the end-to-end product design process from user research and ideation to final delivery. My primary tools for this project were:
-- Dovetail to document our research
-- Whimsical for brainstorming and wireframing
-- Figma for both low- and high-fidelity UI design
-- The new design system <a href="https://mathieufortune.github.io/MC-designsystem.html" target="_blank">I recently had championed</a>
-- Asana for project management and guiding engineering implementation (later on the team switched to Jira/Confluence)
+However, the platform's rapid growth revealed the need for a complete redesign to enhance usability and expand features.
 
-My team included a Product Manager, a squad of five Software Engineers and a UX researcher for the initial problem discovery.
+As Senior Product Designer, I led the end-to-end design process, from user research to delivery, utilizing tools like Dovetail, Whimsical, Figma, and Asana (later Jira/Confluence). I also leverage the new design system <a href="https://mathieufortune.github.io/MC-designsystem.html" target="_blank">I recently had championed</a>.
 
-The project started in the summer of 2021. A beta version was rolled out to a selected number of customers in January 2022, allowing the team to quickly iterate on the designs. By April 2022, we launched the full release version, accounting for the feedback and insights gathered during the beta phase.
+Our cross-functional team, including a PM, five engineers, and a UX researcher, started the project in summer 2021, launched a beta in January 2022 and iterated swiftly based on user feedback. By April, the full release delivered a user-focused, accessible, scalable platform to elevate the partner experience.
 
 
 ## Navigating Growth Hurdles
 
-As Mentor Collective experienced rapid growth, several challenges emerged: scalability concerns, accessibility compliance, and gaps in user insights.
+As Mentor Collective rapidly scaled, we encountered key challenges: improving scalability, enhancing accessibility, and closing gaps in user insights.
 
-The initial MVP state of the partner dashboard was under strain. Both its performance and features required improvements to ensure the product could scale seamlessly to meet the need of our expanding user base.
+The MVP version of the partner dashboard needed both performance and feature upgrades to support our expanding user base. To meet evolving expectations, we prioritized compliance with WCAG AA standards to ensure a universally accessible and enjoyable experience.
 
-Beyond fulfilling commitments from recent contracts, the team also wanted to redesign the partner experience to comply with WCAG AA standards. We aimed to provide an enjoyable user experience for everyone.
-
-However, before starting this project, our team faced a significant challenge: limited insight into how users interacted with the product. For a data-driven team like ours, understanding users' needs, pain points, and usage patterns was crucial for any meaningful improvement.
+However, a critical hurdle was the limited visibility into user interactions. For our data-driven team, gaining insights into user needs, pain points, and engagement patterns was essential to create a more impactful redesign.
 
 
 ## User-Centric Discovery
 
-Our research began with learning more about the needs and challenges faced by our partner users. At the time of this project, our internal analytics was limited to device and session data; we were somewhat in the dark about the specifics of the user behavior.
+We started by investigating the needs of our partner users to better understand their challenges. At the time, our analytics offered only basic session data, leaving critical gaps in user behavior insights.
 
-To shed some light on this area, I collaborated with the UX researcher to create an interview script and reach out to our users to gather more qualitative data.
+Collaborating with our UX researcher, I designed an interview script and reached out to key users. I conducted interviews with two external partners, supplemented by discussions with five internal account managers who interact with partners daily.
 
-Our focus wasn’t just on our external partners but also on our internal team — specifically, account managers who engaged with our partners daily and could provide firsthand insights about their experiences with the product.
-
-We managed to interview two partners, who represented our core user audience, and had insightful discussions with five of our internal team members. Landing interviews with additional partners had been proven difficult due to the back-to-school season but we were confident that our internal team could fill the gap.
-
-To process and document our research, I used Dovetail, a collaborative user feedback analysis platform. Recordings of the interviews would be uploaded and transcripts tagged with keywords relevant for our project. This data-driven approach allowed us to quickly identify recurring pain points and needs.
+Using Dovetail, I documented, tagged, and analyzed transcripts, allowing us to identify recurring themes quickly and accurately.
 
 {% include lazy-image.html src="/images/illustration-partner-experience-mentor-collective-01.jpg" alt="Screenshot showing research documented in Dovetail" caption="Research documented in Dovetail. *Illustrations purposely blurred due to confidentiality restrictions*" figClass="large-post-image" %}
 
 
 ### Key Takeaways
 
-__Barriers to export data__: Partners faced challenges when trying to export data from the dashboard. While they often needed to incorporate sections of data into their BI tool for advanced analysis, their only recourse was to request this information from account managers. This introduced undue friction, especially because the data was readily available in our system but not directly accessible to partners. This lack of direct download capability deterred them from logging in, decreasing user engagement with our product.
+__Barriers to Data Export__: Partners struggled to export dashboard data independently. Although essential for advanced BI analysis, this data was only accessible through account managers, creating friction. This lack of direct access reduced engagement, as partners were discouraged from logging in for insights.
 
-__Lack of “At-a-glance” data view__: Quick data checks or "at-a-glance" views, which partners used for reporting to their financial decision-makers, were difficult to perform. This data was available in our system, but once again, only account managers had access to this information. This issue also negatively affected user engagement.
+__Absence of “At-a-Glance” Data Views__: Partners needed quick data snapshots for reporting to decision-makers, but only account managers at Mentor Collective could access these. This gap similarly impacted engagement by limiting partners’ direct use of the platform.
 
-__Need for disaggregated and over time data__: The dashboard only displayed aggregated “all-time” data. However, our partners were interested in observing data trends over specific time frames and wanted detailed breakdowns segmented by student populations to better understand their students' journeys and needs.
+__Need for Disaggregated and Time-Specific Data__: The dashboard presented aggregated “all-time” metrics, while partners needed to observe data trends over specific periods and by student demographics to understand student journeys more effectively.
 
-Collectively, these insights underscored the following needs:
-> Partners wanted a more hands-on approach in managing their mentorship initiatives by directly accessing the data the platform generated.
+These findings highlighted a critical shift: partners desired direct access to manage mentorship initiatives, marking a transition from an account manager-centered model.
 
-The initial partner experience was designed with the account manager as the conduit of data communication, which temporarily met the needs of users given the MVP nature of the platform. However, over time, user needs evolved, and our research highlighted the need for a more hands-on approach.
+The MVP’s initial reliance on account managers fulfilled early user needs, but growing demands showed the need for a more self-sufficient experience.
 
-After sharing these findings with my Product Manager, we defined a clear objective to guide the design phase. We articulated this objective as a user story:
+After reviewing these insights with my Product Manager, we established a clear design objective:
 
 > As a point person,<br/>
 I want to continuously monitor the impact of, and discern trends within, the mentorship program for specific students and student populations.<br/>
@@ -82,51 +69,50 @@ This information helps me in directing my student support initiatives.<br/>
 However, aside from student alerts (Flags), the dashboard primarily showcases 'all time' metrics for the entire program.<br/>
 This makes me feel the dashboard doesn’t offer timely, actionable insights, rendering frequent checks redundant.”
 
-To facilitate conversation and transparency around our work to internal stakeholders, I crafted a storyboard showcasing this user story:
+To communicate our vision and secure buy-in, I developed a storyboard illustrating this user story for internal stakeholders.
 
 {% include lazy-image.html src="/images/illustration-partner-experience-mentor-collective-01-bis.png" alt="Storyboard telling a story around the partner's pain point" caption="Storyboard helping convey the user's pain point to internal stakeholders" figClass="large-post-image" %}
 
 
 ## Design Process
 
-With these learnings in hand, I switched to the design phase, here’s a breakdown of my process:
+With our findings in hand, I transitioned into the design phase. Here’s a breakdown of my approach:
 
-### Understanding the current state of the product
-My starting point was diving deep into the existing product to learn its systems. Having been designed by a design contractor during the company's early stage, there was a knowledge gap within the team about this part of the product. This step was pivotal in understanding both its strengths and the areas needing improvements.
+### Understanding the Current Product
+I began by thoroughly analyzing the existing product, which had been designed by an external contractor in the company’s early days. This step was essential to uncover both strengths and areas for improvement, addressing the team’s knowledge gap.
 
 ### From Challenge to Creativity: The Brainwriting Session
-With the main user need identified and a better knowledge of the current product, I initiated a remote brainwriting exercise using Whimsical and “How Might We” questions to facilitate the flow of ideas.
+Armed with user needs and a solid understanding of the product, I facilitated a remote brainwriting session using Whimsical and “How Might We” prompts.
 
-Recognizing the value of diverse perspectives, I invited internal team members who interact with our users at various stages of their journey. This  group comprised a salesperson, two account managers, an engineer, and two members from the product team: the Director of Curriculum and the Product Manager. The exercise ensured a rich pool of ideas, drawing from each participant's unique experiences and insights with our users.
+To ensure diverse input, I included a range of internal stakeholders—sales, account managers, engineering, and product team members. This cross-functional session generated a wealth of ideas grounded in real user insights.
 
 {% include lazy-image.html src="/images/illustration-partner-experience-mentor-collective-02.jpg" alt="Screenshot showing brainstorming notes" caption="Brainwriting notes in Whimsical. *Illustrations purposely blurred due to confidentiality restrictions*" figClass="large-post-image" %}
 
 ### From Insight to Ideation
-With the initial brainstorming phase completed, I transitioned to several rounds of ideation and sketching.
+With brainstorming complete, I moved into ideation and sketching. I created a journey map to visualize key user tasks, followed by wireframes of the new partner experience. To guide the design, I posed questions like:
 
-I laid out a journey map to help us visualize the paths our user would take to accomplish certain tasks and crafted wireframes of the new partner experience. To guide my process, I asked myself questions:
-- What data points currently in our system could be surfaced to the user?
-- How to display these data points in a way that make sense to the user?
-- What layouts should be used to comprehensively present information?
-- etc...
+- Which data points should be surfaced to users?
+- How can these data points be displayed intuitively?
+- What layouts will best present the information?
 
-Leveraging Whimsical, I collaborated seamlessly with my Product Manager and Lead Engineer to gather their feedback.
+Using Whimsical, I collaborated closely with my Product Manager and Lead Engineer, incorporating their feedback throughout this iterative process.
 
 {% include lazy-image.html src="/images/illustration-partner-experience-mentor-collective-03.jpg" alt="Screenshot showing ideation work in Whimsical" caption="User Journey Map and Wireframes in Whimsical. *Illustrations purposely blurred due to confidentiality restrictions*" figClass="large-post-image" %}
 
-I then reconnected with the internal team members previously interviewed to walk them through the wireframes. Presenting the wireframes to them served a dual purpose:
-- ensuring our direction aligned with their insights
-- confirming that our solutions addressed their highlighted pain points
+I then reconnected with the partner users I’d previously interviewed, walking them through the wireframes. This served two purposes:
+
+- Ensuring alignment between our direction and their insights
+- Validating that our solutions addressed their highlighted pain points
 
 ### Guiding with Principles
 
-With increased confidence in our direction, I transitioned into the next design phase. Before jumping into high-fidelity user interfaces in Figma, I elected some design principles that would serve as guiding principles:
+With a clear direction, I entered the next design phase, setting guiding principles before moving to high-fidelity designs in Figma:
 
-__Keep it clean__: The primary goal of this project is to improve visibility into a program’s data, at scale. Maintaining a clean, minimalist look would allow the partner experience to be easily scaled up in the future.
+__Keep it clean__: Prioritize a clean, minimalist design to make data more accessible and enable future scalability.
 
-__Respect user’s time__: Our research informed us that user’s cognitive load is fairly high throughout their workday and their time is precious. The designs need to strive for unambiguity and be mindful of the user needs.
+__Respect user’s time__: Research showed that users experience high cognitive load throughout their day, making their time valuable. The designs should prioritize clarity and conciseness, ensuring they meet user needs efficiently.
 
-__Leverage the design system__: The designs should lean on the design system recently introduced to maximize accessibility, scalability and streamline implementation.
+__Leverage the design system__: Utilize our recently established design system for accessibility, scalability, and streamlined implementation.
 
 ### A Modernized and Enhanced Partner Experience
 
@@ -137,97 +123,85 @@ Before showcasing some of the solutions implemented in this project, here is wha
 <br/> All the research and rounds of low-fi ideation culminated in a series of comprehensive, accessible and user-centric design solutions:
 
 #### Program Intelligence Chart 
-Expand access to data and enhance visualization of this data in the dashboard.
+Expanded access to and visualization of data on the dashboard.
 
 {% include lazy-image.html src="/images/illustration-partner-experience-mentor-collective-08.jpg" alt="Screenshot showing high-fidelity user interfaces in Figma" caption="" figClass="large-post-image" %}
 
 <br/>
 #### Filters and enhanced tables
-Allow data to be filtered and display in clear data tables to account for larger datasets and provide users with tool to drill down on a specific student population.
+Added filters and data tables for managing large datasets, enabling users to drill down into specific student populations.
 
 {% include lazy-image.html src="/images/illustration-partner-experience-mentor-collective-09.jpg" alt="Screenshot showing high-fidelity user interfaces in Figma" caption="" figClass="large-post-image" %}
 
 <br/>
 #### Export options
-A brand new “Exports” page and made sure to provide export CTAs throughout key touchpoints in the partner experience.
+Introduced an “Exports” page, embedding export CTAs at key touchpoints.
 {% include lazy-image.html src="/images/illustration-partner-experience-mentor-collective-10.jpg" alt="Screenshot showing high-fidelity user interfaces in Figma" caption="" figClass="large-post-image" %}
 
 <br/>
 #### Layout & navigation changes
-Modernize the layout to make information on each page more accessible. Ensure the design is responsive to accommodate various desktop and tablet sizes, as revealed by the quantitative data.
+Modernized layout for better accessibility, making it responsive to desktop and tablet sizes based on usage data.
 
 {% include lazy-image.html src="/images/illustration-partner-experience-mentor-collective-11.jpg" alt="Screenshot showing high-fidelity user interfaces in Figma" caption="" figClass="large-post-image" %}
 
 <br/>
-#### Miscellaneous tweaks 
-Update brand identity, increase relevance of activities page, introduce in-app notification, modernize UI, ...
+#### Additional UI Tweaks
+Updated brand identity, redesigned the activities page, introduced in-app notifications, and refreshed the UI.
 
 {% include lazy-image.html src="/images/illustration-partner-experience-mentor-collective-04.jpg" alt="Screenshot showing high-fidelity user interfaces in Figma" caption="" figClass="large-post-image" %}
 <br/>
 
-### Drawing from the Design System
-In crafting these refined UIs, I leaned heavily on a <a href="https://mathieufortune.github.io/MC-designsystem.html" target="_blank">design system that I had recently championed at Mentor Collective</a>, seamlessly integrating its elements — from the accessible color palette and clear typography to the streamlined layout and components — into the dashboard's new look.
+### Integrating the Design System
+I leveraged a <a href="https://mathieufortune.github.io/MC-designsystem.html" target="_blank">design system that I had recently championed at Mentor Collective</a>, embedding its accessible color palette, typography, and streamlined layouts into the dashboard.
 
 {% include lazy-image.html src="/images/illustration-partner-experience-mentor-collective-05.jpg" alt="Screenshot showing design system in Figma" caption="Excerpts of the design system I championned at Mentor Collective" figClass="" %}
 
-### Preparation for Implementation
-Upon completing the high-fidelity UIs, I consulted with the Product Manager and Engineering Lead, providing a video overview of the designs to streamline their work. 
-Together with the Product Manager, we crafted detailed requirements for the engineers' implementation.
+### Implementation Preparation
+After finalizing high-fidelity UIs, I collaborated with the Product Manager and Engineering Lead, providing a video walkthrough to guide the engineering team. We also documented clear requirements for development.
 
-### Collaboration with Developers
-Ensuring seamless transition to the implementation phase, I provided meticulous hand-off notes accompanied by the design walkthrough video. These resources were conveniently housed in Figma, adjacent to the high-fidelity UIs as well as in Asana.
-
-Throughout the implementation phase, I regularly engaged in quality control tests, collaborating closely with engineers to guarantee accurate representation of my designs, functional integrity, and full accessibility (WCAG AA) compliance.
+### Developer Collaboration
+To ensure accurate implementation, I provided detailed hand-off notes, the design walkthrough video, and conducted quality control tests. These resources were housed in Figma and Asana for easy access. Throughout development, I worked closely with engineers to maintain design integrity, functionality, and WCAG AA compliance.
 
 {% include lazy-image.html src="/images/illustration-partner-experience-mentor-collective-06.jpg" alt="Screenshot showing design hand-off notes in Figma" caption="Early version of design hand-off notes provided to engineers" figClass="" %}
 
 
 ## Implementation and Launch
 
-### Addressing Design Challenges
-During implementation, the data visualization feature presented some unexpected challenges. When real data was integrated into the charts, some adjustments were warranted for clearer data presentation. Leveraging my frontend development background, I was able to work hand-in-hand with the engineering team, ensuring clear communication and a quick resolution.
+### Tackling Design Challenges
+During implementation, the data visualization feature presented unforeseen challenges. When integrated with real data, adjustments were needed to ensure clarity. Leveraging my front-end development experience, I collaborated closely with engineering for quick, effective resolutions.
 
-In the words of one of my colleagues, reflecting on this collaboration and my broader approach to design:
+As one of the Senior Software Engineer I worked with noted:
 > "What sets Mathieu apart is his ability to be a creative thought partner when it comes to bridging the gap between design and engineering, demonstrating a commitment to collaboration and teamwork. He consistently engaged in productive dialogue with engineers to improve design handoff processes and sprint workflows, and excelled in finding innovative design workarounds to technical limitations, which makes him an invaluable asset to any project. — Lindsay W. - Senior Software Engineer"
 
 ### Beta Insights & Iterations
-Once the implementation completed, a beta version of the new partner experience was rolled out to a select group of users. This beta rollout was essential to the team to ensure quick and efficient iterations of this complex and extensive project.
-
-While many iterations focused on minor tweaks and refining UX copy, feedback from our users pinpointed a significant issue:
-- a revamped feature had strayed too far from the familiar user flow, inadvertently increasing friction and user errors.
-
-Promptly acting on this feedback, I revisited the wireframes and adjusted the navigation and flow for the problematic feature. We then validated this new design with our internal stakeholders, progressed to high-fidelity UIs, and set clear requirements for our engineers. Following this process and re-releasing the feature to our beta users, we observed a marked decrease in both friction and user errors.
+Upon completing the implementation, we launched a beta for select users, allowing quick iterations on this complex project. While most changes were minor, user feedback highlighted a significant issue: a revamped feature had diverged from familiar workflows, increasing friction and errors. Addressing this, I revised the navigation and validated the new design with stakeholders, significantly reducing errors post-beta.
 
 {% include lazy-image.html src="/images/illustration-partner-experience-mentor-collective-07.jpg" alt="Screenshot showing design iteration in Figma" caption="Design iterations in Figma around the Flags page" figClass="" %}
 
-### Beyond the Design: The Tangible Impact of Our Revamp
-Alongside introducing the beta of the redesigned partner experience, we integrated a new analytics tool to meticulously track pivotal KPIs and evaluate the project's impact. Metrics such as NPS, DAU, MAU, feature adoption rates, and average session duration were at the forefront of our monitoring, aiming to determine any improvements in user engagement and product stickiness.
-
-A few months following the full release, the results spoke volumes: __user engagement soared by a staggering 116%__. Beyond the hard data, invaluable feedback from our NPS surveys painted a vivid picture.
+### The Impact of Our Revamp
+Alongside the beta release, we implemented an analytics tool to monitor KPIs, including NPS, DAU, MAU, and feature adoption rates. A few months post-launch, user engagement had increased by 116%. NPS surveys also captured positive feedback:
 
 A partner from North Carolina A&T shared,
 > “Since working with Mentor Collective we're able to get those specific metrics and data, and we have the dashboard – which we absolutely love – to see exactly what's going on and tailor specific programs or initiatives to be able to help the students."
 
-Another feedback from the University of Delaware echoed,
+Another partner from the University of Delaware added,
 > "We can’t underestimate the power of one person. It’s been really exciting to see through the information on the dashboard and through the Flags just how powerful one mentor can be to a student and how impactful they can be.”
 
 
 ## Reflecting On This Project
 
-In retrospect, collaboration was the linchpin of our project's success. From the get-go, the necessity to deeply understand the needs and challenges of our partner users meant that our team had to collaboratively engage with both external partners and internal stakeholders. With the help of the UX researcher, I could effectively dive into the heart of the user's experience, gathering invaluable qualitative insights.
+Reflecting on this project, collaboration emerged as the key to our success. From the outset, understanding our partner users’ needs required coordinated efforts with both external partners and internal stakeholders. With support from our UX researcher, I gathered qualitative insights that enriched our understanding of user experiences.
 
-My approach to brainstorming, which involved cross-functional team members, highlighted the essence of collaboration. By bringing together a diverse set of individuals, from salespeople and account managers to product team members, I was able to generate a rich pool of ideas. Each participant's unique touchpoints with our users enriched our understanding and provided a more holistic view of the challenges and possible solutions.
+During brainstorming, involving cross-functional team members—sales, account management, and product—generated diverse ideas. Each participant's insights added depth to our perspective on challenges and solutions.
 
-I also leaned heavily on collaboration during the design phase. With Whimsical, I was able to engage seamlessly with the Product Manager and Lead Engineer to refine our wireframes. User validation was a collaborative effort where I ensured our directions resonated with the initial insights of the internal team.
+Collaboration extended into the design phase, where tools like Whimsical enabled seamless feedback loops with the Product Manager and Lead Engineer to refine wireframes. We validated directions through iterative input, ensuring alignment with initial insights.
 
-Collaboration was present even in the implementation phase. Working hand-in-hand with engineers, especially when addressing design challenges, was crucial. Their feedback, combined with my frontend development knowledge, allowed us to find quick solutions to emerging issues. The beta rollout and subsequent iterations showcased the benefits of ongoing collaborative feedback, leading to more user-centric refinements.
+In implementation, close teamwork with engineers, especially on design challenges, was invaluable. My front-end experience allowed us to tackle issues effectively, while beta testing underscored the value of continuous feedback, driving user-focused adjustments.
 
-In essence, without the multifaceted collaboration – both internally and with our users – the success we achieved would not have been possible. Our ability to collectively bridge gaps in understanding, ideate, design, and iterate was central to our project's outcome, as evidenced by the soaring user engagement and positive feedback post-launch.
-
-
-## Let's Get in Touch!
-
-Interested in elevating your product's user experience? Let's collaborate and drive tangible results, as showcased in this case study.
-<a href="mailto:pro.mathieu.fortune@gmail.com">Reach out</a>, and together, let's craft solutions that resonate with your audience.
+Ultimately, our multifaceted collaboration bridged understanding, ideation, and execution. This collective approach fueled project success, reflected in higher engagement and positive feedback post-launch.
 
 
+## Let's Connect!
+
+Ready to elevate your product’s user experience?
+<a href="mailto:pro.mathieu.fortune@gmail.com">Reach out</a>, and let’s work together to craft user-centric solutions that make a difference.
