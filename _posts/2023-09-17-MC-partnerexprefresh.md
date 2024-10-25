@@ -42,7 +42,7 @@ However, a critical hurdle was the limited visibility into user interactions. Fo
 
 We started by investigating the needs of our partner users to better understand their challenges. At the time, our analytics offered only basic session data, leaving critical gaps in user behavior insights.
 
-Collaborating with our UX researcher, I designed an interview script and reached out to key users. I conducted interviews with two external partners, supplemented by discussions with five internal account managers who interact with partners daily.
+Collaborating with our UX researcher, I designed an interview script and reached out to key users. I conducted interviews with two external partners, supplemented by discussions with five internal account managers who interact with partners daily.Landing additional interviews with partners had been proven difficult due to the back-to-school season but we were confident that our internal team could fill the gap.
 
 Using Dovetail, I documented, tagged, and analyzed transcripts, allowing us to identify recurring themes quickly and accurately.
 
@@ -51,9 +51,9 @@ Using Dovetail, I documented, tagged, and analyzed transcripts, allowing us to i
 
 ### Key Takeaways
 
-__Barriers to Data Export__: Partners struggled to export dashboard data independently. Although essential for advanced BI analysis, this data was only accessible through account managers, creating friction. This lack of direct access reduced engagement, as partners were discouraged from logging in for insights.
+__Barriers to Data Export__: Partners struggled to export dashboard data independently. Although essential for advanced BI analysis, this data was only accessible through account managers at Mentor Collective, creating friction. This lack of direct access reduced engagement, as partners were discouraged from logging in for insights.
 
-__Absence of “At-a-Glance” Data Views__: Partners needed quick data snapshots for reporting to decision-makers, but only account managers at Mentor Collective could access these. This gap similarly impacted engagement by limiting partners’ direct use of the platform.
+__Absence of “At-a-Glance” Data Views__: Partners needed quick data snapshots for reporting to decision-makers, but similarly to data export, only account managers could access these. This gap impacted engagement by limiting partners’ direct use of the platform.
 
 __Need for Disaggregated and Time-Specific Data__: The dashboard presented aggregated “all-time” metrics, while partners needed to observe data trends over specific periods and by student demographics to understand student journeys more effectively.
 
@@ -179,7 +179,9 @@ Upon completing the implementation, we launched a beta for select users, allowin
 {% include lazy-image.html src="/images/illustration-partner-experience-mentor-collective-07.jpg" alt="Screenshot showing design iteration in Figma" caption="Design iterations in Figma around the Flags page" figClass="" %}
 
 ### The Impact of Our Revamp
-Alongside the beta release, we implemented an analytics tool to monitor KPIs, including NPS, DAU, MAU, and feature adoption rates. A few months post-launch, user engagement had increased by 116%. NPS surveys also captured positive feedback:
+Alongside the beta release, we implemented an analytics tool to monitor KPIs, including NPS, DAU, MAU, and feature adoption rates. A few months post-launch, **user engagement had increased by 116%**.
+
+NPS surveys also captured positive feedback:
 
 A partner from North Carolina A&T shared,
 > “Since working with Mentor Collective we're able to get those specific metrics and data, and we have the dashboard – which we absolutely love – to see exactly what's going on and tailor specific programs or initiatives to be able to help the students."
@@ -190,7 +192,7 @@ Another partner from the University of Delaware added,
 
 ## Reflecting On This Project
 
-Reflecting on this project, collaboration emerged as the key to our success. From the outset, understanding our partner users’ needs required coordinated efforts with both external partners and internal stakeholders. With support from our UX researcher, I gathered qualitative insights that enriched our understanding of user experiences.
+Reflecting on this project, collaboration emerged as the key to our success. From the outset, understanding our partner users’ needs required coordinated efforts with both external partners and internal stakeholders. With support from our UX researcher, I gathered qualitative insights that enriched our understanding of the user experience.
 
 During brainstorming, involving cross-functional team members—sales, account management, and product—generated diverse ideas. Each participant's insights added depth to our perspective on challenges and solutions.
 
