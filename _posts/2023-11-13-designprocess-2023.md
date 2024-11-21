@@ -2,7 +2,7 @@
 layout: post
 title:  "Crafting Experiences: Inside My Personalized UX Design Process"
 excerpt: |
-   In this piece, I share my UX design process, a refined approach shaped by extensive experience and collaboration. It's a journey of transforming user needs into effective design solutions, adaptable to the unique demands of each project.
+   In this piece, I share my UX design process, a refined approach shaped by extensive experience and collaboration. It's a process of transforming user needs into effective design solutions, adaptable to the unique demands of each project.
 thumbnail: "/images/illustration-design-process-cover.png"
 date:   2023-11-13 13:30:00 +0200
 lang: en
@@ -13,9 +13,9 @@ theme: Article
 
 {% include lazy-image.html src="/images/illustration-design-process-cover.png" alt="Illustration of the full diamond process" caption="" figClass="" %}
 
-In this piece, I share my UX design process, a refined approach shaped by extensive experience and collaboration. My journey transforms user needs into effective design solutions, adaptable to the unique demands of each project, and drives measurable business outcomes.
+In this piece, I share my UX design process, a refined approach shaped by extensive experience and collaboration. My process transforms user needs into effective design solutions, adaptable to the unique demands of each project, and drives measurable business outcomes.
 
-Typically, this journey begins when a Product Manager (PM) or someone from leadership brings a potential user issue or opportunity to my attention. These insights provide the foundation from which we build our design strategies.
+Typically, this process begins when a Product Manager (PM) or someone from leadership brings a potential user issue or opportunity to my attention. These insights provide the foundation from which we build our design strategies.
 
 They could come from:
 - Close interactions with users by internal team members
