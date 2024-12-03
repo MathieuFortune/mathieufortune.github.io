@@ -16,29 +16,19 @@ featured: true
 
 ## Overview
 
-Mograph Mentor offers online motion graphics courses, challenging the conventional higher education model in the arts. Our on-demand training and mentorship classes enable artists to sharpen their skills and launch successful careers.
+MoGraph Mentor is an online motion graphics school that redefines traditional arts education. Through on-demand training and personalized mentorship, the platform empowers artists with the tools they need to advance their careers.
 
-When I joined Mograph Mentor in late 2018, the company's vision was more extensive than its current trajectory. My business partner had passionately embarked on this endeavor as a side-project. While the initial steps were commendable, the potential was vast, and to truly tap into it, there was a need for a shift. 
+When I joined MoGraph Mentor in late 2018, it was a passion project initiated by my business partner. Despite its early successes, the company lacked the infrastructure to scale and compete effectively in a rapidly growing market. To realize its full potential, we needed to transition into a scalable startup with a clear mission and vision.
 
-Our mutual goal became clear: transform this side-project into a full-fledged startup with a mission. We aimed not just to operate in the motion design world but to revolutionize the way to learn. Our mission was to equip artists with new skills, giving them a competitive edge and paving the way for abundant work opportunities.
-
-## Deliverables
-
-While strategizing on the business and plotting out marketing blueprints, it became increasingly clear that the company's face, its brand identity, and digital presence, needed a complete overhaul. This was more than just a design revamp; it was about setting the tone for what Mograph Mentor would represent in the industry.
-
-Thus, my first significant project was twofold:
-
-- **Refreshing the brand identity:** The objective was to encapsulate the essence, vision, and mission of Mograph Mentor into a recognizable and resonant brand identity. This involved curating a color palette, typography, and brand guidelines that would set us apart in a rapidly evolving industry.
-
-- **Revamping the company website:** Our marketing website was the main entry point into our offering. It was crucial to design a user-friendly, engaging, and informative site that catered not just to our existing community but also to potential mentors. The challenge was to construct a site capable of supporting our envisaged business growth and the forthcoming expansion of our course catalog.
+Our shared goal was ambitious: revolutionize motion design education by building an accessible, innovative learning platform that equips artists with practical skills and opens doors to new career opportunities.
 
 <div class="col-half--left">
 
 <h4 class="no-marg-v">Roles</h4>
-Product Manager, Product Designer, Web Developer, and Product Marketer.
+I wore multiple hats throughout this project, acting as Product Manager, Product Designer, Web Developer, and Product Marketer.
 
 <h4>Skills</h4>
-User Research, Competitor Analysis, Data Analysis, Wireframing, Prototyping, High-fidelity Visual Design, Usability Testing, Product Marketing, Leadership and Communication.
+Uuser research, competitor analysis, data analysis, wireframing, prototyping, high-fidelity visual design, usability testing, product marketing, and cross-functional communication.
 
 </div>
 <div class="col-half--right">
@@ -52,29 +42,39 @@ Sketchbook + pencil, Figma, Adobe Creative Suite, HTML/CSS, Google Analytics, Ho
 </div>
 
 <div class="clearfix"></div>
+
+## Deliverables
+
+As we refined our business strategy and marketing plans, it became evident that MoGraph Mentor’s brand identity and digital presence required a complete overhaul. This created a pivotal opportunity to redefine how the company positioned itself in the market.
+
+The project centered on two key initiatives:
+
+- **Revamping the Company Website**: The goal was to redesign the website as a user-friendly marketing hub and e-commerce platform. It needed to support growth goals, boost user engagement, and accommodate the planned expansion of the course catalog.
+
+- **Refreshing the Brand Identity**: I developed a cohesive brand identity that captured MoGraph Mentor’s vision and mission. This included refreshing the logo, curating a distinctive color palette and typography, and creating comprehensive brand and visual design guidelines to ensure consistency across all touchpoints.
+
+
 ## The Challenge
 
-As I delved deeper into the heart of Mograph Mentor's operations, two significant challenges came up:
+Two significant challenges defined this project:
 
-**Overcoming legacy limitations:** The existing website, though functional, was a rudimentary tool that lacked the robustness and versatility required to accommodate our ambitious growth plans. The bare-bone capabilities it offered were quickly becoming bottlenecks. It became evident that this solution would be insufficient; a ground-up rebuild was needed.
+- **Overcoming legacy limitations**: The existing website was outdated and lacked the robustness needed to support ambitious growth plans. Its limited capabilities caused bottlenecks, making a complete rebuild essential.
 
-**Navigating a competitive landscape:** The motion design industry is expansive and fiercely competitive. To truly distinguish Mograph Mentor amidst a sea of competitors, it was key to gain a holistic understanding of our target audience. Their aspirations, challenges, and motivations needed to be at the core of our redesigned brand identity and website. Additionally, immersing myself in the intricate world of motion design was crucial. It wasn't just about aesthetics or functionality; it was about creating a platform that resonated with both seasoned professionals and budding artists.
-Addressing these challenges wasn't just about design and development; it was a deep dive into strategy, understanding our stakeholders, and leveraging the very essence of what motion design represented.
+- **Navigating a competitive landscape**: The motion design industry is vast and competitive. Differentiating MoGraph Mentor required deep insights into our target audience—their aspirations, challenges, and motivations. This understanding needed to inform both the brand identity and website redesign to ensure they resonated with users.
 
+Addressing these challenges required strategic thinking, collaboration, and a commitment to aligning our vision with the needs of motion designers.
 
 ## Final Product
 
-### New Website for Mograph Mentor
+### Comprehensive Digital Presence
 
-I designed, tested, and launched a new brand identity and fully functional website to market Mograph Mentor’s business and increase brand awareness across the industry.
+I developed a high-performance, responsive marketing and e-commerce platform. This website became the foundation of MoGraph Mentor’s business growth, offering a seamless user experience while effectively showcasing the brand and its offerings.
 
 {% include lazy-image.html src="/images/mographmentor-casestudy.gif" alt="New website design of Mograph Mentor" caption="Mograph Mentor - New website design" figClass="" %}
 
 ### Brand Identity Guidelines
 
-Mograph Mentor sought to differentiate itself from its competitors through a brand identity that was clean, artistic, and welcoming.
-
-With these attributes in mind, I designed **a new logo, color palette, and typography**. I then created brand guidelines and a design system to facilitate future improvements and streamline communication with cross-functional team members.
+The refreshed brand identity differentiated MoGraph Mentor in a crowded market. I designed a new logo, refined the color palette, and selected complementary typography. These elements were compiled into a design system to streamline future improvements and facilitate collaboration with team members.
 
 <div class="responsive-iframe-container marg-v--small">
 <iframe class="responsive-iframe" style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2Fel79manGotM0SlfV6o7E0D%2FMM-Ui-Elements%3Fnode-id%3D0%253A1" allowfullscreen></iframe>
@@ -84,127 +84,123 @@ With these attributes in mind, I designed **a new logo, color palette, and typog
 
 ### Audit revealed content organization and navigation issues
 
-I began my design research by auditing the former website. The former website had an **aging look, accessibility issues, and defective navigation** making it difficult for users to find the course’s sales pages. From an SEO standpoint, the page semantic and keywords mapping was completely missing. The web performances were also negatively impacted by the lack of proper image optimizations.
-
-In short, the website’s design and usability were far from where they needed to be to support the business needs.
+The original website suffered from an outdated design, accessibility issues, and defective navigation. It lacked SEO optimization, had poor image performance, and failed to effectively guide users to key pages like course sales. These shortcomings highlighted the urgency of a redesign
 
 {% include lazy-image.html src="/images/oldwebsite-mographmentor-casestudy.gif" alt="Former website design of Mograph Mentor" caption="Mograph Mentor - Former website design" figClass="" %}
 
 ### Industry & Market research led to important discoveries about how the motion design industry operates and the current state of online education for motion design
 
-Researching how the industry operates and who its main actors are was essential to successfully lead this project.
+Through in-depth industry and market research, I uncovered key insights into how the motion design industry operates and the evolving landscape of online education within this field. The motion design industry was projected to grow rapidly, reaching $72 billion by 2022. This growth was fueled by recent technological breakthroughs, surge in computing power and increased demand for motion design across three major segments: video games, movies, and consumer products.
 
-I noticed that this industry was segmented into three fields: **Video Games, Movies, and Consumer Products**.
+One key finding was the significant shift in the job market. Traditionally dominated by freelancers, the industry was experiencing a surge in in-house opportunities as companies began to recognize the value of having motion design expertise integrated into their teams.
 
-The Motion Graphics market was projected to be **worth 270 billion U.S Dollars by 2020**. For the last 10 years, this industry has rapidly grown thanks to several technological breakthroughs and an increase in computing power.
-
-**Initially composed of a majority of freelancers**, the need for motion design is becoming more and more recognized by companies. This results in a **rapid increase in in-house opportunities**.
+These insights validated our approach to democratizing access to industry experts. By connecting aspiring motion designers with seasoned professionals, we positioned MoGraph Mentor to address the critical need for accessible, high-quality training. This approach was tailored to support the rapid influx of new talent entering the industry, helping to bridge the gap between foundational skills and real-world expertise.
 
 ### Competitive research revealed differentiating factor and branding opportunity
 
-To perform my competitive research, I reviewed **25 companies** operating within the online motion design education market. Since our competitors had a significant lead in market share and company size, my goal was to identify our most differentiating factor and branding opportunity.
+I conducted an in-depth analysis of 25 companies in the online motion design education space. This research highlighted three primary competitors—School of Motion, Motion Design School, and Greyscale Gorilla—and provided critical insights that helped us define MoGraph Mentor’s unique value proposition.
 
-This research revealed that our 3 most direct competitors were: **SchoolOfMotion, MotionDesignSchool, and GreyScaleGorilla.**
+Our differentiator emerged from combining two key strengths: **access to industry experts from renowned studios, including Disney Animation Studios, and affordable, feedback-driven training**.
 
-I also listed indirect and potential competitors in a spreadsheet to be able to easily track them.
+Unlike competitors, our offering emphasized direct mentorship from professionals actively working in the field, offering serious motion design students the opportunity to receive actionable feedback tailored to their career goals. This positioning resonated strongly with aspiring designers aiming to upscale their skills and break into top-tier animation studios.
 
 {% include lazy-image.html src="/images/mograph-mentor-cs-competitor-analysis.png" alt="Diagram of main competitors" caption="Competitor analysis in a feature comparison chart" figClass="" %}
 
 ### Understand our early adopters and research new audiences to design a better user experience
 
-I interviewed **4 students and 2 mentors** (course instructors) who were early adopters of the business.
+I conducted interviews with **four students and two mentors** (course instructors) who were early adopters of the business. These conversations provided the initial insights into the mindsets and behaviors of motion designers seeking education, highlighting several common challenges:
 
-These interviews revealed the first series of insights into the mindsets and behaviors of motion designers seeking education. Motion designers seeking an education often encounter these problems:
+- “I need a portfolio of original work to **distinguish myself from other artists**.”
+- “Getting **constructive and meaningful feedback** on my project is **difficult**.”
+- “Improving my skills and creating **compelling work is daunting and time-consuming**.”
+- “**I don’t know what I should learn and create** to help drive my career in the direction I need.”
 
-- “I need a portfolio of **original work to distinguish myself** from other artists”
-- “Getting **constructive and meaningful feedback** on my project is difficult”
-- “Improving my skills and creating compelling work is **daunting and time-consuming**”
-- “I don’t know **what I should learn** and create to help drive my career in the direction I need”
+To validate these findings and deepen my understanding of the target audience, I expanded my research efforts. This included leveraging Google search, public forums like Quora and Reddit, and Facebook Groups to explore various communities within the motion design industry.
 
-To confirm my initial assumptions and get a better grasp of the target audience, I expanded my research.
+Additionally, I implemented a survey in our most downloaded free course to gather input directly from beginners, providing valuable quantitative data to complement the qualitative insights.
 
-I used **Google search, public forums like Quora and Reddit, and Facebook Groups** to study the different audiences that constitute the world of motion design. 
-
-I also implemented a survey in our most downloaded free course to probe our beginner audience.
-
-Based on the collected qualitative and quantitative data from our target audiences, I established two personas:
+Using the collected data, I developed two detailed personas that represented our target audience, guiding the subsequent design and strategy decisions.
 
 {% include lazy-image.html src="/images/mograph-mentor-cs-personarecap.jpg" alt="Personas of mograph mentor" caption="Recap of inital personas for Mograph Mentor" figClass="" %}
 
-### Mograph Mentor’s underdog position in the market required us to move fast about our technical stack choice.
+## Design Iterations
 
-Since the main competitors of Mograph Mentor already had a **significant lead in terms of technology, market share, and brand visibility**, we needed a quick and reliable technical solution to be able to compete as soon as possible.
+### Technical Stack Choices
 
-Furthermore, the competitor and user research revealed that the technical aspect of our solution was less important to our target audience than the actual quality of the educational content.
+As a smaller player in a competitive market, MoGraph Mentor faced unique challenges. Major competitors already had a significant lead in terms of technology, market share, and brand visibility. To compete effectively, we needed a **quick and reliable technical solution that allowed us to focus on what mattered most: delivering high-quality educational content.**
 
-This new tech stack will serve as the foundation of our business. To **avoid building any critical technical debt**, I choose a combination of WordPress for the marketing site and Teachable for our learning management system.
+Competitor and user research confirmed that the technical infrastructure was less critical to our target audience than the quality of our courses and mentorship. With this in mind, I selected a combination of WordPress for the marketing site and Teachable for our learning management system.
+
+This approach provided the agility to launch quickly while avoiding critical technical debt, ensuring a solid foundation for future growth.
 
 {% include lazy-image.html src="/images/mograph-mentor-cs-techstack.jpg" alt="Tech stack diagram" caption="Technical stack of Mograph Mentor" figClass="" %}
-
-## Design Iterations
 
 ### Design Goals
 
 To help me drive the decision making and prioritize design decision, I established design goals:
 
-**Clarity**: The old website was suffering from a cluttered and aging look. To better convey our mission to our customers, a clean design will be the first building block of our growth.
+- **Clarity**: The old website suffered from a cluttered and outdated appearance that failed to communicate our mission. A clean, modern design was identified as the first step toward improving usability and supporting business growth.
 
-**Performance First**: With an e-commerce platform, loading performance was key to facilitate conversion. This goal also aligns with my design philosophy, Form follows Function.
+- **Performance First**: For an e-commerce platform, fast loading times are critical to driving conversions.
 
-**Mobile Optimized**: Design a seamless user experience optimized for both desktop and mobile platforms, ensuring accessibility, functionality, and engagement for all audience types.
+- **Mobile-first Design**: The user experience needed to be seamless across both desktop and mobile platforms. Ensuring accessibility, functionality, and engagement for all audience types was a top priority.
 
-**Better Navigation**: The old website was missing a critical navigation path to access the on-demand courses. These on-demand courses representing our revenue’s baseline, easy access was imperative to the business’s success.
+- **Better Navigation**: The old website lacked intuitive navigation paths to access on-demand courses—our primary revenue stream. Simplifying access to these courses was essential for the company’s success.
 
-**Feature Our Mentors**: Our values and mission aimed to promote human interactions above all else. In my competitor analysis and user research, we also learned that promoting our mentors was key for our market positioning.
+- **Feature Our Mentors**: A core part of our mission was fostering human connections through mentorship. Competitor analysis and user research highlighted the importance of prominently showcasing our mentors to differentiate ourselves in the market.
 
-**Improved Tracking**: Data-driven decisions are crucial to success. Since the previous website had no tracking, I was working in the dark. To avoid this in the future, I designed this new website with data collection features in mind.
+- **Improved Tracking**: Data-driven decisions were impossible under the previous setup, as the website lacked analytics capabilities. I designed the new website with robust data collection features to enable tracking and informed decision-making.
 
-**Iterations**: A design is never finished. Iterate on it with the help of data and usability tests was mandatory for this new website’s success. I designed this website in 3 sprints with tests at the end of each cycle.
+- **Iterations**: No design is ever truly finished. Iteration was baked into the process, with usability testing and data-driven refinements planned at the end of each sprint. The project followed a three-sprint cycle, each with focused testing and adjustments.
 
 ### Brand Development
 
-To streamline future improvement of the new website, I developed a brand identity that will convey our message with clarity.
+To support future improvements and better communicate our vision, I developed a refreshed brand identity.
 
-The initial color palette was heavily focusing on a combination of lime green and dark colors.
-Due to the lack of contrast of the lime green, I decided to add a complementary color that will serve as primary color.
+Initially, the color palette leaned heavily on lime green and dark tones. However, the lack of contrast in the lime green made it ineffective as a primary color. I introduced a complementary color to create a more balanced and accessible palette, which became the foundation of our visual identity.
 
 ### User Flow
 
-Based on the user research, I designed a user flow aiming at describing the flow when a user enters the website to when they purchase and access a course.
+Based on user research, I designed a detailed user flow to map out the journey from the homepage to course enrollment. This flow aimed to simplify the process, reducing friction and enhancing the overall user experience.
 
 {% include lazy-image.html src="/images/mograph-mentor-cs-userflow.jpg" alt="Main User Flow Mograph Mentor" caption="User flow displaying a user entering from the homepage and performing a purchase" figClass="" %}
 
 ### Wireframes
 
-Multiple rounds of wireframes and ideation helped me **pinpoint the best navigation and set of features** for the new website.
+Multiple iterations of wireframes were crucial to pinpointing the optimal navigation and feature set for the new website.
 
-When I work individually on a design project, I like to **sketch my wireframe on a notebook** to accelerate this ideation process. 
-
-If I work with a team, I prefer to use **collaborative design software like Figma or Invision**.
+For solo design work, I prefer to sketch wireframes by hand in a notebook, which accelerates the ideation process. When collaborating with a team, I utilize design tools like Figma or InVision for a more interactive and shared workflow.
 
 {% include lazy-image.html src="/images/mograph-mentor-cs-designexercise.jpg" alt="Picture of a whiteboarding session with my CEO and stakeholder of this project" caption="Picture of a whiteboarding session with my CEO and stakeholder of this project" figClass="" %}
 
 {% include lazy-image.html src="/images/mograph-mentor-cs-wireframes.jpg" alt="Wireframes" caption="I like to sketch my wireframes with paper and pencil" figClass="" %}
 
 
-### Usability test and A/B tests
+### Testing Design Implementations
 
-For each design implementation, I made sure to perform regular tests such as **in-person usability tests, heatmaps, user flow recordings, and A/B tests**.
+Each design iteration was rigorously tested using a combination of tools and techniques:
 
-The goal was to ensure that each new design implementation fulfills its intended objective.
+- **Usability Tests**: Conducted with course instructors and my business partner to identify pain points and validate design decisions.
+- **Heatmaps and User Flow Recordings**: Leveraged HotJar to track user behavior and interactions.
+- **A/B Testing**: Used custom code to experiment with design variations and optimize key metrics.
 
-### Learnings & Impact
+These efforts ensured that every aspect of the design met its objectives and delivered meaningful results for both users and the business.
 
-I really enjoyed working on this project. It showed me how **design isn't just a visual expression**. It's also making sure that you **understand the business needs, market conditions, and user behaviors** to create the most usable and compelling solution.
+## Learnings & Impact
 
-This new website, combined with a marketing strategy and informed course development roadmap resulted in **increased monthly revenue by +75%**, **website traffic by +171%**, and **active customer count by +147%** in 12 months.
+This project was deeply rewarding and reinforced a fundamental truth about design: **it’s not just about aesthetics but about problem-solving**. Design requires a deep understanding of business needs, market conditions, and user behavior to craft solutions that are both functional and compelling.
 
-The following year, we were able to increase the size of the team to add a Creative Director, a Marketing Assistant and 2 Video Editors.
+The redesigned website, combined with a strategic marketing approach and an informed course development roadmap, delivered significant results:
 
-After three rigorous years of relentless dedication and perseverance, our journey took an unexpected turn. Our company, once a fledgling endeavor, caught the attention of one of our key competitors. Recognizing the mutual benefits and the potential for collaborative growth, we made the strategic decision to merge. This union marked the culmination of our efforts, but it also meant that the website I had meticulously built, a testament to our beginnings and aspirations, would be decommissioned. While it was bittersweet to witness its retirement, it underscored the larger narrative of progress and adaptation.
+- **75% increase in monthly revenue**
+- **171% increase in customer lifetime value**
+- **147% growth in monthly active users**
 
+These achievements fueled the company’s growth, enabling us to expand the team with a Creative Director, Marketing Assistant, and two Video Editors within the following year.
 
-### Final Results
+After three years of hard work and dedication, MoGraph Mentor’s journey took an unexpected yet exciting turn. Our efforts attracted the attention of a key competitor, and after recognizing the mutual benefits of collaboration, we made the strategic decision to merge. This marked the culmination of our work but also meant retiring the website I had carefully designed and developed—a platform that had become a cornerstone of our identity. While it was bittersweet to see it decommissioned, it underscored the broader narrative of growth, progress, and adaptation.
+
+## Final Results
 
 {% include lazy-image.html src="/images/mograph-mentor-cs-websitescreenshot.jpg" alt="Homepage site screenshot" caption="Preview of the designed & developed Homepage - see more at mographmentor.com" figClass="" %}
 
