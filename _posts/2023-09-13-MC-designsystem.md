@@ -71,13 +71,18 @@ With the help of engineers, I picked a data visualization library (Airbnb's VisX
 
 ### Component tweaking and usage rules
 
-Besides colors and typography, I also made sure that every components would fit our product needs by tweaking and adding new ones where needed.
-
-With feedback from the team and researched UX best practices, I iteratively implemented usage rules and other documentations to each component.
+Besides colors and typography, I also made sure that every component would fit our product needs by tweaking existing components and creating new ones where necessary. With feedback from the team and researched UX best practices, I iteratively implemented usage rules and detailed documentation for each component to ensure they were intuitive and easy to adopt.
 
 {% include lazy-image.html src="/images/illustration-design-system-mentor-collective-05.jpg" alt="Screenshot of button components in Figma" caption="Button components and usage rules" figClass="" %}
 
+{% include lazy-image.html src="/images/illustration-design-system-mentor-collective-055.png" alt="Screenshot of button components in Figma" caption="Leveraging Figma's feature to streamline design system use" figClass="" %}
+
+To further enhance the design system’s usability and scalability, I leveraged Figma’s variants and component properties to create clear and flexible components. For example, buttons like the one shown above are built using Figma’s advanced capabilities, allowing variations in size, hierarchy, state, layout, and icon placement—all within a single component. This approach streamlined design workflows and ensured consistency across the product. By integrating these tools, the team could quickly customize components to meet their needs without compromising on design standards, making the system easy to manage and scalable for large teams.
+
 {% include lazy-image.html src="/images/illustration-design-system-mentor-collective-06.jpg" alt="Screenshot of input components in Figma" caption="Input components and usage rules" figClass="" %}
+
+These improvements not only simplified the design process but also empowered cross-functional collaboration. Designers, developers, and stakeholders could rely on a system that was not only robust but also adaptable to evolving product requirements. By fostering this collaborative approach, the design system became an integral part of the product development process, bridging gaps between design and engineering while maintaining the visual and functional integrity of the product.
+
 
 ## Promotion & adoption
 While my engineering team was thrilled about the design system, its realization was a collaborative effort. 
