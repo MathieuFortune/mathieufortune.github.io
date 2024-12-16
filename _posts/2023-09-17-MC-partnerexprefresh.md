@@ -179,9 +179,23 @@ Upon completing the implementation, we launched a beta for select users, allowin
 {% include lazy-image.html src="/images/illustration-partner-experience-mentor-collective-07.jpg" alt="Screenshot showing design iteration in Figma" caption="Design iterations in Figma around the Flags page" figClass="" %}
 
 ### The Impact of Our Revamp
-Alongside the beta release, we implemented an analytics tool to monitor KPIs, including NPS, DAU, MAU, and feature adoption rates. A few months post-launch, **user engagement had increased by 116%**.
+As part of this project, we implemented new analytics tools, including Pendo.io and Hotjar, to track key performance indicators (KPIs) and evaluate the impact of our redesign.
 
-NPS surveys also captured positive feedback:
+We focused on monitoring:
+
+- Net Promoter Score (NPS)
+- Monthly Active Users (MAU)
+- Feature Adoption Rates
+- Average Session Duration
+- User Retention Rate
+
+The beta release to key customers received positive feedback from the start, with feature adoption showing early momentum. After a few months, the data confirmed the redesign’s success:
+
+- **NPS** increased by **5 points**, reaching the **80-point range**.
+- **Monthly Active Users** (MAU) grew by **136% year-over-year** (YoY).
+- Overall **user engagement** rose by **116%**.
+
+Beyond the hard data, invaluable **feedback from NPS surveys** painted a more vivid picture:
 
 A partner from North Carolina A&T shared,
 > “Since working with Mentor Collective we're able to get those specific metrics and data, and we have the dashboard – which we absolutely love – to see exactly what's going on and tailor specific programs or initiatives to be able to help the students."
