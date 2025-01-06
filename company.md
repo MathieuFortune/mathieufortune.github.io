@@ -53,15 +53,17 @@ and more...
 
 <h3 class="joker-fs"><div class="title-sub--over">Who</div>What sets me apart</h3>
 
-I thrive in cross-functional, mission-driven teams where collaboration and stakeholder alignment are key to success. <br/>My multidisciplinary expertise allows me to contribute at every stage of your product's lifecycle, from concept to launch and beyond.
+I thrive in cross-functional, mission-driven teams where collaboration and stakeholder alignment are key to success. My multidisciplinary expertise enables me to navigate ambiguity and fast-paced environments while contributing effectively at every stage of the product lifecycle, driving measurable outcomes and meaningful impact.
+
+- **Product Discovery**: By closely observing customer behaviors, market trends, and competitive landscapes, I help identify untapped opportunities and areas for innovation. Partnering with product managers and stakeholders, I contribute to shaping the product vision and strategy, ensuring alignment with both user needs and business goals.
 
 - **Product Conception**: Through in-depth research and stakeholder interviews, I distill insights to conceptualize user-centric solutions and strategically roadmap the product’s evolution, ensuring alignment with customer needs and business objectives.
 
-- **Product Development**: Leveraging front-end development skills and knowledge in Agile methodologies, I streamline the design-to-development transition, ensuring timely iterations and a product that aligns seamlessly with user expectations and technical feasibility.
+- **Product Development**: Leveraging front-end development expertise and Agile methodologies, I streamline the design-to-development transition, enabling iterative improvements and delivering products that exceed user expectations while maintaining technical feasibility.
 
-- **Product Launch**: Collaborating closely with sales, marketing, legal, and PR teams, I bridge communication gaps across departments, ensuring a synchronized and impactful product launch.
+- **Product Launch**: Collaborating with sales, marketing, legal, and PR teams, I bridge communication gaps across departments to orchestrate synchronized, impactful product launches, achieving measurable user adoption and market penetration.
 
-- **Product Enhancement**: Continuously analyzing user feedback and market trends, I guide teams in refining and expanding product functionalities, elevating user experience, and driving sustainable growth.
+- **Product Enhancement**: Continuously analyzing user feedback and market trends, I guide teams in refining and expanding product functionalities, improving user satisfaction and driving sustainable growth. My commitment to accessibility and inclusivity ensures products serve diverse user needs.
 
 #### _I’m ready to add value to any mission-driven team looking for a versatile and experienced product leader. Whether you're looking for a Senior Product Designer or a Product Manager, I can bring a unique blend of design, strategy, and technical expertise to your team._
 
