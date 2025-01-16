@@ -61,9 +61,6 @@
     }
     padding: 0 2.5rem;
 
-    .excerpt {
-      @include fluid-typo(16, 18, $phone-h-computed, $desktop-computed);
-    }
   }
 
   .post-link {
