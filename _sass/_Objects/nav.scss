@@ -21,7 +21,7 @@
 }
 
 .site-nav {
-  @include font-size($font-size--large);
+  font-size: var(--font-size-xl);
   height: 100%;
   text-align: center;
 
@@ -42,7 +42,7 @@
     }
 
     .separator {
-      @include font-size(.6);
+      font-size: var(--font-size-2xs);
       color: $color--white;
     }
   }

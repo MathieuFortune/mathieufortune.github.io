@@ -1,7 +1,7 @@
 // Blockquote component
 %blockquote,
 blockquote {
-  @include font-size($font-size--medium);
+  font-size: var(--font-size-md);
 
   position: relative;
   display: block;
@@ -55,7 +55,7 @@ blockquote {
   &.home {
     padding: $spacing--2xl;
     margin-bottom: $spacing--xl;
-    @include fluid-typo(18, 22, $phone-h-computed, $desktop-computed);
+    font-size: var(--font-size-body);
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -68,13 +68,13 @@ blockquote {
 
     .author {
       text-align: right;
-      @include fluid-typo(18, 18, $phone-h-computed, $desktop-computed);
+      font-size: var(--font-size-body);
 
       .title {
         display: block;
         color: $color--darkgrey;
         font-weight: $font-weight--base;
-        @include font-size($font-size--base);
+        font-size: var(--font-size-sm);
       }
     }
   }

@@ -55,12 +55,12 @@
     background-color: $color--main;
 
     h4 {
-      @include font-size($font-size--base);
+      font-size: var(--font-size-sm);
       margin-top: 0;
     }
 
     p {
-      @include font-size($font-size--small);
+      font-size: var(--font-size-xs);
       line-height: 1!important;
     }
   }

@@ -12,7 +12,7 @@ figure>img {
 }
 
 figcaption {
-  @include font-size($font-size--small);
+  font-size: var(--font-size-xs);
   margin-top: $spacing--xs;
   color: $color--grey;
   text-align: center;

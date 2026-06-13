@@ -4,7 +4,7 @@
 
     .title {
       h2 {
-        @include font-size($font-size--base);
+        font-size: var(--font-size-sm);
         margin-top: 0;
         color: $color--main;
         text-transform: uppercase;
@@ -29,19 +29,19 @@
     // box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
 
     h3 {
-      @include font-size($font-size--medium);
+      font-size: var(--font-size-md);
       margin: 0;
       font-weight: $font-weight--base;
       line-height: 1;
 
       .italic {
-        @include font-size($font-size--base);
+        font-size: var(--font-size-sm);
         color: $color--main;
       }
     }
 
     .small {
-      @include font-size($font-size--small);
+      font-size: var(--font-size-xs);
     }
   }
 }
@@ -55,7 +55,7 @@
     display: inline-flex;
     margin-bottom: $spacing--xs;
     padding: $spacing--2xs $spacing--xs;
-    @include font-size($font-size--base);
+    font-size: var(--font-size-sm);
     line-height: 1rem;
     font-weight: 400;
     color: $color--darkgrey;
@@ -87,7 +87,7 @@
   .boxed {
     .item {
       h3 {
-        @include font-size($font-size--base);
+        font-size: var(--font-size-sm);
       }
     }
   }

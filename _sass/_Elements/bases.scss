@@ -1,6 +1,6 @@
 /* Base elements */
 :root {
-  @include fluid-typo(15, 16, $phone-h-computed, $desktop-computed);
+  font-size: 100%; // 16px base; respects the user's browser font-size preference
 
   font-family: $font-base;
   font-weight: $font-weight--base;

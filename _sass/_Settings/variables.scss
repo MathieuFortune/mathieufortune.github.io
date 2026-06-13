@@ -37,18 +37,8 @@ $font-weight--bold:  var(--font-weight-semibold);  // 600
 $font-weight--base:  var(--font-weight-regular);   // 400
 $font-weight--thin:  var(--font-weight-light);     // 300
 
-$font-size-browser: 16px;
-
-// Font Sizes (Perfect Fifth Scale) — NOT migrated: unitless multipliers consumed by
-// math in the font-size mixin; unified clamp() scale is a separate pass (ADR-0002).
-$font-size--tiny: 0.625;    // 10px
-$font-size--small: 0.875;   // 14px
-$font-size--base: 1;        // 16px
-$font-size--medium: 1.5;    // 24px
-$font-size--xmedium: 1.75;  // 28px
-$font-size--large: 2.25;    // 36px
-$font-size--xlarge: 3.375;  // 54px
-$font-size--huge: 5.063;    // 81px
+// Font sizes are now a unified clamp()-based scale in _Settings/tokens.scss,
+// consumed directly as `font-size: var(--font-size-*)`. See docs/adr/0003.
 
 // Spacing → bridge to custom properties
 $spacing--3xs: var(--spacing-3xs);  // 2px
@@ -77,9 +67,6 @@ $tab-h: 56.3125em;     // 901px
 $desktop: 60.0625em;   // 961px
 $content: 68.8125em;   // 1101px
 $huge: 81.25em;        // 1300px
-
-$phone-h-computed: 481;
-$desktop-computed: 961;
 
 // Z-index — NOT migrated
 $z-index--below: -1;

@@ -1,7 +1,7 @@
 // Post nav component
 .post-nav {
   a {
-    @include font-size($font-size--medium);
+    font-size: var(--font-size-md);
     position: fixed;
     top: 50%;
     display: block;

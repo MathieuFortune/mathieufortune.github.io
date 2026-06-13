@@ -11,25 +11,25 @@ h6 {
 }
 
 h1 {
-  @include font-size($font-size--huge);
+  font-size: var(--font-size-2xl);
 }
 
 h2 {
-  @include font-size($font-size--large);
+  font-size: var(--font-size-xl);
 }
 
 h3 {
-  @include font-size($font-size--xmedium);
+  font-size: var(--font-size-lg);
 }
 
 h4 {
-  @include font-size($font-size--medium);
+  font-size: var(--font-size-md);
 }
 
 h5 {
-  @include font-size($font-size--base);
+  font-size: var(--font-size-sm);
 }
 
 h6 {
-  @include font-size($font-size--small);
+  font-size: var(--font-size-xs);
 }

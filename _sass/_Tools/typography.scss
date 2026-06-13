@@ -1,25 +1,7 @@
-/* Types mixins */
-
-// REM font size
-@mixin font-size($size: 1) {
-  font-size: ($size * 1rem);
-}
-
-// Fluid line-height
-@mixin line-height($min-height, $max-height, $min-width, $max-width) {
-  line-height: calc(#{$min-height}em + (#{$max-height} - #{$min-height}) * ((100vw - #{$min-width}em) / (#{$max-width} - #{$min-width})));
-}
-
-// Fluid font size
-@mixin fluid-typo($min-font, $max-font, $min-viewport, $max-viewport) {
-  font-size: #{$min-font}px;
-  @media (min-width: #{$min-viewport}px) and (max-width: #{$max-viewport}px) {
-    font-size: calc(#{$min-font}px + (#{$max-font} - #{$min-font}) * ( (100vw - #{$min-viewport}px) / ( #{$max-viewport} - #{$min-viewport})));
-  }
-  @media (min-width: #{$max-viewport}px) {
-    font-size: #{$max-font}px;
-  }
-}
+/* Typography placeholders */
+// Font sizing now lives in the type-scale custom properties in _Settings/tokens.scss
+// (use `font-size: var(--font-size-*)`). The old font-size / fluid-typo / line-height
+// mixins were removed when the two scales were unified (see docs/adr/0003).
 
 %vertical-rhythm {
   margin: 1.5em auto 0;

@@ -1,7 +1,7 @@
 /* Code formatting */
 pre,
 code {
-  @include font-size;
+  font-size: var(--font-size-sm);
   border: 1px solid $color--darkgrey;
   border-radius: 3px;
   background-color: #eef;

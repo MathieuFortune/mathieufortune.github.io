@@ -2,18 +2,18 @@
     background-color: #F4F2EE;
     padding: $spacing--3xl;
     margin-bottom: $spacing--lg;
-    @include fluid-typo(18, 18, $phone-h-computed, $desktop-computed);
+    font-size: var(--font-size-body);
     font-weight: $font-weight--bold;
     border-radius: $spacing--base;
 
     .heading {
         font-family: $font-base;
-        @include fluid-typo(18, 20, $phone-h-computed, $desktop-computed);
+        font-size: var(--font-size-body);
     }
 
     .support {
         color: #4F6677;
-        @include fluid-typo(18, 18, $phone-h-computed, $desktop-computed);
+        font-size: var(--font-size-body);
         font-weight: $font-weight--base;
         margin-top: $spacing--sm!important;
         margin-bottom: 0;
@@ -29,7 +29,7 @@
         border-radius: 0;
         .heading {
             margin-bottom: 0;
-            @include fluid-typo(28, 34, $phone-h-computed, $desktop-computed);
+            font-size: var(--font-size-prose-lg);
         }
 
         .sub {
@@ -47,7 +47,7 @@
     display: inline-block;
     background-color: #F4F2EE;
     padding: $spacing--2xs $spacing--xs;
-    @include fluid-typo(18, 18, $phone-h-computed, $desktop-computed);
+    font-size: var(--font-size-body);
     font-weight: $font-weight--bold;
     border-radius: $spacing--xs;
 }

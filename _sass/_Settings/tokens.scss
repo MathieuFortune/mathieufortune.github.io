@@ -56,4 +56,18 @@
   --spacing-7xl: 6rem;      // 96px
   --spacing-8xl: 7rem;      // 112px
   --spacing-9xl: 8rem;      // 128px
+
+  /* ---- Type scale: flat steps (UI + bare headings) ---- */
+  --font-size-2xs: 0.625rem;  // 10px
+  --font-size-xs: 0.875rem;   // 14px
+  --font-size-sm: 1rem;       // 16px
+  --font-size-md: 1.5rem;     // 24px
+  --font-size-lg: 1.75rem;    // 28px  (bare h3)
+  --font-size-xl: 2.25rem;    // 36px  (bare h2, nav)
+  --font-size-2xl: 5.063rem;  // 81px  (bare h1)
+
+  /* ---- Type scale: fluid steps (clamp, fluid 481px → 961px viewport) ---- */
+  --font-size-body: clamp(1.125rem, 1rem + 0.4167vw, 1.25rem);       // 18 → 20px
+  --font-size-prose-md: clamp(1.5rem, 1.25rem + 0.8333vw, 1.75rem);  // 24 → 28px
+  --font-size-prose-lg: clamp(1.75rem, 1.25rem + 1.6667vw, 2.25rem); // 28 → 36px
 }

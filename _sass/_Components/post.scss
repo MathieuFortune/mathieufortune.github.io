@@ -7,24 +7,24 @@
 
   .post-content {
     h2 {
-      @include fluid-typo(28, 36, $phone-h-computed, $desktop-computed);
+      font-size: var(--font-size-prose-lg);
     }
 
     h3 {
-      @include fluid-typo(24, 28, $phone-h-computed, $desktop-computed);
+      font-size: var(--font-size-prose-md);
     }
 
     p {
-      @include fluid-typo(18, 20, $phone-h-computed, $desktop-computed);
+      font-size: var(--font-size-body);
       line-height: 1.6;
 
       &.excerpt {
-        @include fluid-typo(20, 20, $phone-h-computed, $desktop-computed);
+        font-size: var(--font-size-body);
       }
     }
 
     li {
-      @include fluid-typo(18, 20, $phone-h-computed, $desktop-computed);
+      font-size: var(--font-size-body);
     }
 
     a {

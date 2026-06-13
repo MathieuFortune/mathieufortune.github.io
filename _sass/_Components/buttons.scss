@@ -3,7 +3,7 @@
 .btn,
 %btn {
   @extend %transition;
-  @include font-size($font-size--base);
+  font-size: var(--font-size-sm);
   display: inline-block;
   padding: .5625rem 1.125rem;
   margin-bottom: .5625rem;
@@ -80,7 +80,7 @@ a {
 }
 
 .btn--small {
-  @include font-size($font-size--small);
+  font-size: var(--font-size-xs);
   padding: .375rem .75rem;
 }
 
@@ -89,6 +89,6 @@ a {
 }
 
 .btn--large {
-  @include font-size($font-size--medium);
+  font-size: var(--font-size-md);
   padding: 1.125rem 2.25rem;
 }

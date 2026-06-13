@@ -73,7 +73,7 @@ em,
 }
 
 s {
-  @include font-size($font-size--base);
+  font-size: var(--font-size-sm);
   color: $color--grey;
 }
 
@@ -88,7 +88,7 @@ s {
 }
 
 .title-sub--over {
-  @include font-size($font-size--base);
+  font-size: var(--font-size-sm);
   font-weight: $font-weight--thin;
   color: $color--grey;
 }
@@ -135,7 +135,7 @@ s {
 
 /* Joker font size */
 .joker-fs {
-  @include fluid-typo(26, 33, $phone-h-computed, $desktop-computed);
+  font-size: var(--font-size-prose-lg);
 }
 
 .visually-hidden {

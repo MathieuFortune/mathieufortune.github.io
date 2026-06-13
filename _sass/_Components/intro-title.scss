@@ -1,8 +1,8 @@
 // Intro title component
-$intro-font-size: 33;
-$intro-font-size--small: 54;
-$intro-font-size--medium: 62;
-$intro-font-size--hero: 76;
+//
+// Bespoke display/hero type, intentionally outside the shared type scale.
+// clamp() values reproduce the previous fluid-typo ranges exactly (fluid 481→961px):
+//   base 33→54px, --medium 33→62px, --hero 33→76px.
 
 %intro-title {
   @include media($tab-v, max-width) {
@@ -12,7 +12,7 @@ $intro-font-size--hero: 76;
     padding-right: $spacing--base;
     padding-left: $spacing--base;
   }
-  @include fluid-typo($intro-font-size, $intro-font-size--small, $phone-h-computed, $desktop-computed);
+  font-size: clamp(2.0625rem, 0.7473rem + 4.375vw, 3.375rem); // 33 → 54px
   padding: 0;
   margin: $spacing--9xl auto $spacing--4xl;
   font-family: $font-main;
@@ -24,7 +24,7 @@ $intro-font-size--hero: 76;
     @include media($tab-h, min-width) {
       margin: $spacing--3xl 0 $spacing--2xl;
     }
-    @include font-size($font-size--base);
+    font-size: var(--font-size-sm);
     max-width: 8.75rem;
     margin: $spacing--base 0 $spacing--xs;
     border: .25em solid $color--main;
@@ -40,11 +40,11 @@ $intro-font-size--hero: 76;
 
   &--medium {
     @extend %intro-title;
-    @include fluid-typo($intro-font-size, $intro-font-size--medium, $phone-h-computed, $desktop-computed);
+    font-size: clamp(2.0625rem, 0.2462rem + 6.0417vw, 3.875rem); // 33 → 62px
   }
 
   &--hero {
     @extend %intro-title;
-    @include fluid-typo($intro-font-size, $intro-font-size--hero, $phone-h-computed, $desktop-computed);
+    font-size: clamp(2.0625rem, -0.6306rem + 8.9583vw, 4.75rem); // 33 → 76px
   }
 }

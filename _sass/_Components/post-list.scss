@@ -69,7 +69,7 @@
   }
 
   .post-title {
-    @include font-size($font-size--medium);
+    font-size: var(--font-size-md);
     color: $color--black;
     margin: 0;
     line-height: 1.4;
@@ -79,7 +79,7 @@
     display: inline-flex;
     margin-bottom: $spacing--2xs;
     padding: $spacing--2xs $spacing--xs;
-    @include font-size($font-size--small);
+    font-size: var(--font-size-xs);
     line-height: 1rem;
     font-weight: 400;
     color: $color--darkgrey;
