@@ -2,7 +2,6 @@
 
 // REM font size
 @mixin font-size($size: 1) {
-  font-size: ($size * $font-size-browser);
   font-size: ($size * 1rem);
 }
 
@@ -29,7 +28,6 @@
 %font-main {
   font-family: $font-main;
   font-weight: $font-weight--xbold;
-  -moz-font-smoothing: antialiased;
   -webkit-font-smoothing: antialiased;
 }
 
