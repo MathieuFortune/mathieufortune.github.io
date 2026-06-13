@@ -9,4 +9,5 @@ Gemfile.lock
 vendor/
 .claude/
 CLAUDE.md
+CONTEXT.md
 docs/

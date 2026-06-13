@@ -1,35 +1,46 @@
 // _variables.scss
+//
+// Color, spacing and font family/weight are now CSS custom properties, defined in
+// _Settings/tokens.scss. The Sass variables below are BRIDGE ALIASES onto those
+// custom properties so existing component code keeps working unchanged — e.g.
+// `color: $color--main` compiles to `color: var(--color-accent)`.
+//
+// Categories that are NOT migrated (font sizes, breakpoints, z-index, transitions,
+// radius, shadow) remain plain Sass values below. See docs/adr/0002 for rationale.
 
-// Colors
-$color--black: #17222b;
-$color--white: #fff;
-$color--red: #DC9604;
-$color--blue: #2A6DBB;
-$color--yellow: #ffd700;
-$color--lightyellow: #F4F2EE;
-$color--darkgrey: #424242;
-$color--grey: #3E5667;
-$color--lightgrey: #EFEEEF;
+// Colors → bridge to custom property primitives
+$color--black:      var(--color-ink);
+$color--white:      var(--color-white);
+$color--red:        var(--color-amber);       // Sass name kept; true hue is amber
+$color--blue:       var(--color-blue);
+$color--blue-dark:  var(--color-blue-dark);   // derived; used via $color--link--hover
+$color--blue-light: var(--color-blue-light);  // derived; used for dashed link border
+$color--yellow:     var(--color-yellow);
+$color--lightyellow: var(--color-cream);      // Sass name kept; true colour is cream
+$color--darkgrey:   var(--color-grey-dark);
+$color--grey:       var(--color-slate);        // Sass name kept; true colour is slate
+$color--lightgrey:  var(--color-grey-light);
 
-// Functional Colors
-$color--text: $color--black;
-$color--link: $color--blue;
-$color--link--hover: darken($color--blue, 20%);
-$color--main: $color--red;
-$color--secondary: $color--blue;
+// Functional colors → bridge to custom property semantics
+$color--text:        var(--color-text);
+$color--link:        var(--color-link);
+$color--link--hover: var(--color-link-hover);
+$color--main:        var(--color-accent);
+$color--secondary:   var(--color-secondary);
 
-// Typography
-$font-main: 'Figtree', sans-serif;
-$font-base: 'Lora', serif;
+// Typography families & weights → bridge to custom properties
+$font-main: var(--font-heading);   // Figtree (headings)
+$font-base: var(--font-body);      // Lora (body)
 
-$font-weight--xbold: 700;
-$font-weight--bold: 600;
-$font-weight--base: 400;
-$font-weight--thin: 300;
+$font-weight--xbold: var(--font-weight-bold);      // 700
+$font-weight--bold:  var(--font-weight-semibold);  // 600
+$font-weight--base:  var(--font-weight-regular);   // 400
+$font-weight--thin:  var(--font-weight-light);     // 300
 
 $font-size-browser: 16px;
 
-// Font Sizes (Perfect Fifth Scale)
+// Font Sizes (Perfect Fifth Scale) — NOT migrated: unitless multipliers consumed by
+// math in the font-size mixin; unified clamp() scale is a separate pass (ADR-0002).
 $font-size--tiny: 0.625;    // 10px
 $font-size--small: 0.875;   // 14px
 $font-size--base: 1;        // 16px
@@ -39,25 +50,25 @@ $font-size--large: 2.25;    // 36px
 $font-size--xlarge: 3.375;  // 54px
 $font-size--huge: 5.063;    // 81px
 
-// Spacing
-$spacing--3xs: 0.125rem;  // 2px
-$spacing--2xs: 0.25rem;   // 4px
-$spacing--xs:  0.5rem;    // 8px "tiny"
-$spacing--sm:  0.75rem;   // 12px
-$spacing--base:  1rem;    // 16px "base"
-$spacing--lg:  1.25rem;   // 20px
-$spacing--xl:  1.5rem;    // 24px
-$spacing--2xl: 2rem;      // 32px "medium"
-$spacing--3xl: 2.5rem;    // 40px "large"
-$spacing--4xl: 3rem;      // 48px
-$spacing--5xl: 4rem;      // 64px "huge"
-$spacing--6xl: 5rem;      // 80px
-$spacing--7xl: 6rem;      // 96px
-$spacing--8xl: 7rem;      // 112px
-$spacing--9xl: 8rem;      // 128px
+// Spacing → bridge to custom properties
+$spacing--3xs: var(--spacing-3xs);  // 2px
+$spacing--2xs: var(--spacing-2xs);  // 4px
+$spacing--xs:  var(--spacing-xs);   // 8px
+$spacing--sm:  var(--spacing-sm);   // 12px
+$spacing--base: var(--spacing-base); // 16px
+$spacing--lg:  var(--spacing-lg);   // 20px
+$spacing--xl:  var(--spacing-xl);   // 24px
+$spacing--2xl: var(--spacing-2xl);  // 32px
+$spacing--3xl: var(--spacing-3xl);  // 40px
+$spacing--4xl: var(--spacing-4xl);  // 48px
+$spacing--5xl: var(--spacing-5xl);  // 64px
+$spacing--6xl: var(--spacing-6xl);  // 80px
+$spacing--7xl: var(--spacing-7xl);  // 96px
+$spacing--8xl: var(--spacing-8xl);  // 112px
+$spacing--9xl: var(--spacing-9xl);  // 128px
 
 
-// Breakpoints
+// Breakpoints — NOT migrated: cannot be used inside media query conditions.
 $phone-v: 20.0625em;   // 321px
 $phone-h: 30.0625em;   // 481px
 $small-tab: 37.5625em; // 601px
@@ -70,7 +81,7 @@ $huge: 81.25em;        // 1300px
 $phone-h-computed: 481;
 $desktop-computed: 961;
 
-// Z-index
+// Z-index — NOT migrated
 $z-index--below: -1;
 $z-index--default: 1;
 $z-index--above: 10;
@@ -79,10 +90,10 @@ $z-index--menu: 200;
 $z-index--overlay: 300;
 $z-index--modal: 400;
 
-// Transitions
+// Transitions — NOT migrated
 $transition-duration: 400ms;
 $transition-easing: ease-in-out;
 
-// Misc
+// Misc — NOT migrated
 $border-radius: 3px;
 $box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);

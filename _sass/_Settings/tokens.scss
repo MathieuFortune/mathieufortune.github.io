@@ -1,0 +1,59 @@
+// Design tokens — CSS custom properties (two-tier: primitives → semantics).
+//
+// Only color, spacing, and font family/weight are migrated to custom properties.
+// Type sizes, breakpoints, z-index, transitions, radius and shadow remain Sass
+// variables in _Settings/variables.scss (see docs/adr/0002 for why).
+//
+// Components do NOT reference these custom properties directly. They use the Sass
+// variables in _Settings/variables.scss, which are bridge aliases onto these
+// tokens (e.g. `$color--main: var(--color-accent)`). Theming = redefine the
+// semantic layer below; primitives and components never change.
+
+@use 'sass:color';
+
+:root {
+  /* ---- Color primitives (named by true hue) ---- */
+  --color-ink: #17222b;          // dark blue-black (text)
+  --color-white: #fff;
+  --color-amber: #DC9604;        // brand accent (was misnamed "red")
+  --color-blue: #2A6DBB;
+  --color-blue-dark: #{color.adjust(#2A6DBB, $lightness: -20%)};   // link hover
+  --color-blue-light: #{color.adjust(#2A6DBB, $lightness: 15%)};   // dashed link border
+  --color-yellow: #ffd700;
+  --color-cream: #F4F2EE;        // warm off-white (was misnamed "lightyellow")
+  --color-slate: #3E5667;        // blue-grey (was "grey")
+  --color-grey-dark: #424242;
+  --color-grey-light: #EFEEEF;
+
+  /* ---- Color semantics (named by role → reference a primitive) ---- */
+  --color-text: var(--color-ink);
+  --color-link: var(--color-blue);
+  --color-link-hover: var(--color-blue-dark);
+  --color-accent: var(--color-amber);
+  --color-secondary: var(--color-blue);
+
+  /* ---- Typography: families & weights ---- */
+  --font-heading: 'Figtree', sans-serif;
+  --font-body: 'Lora', serif;
+  --font-weight-light: 300;
+  --font-weight-regular: 400;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+
+  /* ---- Spacing scale ---- */
+  --spacing-3xs: 0.125rem;  // 2px
+  --spacing-2xs: 0.25rem;   // 4px
+  --spacing-xs: 0.5rem;     // 8px
+  --spacing-sm: 0.75rem;    // 12px
+  --spacing-base: 1rem;     // 16px
+  --spacing-lg: 1.25rem;    // 20px
+  --spacing-xl: 1.5rem;     // 24px
+  --spacing-2xl: 2rem;      // 32px
+  --spacing-3xl: 2.5rem;    // 40px
+  --spacing-4xl: 3rem;      // 48px
+  --spacing-5xl: 4rem;      // 64px
+  --spacing-6xl: 5rem;      // 80px
+  --spacing-7xl: 6rem;      // 96px
+  --spacing-8xl: 7rem;      // 112px
+  --spacing-9xl: 8rem;      // 128px
+}

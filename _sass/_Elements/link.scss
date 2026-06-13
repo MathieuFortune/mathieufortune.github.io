@@ -16,7 +16,7 @@ a {
 %link-main {
   a {
     padding: 0 .2em;
-    border-bottom: 1px dashed lighten($color--link, 15%);
+    border-bottom: 1px dashed $color--blue-light;
 
     &:hover {
       color: $color--white;
