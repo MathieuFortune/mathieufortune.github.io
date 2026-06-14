@@ -1,8 +1,9 @@
+@use '../core' as *;
 // Buttons component
 
 .btn,
 %btn {
-  @extend %transition;
+  @include transition;
   font-size: var(--font-size-sm);
   display: inline-block;
   padding: .5625rem 1.125rem;

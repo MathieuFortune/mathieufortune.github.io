@@ -1,13 +1,11 @@
+@use '../core' as *;
 /* Utilities trump */
 
 
 /* center */
 
-%center,
 .center {
-  margin-right: auto;
-  margin-left: auto;
-  text-align: center;
+  @include center;
 }
 
 %block-center,
@@ -20,17 +18,15 @@
 
 /* clearfix */
 
-%clearfix,
 .clearfix {
-  clear: both;
+  @include clearfix;
 }
 
 
 /* transition */
 
-%transition,
 .transition {
-  transition-duration: 400ms;
+  @include transition;
 }
 
 

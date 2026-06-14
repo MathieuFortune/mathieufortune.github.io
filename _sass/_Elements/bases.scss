@@ -1,3 +1,4 @@
+@use '../core' as *;
 /* Base elements */
 :root {
   font-size: 100%; // 16px base; respects the user's browser font-size preference
@@ -63,13 +64,4 @@ img {
   max-width: 100%;
   margin: 0 auto;
   vertical-align: middle;
-}
-
-/* clearfix */
-%clearfix {
-  &::after {
-    display: table;
-    clear: both;
-    content: '';
-  }
 }

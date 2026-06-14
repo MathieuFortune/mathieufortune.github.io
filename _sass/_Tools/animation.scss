@@ -1,4 +1,5 @@
 // Animation Library
+@use 'sass:map';
 
 // Variables
 $animation-duration: 0.8s;
@@ -13,7 +14,7 @@ $easing: (
 );
 
 // Mixins
-@mixin animation($name, $duration: $animation-duration, $timing: map-get($easing, 'ease-in-out'), $delay: 0s, $fill: both, $iteration: 1) {
+@mixin animation($name, $duration: $animation-duration, $timing: map.get($easing, 'ease-in-out'), $delay: 0s, $fill: both, $iteration: 1) {
   animation: $name $duration $timing $delay $iteration $fill;
   will-change: transform, opacity;
 }

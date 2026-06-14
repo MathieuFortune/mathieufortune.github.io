@@ -3,44 +3,43 @@
 ---
 @charset 'utf-8';
 
-// Import partials from `sass_dir` (defaults to `_sass`)
-@import '_Settings/tokens';
-@import '_Settings/variables';
-@import '_Tools/typography';
-@import '_Tools/media-query';
-@import '_Tools/grid';
-@import '_Tools/spacings';
-@import '_Tools/animation';
-@import '_Elements/normalize';
-@import '_Elements/bases';
-@import '_Elements/link';
-@import '_Elements/heading';
-@import '_Elements/list';
-@import '_Elements/image';
-@import '_Elements/code';
-@import '_Elements/syntax-highlighting';
-@import '_Objects/header';
-@import '_Objects/footer';
-@import '_Objects/nav';
-@import '_Objects/icons';
-@import '_Components/buttons';
-@import '_Components/blockquote';
-@import '_Components/social-media-list';
-@import '_Components/tooltip';
-@import '_Components/menu-icon';
-@import '_Components/intro-title';
-@import '_Components/intro-desc';
-@import '_Components/table-case-study';
-@import '_Components/post-list';
-@import '_Components/post-nav';
-@import '_Components/post';
-@import '_Components/page';
-@import '_Components/resume';
-@import '_Components/portfolio-panel';
-@import '_Components/portfolio-single';
-@import '_Components/responsive-video';
-@import '_Components/video-background';
-@import '_Components/skip-to-main';
-@import '_Components/emphasis-box';
-@import '_Trumps/utilities';
-@import '_Trumps/print';
+// Entry point. Token custom properties first, then the abstracts index `core`
+// (which also emits the grid / spacings / animation utility CSS, in that order —
+// matching the previous @import sequence), then the CSS-emitting partials.
+// Each partial pulls shared members via `@use '../core' as *;`.
+@use '_Settings/tokens';
+@use '_core' as *;
+
+@use '_Elements/normalize';
+@use '_Elements/bases';
+@use '_Elements/link';
+@use '_Elements/heading';
+@use '_Elements/list';
+@use '_Elements/image';
+@use '_Elements/code';
+@use '_Elements/syntax-highlighting';
+@use '_Objects/header';
+@use '_Objects/footer';
+@use '_Objects/nav';
+@use '_Objects/icons';
+@use '_Components/buttons';
+@use '_Components/blockquote';
+@use '_Components/social-media-list';
+@use '_Components/tooltip';
+@use '_Components/menu-icon';
+@use '_Components/intro-title';
+@use '_Components/intro-desc';
+@use '_Components/table-case-study';
+@use '_Components/post-list';
+@use '_Components/post-nav';
+@use '_Components/post';
+@use '_Components/page';
+@use '_Components/resume';
+@use '_Components/portfolio-panel';
+@use '_Components/portfolio-single';
+@use '_Components/responsive-video';
+@use '_Components/video-background';
+@use '_Components/skip-to-main';
+@use '_Components/emphasis-box';
+@use '_Trumps/utilities';
+@use '_Trumps/print';

@@ -1,3 +1,4 @@
+@use '../core' as *;
 .resume {
   .row {
     padding-top: $spacing--3xl;
@@ -19,7 +20,7 @@
 }
 
 .boxed {
-  @extend %link-main;
+  @include link-main;
 
   .item {
     position: relative;

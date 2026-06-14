@@ -1,4 +1,5 @@
 @use 'sass:math';
+@use '../_Settings/variables' as *;
 
 // Grid variables
 $grid-columns: 12;
@@ -75,8 +76,8 @@ $breakpoints: (
   @for $i from 1 through $grid-columns {
     .col#{$infix}-#{$i} {
       @include make-col;
-      flex: 0 0 percentage(math.div($i, $grid-columns));
-      max-width: percentage(math.div($i, $grid-columns));
+      flex: 0 0 math.percentage(math.div($i, $grid-columns));
+      max-width: math.percentage(math.div($i, $grid-columns));
     }
   }
 
@@ -104,7 +105,7 @@ $breakpoints: (
       @if $i == 0 {
         margin-left: 0;
       } @else {
-        margin-left: percentage(math.div($i, $grid-columns));
+        margin-left: math.percentage(math.div($i, $grid-columns));
       }
     }
   }

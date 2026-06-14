@@ -1,6 +1,7 @@
+@use '../core' as *;
 /* Link element */
 a {
-  @extend %transition;
+  @include transition;
   color: $color--link;
   text-decoration: none;
 
@@ -10,37 +11,5 @@ a {
 
   &:hover {
     color: $color--link--hover
-  }
-}
-
-%link-main {
-  a {
-    padding: 0 .2em;
-    border-bottom: 1px dashed $color--blue-light;
-
-    &:hover {
-      color: $color--white;
-      background-color: $color--link--hover;
-      border-bottom: 0;
-    }
-  }
-}
-
-%link-reverse {
-  padding: .2em;
-  color: $color--white;
-  text-decoration: none;
-  background: none;
-  border-bottom: 1px dashed $color--white;
-
-
-  &:visited {
-    color: $color--white;
-  }
-
-  &:hover {
-    color: $color--link;
-    background-color: $color--white;
-    border-bottom: 0;
   }
 }

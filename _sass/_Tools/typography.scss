@@ -1,3 +1,5 @@
+@use '../_Settings/variables' as *;
+
 /* Typography placeholders */
 // Font sizing now lives in the type-scale custom properties in _Settings/tokens.scss
 // (use `font-size: var(--font-size-*)`). The old font-size / fluid-typo / line-height

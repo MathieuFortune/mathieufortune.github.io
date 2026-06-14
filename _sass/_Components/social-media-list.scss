@@ -1,6 +1,7 @@
+@use '../core' as *;
 // Social media list component
 .social-media-list {
-  @extend %center;
+  @include center;
   position: relative;
   padding: 0;
 

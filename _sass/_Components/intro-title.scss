@@ -1,50 +1,17 @@
+@use '../core' as *;
 // Intro title component
 //
-// Bespoke display/hero type, intentionally outside the shared type scale.
-// clamp() values reproduce the previous fluid-typo ranges exactly (fluid 481→961px):
-//   base 33→54px, --medium 33→62px, --hero 33→76px.
-
-%intro-title {
-  @include media($tab-v, max-width) {
-    margin-top: 1rem;
-  }
-  @include media($desktop, max-width) {
-    padding-right: $spacing--base;
-    padding-left: $spacing--base;
-  }
-  font-size: clamp(2.0625rem, 0.7473rem + 4.375vw, 3.375rem); // 33 → 54px
-  padding: 0;
-  margin: $spacing--9xl auto $spacing--4xl;
-  font-family: $font-main;
-  font-weight: $font-weight--xbold;
-  line-height: 1;
-  letter-spacing: -1px;
-
-  hr {
-    @include media($tab-h, min-width) {
-      margin: $spacing--3xl 0 $spacing--2xl;
-    }
-    font-size: var(--font-size-sm);
-    max-width: 8.75rem;
-    margin: $spacing--base 0 $spacing--xs;
-    border: .25em solid $color--main;
-  }
-
-  .smaller {
-    font-size: 80%;
-  }
-}
+// The intro-title mixin (bespoke display/hero type) lives in _Tools/_mixins.scss
+// so it can be shared with page.scss and post.scss without a cross-file @extend.
 
 .intro-title {
-  @extend %intro-title;
+  @include intro-title;
 
   &--medium {
-    @extend %intro-title;
-    font-size: clamp(2.0625rem, 0.2462rem + 6.0417vw, 3.875rem); // 33 → 62px
+    @include intro-title($size: clamp(2.0625rem, 0.2462rem + 6.0417vw, 3.875rem)); // 33 → 62px
   }
 
   &--hero {
-    @extend %intro-title;
-    font-size: clamp(2.0625rem, -0.6306rem + 8.9583vw, 4.75rem); // 33 → 76px
+    @include intro-title($size: clamp(2.0625rem, -0.6306rem + 8.9583vw, 4.75rem)); // 33 → 76px
   }
 }

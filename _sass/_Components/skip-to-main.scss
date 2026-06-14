@@ -1,3 +1,4 @@
+@use '../core' as *;
 .skip-to-main-content {
   position: absolute;
   top: -40px;
@@ -10,4 +11,4 @@
 
 .skip-to-main-content:focus {
   top: 0;
-}
+}

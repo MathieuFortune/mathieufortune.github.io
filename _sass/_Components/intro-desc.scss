@@ -1,11 +1,13 @@
+@use '../core' as *;
 // Intro desc component
 .intro-desc {
   @extend %container;
   font-size: var(--font-size-body);
+  padding: $spacing--5xl $spacing--base;
+
   @include media($tab-v, max-width) {
     padding: 0 $spacing--base $spacing--2xl;
   }
-  padding: $spacing--5xl $spacing--base;
 
   @include media($tab-v, max-width) {
     figure {

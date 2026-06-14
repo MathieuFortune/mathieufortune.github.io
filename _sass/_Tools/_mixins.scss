@@ -1,0 +1,95 @@
+// Shared mixins
+//
+// Anything that needs to be shared across CSS-emitting partials lives here as a
+// mixin (see docs/use-migration-plan.md, Decision 2). Cross-file @extend out of
+// Elements/Objects/Components/Trumps is deliberately avoided — those would create
+// @use @extend-reachability problems. Tools placeholders (%container, %font-main,
+// %vertical-rhythm, …) are the only cross-file @extends that remain.
+
+@use '../_Settings/variables' as *;
+@use 'media-query' as *;
+
+@mixin transition {
+  transition-duration: 400ms;
+}
+
+@mixin center {
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+}
+
+// Single canonical clearfix: clears preceding floats. Replaces the old duplicate
+// %clearfix (the ::after containment version was only ever reached by headings,
+// where it is a no-op). See plan Decision 3.
+@mixin clearfix {
+  clear: both;
+}
+
+@mixin link-main {
+  a {
+    padding: 0 .2em;
+    border-bottom: 1px dashed $color--blue-light;
+
+    &:hover {
+      color: $color--white;
+      background-color: $color--link--hover;
+      border-bottom: 0;
+    }
+  }
+}
+
+@mixin link-reverse {
+  padding: .2em;
+  color: $color--white;
+  text-decoration: none;
+  background: none;
+  border-bottom: 1px dashed $color--white;
+
+
+  &:visited {
+    color: $color--white;
+  }
+
+  &:hover {
+    color: $color--link;
+    background-color: $color--white;
+    border-bottom: 0;
+  }
+}
+
+// Bespoke display/hero type, intentionally outside the shared type scale.
+// clamp() values reproduce the previous fluid-typo ranges exactly (fluid 481→961px):
+//   base 33→54px, --medium 33→62px, --hero 33→76px.
+@mixin intro-title($size: clamp(2.0625rem, 0.7473rem + 4.375vw, 3.375rem)) { // default 33 → 54px
+  font-size: $size;
+  padding: 0;
+  margin: $spacing--9xl auto $spacing--4xl;
+  font-family: $font-main;
+  font-weight: $font-weight--xbold;
+  line-height: 1;
+  letter-spacing: -1px;
+
+  @include media($tab-v, max-width) {
+    margin-top: 1rem;
+  }
+  @include media($desktop, max-width) {
+    padding-right: $spacing--base;
+    padding-left: $spacing--base;
+  }
+
+  hr {
+    font-size: var(--font-size-sm);
+    max-width: 8.75rem;
+    margin: $spacing--base 0 $spacing--xs;
+    border: .25em solid $color--main;
+
+    @include media($tab-h, min-width) {
+      margin: $spacing--3xl 0 $spacing--2xl;
+    }
+  }
+
+  .smaller {
+    font-size: 80%;
+  }
+}

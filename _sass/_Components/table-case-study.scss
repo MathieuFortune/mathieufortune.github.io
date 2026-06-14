@@ -1,11 +1,13 @@
+@use '../core' as *;
 // Table case study component
 .table-case-study {
+  margin-bottom: $spacing--base;
+
   @include media($tab-v, max-width) {
     display: block;
     width: 100%;
     overflow-x: auto;
   }
-  margin-bottom: $spacing--base;
 
   tr {
     &:nth-of-type(odd) {

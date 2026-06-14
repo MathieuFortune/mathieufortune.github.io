@@ -1,3 +1,7 @@
+@use 'sass:map';
+@use '../_Settings/variables' as *;
+@use 'grid' as *; // $breakpoints
+
 // Base spacing utilities (mobile-first)
 @each $key, $value in (
   '0': 0,
@@ -41,7 +45,7 @@
 
 // Responsive utilities
 @each $breakpoint in (sm, md, lg, xl) {
-  @media (max-width: map-get($breakpoints, $breakpoint)) {
+  @media (max-width: map.get($breakpoints, $breakpoint)) {
     @each $key, $value in (
       '0': 0,
       '3xs': $spacing--3xs,

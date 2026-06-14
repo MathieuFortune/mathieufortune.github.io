@@ -1,8 +1,9 @@
+@use '../core' as *;
 // Post component
 .post {
 
   .post-title {
-    @extend %intro-title;
+    @include intro-title;
   }
 
   .post-content {

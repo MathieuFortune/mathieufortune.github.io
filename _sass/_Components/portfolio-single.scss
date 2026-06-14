@@ -1,3 +1,4 @@
+@use '../core' as *;
 .portfolio-single {
   display: inline-block;
   width: 24%;
@@ -62,7 +63,7 @@
       transform: translateY(-75%);
 
       a {
-        @extend %link-reverse;
+        @include link-reverse;
       }
 
       .sub {

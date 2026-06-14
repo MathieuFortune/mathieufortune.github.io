@@ -1,0 +1,15 @@
+// Abstracts index — re-exports the shared Settings + Tools members so every
+// CSS-emitting partial can pull them with a single `@use '../core' as *;`.
+// See docs/use-migration-plan.md, Decision 1.
+//
+// grid / spacings / animation also emit CSS; that CSS lands here, in this
+// forward order, at the point core is first loaded (right after tokens in
+// css/main.scss) — matching the previous @import order.
+
+@forward '_Settings/variables';
+@forward '_Tools/media-query';
+@forward '_Tools/grid';
+@forward '_Tools/spacings';
+@forward '_Tools/animation';
+@forward '_Tools/typography'; // Tools placeholders (%font-main, %vertical-rhythm, …)
+@forward '_Tools/mixins';     // shared mixins (transition, center, link-*, intro-title, clearfix)

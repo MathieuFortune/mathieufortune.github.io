@@ -1,10 +1,7 @@
+@use '../core' as *;
 /* Video background component */
 
 .video-background {
-  @include media($tab-v) {
-    display: block;
-    visibility: visible;
-  }
   position: absolute;
   top: 0;
   right: 0;
@@ -16,6 +13,11 @@
   visibility: hidden;
   overflow: hidden;
   background-color: $color--lightgrey;
+
+  @include media($tab-v) {
+    display: block;
+    visibility: visible;
+  }
 }
 
 .inner {

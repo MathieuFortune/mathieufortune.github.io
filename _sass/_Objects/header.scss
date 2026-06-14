@@ -1,5 +1,12 @@
+@use '../core' as *;
 /* Header objects */
 .site-header {
+  position: relative;
+  width: 100%;
+  min-height: 70px;
+  padding: 0 $spacing--sm;
+  background-color: rgba(255, 255, 255, .9);
+
   @include media($tab-v) {
     position: fixed;
     top: 6px;
@@ -7,12 +14,6 @@
     z-index: 999;
     width: calc(100% - 12px);
   }
-
-  position: relative;
-  width: 100%;
-  min-height: 70px;
-  padding: 0 $spacing--sm;
-  background-color: rgba(255, 255, 255, .9);
 
   /*.home & {
     background-color: transparent;

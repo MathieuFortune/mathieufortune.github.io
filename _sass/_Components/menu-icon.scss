@@ -1,3 +1,4 @@
+@use '../core' as *;
 // Menu icon component
 $menu-icon-size: 1.875;
 $menu-icon-size--em: $menu-icon-size * 1em;
@@ -49,7 +50,7 @@ $overlay-size--px: $overlay-size * 16px;
 }
 
 .overlay {
-  @extend %transition;
+  @include transition;
   position: absolute;
   top: 60%;
   right: 50%;
