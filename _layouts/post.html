@@ -4,11 +4,15 @@ layout: default
 
 <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
-  <header class="post-header container">
-    <h1 class="post-title" itemprop="name headline">{{ page.title | escape }}<hr aria-hidden="true"/></h1>
-  </header>
+  {% if page.summary or page.hero %}
+    {% include case-header.html %}
+  {% else %}
+    <header class="post-header">
+      <h1 class="post-title" itemprop="name headline">{{ page.title | escape }}<hr aria-hidden="true"/></h1>
+    </header>
+  {% endif %}
 
-  <div class="post-content container" itemprop="articleBody">
+  <div class="post-content" itemprop="articleBody">
     <div class="post-meta visually-hidden">
       <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
         {{ page.date | date: "%B %-d, %Y" }}
@@ -25,9 +29,7 @@ layout: default
 
     {{ content }}
   </div>
-  <div class="clearfix"></div>
 
 </article>
 
 {% include post-pagination.html %}
-

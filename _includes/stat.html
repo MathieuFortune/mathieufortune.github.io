@@ -1,0 +1,10 @@
+{%- comment -%}
+Stat callout — big number + label + support. Params: value, label, support.
+For two or more side by side, wrap the includes in:
+  <div class="cs-stats wide"> … </div>
+{%- endcomment -%}
+<div class="cs-stat">
+  <p class="cs-stat__value">{{ include.value }}</p>
+  {%- if include.label -%}<p class="cs-stat__label">{{ include.label }}</p>{%- endif -%}
+  {%- if include.support -%}<p class="cs-stat__support">{{ include.support }}</p>{%- endif -%}
+</div>

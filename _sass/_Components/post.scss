@@ -1,6 +1,12 @@
 @use '../core' as *;
-// Post component
+// Post component — shared by articles and case studies.
+// Width tiers and case-study accent blocks live in _Components/case-study.scss.
 .post {
+
+  .post-header {
+    width: min(70rem, 100% - 2 * #{$spacing--base});
+    margin-inline: auto;
+  }
 
   .post-title {
     @include intro-title;
@@ -34,80 +40,6 @@
       &:hover {
         text-decoration: none;
       }
-    }
-
-    .heading-group {
-      h3.heading {}
-
-      .sub-heading {
-        color: $color--grey;
-      }
-    }
-
-    &.enhanced {
-      h2 {
-        margin: 0;
-        padding: 0 0 $spacing--2xl;
-      }
-      h3 {
-        margin: 0;
-        padding: 0 0 $spacing--lg;
-      }
-      p {
-        margin-top: 0;
-        padding: 0;
-      }
-      .container, .container-lg, .container-xl, .container-fluid {
-        > .row {
-          padding-top: $spacing--2xl;
-          padding-bottom: $spacing--2xl;
-        }
-      }
-    }
-  }
-
-  .figure-row {
-    background-color: $color--lightyellow;
-    padding: $spacing--base;
-  }
-}
-
-figure.fit-cover {
-    img{
-      object-fit: cover;
-      width: 100%;
-    }
-}
-
-.timeline-feed {
-  .timeline-item {
-    position: relative;
-    padding-bottom: 2rem;
-
-    .timeline-wrapper {
-      display: flex;
-      position: relative;
-      align-items: flex-start;
-    }
-
-    .line {
-      position: absolute;
-      top: 1.25rem;
-      left: 1.25rem;
-      margin-left: -1px;
-      background-color: $color--main;
-      width: 0.125rem;
-      height: 100%;
-      box-sizing: border-box;
-    }
-    .timeline-step {
-      box-shadow: rgb(255, 255, 255) 0px 0px 0px 0px, rgb(255, 255, 255) 0px 0px 0px 8px, rgba(0, 0, 0, 0) 0px 0px 0px 0px;
-    }
-    .timeline-content {
-      flex: 1 1 0%;
-      min-width: 0px;
-      margin-left: 12px;
-      margin-top: $spacing--2xs;
     }
   }
 }

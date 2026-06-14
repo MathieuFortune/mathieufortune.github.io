@@ -33,6 +33,7 @@
 @use '_Components/post-list';
 @use '_Components/post-nav';
 @use '_Components/post';
+@use '_Components/case-study';
 @use '_Components/page';
 @use '_Components/resume';
 @use '_Components/portfolio-panel';
@@ -40,6 +41,5 @@
 @use '_Components/responsive-video';
 @use '_Components/video-background';
 @use '_Components/skip-to-main';
-@use '_Components/emphasis-box';
 @use '_Trumps/utilities';
 @use '_Trumps/print';

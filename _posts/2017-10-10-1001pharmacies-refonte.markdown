@@ -86,33 +86,8 @@ Et pour finir, j'aidé à designer les interface utilisateur avec la directrice 
 
 ### Quelques captures d'écrans du résultat
 
-<div class="col-half--left" markdown="1">
+{% include figures.html layout="2up" images="/images/case-study-1001pharmacies-home-before.jpg|/images/case-study-1001pharmacies-home-after.jpg" captions="Avant — Précédente page d'accueil|Après — Nouvelle page d'accueil" alt="Refonte de la page d'accueil, avant et après" tier="wide" %}
 
-#### AVANT
+{% include figures.html layout="2up" images="/images/case-study-1001pharmacies-listing-before.jpg|/images/case-study-1001pharmacies-listing-after.jpg" captions="Avant — Précédent listing produit|Après — Nouveau listing produit" alt="Refonte du listing produit, avant et après" tier="wide" %}
 
-{% include lazy-image.html src="/images/case-study-1001pharmacies-home-before.jpg" alt="Screenshot Précédent page d'acceuil 1001pharmacies.com" caption="Précédent page d'acceuil 1001pharmacies.com" figClass="" %}
-</div>
-<div class="col-half--right" markdown="1">
-
-#### APRÈS
-
-{% include lazy-image.html src="/images/case-study-1001pharmacies-home-after.jpg" alt="Screenshot Nouvelle page d'acceuil 1001pharmacies.com" caption="Nouvelle page d'acceuil 1001pharmacies.com" figClass="" %}
-
-</div>
-<div class="clearfix"></div>
-
-<div class="col-half--left" markdown="1">
-{% include lazy-image.html src="/images/case-study-1001pharmacies-listing-before.jpg" alt="Screenshot Précédent listing produit 1001pharmacies.com" caption="Précédent listing produit 1001pharmacies.com" figClass="" %}
-</div>
-<div class="col-half--right" markdown="1">
-{% include lazy-image.html src="/images/case-study-1001pharmacies-listing-after.jpg" alt="Screenshot new product listing 1001pharmacies.com" caption="Nouveau listing produit 1001pharmacies.com" figClass="" %}
-</div>
-<div class="clearfix"></div>
-
-<div class="col-half--left" markdown="1">
-{% include lazy-image.html src="/images/case-study-1001pharmacies-product-before.jpg" alt="Screenshot Précédente page produit 1001pharmacies.com" caption="Précédente page produit 1001pharmacies.com" figClass="" %}
-</div>
-<div class="col-half--right" markdown="1">
-{% include lazy-image.html src="/images/case-study-1001pharmacies-product-after.jpg" alt="Screenshot Nouvelle page produit 1001pharmacies.com" caption="Nouvelle page produit 1001pharmacies.com" figClass="" %}
-</div>
-<div class="clearfix"></div>
+{% include figures.html layout="2up" images="/images/case-study-1001pharmacies-product-before.jpg|/images/case-study-1001pharmacies-product-after.jpg" captions="Avant — Précédente page produit|Après — Nouvelle page produit" alt="Refonte de la page produit, avant et après" tier="wide" %}

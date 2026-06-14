@@ -1,0 +1,9 @@
+{%- comment -%}
+Testimonial card — quote + author. Params: quote, author.
+For two or more side by side, wrap the includes in:
+  <div class="testimonials wide"> … </div>
+{%- endcomment -%}
+<blockquote class="testimonial">
+  {{ include.quote }}
+  {%- if include.author -%}<span class="testimonial__author">{{ include.author }}</span>{%- endif -%}
+</blockquote>

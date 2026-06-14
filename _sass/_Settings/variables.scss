@@ -27,6 +27,9 @@ $color--link:        var(--color-link);
 $color--link--hover: var(--color-link-hover);
 $color--main:        var(--color-accent);
 $color--secondary:   var(--color-secondary);
+$color--surface-muted: var(--color-surface-muted);  // accent-block fill (cream)
+$color--text-muted:    var(--color-text-muted);      // support text (slate)
+$color--border:        var(--color-border);          // outline (ink)
 
 // Typography families & weights → bridge to custom properties
 $font-main: var(--font-heading);   // Figtree (headings)

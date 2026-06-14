@@ -1,0 +1,340 @@
+@use '../core' as *;
+
+// Case-study system — single-column narrative with a three-tier breakout grid.
+// See docs/adr/0004. Prose sits in the reading measure; accent blocks opt into
+// `.wide` / `.full` via their outermost element.
+
+// ---------------------------------------------------------------------------
+// Width tiers — centered reading column with margin-breakout
+// ---------------------------------------------------------------------------
+// Prose is constrained to a narrow reading measure (centered container). Accent
+// blocks tagged `.wide` / `.full` break out wider via the margin-left:50% +
+// translateX(-50%) technique. This keeps normal block flow, so legacy float
+// layouts (e.g. `.col-half`) inside post content still work.
+
+.post {
+  overflow-x: hidden; // contain the 100vw full-bleed breakout
+}
+
+.post-content {
+  --measure: 42rem;  // ~672px reading column
+  --wide: 70rem;     // ~1120px contained breakout
+
+  max-width: var(--measure);
+  margin-inline: auto;
+  padding-inline: $spacing--base;
+
+  // Vertical rhythm between top-level blocks
+  > * { margin-top: $spacing--xl; margin-bottom: 0; }
+  > :first-child { margin-top: 0; }
+  > h2 { margin-top: $spacing--6xl; }
+  > h3 { margin-top: $spacing--4xl; }
+
+  > .wide,
+  > .full {
+    margin-left: 50%;
+    transform: translateX(-50%);
+    margin-top: $spacing--5xl;
+    margin-bottom: $spacing--5xl;
+  }
+  > .wide { width: min(var(--wide), 100vw - 2 * #{$spacing--base}); }
+  > .full { width: 100vw; }
+}
+
+// ---------------------------------------------------------------------------
+// Case-study header (front-matter driven — see _includes/case-header.html)
+// ---------------------------------------------------------------------------
+.cs-header {
+  margin-bottom: $spacing--6xl;
+
+  &__hero {
+    margin: 0 0 $spacing--5xl;
+    img {
+      display: block;
+      width: 100%;
+      height: clamp(18rem, 38vw, 32rem);
+      object-fit: cover;
+    }
+  }
+
+  &__inner {
+    width: min(70rem, 100% - 2 * #{$spacing--base});
+    margin-inline: auto;
+  }
+
+  &__title {
+    @include intro-title;
+    & { margin: 0 0 $spacing--2xl; } // override mixin margin (declared after its nested @media)
+  }
+
+  &__summary {
+    max-width: 42rem;
+    p {
+      font-size: var(--font-size-prose-md);
+      line-height: 1.5;
+      margin: 0 0 $spacing--lg;
+      &:last-child { margin-bottom: 0; }
+    }
+  }
+
+  &__meta {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(11rem, 1fr));
+    gap: $spacing--2xl;
+    margin-top: $spacing--4xl;
+    padding-top: $spacing--2xl;
+    border-top: 1px solid $color--surface-muted;
+  }
+
+  &__meta-term {
+    font-family: $font-main;
+    font-size: var(--font-size-xs);
+    font-weight: $font-weight--bold;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: $color--text-muted;
+    margin: 0 0 $spacing--xs;
+  }
+
+  &__meta-def {
+    margin: 0;
+    font-size: var(--font-size-sm);
+    line-height: 1.5;
+  }
+}
+
+// ---------------------------------------------------------------------------
+// Eyebrow heading — section label + heading
+// ---------------------------------------------------------------------------
+.eyebrow {
+  margin-bottom: $spacing--lg;
+
+  &__label {
+    font-family: $font-main;
+    font-size: var(--font-size-sm);
+    font-weight: $font-weight--bold;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: $color--text-muted;
+    margin: 0 0 $spacing--2xs;
+  }
+
+  &__heading {
+    margin: 0;
+    font-size: var(--font-size-prose-md);
+  }
+}
+
+// ---------------------------------------------------------------------------
+// Callout — highlighted statement
+// ---------------------------------------------------------------------------
+.callout {
+  background-color: $color--surface-muted;
+  border-radius: $spacing--base;
+  padding: $spacing--3xl;
+  font-size: var(--font-size-prose-md);
+  font-weight: $font-weight--bold;
+  line-height: 1.4;
+
+  > :first-child { margin-top: 0; }
+  > :last-child { margin-bottom: 0; }
+
+  &--mono {
+    background-color: $color--white;
+    border: 1px solid $color--border;
+  }
+
+  &--compact {
+    padding: $spacing--lg $spacing--xl;
+    font-size: var(--font-size-body);
+    line-height: 1.35;
+  }
+}
+
+// Generic auto-fit grid for laying out several callouts / cards side by side.
+.cs-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
+  gap: $spacing--base;
+  align-items: start;
+}
+
+// ---------------------------------------------------------------------------
+// Stat callout — big number + label + support
+// ---------------------------------------------------------------------------
+.cs-stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr));
+  gap: $spacing--2xl;
+}
+
+.cs-stat {
+  border-left: 6px solid $color--main;
+  padding: $spacing--xs $spacing--base;
+
+  &__value {
+    margin: 0;
+    font-family: $font-main;
+    font-weight: $font-weight--xbold;
+    font-size: var(--font-size-prose-lg);
+    line-height: 1.1;
+  }
+
+  &__label {
+    margin: $spacing--xs 0 0;
+    font-weight: $font-weight--bold;
+  }
+
+  &__support {
+    margin: $spacing--xs 0 0;
+    color: $color--text-muted;
+    font-size: var(--font-size-sm);
+    line-height: 1.5;
+  }
+}
+
+// ---------------------------------------------------------------------------
+// Timeline — numbered process steps (CSS counters, authored as <ol>)
+// ---------------------------------------------------------------------------
+.timeline {
+  list-style: none;
+  counter-reset: step;
+  padding: 0;
+  margin: 0;
+
+  > li {
+    counter-increment: step;
+    position: relative;
+    padding-left: 3.75rem;
+    padding-bottom: $spacing--3xl;
+
+    &:last-child { padding-bottom: 0; }
+
+    // number chip
+    &::before {
+      content: counter(step, decimal-leading-zero);
+      position: absolute;
+      left: 0;
+      top: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 2.5rem;
+      height: 2.5rem;
+      border-radius: 50%;
+      background-color: $color--surface-muted;
+      font-family: $font-main;
+      font-size: var(--font-size-sm);
+      font-weight: $font-weight--bold;
+    }
+
+    // connecting line
+    &::after {
+      content: "";
+      position: absolute;
+      left: 1.25rem;
+      top: 2.5rem;
+      bottom: 0;
+      width: 2px;
+      transform: translateX(-1px);
+      background-color: $color--main;
+    }
+    &:last-child::after { display: none; }
+  }
+
+  &__title {
+    margin: $spacing--xs 0 $spacing--sm;
+    font-family: $font-main;
+    font-weight: $font-weight--bold;
+  }
+
+  ul { margin: 0; }
+}
+
+// ---------------------------------------------------------------------------
+// Figure grid — multi-image arrangements with named presets
+// ---------------------------------------------------------------------------
+.figures {
+  display: grid;
+  gap: $spacing--base;
+  background-color: $color--surface-muted;
+  padding: $spacing--base;
+  border-radius: $spacing--base;
+
+  figure { margin: 0; }
+  img {
+    display: block;
+    width: 100%;
+    object-fit: cover;
+  }
+  figcaption {
+    margin-top: $spacing--xs;
+    font-size: var(--font-size-xs);
+    color: $color--text-muted;
+    text-align: center;
+  }
+
+  &--2up { grid-template-columns: repeat(2, 1fr); }
+  &--3up { grid-template-columns: repeat(3, 1fr); }
+  &--duo { grid-template-columns: 7fr 5fr; }
+  &--feature {
+    grid-template-columns: repeat(2, 1fr);
+    > :first-child { grid-column: 1 / -1; }
+  }
+
+  @include media($tab-v, max-width) {
+    &--2up,
+    &--3up,
+    &--duo,
+    &--feature { grid-template-columns: 1fr; }
+    &--feature > :first-child { grid-column: auto; }
+  }
+}
+
+// ---------------------------------------------------------------------------
+// Pull-quote — large standalone quote
+// ---------------------------------------------------------------------------
+.pull-quote {
+  margin: 0;
+  padding-left: $spacing--xl;
+  border-left: 4px solid $color--main;
+  font-size: var(--font-size-prose-md);
+  font-weight: $font-weight--thin;
+  font-style: italic;
+  line-height: 1.4;
+
+  cite {
+    display: block;
+    margin-top: $spacing--base;
+    font-size: var(--font-size-sm);
+    font-style: normal;
+    font-weight: $font-weight--bold;
+    color: $color--text-muted;
+  }
+}
+
+// ---------------------------------------------------------------------------
+// Testimonials — quote + author, usually 2–3 up
+// ---------------------------------------------------------------------------
+.testimonials {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+  gap: $spacing--2xl;
+}
+
+.testimonial {
+  margin: 0;
+  padding: $spacing--2xl;
+  background-color: $color--surface-muted;
+  border-radius: $spacing--base;
+  font-size: var(--font-size-body);
+  line-height: 1.5;
+
+  &__author {
+    display: block;
+    margin-top: $spacing--base;
+    font-size: var(--font-size-sm);
+    font-weight: $font-weight--bold;
+    color: $color--text-muted;
+  }
+}

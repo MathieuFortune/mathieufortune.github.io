@@ -1,0 +1,53 @@
+{%- comment -%}
+Front-matter-driven case-study header. Reads page.hero, page.summary, page.role,
+page.team (list or string), page.timeline, page.tools. Rendered by _layouts/post.html
+when page.theme contains "Case Study". Labels are bilingual via _data/{lang}.yml.
+{%- endcomment -%}
+{%- assign strings = site.data[page.lang].case_study -%}
+<header class="cs-header">
+  {%- if page.hero -%}
+  <div class="cs-header__hero">
+    <img src="" data-original="{{ page.hero }}" alt="{{ page.title | escape }}" />
+  </div>
+  {%- endif -%}
+  <div class="cs-header__inner">
+    <h1 class="cs-header__title" itemprop="name headline">{{ page.title | escape }}</h1>
+    {%- if page.summary -%}
+    <div class="cs-header__summary">{{ page.summary | markdownify }}</div>
+    {%- endif -%}
+    {%- if page.role or page.team or page.timeline or page.tools -%}
+    <dl class="cs-header__meta">
+      {%- if page.role -%}
+      <div>
+        <dt class="cs-header__meta-term">{{ strings.role | default: "Role" }}</dt>
+        <dd class="cs-header__meta-def">{{ page.role }}</dd>
+      </div>
+      {%- endif -%}
+      {%- if page.team -%}
+      <div>
+        <dt class="cs-header__meta-term">{{ strings.team | default: "Team" }}</dt>
+        <dd class="cs-header__meta-def">
+          {%- if page.team.first -%}
+            {%- for member in page.team -%}{{ member }}{%- unless forloop.last %}<br/>{% endunless -%}{%- endfor -%}
+          {%- else -%}
+            {{ page.team }}
+          {%- endif -%}
+        </dd>
+      </div>
+      {%- endif -%}
+      {%- if page.timeline -%}
+      <div>
+        <dt class="cs-header__meta-term">{{ strings.timeline | default: "Timeline" }}</dt>
+        <dd class="cs-header__meta-def">{{ page.timeline }}</dd>
+      </div>
+      {%- endif -%}
+      {%- if page.tools -%}
+      <div>
+        <dt class="cs-header__meta-term">{{ strings.tools | default: "Tools" }}</dt>
+        <dd class="cs-header__meta-def">{{ page.tools }}</dd>
+      </div>
+      {%- endif -%}
+    </dl>
+    {%- endif -%}
+  </div>
+</header>

@@ -1,0 +1,6 @@
+{%- comment -%}
+Callout — highlighted statement. Params:
+  text    — the statement (Markdown allowed)
+  variant — "mono" for the outlined white variant (optional)
+{%- endcomment -%}
+<div class="callout{% if include.variant %} callout--{{ include.variant }}{% endif %}">{{ include.text | markdownify }}</div>

@@ -1,0 +1,21 @@
+{%- comment -%}
+Figure grid. Params:
+  images   — pipe-delimited image paths (required)   e.g. "a.png|b.png|c.png"
+  layout   — preset: 2up | 3up | feature | duo (optional; omit for auto 2up)
+  captions — pipe-delimited, positionally matched to images (optional)
+  alt      — single alt applied to all, or pipe-delimited per image (optional)
+  tier     — wide | full (default: wide)
+{%- endcomment -%}
+{%- assign imgs = include.images | split: "|" -%}
+{%- assign caps = include.captions | split: "|" -%}
+{%- assign alts = include.alt | split: "|" -%}
+{%- assign tier = include.tier | default: "wide" -%}
+<div class="figures{% if include.layout %} figures--{{ include.layout }}{% endif %} {{ tier }}">
+  {%- for img in imgs -%}
+  <figure>
+    <img src="" data-original="{{ img | strip }}" alt="{% if alts.size > 1 %}{{ alts[forloop.index0] | strip }}{% else %}{{ include.alt }}{% endif %}" />
+    {%- assign cap = caps[forloop.index0] | strip -%}
+    {%- if cap and cap != "" -%}<figcaption>{{ cap }}</figcaption>{%- endif -%}
+  </figure>
+  {%- endfor -%}
+</div>

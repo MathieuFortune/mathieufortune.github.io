@@ -1,0 +1,4 @@
+{%- comment -%}
+Pull-quote — large standalone quote. Params: quote, cite (optional).
+{%- endcomment -%}
+<blockquote class="pull-quote">{{ include.quote }}{%- if include.cite -%}<cite>{{ include.cite }}</cite>{%- endif -%}</blockquote>

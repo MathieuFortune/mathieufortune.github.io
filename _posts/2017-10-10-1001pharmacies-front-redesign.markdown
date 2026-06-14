@@ -86,33 +86,8 @@ Finally, I helped to design the UI with the Creative Director by sharing the use
 
 ### Some result screenshots
 
-<div class="col-half--left" markdown="1">
+{% include figures.html layout="2up" images="/images/case-study-1001pharmacies-home-before.jpg|/images/case-study-1001pharmacies-home-after.jpg" captions="Before — Previous Home|After — New Home" alt="Home page redesign, before and after" tier="wide" %}
 
-#### Before
+{% include figures.html layout="2up" images="/images/case-study-1001pharmacies-listing-before.jpg|/images/case-study-1001pharmacies-listing-after.jpg" captions="Before — Previous product listing|After — New product listing" alt="Product listing redesign, before and after" tier="wide" %}
 
-{% include lazy-image.html src="/images/case-study-1001pharmacies-home-before.jpg" alt="Screenshot previous home 1001pharmacies.com" caption="Previous Home 1001pharmacies.com" figClass="" %}
-</div>
-<div class="col-half--right" markdown="1">
-
-#### After
-
-{% include lazy-image.html src="/images/case-study-1001pharmacies-home-after.jpg" alt="Screenshot new home 1001pharmacies.com" caption="New Home 1001pharmacies.com" figClass="" %}
-
-</div>
-<div class="clearfix"></div>
-
-<div class="col-half--left" markdown="1">
-{% include lazy-image.html src="/images/case-study-1001pharmacies-listing-before.jpg" alt="Screenshot previous product listing 1001pharmacies.com" caption="Previous product listing 1001pharmacies.com" figClass="" %}
-</div>
-<div class="col-half--right" markdown="1">
-{% include lazy-image.html src="/images/case-study-1001pharmacies-listing-after.jpg" alt="Screenshot new product listing 1001pharmacies.com" caption="New product listing 1001pharmacies.com" figClass="" %}
-</div>
-<div class="clearfix"></div>
-
-<div class="col-half--left" markdown="1">
-{% include lazy-image.html src="/images/case-study-1001pharmacies-product-before.jpg" alt="Screenshot previous product page 1001pharmacies.com" caption="Previous product page 1001pharmacies.com" figClass="" %}
-</div>
-<div class="col-half--right" markdown="1">
-{% include lazy-image.html src="/images/case-study-1001pharmacies-product-after.jpg" alt="Screenshot new product page 1001pharmacies.com" caption="New product page 1001pharmacies.com" figClass="" %}
-</div>
-<div class="clearfix"></div>
+{% include figures.html layout="2up" images="/images/case-study-1001pharmacies-product-before.jpg|/images/case-study-1001pharmacies-product-after.jpg" captions="Before — Previous product page|After — New product page" alt="Product page redesign, before and after" tier="wide" %}

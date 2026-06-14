@@ -22,6 +22,12 @@ testimonial_highlight:
 post:
   title: Thoughts and Case Studies
 
+case_study:
+  role: Role
+  team: Team
+  timeline: Timeline
+  tools: Tools
+
 footer:
   email_title: Get in touch
   back_home: Go back to home page

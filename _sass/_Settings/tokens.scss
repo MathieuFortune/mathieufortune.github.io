@@ -31,6 +31,9 @@
   --color-link-hover: var(--color-blue-dark);
   --color-accent: var(--color-amber);
   --color-secondary: var(--color-blue);
+  --color-surface-muted: var(--color-cream);  // sunken fill behind accent blocks
+  --color-text-muted: var(--color-slate);      // secondary/support text
+  --color-border: var(--color-ink);            // hairline/outline for block variants
 
   /* ---- Typography: families & weights ---- */
   --font-heading: 'Figtree', sans-serif;

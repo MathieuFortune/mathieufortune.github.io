@@ -20,6 +20,12 @@ testimonial_highlight:
 post:
   title: Réflexions et Études de Cas
 
+case_study:
+  role: Rôle
+  team: Équipe
+  timeline: Échéancier
+  tools: Outils
+
 footer:
     email_title: Restez en contact avec moi
     back_home: Revenir à l'accueil
