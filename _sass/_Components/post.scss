@@ -14,24 +14,24 @@
 
   .post-content {
     h2 {
-      font-size: var(--font-size-prose-lg);
+      font-size: var(--font-size-xl);
     }
 
     h3 {
-      font-size: var(--font-size-prose-md);
+      font-size: var(--font-size-lg);
     }
 
     p {
-      font-size: var(--font-size-body);
+      font-size: var(--font-size-base);
       line-height: 1.6;
 
       &.excerpt {
-        font-size: var(--font-size-body);
+        font-size: var(--font-size-base);
       }
     }
 
     li {
-      font-size: var(--font-size-body);
+      font-size: var(--font-size-base);
     }
 
     a {

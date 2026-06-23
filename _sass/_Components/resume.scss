@@ -5,7 +5,7 @@
 
     .title {
       h2 {
-        font-size: var(--font-size-sm);
+        font-size: var(--font-size-xs);
         margin-top: 0;
         color: $color--main;
         text-transform: uppercase;
@@ -36,13 +36,13 @@
       line-height: 1;
 
       .italic {
-        font-size: var(--font-size-sm);
+        font-size: var(--font-size-xs);
         color: $color--main;
       }
     }
 
     .small {
-      font-size: var(--font-size-xs);
+      font-size: var(--font-size-2xs);
     }
   }
 }
@@ -56,7 +56,7 @@
     display: inline-flex;
     margin-bottom: $spacing--xs;
     padding: $spacing--2xs $spacing--xs;
-    font-size: var(--font-size-sm);
+    font-size: var(--font-size-xs);
     line-height: 1rem;
     font-weight: 400;
     color: $color--darkgrey;
@@ -88,7 +88,7 @@
   .boxed {
     .item {
       h3 {
-        font-size: var(--font-size-sm);
+        font-size: var(--font-size-xs);
       }
     }
   }

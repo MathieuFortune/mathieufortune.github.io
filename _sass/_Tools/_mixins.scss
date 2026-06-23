@@ -1,8 +1,8 @@
 // Shared mixins
 //
 // Anything that needs to be shared across CSS-emitting partials lives here as a
-// mixin (see docs/use-migration-plan.md, Decision 2). Cross-file @extend out of
-// Elements/Objects/Components/Trumps is deliberately avoided — those would create
+// mixin. Cross-file @extend out of Elements/Objects/Components/Trumps is
+// deliberately avoided — those would create
 // @use @extend-reachability problems. Tools placeholders (%container, %font-main,
 // %vertical-rhythm, …) are the only cross-file @extends that remain.
 
@@ -79,7 +79,7 @@
   }
 
   hr {
-    font-size: var(--font-size-sm);
+    font-size: var(--font-size-xs);
     max-width: 8.75rem;
     margin: $spacing--base 0 $spacing--xs;
     border: .25em solid $color--main;

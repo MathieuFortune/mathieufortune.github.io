@@ -1,0 +1,79 @@
+// Fluid modular type-scale generator — see docs/adr/0005.
+//
+// One unified scale. Every step is a clamp() that scales across the fluid
+// viewport range, so UI chrome, bare headings and post prose all draw from the
+// same set of sizes. Two ratios share a single `base` pivot (body text):
+//   • a dense ratio for the UI band     — steps at / below base (negative exp)
+//   • a looser ratio for the Display band — steps above base    (positive exp)
+//
+// Retune the whole system by editing $config: change the two ratios and every
+// `--font-size-*` token recomputes. tokens.scss loops $steps to emit them.
+
+@use 'sass:math';
+@use 'sass:map';
+
+$config: (
+  base-min: 18px,       // body size at the min viewport
+  base-max: 20px,       // body size at the max viewport
+  ratio-ui: 1.125,      // dense  — UI band (steps ≤ base)
+  ratio-display: 1.25,  // loose  — Display band (steps > base)
+  vp-min: 481px,        // fluid range start
+  vp-max: 961px,        // fluid range end
+  root: 16px,           // stable 100% root (ADR-0003) — px → rem basis
+) !default;
+
+// Step name → exponent relative to base. Negative = UI band (dense ratio),
+// positive = Display band (loose ratio). Order = emit order.
+$steps: (
+  '4xs': -4,
+  '3xs': -3,
+  '2xs': -2,
+  'xs':  -1,
+  'base': 0,
+  'md':   1,
+  'lg':   2,
+  'xl':   3,
+  '2xl':  4,
+  '3xl':  5,
+  '4xl':  6,
+) !default;
+
+// Strip the unit from a px length, returning a plain number.
+@function _unitless($v) {
+  @return math.div($v, $v * 0 + 1px);
+}
+
+// Round to 4 decimals to keep emitted CSS tidy.
+@function _round($n) {
+  @return math.div(math.round($n * 10000), 10000);
+}
+
+// A fluid clamp() between two px sizes across the configured viewport range,
+// expressed as rem (min/max) + a vw slope so it respects the user's root size.
+// Reproduces ADR-0003's hand-computed `body` token exactly as a sanity check.
+@function _fluid($min-px, $max-px) {
+  $root:   _unitless(map.get($config, 'root'));
+  $vp-min: _unitless(map.get($config, 'vp-min'));
+  $vp-max: _unitless(map.get($config, 'vp-max'));
+
+  $slope: math.div($max-px - $min-px, $vp-max - $vp-min); // px per px of viewport
+  $vw: _round($slope * 100);                              // vw coefficient
+  $intercept: $min-px - $slope * $vp-min;                 // px at zero viewport
+
+  $min-rem: _round(math.div($min-px, $root));
+  $max-rem: _round(math.div($max-px, $root));
+  $int-rem: _round(math.div($intercept, $root));
+
+  @return clamp(#{$min-rem}rem, #{$int-rem}rem + #{$vw}vw, #{$max-rem}rem);
+}
+
+// Public: the fluid font-size for a named step.
+@function font-size($name) {
+  $exp: map.get($steps, $name);
+  $ratio: if($exp < 0, map.get($config, 'ratio-ui'), map.get($config, 'ratio-display'));
+  $factor: math.pow($ratio, $exp);
+  @return _fluid(
+    _unitless(map.get($config, 'base-min')) * $factor,
+    _unitless(map.get($config, 'base-max')) * $factor
+  );
+}

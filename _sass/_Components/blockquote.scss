@@ -56,7 +56,7 @@ blockquote {
   &.home {
     padding: $spacing--2xl;
     margin-bottom: $spacing--xl;
-    font-size: var(--font-size-body);
+    font-size: var(--font-size-base);
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -69,13 +69,13 @@ blockquote {
 
     .author {
       text-align: right;
-      font-size: var(--font-size-body);
+      font-size: var(--font-size-base);
 
       .title {
         display: block;
         color: $color--darkgrey;
         font-weight: $font-weight--base;
-        font-size: var(--font-size-sm);
+        font-size: var(--font-size-xs);
       }
     }
   }

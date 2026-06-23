@@ -68,9 +68,8 @@
   }
 
   &__summary {
-    max-width: 42rem;
     p {
-      font-size: var(--font-size-prose-md);
+      font-size: var(--font-size-base);
       line-height: 1.5;
       margin: 0 0 $spacing--lg;
       &:last-child { margin-bottom: 0; }
@@ -88,7 +87,7 @@
 
   &__meta-term {
     font-family: $font-main;
-    font-size: var(--font-size-xs);
+    font-size: var(--font-size-2xs);
     font-weight: $font-weight--bold;
     text-transform: uppercase;
     letter-spacing: 0.06em;
@@ -98,7 +97,7 @@
 
   &__meta-def {
     margin: 0;
-    font-size: var(--font-size-sm);
+    font-size: var(--font-size-xs);
     line-height: 1.5;
   }
 }
@@ -107,21 +106,22 @@
 // Eyebrow heading — section label + heading
 // ---------------------------------------------------------------------------
 .eyebrow {
+  margin-top: $spacing--4xl;
   margin-bottom: $spacing--lg;
 
   &__label {
     font-family: $font-main;
-    font-size: var(--font-size-sm);
+    font-size: var(--font-size-3xs)!important;
     font-weight: $font-weight--bold;
     text-transform: uppercase;
     letter-spacing: 0.06em;
     color: $color--text-muted;
-    margin: 0 0 $spacing--2xs;
+    margin: 0 0;
   }
 
   &__heading {
     margin: 0;
-    font-size: var(--font-size-prose-md);
+    font-size: var(--font-size-lg);
   }
 }
 
@@ -132,7 +132,7 @@
   background-color: $color--surface-muted;
   border-radius: $spacing--base;
   padding: $spacing--3xl;
-  font-size: var(--font-size-prose-md);
+  font-size: var(--font-size-md);
   font-weight: $font-weight--bold;
   line-height: 1.4;
 
@@ -146,7 +146,7 @@
 
   &--compact {
     padding: $spacing--lg $spacing--xl;
-    font-size: var(--font-size-body);
+    font-size: var(--font-size-base);
     line-height: 1.35;
   }
 }
@@ -176,8 +176,8 @@
     margin: 0;
     font-family: $font-main;
     font-weight: $font-weight--xbold;
-    font-size: var(--font-size-prose-lg);
-    line-height: 1.1;
+    font-size: var(--font-size-md)!important;
+    line-height: 1.1!important;
   }
 
   &__label {
@@ -188,7 +188,7 @@
   &__support {
     margin: $spacing--xs 0 0;
     color: $color--text-muted;
-    font-size: var(--font-size-sm);
+    font-size: var(--font-size-xs);
     line-height: 1.5;
   }
 }
@@ -224,7 +224,7 @@
       border-radius: 50%;
       background-color: $color--surface-muted;
       font-family: $font-main;
-      font-size: var(--font-size-sm);
+      font-size: var(--font-size-xs);
       font-weight: $font-weight--bold;
     }
 
@@ -269,7 +269,7 @@
   }
   figcaption {
     margin-top: $spacing--xs;
-    font-size: var(--font-size-xs);
+    font-size: var(--font-size-2xs);
     color: $color--text-muted;
     text-align: center;
   }
@@ -298,7 +298,7 @@
   margin: 0;
   padding-left: $spacing--xl;
   border-left: 4px solid $color--main;
-  font-size: var(--font-size-prose-md);
+  font-size: var(--font-size-lg);
   font-weight: $font-weight--thin;
   font-style: italic;
   line-height: 1.4;
@@ -306,7 +306,7 @@
   cite {
     display: block;
     margin-top: $spacing--base;
-    font-size: var(--font-size-sm);
+    font-size: var(--font-size-xs);
     font-style: normal;
     font-weight: $font-weight--bold;
     color: $color--text-muted;
@@ -327,13 +327,13 @@
   padding: $spacing--2xl;
   background-color: $color--surface-muted;
   border-radius: $spacing--base;
-  font-size: var(--font-size-body);
+  font-size: var(--font-size-base);
   line-height: 1.5;
 
   &__author {
     display: block;
     margin-top: $spacing--base;
-    font-size: var(--font-size-sm);
+    font-size: var(--font-size-xs);
     font-weight: $font-weight--bold;
     color: $color--text-muted;
   }

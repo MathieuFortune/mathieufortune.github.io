@@ -21,7 +21,7 @@ Carbon Direct’s  helps businesses and governments measure, reduce, and remove 
 
 One of my first projects was to streamline and optimize the process for ingesting and calculating Scope 3 spend-based emissions. This was a fascinating opportunity to combine user research, design, and emerging technologies like AI and machine learning (ML) to solve a significant bottleneck.
 
-## The Challenge: A Time-Consuming Bottleneck
+## The challenge: A time-consuming bottleneck
 At the time, calculating spend-based emissions consumed 50% of the total time required to produce a carbon footprint. This created a significant hurdle for internal teams tasked with delivering these critical insights to customers.
 
 The existing workflow involved ingesting raw spend data, cleaning it, and assigning NAICS codes (the classification system that powers emission factor calculations). While engineers had developed a proof-of-concept using Large Language Models (LLMs) and ML to automate parts of this process, the UX was almost inexistent, and the automation’s error rate was high enough to require extensive manual review.
@@ -32,7 +32,7 @@ The project had two main objectives:
 
 Ultimately, the goal was to **free up internal teams to focus on higher-value activities and reduce the overall cost of processing data**.
 
-## My Role: Designing for Humans and Machines
+## My role: Designing for humans and machines
 As the Senior Product Designer, **I owned the end-to-end design process for this project**, collaborating with a Product Manager and a team of five engineers.
 
 My approach included:
@@ -41,69 +41,69 @@ My approach included:
 - **Collaboration**: Facilitated regular design reviews to incorporate feedback from stakeholders and engineers, ensuring alignment and buy-in.
 - **Advocacy**: Documented design decisions to highlight the design team’s impact, building trust with leadership.
 
-## Key Features Delivered
+## Key features delivered
 Here are some of the core solutions I helped deliver:
 
-**Multi-Step Data Ingestion and Cleanup Flow**
+**Multi-step data ingestion and cleanup flow**
 
 A streamlined process with tools for formatting data, CSV templates, mapping functionality, and visual tables to show automation results.
 This eliminated much of the manual prep work and made the workflow more intuitive for the team.
 
-**Automated Categorization with AI**
+**Automated categorization with AI**
 
 We used large language models (LLMs) to categorize spend line items by NAICS codes based on chart of account categories, a data point provided in the raw spend data.
 This significantly reduced manual effort and errors while speeding up the process.
 
-**Manual Correction Tool with an ML Feedback Loop**
+**Manual correction tool with an ML feedback loop**
 
 I designed tables and forms where users could review and correct the AI’s categorization.
 Every correction fed back into the ML model, improving its accuracy and effectiveness over time.
 
-**User-Centered Research and Prototypes**
+**User-centered research and prototypes**
 
 I organized insights using Miro and prioritized solutions that addressed the biggest user pain points.
 The final UIs were developed in Figma alongside a rapid prototype, allowing us to quickly validate usability and align across teams.
 
-## The Design Process
+## The design process
 The following screenshots highlight parts of my design process:
 
-#### Mapping the Current Workflow in Miro
+#### Mapping the current workflow in Miro
 I started by documenting the internal team's existing flow using Miro, identifying areas for improvement. Early sketches were linked to this flow to better communicate ideas and foster collaboration with the team.
 {% include lazy-image.html src="/images/illus-AI-scope3-01.png" alt="" caption="" figClass="large-post-image" %}
 
 <br/>
-#### Wireframing the Ideal Solution
+#### Wireframing the ideal solution
 Next, I transitioned into a wireframing session to design an ideal-world solution. This involved creating a multi-step process that connected existing UI components in a more efficient and intuitive way.
 {% include lazy-image.html src="/images/illus-AI-scope3-02.png" alt="" caption="" figClass="large-post-image" %}
 
 <br/>
-#### Developing High-Fidelity Designs
+#### Developing high-fidelity designs
 After gathering feedback on the wireframes, I focused on designing a high-fidelity version of one of my sketches. This iteration illustrated the main solution concept in detail, ensuring alignment across the team.
 {% include lazy-image.html src="/images/illus-AI-scope3-03.jpg" alt="" caption="" figClass="large-post-image" %}
 
 <br/>
-#### Creating a Flow Diagram to Address Scope Creep
+#### Creating a flow diagram to address scope creep
 To counter scope creep and provide clarity, I created a flow diagram highlighting the improved workflow, prioritized by milestones. This approach helped limit scope creep, collect feedback, and align stakeholders.
 {% include lazy-image.html src="/images/illus-AI-scope3-04.png" alt="" caption="" figClass="large-post-image" %}
 
 <br/>
-#### Usability Testing and Engineer Hand-Off
+#### Usability testing and engineer hand-off
 With the first milestone prioritized, I designed high-fidelity UIs with clear flows, turned them into a simple prototype for usability testing, and shared the finalized designs with engineers for seamless implementation.
 {% include lazy-image.html src="/images/illus-AI-scope3-05.jpg" alt="" caption="" figClass="large-post-image" %}
 
-## Overcoming Challenges
+## Overcoming challenges
 This wasn’t a straightforward project—there were significant hurdles along the way:
 
-**Building Trust Under Tight Timelines**
+**Building trust under tight timelines**
 With the design team recently reorganized, leadership was eager for results. To demonstrate value, I tailored my communication to stakeholders, anchored deliverables in an iterative approach, and focused on delivering impact quickly.
 
-**Understanding Carbon Science**
+**Understanding carbon science**
 Carbon footprint reporting required a deep understanding of carbon science, a field I was new to. I immersed myself in EPA guidelines, GHG Protocols, and collaborated with subject matter experts to ensure the designs met rigorous standards.
 
-**Leveraging Machine Learning**
+**Leveraging machine learning**
 Initially, it wasn’t clear how the ML algorithm would interact with spend data. By working closely with engineers and learning the basics of ML, I designed workflows that made the AI more user-friendly and effective.
 
-## The Results
+## The results
 The project delivered measurable improvements:
 
 - **15% Faster Data Ingestion**: Automated repetitive tasks, significantly reducing processing time.

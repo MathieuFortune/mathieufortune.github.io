@@ -2,7 +2,7 @@
 // Intro desc component
 .intro-desc {
   @extend %container;
-  font-size: var(--font-size-body);
+  font-size: var(--font-size-base);
   padding: $spacing--5xl $spacing--base;
 
   @include media($tab-v, max-width) {
