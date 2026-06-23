@@ -167,7 +167,7 @@ Using our HMW statements as prompts, I organized and facilitated a dynamic sketc
 
 Synthesizing insights from all previous sprint stages, I developed a comprehensive flowchart diagram that formed the backbone of our 6-month decarbonization roadmap. This flowchart connected our proposed solutions into a coherent, actionable plan, illustrating how different features and touchpoints would work together to address user needs and business objectives.
 
-{% include figures.html images="/images/illus-design-sprint-uflow.png" alt="Flowchart diagram of potential feature set" tier="full" %}
+{% include figures.html images="/images/illus-design-sprint-uflow.png" alt="Flowchart diagram of potential feature set" tier="wide" %}
 
 {% include eyebrow.html label="Decide" heading="Wireframes" %}
 
