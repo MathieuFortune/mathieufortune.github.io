@@ -1,7 +1,15 @@
 {%- comment -%}
-Eyebrow heading — small section label above a heading. Params: label, heading.
+Eyebrow heading — small section label above a heading. Params:
+  label   — the small uppercase label (required)
+  heading — the heading text (required)
+  level   — heading level: 2 or 3 (optional, default 3)
 {%- endcomment -%}
+{%- assign level = include.level | default: 3 | append: "" -%}
 <div class="eyebrow">
   <p class="eyebrow__label">{{ include.label }}</p>
+  {%- if level == "2" -%}
+  <h2 class="eyebrow__heading">{{ include.heading }}</h2>
+  {%- else -%}
   <h3 class="eyebrow__heading">{{ include.heading }}</h3>
+  {%- endif -%}
 </div>

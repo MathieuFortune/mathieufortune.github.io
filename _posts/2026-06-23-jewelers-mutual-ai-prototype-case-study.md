@@ -24,7 +24,7 @@ timeline: "Two sprints (~four weeks)"
 tools: "Claude, Claude Code (+ MCP), HeroUI v3, Figma, VS Code, Microsoft Surface Whiteboard"
 ---
 
-## Waiting for the right moment
+{% include eyebrow.html label="Context" heading="Waiting for the right moment" %}
 
 For about two years, I used AI chat tools for research and synthesis while keeping them out of my design and prototyping workflow. Several months before this project, I had used Build by Reforge, a beta-phase AI prototyping tool, to explore how to modernize customer support tools for managing policy cancellation requests. I saw the potential immediately. I also saw the problem: I was spending more time tweaking prompts than making actual design progress. The tools weren't mature enough yet to be a genuine force multiplier. On projects with pressing deadlines, that time investment wasn't worth it.
 
@@ -34,13 +34,13 @@ That moment arrived as an ambitious constraint. My squad was tasked with definin
 
 I had frontend development and product management experience that most product designers on my team didn't. I wanted to see how far that background, combined with a new generation of AI tools, could take me. This case study documents what I built, how I built it, and what I learned.
 
-## How the four weeks actually worked
+{% include eyebrow.html label="Sidenote" heading="How the four weeks actually worked" %}
 
 Before getting into the phases: this was not a clean sequential process. Each week involved some combination of research, discovery, and design exploration. The first two weeks were heavier on synthesis and direction-setting. The last two shifted toward iterating on the prototype. Each version increased in scope, every cycle informing the next.
 
 What follows is organized by type of work, not by strict chronology.
 
-## Phase 1 — Using Claude to synthesize research and shape product direction
+{% include eyebrow.html label="Phase 1" heading="Using Claude to synthesize research and shape product direction" %}
 
 Competitive analysis, business plans, and user research had already been conducted across the organization for intersecting projects. The problem was that none of it had been synthesized into a cohesive vision anyone could act on.
 
@@ -58,7 +58,7 @@ The synthesis work in Phase 1 served a second purpose that only became clear lat
 
 What stays human is the thinking, the judgment, and the framing of the right problem. PMs, designers, and developers who forget this aren't using AI as a tool. They're outsourcing their craft.
 
-## Phase 2 — Sketching before prompting: why the whiteboard still comes first
+{% include eyebrow.html label="Phase 2" heading="Sketching before prompting: why the whiteboard still comes first" %}
 
 Before any code was generated, I sketched.
 
@@ -68,7 +68,7 @@ Once an idea was worth pursuing, I'd capture it: a phone photo of a whiteboard s
 
 {% include figures.html images="/images/jewelers-mutual/illus-ai-prototype-sketches-wireframes-jm.jpg" alt="Whiteboard sketches and Figma wireframes" captions="Whiteboard sketches, Surface digital canvas, and Figma wireframes — design judgment applied before any prompting" tier="wide" %}
 
-## Phase 3 — Connecting the pipeline: Claude Code, HeroUI, and the design system decision
+{% include eyebrow.html label="Phase 3" heading="Connecting the pipeline: Claude Code, HeroUI, and the design system decision" %}
 
 Several months before this project, a colleague and I had conducted extensive research into what design system approach to recommend for our organization — build from scratch, fork an open-source foundation, or license a solution. We chose HeroUI v3, an open-source system built on React and Tailwind CSS and designed to be compatible with AI code generation tools. We then collaborated with other designers to establish a custom theme on top of it. By the time this project started, HeroUI was being used across the design team on multiple projects.
 
@@ -85,7 +85,7 @@ To go beyond the design system, I paired Claude Code with two additional inputs:
 
 Before connecting these, Claude Code's output showed predictable AI biases: inconsistent design patterns, heavy emoji usage, an inexplicable affinity for gold tones. After connecting HeroUI v3 via MCP and pairing it with both context files, the output quality changed dramatically. Prototypes were visually consistent, neutrally styled, and structurally sound.
 
-## Phase 4 — Iterating in code: how frontend skills changed the workflow
+{% include eyebrow.html label="Phase 4" heading="Iterating in code: how frontend skills changed the workflow" %}
 
 Rather than attempting to generate an entire prototype in one prompt, I structured Claude Code inputs as small, targeted, feature-specific prompts, one flow or component at a time. This kept outputs manageable and reviewable, and it optimized token consumption.
 
@@ -99,7 +99,7 @@ The generated code contained occasional inline styles instead of proper React co
 
 {% include figures.html images="/images/jewelers-mutual/illus-ai-prototype-final-jm.jpg" alt="Final mobile prototype screens" captions="Screens from the final mobile-first React prototype of the Digital Vault" tier="wide" %}
 
-## What shipped: a prototype, executive alignment, and an honest accounting
+{% include eyebrow.html label="Outcomes" heading="What shipped: a prototype, executive alignment, and an honest accounting" %}
 
 The result was a fully interactive, mobile-first React prototype representing the northstar vision for the product, built without engineering involvement across four weeks. I managed the code review, environment setup, and technical decisions myself.
 
@@ -111,13 +111,13 @@ In this session, one business stakeholder stopped mid-presentation and began sug
 
 It also addressed a recurring structural challenge: a dynamic where executives fill knowledge gaps with opinions rather than engaging with the work directly. A tangible, interactive artifact shifted that dynamic.
 
-## A note on what "fast" actually means here
+{% include eyebrow.html label="Sidenote" heading="A note on what \"fast\" actually means here" %}
 
 AI tools make it dangerously easy to rush toward a solution. The prototype-generation phase feels productive, even exciting, and that feeling can seduce designers and stakeholders alike into skipping the harder work of problem definition. I've watched stakeholders pick up these tools and immediately start generating screens, bypassing research entirely. The output looks convincing. The thinking behind it often isn't.
 
 I was able to move quickly because I had been embedded in the problem space for several months. I could draw on existing research, prior discovery work, and accumulated context that made the design phase feel fast without actually being rushed. The AI accelerated execution. The research made that execution credible.
 
-## Where this workflow goes next
+### Where this workflow goes next
 
 The token cost of this approach is real. Agentic AI workflows — where the model makes multiple sequential decisions — can consume significant compute. Organizations need to be honest about the ROI calculus before scaling this kind of process.
 

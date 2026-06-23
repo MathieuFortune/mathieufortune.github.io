@@ -296,9 +296,10 @@
 // ---------------------------------------------------------------------------
 .pull-quote {
   margin: 0;
+  margin-top: $spacing--lg;
   padding-left: $spacing--xl;
   border-left: 4px solid $color--main;
-  font-size: var(--font-size-lg);
+  font-size: var(--font-size-md);
   font-weight: $font-weight--thin;
   font-style: italic;
   line-height: 1.4;
