@@ -1,24 +1,102 @@
+@use 'sass:color';
 @use '../core' as *;
-/* Code formatting */
+
+// =========================================================================
+// Code
+// Owns everything about rendering code: the inline pill, the block panel,
+// and the Rouge syntax theme painted inside that panel.
+// =========================================================================
+
+// -------------------------------------------------------------------------
+// Syntax palette
+// Intentionally OUTSIDE the design-token system — a self-contained Rouge
+// theme, not reusable UI roles. Keywords reuse $color--blue and plain
+// identifiers reuse $color--text; the hues below are local to this file.
+// -------------------------------------------------------------------------
+$code--comment:     #8a8a8a; // soft neutral grey
+$code--string:      #4f7a28; // green
+$code--key:         #9b2d4f; // maroon — keys, attributes, tags, headings
+$code--punctuation: #b0aca3; // warm light grey — braces, operators, punctuation
+
+// Diff tints — soft, desaturated washes in the same green / maroon family
+// as the palette above, calm enough to sit on the muted code surface.
+// Ink text for readability; word-level changes (.x) get a deeper shade.
+$code--diff-add: #e7efe0; // added lines   (green family of $code--string)
+$code--diff-del: #f2e3e7; // removed lines (maroon family of $code--key)
+
+// -------------------------------------------------------------------------
+// Container — inline pill + block panel
+// -------------------------------------------------------------------------
 pre,
 code {
-  font-size: var(--font-size-xs);
-  border: 1px solid $color--darkgrey;
-  border-radius: 3px;
-  background-color: #eef;
+  font-family: var(--font-mono);
+  font-size: var(--font-size-3xs);
 }
 
+// Inline code — lightweight ink pill on the muted surface.
 code {
-  padding: 1px 5px;
+  color: $color--text;
+  background-color: $color--surface-muted;
+  border-radius: $spacing--2xs;
+  padding: $spacing--3xs $spacing--2xs;
 }
 
+// Block code — flat, borderless, rounded panel matching the .callout family.
 pre {
-  padding: 8px 12px;
+  background-color: $color--surface-muted!important;
+  border-radius: $spacing--base;
+  padding: $spacing--lg $spacing--xl;
+  line-height: 1.6;
   overflow-x: auto;
 
+  // Reset the inline pill treatment inside a block so it isn't doubled.
   > code {
-    border: 0;
-    padding-right: 0;
-    padding-left: 0;
+    background: none;
+    border-radius: 0;
+    padding: 0;
   }
+}
+
+// -------------------------------------------------------------------------
+// Syntax theme — Rouge token classes, painted on the panel above.
+// Calm, low-saturation palette; every colour traces to a token or one of
+// the local vars at the top of this file.
+// -------------------------------------------------------------------------
+.highlight {
+  @extend %vertical-rhythm;
+  background: transparent; // surface comes from the <pre> panel
+
+  // Comments
+  .c, .cm, .c1     { color: $code--comment; font-style: italic; }
+  .cp, .cs         { color: $code--comment; }
+
+  // Keywords & types
+  .k, .kc, .kd, .kn, .kp, .kr, .kt, .ow { color: $color--blue; }
+
+  // Strings (incl. regex / symbols)
+  .s, .s1, .s2, .sb, .sc, .sd, .se, .sh, .si, .sx, .sr, .ss { color: $code--string; }
+
+  // Keys, attributes, tags
+  .na, .nt, .nl    { color: $code--key; }
+
+  // Plain identifiers, names, numbers → ink
+  .n, .nb, .nc, .nf, .nn, .nv, .no, .ne, .ni, .bp,
+  .vc, .vg, .vi,
+  .m, .mf, .mh, .mi, .mo, .il { color: $color--text; }
+
+  // Punctuation & operators
+  .p, .o, .w       { color: $code--punctuation; }
+
+  // Markdown / generic tokens
+  .gh, .gu         { color: $code--key; font-weight: bold; } // headings
+  .gs              { color: $color--text; font-weight: bold; } // strong
+  .ge              { font-style: italic; }
+  .gp              { color: $code--comment; } // prompt
+  .go              { color: $color--text; }   // output
+
+  // Diffs — calm add / remove washes; word-level changes (.x) a shade deeper.
+  .gd              { color: $color--text; background-color: $code--diff-del; }
+  .gi              { color: $color--text; background-color: $code--diff-add; }
+  .gd .x           { background-color: color.adjust($code--diff-del, $lightness: -8%); }
+  .gi .x           { background-color: color.adjust($code--diff-add, $lightness: -8%); }
 }

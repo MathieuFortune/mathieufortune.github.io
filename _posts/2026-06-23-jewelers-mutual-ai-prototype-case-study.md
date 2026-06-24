@@ -2,7 +2,7 @@
 layout: post
 title: "Two sprints, zero engineers: An AI-accelerated design process"
 excerpt: |
-  With two sprints, no engineering bandwidth, and a mandate to define the northstar vision for Jewelers Mutual's mobile app, I tested how far a T-shaped designer paired with a new generation of AI tools could go. This case study documents the AI-accelerated process — research synthesis with Claude, sketching, and prototyping directly in code with Claude Code — that produced a fully interactive prototype influencing product direction conversations with senior executives.
+  With two sprints, no engineering bandwidth, and a mandate to define the northstar vision for Jewelers Mutual's mobile app, I tested how far a T-shaped designer paired with a new generation of AI tools could go. This case study documents the AI-accelerated process, which combined research synthesis with Claude, sketching, and prototyping directly in code with Claude Code to produce a fully interactive prototype that influenced product direction conversations with senior executives.
 thumbnail: "/images/jewelers-mutual/cover-ai-prototype.png"
 date: 2026-06-23 13:30:00 +0200
 lang: en
@@ -12,10 +12,10 @@ theme: Case Study
 featured: true
 hero: "/images/jewelers-mutual/illus-ai-prototype-hero-jm.jpg"
 summary: |
-  My squad was tasked with defining the northstar vision for the Digital Vault — a secure platform giving retail jewelry customers a way to catalog and insure their pieces while maintaining their connection to their trusted jeweler — and presenting it to senior executives as input into a larger strategic plan. The constraint: two sprints, no engineering bandwidth, and a need for something real enough to put in front of actual users.
+  My squad was tasked with defining the northstar vision for the Digital Vault, a secure platform that gives retail jewelry customers a way to catalog and insure their pieces while maintaining their connection to their trusted jeweler. We would then present that vision to senior executives as input into a larger strategic plan. The constraint: two sprints, no engineering bandwidth, and a need for something real enough to put in front of actual users.
 
   I used this as a chance to see how far frontend and product experience, combined with a new generation of AI tools, could take a single designer. The result was a fully interactive, mobile-first React prototype built without engineering involvement that shifted executive conversations from features to strategy.
-role: "Product Designer — Research synthesis, AI-assisted prototyping, Frontend implementation"
+role: "Product Designer, covering research synthesis, AI-assisted prototyping, and frontend implementation"
 team:
   - "Product Manager"
   - "Tech Lead"
@@ -26,11 +26,13 @@ tools: "Claude, Claude Code (+ MCP), HeroUI v3, Figma, VS Code, Microsoft Surfac
 
 {% include eyebrow.html label="Context" heading="Waiting for the right moment" %}
 
-For about two years, I used AI chat tools for research and synthesis while keeping them out of my design and prototyping workflow. Several months before this project, I had used Build by Reforge, a beta-phase AI prototyping tool, to explore how to modernize customer support tools for managing policy cancellation requests. I saw the potential immediately. I also saw the problem: I was spending more time tweaking prompts than making actual design progress. The tools weren't mature enough yet to be a genuine force multiplier. On projects with pressing deadlines, that time investment wasn't worth it.
+I've followed AI closely since GPT-4's release in March 2023, and became a daily user of these tools by late 2023. In 2024 I put it to work in production: at Carbon Direct, I designed an [AI-powered Scope 3 workflow]({% post_url 2024-11-19-carbon-direct-scope3-automation %}) that paired large language models with a human-in-the-loop correction tool that fed every analyst fix back into an ML model.
+
+Yet I deliberately kept these tools out of my own design and prototyping workflow. In late 2025, I used Build by Reforge, a beta-phase AI prototyping tool, to explore how to modernize customer support tools for managing policy cancellation requests. I saw the potential immediately. I also saw the problem: I was spending more time tweaking prompts than making actual design progress. The tools weren't mature enough yet to be a genuine force multiplier. On projects with pressing deadlines, that time investment wasn't worth it.
 
 So I waited. Not for the tools to become perfect, but for a moment where experimenting would also mean delivering something genuinely valuable.
 
-That moment arrived as an ambitious constraint. My squad was tasked with defining the northstar vision for a mobile product — the Digital Vault, a secure platform giving retail jewelry customers a way to catalog and insure their pieces while maintaining their connection to their trusted jeweler — and presenting it to senior executives as input into a larger strategic plan. Two sprints. No engineering bandwidth. A need for something real enough to put in front of actual users.
+That moment arrived in March 2026, as an ambitious constraint. My squad was tasked with defining the northstar vision for a mobile product, the Digital Vault. This secure platform would give retail jewelry customers a way to catalog and insure their pieces while maintaining their connection to their trusted jeweler, and we'd present the vision to senior executives as input into a larger strategic plan. Two sprints. No engineering bandwidth. A need for something real enough to put in front of actual users.
 
 I had frontend development and product management experience that most product designers on my team didn't. I wanted to see how far that background, combined with a new generation of AI tools, could take me. This case study documents what I built, how I built it, and what I learned.
 
@@ -50,7 +52,7 @@ The output: structured insight summaries, sharpened problem framing, and a faste
 
 I also connected with my Product Manager and Tech Lead early to share findings and pressure-test initial directions. They had been exploring the problem space independently, and the overlap in our conclusions gave the team a stronger shared foundation to build from.
 
-The synthesis work in Phase 1 served a second purpose that only became clear later. The insights I developed here — about the target audience, their needs, and the design context — became the direct basis for the design principles I later embedded into Claude Code's behavior. The research didn't just inform the product direction. It shaped the quality of the prototype output.
+The synthesis work in Phase 1 served a second purpose that only became clear later. Here I developed insights about the target audience, their needs, and the design context. Those insights became the direct basis for the design principles I later embedded into Claude Code's behavior. The research didn't just inform the product direction. It shaped the quality of the prototype output.
 
 {% include figures.html images="/images/jewelers-mutual/illus-ai-prototype-research-artifacts-jm.jpg" alt="Research artifacts synthesized with Claude" captions="Existing research, forum findings, and industry sources synthesized into structured insight summaries" tier="wide" %}
 
@@ -66,28 +68,76 @@ Using a combination of physical whiteboard, Microsoft Surface digital whiteboard
 
 Once an idea was worth pursuing, I'd capture it: a phone photo of a whiteboard sketch, a screenshot of the digital canvas, a quick Figma wireframe recreation. These artifacts became direct inputs to the next phase.
 
-{% include figures.html images="/images/jewelers-mutual/illus-ai-prototype-sketches-wireframes-jm.jpg" alt="Whiteboard sketches and Figma wireframes" captions="Whiteboard sketches, Surface digital canvas, and Figma wireframes — design judgment applied before any prompting" tier="wide" %}
+{% include figures.html images="/images/jewelers-mutual/illus-ai-prototype-sketches-wireframes-jm.jpg" alt="Whiteboard sketches and Figma wireframes" captions="Whiteboard sketches, Surface digital canvas, and Figma wireframes, all applying design judgment before any prompting" tier="wide" %}
 
 {% include eyebrow.html label="Phase 3" heading="Connecting the pipeline: Claude Code, HeroUI, and the design system decision" %}
 
-Several months before this project, a colleague and I had conducted extensive research into what design system approach to recommend for our organization — build from scratch, fork an open-source foundation, or license a solution. We chose HeroUI v3, an open-source system built on React and Tailwind CSS and designed to be compatible with AI code generation tools. We then collaborated with other designers to establish a custom theme on top of it. By the time this project started, HeroUI was being used across the design team on multiple projects.
+Several months before this project, a colleague and I had conducted extensive research into what design system approach to recommend for our organization. The options were to build from scratch, fork an open-source foundation, or license a solution. We chose HeroUI v3, an open-source system built on React and Tailwind CSS and designed to be compatible with AI code generation tools. We then collaborated with other designers to establish a custom theme on top of it. By the time this project started, HeroUI was being used across the design team on multiple projects.
 
 My Product Manager and Tech Lead were also building AI prototypes in parallel. Theirs showed the telltale signs of AI output without a design system: heavy emoji usage, random color combinations, messy information architecture. They were stitching feature ideas into loose prompts without any design system connection or intentional IA work.
 
 My prototype iterations were anchored in the company's brand identity. The navigation and information architecture were crafted deliberately, as if building a real app. The design system gave the prototype visual coherence and the structural credibility needed to put in front of executives.
-
-{% include figures.html images="/images/jewelers-mutual/illus-ai-prototypes-comparison-jm.jpg" alt="Comparison of AI prototype approaches" captions="Left: AI output without a design system. Right: a prototype anchored in HeroUI v3 and the company's brand identity" tier="wide" %}
 
 To go beyond the design system, I paired Claude Code with two additional inputs:
 
 - A **CLAUDE.md file** containing context about the business and the target audience.
 - A **design principles skill** listing specific instructions I had developed based on my understanding of the audience's needs and pain points.
 
+```markdown
+---
+name: jm-design-principles
+description: >-
+  UI-generation guardrails for the Digital Vault prototype. These govern
+  HOW the UI is built, not WHAT to design — design decisions arrive via the
+  wireframes attached to each prompt. Apply to every screen and component.
+---
+
+# Digital Vault — UI generation principles
+
+These are implementation guardrails, not design direction. Render the
+wireframes faithfully while obeying the rules below.
+
+1. **Build from the design system, never from scratch.** Compose screens
+   exclusively from HeroUI v3 components and theme tokens. Don't hand-roll
+   components that already exist in the library, invent spacing or color
+   values, or write inline styles. If a needed pattern isn't in the system,
+   use the closest existing component and flag the gap rather than improvise.
+
+2. **Keep the UI visually neutral.** This prototype is for unbiased user
+   testing — nothing should steer a tester's reaction. No emoji, no
+   decorative gradients, no persuasive or marketing treatments, no gratuitous
+   color or emphasis. Use the default theme weight everywhere unless a
+   wireframe specifies otherwise.
+
+3. **Mobile-first, always.** Assume a phone viewport. Single-column layouts,
+   thumb-reachable primary actions, touch-sized targets. Add larger-breakpoint
+   behavior only when explicitly asked.
+
+4. **Minimize friction and cognitive load.** One primary action per screen.
+   Prefer progressive disclosure over dense screens. Keep required input to a
+   minimum and make everything else optional and deferrable. Don't surface a
+   control until the user needs it.
+
+5. **Help the user; don't sell insurance.** Insurance is one of several
+   services, not the product. Frame everything around the user's own goals —
+   cataloging, organizing, and protecting their pieces. No upsell banners, no
+   insurance CTAs competing with the primary task, no sales-funnel copy.
+
+6. **Establish IA before filling the page.** For a new screen, lay out the
+   information architecture and navigation first — regions, headers, and empty
+   containers — and confirm the skeleton before populating it with content.
+```
+
 Before connecting these, Claude Code's output showed predictable AI biases: inconsistent design patterns, heavy emoji usage, an inexplicable affinity for gold tones. After connecting HeroUI v3 via MCP and pairing it with both context files, the output quality changed dramatically. Prototypes were visually consistent, neutrally styled, and structurally sound.
+
+{% include figures.html images="/images/jewelers-mutual/illus-ai-prototypes-comparison-jm.jpg" alt="Comparison of AI prototype approaches" captions="Left: AI output without a design system. Right: a prototype anchored in HeroUI v3 and the company's brand identity" tier="wide" %}
+
 
 {% include eyebrow.html label="Phase 4" heading="Iterating in code: how frontend skills changed the workflow" %}
 
-Rather than attempting to generate an entire prototype in one prompt, I structured Claude Code inputs as small, targeted, feature-specific prompts, one flow or component at a time. This kept outputs manageable and reviewable, and it optimized token consumption.
+Rather than attempting to generate an entire prototype in one prompt, I worked plan-first and top-down. Each feature began as a small PRD I authored in Claude chat. This short document described the screen's information architecture, including the sections it contained and the states each could take (an item, for instance, could be insured, not yet insured, or pending coverage). I'd hand that PRD to Claude Code and, before a line of code was written, ask it to review the document, surface gaps, and ask me clarifying questions until we shared an implementation plan. Only then did it build. At the time this was a manual, improvised loop, essentially a hand-rolled version of what Matt Pocock has since formalized as his [grill-with-docs skill](https://github.com/mattpocock/skills/tree/main), which I now use on every project. The discipline is unchanged. You establish the plan before generating anything.
+
+From there the work moved in widening passes. The PRD set the information architecture. The next pass scaffolded the screen, laying out empty regions, navigation, and structure with no real content yet. Then I went component by component, filling each section of the screen one at a time. Keeping inputs this small and sequential made every output manageable and reviewable, and it held token consumption in check.
 
 After each generation cycle, I used VS Code directly to make lightweight adjustments: spacing, typography, layout composition. Most designers would reflexively reach for Figma here, introducing the friction of jumping between tools or burning through tokens prompting the AI repeatedly until the output is close enough. Being a T-shaped designer removed that bottleneck entirely.
 
@@ -97,7 +147,7 @@ One deliberate choice shaped this phase: I kept the generated code clean enough 
 
 The generated code contained occasional inline styles instead of proper React component calls and minor structural inconsistencies, but it was more than sufficient for the stated purpose.
 
-{% include figures.html images="/images/jewelers-mutual/illus-ai-prototype-final-jm.jpg" alt="Final mobile prototype screens" captions="Screens from the final mobile-first React prototype of the Digital Vault" tier="wide" %}
+{% include figures.html images="/images/jewelers-mutual/illus-ai-prototype-final-jm.jpg" alt="Final mobile prototype screens" captions="Screens from the final mobile-first React prototype of the Digital Vault" tier="full" %}
 
 {% include eyebrow.html label="Outcomes" heading="What shipped: a prototype, executive alignment, and an honest accounting" %}
 
@@ -119,11 +169,11 @@ I was able to move quickly because I had been embedded in the problem space for 
 
 ### Where this workflow goes next
 
-The token cost of this approach is real. Agentic AI workflows — where the model makes multiple sequential decisions — can consume significant compute. Organizations need to be honest about the ROI calculus before scaling this kind of process.
+The token cost of this approach is real. Agentic AI workflows can consume significant compute, because the model makes many sequential decisions. Organizations need to be honest about the ROI calculus before scaling this kind of process.
 
 For a next run, I'd apply the same pipeline to smaller-scope iterations aimed at building a production-ready MVP to test product/market fit for new ideas. The workflow suits early-stage validation where speed of learning matters more than code quality.
 
-Since this project, generative AI and prototyping tools have become a permanent part of my daily workflow, and they have tremendously sped up my design process. I reach for them across research, exploration, and building — including for this very portfolio, which I'm actively refactoring with the same AI-assisted approach. What started as a deliberate experiment under constraint is now simply how I work.
+Since this project, generative AI and prototyping tools have become a permanent part of my daily workflow, and they have tremendously sped up my design process. I reach for them across research, exploration, and building. That includes this very portfolio, which I'm actively refactoring with the same AI-assisted approach. What started as a deliberate experiment under constraint is now simply how I work.
 
 Each phase required deliberate human decisions: the research, the sketching, the prompting, the tweaking. The AI accelerated execution. It didn't replace the thinking that made execution worth doing.
 
