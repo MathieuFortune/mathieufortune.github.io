@@ -2,109 +2,103 @@
 layout: post
 title:  "Championing the Design System at Mentor Collective"
 excerpt: |
-    Leading the creationg of a cohesive and accessible design system at Mentor Collective, streamlining B2C & B2B product deliveries with visual and functional consistency.
+    How I built and championed Mentor Collective's first design system, an accessible, React-friendly foundation that gave product and engineering a shared language and let the team ship consistent B2C and B2B work as it scaled.
 thumbnail: "/images/thumbnail-design-system-mentor-collective.jpg"
 date:   2023-09-01 13:30:00 +0200
 lang: en
 ref: mentor collective
 author: Mathieu Fortune
 theme: Case Study
+featured: false
+hero: "/images/cover-design-system-mentor-collective.jpg"
+summary: |
+  Mentor Collective helps higher-ed institutions run student-centered peer-mentorship programs across both B2C and B2B audiences. When I joined as its first design hire, the product's visual identity and user experience were fragmented after years of contractor-led development.
+
+  I championed, built, and maintained Mentor Collective's first design system, an accessible, React-friendly foundation that gave product and engineering a shared language. It standardized color, typography, data visualization, and components, brought the product to WCAG AA, and let the team ship consistent work as it scaled.
+role: "Sr. Product Designer covering design system strategy, accessibility, component design, and developer enablement"
+team:
+  - "Myself as Design System Lead"
+  - "Frontend Guild, engineers in my squad"
+tools: "Figma, Base Web design system, IBM Carbon icons, Airbnb VisX, EightShapes Contrast Grid"
 ---
 
-{% include lazy-image.html src="/images/cover-design-system-mentor-collective.jpg" alt="Case study's cover image showing a dashboard with UI elements" caption="Mentor Collective - Design System Illustration" figClass="" %}
+*To comply with my non-disclosure agreement, I have omitted and obfuscated confidential information in this case study. Screenshots appear throughout for illustration and might not represent the final work. All views expressed are my own and do not necessarily represent those of Mentor Collective.*
 
-*To comply with my non-disclosure agreement, I have omitted and obfuscated confidential information in this case study. Screenshots will be displayed throughout this case study for illustration purposes and might not represent the final work.*
+{% include eyebrow.html label="Context" heading="A fragmented product identity" %}
 
-## The genesis
+When I joined Mentor Collective, the product's design and visual identity were fragmented. Through its early development years, the company's story had been written by design contractors and product enthusiasts who weren't strictly designers. The result was a product dotted with inconsistent user experiences and a visual identity that pulled in several directions at once.
 
-When I joined Mentor Collective, the design and visual idenity of the product was fragmented. Throughout it's early development years, the company's story had been written by design contractors and product enthusiasts who weren't strictly designers. This meant a product dotted with inconsistent user experiences and visual identity. 
+I quickly saw the need for a design system that could create a unified voice and let us scale rapidly and efficiently. Mentor Collective was growing fast, and the product had to serve both B2C and B2B audiences. A design system would equip our product and engineering teams to handle the looming complexity, ensuring swift and consistent delivery of user value.
 
-I quickly identified a need for design system to create an unified voice, and allow us to scale rapidly and efficiently.
+{% include eyebrow.html label="Discovery" heading="Assessing our needs" %}
 
-The pace of Mentor Collective's growth was intense. Our product had to cater to both B2C and B2B audiences.
-I believed that a design system would equip our product and engineering teams to handle the looming complexity, ensuring swift and consistent delivery of user value.
+I started by assessing what the Product team actually needed. Given the company's mission to help millions of students and higher-ed administrators bridge the equity gap in post-secondary education, the priorities were clear.
 
-## Assessing our unique needs
-I started this project by assessing Mentor Collective's Product team needs. Given the company's mission to help millions of students and higher-ed administrators bridge the equity gap in post-secondary education, the emphasis was clear: 
-- a robust dashboard design capable of handling large datasets to enable higher-ed administrators's work
-- a performant and mobile friendly application to connect students and manage communities
-- an accessible product that everyone can use 
+<div class="cs-grid wide">
+  {% include callout.html variant="compact" heading="Dashboards at scale" text="A robust dashboard design capable of handling large datasets, so higher-ed administrators could do their work." %}
+  {% include callout.html variant="compact" heading="Mobile-friendly" text="A performant, mobile-friendly application to connect students and manage communities." %}
+  {% include callout.html variant="compact" heading="Accessible by default" text="A product that everyone can use, with accessibility built in rather than bolted on." %}
+</div>
 
-Another key step was to align the design system with our Engineering stack for smooth integration.
-I probed engineers for collaboration. They provided valuable insights about which technology they were using and workflows they were following.
+Another key step was aligning the design system with our engineering stack for smooth integration. I probed engineers for collaboration, and they shared valuable insight about the technology they were using and the workflows they were following. Finally, I folded in the recently hired Design Lead's view of where the design team was headed, so the system would serve our future as well as our present.
 
-Finnaly, I integrated the recently hired Design Lead's insights about the future trajectory of the design team to also inform our decision.
+{% include eyebrow.html label="Approach" heading="Choosing a foundation" %}
 
-## Key components & principles
-Creating a design system from scratch for both the design and engineering team is no small feat. For this reason, we elected to start with an open-source system that would give us a head start.
+Creating a design system from scratch for both design and engineering is no small feat, so we chose to start from an open-source system that would give us a head start. To guide the search, I set a few principles.
 
-I elected guiding principles to help in my search:
-- Seamless React integration
-- WCAG AA compliance of color and components
-- Figma friendly 
-- A focus on dashboard designs
-- Can be used for both mobile and web use cases
+- **Seamless React integration**, so the system fit our stack from day one.
+- **WCAG AA compliance** across color and components.
+- **Figma friendly**, so designers could move quickly.
+- **A focus on dashboard designs**, the heart of our product.
+- **Works for both mobile and web** use cases.
 
-After review with the rest of the team, we landed with Uber's Base design system. Its React-friendly nature coupled with built-in accessibility made it stand out from other alternatives. 
-However, despite it's solid techincal foundation, we weren't content with a simple adaptation of Uber's visual identity and design principles. 
+After review with the team, we landed on Uber's Base Web. Its React-friendly nature paired with built-in accessibility made it stand out from the alternatives. Despite that solid technical foundation, we weren't content with a simple adaptation of Uber's visual identity, so I built our own design language on top of it.
 
-### Colors
-I introduced a color palette that would align with Mentor Collective's brand while emphasizing contrast, usability and WCAG AA accessibility.
-To improve the flexibility of this palette when designing, I segmented it into three categories: greys, primary/secondary, and supporting/accent colors while leveraging HSL (Hue, Saturation, Lightness) values to formulate the color ramp. To support this process, I used Eightshapes' contrast grid tool and a colorblind plug-in in Figma.
+{% include eyebrow.html label="Solutions" heading="Building the system" %}
 
-{% include lazy-image.html src="/images/illustration-design-system-mentor-collective-01.jpg" alt="Screenshot of new color palette" caption="Newly introduced color palette" figClass="" %}
+**Colors.** I introduced a color palette that aligned with Mentor Collective's brand while emphasizing contrast, usability, and WCAG AA accessibility. To keep the palette flexible while designing, I segmented it into three categories, greys, primary and secondary, and supporting and accent colors, using HSL values to formulate each color ramp. To support the process, I leaned on EightShapes' Contrast Grid and a colorblindness plug-in in Figma.
 
-{% include lazy-image.html src="/images/illustration-design-system-mentor-collective-02.jpg" alt="Screenshot of color contrast and color blind tests" caption="Expanding shades and testing color blindness" figClass="" %}
+{% include figures.html images="/images/illustration-design-system-mentor-collective-01.jpg|/images/illustration-design-system-mentor-collective-02.jpg|/images/illustration-design-system-mentor-collective-02-bis.jpg" layout="3up" tier="wide" alt="Color palette work in Figma|Color contrast and colorblindness tests|UI color tests in Figma" captions="Newly introduced color palette|Expanding shades and testing colorblindness|Color test with UI elements to validate results" %}
 
-{% include lazy-image.html src="/images/illustration-design-system-mentor-collective-02-bis.jpg" alt="Screenshot of UI color tests in Figma" caption="Color test with UI elements to validate results" figClass="" %}
+**Typography.** Next came typography. I tested different font families and typographic scales to make sure the product stayed accessible and usable on every device. I also researched and picked an icon library, IBM Carbon icons, that fit the new typographic style and suited our need for dashboard designs.
 
+{% include figures.html images="/images/illustration-design-system-mentor-collective-03.jpg" tier="wide" alt="Typography research in Figma" captions="Researching font families and typographic scales" %}
 
-### Typography
-Next was typography. I tested different font famillies and typographic scales to ensure our product would be accessible and usable on every devices. I also researched and picked an icon library (IBM carbon icons) that would fit our new typographic style and suit our needs for dashboard designs.
+**Data visualization.** With the help of engineers, I picked a data visualization library, Airbnb's VisX. I built out the chart types our product would need and tested their colors to guarantee accessibility compliance.
 
-{% include lazy-image.html src="/images/illustration-design-system-mentor-collective-03.jpg" alt="Screenshot of typography research in Figma" caption="Researching various font famillies and typographic scales" figClass="" %}
+{% include figures.html images="/images/illustration-design-system-mentor-collective-04.jpg" tier="wide" alt="Data visualization color tests in Figma" captions="Early color and chart type tests" %}
 
-### Data visualization
-With the help of engineers, I picked a data visualization library (Airbnb's VisX). I worked on creating the various chart type that would be needed in our product as well as making sure to test colors to guarantee accessibility compliance.
+**Components and usage rules.** Beyond color and typography, I made sure every component fit our product by tweaking existing ones and creating new ones where needed. With feedback from the team and researched UX best practices, I iteratively documented usage rules for each component so they were intuitive and easy to adopt. To push usability and scalability further, I leaned on Figma's variants and component properties to create flexible components. The buttons shown below, for instance, allow variations in size, hierarchy, state, layout, and icon placement, all within a single component. This streamlined design workflows, kept the product consistent, and let teams customize components without compromising design standards.
 
-{% include lazy-image.html src="/images/illustration-design-system-mentor-collective-04.jpg" alt="Screenshot of data vizualisation color tests in Figma" caption="Early color and chart type tests" figClass="" %}
+{% include figures.html images="/images/illustration-design-system-mentor-collective-05.jpg" tier="wide" alt="Button components in Figma" captions="Button components and usage rules" %}
 
-### Component tweaking and usage rules
+{% include figures.html images="/images/illustration-design-system-mentor-collective-055.png" tier="wide" alt="Figma variants streamlining design system use" captions="Leveraging Figma's features to streamline design system use" %}
 
-Besides colors and typography, I also made sure that every component would fit our product needs by tweaking existing components and creating new ones where necessary. With feedback from the team and researched UX best practices, I iteratively implemented usage rules and detailed documentation for each component to ensure they were intuitive and easy to adopt.
+{% include figures.html images="/images/illustration-design-system-mentor-collective-06.jpg" tier="wide" alt="Input components in Figma" captions="Input components and usage rules" %}
 
-{% include lazy-image.html src="/images/illustration-design-system-mentor-collective-05.jpg" alt="Screenshot of button components in Figma" caption="Button components and usage rules" figClass="" %}
+These improvements simplified the design process and empowered cross-functional collaboration. Designers, developers, and stakeholders could rely on a system that was robust yet adaptable to evolving product requirements. By fostering that collaborative approach, the design system became an integral part of product development, bridging gaps between design and engineering while preserving the visual and functional integrity of the product.
 
-{% include lazy-image.html src="/images/illustration-design-system-mentor-collective-055.png" alt="Screenshot of button components in Figma" caption="Leveraging Figma's feature to streamline design system use" figClass="" %}
+{% include eyebrow.html label="Adoption" heading="Promotion and momentum" %}
 
-To further enhance the design system’s usability and scalability, I leveraged Figma’s variants and component properties to create clear and flexible components. For example, buttons like the one shown above are built using Figma’s advanced capabilities, allowing variations in size, hierarchy, state, layout, and icon placement—all within a single component. This approach streamlined design workflows and ensured consistency across the product. By integrating these tools, the team could quickly customize components to meet their needs without compromising on design standards, making the system easy to manage and scalable for large teams.
+My engineering team was thrilled about the design system, but its realization was a collaborative effort. As Mentor Collective's first design hire, I enjoyed a unique trust from the broader organization, which believed in my ability to put the right tools in place to scale the company's product.
 
-{% include lazy-image.html src="/images/illustration-design-system-mentor-collective-06.jpg" alt="Screenshot of input components in Figma" caption="Input components and usage rules" figClass="" %}
+Throughout the build, I regularly held presentations and rubber-ducking sessions, briefing teams on our milestones and offering hands-on tutorials, especially on Figma for developers. Challenges came up during technical implementation, but I worked through them with close-knit engineering teamwork and careful quality control on our projects.
 
-These improvements not only simplified the design process but also empowered cross-functional collaboration. Designers, developers, and stakeholders could rely on a system that was not only robust but also adaptable to evolving product requirements. By fostering this collaborative approach, the design system became an integral part of the product development process, bridging gaps between design and engineering while maintaining the visual and functional integrity of the product.
+Keeping the system updated and relevant was vital to its long-term success. Alongside a few engineers, we set up a Frontend Guild at Mentor Collective. This group ran monthly discussions about the system's evolution based on product squads' needs and challenges, and it became the nexus for feedback, critique, and growth of the design system.
 
+{% include eyebrow.html label="Impact" heading="What the system changed" %}
 
-## Promotion & adoption
-While my engineering team was thrilled about the design system, its realization was a collaborative effort. 
+The new design system transformed Mentor Collective's design narrative. It paved the way for consistent product roll-outs even as the team expanded. Two testimonials capture the shift.
 
-As Mentor Collective's first design hire, I enjoyed a unique trust from the broader organization. They believed in my ability to implement essential tools to scale the company's product. 
+<div class="testimonials wide">
+  {% include testimonial.html quote="One of Mathieu's most impactful early contributions to the team was collaborating with engineering to establish a thoughtful design system... This new design system was quickly used to redesign a highly visible dashboard... and saw a notable increase in visitor engagement after launch." author="Senior Software Engineer, full quote available on LinkedIn" %}
+  {% include testimonial.html quote="Mathieu championed the need for a more modern design system... The look and feel of the Mentor Collective platform, and the ability to scale it up, is a direct result of Mathieu's efforts." author="Vice President of Product" %}
+</div>
 
-Throughout the process of creating this design system, I regularly held presentations and rubber-ducking sessions, briefing teams about our milestones and offering hands-on tutorials, especially on Figma for developers. 
+Reflecting on the first project where it shipped, the design system's influence was clear. It streamlined processes and decisions, and it ensured a cohesive visual narrative across a growing product.
 
-Challenges arose during technical implementations, but I navigated them through close-knit teamwork with engineers and quality control during our projects.
+{% include eyebrow.html label="Reflection" heading="Adoption over artifacts" %}
 
-### Maintaining the momentum
-Ensuring the design system remained updated and relevant was vital to its long-term success. Alongside a few engineers, we set up a "Frontend guild" at Mentor Collective. 
+Looking back, the build itself was only half the work. A design system earns its value when people actually reach for it, so the presentations, the Figma tutorials for developers, the rubber-ducking sessions, and the Frontend Guild mattered just as much as the color ramps and components. Championing adoption and maintaining the system over time is what turned a library of tokens and components into Mentor Collective's shared design language.
 
-This group facilitated monthly discussions around the system's evolution based on product squads' needs and challenges. This initiative became the nexus for feedback, critique, and evolution of our design system.
-
-## The impact
-The new design system transformed Mentor Collective's design narrative. It paved the way for consistent product roll-outs, even as our team expanded. A testimonial from a Senior Software Engineer capture this transformation:
-
-> "One of Mathieu’s most impactful early contributions to the team was collaborating with engineering to establish a thoughtful design system... This new design system was quickly used to redesign a highly visible dashboard... and saw a notable increase in visitor engagement after launch." - Full quote available on Linkedin.
-
-Reflecting on the first project where it was introduced, the design system's influence was key. It streamlined processes, decisions, and most importantly, it ensured a cohesive visual narrative. The Vice President of Product aptly summarized its significance:
-
-> "Mathieu championed the need for a more modern design system... The look and feel of the Mentor Collective platform (and the ability to scale it up) is a direct result of Mathieu's efforts."
-
-In essence, the design system wasn't just a toolkit — it was Mentor Collective's design voice, and I was privileged to be its main architect.
+{% include pullquote.html quote="A design system isn't the artifact you ship, it's the shared language people keep reaching for. Adoption, not assets, is what makes it real." %}
