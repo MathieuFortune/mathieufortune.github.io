@@ -1,6 +1,7 @@
 {%- comment -%}
 Callout — highlighted statement. Params:
-  text    — the statement (Markdown allowed)
-  variant — "mono" for the outlined white variant (optional)
+  heading — optional bold heading; when set, text renders as a description beneath it
+  text    — the statement, or the description when heading is set (Markdown allowed)
+  variant — "mono" (outlined white) or "compact" (tighter padding) (optional)
 {%- endcomment -%}
-<div class="callout{% if include.variant %} callout--{{ include.variant }}{% endif %}">{{ include.text | markdownify }}</div>
+<div class="callout{% if include.variant %} callout--{{ include.variant }}{% endif %}">{%- if include.heading -%}<p class="callout__heading">{{ include.heading }}</p><div class="callout__text">{{ include.text | markdownify }}</div>{%- else -%}{{ include.text | markdownify }}{%- endif -%}</div>

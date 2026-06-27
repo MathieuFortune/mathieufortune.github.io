@@ -149,6 +149,21 @@
     font-size: var(--font-size-base);
     line-height: 1.35;
   }
+
+  // Heading + description variant.
+  &__heading {
+    font-family: $font-main;
+    font-weight: $font-weight--bold;
+    margin: 0 0 $spacing--xs;
+  }
+
+  &__text {
+    font-weight: $font-weight--base;
+    color: $color--text-muted;
+
+    > :first-child { margin-top: 0; }
+    > :last-child { margin-bottom: 0; }
+  }
 }
 
 // Generic auto-fit grid for laying out several callouts / cards side by side.
