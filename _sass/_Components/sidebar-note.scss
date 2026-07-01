@@ -1,0 +1,26 @@
+@use '../core' as *;
+
+// ---------------------------------------------------------------------------
+// Sidebar note — supporting aside set apart from the main flow (e.g. the
+// "what is a skill" definition). Sunken muted surface, quieter and smaller
+// than body copy so it reads as reference, not narrative.
+// ---------------------------------------------------------------------------
+.sidebar-note {
+  background-color: $color--surface-muted;
+  color: $color--text-muted;
+  border-radius: $spacing--base;
+  padding: $spacing--xl;
+  font-size: var(--font-size-xs);
+  line-height: 1.6;
+
+  > :first-child { margin-top: 0; }
+  > :last-child { margin-bottom: 0; }
+
+  // Optional label above the body (e.g. "What's a skill?").
+  &__heading {
+    font-family: $font-main;
+    font-weight: $font-weight--bold;
+    color: $color--text;
+    margin: 0 0 $spacing--xs;
+  }
+}

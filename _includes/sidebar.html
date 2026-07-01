@@ -1,0 +1,6 @@
+{%- comment -%}
+Sidebar note — supporting aside on a muted, sunken surface. Params:
+  heading — optional label above the body (plain text)
+  text    — the note body (Markdown allowed)
+{%- endcomment -%}
+<aside class="sidebar-note">{%- if include.heading -%}<p class="sidebar-note__heading">{{ include.heading }}</p>{%- endif -%}{{ include.text | markdownify }}</aside>
