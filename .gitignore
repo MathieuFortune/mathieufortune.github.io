@@ -9,3 +9,5 @@ vendor/
 CLAUDE.md
 CONTEXT.md
 docs/
+skills-lock.json
+.agents
