@@ -28,11 +28,11 @@ tools: "Claude, Claude Code (+ MCP), HeroUI v3, Figma, VS Code, Microsoft Surfac
 
 I've followed AI closely since GPT-4's release in March 2023, and became a daily user of these tools by late 2023. In 2024 I put it to work in production: at Carbon Direct, I designed an [AI-powered Scope 3 workflow]({% post_url 2024-11-19-carbon-direct-scope3-automation %}) that paired large language models with a human-in-the-loop correction tool that fed every analyst fix back into an ML model.
 
-Yet I deliberately kept these tools out of my own design and prototyping workflow. In late 2025, I used Build by Reforge, a beta-phase AI prototyping tool, to explore how to modernize customer support tools for managing policy cancellation requests. I saw the potential immediately. I also saw the problem: I was spending more time tweaking prompts than making actual design progress. The tools weren't mature enough yet to be a genuine force multiplier. On projects with pressing deadlines, that time investment wasn't worth it.
+Yet I deliberately kept these tools out of my own design and prototyping workflow — until late 2025, when I tested Build by Reforge, a beta-phase AI prototyping tool, on an exploration of how to modernize customer support tools for managing policy cancellation requests. I saw the potential immediately. I also saw the problem: I was spending more time tweaking prompts than making actual design progress. The tools weren't mature enough yet to be a genuine force multiplier, and on projects with pressing deadlines, that time investment wasn't worth it.
 
-So I waited. Not for the tools to become perfect, but for a moment where experimenting would also mean delivering something genuinely valuable.
+So I kept waiting. Not for the tools to become perfect, but for a moment where experimenting would also mean delivering something genuinely valuable.
 
-That moment arrived in March 2026, as an ambitious constraint. My squad was tasked with defining the northstar vision for a mobile product, the Digital Vault. This secure platform would give retail jewelry customers a way to catalog and insure their pieces while maintaining their connection to their trusted jeweler, and we'd present the vision to senior executives as input into a larger strategic plan. Two sprints. No engineering bandwidth. A need for something real enough to put in front of actual users.
+That moment arrived in March 2026. My squad was tasked with defining the northstar vision for the Digital Vault and presenting it to senior executives as input into a larger strategic plan. Two sprints. No engineering bandwidth. A need for something real enough to put in front of actual users.
 
 I had frontend development and product management experience that most product designers on my team didn't. I wanted to see how far that background, combined with a new generation of AI tools, could take me. This case study documents what I built, how I built it, and what I learned.
 
@@ -58,8 +58,6 @@ The synthesis work in Phase 1 served a second purpose that only became clear lat
 
 {% include pullquote.html quote="AI tools should not be granted any decision-making power. They are a remarkably capable autocomplete engine." %}
 
-What stays human is the thinking, the judgment, and the framing of the right problem. PMs, designers, and developers who forget this aren't using AI as a tool. They're outsourcing their craft.
-
 {% include eyebrow.html label="Phase 2" heading="Sketching before prompting: why the whiteboard still comes first" %}
 
 Before any code was generated, I sketched.
@@ -74,9 +72,7 @@ Once an idea was worth pursuing, I'd capture it: a phone photo of a whiteboard s
 
 Several months before this project, a colleague and I had conducted extensive research into what design system approach to recommend for our organization. The options were to build from scratch, fork an open-source foundation, or license a solution. We chose HeroUI v3, an open-source system built on React and Tailwind CSS and designed to be compatible with AI code generation tools. We then collaborated with other designers to establish a custom theme on top of it. By the time this project started, HeroUI was being used across the design team on multiple projects.
 
-My Product Manager and Tech Lead were also building AI prototypes in parallel. Theirs showed the telltale signs of AI output without a design system: heavy emoji usage, random color combinations, messy information architecture. They were stitching feature ideas into loose prompts without any design system connection or intentional IA work.
-
-My prototype iterations were anchored in the company's brand identity. The navigation and information architecture were crafted deliberately, as if building a real app. The design system gave the prototype visual coherence and the structural credibility needed to put in front of executives.
+I wasn't the only one experimenting: my Product Manager and Tech Lead were building AI prototypes in parallel, prompting feature ideas directly without a design system connection or deliberate IA work. The side-by-side became a useful natural experiment. Prototypes built without the pipeline showed the telltale signs of raw AI output: heavy emoji usage, random color combinations, messy information architecture. Mine, anchored in the company's brand identity with deliberately crafted navigation and IA, had the visual coherence and structural credibility needed to put in front of executives.
 
 To go beyond the design system, I paired Claude Code with two additional inputs:
 
@@ -130,26 +126,91 @@ wireframes faithfully while obeying the rules below.
 
 Before connecting these, Claude Code's output showed predictable AI biases: inconsistent design patterns, heavy emoji usage, an inexplicable affinity for gold tones. After connecting HeroUI v3 via MCP and pairing it with both context files, the output quality changed dramatically. Prototypes were visually consistent, neutrally styled, and structurally sound.
 
-{% include figures.html images="/images/jewelers-mutual/illus-ai-prototypes-comparison-jm.jpg" alt="Comparison of AI prototype approaches" captions="Left: AI output without a design system. Right: a prototype anchored in HeroUI v3 and the company's brand identity" tier="wide" %}
+{% include figures.html images="/images/jewelers-mutual/illus-ai-prototypes-comparison-jm.jpg" alt="Comparison of AI prototype approaches" captions="Left: an AI prototype generated without a design system connection. Right: a prototype anchored in HeroUI v3 and the company's brand identity" tier="wide" %}
 
 
 {% include eyebrow.html label="Phase 4" heading="Iterating in code: how frontend skills changed the workflow" %}
 
-Rather than attempting to generate an entire prototype in one prompt, I worked plan-first and top-down. Each feature began as a small PRD I authored in Claude chat. This short document described the screen's information architecture, including the sections it contained and the states each could take (an item, for instance, could be insured, not yet insured, or pending coverage). I'd hand that PRD to Claude Code and, before a line of code was written, ask it to review the document, surface gaps, and ask me clarifying questions until we shared an implementation plan. Only then did it build. At the time this was a manual, improvised loop, essentially a hand-rolled version of what Matt Pocock has since formalized as his [grill-with-docs skill](https://github.com/mattpocock/skills/tree/main), which I now use on every project. The discipline is unchanged. You establish the plan before generating anything.
+Rather than attempting to generate an entire prototype in one prompt, I worked feature by feature, spec-first. Each feature began as a small PRD I authored in Claude chat: the screen's information architecture, the sections it contained, and the states each could take (an item, for instance, could be insured, not yet insured, or pending coverage).
 
-From there the work moved in widening passes. The PRD set the information architecture. The next pass scaffolded the screen, laying out empty regions, navigation, and structure with no real content yet. Then I went component by component, filling each section of the screen one at a time. Keeping inputs this small and sequential made every output manageable and reviewable, and it held token consumption in check.
+Authoring the PRD was itself a loop. Before calling the document done, I had Claude review it, surface gaps, and ask me clarifying questions until nothing about the feature was ambiguous. At the time this was an improvised discipline; Matt Pocock has since formalized the same idea as his [grill-with-docs skill](https://github.com/mattpocock/skills/tree/main/skills/engineering/grill-with-docs), which I now use on every project. His version runs at implementation time, where mine ran at the spec stage, in chat. The rule is the same either way: resolve the ambiguity before generating anything.
 
-After each generation cycle, I used VS Code directly to make lightweight adjustments: spacing, typography, layout composition. Most designers would reflexively reach for Figma here, introducing the friction of jumping between tools or burning through tokens prompting the AI repeatedly until the output is close enough. Being a T-shaped designer removed that bottleneck entirely.
+Then I cleared everything. Each feature got a fresh Claude Code session, with the finished PRD as the only artifact crossing the boundary, alongside the standing inputs from Phase 3: the CLAUDE.md file, the design-principles skill, and HeroUI via MCP. Because the spec arrived ready to execute, the session went straight to building, in widening passes. The first pass scaffolded the screen, laying out empty regions, navigation, and structure with no real content yet. Then I went component by component, filling each section of the screen one at a time. Keeping inputs this small and sequential, and starting each feature from a clean context, made every output manageable and reviewable, and it held token consumption in check.
+
+This has since become a recognized pattern in agentic workflows: human-in-the-loop, multi-phase plans, where a large task is split into small scoped runs and the context is cleared between them. The formalized version externalizes the plan into a file the agent re-reads at every phase — which features exist, in what order, what's already done. My version had no such file. The cross-feature plan lived in my head: I was the plan file. That cost nothing on a solo project, and it kept the product's overall coherence where it belonged — with the human, not the model.
+
+<div class="figures wide">
+  <figure>
+    <div style="overflow-x:auto">
+      <svg viewBox="0 0 1080 612" role="img" aria-label="Diagram of the per-feature workflow: for each feature, a PRD is authored in Claude chat through a grill loop, the session is cleared, and a fresh Claude Code session executes in phases — scaffold, components, hand-edits — while the cross-feature plan is held by the human, not a file." style="display:block;width:100%;min-width:700px;font-family:var(--font-heading)">
+        <defs>
+          <g id="jm-flow-col">
+            <!-- Claude chat box -->
+            <rect x="0" y="0" width="310" height="140" rx="10" fill="var(--color-white)" stroke="var(--color-ink)" stroke-width="1.5"/>
+            <text x="20" y="34" font-size="19" font-weight="600" fill="var(--color-ink)">Claude chat</text>
+            <text x="20" y="60" font-size="16" fill="var(--color-ink)">Author the feature PRD:</text>
+            <text x="20" y="80" font-size="14" fill="var(--color-slate)">IA, sections, and states</text>
+            <text x="20" y="106" font-size="14" font-weight="600" fill="var(--color-amber)">&#10227; Grill loop: surface gaps, ask</text>
+            <text x="20" y="124" font-size="14" font-weight="600" fill="var(--color-amber)">questions until nothing is ambiguous</text>
+            <!-- Arrow with context break -->
+            <line x1="155" y1="140" x2="155" y2="182" stroke="var(--color-ink)" stroke-width="1.5"/>
+            <polygon points="149,181 161,181 155,190" fill="var(--color-ink)"/>
+            <line x1="146" y1="166" x2="164" y2="156" stroke="var(--color-amber)" stroke-width="2.5"/>
+            <line x1="146" y1="175" x2="164" y2="165" stroke="var(--color-amber)" stroke-width="2.5"/>
+            <text x="172" y="160" font-size="13" fill="var(--color-slate)">session cleared —</text>
+            <text x="172" y="176" font-size="13" fill="var(--color-slate)">only the PRD crosses</text>
+            <!-- Claude Code box -->
+            <rect x="0" y="190" width="310" height="200" rx="10" fill="var(--color-white)" stroke="var(--color-ink)" stroke-width="1.5"/>
+            <text x="20" y="224" font-size="19" font-weight="600" fill="var(--color-ink)">Fresh Claude Code session</text>
+            <text x="20" y="248" font-size="14" fill="var(--color-slate)">Inputs: PRD &#183; CLAUDE.md &#183;</text>
+            <text x="20" y="266" font-size="14" fill="var(--color-slate)">design skill &#183; HeroUI MCP</text>
+            <line x1="20" y1="284" x2="290" y2="284" stroke="var(--color-grey-light)" stroke-width="1.5"/>
+            <text x="20" y="314" font-size="16" font-weight="600" fill="var(--color-amber)">1</text>
+            <text x="38" y="314" font-size="16" fill="var(--color-ink)">Scaffold the IA skeleton</text>
+            <text x="20" y="342" font-size="16" font-weight="600" fill="var(--color-amber)">2</text>
+            <text x="38" y="342" font-size="16" fill="var(--color-ink)">Fill in component by component</text>
+            <text x="20" y="370" font-size="16" font-weight="600" fill="var(--color-amber)">3</text>
+            <text x="38" y="370" font-size="16" fill="var(--color-ink)">Hand-edit in VS Code</text>
+          </g>
+        </defs>
+        <!-- The plan: held by the human, never a file -->
+        <rect x="40" y="28" width="1000" height="88" rx="12" fill="var(--color-white)" stroke="var(--color-ink)" stroke-width="1.5" stroke-dasharray="7 5"/>
+        <circle cx="74" cy="58" r="9" fill="var(--color-ink)"/>
+        <path d="M 58 90 a 16 16 0 0 1 32 0 z" fill="var(--color-ink)"/>
+        <text x="106" y="60" font-size="13" font-weight="600" letter-spacing="1.5" fill="var(--color-amber)">THE PLAN &#8212; NEVER WRITTEN TO A FILE</text>
+        <text x="106" y="88" font-size="17" fill="var(--color-ink)">Which features exist, in what order, what &#8220;done&#8221; looks like &#8212; carried in my head between every session</text>
+        <!-- Connectors from plan to features -->
+        <line x1="195" y1="116" x2="195" y2="148" stroke="var(--color-slate)" stroke-width="1.5" stroke-dasharray="4 4"/>
+        <line x1="540" y1="116" x2="540" y2="148" stroke="var(--color-slate)" stroke-width="1.5" stroke-dasharray="4 4"/>
+        <line x1="885" y1="116" x2="885" y2="148" stroke="var(--color-slate)" stroke-width="1.5" stroke-dasharray="4 4"/>
+        <!-- Feature chips -->
+        <rect x="149" y="150" width="92" height="28" rx="14" fill="var(--color-white)" stroke="var(--color-amber)" stroke-width="1.5"/>
+        <text x="195" y="169" font-size="14" font-weight="600" fill="var(--color-ink)" text-anchor="middle">Feature 1</text>
+        <rect x="494" y="150" width="92" height="28" rx="14" fill="var(--color-white)" stroke="var(--color-amber)" stroke-width="1.5"/>
+        <text x="540" y="169" font-size="14" font-weight="600" fill="var(--color-ink)" text-anchor="middle">Feature 2</text>
+        <rect x="839" y="150" width="92" height="28" rx="14" fill="var(--color-white)" stroke="var(--color-amber)" stroke-width="1.5"/>
+        <text x="885" y="169" font-size="14" font-weight="600" fill="var(--color-ink)" text-anchor="middle">Feature n</text>
+        <!-- Columns -->
+        <use href="#jm-flow-col" x="40" y="196"/>
+        <use href="#jm-flow-col" x="385" y="196"/>
+        <use href="#jm-flow-col" x="730" y="196" opacity="0.4"/>
+      </svg>
+    </div>
+    <figcaption>The per-feature loop: spec-first in Claude chat, a cleared context, then phased execution in a fresh Claude Code session. The orchestration layer was human, not a plan file.</figcaption>
+  </figure>
+</div>
+
+After each generation cycle, I made lightweight adjustments directly in VS Code: spacing, typography, layout composition. The alternatives were worse — round-tripping the design back into Figma, or re-prompting the AI until the output drifted close enough, burning tokens on changes a human can make in seconds. Being a T-shaped designer removed that bottleneck entirely.
 
 For two straight weeks, I barely opened Figma except to reference existing sketches and wireframes. Of everything this process changed about how I work, that felt like the most significant shift.
 
 One deliberate choice shaped this phase: I kept the generated code clean enough to be a viable basis for an engineering handoff, even though production-readiness wasn't the goal. The gap between test-ready and ship-ready code is real, but I didn't want that gap to be a conversation-ender if an opportunity arose to take the prototype further.
 
-The generated code contained occasional inline styles instead of proper React component calls and minor structural inconsistencies, but it was more than sufficient for the stated purpose.
+The generated code contained occasional inline styles — the guardrail from my design-principles skill that Claude Code obeyed least reliably — and minor structural inconsistencies, but it was more than sufficient for the stated purpose.
 
 {% include figures.html images="/images/jewelers-mutual/illus-ai-prototype-final-jm.jpg" alt="Final mobile prototype screens" captions="Screens from the final mobile-first React prototype of the Digital Vault" tier="full" %}
 
-{% include eyebrow.html label="Outcomes" heading="What shipped: a prototype, executive alignment, and an honest accounting" %}
+{% include eyebrow.html label="Outcomes" heading="What shipped: a prototype and a different executive conversation" %}
 
 The result was a fully interactive, mobile-first React prototype representing the northstar vision for the product, built without engineering involvement across four weeks. I managed the code review, environment setup, and technical decisions myself.
 
@@ -159,22 +220,22 @@ That speed-to-fidelity ratio mattered enormously for a project aimed at aligning
 
 In this session, one business stakeholder stopped mid-presentation and began suggesting concrete ways to expand features and create synergies with partner jewelers. The conversation moved from abstract speculation about what the product should do to practical thinking about how to monetize it. Executives who typically struggle to engage with abstract product direction had something real to react to, and that changed what they were able to contribute.
 
-It also addressed a recurring structural challenge: a dynamic where executives fill knowledge gaps with opinions rather than engaging with the work directly. A tangible, interactive artifact shifted that dynamic.
+It also eased a familiar structural dynamic: when there's nothing concrete to react to, opinions fill the gap. A tangible, interactive artifact gave the discussion an anchor.
 
-{% include eyebrow.html label="Sidenote" heading="A note on what \"fast\" actually means here" %}
+{% include eyebrow.html label="Sidenote" heading="A note on what \"fast\" actually costs" %}
 
 AI tools make it dangerously easy to rush toward a solution. The prototype-generation phase feels productive, even exciting, and that feeling can seduce designers and stakeholders alike into skipping the harder work of problem definition. I've watched stakeholders pick up these tools and immediately start generating screens, bypassing research entirely. The output looks convincing. The thinking behind it often isn't.
 
 I was able to move quickly because I had been embedded in the problem space for several months. I could draw on existing research, prior discovery work, and accumulated context that made the design phase feel fast without actually being rushed. The AI accelerated execution. The research made that execution credible.
 
-### Where this workflow goes next
+The token cost of this approach is real, too. Agentic AI workflows can consume significant compute, because the model makes many sequential decisions. Organizations need to be honest about the ROI calculus before scaling this kind of process.
 
-The token cost of this approach is real. Agentic AI workflows can consume significant compute, because the model makes many sequential decisions. Organizations need to be honest about the ROI calculus before scaling this kind of process.
+### Where this workflow goes next
 
 For a next run, I'd apply the same pipeline to smaller-scope iterations aimed at building a production-ready MVP to test product/market fit for new ideas. The workflow suits early-stage validation where speed of learning matters more than code quality.
 
 Since this project, generative AI and prototyping tools have become a permanent part of my daily workflow, and they have tremendously sped up my design process. I reach for them across research, exploration, and building. That includes this very portfolio, which I'm actively refactoring with the same AI-assisted approach. What started as a deliberate experiment under constraint is now simply how I work.
 
-Each phase required deliberate human decisions: the research, the sketching, the prompting, the tweaking. The AI accelerated execution. It didn't replace the thinking that made execution worth doing.
+Each phase required deliberate human decisions: the research, the sketching, the prompting, the tweaking. What stayed human was the thinking, the judgment, and the framing of the right problem. PMs, designers, and developers who forget this aren't using AI as a tool. They're outsourcing their craft.
 
 {% include pullquote.html quote="The tooling was the accelerant. Human judgment was the engine." %}
