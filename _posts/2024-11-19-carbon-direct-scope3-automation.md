@@ -1,117 +1,97 @@
 ---
 layout: post
-title:  "Designing AI-Powered Workflows: Streamlining Scope 3 Emissions at Carbon Direct"
+title: "Human-in-the-loop AI for carbon accounting: automating Scope 3 emissions at Carbon Direct"
 excerpt: |
-    Designing an AI-powered workflow at Carbon Direct to streamline Scope 3 emissions calculations, reducing manual corrections by 20% and improving data ingestion efficiency by 15%, while enhancing usability for internal teams.
+  How I designed a human-in-the-loop AI workflow for Scope 3 spend-based emissions at Carbon Direct. LLMs categorized the spend data, analysts corrected the results, and every correction trained the model. Ingestion got 15% faster and manual corrections dropped 20%.
 thumbnail: "/images/illus-AI-scope3-cov.jpg"
-date:   2024-11-19 13:30:00 +0200
+date: 2024-11-19 13:30:00 +0200
 lang: en
-ref: carbon direct
+ref: carbon-direct-scope3-automation
 author: Mathieu Fortune
 theme: Case Study
 featured: false
+hero: "/images/illus-AI-scope3-cov.jpg"
+summary: |
+  Carbon Direct helps businesses and governments measure, reduce, and remove their carbon emissions. When I joined, calculating spend-based Scope 3 emissions consumed half the time needed to produce a customer's carbon footprint. Engineers had built a machine learning proof of concept, but its error rate was high and it had almost no UX.
+
+  As Senior Product Designer, I owned the end-to-end design of a new workflow that paired AI categorization with a correction tool where every analyst fix trained the model. Data ingestion got 15% faster and manual corrections dropped 20%.
+role: "Sr. Product Designer, covering UX research, workflow mapping, interaction design, prototyping, and usability testing"
+team:
+  - "Product Manager"
+  - "5 Engineers"
+  - "Myself as Sr. Product Designer"
+timeline: "Q2 2024 (~3 months)"
+tools: "Miro, Figma, Google Sheets"
 ---
 
-{% include lazy-image.html src="/images/illus-AI-scope3-cov.jpg" alt="" figClass="" %}
+{% include eyebrow.html label="Context" heading="Half of every carbon footprint went to one step" %}
 
-## Overview
-When I joined Carbon Direct, a company dedicated to science-backed carbon management solutions, I knew I’d be tackling complex challenges with significant implications.
+Carbon Direct provides science-backed carbon management to Fortune 500 companies, high-growth startups, and heavy industries. These customers use their carbon footprints for reporting, compliance, and decarbonization planning, so the numbers have to be right.
 
-Carbon Direct’s  helps businesses and governments measure, reduce, and remove their carbon emissions. For a company serving Fortune 500 businesses, high-growth startups, and heavy industries, precision and efficiency weren’t just nice-to-haves—they were mission-critical.
+The most demanding step in producing a footprint was Scope 3 spend-based accounting: take a customer's spend data, assign each line item a NAICS industry code, and apply the matching emission factor. The spend files arrived messy and held thousands of line items. Coding them correctly took domain judgment, backed by EPA guidance and the GHG Protocol. When I joined, this one step consumed 50% of the total time needed to produce a footprint.
 
-One of my first projects was to streamline and optimize the process for ingesting and calculating Scope 3 spend-based emissions. This was a fascinating opportunity to combine user research, design, and emerging technologies like AI and machine learning (ML) to solve a significant bottleneck.
+Engineers had built a proof of concept that used large language models and machine learning to automate parts of the process. It showed promise, but the error rate was high enough to require extensive manual review, and the UX was almost nonexistent.
 
-## The challenge: A time-consuming bottleneck
-At the time, calculating spend-based emissions consumed 50% of the total time required to produce a carbon footprint. This created a significant hurdle for internal teams tasked with delivering these critical insights to customers.
+The project had two objectives: make the workflow faster and more intuitive for the carbon accountants and analysts who used it every day, and refine the automation so it could learn from their corrections. The end goal was to free the internal team for higher-value work and lower the cost of processing data.
 
-The existing workflow involved ingesting raw spend data, cleaning it, and assigning NAICS codes (the classification system that powers emission factor calculations). While engineers had developed a proof-of-concept using Large Language Models (LLMs) and ML to automate parts of this process, the UX was almost inexistent, and the automation’s error rate was high enough to require extensive manual review.
+{% include eyebrow.html label="Discovery" heading="Mapping how carbon accountants actually worked" %}
 
-The project had two main objectives:
-- Improve the UX flow for carbon accountants and analysts, making the process faster, more intuitive, and efficient.
-- Leverage AI and refine ML to automate repetitive tasks, introducing a reinforced learning mechanism for data categorization.
+I started by interviewing carbon accountants and data analysts and walking through their workflow step by step. I documented the current flow in Miro, flagged the areas causing the most friction, and linked early sketches directly to the map so the team could react to ideas in context.
 
-Ultimately, the goal was to **free up internal teams to focus on higher-value activities and reduce the overall cost of processing data**.
+This phase was also where I learned the domain. Carbon accounting was new to me, so I read EPA guidelines and the GHG Protocol and leaned on subject matter experts to check my understanding. I needed that base to design anything useful. I couldn't simplify steps I didn't understand.
 
-## My role: Designing for humans and machines
-As the Senior Product Designer, **I owned the end-to-end design process for this project**, collaborating with a Product Manager and a team of five engineers.
+{% include figures.html images="/images/illus-AI-scope3-01.png" alt="The existing Scope 3 workflow mapped in Miro" captions="The internal team's existing workflow documented in Miro, with early sketches linked to the map" tier="wide" %}
 
-My approach included:
-- **User Research**: Conducted interviews and workflow analyses with carbon accountants and data analysts to identify pain points and understand their ideal workflows.
-- **Design Deliverables**: Created wireframes, flow diagrams, incremental improvements, and detailed specifications that were both user-friendly and technically feasible.
-- **Collaboration**: Facilitated regular design reviews to incorporate feedback from stakeholders and engineers, ensuring alignment and buy-in.
-- **Advocacy**: Documented design decisions to highlight the design team’s impact, building trust with leadership.
+{% include eyebrow.html label="Process" heading="Design the ideal, then cut ruthlessly" %}
 
-## Key features delivered
-Here are some of the core solutions I helped deliver:
+With the current state mapped, I wireframed an ideal-world solution: a multi-step process that connected existing UI components in a more efficient and intuitive way, without worrying yet about what we could ship first.
 
-**Multi-step data ingestion and cleanup flow**
+{% include figures.html images="/images/illus-AI-scope3-02.png" alt="Wireframes of the ideal multi-step ingestion flow" captions="Wireframing the ideal-world solution as a multi-step process" tier="wide" %}
 
-A streamlined process with tools for formatting data, CSV templates, mapping functionality, and visual tables to show automation results.
-This eliminated much of the manual prep work and made the workflow more intuitive for the team.
+After gathering feedback on the wireframes, I designed a high-fidelity version of the strongest concept. That gave the team something concrete to align on.
 
-**Automated categorization with AI**
+{% include figures.html images="/images/illus-AI-scope3-03.jpg" alt="High-fidelity exploration of the main solution concept" captions="A high-fidelity pass on the main concept, used to align the team on direction" tier="wide" %}
 
-We used large language models (LLMs) to categorize spend line items by NAICS codes based on chart of account categories, a data point provided in the raw spend data.
-This significantly reduced manual effort and errors while speeding up the process.
+The ideal version was too big to build in one go, so I drew a flow diagram of the improved workflow and split it into prioritized milestones. The diagram made feedback easier to collect and gave stakeholders a clear picture of what would ship when.
 
-**Manual correction tool with an ML feedback loop**
+{% include figures.html images="/images/illus-AI-scope3-04.png" alt="Flow diagram of the improved workflow split into milestones" captions="The improved workflow as a flow diagram, prioritized by milestone to contain scope" tier="wide" %}
 
-I designed tables and forms where users could review and correct the AI’s categorization.
-Every correction fed back into the ML model, improving its accuracy and effectiveness over time.
+{% include eyebrow.html label="Solution" heading="A workflow where every correction trains the model" %}
 
-**User-centered research and prototypes**
+The shipped design follows the data through three stages.
 
-I organized insights using Miro and prioritized solutions that addressed the biggest user pain points.
-The final UIs were developed in Figma alongside a rapid prototype, allowing us to quickly validate usability and align across teams.
+**Ingestion and cleanup.** A multi-step flow with CSV templates, mapping functionality, and formatting tools turned messy spend files into clean, structured data. Visual tables showed the results of each automated step, so analysts always knew what the system had done. This removed most of the manual prep work.
 
-## The design process
-The following screenshots highlight parts of my design process:
+**AI categorization.** Large language models assigned NAICS codes to each spend line item, using the chart of account categories already present in the raw data. Analysts no longer had to code thousands of lines by hand.
 
-#### Mapping the current workflow in Miro
-I started by documenting the internal team's existing flow using Miro, identifying areas for improvement. Early sketches were linked to this flow to better communicate ideas and foster collaboration with the team.
-{% include lazy-image.html src="/images/illus-AI-scope3-01.png" alt="" caption="" figClass="large-post-image" %}
+**Correction with a feedback loop.** This was the heart of the project. I designed tables and forms where analysts could review the AI's categorization and fix what it got wrong. Every correction fed back into the ML model, so the same mistakes showed up less often over time.
 
-<br/>
-#### Wireframing the ideal solution
-Next, I transitioned into a wireframing session to design an ideal-world solution. This involved creating a multi-step process that connected existing UI components in a more efficient and intuitive way.
-{% include lazy-image.html src="/images/illus-AI-scope3-02.png" alt="" caption="" figClass="large-post-image" %}
+To validate the design, I turned the high-fidelity UIs into a simple Figma prototype, ran usability tests with the internal team, and handed the finalized flows to engineering with detailed specifications.
 
-<br/>
-#### Developing high-fidelity designs
-After gathering feedback on the wireframes, I focused on designing a high-fidelity version of one of my sketches. This iteration illustrated the main solution concept in detail, ensuring alignment across the team.
-{% include lazy-image.html src="/images/illus-AI-scope3-03.jpg" alt="" caption="" figClass="large-post-image" %}
+{% include figures.html images="/images/illus-AI-scope3-05.jpg" alt="Final UIs prepared for usability testing and engineering handoff" captions="Final high-fidelity UIs, prototyped for usability testing and handed off to engineering" tier="wide" %}
 
-<br/>
-#### Creating a flow diagram to address scope creep
-To counter scope creep and provide clarity, I created a flow diagram highlighting the improved workflow, prioritized by milestones. This approach helped limit scope creep, collect feedback, and align stakeholders.
-{% include lazy-image.html src="/images/illus-AI-scope3-04.png" alt="" caption="" figClass="large-post-image" %}
+Three challenges ran through the whole project.
 
-<br/>
-#### Usability testing and engineer hand-off
-With the first milestone prioritized, I designed high-fidelity UIs with clear flows, turned them into a simple prototype for usability testing, and shared the finalized designs with engineers for seamless implementation.
-{% include lazy-image.html src="/images/illus-AI-scope3-05.jpg" alt="" caption="" figClass="large-post-image" %}
+<div class="cs-grid wide">
+  {% include callout.html variant="compact" heading="Earning trust" text="The design team had just been restructured and leadership wanted results. I delivered in small increments and tailored my communication to each stakeholder." %}
+  {% include callout.html variant="compact" heading="Learning carbon science" text="Footprint reporting demands scientific rigor. I studied EPA guidelines and the GHG Protocol and worked with subject matter experts to keep the designs accurate." %}
+  {% include callout.html variant="compact" heading="Learning ML" text="How the model would interact with spend data was unclear at first. I learned the basics of ML with the engineers so I could design a workflow the model could actually support." %}
+</div>
 
-## Overcoming challenges
-This wasn’t a straightforward project—there were significant hurdles along the way:
+{% include eyebrow.html label="Outcomes" heading="What the automation moved" %}
 
-**Building trust under tight timelines**
-With the design team recently reorganized, leadership was eager for results. To demonstrate value, I tailored my communication to stakeholders, anchored deliverables in an iterative approach, and focused on delivering impact quickly.
+<div class="cs-stats wide">
+  {% include stat.html value="50%" label="of footprint time" support="went to this one step before the redesign" %}
+  {% include stat.html value="+15%" label="faster data ingestion" support="through automated prep and cleanup" %}
+  {% include stat.html value="-20%" label="manual corrections" support="as the model learned from analyst fixes" %}
+</div>
 
-**Understanding carbon science**
-Carbon footprint reporting required a deep understanding of carbon science, a field I was new to. I immersed myself in EPA guidelines, GHG Protocols, and collaborated with subject matter experts to ensure the designs met rigorous standards.
+The redesigned workflow also gave the internal team a process they could trust and build on. Leadership pointed to the project as proof of what the restructured design team could deliver.
 
-**Leveraging machine learning**
-Initially, it wasn’t clear how the ML algorithm would interact with spend data. By working closely with engineers and learning the basics of ML, I designed workflows that made the AI more user-friendly and effective.
+{% include eyebrow.html label="Reflection" heading="Designing for humans and machines" %}
 
-## The results
-The project delivered measurable improvements:
+I had to learn two hard domains at once, carbon science and machine learning, then design a workflow that experts could trust. The experience convinced me that the best AI workflows keep people in charge. The model does the repetitive work, and the experts stay in control of the results.
 
-- **15% Faster Data Ingestion**: Automated repetitive tasks, significantly reducing processing time.
-- **20% Fewer Manual Corrections**: Minimized errors and improved confidence in outputs.
-- **Simpler, Smarter UX**: Redesigned workflows empowered internal teams to work more effectively.
-- **Positive Stakeholder Feedback**: Leadership praised the improved efficiency and usability, strengthening trust in the restructured design team.
+Two years later at Jewelers Mutual, I took this work further and used AI to [build an interactive prototype without engineers]({% post_url 2026-06-23-jewelers-mutual-ai-prototype-case-study %}).
 
-## Reflection
-This project challenged me to dive headfirst into a technically complex process and transform it into an intuitive user experience. By combining a user-centered approach with cutting-edge technology, we delivered a solution that not only addressed business needs but also empowered the team to work more effectively.
-
-For me, it demonstrated how design can drive meaningful impact, even in highly technical and data-intensive environments. It reinforced my belief that the best design isn’t just functional—it’s human.
+{% include pullquote.html quote="The analysts were not cleaning up after the AI. They were training it to need them less." %}
