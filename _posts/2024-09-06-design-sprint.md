@@ -2,9 +2,9 @@
 layout: post
 title: "Adapting a Design Sprint for Carbon Direct's Product Roadmap"
 excerpt: |
-  In this case study, I dive into my experience leading an adapted design sprint at Carbon Direct, a climate tech startup. Our challenge? Developing a decarbonization roadmap for the company's carbon management platform. I'll walk you through my problem-solving approach, how I collaborated with cross-functional teams, and the customized methods I employed to deliver impactful, user-centric solutions. This project showcases my ability to tackle complex challenges and drive innovation in a fast-paced startup environment.
+  How I adapted a Design Sprint at Carbon Direct to scope a new decarbonization product in one week, with a brand-new team in a domain none of us knew yet.
 thumbnail: "/images/illustration-design-sprint-cd-cover.png"
-date: 2024-09-07 13:30:00 +0200
+date: 2024-09-06 13:30:00 +0200
 lang: en
 ref: design-sprint-cd
 author: Mathieu Fortune
@@ -12,9 +12,9 @@ theme: Case Study
 featured: true
 hero: "/images/illus-design-sprint-hero.jpg"
 summary: |
-  Shortly after joining Carbon Direct, I crafted and facilitated a cross-functional effort to rapidly define the potential product roadmap of the "Decarbonization" workstream. Despite a newly formed team, limited domain knowledge, no leadership direction, and thin insight into users' decarbonization needs, I adapted a Design Sprint to overcome these obstacles and generate praised levels of collaboration and team building.
+  Shortly after joining Carbon Direct, I designed and ran a shortened Design Sprint to scope a potential product for the new Decarbonization workstream. The team was brand new, none of us knew the domain well, and we had little insight into what customers actually did after receiving their carbon footprint report.
 
-  Within a week, I led the team to establish market positioning, identify customer journeys, define ideal customer targets, engage subject-matter experts, generate informed sketches, and deliver a comprehensive flowchart and wireframes to guide the product roadmap.
+  In one week, we mapped the market positioning, defined the ideal customer, interviewed subject-matter experts, sketched solutions, and turned the results into a user flow and wireframes that leadership used to weigh the vertical's future.
 role: "Sr. Product Designer — UX Research, Workshop Facilitation, Visual Design, User Flows, Rapid Prototyping"
 team:
   - "Laura — Sr. Product Manager"
@@ -26,26 +26,26 @@ tools: "Miro, Zoom, Google Drive"
 
 ## Introduction
 
-As I joined Carbon Direct, I was immediately presented with an exciting challenge that would test my skills as a Senior Product Designer. Carbon Direct, a company known for its robust, science-backed solutions, helps businesses and governments measure and manage their carbon footprint through advisory services and a SaaS platform. Serving a diverse customer portfolio — including Fortune 500 companies, high-growth startups, and primary-sector industries — Carbon Direct lets customers manage their carbon footprint across three key areas: measurement (GHG inventory), reduction (decarbonization strategies), and removal (carbon credit voluntary market).
+Carbon Direct helps businesses and governments measure and manage their carbon footprint, combining advisory services with a SaaS platform. Its customers range from Fortune 500 companies to high-growth startups and heavy industry. The platform covers three areas: measuring emissions (the GHG inventory), reducing them (decarbonization strategies), and removing what remains (the voluntary carbon market).
 
-While well-established in the measurement and removal spaces, the "Decarbonization" area — focusing on reduction and mitigation strategies — represented a new opportunity for Carbon Direct to expand its offerings and impact. I was thrilled to join the newly formed Decarbonization team and establish the scope and roadmap for this workstream. Our starting point was a common customer question:
+Measurement and removal were well established. Reduction was not. The company had just formed a small Decarbonization team to figure out what a reduction product could look like, and I joined it a few weeks after starting as Senior Product Designer. Our starting point was a question customers kept asking:
 
 {% include callout.html text="\"What is next after receiving my carbon footprint report?\"" %}
 
-I collaborated closely with Laura (Sr. Product Manager) and Jasper (Sr. Engineer) as the core team. To leverage all available expertise, I also involved cross-functional stakeholders in collaborative workshops, including a Climate Scientist, Customer Support Manager, Carbon Accountant, and Data Analyst.
+Laura (Sr. Product Manager), Jasper (Sr. Engineer) and I formed the core team. We also pulled in colleagues from across the company for workshops and interviews: a climate scientist, a customer support manager, a carbon accountant, and a data analyst.
 
-I structured the project to run for five days, with the following key milestones:
+I structured the project to run for five days, with these milestones:
 
 - Collect existing insights about customers and the market
 - Identify past decarbonization efforts and pain points
-- Focus the scope and prioritize a user problem to solve
-- Run collaborative sessions to validate assumptions, test ideas, and generate sketches
-- Develop a user flow and wireframes representing potential solutions
-- Present results to leadership
+- Narrow the scope and pick one user problem to solve
+- Run collaborative sessions to test assumptions and generate sketches
+- Turn the results into a user flow and wireframes
+- Present to leadership
 
 ## Challenges
 
-As I dove into the project, I quickly realized our team faced several significant challenges:
+A few days of digging made the constraints clear:
 
 <div class="cs-grid wide">
   {% include callout.html variant="compact" text="Unclear customer profile for this product area" %}
@@ -56,68 +56,68 @@ As I dove into the project, I quickly realized our team faced several significan
   {% include callout.html variant="compact" text="Untapped expertise of internal carbon science experts" %}
 </div>
 
-These challenges reflected Carbon Direct's broader aim of productizing deep scientific expertise and bespoke advisory solutions into a scalable SaaS platform. I was excited by the opportunity to show how we could achieve this while identifying the ideal customer profile for maximum impact.
+Behind all of this sat a bigger question for the company: could its deep scientific expertise and bespoke advisory work be turned into a scalable product? This sprint was a first test of that.
 
 ## Approach and Methodology
 
-To rapidly align the team and leverage internal expertise under tight timelines, I adapted the Design Sprint to focus on the Understand, Sketch, and Decide phases. Tailoring the Design Sprint would let us:
+A full Design Sprint would not have worked here. We had no product to test and no users lined up, and we needed alignment more than validation. So I kept the Understand, Sketch, and Decide phases and dropped the rest. That gave us room to:
 
-- Gather existing customer insights and identify past decarbonization efforts
-- Accelerate the team's learning curve by engaging carbon science experts
-- Make rapid decisions to move forward despite uncertainty
-- Focus on translating domain expertise into compelling platform features
+- Gather what the company already knew about customers and past decarbonization efforts
+- Get the team up the learning curve fast by putting carbon scientists in the room
+- Make decisions and keep moving despite the uncertainty
+- Focus on turning domain expertise into concrete platform features
 
-I facilitated collaborative Miro workshops to map the problem space, sketch solutions, and define a roadmap. I also conducted individual interviews with cross-functional stakeholders to gather insights and validate assumptions.
+I ran the group sessions as Miro workshops over Zoom, and held one-on-one interviews with stakeholders between sessions to gather insights and check our assumptions.
 
 {% include figures.html images="/images/illus-design-sprint-plan.png" captions="Default schedule of a Design Sprint" tier="wide" %}
 
 ## Process & Execution
 
-Each day of the sprint, our process centered around key activities:
+Each day of the sprint centered on a few key activities:
 
 <ol class="timeline wide">
   <li>
     <p class="timeline__title">Insight Collection and Problem Definition</p>
     <ul>
-      <li>I conducted in-depth research to clarify the broad problem definition</li>
-      <li>Together with the team, we identified market opportunities and aligned them with company OKRs</li>
-      <li>I created iterative customer journey maps focusing on the decarbonization phase</li>
-      <li>We developed persona cards for primary and secondary users</li>
-      <li>I mapped the existing advisory team process to identify gaps and opportunities</li>
+      <li>I gathered existing research to sharpen the problem definition</li>
+      <li>Together, we mapped market opportunities against company OKRs</li>
+      <li>I drafted customer journey maps focused on the decarbonization phase</li>
+      <li>We wrote persona cards for primary and secondary users</li>
+      <li>I mapped how the advisory team worked at the time to spot gaps and opportunities</li>
     </ul>
   </li>
   <li>
     <p class="timeline__title">Problem Mapping and Goal Setting</p>
     <ul>
-      <li>I facilitated a session to define the long-term goal for the project</li>
-      <li>We created a comprehensive map of actors and actions leading to the end goal</li>
-      <li>I prepared targeted questions for team input in upcoming sessions</li>
+      <li>I ran a session to set the long-term goal for the project</li>
+      <li>We mapped the actors and actions leading to that goal</li>
+      <li>I prepared targeted questions for the expert sessions ahead</li>
     </ul>
   </li>
   <li>
     <p class="timeline__title">Expert Consultation and Problem Targeting</p>
     <ul>
-      <li>I presented the problem map to stakeholders in individual interviews</li>
-      <li>We collected and documented stakeholder feedback</li>
-      <li>I guided the team in transforming feedback into "How Might We" (HMW) statements</li>
-      <li>Together, we organized HMW statements into categories</li>
-      <li>We selected a specific target HMW statement to focus on in the sketching session</li>
+      <li>I walked stakeholders through the problem map in one-on-one interviews</li>
+      <li>We documented their feedback</li>
+      <li>We turned that feedback into "How Might We" (HMW) statements</li>
+      <li>We grouped the statements into categories</li>
+      <li>We picked one target statement to carry into the sketching session</li>
     </ul>
   </li>
   <li>
     <p class="timeline__title">Solution Ideation</p>
     <ul>
-      <li>I led a review of insights gathered throughout the week</li>
+      <li>I opened with a review of everything we had learned during the week</li>
       <li>I facilitated a team sketching session to generate solution ideas</li>
-      <li>We connected ideas with personas, customer journey, and unique differentiators</li>
+      <li>We tied the strongest ideas back to the personas, the journey map, and our differentiators</li>
     </ul>
   </li>
   <li>
     <p class="timeline__title">Concept Refinement and Presentation</p>
     <ul>
-      <li>I transformed our sketches into a cohesive flowchart diagram</li>
-      <li>I developed comprehensive wireframes incorporating key insights and ideas</li>
-      <li>We presented the flowchart and wireframes to the internal team</li>
+      <li>I turned our sketches into a single flowchart</li>
+      <li>I built wireframes around the key insights and ideas</li>
+      <li>We presented both to the internal team</li>
       <li>We delivered the final presentation to leadership</li>
     </ul>
   </li>
@@ -125,89 +125,89 @@ Each day of the sprint, our process centered around key activities:
 
 ## Deliverables and Artifacts
 
-Throughout the sprint, we created several key deliverables that guided our thinking and decision-making.
+Here is what the week produced, and how each piece moved our thinking forward.
 
 {% include eyebrow.html label="Discover & Understand" heading="Market Positioning and OKR Alignment" %}
 
-I spearheaded the effort to define Carbon Direct's market positioning for its decarbonization solution. This involved a thorough analysis of our unique value proposition and how it fits within the broader market landscape. I ensured this positioning aligned with our company's objectives and key results (OKRs), creating a clear link between our product strategy and overall business goals.
+I led the work on positioning: where a decarbonization product could sit in the market, what made Carbon Direct's version different, and how it connected to the company's objectives and key results (OKRs). This gave us a clear link between the product ideas and the business goals behind them.
 
 {% include figures.html layout="feature" images="/images/illus-design-sprint-market-pos-01.png|/images/illus-design-sprint-market-pos-02.png|/images/illus-design-sprint-market-pos-03.png" alt="Market positioning artifact" tier="wide" %}
 
 {% include eyebrow.html label="Discover & Understand" heading="User Journey Maps" %}
 
-I facilitated the creation of comprehensive user journey maps capturing the entire customer experience across the carbon management process, with special emphasis on the critical decarbonization phase. Through multiple iterations and collaborative sessions, we refined these maps based on insights about varying customer "carbon maturity" levels, providing a nuanced view of user needs at different stages of their decarbonization journey.
+I facilitated the mapping of the customer experience across the whole carbon management process, with emphasis on the decarbonization phase. We revised the maps several times as interviews taught us how differently customers approach reduction depending on their "carbon maturity", which gave us a nuanced view of what users need at each stage.
 
 {% include figures.html layout="feature" images="/images/illus-design-sprint-journey-map-01.png|/images/illus-design-sprint-journey-map-02.png|/images/illus-design-sprint-journey-map-03.png" alt="User journey map artifact" tier="wide" %}
 
 {% include eyebrow.html label="Discover & Understand" heading="Persona Cards" %}
 
-Building on our research and analysis, I guided the team in developing detailed persona cards representing our ideal platform customers. I was thrilled to uncover the concept of "carbon maturity" levels, which emerged as a key lens for prioritizing features and solutions. Each persona card included rich detail about user goals, pain points, and needs, serving as a valuable reference throughout our design process.
+From the research, we built persona cards for our ideal platform customers. The most useful thing to come out of this exercise was the idea of carbon maturity levels. It gave us a simple lens for deciding which users to serve first, and it stuck around well past the sprint. Each card recorded what the persona was trying to achieve and where they got stuck.
 
 {% include figures.html layout="3up" images="/images/illus-design-sprint-persona01.jpg|/images/illus-design-sprint-persona02.jpg|/images/illus-design-sprint-persona03.jpg|/images/illus-design-sprint-persona04.jpg|/images/illus-design-sprint-persona05.jpg" alt="Series of persona cards" tier="wide" %}
 
 {% include eyebrow.html label="Discover & Understand" heading="Science Advisor Role Documentation" %}
 
-I interviewed members of our science advisory team, gaining deep insight into their tasks, challenges, and needs when working with customers on decarbonization strategies. This documentation ensured our solutions were firmly grounded in the realities faced by our internal experts, bridging the gap between scientific expertise and user-friendly platform design.
+I interviewed our science advisors about how they work with customers on decarbonization strategies. Their day-to-day reality became the ground truth for our solutions and kept the platform ideas honest about what the science work actually involves.
 
 {% include figures.html layout="2up" images="/images/illus-design-sprint-advisory01.png|/images/illus-design-sprint-advisory02.png" alt="Notes from internal user research" tier="wide" %}
 
 {% include eyebrow.html label="Discover & Understand" heading="Problem Map and \"HMW\" Statements" %}
 
-I facilitated the creation of a comprehensive map representing key actors in the decarbonization workstream, which served as a foundation for gathering feedback from our cross-functional team. I then led the effort to distill that feedback into actionable "How Might We" (HMW) statements, capturing both user and internal-team pain points and providing clear direction for our ideation process.
+I mapped the actors involved in a decarbonization engagement, then used the map to collect feedback from the cross-functional team. We distilled that feedback into "How Might We" statements covering both customer and internal pain points, which gave the sketching session its prompts.
 
 {% include figures.html layout="2up" images="/images/illus-design-sprint-problem-map.png|/images/illus-design-sprint-hmws.png" alt="Problem map and HMW statements" tier="wide" %}
 
 {% include eyebrow.html label="Explore & Ideate" heading="Solution Sketches" %}
 
-Using our HMW statements as prompts, I organized and facilitated a dynamic sketching session. This collaborative effort ensured our team generated a wide range of potential solutions directly addressing the identified challenges. The sketches served as a visual brainstorm, capturing innovative ideas and potential feature concepts.
+With the HMW statements as prompts, the team sketched a wide range of possible solutions. The sketches worked as a visual brainstorm and surfaced several feature concepts we carried forward.
 
 {% include figures.html layout="2up" images="/images/illus-design-sprint-sketch01.png|/images/illus-design-sprint-sketch02.jpg|/images/illus-design-sprint-sketch03.jpg|/images/illus-design-sprint-sketch04.png" alt="Sketches generated during ideation sessions" tier="wide" %}
 
 {% include eyebrow.html label="Decide" heading="Flowchart Diagram and Roadmap" %}
 
-Synthesizing insights from all previous sprint stages, I developed a comprehensive flowchart diagram that formed the backbone of our 6-month decarbonization roadmap. This flowchart connected our proposed solutions into a coherent, actionable plan, illustrating how different features and touchpoints would work together to address user needs and business objectives.
+I pulled the strongest ideas into a single flowchart showing how the features could work together. It became the backbone of a candidate six-month roadmap for the vertical: not a commitment, but a concrete picture of what building this product would involve.
 
 {% include figures.html images="/images/illus-design-sprint-uflow.png" alt="Flowchart diagram of potential feature set" tier="wide" %}
 
 {% include eyebrow.html label="Decide" heading="Wireframes" %}
 
-To effectively communicate our ideas and proposed solutions to stakeholders, I created detailed wireframes. These brought our key concepts to life, showcasing the potential user interface and interactions, and served as a powerful tool for facilitating discussions around feasibility, impact, and next steps.
+I closed the week by wireframing the key screens. They made the concepts tangible for stakeholders and anchored the discussions about feasibility and next steps that followed.
 
 {% include figures.html layout="3up" images="/images/illus-design-sprint-wire02.png|/images/illus-design-sprint-wire01.png|/images/illus-design-sprint-wire03.png" alt="Wireframes representing one potential solution" tier="wide" %}
 
-## Challenges Encountered During the Sprint
+## Challenges During the Sprint
 
-As the senior product designer facilitating this sprint, I encountered and overcame several challenges. Two significant hurdles were managing scope and focus, and maximizing limited stakeholder availability.
+Two things got difficult mid-sprint: scope, and stakeholder time.
 
 ### Managing Scope and Focus
 
-**The challenge:** After our first day, the breadth of gaps and opportunities we had identified was overwhelming. It became clear we couldn't address all of them within the constraints of our sprint, potentially derailing our progress.
+**The challenge:** By the end of day one, we had surfaced far more gaps and opportunities than a one-week sprint could touch. Left unchecked, that breadth would have stalled us.
 
 My approach:
 
-- I quickly brought the issue to the team's attention, facilitating an open discussion about the various opportunities and their potential impact.
-- Together, we made the difficult but necessary decision to draw a line in the sand and move forward with a specific long-term goal.
-- I ensured we thoroughly documented our decision-making process, anticipating the need to justify our choice later.
-- We created a backlog of the other identified opportunities, preserving these valuable insights for future exploration.
+- I raised it with the team right away and we talked through the options openly.
+- We picked one long-term goal and drew the line there.
+- We documented why, expecting to have to justify the choice later.
+- Everything we cut went into a backlog instead of the bin.
 
-**The outcome:** This allowed us to move forward with a clear focus while keeping track of future areas to explore. We chose a goal that would best synergize with our customer needs and business objectives. By addressing this challenge head-on, we maintained momentum and delivered more impactful results by the end of the week, while demonstrating our strategic thinking to stakeholders.
+**The outcome:** We kept our momentum and finished the week with something concrete. The goal we chose sat at the intersection of customer needs and business objectives, and the backlog preserved the rest for later.
 
 ### Maximizing Limited Stakeholder Availability
 
-**The challenge:** Ensuring efficient use of our science advisors' limited time during the sprint was crucial. These key stakeholders had numerous responsibilities, and their availability was constrained.
+**The challenge:** Our science advisors were key stakeholders with full calendars. We had to get real insight out of very short sessions.
 
 My approach:
 
-- I conducted preliminary research to understand the science advisors' roles and responsibilities.
-- This groundwork allowed my team to formulate informed assumptions about their work processes and pain points.
-- I established a clear schedule and structure for each interview, preparing targeted questions and scenarios based on our assumptions.
-- During the interviews, we focused on quickly validating or challenging these assumptions, rather than engaging in open-ended discussions.
+- I researched their roles before the interviews so we would not spend their time on basics.
+- We wrote down our assumptions about their process and pain points ahead of time.
+- Each interview had a tight structure: targeted questions and scenarios, no open-ended discussion.
+- In the room, we focused on confirming or breaking our assumptions.
 
-**The outcome:** This strategic approach let us gather maximum insight in minimum time, respecting our stakeholders' busy schedules while still obtaining crucial information. The experience underscored the importance of preparation and strategic thinking in design sprints, especially when working with stakeholders who have significant time constraints.
+**The outcome:** We got what we needed in short sessions and the advisors stayed engaged, which mattered later when we needed their eyes on the sketches.
 
 ## Outcomes and Impact
 
-It was rewarding to see our project receive praise from peers and leadership for rapidly aligning the team and generating meaningful solutions. The "carbon maturity" concept we developed was further iterated upon and integrated into the company's strategic thinking. One of the most rewarding outcomes was seeing how the project improved collaboration between advisory and platform teams and gave leadership insight into the challenges and opportunities of productizing bespoke solutions.
+The sprint aligned a brand-new team in a week and gave leadership a clear-eyed view of what a decarbonization product would take. The carbon maturity concept outlived the project: it was iterated on and folded into the company's strategic thinking. The work also brought the advisory and platform teams closer together, which paid off well beyond this project.
 
 <div class="testimonials wide">
   {% include testimonial.html quote="Hats off to Mathieu for diving in and helping us define our team's roadmap after just a few weeks at the company. Despite being new to the domain and facing a complex problem, Mathieu's proactive approach and eagerness to learn were crucial to the success of our ideation sessions." author="Laura F., Senior Product Manager" %}
@@ -215,19 +215,21 @@ It was rewarding to see our project receive praise from peers and leadership for
   {% include testimonial.html quote="Big shoutout to the decarb team for leading an impactful ideation session under a tight timeline and tackling such complex challenges. I've heard great feedback from both the science and customer support teams about this work. Well done!" author="Maria M., Director of Product" %}
 </div>
 
-While the Decarbonization team unfortunately dissolved shortly after the design sprint due to the Product Manager's departure, the impact of our work continued to resonate. I was reassigned to the "Measure" workstream, where I applied the insights and methodologies from this sprint to drive significant results over the next seven months:
+In the end, the company decided not to build the vertical. The sprint had produced a candidate roadmap, but it also gave leadership a grounded view of the investment required, and other business factors weighed against it. The team was dissolved shortly after, around the time our Product Manager left. I would rather run a one-week sprint that informs a no-go than spend two quarters building toward one.
+
+I moved to the "Measure" workstream and kept working the same way. Over the next seven months, that work contributed to:
 
 <div class="cs-stats wide">
-  {% include stat.html value="$750K" label="in newly signed contractual value" support="with my design efforts directly correlating to renewals and new customer contracts." %}
-  {% include stat.html value="~450h" label="saved annually for the internal team" support="a 15% efficiency gain linked to my design efforts." %}
+  {% include stat.html value="$750K" label="client contract enabled" support="by designing ML and LLM-powered data workflows that turned large-scale financial datasets into audit-ready GHG reports." %}
+  {% include stat.html value="15%" label="gain in data ingestion efficiency" support="along with a 20% cut in manual corrections for the internal team." %}
 </div>
 
 ## Lessons
 
-This experience reaffirmed my belief that Design Sprints are a powerful tool for focusing a team and generating meaningful solutions, even within tight constraints. But I learned that a tool like the Design Sprint is only effective when tailored to the unique needs of its participants. Drawing on years of experience with various design processes, I was able to quickly adapt this approach to fit our specific circumstances.
+Design Sprints work, but only when you reshape them for the people in the room. I have run enough design processes over the years to know which phases to keep and which to drop, and that judgment mattered more here than the method itself.
 
-{% include pullquote.html quote="Tools like the Design Sprint are only effective when tailored to the unique needs of their participants." %}
+{% include pullquote.html quote="A Design Sprint is only as good as its fit with the people in the room." %}
 
-This experience also helped me hone my ability to communicate how the process could streamline our work and deliver impactful results. Leveraging my background as a design consultant and founder, I was able to speak the language of my cross-functional colleagues, aligning our efforts and ensuring successful collaboration.
+The other thing this project sharpened was translation. My background as a consultant and founder helped me speak the language of product, engineering, and science colleagues, and that shared language is what kept a brand-new team moving in the same direction.
 
-{% include pullquote.html quote="Cross-functional collaboration is key to the success of large and complex initiatives." %}
+{% include pullquote.html quote="Shared language, not process, is what gets a new team moving in the same direction." %}
