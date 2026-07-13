@@ -2,7 +2,7 @@
 layout: post
 title: "Adapting a Design Sprint for Carbon Direct's Product Roadmap"
 excerpt: |
-  How I adapted a Design Sprint at Carbon Direct to scope a new decarbonization product in one week, with a brand-new team in a domain none of us knew yet.
+  How I adapted a Design Sprint at Carbon Direct to scope a new decarbonization product in one week, with a brand-new team in a domain none of us knew yet. The evidence we gathered helped leadership make a confident no-go call.
 thumbnail: "/images/illustration-design-sprint-cd-cover.png"
 date: 2024-09-06 13:30:00 +0200
 lang: en

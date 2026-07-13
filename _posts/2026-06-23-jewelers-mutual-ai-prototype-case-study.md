@@ -2,7 +2,7 @@
 layout: post
 title: "Two sprints, zero engineers: An AI-accelerated design process"
 excerpt: |
-  With two sprints, no engineering bandwidth, and a mandate to define the northstar vision for Jewelers Mutual's mobile app, I tested how far a T-shaped designer paired with a new generation of AI tools could go. This case study documents the AI-accelerated process, which combined research synthesis with Claude, sketching, and prototyping directly in code with Claude Code to produce a fully interactive prototype that influenced product direction conversations with senior executives.
+  With two sprints and no engineering bandwidth, I prototyped the northstar vision for Jewelers Mutual's mobile app directly in code with Claude. The interactive prototype shaped product direction conversations with senior executives.
 thumbnail: "/images/jewelers-mutual/cover-ai-prototype.png"
 date: 2026-06-23 13:30:00 +0200
 lang: en

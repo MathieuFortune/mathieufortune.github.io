@@ -2,7 +2,7 @@
 layout: post
 title: "Modernizing Mentor Collective's SaaS Platform"
 excerpt: |
-   This case study explores how I transformed Mentor Collective's basic dashboard into an intuitive, self-serve platform, a redesign that grew monthly active users by 116% year over year. I'll walk through how I paired technical fluency with user empathy to reimagine a tool that higher-ed administrators rely on, how I navigated the constraints of modernizing a live system, and how cross-functional collaboration carried the project from research to launch.
+  How I redesigned Mentor Collective's basic dashboard into a self-serve platform for higher-ed administrators, modernizing a live system from research to launch. Monthly active users grew 116% year over year.
 thumbnail: "/images/cover-partner-experience-refresh-mentor-collective.jpg"
 date:   2023-09-03 13:30:00 +0200
 lang: en
